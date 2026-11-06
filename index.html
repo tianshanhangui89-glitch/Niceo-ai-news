@@ -762,7 +762,7 @@ async function startLiveUpdate(apiKey){
     toast("更新进行中，请稍候");
     return;
   }
-  if(Date.now()-LIVE_STARTED < 60000 && LIVE_BUSY){
+  if(Date.now()-LIVE_STARTED < 10000 && LIVE_BUSY){
     toast("请稍后再点（防重复）");
     return;
   }
@@ -861,7 +861,7 @@ function onLiveTap(){
     return;
   }
   if(LIVE_BUSY){ toast("更新进行中，请稍候"); return; }
-  if(Date.now()-LIVE_STARTED < 60000){ toast("刚启动过，约 1 分钟内请勿重复点击"); return; }
+  if(Date.now()-LIVE_STARTED < 10000){ toast("刚启动过，请稍候几秒"); return; }
   startLiveUpdate(key);
 }
 
