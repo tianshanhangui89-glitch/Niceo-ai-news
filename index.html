@@ -326,7 +326,7 @@ function ghStatsHtml(it){
   const bits=[];
   if(it.rank) bits.push(`<span class="rank">#${esc(it.rank)} ${esc(({daily:"今日",weekly:"本周",popular:"热度"})[it.period]||it.period||"")}</span>`);
   if(it.stars!=null) bits.push(`<span>★ ${Number(it.stars).toLocaleString()}</span>`);
-  if(it.stars_today) bits.push(`<span>+${Number(it.stars_today).toLocaleString()} 今日</span>`);
+  if(it.stars_today) bits.push(`<span>今日 +${Number(it.stars_today).toLocaleString()}★</span>`);
   if(it.language) bits.push(`<span>${esc(it.language)}</span>`);
   if(it.forks) bits.push(`<span>Fork ${Number(it.forks).toLocaleString()}</span>`);
   return bits.length?`<div class="gh-stats">${bits.join("")}</div>`:"";
@@ -429,7 +429,7 @@ function showDetail(id, fromFav){
     <p style="margin:0;font-size:15px;line-height:1.65">${esc(it.summary)}</p>
     ${it.hook?`<p style="margin:12px 0 0;color:#A5B4C8;font-size:13px">导语：${esc(it.hook)}</p>`:""}
     <div class="actions">
-      <button class="btn primary" type="button" id="openSrc">${it.channel==="github"?"打开 GitHub":"打开 X 原文"}</button>
+      <button class="btn primary" type="button" id="openSrc">${it.channel==="github"?"打开仓库":"打开 X 原文"}</button>
       <button class="btn" type="button" id="togFav">${favOn?"取消收藏 ★":"收藏 ☆"}</button>
       <button class="btn" type="button" id="copyLink">复制链接</button>
     </div>

@@ -33,3 +33,4 @@ VERSION_NAME=1.1.20261106 VERSION_CODE=11061106 bash /workspace/x-ai-news/androi
 
 - 摘要来自 X News / GitHub 公开榜，请点原文核实；不是投资或医疗建议。
 - 收藏只存在本机，不会写入公开 `data.json`。
+- GitHub 频道的仓库说明与「今日/本周 +N★」钩子均为中文；精选译文在 `tools/github_zh_map.py`，`fetch_news.py` 日更时自动套用（未收录仓库可机翻或标 `[EN]`）。
