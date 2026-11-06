@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#0B1220">
+<meta name="color-scheme" content="dark">
+<title>AI热点</title>
+<style>
+:root{
+  --bg:#0B1220; --card:#121A2B; --card2:#172033; --line:#243044;
+  --txt:#E8EEF8; --muted:#93A4BD; --acc:#22D3EE; --acc2:#38BDF8;
+  --ok:#34D399; --warn:#FBBF24; --bad:#F87171;
+  --radius:16px; --pad:14px;
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bot:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--txt);
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  min-height:100%;}
+body{padding-bottom:calc(18px + var(--safe-bot));}
+a{color:var(--acc2);text-decoration:none}
+header{
+  position:sticky;top:0;z-index:20;
+  padding:calc(10px + var(--safe-top)) var(--pad) 10px;
+  background:linear-gradient(180deg,rgba(11,18,32,.98),rgba(11,18,32,.92));
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+}
+.row{display:flex;gap:10px;align-items:center}
+.brand{flex:1;min-width:0}
+.brand h1{margin:0;font-size:20px;letter-spacing:.02em}
+.brand p{margin:2px 0 0;font-size:12px;color:var(--muted)}
+.btn{
+  border:1px solid var(--line);background:var(--card);color:var(--txt);
+  border-radius:999px;padding:10px 14px;font-size:14px;font-weight:600;
+  min-height:42px;cursor:pointer;white-space:nowrap;
+}
+.btn.primary{background:linear-gradient(135deg,#0891B2,#22D3EE);color:#042F2E;border:none}
+.btn:active{transform:scale(.98);opacity:.9}
+.search{
+  margin-top:10px;display:flex;gap:8px;
+}
+.search input{
+  flex:1;min-width:0;border-radius:12px;border:1px solid var(--line);
+  background:var(--card2);color:var(--txt);padding:12px 14px;font-size:15px;outline:none;
+}
+.search input:focus{border-color:var(--acc)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px var(--pad) 0;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{
+  flex:none;border:1px solid var(--line);background:var(--card);color:var(--muted);
+  border-radius:999px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;
+}
+.chip.on{color:#042F2E;background:var(--acc);border-color:transparent}
+main{padding:12px var(--pad) 0}
+.meta{
+  display:flex;justify-content:space-between;gap:8px;align-items:center;
+  color:var(--muted);font-size:12px;margin:4px 2px 12px;
+}
+.badge{display:inline-flex;align-items:center;gap:6px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
+.dot.off{background:var(--warn)}
+.dot.err{background:var(--bad)}
+.day{
+  margin:18px 2px 10px;font-size:14px;color:#CBD5E1;font-weight:700;
+  display:flex;align-items:center;gap:8px;
+}
+.day:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--acc)}
+.card{
+  background:linear-gradient(180deg,var(--card),var(--card2));
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 14px 12px;margin:0 0 12px;cursor:pointer;
+  box-shadow:0 8px 24px rgba(0,0,0,.18);
+}
+.card:active{transform:scale(.995)}
+.cat{
+  display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;
+  color:#083344;background:#A5F3FC;border-radius:999px;padding:3px 8px;margin-bottom:8px;
+}
+.card h2{margin:0 0 8px;font-size:17px;line-height:1.35}
+.card .sum{margin:0;color:#C7D2E5;font-size:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.foot{display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:12px;color:var(--muted)}
+.empty{
+  text-align:center;padding:48px 16px;color:var(--muted);
+  border:1px dashed var(--line);border-radius:var(--radius);margin-top:20px;
+}
+.empty b{display:block;color:var(--txt);font-size:18px;margin-bottom:8px}
+.toast{
+  position:fixed;left:50%;bottom:calc(24px + var(--safe-bot));transform:translateX(-50%);
+  background:#0F766E;color:#ECFEFF;padding:10px 16px;border-radius:999px;font-size:13px;
+  opacity:0;pointer-events:none;transition:.25s;z-index:50;max-width:90vw;
+}
+.toast.show{opacity:1}
+.pull{
+  text-align:center;color:var(--muted);font-size:12px;height:0;overflow:hidden;transition:.15s;
+}
+#detail{
+  display:none;position:fixed;inset:0;z-index:40;background:rgba(2,6,23,.72);
+  padding:calc(18px + var(--safe-top)) 12px calc(18px + var(--safe-bot));
+}
+#detail .sheet{
+  max-width:640px;margin:0 auto;background:var(--card);border:1px solid var(--line);
+  border-radius:20px;padding:16px;max-height:100%;overflow:auto;
+}
+#detail h2{margin:8px 0 10px;font-size:20px}
+#detail .actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+.spinner{display:inline-block;width:12px;height:12px;border:2px solid #67E8F9;border-right-color:transparent;border-radius:50%;animation:sp .7s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="row">
+    <div class="brand">
+      <h1>AI热点</h1>
+      <p id="sub">X 上的 AI 相关热点 · 日更</p>
+    </div>
+    <button class="btn" id="btnDates" type="button">日期</button>
+    <button class="btn primary" id="btnRefresh" type="button">刷新</button>
+  </div>
+  <div class="search">
+    <input id="q" type="search" placeholder="搜索标题 / 摘要 / 分类" enterkeyhint="search" autocomplete="off">
+  </div>
+</header>
+<div class="chips" id="chips"></div>
+<main>
+  <div class="pull" id="pull">下拉刷新…</div>
+  <div class="meta">
+    <span class="badge"><span class="dot" id="dot"></span><span id="status">加载中…</span></span>
+    <span id="count"></span>
+  </div>
+  <div id="list"></div>
+</main>
+<div id="detail"><div class="sheet" id="sheet"></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const REMOTES = [
+  "https://raw.githubusercontent.com/tianshanhangui89-glitch/niceo-ai-news/main/data.json",
+  "https://cdn.jsdelivr.net/gh/tianshanhangui89-glitch/niceo-ai-news@main/data.json"
+];
+const LOCALS = ["./data.json", "data.json"];
+let DATA = {items:[], generated_at:"", days:[]};
+let filterDate = "all";
+let filterCat = "all";
+let query = "";
+
+const $ = (id)=>document.getElementById(id);
+function toast(msg){
+  const t=$("toast"); t.textContent=msg; t.classList.add("show");
+  clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("show"),2200);
+}
+function setStatus(text, mode){
+  $("status").textContent=text;
+  const d=$("dot"); d.className="dot"+(mode==="err"?" err":mode==="off"?" off":"");
+}
+function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));}
+function openUrl(url){
+  // WebView intercepts http(s); keep target=_blank as fallback for desktop preview
+  try{ window.open(url, "_blank"); }catch(e){ location.href=url; }
+}
+
+async function fetchJson(url, ms){
+  const ctrl=new AbortController();
+  const t=setTimeout(()=>ctrl.abort(), ms||12000);
+  try{
+    const bust = url + (url.includes("?")?"&":"?") + "t=" + Date.now();
+    const r=await fetch(bust,{signal:ctrl.signal,cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    return await r.json();
+  } finally { clearTimeout(t); }
+}
+
+async function loadAll(preferRemote){
+  setStatus("更新中…", "off");
+  $("btnRefresh").disabled=true;
+  const errors=[];
+  let best=null, from="";
+  const order = preferRemote ? [...REMOTES, ...LOCALS] : [...LOCALS, ...REMOTES];
+  for(const u of order){
+    try{
+      const j=await fetchJson(u, u.startsWith("http")?12000:4000);
+      if(!j || !Array.isArray(j.items)) throw new Error("格式不对");
+      if(!best){ best=j; from=u; }
+      else {
+        const a=String(j.generated_at||j.generated||"");
+        const b=String(best.generated_at||best.generated||"");
+        if(a>b){ best=j; from=u; }
+      }
+      // local first path: if not preferRemote and local ok, still try remotes for newer
+      if(!preferRemote && !u.startsWith("http")) continue;
+    }catch(e){ errors.push(u.split("/").slice(-2).join("/")+": "+(e.message||e)); }
+  }
+  $("btnRefresh").disabled=false;
+  if(!best){
+    setStatus("离线 · 无数据", "err");
+    DATA={items:[],generated_at:"",days:[],note:"网络与本地都不可用"};
+    render();
+    toast("刷新失败，请检查网络");
+    console.warn(errors);
+    return;
+  }
+  DATA=best;
+  const remote = from.startsWith("http");
+  setStatus((remote?"在线":"本地")+" · "+(DATA.generated_at||DATA.generated||"").replace(/\+\d{2}:\d{2}$/,""), remote?"ok":"off");
+  render();
+  if(preferRemote) toast(remote?"已同步最新":"远端不可用，已用本地");
+}
+
+function cats(){
+  const m=new Map();
+  for(const it of DATA.items||[]){ m.set(it.category||"其他",(m.get(it.category||"其他")||0)+1); }
+  return [...m.entries()].sort((a,b)=>b[1]-a[1]);
+}
+
+function filtered(){
+  const q=query.trim().toLowerCase();
+  return (DATA.items||[]).filter(it=>{
+    if(filterDate!=="all" && it.date!==filterDate) return false;
+    if(filterCat!=="all" && (it.category||"其他")!==filterCat) return false;
+    if(!q) return true;
+    const hay=((it.title||"")+" "+(it.summary||"")+" "+(it.category||"")).toLowerCase();
+    return hay.includes(q);
+  });
+}
+
+function renderChips(){
+  const box=$("chips");
+  const parts=[];
+  parts.push(`<button class="chip ${filterCat==="all"?"on":""}" data-cat="all">全部</button>`);
+  for(const [c,n] of cats().slice(0,10)){
+    parts.push(`<button class="chip ${filterCat===c?"on":""}" data-cat="${esc(c)}">${esc(c)} ${n}</button>`);
+  }
+  box.innerHTML=parts.join("");
+  box.querySelectorAll(".chip").forEach(el=>{
+    el.onclick=()=>{ filterCat=el.getAttribute("data-cat"); render(); };
+  });
+}
+
+function render(){
+  renderChips();
+  const items=filtered();
+  $("count").textContent=items.length+" / "+(DATA.items||[]).length+" 条";
+  const list=$("list");
+  if(!items.length){
+    list.innerHTML=`<div class="empty"><b>暂无热点</b>下拉或点右上角「刷新」拉取今日 X AI 新闻。<br>若刚安装且无网，等日更任务写入后再打开。</div>`;
+    return;
+  }
+  const byDay={};
+  for(const it of items){
+    const d=it.date||"未知日期";
+    (byDay[d]=byDay[d]||[]).push(it);
+  }
+  const days=Object.keys(byDay).sort().reverse();
+  let html="";
+  for(const d of days){
+    html+=`<div class="day">${esc(d)} · ${byDay[d].length} 条</div>`;
+    for(const it of byDay[d]){
+      html+=`<article class="card" data-id="${esc(it.id)}">
+        <span class="cat">${esc(it.category||"AI")}</span>
+        <h2>${esc(it.title)}</h2>
+        <p class="sum">${esc(it.summary)}</p>
+        <div class="foot"><span>${esc((it.published_at||"").slice(0,16))}</span><span>看原文 →</span></div>
+      </article>`;
+    }
+  }
+  list.innerHTML=html;
+  list.querySelectorAll(".card").forEach(el=>{
+    el.onclick=()=>showDetail(el.getAttribute("data-id"));
+  });
+}
+
+function showDetail(id){
+  const it=(DATA.items||[]).find(x=>x.id===id);
+  if(!it) return;
+  $("detail").style.display="block";
+  $("sheet").innerHTML=`
+    <div class="row"><span class="cat">${esc(it.category||"AI")}</span>
+      <button class="btn" type="button" id="closeDetail" style="margin-left:auto">关闭</button></div>
+    <h2>${esc(it.title)}</h2>
+    <p style="color:var(--muted);font-size:12px;margin:0 0 10px">${esc(it.published_at||it.date||"")} · ${esc(it.source||"X")}</p>
+    <p style="margin:0;font-size:15px;line-height:1.65">${esc(it.summary)}</p>
+    ${it.hook?`<p style="margin:12px 0 0;color:#A5B4C8;font-size:13px">导语：${esc(it.hook)}</p>`:""}
+    <div class="actions">
+      <button class="btn primary" type="button" id="openSrc">打开 X 原文</button>
+      <button class="btn" type="button" id="copyLink">复制链接</button>
+    </div>
+    <p style="margin:14px 0 0;color:var(--muted);font-size:11px">摘要来自 X News 聚合，可能随讨论演变；请点原文核实。非投资/医疗建议。</p>`;
+  $("closeDetail").onclick=()=>{$("detail").style.display="none";};
+  $("openSrc").onclick=()=>openUrl(it.url);
+  $("copyLink").onclick=async()=>{
+    try{ await navigator.clipboard.writeText(it.url); toast("已复制链接"); }
+    catch(e){ toast(it.url); }
+  };
+  $("detail").onclick=(e)=>{ if(e.target.id==="detail") $("detail").style.display="none"; };
+}
+
+$("btnRefresh").onclick=()=>loadAll(true);
+$("q").addEventListener("input", e=>{ query=e.target.value||""; render(); });
+$("btnDates").onclick=()=>{
+  const days=["all", ...[...new Set((DATA.items||[]).map(x=>x.date).filter(Boolean))].sort().reverse()];
+  const labels={all:"全部日期"};
+  const i=Math.max(0, days.indexOf(filterDate));
+  filterDate=days[(i+1)%days.length];
+  toast(filterDate==="all"?"显示全部日期":("只看 "+filterDate));
+  render();
+};
+
+// pull to refresh (simple)
+let startY=0, pulling=false;
+document.addEventListener("touchstart",e=>{
+  if(window.scrollY<=0){ startY=e.touches[0].clientY; pulling=true; }
+}, {passive:true});
+document.addEventListener("touchmove",e=>{
+  if(!pulling) return;
+  const dy=e.touches[0].clientY-startY;
+  if(dy>20){ $("pull").style.height=Math.min(56, dy/2)+"px"; $("pull").textContent=dy>90?"松开刷新":"下拉刷新…"; }
+}, {passive:true});
+document.addEventListener("touchend",e=>{
+  if(!pulling) return; pulling=false;
+  const h=parseFloat($("pull").style.height||"0");
+  $("pull").style.height="0px";
+  if(h>40) loadAll(true);
+}, {passive:true});
+
+window.appBack=function(){
+  if($("detail").style.display==="block"){ $("detail").style.display="none"; return true; }
+  return false;
+};
+
+loadAll(false);
+</script>
+</body>
+</html>
