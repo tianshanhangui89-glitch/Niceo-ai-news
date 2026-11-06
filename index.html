@@ -33,11 +33,23 @@ header{
 .brand p{margin:2px 0 0;font-size:12px;color:var(--muted)}
 .btn{
   border:1px solid var(--line);background:var(--card);color:var(--txt);
-  border-radius:999px;padding:10px 14px;font-size:14px;font-weight:600;
-  min-height:42px;cursor:pointer;white-space:nowrap;
+  border-radius:999px;padding:8px 12px;font-size:13px;font-weight:600;
+  min-height:40px;cursor:pointer;white-space:nowrap;
 }
 .btn.primary{background:linear-gradient(135deg,#0891B2,#22D3EE);color:#042F2E;border:none}
+.btn.accent{background:linear-gradient(135deg,#7C3AED,#A78BFA);color:#F5F3FF;border:none}
 .btn:active{transform:scale(.98);opacity:.9}
+.btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.hdr-actions{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:62%}
+.sheet-field{margin-top:12px}
+.sheet-field label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+.sheet-field input{
+  width:100%;border-radius:12px;border:1px solid var(--line);
+  background:var(--card2);color:var(--txt);padding:12px 14px;font-size:15px;outline:none;
+}
+.sheet-field input:focus{border-color:var(--acc)}
+.sheet-hint{margin:10px 0 0;color:var(--muted);font-size:12px;line-height:1.55}
+.sheet-hint a{color:var(--acc2)}
 .tabs{display:flex;gap:6px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{
@@ -137,8 +149,11 @@ main{padding:12px var(--pad) 0}
       <h1>AI热点</h1>
       <p id="sub">AI · 时政 · 创业 · GitHub · 论文 · 模型</p>
     </div>
-    <button class="btn" id="btnDates" type="button">日期</button>
-    <button class="btn primary" id="btnRefresh" type="button">刷新</button>
+    <div class="hdr-actions">
+      <button class="btn" id="btnDates" type="button">日期</button>
+      <button class="btn primary" id="btnRefresh" type="button">刷新</button>
+      <button class="btn accent" id="btnLive" type="button" title="长按可改 Cursor API Key">即时更新</button>
+    </div>
   </div>
   <div class="tabs" id="tabs">
     <button class="tab on" type="button" data-ch="ai">AI</button>
@@ -526,12 +541,341 @@ document.addEventListener("touchend",e=>{
   if(h>40) loadAll(true);
 }, {passive:true});
 
+
 window.appBack=function(){
   if($("detail").style.display==="block"){ $("detail").style.display="none"; return true; }
   return false;
 };
 
+/* ---- Cursor Cloud 「即时更新」 (quota on Cursor, not Grok Bot) ---- */
+const CURSOR_API = "https://api.cursor.com/v1";
+const GH_API = "https://api.github.com/repos/tianshanhangui89-glitch/Niceo-ai-news";
+const GH_RAW = "https://raw.githubusercontent.com/tianshanhangui89-glitch/Niceo-ai-news";
+const KEY_LS = "ainews.cursor_api_key";
+const AGENT_LS = "ainews.cursor.agent_id";
+const RUN_LS = "ainews.cursor.run_id";
+const KEY_DASH = "https://cursor.com/dashboard/api";
+let LIVE_BUSY = false;
+let LIVE_STARTED = 0;
+
+function getCursorKey(){
+  try{ return (localStorage.getItem(KEY_LS)||"").trim(); }catch(e){ return ""; }
+}
+function setCursorKey(k){
+  try{
+    if(k) localStorage.setItem(KEY_LS, k);
+    else localStorage.removeItem(KEY_LS);
+  }catch(e){ toast("无法保存密钥（存储失败）"); }
+}
+function getAgentId(){ try{ return (localStorage.getItem(AGENT_LS)||"").trim(); }catch(e){ return ""; } }
+function setAgentId(id){ try{ if(id) localStorage.setItem(AGENT_LS,id); else localStorage.removeItem(AGENT_LS);}catch(e){} }
+function setRunId(id){ try{ if(id) localStorage.setItem(RUN_LS,id); else localStorage.removeItem(RUN_LS);}catch(e){} }
+
+const __niceoPending = {};
+window.__niceoNetCb = function(id, payload){
+  const p = __niceoPending[id];
+  if(!p) return;
+  delete __niceoPending[id];
+  try{ p.resolve(payload||{}); }catch(e){}
+};
+
+function niceoRequest(method, url, headers, body, timeoutMs){
+  const hdrs = Object.assign({}, headers||{});
+  return new Promise((resolve)=>{
+    const done=(payload)=>resolve(payload||{status:0,body:"",error:"empty"});
+    if(window.NiceoNet && typeof NiceoNet.request==="function"){
+      const id = "cb_"+Date.now()+"_"+Math.random().toString(36).slice(2,8);
+      let settled=false;
+      const timer=setTimeout(()=>{
+        if(settled) return; settled=true; delete __niceoPending[id];
+        done({status:0,body:"",error:"timeout"});
+      }, timeoutMs||65000);
+      __niceoPending[id]={resolve:(payload)=>{ if(settled) return; settled=true; clearTimeout(timer); done(payload); }};
+      try{
+        NiceoNet.request(id, method, url, JSON.stringify(hdrs), body==null?null:String(body));
+      }catch(e){
+        settled=true; clearTimeout(timer); delete __niceoPending[id];
+        done({status:0,body:"",error:String(e&&e.message||e)});
+      }
+      return;
+    }
+    // fallback: browser fetch (may fail CORS on file://)
+    const ctrl=new AbortController();
+    const t=setTimeout(()=>ctrl.abort(), timeoutMs||65000);
+    fetch(url,{
+      method: method||"GET",
+      headers: hdrs,
+      body: body==null?undefined:String(body),
+      signal: ctrl.signal,
+      cache:"no-store"
+    }).then(async r=>{
+      clearTimeout(t);
+      const text=await r.text();
+      done({status:r.status, body:text, error:null});
+    }).catch(e=>{
+      clearTimeout(t);
+      done({status:0,body:"",error:String(e&&e.message||e)});
+    });
+  });
+}
+
+function authHeaders(apiKey){
+  // Basic: key as username, empty password (Cursor docs -u KEY:)
+  let basic="";
+  try{ basic = btoa(unescape(encodeURIComponent(apiKey+":"))); }
+  catch(e){ basic = btoa(apiKey+":"); }
+  return {
+    "Authorization": "Basic "+basic,
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  };
+}
+
+function todayShanghaiISO(){
+  try{
+    return new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+  }catch(e){
+    const d=new Date(Date.now()+8*3600*1000);
+    return d.toISOString().slice(0,10);
+  }
+}
+
+function buildRefreshPrompt(){
+  const day = todayShanghaiISO();
+  return [
+    "Follow CURSOR_REFRESH.md exactly. Today is "+day+" Asia/Shanghai.",
+    "Refresh all AI热点 feeds now and publish data.json to main.",
+    "Steps: python3 tools/ingest_primary.py && python3 tools/fetch_news.py;",
+    "then git add data.json (and raw/*.json if present), commit, git push origin HEAD:main.",
+    "Print generated_at and per-channel counts (ai/world/startup/github/papers/models).",
+    "Preserve channels ai (X+smol.ai+The Batch), world, startup, github, papers, models.",
+    "Chinese titles/summaries/hooks; keep English model names / origin_title. Do not invent metrics.",
+    "Do not rebuild APK. Do not change Android/UI unless ingest scripts are broken.",
+    "Do not touch Xiaohongshu or social accounts. workOnCurrentBranch must stay on main."
+  ].join(" ");
+}
+
+function showKeySheet(onSave){
+  $("detail").style.display="block";
+  $("sheet").innerHTML=`
+    <div class="row"><b style="font-size:16px">Cursor API Key</b>
+      <button class="btn" type="button" id="closeDetail" style="margin-left:auto">取消</button></div>
+    <p class="sheet-hint">「即时更新」会启动 <b>Cursor Cloud Agent</b>（消耗 Cursor 云端额度，不走本 Bot）。密钥只保存在本机 localStorage，不会上传、不会进 data.json。</p>
+    <p class="sheet-hint">请到 Cursor Dashboard → API Keys 生成：<a href="${KEY_DASH}" id="openDash">${KEY_DASH}</a></p>
+    <div class="sheet-field">
+      <label for="cursorKey">API Key（输入时隐藏）</label>
+      <input id="cursorKey" type="password" autocomplete="off" placeholder="粘贴 Cursor API Key" />
+    </div>
+    <div class="actions">
+      <button class="btn accent" type="button" id="saveKey">保存并继续</button>
+      <button class="btn" type="button" id="clearKey">清除密钥</button>
+    </div>
+    <p class="sheet-hint">长按「即时更新」可再次打开此页改密钥。</p>`;
+  $("closeDetail").onclick=()=>{$("detail").style.display="none";};
+  $("openDash").onclick=(e)=>{ e.preventDefault(); openUrl(KEY_DASH); };
+  $("clearKey").onclick=()=>{ setCursorKey(""); toast("已清除本机密钥"); };
+  $("saveKey").onclick=()=>{
+    const v=($("cursorKey").value||"").trim();
+    if(!v || v.length<20){ toast("请粘贴有效的 API Key"); return; }
+    setCursorKey(v);
+    $("detail").style.display="none";
+    toast("已保存到本机");
+    if(onSave) onSave(v);
+  };
+  $("detail").onclick=(e)=>{ if(e.target.id==="detail") $("detail").style.display="none"; };
+  const existing=getCursorKey();
+  if(existing) $("cursorKey").placeholder="已保存密钥（输入新值可覆盖）";
+}
+
+function parseJsonSafe(s){
+  try{ return JSON.parse(s||""); }catch(e){ return null; }
+}
+
+async function cursorApi(method, path, apiKey, bodyObj){
+  const url = path.startsWith("http") ? path : (CURSOR_API + path);
+  const body = bodyObj==null ? null : JSON.stringify(bodyObj);
+  const res = await niceoRequest(method, url, authHeaders(apiKey), body, 65000);
+  const j = parseJsonSafe(res.body);
+  return {status:res.status, json:j, body:res.body, error:res.error};
+}
+
+async function wait(ms){ return new Promise(r=>setTimeout(r,ms)); }
+
+async function pollRun(apiKey, agentId, runId){
+  const deadline = Date.now() + 8*60*1000;
+  let last = "";
+  while(Date.now() < deadline){
+    const r = await cursorApi("GET", `/agents/${encodeURIComponent(agentId)}/runs/${encodeURIComponent(runId)}`, apiKey, null);
+    if(r.error && !r.status){
+      setStatus("云端 Cursor 网络异常…", "off");
+      await wait(6000); continue;
+    }
+    const st = (r.json && r.json.status) || ("HTTP"+r.status);
+    if(st !== last){
+      last = st;
+      setStatus("云端 Cursor 更新中… "+st, "off");
+    }
+    if(["FINISHED","ERROR","CANCELLED","EXPIRED"].includes(st)) return r;
+    await wait(6000 + Math.floor(Math.random()*2000));
+  }
+  return {status:0, json:{status:"EXPIRED", result:"轮询超时（约 8 分钟）"}, body:"", error:"poll_timeout"};
+}
+
+async function loadDataByCommitSha(prevGenerated){
+  // Resolve latest main SHA via GitHub API (bypass raw CDN cache)
+  const meta = await niceoRequest("GET", GH_API+"/commits/main", {"Accept":"application/vnd.github+json","User-Agent":"Niceo-AINews/1.3"}, null, 20000);
+  const mj = parseJsonSafe(meta.body);
+  const sha = mj && (mj.sha || (mj.commit && mj.sha));
+  if(!sha){
+    // fallback remotes
+    await loadAll(true);
+    return;
+  }
+  let best=null;
+  for(let i=0;i<6;i++){
+    const url = GH_RAW+"/"+sha+"/data.json";
+    const res = await niceoRequest("GET", url, {"Accept":"application/json","User-Agent":"Niceo-AINews/1.3"}, null, 20000);
+    const j = parseJsonSafe(res.body);
+    if(j && Array.isArray(j.items)){
+      const gen = String(j.generated_at||"");
+      if(!prevGenerated || gen > prevGenerated || i>=4){
+        best = j; break;
+      }
+    }
+    setStatus("等待 GitHub 提交可见…", "off");
+    await wait(8000);
+  }
+  if(best){
+    best.items.forEach(it=>{ if(!it.channel) it.channel="ai"; });
+    DATA=best;
+    setStatus("在线 · "+(DATA.generated_at||"").replace(/\+\d{2}:\d{2}$/,""), "ok");
+    render();
+    toast("即时更新完成");
+  } else {
+    await loadAll(true);
+    toast("已尝试拉取；若内容未变请稍后再刷新");
+  }
+}
+
+async function startLiveUpdate(apiKey){
+  if(LIVE_BUSY){
+    toast("更新进行中，请稍候");
+    return;
+  }
+  if(Date.now()-LIVE_STARTED < 60000 && LIVE_BUSY){
+    toast("请稍后再点（防重复）");
+    return;
+  }
+  LIVE_BUSY = true;
+  LIVE_STARTED = Date.now();
+  $("btnLive").disabled = true;
+  const prevGen = String(DATA.generated_at||"");
+  const promptText = buildRefreshPrompt();
+  setStatus("云端 Cursor 更新中…", "off");
+
+  try{
+    let agentId = getAgentId();
+    let runId = null;
+
+    // If we have an agent, try follow-up; handle ARCHIVED / 404 / 409
+    if(agentId){
+      const info = await cursorApi("GET", `/agents/${encodeURIComponent(agentId)}`, apiKey, null);
+      const st = info.json && info.json.status;
+      if(info.status===404 || info.status===410 || st==="ARCHIVED"){
+        if(st==="ARCHIVED"){
+          await cursorApi("POST", `/agents/${encodeURIComponent(agentId)}/unarchive`, apiKey, {});
+        } else {
+          setAgentId(""); agentId="";
+        }
+      }
+      if(agentId){
+        const follow = await cursorApi("POST", `/agents/${encodeURIComponent(agentId)}/runs`, apiKey, {
+          prompt: { text: promptText }
+        });
+        if(follow.status===409){
+          toast("已有更新在跑，改为跟进");
+          const latest = (follow.json && follow.json.run && follow.json.run.id)
+            || (info.json && info.json.latestRunId);
+          if(latest){ runId = latest; }
+          else if(info.json && info.json.latestRunId){ runId = info.json.latestRunId; }
+        } else if(follow.status>=200 && follow.status<300){
+          runId = follow.json && (follow.json.id || (follow.json.run && follow.json.run.id));
+          // follow-up response may be the run object itself
+          if(!runId && follow.json && follow.json.run) runId = follow.json.run.id;
+        } else if(follow.status===404 || follow.status===410){
+          setAgentId(""); agentId="";
+        } else {
+          const msg = (follow.json && (follow.json.message || follow.json.error || follow.json.result)) || follow.error || ("HTTP "+follow.status);
+          throw new Error(String(msg).slice(0,180));
+        }
+      }
+    }
+
+    if(!agentId){
+      const created = await cursorApi("POST", "/agents", apiKey, {
+        prompt: { text: promptText },
+        name: "AI热点即时更新",
+        repos: [{ url: "https://github.com/tianshanhangui89-glitch/Niceo-ai-news", startingRef: "main" }],
+        workOnCurrentBranch: true,
+        autoCreatePR: false
+      });
+      if(!(created.status>=200 && created.status<300)){
+        const msg = (created.json && (created.json.message || created.json.error)) || created.error || ("HTTP "+created.status);
+        throw new Error(String(msg).slice(0,180));
+      }
+      agentId = created.json && created.json.agent && created.json.agent.id;
+      runId = created.json && created.json.run && created.json.run.id;
+      if(agentId) setAgentId(agentId);
+    }
+
+    if(!runId && agentId){
+      const info2 = await cursorApi("GET", `/agents/${encodeURIComponent(agentId)}`, apiKey, null);
+      runId = info2.json && info2.json.latestRunId;
+    }
+    if(!runId) throw new Error("未拿到 run id");
+    setRunId(runId);
+
+    const terminal = await pollRun(apiKey, agentId, runId);
+    const st = terminal.json && terminal.json.status;
+    if(st!=="FINISHED"){
+      const msg = (terminal.json && terminal.json.result) || terminal.error || st || "失败";
+      setStatus("云端更新失败", "err");
+      toast(String(msg).slice(0,120));
+      return;
+    }
+    setStatus("云端已完成，拉取 data.json…", "off");
+    await loadDataByCommitSha(prevGen);
+  }catch(e){
+    setStatus("云端更新失败", "err");
+    toast(String(e&&e.message||e).slice(0,120));
+  }finally{
+    LIVE_BUSY=false;
+    $("btnLive").disabled=false;
+  }
+}
+
+function onLiveTap(){
+  const key=getCursorKey();
+  if(!key){
+    showKeySheet((k)=>startLiveUpdate(k));
+    return;
+  }
+  if(LIVE_BUSY){ toast("更新进行中，请稍候"); return; }
+  if(Date.now()-LIVE_STARTED < 60000){ toast("刚启动过，约 1 分钟内请勿重复点击"); return; }
+  startLiveUpdate(key);
+}
+
+$("btnLive").onclick=onLiveTap;
+let livePressTimer=null;
+$("btnLive").addEventListener("touchstart",()=>{
+  livePressTimer=setTimeout(()=>showKeySheet(null), 650);
+},{passive:true});
+$("btnLive").addEventListener("touchend",()=>{ if(livePressTimer) clearTimeout(livePressTimer); },{passive:true});
+$("btnLive").addEventListener("touchcancel",()=>{ if(livePressTimer) clearTimeout(livePressTimer); },{passive:true});
+$("btnLive").addEventListener("contextmenu",(e)=>{ e.preventDefault(); showKeySheet(null); });
+
 loadAll(false);
+
 </script>
 </body>
 </html>

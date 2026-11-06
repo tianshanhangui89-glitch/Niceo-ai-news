@@ -6,7 +6,9 @@
 
 - 顶栏频道（可横向滑动）：**AI** | **时政** | **创业** | **GitHub** | **论文** | **模型** | **收藏**
 - 收藏：点卡片右上角 ★，完整快照写入 WebView `localStorage`（键 `ainews.favorites.v1`），日更下架后仍可看
-- 有网时下拉刷新拉 GitHub / jsDelivr
+- **刷新**：只拉已发布的 `data.json`（便宜、不调 Cursor）
+- **即时更新**：启动 **Cursor Cloud Agent**（消耗 Cursor 云端额度，不走 Grok Bot）。需在本机粘贴 Cursor API Key（Dashboard → API Keys）；密钥存 `localStorage ainews.cursor_api_key`，不上传。长按按钮可改/清密钥。Agent 按仓库根目录 `CURSOR_REFRESH.md` 抓取并 **push 到 main**。
+- 有网时下拉刷新拉 GitHub / jsDelivr；即时更新完成后按 commit SHA 拉 raw，避开 CDN 缓存
 - 论文条目可开 alphaXiv「讨论」；模型榜保留英文模型名 + 中文说明
 
 ## 一手源映射（@khyssabc）
@@ -38,7 +40,7 @@
 重建 APK：
 
 ```bash
-VERSION_NAME=1.2.20261106 VERSION_CODE=11061108 bash /workspace/x-ai-news/android/build_apk.sh
+VERSION_NAME=1.3.20261106 VERSION_CODE=11061109 bash /workspace/x-ai-news/android/build_apk.sh
 ```
 
 ## 说明
