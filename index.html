@@ -41,7 +41,7 @@ header{
 .tabs{display:flex;gap:6px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{
-  flex:1;min-width:0;border:1px solid var(--line);background:var(--card2);color:var(--muted);
+  flex:none;min-width:4.2em;border:1px solid var(--line);background:var(--card2);color:var(--muted);
   border-radius:12px;padding:10px 8px;font-size:13px;font-weight:700;cursor:pointer;text-align:center;
 }
 .tab.on{color:#042F2E;background:var(--acc);border-color:transparent}
@@ -87,6 +87,8 @@ main{padding:12px var(--pad) 0}
 .cat.world{background:#FDE68A;color:#78350F}
 .cat.startup{background:#C4B5FD;color:#4C1D95}
 .cat.github{background:#BBF7D0;color:#14532D}
+.cat.papers{background:#FECACA;color:#7F1D1D}
+.cat.models{background:#BFDBFE;color:#1E3A8A}
 .cat.favch{background:#FBCFE8;color:#9D174D}
 .fav-btn{
   margin-left:auto;border:none;background:transparent;color:var(--muted);
@@ -133,7 +135,7 @@ main{padding:12px var(--pad) 0}
   <div class="row">
     <div class="brand">
       <h1>AI热点</h1>
-      <p id="sub">AI · 时政 · 创业 · GitHub</p>
+      <p id="sub">AI · 时政 · 创业 · GitHub · 论文 · 模型</p>
     </div>
     <button class="btn" id="btnDates" type="button">日期</button>
     <button class="btn primary" id="btnRefresh" type="button">刷新</button>
@@ -143,6 +145,8 @@ main{padding:12px var(--pad) 0}
     <button class="tab" type="button" data-ch="world">时政</button>
     <button class="tab" type="button" data-ch="startup">创业</button>
     <button class="tab" type="button" data-ch="github">GitHub</button>
+    <button class="tab" type="button" data-ch="papers">论文</button>
+    <button class="tab" type="button" data-ch="models">模型</button>
     <button class="tab" type="button" data-ch="fav">收藏</button>
   </div>
   <div class="search">
@@ -202,6 +206,8 @@ function snapshot(it){
     topics:it.topics||[], hook:it.hook||"", disclaimer:it.disclaimer||"",
     channel:it.channel||"ai", language:it.language, stars:it.stars, forks:it.forks,
     rank:it.rank, period:it.period, stars_today:it.stars_today, metrics:it.metrics||{},
+    origin_title:it.origin_title, paper_id:it.paper_id, arxiv_id:it.arxiv_id, alphaxiv_url:it.alphaxiv_url,
+    arena_score:it.arena_score, aa_quality:it.aa_quality, aa_speed:it.aa_speed, aa_price:it.aa_price,
     saved_at: new Date().toISOString()
   };
 }
@@ -214,13 +220,15 @@ function toggleFav(it, ev){
   render();
 }
 function chLabel(ch){
-  return ({ai:"AI",world:"时政",startup:"创业",github:"GitHub",fav:"收藏"})[ch]||ch;
+  return ({ai:"AI",world:"时政",startup:"创业",github:"GitHub",papers:"论文",models:"模型",fav:"收藏"})[ch]||ch;
 }
 function catClass(it){
   const ch=it.channel||"ai";
   if(ch==="world") return "cat world";
   if(ch==="startup") return "cat startup";
   if(ch==="github") return "cat github";
+  if(ch==="papers") return "cat papers";
+  if(ch==="models") return "cat models";
   return "cat";
 }
 
@@ -322,6 +330,38 @@ function renderChips(){
   });
 }
 
+function paperStatsHtml(it){
+  const bits=[];
+  if(it.arxiv_id) bits.push(`<span>arXiv ${esc(it.arxiv_id)}</span>`);
+  if(it.category) bits.push(`<span>${esc(it.category)}</span>`);
+  if(it.metrics && it.metrics.upvotes!=null) bits.push(`<span>▲ ${esc(it.metrics.upvotes)}</span>`);
+  return bits.length?`<div class="gh-stats">${bits.join("")}</div>`:"";
+}
+function modelStatsHtml(it){
+  const bits=[];
+  if(it.rank) bits.push(`<span class="rank">#${esc(it.rank)}</span>`);
+  if(it.arena_score!=null) bits.push(`<span>Arena ${Number(it.arena_score).toFixed(0)}</span>`);
+  if(it.aa_quality!=null) bits.push(`<span>智能 ${esc(it.aa_quality)}</span>`);
+  if(it.aa_price) bits.push(`<span>成本 ${esc(it.aa_price)}</span>`);
+  if(it.aa_speed) bits.push(`<span>耗时 ${esc(it.aa_speed)} 分</span>`);
+  return bits.length?`<div class="gh-stats">${bits.join("")}</div>`:"";
+}
+function openLabel(it){
+  const ch=it.channel||"ai";
+  if(ch==="github") return "打开仓库 →";
+  if(ch==="papers") return "打开论文 →";
+  if(ch==="models") return "打开榜单 →";
+  if((it.source||"").includes("smol") || it.source==="The Batch" || it.source==="smol.ai") return "看原文 →";
+  if((it.source||"").includes("X") || (it.url||"").includes("x.com")) return "看原文 →";
+  return "看原文 →";
+}
+function primaryBtnLabel(it){
+  const ch=it.channel||"ai";
+  if(ch==="github") return "打开仓库";
+  if(ch==="papers") return "打开论文";
+  if(ch==="models") return "打开榜单";
+  return "看原文";
+}
 function ghStatsHtml(it){
   const bits=[];
   if(it.rank) bits.push(`<span class="rank">#${esc(it.rank)} ${esc(({daily:"今日",weekly:"本周",popular:"热度"})[it.period]||it.period||"")}</span>`);
@@ -395,7 +435,12 @@ function cardHtml(it, fromFav){
   const on=isFav(it.id)?" on":"";
   const star=isFav(it.id)?"★":"☆";
   const chTag = fromFav ? `<span class="cat favch">${esc(chLabel(it.channel||"ai"))}</span>` : "";
-  const gh = (it.channel==="github" || channel==="github") ? ghStatsHtml(it) : "";
+  let extra = "";
+  if(it.channel==="github" || channel==="github") extra = ghStatsHtml(it);
+  else if(it.channel==="papers" || channel==="papers") extra = paperStatsHtml(it);
+  else if(it.channel==="models" || channel==="models") extra = modelStatsHtml(it);
+  const sub = (it.origin_title && it.origin_title!==it.title) ? `<p style="margin:0 0 6px;color:#93A4BD;font-size:12px">${esc(it.origin_title)}</p>` : "";
+  const src = it.source ? `<span>${esc(it.source)}</span>` : `<span>${esc((it.published_at||it.date||"").toString().slice(0,16))}</span>`;
   return `<article class="card" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}">
     <div class="card-top">
       <span class="${catClass(it)}">${esc(it.category||chLabel(it.channel||"ai"))}</span>
@@ -403,9 +448,10 @@ function cardHtml(it, fromFav){
       <button class="fav-btn${on}" type="button" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}" aria-label="收藏">${star}</button>
     </div>
     <h2>${esc(it.title)}</h2>
-    ${gh}
+    ${sub}
+    ${extra}
     <p class="sum">${esc(it.summary)}</p>
-    <div class="foot"><span>${esc((it.published_at||it.date||"").toString().slice(0,16))}</span><span>${it.channel==="github"?"打开仓库 →":"看原文 →"}</span></div>
+    <div class="foot">${src}<span>${esc(openLabel(it))}</span></div>
   </article>`;
 }
 
@@ -429,13 +475,15 @@ function showDetail(id, fromFav){
     <p style="margin:0;font-size:15px;line-height:1.65">${esc(it.summary)}</p>
     ${it.hook?`<p style="margin:12px 0 0;color:#A5B4C8;font-size:13px">导语：${esc(it.hook)}</p>`:""}
     <div class="actions">
-      <button class="btn primary" type="button" id="openSrc">${it.channel==="github"?"打开仓库":"打开 X 原文"}</button>
+      <button class="btn primary" type="button" id="openSrc">${primaryBtnLabel(it)}</button>
+      ${it.alphaxiv_url?`<button class="btn" type="button" id="openAlpha">讨论 alphaXiv</button>`:""}
       <button class="btn" type="button" id="togFav">${favOn?"取消收藏 ★":"收藏 ☆"}</button>
       <button class="btn" type="button" id="copyLink">复制链接</button>
     </div>
     <p style="margin:14px 0 0;color:var(--muted);font-size:11px">摘要可能随讨论演变；请点原文核实。收藏保存在本机，不会上传。非投资/医疗建议。</p>`;
   $("closeDetail").onclick=()=>{$("detail").style.display="none";};
   $("openSrc").onclick=()=>openUrl(it.url);
+  const oa=$("openAlpha"); if(oa) oa.onclick=()=>openUrl(it.alphaxiv_url);
   $("togFav").onclick=(e)=>{ toggleFav(it,e); showDetail(id, fromFav); };
   $("copyLink").onclick=async()=>{
     try{ await navigator.clipboard.writeText(it.url); toast("已复制链接"); }
@@ -454,7 +502,7 @@ $("tabs").querySelectorAll(".tab").forEach(el=>{
   };
 });
 $("btnDates").onclick=()=>{
-  if(channel==="fav"||channel==="github"){ toast(channel==="fav"?"收藏不按日期筛选":"GitHub 请用上方趋势/热度筛选"); return; }
+  if(channel==="fav"||channel==="github"||channel==="models"){ toast(channel==="fav"?"收藏不按日期筛选":(channel==="models"?"模型榜请直接浏览":"GitHub 请用上方趋势/热度筛选")); return; }
   const days=["all", ...[...new Set(poolItems().map(x=>x.date).filter(Boolean))].sort().reverse()];
   const i=Math.max(0, days.indexOf(filterDate));
   filterDate=days[(i+1)%days.length];
