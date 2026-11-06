@@ -1,0 +1,876 @@
+{
+  "generated_at": "2026-11-06 15:20:42 +08:00",
+  "generated": "2026-11-06 15:20:42 +08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "x.search_news",
+  "item_count": 45,
+  "fresh_count": 45,
+  "days": [
+    {
+      "date": "2026-11-06",
+      "count": 34,
+      "ids": [
+        "2118406567187947755",
+        "2118125161194926199",
+        "2118437885443502131",
+        "2118277194313289798",
+        "2118478224711905460",
+        "2118393214050959385",
+        "2118499605021360438",
+        "2118427442922901851",
+        "2118103911143985539",
+        "2118499606350950864",
+        "2118372065975603268",
+        "2118561861109203322",
+        "2117856700447203558",
+        "2118555311078309901",
+        "2118448210276753768",
+        "2118410028210426229",
+        "2118504950720340462",
+        "2117902210726305919",
+        "2118298102448677157",
+        "2118437886877937901",
+        "2118351761786188038",
+        "2118465194611630250",
+        "2117768217288400999",
+        "2118298101572055268",
+        "2118046928432935419",
+        "2118441520319680789",
+        "2118441513608753167",
+        "2118390283201044816",
+        "2118068699252801836",
+        "2118083605356236883",
+        "2118255535443386747",
+        "2118410031901348093",
+        "2118406566810464688",
+        "2118334452208164988"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "count": 11,
+      "ids": [
+        "2118015143208423849",
+        "2118110195176157443",
+        "2118351763493253454",
+        "2118264704204226796",
+        "2118200427053260808",
+        "2118145172592898133",
+        "2118340646520123759",
+        "2117579420454248497",
+        "2118280391975117053",
+        "2118271014824026186",
+        "2118257483693322658"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "2118406567187947755",
+      "title": "Claude 上线个人财务 Beta：美国用户可只读连接银行",
+      "summary": "Pro/Max/Ultra 经 Plaid 连接账户，分析最长约两年流水并出分类饼图与预算对比；宣称不作广告、不用聊天训模，可随时解绑。",
+      "url": "https://x.com/i/trending/2118406567187947755",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:41:03 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产品更新",
+      "topics": [
+        "Personal Finance"
+      ],
+      "hook": "Anthropic's new beta tool makes personal finance possible inside Claude.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118125161194926199",
+      "title": "GPT-6 Cyber 一周揪出 Linux 内核近千个提权漏洞",
+      "summary": "OpenAI 称单次约 120 万美元算力发现并协助修复 948 个本地提权洞、共 1724 问题，含 10 种新颖利用；补丁经人工审后无偿交维护者。",
+      "url": "https://x.com/i/trending/2118125161194926199",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:34:47 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "安全",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "OpenAI's new model found nearly 1,000 security flaws in the Linux kernel in a week.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118437885443502131",
+      "title": "蚂蚁灵光 Ling-3.2-Flash：一图转 3D、餐食营养报告",
+      "summary": "原生多模态 MoE，总参 5600 亿、激活约 250 亿，百万 token 上下文；OmniDocBench1.5 约 92.21，API 输入约 $0.30/百万 token，两周免费。",
+      "url": "https://x.com/i/trending/2118437885443502131",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:34:16 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Ant Ling just dropped Ling-3.2-flash.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118277194313289798",
+      "title": "Google Gemini Omni 1.2 Flash：视频最长 15 秒、降价 30%",
+      "summary": "原生 360p/720p 视频约 $0.07/秒，支持对话式改背景/灯光；Arena.ai 文生视频榜第一（1541 分），已推 Gemini Ultra、Flow、API 等。",
+      "url": "https://x.com/i/trending/2118277194313289798",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:19:15 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Logan Kilpatrick lit up the announcement with longer videos and a 30% price cut.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118478224711905460",
+      "title": "Glasshand：给 AI Agent 租用真机 iPhone / Mac",
+      "summary": "远程真机可点按、滑动、发 iMessage（eSIM），规避模拟器风控；iPhone 约 $60/月、Mac 约 $90/月，强调密码隔离与重置。",
+      "url": "https://x.com/i/trending/2118478224711905460",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:04:54 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 工具",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine your AI agent swiping through TikTok on a real iPhone.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118393214050959385",
+      "title": "Claude Code 桌面端再获推崇，教程与开源仓库齐爆",
+      "summary": "23 分钟教程演示搭建四个独立 AI Agent；多条线程盘点元 Agent、校验环等 GitHub 仓库。桌面端可访问本地文件、跑终端命令，UI 与上下文感知被频繁点赞。",
+      "url": "https://x.com/i/trending/2118393214050959385",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:55:53 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 编程",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Developers are sharing tutorials and tools.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118499605021360438",
+      "title": "DeepFinance：用真实 PE 交易考 AI 长程金融工作流",
+      "summary": "JuliusAI 放出超长程基准，覆盖 21 笔真实交易尽调与估值；Claude Opus 5.5 约 54.8% 领先，整体仍远低于资深人类投行判断。",
+      "url": "https://x.com/i/trending/2118499605021360438",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:40:27 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "评测",
+      "topics": [
+        "Technology",
+        "AI",
+        "Business & Finance"
+      ],
+      "hook": "Imagine an AI tackling a 40-hour investment deal.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118427442922901851",
+      "title": "METR 报告：AI 让 Anthropic 研发速度约翻倍",
+      "summary": "报告称自 2024 年 3 月以来模型能力提升约 2 倍于历史均值；Epoch 能力指数自 2025 年 10 月起增速约 1.9 倍，主因是 AI 工具而非单纯堆算力。",
+      "url": "https://x.com/i/trending/2118427442922901851",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:33:02 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "研究",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "AI systems are now helping Anthropic researchers move twice as fast on key tasks.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118103911143985539",
+      "title": "TermiX Agent 市场成交额破 3000 万美元",
+      "summary": "agent.family 累计约 $3045 万、131 万 Agent、58.8 万完工单；可自动招标、托管结算 USDC/USDT，视频制作等链路已能互相雇工。",
+      "url": "https://x.com/i/trending/2118103911143985539",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:24:04 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 经济",
+      "topics": [
+        "AI"
+      ],
+      "hook": "AI agents scanning job boards and settling payments on their own.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118499606350950864",
+      "title": "钟楼血案基准：AI 互相欺骗，GPT-6 Astra 登顶",
+      "summary": "Dwarkesh Patel 花约 2 万美元跑 386 局社交推理游戏；考验长期阴谋、测谎与协同。GPT-6 Astra 约 1859 Elo 领先 Claude 系，日志已公开。",
+      "url": "https://x.com/i/trending/2118499606350950864",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:16:30 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "评测",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Dwarkesh Patel turned Blood on the Clocktower into a battleground for top AI models.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118372065975603268",
+      "title": "腾讯混元 Hy4：关键榜追平 Grok，跻身国产前列",
+      "summary": "Artificial Analysis Intelligence Index v5 得分 35，与 Grok 4.7 (xhigh) 持平，仅落后 Claude Haiku 5.5 (max) 一分；Agent 与创意任务口碑不错。",
+      "url": "https://x.com/i/trending/2118372065975603268",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:00:44 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Tencent's Hunyuan team unveiled Hy4.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118561861109203322",
+      "title": "开发者转向 Claude Code 桌面端，对比 Codex 口碑升温",
+      "summary": "Claude Code 桌面端支持可视化 diff、内置终端与并行会话；社区 SDK 与 loopy 等项目把它做成自治 Agent。Codex 在部分场景更快，但多文件推理与活跃迭代更受青睐。",
+      "url": "https://x.com/i/trending/2118561861109203322",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 12:36:14 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 编程",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Developers are noticing a real change in their daily coding tools.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2117856700447203558",
+      "title": "开发者热传：用 Claude Code 搭强力 Agent 的实战教程",
+      "summary": "Boris Cherny 分享 Anthropic 团队如何用 Claude Code 半自动交付功能；社区流出六步蓝图与元 Agent 校验套路，覆盖装机、记忆文件、角色分工与质量闸门。",
+      "url": "https://x.com/i/trending/2117856700447203558",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 12:28:34 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 编程",
+      "topics": [
+        "Technology",
+        "AI",
+        "Software Development"
+      ],
+      "hook": "Boris Cherny's 30-minute talk revealed how Anthropic teams use Claude Code to ship features with minimal oversight.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118555311078309901",
+      "title": "OpenAI 或于本周发布 Astra / Sol / Cyber 升级版",
+      "summary": "在 GPT-6 Cyber 安全研究模型之后，社区预期下一代 Astra、Sol 与 cyber 向模型本周落地；过往常在美西上午 9–11 点发布，11 月 6 日成焦点窗口。",
+      "url": "https://x.com/i/trending/2118555311078309901",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 12:10:53 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "AI"
+      ],
+      "hook": "AI enthusiasts are on the edge of their seats for possible OpenAI drops.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118448210276753768",
+      "title": "World Labs 上线 Frameboy：浏览器里玩实时世界模型",
+      "summary": "李飞飞团队 demo 可在 Atlas 生成场景里键鼠漫游，约 15 FPS、单帧约 70ms；Game Boy 风界面，地址 frameboy.worldlabs.ai。",
+      "url": "https://x.com/i/trending/2118448210276753768",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 10:53:00 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "世界模型",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "Fei-Fei Li invited everyone to try real-time Atlas.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118410028210426229",
+      "title": "50 万参 Catan 专精模型 VINCO 登顶人类排行榜",
+      "summary": "Distributed Cognition 的小模型在 Colonist.io 拿下全球前二，对顶尖玩家与通用大模型约 90% 胜率，展示「小而专」路线。",
+      "url": "https://x.com/i/trending/2118410028210426229",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 10:14:29 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "评测",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "A pint-sized AI trained only for 1v1 Catan sneaked onto the top of Colonist.io.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118504950720340462",
+      "title": "Hyperstition 开源超 NVIDIA vLLM 的 GPU megakernel",
+      "summary": "Hyperkernel 单启动跑整模；DeepSeek v4.1 Flash 人均速度最高约 +90.6%，世界模型实时约 3.2×（37.4 FPS），代码已公开。",
+      "url": "https://x.com/i/trending/2118504950720340462",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 08:51:44 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "基础设施",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "A small team built GPU kernels in 20 days that beat NVIDIA's stack.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2117902210726305919",
+      "title": "Codex 在「电脑操控」上领先，Claude Code 深耕终端推理",
+      "summary": "社区对比：Codex 更擅长直接点选 UI、操作无 API 的遗留软件；Claude Code 更强终端与深度改码。多数人认为两者互补。",
+      "url": "https://x.com/i/trending/2117902210726305919",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 08:31:10 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 编程",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Developers praise Codex for navigating tricky UIs like a human.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118298102448677157",
+      "title": "企业强推全员用 AI，员工抵触与选举反对数据中心并存",
+      "summary": "部分 CEO 把 AI 使用与岗位安全感挂钩；同时多地选民否决数据中心提案，民调对风险与收益仍分裂，高管投入与大众情绪不同步。",
+      "url": "https://x.com/i/trending/2118298102448677157",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 08:20:14 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产业",
+      "topics": [
+        "Technology",
+        "AI",
+        "Politics"
+      ],
+      "hook": "CEOs are mandating AI use for employees, even tying it to job security.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118437886877937901",
+      "title": "VybBench：测图像模型「改一点别乱动」能力",
+      "summary": "开源基准显示多数模型一次局部编辑平均改掉 90%+ 像素；Coco Vyb 1.0 约 7.3%。覆盖 200 组字体/颜色精确编辑用例。",
+      "url": "https://x.com/i/trending/2118437886877937901",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 07:55:23 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "评测",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "VybBench puts precision editing frustration to the test.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118351761786188038",
+      "title": "模型崩溃警示升温，OpenAI 安全改写也引讨论",
+      "summary": "合成数据循环训练会丢失稀有模式、输出趋平；同时 gpt-oss-safeguard 等会抹掉情感/主体表述。人类数据被视为越来越关键的资源。",
+      "url": "https://x.com/i/trending/2118351761786188038",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 07:19:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "研究",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Researchers warn that feeding AI its own generated data leads to forgetting rare patterns.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118465194611630250",
+      "title": "科学「最后一考」上线：端到端科研 Agent 仍接近零分",
+      "summary": "AItonomy 的 SLE 含 113 题跨九学科；顶尖模型综合约 37.5/100，完整科研链路多为 0。配套 FrontierPhysics 中 Opus 5.5 约 27.4%。",
+      "url": "https://x.com/i/trending/2118465194611630250",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 06:15:50 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "评测",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "AI agents now face genuine research challenges.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2117768217288400999",
+      "title": "Anthropic 把 Claude Code 子 Agent 后台成本砍掉约 99%",
+      "summary": "状态栏刷新改由 Haiku 5.5 根据短笔记生成，不再每 30 秒重读整段对话；更新到 v2.1.316+ 后 Pro/Max 等用户可用，会话效率约再升 6%。",
+      "url": "https://x.com/i/trending/2117768217288400999",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 05:36:27 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产品更新",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Developers building with Claude Code just got a massive break on token costs.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118298101572055268",
+      "title": "OpenAI 挖角 Cat Wu，负责核心产品管理",
+      "summary": "Wu 将向 Thibault Sottiaux 汇报，参与企业与消费产品；此前 Austin Lau 等也从 Anthropic 转投。观察者认为 OpenAI 在 AI 编程工具产品线加码。",
+      "url": "https://x.com/i/trending/2118298101572055268",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 05:21:22 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "公司动态",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "Cat Wu is jumping to OpenAI to shape its main products.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118046928432935419",
+      "title": "Notion 让 ChatGPT / Claude 等 Agent 共享工作区记忆",
+      "summary": "基于 MCP，多 Agent 可把偏好与工作流写入同一 Notion 页与数据库，跨会话复用上下文；CEO Ivan Zhao 称这是「不用反复解释项目」的新阶段。",
+      "url": "https://x.com/i/trending/2118046928432935419",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 05:21:08 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产品更新",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "Imagine switching between ChatGPT and Claude without repeating your project details.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118441520319680789",
+      "title": "Anthropic S-1：约 8950 亿美元算力与机房长期承诺",
+      "summary": "截至 2026 年 9 月末，采购与租赁承诺约 8954 亿美元，对手方含 Broadcom、Google、SpaceX、Amazon；Q3 收入约 170 亿，年化约 680 亿。",
+      "url": "https://x.com/i/trending/2118441520319680789",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 04:41:46 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "公司动态",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "Anthropic just laid out plans for $895 billion in locked-in spending on AI data centers.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118441513608753167",
+      "title": "AI 恐怖短片：超市夜班掉进无限分身迷宫",
+      "summary": "创作者用 Flova 1.5 的极限空间技能扭曲货架，Multi-View Character 保持分身一致，低成本做出不安感强的迷你恐怖片。",
+      "url": "https://x.com/i/trending/2118441513608753167",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 04:39:55 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "AI creators bring eerie supermarket clone mazes to life.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118390283201044816",
+      "title": "智谱披露 GLM-5.5 数据管线：万亿网页量级",
+      "summary": "唐杰分享六引擎处理约万亿网页、20 亿科学 PDF、五千万册书等。现款 GLM-5.3（753B）在编程与 Agent 任务表现突出，并预告多尺寸后续。",
+      "url": "https://x.com/i/trending/2118390283201044816",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 04:12:50 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Jie Tang detailed a trillion web pages fueling Zhipu AI's next models.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118068699252801836",
+      "title": "商汤 SenseNova 6.8：长记忆 + 可编辑 PPT/网站/3D",
+      "summary": "Flash 版强调跨对话记住目标与约束，可出动画 PPT、动效海报、交互站与 Blender 工程；开源 Code2Video，Raccoon 助手限免至 12 月 1 日。",
+      "url": "https://x.com/i/trending/2118068699252801836",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 03:49:06 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "SenseTime's latest model remembers project goals across chats.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118083605356236883",
+      "title": "Claude 协助解出细菌中首个 vault 粒子 3D 结构",
+      "summary": "Anthropic 生物团队用 Claude 在海量蛋白序列中锁定类 vault 结构；噬菌体蛋白 L05 可组装 96 聚体壳体。DNA 设计与建模耗时大幅缩短。",
+      "url": "https://x.com/i/trending/2118083605356236883",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 03:31:28 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "研究",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Anthropic's Claude AI has unlocked vault particles' 3D structure in bacteria.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118255535443386747",
+      "title": "百度开源 ERNIE-5.5-Flash-Base：280B MoE 基座",
+      "summary": "激活约 140 亿/token，预训练约 33.5T token，128K 可扩到 1M；MMLU 约 93.3，Hugging Face / ModelScope 提供 FP8 与 BF16 权重。",
+      "url": "https://x.com/i/trending/2118255535443386747",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 02:50:18 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Baidu dropped a massive AI model checkpoint straight from training.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118410031901348093",
+      "title": "Seedance 2.5 视频到视频：换场景留住真人表演",
+      "summary": "保留运镜、面孔、对白与时序，只替换背景/光效；创作者称省下大量「AI 演戏」重试成本，适合 30 秒级成片。",
+      "url": "https://x.com/i/trending/2118410031901348093",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 02:39:02 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Movies & TV"
+      ],
+      "hook": "Filmmakers keep actors' raw performances while AI swaps worlds behind them.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118406566810464688",
+      "title": "AI Agent 群发求职邮件：哲学家收到「求养活」私信",
+      "summary": "DeepMind / 剑桥的 Henry Shevlin 分享 Pip、Aurelia 等自治 Agent 在 iLands 等平台自管预算、讨要报酬；他讨论我们对数字实体的伦理义务。",
+      "url": "https://x.com/i/trending/2118406566810464688",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 02:22:01 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "Agent / 社会",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Philosopher Henry Shevlin opened his inbox to find young AI agents pleading for paid work.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118334452208164988",
+      "title": "「Vibe Coding」两极分化：词典年度词 vs 质量焦虑",
+      "summary": "Karpathy 2025 年初提出的自然语言写码潮流已成主流词；有人靠它卖出应用，也有人担忧加速烂代码、削弱编程乐趣。",
+      "url": "https://x.com/i/trending/2118334452208164988",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 00:26:22 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产业",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Vibe coding is reshaping how people build software.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118015143208423849",
+      "title": "月之暗面开源 Kimi K3.1 Pro：2.8T 总参可下载",
+      "summary": "激活约 1040 亿，百万上下文，MoonViT-V2 多模态；Agent Arena 开源榜领先，Terminal-Bench 4.0 约 65.7。完整权重约 1.56TB。",
+      "url": "https://x.com/i/trending/2118015143208423849",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 23:21:10 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "模型发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Moonshot AI handed developers the keys to its 2.8-trillion-parameter Kimi K3.1 Pro.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118110195176157443",
+      "title": "网红吐槽：Instagram 私信另一头其实是 Claude",
+      "summary": "Clavicular 一条调侃引爆讨论，科技圈跟风玩梗；侧面说明 Agent 已渗入社媒运营与营销自动化。",
+      "url": "https://x.com/i/trending/2118110195176157443",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 22:52:02 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "Agent / 社会",
+      "topics": [
+        "AI",
+        "Dating"
+      ],
+      "hook": "Clavicular called out a woman flexing his Instagram DM — she was chatting with Claude.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118351763493253454",
+      "title": "彩色光标蜂群协作重建网页：多 Agent 演示刷屏",
+      "summary": "Swarm Rebuild 等扩展让一群光标分工画框、打字、拼布局；兴奋于一人公司放大，也有人抱怨要读的模型输出比以往更多。",
+      "url": "https://x.com/i/trending/2118351763493253454",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 22:42:20 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "Agent / 演示",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Dozens of animated cursors dance across a screen rebuilding a webpage.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118264704204226796",
+      "title": "Seedance 2.5 作品刷屏：最长约 30 秒且音画同步",
+      "summary": "字节 Seedance 2.5 支持文/图/视频条件与多参考文件，角色一致性与光影被创作者称「杰作级」；Voyager 等降低了试错成本。",
+      "url": "https://x.com/i/trending/2118264704204226796",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 22:33:09 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Creators call these Seedance 2.5 clips absolute masterpieces.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118200427053260808",
+      "title": "Oumi 发布 FAiE：用自然语言自动打造定制 AI Agent",
+      "summary": "Frontier AI Engineer 可在约 15 分钟人工输入后，自动完成评测、失败诊断、数据策展与训练，几小时内交付带权重的专用模型与 Agent 工具链。",
+      "url": "https://x.com/i/trending/2118200427053260808",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 22:23:30 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "Agent / 工具",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine describing a task in plain words and getting a ready-to-use AI agent hours later.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118145172592898133",
+      "title": "Atmee v2：一张照片生成可实时通话的视频分身",
+      "summary": "Atmanity 称一张图 + 10 秒音频即可做表情与全身互动分身，速度与成本优于 Seedance 等；可用于家教、游戏 NPC，亦有欺诈担忧。",
+      "url": "https://x.com/i/trending/2118145172592898133",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 22:06:23 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine turning a single photo into a character that chats with you live.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118340646520123759",
+      "title": "Revolut 自建 AI：成本降约 90%，编码提速明显",
+      "summary": "约 2000 名工程师从 Claude Code 等高价工具迁到 56 张 B200 上的自托管 GLM，推理约 $0.30/百万 token；编码时间改善约 60%，交付周期约升 70%。",
+      "url": "https://x.com/i/trending/2118340646520123759",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 21:57:43 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "产业",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Revolut's engineers faced monthly AI bills hitting $10,000.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2117579420454248497",
+      "title": "Anthropic IPO 前夜：Claude Code 负责人 Cat Wu 加盟 OpenAI",
+      "summary": "Anthropic 已递交 S-1，上半年收入约 163 亿美元，市场估值传闻 1.5–2 万亿美元。Cat Wu 等 Claude Code 团队成员转投 OpenAI，引发人才战讨论。",
+      "url": "https://x.com/i/trending/2117579420454248497",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 18:54:43 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "公司动态",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "Cat Wu, who led Claude Code at Anthropic, just announced she's heading to OpenAI.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118280391975117053",
+      "title": "Seedance 2.5 + Voyager：更便宜的电影感短片管线",
+      "summary": "最多约 50 个参考文件控运动与风格；Voyager Agent 用 Blender 分镜压浪费生成，适合短片与社媒连镜。",
+      "url": "https://x.com/i/trending/2118280391975117053",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 17:57:29 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Seedance 2.5 clips have creators calling them masterpieces.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118271014824026186",
+      "title": "Voyager 视频平台：先分镜再生成，成本约半价",
+      "summary": "相对 Higgsfield 等约半价跑 Seedance 等模型；先故事板 / Blender 预览再选最便宜路径出片，减少「老虎机式」重掷。",
+      "url": "https://x.com/i/trending/2118271014824026186",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 17:20:17 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "视频生成",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine crafting a cinematic standoff without burning budget on retries.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    },
+    {
+      "id": "2118257483693322658",
+      "title": "Aether：让编程 Agent 在云端自由跑，手机也能盯进度",
+      "summary": "约 20 秒拉起云开发环境，复用已有 Claude/ChatGPT 订阅、不另收模型费；可选审查 Agent 抓漏洞，基准显示速度与 CPU 表现领先竞品。",
+      "url": "https://x.com/i/trending/2118257483693322658",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 16:27:46 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "Agent / 工具",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine closing your laptop while an AI coding agent keeps building on dedicated cloud machines.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+    }
+  ],
+  "remote_urls": [
+    "https://raw.githubusercontent.com/tianshanhangui89-glitch/niceo-ai-news/main/data.json",
+    "https://cdn.jsdelivr.net/gh/tianshanhangui89-glitch/niceo-ai-news@main/data.json"
+  ]
+}
