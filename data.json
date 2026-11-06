@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06 20:43:07 +08:00",
-  "generated": "2026-11-06 20:43:07 +08:00",
+  "generated_at": "2026-11-06 21:17:22 +08:00",
+  "generated": "2026-11-06 21:17:22 +08:00",
   "timezone": "Asia/Shanghai",
   "source": "x.search_news+github+papers+models+primary",
   "item_count": 298,
-  "fresh_count": 318,
+  "fresh_count": 183,
   "ai_count": 58,
   "world_count": 30,
   "startup_count": 17,
@@ -409,7 +409,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Carbon-high",
       "source": "Artificial Analysis",
       "author": "Google",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 60.0,
@@ -439,7 +439,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-max",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 59.0,
@@ -469,7 +469,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Carbon-medium",
       "source": "Artificial Analysis",
       "author": "Google",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 58.0,
@@ -499,7 +499,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-xhigh",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 57.0,
@@ -529,7 +529,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-max",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 57.0,
@@ -559,7 +559,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-xhigh",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 55.0,
@@ -589,7 +589,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-high",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 55.0,
@@ -619,7 +619,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-max",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 55.0,
@@ -649,7 +649,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Sonnet-5.5-max",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 55.0,
@@ -679,7 +679,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Carbon-low",
       "source": "Artificial Analysis",
       "author": "Google",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 54.0,
@@ -709,7 +709,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-xhigh",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 52.0,
@@ -739,7 +739,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-high",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 52.0,
@@ -769,7 +769,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-medium",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 52.0,
@@ -799,7 +799,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-max",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 51.0,
@@ -829,7 +829,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Argon-high",
       "source": "Artificial Analysis",
       "author": "Google",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 50.0,
@@ -859,7 +859,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-high",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 50.0,
@@ -889,7 +889,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Muse-Wonder-Full-max",
       "source": "Artificial Analysis",
       "author": "Meta",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 50.0,
@@ -919,7 +919,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-xhigh",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 50.0,
@@ -949,7 +949,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Sonnet-5.5-xhigh",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 50.0,
@@ -979,7 +979,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-max",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 49.0,
@@ -1009,7 +1009,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-medium",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 48.0,
@@ -1039,7 +1039,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-high",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 47.0,
@@ -1069,7 +1069,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Kimi-K3.1-Pro",
       "source": "Artificial Analysis",
       "author": "Kimi",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 46.0,
@@ -1099,7 +1099,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-medium",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 46.0,
@@ -1129,7 +1129,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-xhigh",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 45.0,
@@ -1159,7 +1159,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Muse-Wonder-max",
       "source": "Artificial Analysis",
       "author": "Meta",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 44.0,
@@ -1189,7 +1189,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-low",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 43.0,
@@ -1219,7 +1219,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-medium",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 43.0,
@@ -1249,7 +1249,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-high",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 42.0,
@@ -1279,7 +1279,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Sonnet-5.5-high",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 42.0,
@@ -1309,7 +1309,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Muse-Wonder-high",
       "source": "Artificial Analysis",
       "author": "Meta",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 41.0,
@@ -1339,7 +1339,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-low",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 39.0,
@@ -1369,7 +1369,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-medium",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 38.0,
@@ -1399,7 +1399,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Haiku-5.5-max",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 36.0,
@@ -1429,7 +1429,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Grok-4.7-xhigh",
       "source": "Artificial Analysis",
       "author": "SpaceXAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 35.0,
@@ -1459,7 +1459,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Grok-4.7-high",
       "source": "Artificial Analysis",
       "author": "SpaceXAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 35.0,
@@ -1489,7 +1489,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-low",
       "source": "Artificial Analysis",
       "author": "OpenAI",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 35.0,
@@ -1519,7 +1519,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-low",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 35.0,
@@ -1549,7 +1549,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Haiku-5.5-xhigh",
       "source": "Artificial Analysis",
       "author": "Anthropic",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 35.0,
@@ -1579,7 +1579,7 @@
       "url": "https://artificialanalysis.ai/leaderboards/models#Tencent-Hy4",
       "source": "Artificial Analysis",
       "author": "Tencent",
-      "published_at": "2026-11-06 20:41:15 +08:00",
+      "published_at": "2026-11-06 21:17:22 +08:00",
       "date": "2026-11-06",
       "metrics": {
         "aa_quality": 35.0,

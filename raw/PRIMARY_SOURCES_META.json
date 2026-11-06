@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "smol.ai": {
+      "ok": 24,
+      "url": "https://news.smol.ai"
+    },
+    "The Batch": {
+      "ok": 9,
+      "url": "https://www.deeplearning.ai/the-batch/"
+    },
+    "papers": {
+      "ok": 85,
+      "url": "hf+arxiv"
+    },
+    "models": {
+      "ok": 65,
+      "url": "aa+arena"
+    },
+    "alphaXiv": {
+      "ok": "url_pattern",
+      "note": "https://www.alphaxiv.org/abs/<id>"
+    }
+  },
+  "fetched_at": "2026-11-06T21:17:22.000+08:00"
+}
