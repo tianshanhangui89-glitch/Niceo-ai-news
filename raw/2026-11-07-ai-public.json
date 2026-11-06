@@ -1,0 +1,249 @@
+{
+  "fetched_at": "2026-11-07T07:20:00.000+08:00",
+  "channel": "ai",
+  "data": [
+    {
+      "id": "tc-openai-11b-125t",
+      "name": "OpenAI 据报再融 110 亿美元，估值约 1.25 万亿美元",
+      "title": "OpenAI 据报再融 110 亿美元，估值约 1.25 万亿美元",
+      "summary": "TechCrunch 报道：OpenAI 据称又筹集 110 亿美元，属于一轮尚未结束、预计未来数周内收官的融资；报道给出的估值约为 1.25 万亿美元。",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "updated_at": "2026-11-06T22:53:46.000Z",
+      "category": "公司动态",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "融资尚未官宣结束",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-artex-exposed",
+      "name": "数百台暴露在公网的 Artex 渗透测试工具",
+      "title": "数百台暴露在公网的 Artex 渗透测试工具",
+      "summary": "TechCrunch：安全研究人员发现数百台服务器把渗透测试工具 Artex 暴露在互联网上，外人可以访问这套黑客工具。",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "updated_at": "2026-11-06T18:44:38.000Z",
+      "category": "安全",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "工具暴露，不是新的 0day 细节",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-meta-spaces",
+      "name": "Meta 推出 Spaces：和 Muse Agent 一起协作",
+      "title": "Meta 推出 Spaces：和 Muse Agent 一起协作",
+      "summary": "TechCrunch：Meta 继续给 Muse Agent 加功能和集成。Spaces 被描述为与这些 AI 助手互动的新方式。",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "updated_at": "2026-11-06T18:44:20.000Z",
+      "category": "产品更新",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "Muse 协作界面",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-midterm-datacenters",
+      "name": "美国中期选举：41 项数据中心公投里 40 项倾向加限制",
+      "title": "美国中期选举：41 项数据中心公投里 40 项倾向加限制",
+      "summary": "TechCrunch：民主党在本周美国中期选举中的胜利也可能改变科技业。周二有 41 项与数据中心相关的公投，除 1 项外，多数选民都投票要对数据中心开发施加更多限制。",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "updated_at": "2026-11-06T18:00:00.000Z",
+      "category": "产业",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "选票直接碰算力用地",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-ramp-ai-spend",
+      "name": "Ramp 数据：AI 用量还在涨，支出却停了",
+      "title": "Ramp 数据：AI 用量还在涨，支出却停了",
+      "summary": "TechCrunch 引 Ramp 数据称，AI 使用继续上升，但支出停滞。大客户的降价和更紧的成本控制，可能挑战投资人关于 AI 高增长的假设。报道同时提到 Anthropic 临近 IPO。",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "updated_at": "2026-11-06T15:54:47.000Z",
+      "category": "产业",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "用量与账单脱节",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-alexa-text-shop",
+      "name": "亚马逊在屏蔽 Muse 之后，开放短信让 Alexa 帮忙购物",
+      "title": "亚马逊在屏蔽 Muse 之后，开放短信让 Alexa 帮忙购物",
+      "summary": "TechCrunch：亚马逊表示，该功能将在未来数周向数百万用户推出。报道背景是亚马逊此前屏蔽了 Muse。",
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "updated_at": "2026-11-06T14:10:00.000Z",
+      "category": "产品更新",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "购物助手改走短信",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-underdog-32mb",
+      "name": "Underdog 演示 32MB 语音模型，能出语音也能出音乐",
+      "title": "Underdog 演示 32MB 语音模型，能出语音也能出音乐",
+      "summary": "TechCrunch：Underdog 在新演示中展示一个 32MB 的语音模型。报道称尽管体积很小，它仍能生成语音和音乐。",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-a-new-demo/",
+      "updated_at": "2026-11-06T13:02:16.000Z",
+      "category": "模型发布",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "小模型演示",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-airbnb-agent-2027",
+      "name": "Airbnb：2027 年上半年推出 AI 旅行助手",
+      "title": "Airbnb：2027 年上半年推出 AI 旅行助手",
+      "summary": "TechCrunch 引 Airbnb 的说法：即将推出的 AI Agent 将帮助旅客规划行程、比较选项、管理预订，并在入住期间提供协助。时间表是 2027 年上半年。",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "updated_at": "2026-11-05T22:40:55.000Z",
+      "category": "产品更新",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "公司自己的时间表",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "tc-meta-muse-video",
+      "name": "Meta：美国用户可与 Muse AI 形象视频通话",
+      "title": "Meta：美国用户可与 Muse AI 形象视频通话",
+      "summary": "TechCrunch：Meta 的 AI Agent 现在可以以可定制动画形象接听视频通话。报道称这发生在一款用来把 Muse「带到现实里」的拓麻歌子式可穿戴设备发布之前。",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "updated_at": "2026-11-05T19:48:28.000Z",
+      "category": "产品更新",
+      "contexts": {
+        "topics": [
+          "TechCrunch"
+        ]
+      },
+      "hook": "目前面向美国用户",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "TechCrunch",
+      "author": "TechCrunch",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "bbg-anthropic-ipo-1-1t",
+      "name": "彭博：AI 回调后，Anthropic 上市买家预期估值最低约 1.1 万亿美元",
+      "title": "彭博：AI 回调后，Anthropic 上市买家预期估值最低约 1.1 万亿美元",
+      "summary": "Hacker News 热帖指向彭博社 11 月 6 日报道，标题为 Anthropic IPO 买家在 AI 股价回调后把估值预期看到最低约 1.1 万亿美元。此处只转述该标题，正文在付费墙后，未另作数字引申。",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "updated_at": "2026-11-06T16:54:00.000Z",
+      "category": "公司动态",
+      "contexts": {
+        "topics": [
+          "Bloomberg"
+        ]
+      },
+      "hook": "标题数字，正文未拆",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "Bloomberg",
+      "author": "Bloomberg",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "crusoe-google-wyoming",
+      "name": "谷歌收购 Crusoe 在怀俄明东南部的数据中心用地",
+      "title": "谷歌收购 Crusoe 在怀俄明东南部的数据中心用地",
+      "summary": "Crusoe 新闻稿称：在 Crusoe 完成选址、审批和电力方案后，谷歌收购了其怀俄明东南部数据中心场地。",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "updated_at": "2026-11-06T20:09:00.000Z",
+      "category": "产业",
+      "contexts": {
+        "topics": [
+          "Crusoe"
+        ]
+      },
+      "hook": "算力用地易主",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "Crusoe",
+      "author": "Crusoe",
+      "_channel": "ai",
+      "_pretranslated": true
+    },
+    {
+      "id": "bbc-ai-stocks-rebound",
+      "name": "BBC：科技股大跌之后，AI 相关股票回升",
+      "title": "BBC：科技股大跌之后，AI 相关股票回升",
+      "summary": "BBC 11 月 6 日报道标题称，此前市值蒸发以万亿美元计；正文称投资者抛售科技股，部分原因是担心民主党胜选会放慢 AI 发展，随后相关股票回升。报道没有给出本次反弹的幅度。",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o",
+      "updated_at": "2026-11-06T21:06:25.000Z",
+      "category": "产业",
+      "contexts": {
+        "topics": [
+          "BBC"
+        ]
+      },
+      "hook": "选举预期冲击后的反弹",
+      "disclaimer": "公开报道摘要，请点原文核实。不是投资建议。",
+      "source": "BBC",
+      "author": "BBC",
+      "_channel": "ai",
+      "_pretranslated": true
+    }
+  ],
+  "meta": {
+    "note": "public pages fetched 2026-11-07 Asia/Shanghai; no Xiaohongshu; no X login"
+  }
+}

@@ -1,0 +1,2056 @@
+{
+  "fetched_at": "2026-11-07T07:12:17.000+08:00",
+  "channel": "models",
+  "data": [
+    {
+      "id": "aa-Gemini-4-Carbon-high",
+      "name": "Gemini 4 Carbon (high)",
+      "title": "Gemini 4 Carbon (high)",
+      "origin_title": "Gemini 4 Carbon (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 60.0，任务成本 $7.76，任务耗时 30.5 分钟，首 token 延迟 67.72 秒。厂商：Google。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Carbon-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Google",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 60.0 · Google",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 60.0,
+      "aa_price": "$7.76",
+      "aa_speed": "30.5",
+      "aa_latency": "67.72",
+      "rank": 1,
+      "metrics": {
+        "aa_quality": 60.0,
+        "aa_price": "$7.76",
+        "aa_speed": "30.5",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Opus-5.5-max",
+      "name": "Claude Opus 5.5 (max)",
+      "title": "Claude Opus 5.5 (max)",
+      "origin_title": "Claude Opus 5.5 (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 59.0，任务成本 $10.04，任务耗时 26.6 分钟，首 token 延迟 366.70 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 59.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 59.0,
+      "aa_price": "$10.04",
+      "aa_speed": "26.6",
+      "aa_latency": "366.70",
+      "rank": 2,
+      "metrics": {
+        "aa_quality": 59.0,
+        "aa_price": "$10.04",
+        "aa_speed": "26.6",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Gemini-4-Carbon-medium",
+      "name": "Gemini 4 Carbon (medium)",
+      "title": "Gemini 4 Carbon (medium)",
+      "origin_title": "Gemini 4 Carbon (medium)",
+      "summary": "Artificial Analysis 公开榜：智能指数 58.0，任务成本 $6.59，任务耗时 24.6 分钟，首 token 延迟 29.35 秒。厂商：Google。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Carbon-medium",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Google",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 58.0 · Google",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 58.0,
+      "aa_price": "$6.59",
+      "aa_speed": "24.6",
+      "aa_latency": "29.35",
+      "rank": 3,
+      "metrics": {
+        "aa_quality": 58.0,
+        "aa_price": "$6.59",
+        "aa_speed": "24.6",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Opus-5.5-xhigh",
+      "name": "Claude Opus 5.5 (xhigh)",
+      "title": "Claude Opus 5.5 (xhigh)",
+      "origin_title": "Claude Opus 5.5 (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 57.0，任务成本 $6.05，任务耗时 16.2 分钟，首 token 延迟 80.86 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 57.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 57.0,
+      "aa_price": "$6.05",
+      "aa_speed": "16.2",
+      "aa_latency": "80.86",
+      "rank": 4,
+      "metrics": {
+        "aa_quality": 57.0,
+        "aa_price": "$6.05",
+        "aa_speed": "16.2",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6-Astra-max",
+      "name": "GPT-6 Astra (max)",
+      "title": "GPT-6 Astra (max)",
+      "origin_title": "GPT-6 Astra (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 57.0，任务成本 $6.24，任务耗时 20.9 分钟，首 token 延迟 228.60 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 57.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 57.0,
+      "aa_price": "$6.24",
+      "aa_speed": "20.9",
+      "aa_latency": "228.60",
+      "rank": 5,
+      "metrics": {
+        "aa_quality": 57.0,
+        "aa_price": "$6.24",
+        "aa_speed": "20.9",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6-Astra-xhigh",
+      "name": "GPT-6 Astra (xhigh)",
+      "title": "GPT-6 Astra (xhigh)",
+      "origin_title": "GPT-6 Astra (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 55.0，任务成本 $3.66，任务耗时 10.5 分钟，首 token 延迟 117.69 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 55.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 55.0,
+      "aa_price": "$3.66",
+      "aa_speed": "10.5",
+      "aa_latency": "117.69",
+      "rank": 6,
+      "metrics": {
+        "aa_quality": 55.0,
+        "aa_price": "$3.66",
+        "aa_speed": "10.5",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6-Astra-high",
+      "name": "GPT-6 Astra (high)",
+      "title": "GPT-6 Astra (high)",
+      "origin_title": "GPT-6 Astra (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 55.0，任务成本 $3.24，任务耗时 9.0 分钟，首 token 延迟 53.44 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 55.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 55.0,
+      "aa_price": "$3.24",
+      "aa_speed": "9.0",
+      "aa_latency": "53.44",
+      "rank": 7,
+      "metrics": {
+        "aa_quality": 55.0,
+        "aa_price": "$3.24",
+        "aa_speed": "9.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Sol-max",
+      "name": "GPT-6.1 Sol (max)",
+      "title": "GPT-6.1 Sol (max)",
+      "origin_title": "GPT-6.1 Sol (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 55.0，任务成本 $1.27，任务耗时 22.1 分钟，首 token 延迟 193.87 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 55.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 55.0,
+      "aa_price": "$1.27",
+      "aa_speed": "22.1",
+      "aa_latency": "193.87",
+      "rank": 8,
+      "metrics": {
+        "aa_quality": 55.0,
+        "aa_price": "$1.27",
+        "aa_speed": "22.1",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Sonnet-5.5-max",
+      "name": "Claude Sonnet 5.5 (max)",
+      "title": "Claude Sonnet 5.5 (max)",
+      "origin_title": "Claude Sonnet 5.5 (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 55.0，任务成本 $10.02，任务耗时 31.5 分钟，首 token 延迟 276.49 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Sonnet-5.5-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 55.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 55.0,
+      "aa_price": "$10.02",
+      "aa_speed": "31.5",
+      "aa_latency": "276.49",
+      "rank": 9,
+      "metrics": {
+        "aa_quality": 55.0,
+        "aa_price": "$10.02",
+        "aa_speed": "31.5",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Gemini-4-Carbon-low",
+      "name": "Gemini 4 Carbon (low)",
+      "title": "Gemini 4 Carbon (low)",
+      "origin_title": "Gemini 4 Carbon (low)",
+      "summary": "Artificial Analysis 公开榜：智能指数 54.0，任务成本 $7.19，任务耗时 35.4 分钟，首 token 延迟 8.00 秒。厂商：Google。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Carbon-low",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Google",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 54.0 · Google",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 54.0,
+      "aa_price": "$7.19",
+      "aa_speed": "35.4",
+      "aa_latency": "8.00",
+      "rank": 10,
+      "metrics": {
+        "aa_quality": 54.0,
+        "aa_price": "$7.19",
+        "aa_speed": "35.4",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Sol-xhigh",
+      "name": "GPT-6.1 Sol (xhigh)",
+      "title": "GPT-6.1 Sol (xhigh)",
+      "origin_title": "GPT-6.1 Sol (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 52.0，任务成本 $0.76，任务耗时 10.0 分钟，首 token 延迟 74.71 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 52.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 52.0,
+      "aa_price": "$0.76",
+      "aa_speed": "10.0",
+      "aa_latency": "74.71",
+      "rank": 11,
+      "metrics": {
+        "aa_quality": 52.0,
+        "aa_price": "$0.76",
+        "aa_speed": "10.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Opus-5.5-high",
+      "name": "Claude Opus 5.5 (high)",
+      "title": "Claude Opus 5.5 (high)",
+      "origin_title": "Claude Opus 5.5 (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 52.0，任务成本 $3.46，任务耗时 9.4 分钟，首 token 延迟 34.91 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 52.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 52.0,
+      "aa_price": "$3.46",
+      "aa_speed": "9.4",
+      "aa_latency": "34.91",
+      "rank": 12,
+      "metrics": {
+        "aa_quality": 52.0,
+        "aa_price": "$3.46",
+        "aa_speed": "9.4",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6-Astra-medium",
+      "name": "GPT-6 Astra (medium)",
+      "title": "GPT-6 Astra (medium)",
+      "origin_title": "GPT-6 Astra (medium)",
+      "summary": "Artificial Analysis 公开榜：智能指数 52.0，任务成本 $2.73，任务耗时 6.5 分钟，首 token 延迟 6.70 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-medium",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 52.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 52.0,
+      "aa_price": "$2.73",
+      "aa_speed": "6.5",
+      "aa_latency": "6.70",
+      "rank": 13,
+      "metrics": {
+        "aa_quality": 52.0,
+        "aa_price": "$2.73",
+        "aa_speed": "6.5",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Terra-max",
+      "name": "GPT-6.1 Terra (max)",
+      "title": "GPT-6.1 Terra (max)",
+      "origin_title": "GPT-6.1 Terra (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 51.0，任务成本 $0.96，任务耗时 13.7 分钟，首 token 延迟 169.38 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 51.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 51.0,
+      "aa_price": "$0.96",
+      "aa_speed": "13.7",
+      "aa_latency": "169.38",
+      "rank": 14,
+      "metrics": {
+        "aa_quality": 51.0,
+        "aa_price": "$0.96",
+        "aa_speed": "13.7",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Gemini-4-Argon-high",
+      "name": "Gemini 4 Argon (high)",
+      "title": "Gemini 4 Argon (high)",
+      "origin_title": "Gemini 4 Argon (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 50.0，任务成本 $9.95，任务耗时 26.9 分钟，首 token 延迟 37.86 秒。厂商：Google。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Gemini-4-Argon-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Google",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 50.0 · Google",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 50.0,
+      "aa_price": "$9.95",
+      "aa_speed": "26.9",
+      "aa_latency": "37.86",
+      "rank": 15,
+      "metrics": {
+        "aa_quality": 50.0,
+        "aa_price": "$9.95",
+        "aa_speed": "26.9",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Sol-high",
+      "name": "GPT-6.1 Sol (high)",
+      "title": "GPT-6.1 Sol (high)",
+      "origin_title": "GPT-6.1 Sol (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 50.0，任务成本 $0.59，任务耗时 7.0 分钟，首 token 延迟 42.30 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 50.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 50.0,
+      "aa_price": "$0.59",
+      "aa_speed": "7.0",
+      "aa_latency": "42.30",
+      "rank": 16,
+      "metrics": {
+        "aa_quality": 50.0,
+        "aa_price": "$0.59",
+        "aa_speed": "7.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Muse-Wonder-Full-max",
+      "name": "Muse Wonder Full (max)",
+      "title": "Muse Wonder Full (max)",
+      "origin_title": "Muse Wonder Full (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 50.0，任务成本 --，任务耗时 -- 分钟，首 token 延迟 -- 秒。厂商：Meta。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Muse-Wonder-Full-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Meta",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 50.0 · Meta",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 50.0,
+      "aa_price": "--",
+      "aa_speed": "--",
+      "aa_latency": "--",
+      "rank": 17,
+      "metrics": {
+        "aa_quality": 50.0,
+        "aa_price": "--",
+        "aa_speed": "--",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Fable-5.1-xhigh",
+      "name": "Claude Fable 5.1 (xhigh)",
+      "title": "Claude Fable 5.1 (xhigh)",
+      "origin_title": "Claude Fable 5.1 (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 50.0，任务成本 $10.85，任务耗时 18.8 分钟，首 token 延迟 66.33 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 50.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 50.0,
+      "aa_price": "$10.85",
+      "aa_speed": "18.8",
+      "aa_latency": "66.33",
+      "rank": 18,
+      "metrics": {
+        "aa_quality": 50.0,
+        "aa_price": "$10.85",
+        "aa_speed": "18.8",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Sonnet-5.5-xhigh",
+      "name": "Claude Sonnet 5.5 (xhigh)",
+      "title": "Claude Sonnet 5.5 (xhigh)",
+      "origin_title": "Claude Sonnet 5.5 (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 50.0，任务成本 $4.09，任务耗时 15.0 分钟，首 token 延迟 30.80 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Sonnet-5.5-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 50.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 50.0,
+      "aa_price": "$4.09",
+      "aa_speed": "15.0",
+      "aa_latency": "30.80",
+      "rank": 19,
+      "metrics": {
+        "aa_quality": 50.0,
+        "aa_price": "$4.09",
+        "aa_speed": "15.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Fable-5.1-max",
+      "name": "Claude Fable 5.1 (max)",
+      "title": "Claude Fable 5.1 (max)",
+      "origin_title": "Claude Fable 5.1 (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 49.0，任务成本 $12.99，任务耗时 22.4 分钟，首 token 延迟 185.58 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 49.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 49.0,
+      "aa_price": "$12.99",
+      "aa_speed": "22.4",
+      "aa_latency": "185.58",
+      "rank": 20,
+      "metrics": {
+        "aa_quality": 49.0,
+        "aa_price": "$12.99",
+        "aa_speed": "22.4",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Opus-5.5-medium",
+      "name": "Claude Opus 5.5 (medium)",
+      "title": "Claude Opus 5.5 (medium)",
+      "origin_title": "Claude Opus 5.5 (medium)",
+      "summary": "Artificial Analysis 公开榜：智能指数 48.0，任务成本 $2.45，任务耗时 6.8 分钟，首 token 延迟 17.90 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-medium",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 48.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 48.0,
+      "aa_price": "$2.45",
+      "aa_speed": "6.8",
+      "aa_latency": "17.90",
+      "rank": 21,
+      "metrics": {
+        "aa_quality": 48.0,
+        "aa_price": "$2.45",
+        "aa_speed": "6.8",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Fable-5.1-high",
+      "name": "Claude Fable 5.1 (high)",
+      "title": "Claude Fable 5.1 (high)",
+      "origin_title": "Claude Fable 5.1 (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 47.0，任务成本 $7.54，任务耗时 12.7 分钟，首 token 延迟 15.58 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 47.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 47.0,
+      "aa_price": "$7.54",
+      "aa_speed": "12.7",
+      "aa_latency": "15.58",
+      "rank": 22,
+      "metrics": {
+        "aa_quality": 47.0,
+        "aa_price": "$7.54",
+        "aa_speed": "12.7",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Kimi-K3.1-Pro",
+      "name": "Kimi K3.1 Pro",
+      "title": "Kimi K3.1 Pro",
+      "origin_title": "Kimi K3.1 Pro",
+      "summary": "Artificial Analysis 公开榜：智能指数 46.0，任务成本 $3.68，任务耗时 36.8 分钟，首 token 延迟 163.65 秒。厂商：Kimi。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Kimi-K3.1-Pro",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Kimi",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 46.0 · Kimi",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 46.0,
+      "aa_price": "$3.68",
+      "aa_speed": "36.8",
+      "aa_latency": "163.65",
+      "rank": 23,
+      "metrics": {
+        "aa_quality": 46.0,
+        "aa_price": "$3.68",
+        "aa_speed": "36.8",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Sol-medium",
+      "name": "GPT-6.1 Sol (medium)",
+      "title": "GPT-6.1 Sol (medium)",
+      "origin_title": "GPT-6.1 Sol (medium)",
+      "summary": "Artificial Analysis 公开榜：智能指数 46.0，任务成本 $0.36，任务耗时 4.2 分钟，首 token 延迟 6.07 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-medium",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 46.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 46.0,
+      "aa_price": "$0.36",
+      "aa_speed": "4.2",
+      "aa_latency": "6.07",
+      "rank": 24,
+      "metrics": {
+        "aa_quality": 46.0,
+        "aa_price": "$0.36",
+        "aa_speed": "4.2",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Terra-xhigh",
+      "name": "GPT-6.1 Terra (xhigh)",
+      "title": "GPT-6.1 Terra (xhigh)",
+      "origin_title": "GPT-6.1 Terra (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 45.0，任务成本 $0.40，任务耗时 6.2 分钟，首 token 延迟 35.49 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 45.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 45.0,
+      "aa_price": "$0.40",
+      "aa_speed": "6.2",
+      "aa_latency": "35.49",
+      "rank": 25,
+      "metrics": {
+        "aa_quality": 45.0,
+        "aa_price": "$0.40",
+        "aa_speed": "6.2",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Muse-Wonder-max",
+      "name": "Muse Wonder (max)",
+      "title": "Muse Wonder (max)",
+      "origin_title": "Muse Wonder (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 44.0，任务成本 $6.95，任务耗时 12.9 分钟，首 token 延迟 21.99 秒。厂商：Meta。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Muse-Wonder-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Meta",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 44.0 · Meta",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 44.0,
+      "aa_price": "$6.95",
+      "aa_speed": "12.9",
+      "aa_latency": "21.99",
+      "rank": 26,
+      "metrics": {
+        "aa_quality": 44.0,
+        "aa_price": "$6.95",
+        "aa_speed": "12.9",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6-Astra-low",
+      "name": "GPT-6 Astra (low)",
+      "title": "GPT-6 Astra (low)",
+      "origin_title": "GPT-6 Astra (low)",
+      "summary": "Artificial Analysis 公开榜：智能指数 43.0，任务成本 $1.42，任务耗时 3.6 分钟，首 token 延迟 3.79 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6-Astra-low",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 43.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 43.0,
+      "aa_price": "$1.42",
+      "aa_speed": "3.6",
+      "aa_latency": "3.79",
+      "rank": 27,
+      "metrics": {
+        "aa_quality": 43.0,
+        "aa_price": "$1.42",
+        "aa_speed": "3.6",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Fable-5.1-medium",
+      "name": "Claude Fable 5.1 (medium)",
+      "title": "Claude Fable 5.1 (medium)",
+      "origin_title": "Claude Fable 5.1 (medium)",
+      "summary": "Artificial Analysis 公开榜：智能指数 43.0，任务成本 $5.56，任务耗时 9.5 分钟，首 token 延迟 9.36 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-medium",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 43.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 43.0,
+      "aa_price": "$5.56",
+      "aa_speed": "9.5",
+      "aa_latency": "9.36",
+      "rank": 28,
+      "metrics": {
+        "aa_quality": 43.0,
+        "aa_price": "$5.56",
+        "aa_speed": "9.5",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Terra-high",
+      "name": "GPT-6.1 Terra (high)",
+      "title": "GPT-6.1 Terra (high)",
+      "origin_title": "GPT-6.1 Terra (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 42.0，任务成本 $0.26，任务耗时 4.0 分钟，首 token 延迟 11.70 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 42.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 42.0,
+      "aa_price": "$0.26",
+      "aa_speed": "4.0",
+      "aa_latency": "11.70",
+      "rank": 29,
+      "metrics": {
+        "aa_quality": 42.0,
+        "aa_price": "$0.26",
+        "aa_speed": "4.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Sonnet-5.5-high",
+      "name": "Claude Sonnet 5.5 (high)",
+      "title": "Claude Sonnet 5.5 (high)",
+      "origin_title": "Claude Sonnet 5.5 (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 42.0，任务成本 $1.64，任务耗时 7.0 分钟，首 token 延迟 12.28 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Sonnet-5.5-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 42.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 42.0,
+      "aa_price": "$1.64",
+      "aa_speed": "7.0",
+      "aa_latency": "12.28",
+      "rank": 30,
+      "metrics": {
+        "aa_quality": 42.0,
+        "aa_price": "$1.64",
+        "aa_speed": "7.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Muse-Wonder-high",
+      "name": "Muse Wonder (high)",
+      "title": "Muse Wonder (high)",
+      "origin_title": "Muse Wonder (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 41.0，任务成本 $4.56，任务耗时 8.9 分钟，首 token 延迟 9.23 秒。厂商：Meta。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Muse-Wonder-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Meta",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 41.0 · Meta",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 41.0,
+      "aa_price": "$4.56",
+      "aa_speed": "8.9",
+      "aa_latency": "9.23",
+      "rank": 31,
+      "metrics": {
+        "aa_quality": 41.0,
+        "aa_price": "$4.56",
+        "aa_speed": "8.9",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Fable-5.1-low",
+      "name": "Claude Fable 5.1 (low)",
+      "title": "Claude Fable 5.1 (low)",
+      "origin_title": "Claude Fable 5.1 (low)",
+      "summary": "Artificial Analysis 公开榜：智能指数 39.0，任务成本 $4.47，任务耗时 7.3 分钟，首 token 延迟 8.11 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Fable-5.1-low",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 39.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 39.0,
+      "aa_price": "$4.47",
+      "aa_speed": "7.3",
+      "aa_latency": "8.11",
+      "rank": 32,
+      "metrics": {
+        "aa_quality": 39.0,
+        "aa_price": "$4.47",
+        "aa_speed": "7.3",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Terra-medium",
+      "name": "GPT-6.1 Terra (medium)",
+      "title": "GPT-6.1 Terra (medium)",
+      "origin_title": "GPT-6.1 Terra (medium)",
+      "summary": "Artificial Analysis 公开榜：智能指数 38.0，任务成本 $0.17，任务耗时 2.6 分钟，首 token 延迟 4.67 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Terra-medium",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 38.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 38.0,
+      "aa_price": "$0.17",
+      "aa_speed": "2.6",
+      "aa_latency": "4.67",
+      "rank": 33,
+      "metrics": {
+        "aa_quality": 38.0,
+        "aa_price": "$0.17",
+        "aa_speed": "2.6",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Haiku-5.5-max",
+      "name": "Claude Haiku 5.5 (max)",
+      "title": "Claude Haiku 5.5 (max)",
+      "origin_title": "Claude Haiku 5.5 (max)",
+      "summary": "Artificial Analysis 公开榜：智能指数 36.0，任务成本 $0.41，任务耗时 15.7 分钟，首 token 延迟 180.15 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Haiku-5.5-max",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 36.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 36.0,
+      "aa_price": "$0.41",
+      "aa_speed": "15.7",
+      "aa_latency": "180.15",
+      "rank": 34,
+      "metrics": {
+        "aa_quality": 36.0,
+        "aa_price": "$0.41",
+        "aa_speed": "15.7",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Grok-4.7-xhigh",
+      "name": "Grok 4.7 (xhigh)",
+      "title": "Grok 4.7 (xhigh)",
+      "origin_title": "Grok 4.7 (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 35.0，任务成本 $7.77，任务耗时 24.2 分钟，首 token 延迟 52.25 秒。厂商：SpaceXAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Grok-4.7-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "SpaceXAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 35.0 · SpaceXAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 35.0,
+      "aa_price": "$7.77",
+      "aa_speed": "24.2",
+      "aa_latency": "52.25",
+      "rank": 35,
+      "metrics": {
+        "aa_quality": 35.0,
+        "aa_price": "$7.77",
+        "aa_speed": "24.2",
+        "context": "500k"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Grok-4.7-high",
+      "name": "Grok 4.7 (high)",
+      "title": "Grok 4.7 (high)",
+      "origin_title": "Grok 4.7 (high)",
+      "summary": "Artificial Analysis 公开榜：智能指数 35.0，任务成本 $6.18，任务耗时 20.8 分钟，首 token 延迟 30.48 秒。厂商：SpaceXAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Grok-4.7-high",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "SpaceXAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 35.0 · SpaceXAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 35.0,
+      "aa_price": "$6.18",
+      "aa_speed": "20.8",
+      "aa_latency": "30.48",
+      "rank": 36,
+      "metrics": {
+        "aa_quality": 35.0,
+        "aa_price": "$6.18",
+        "aa_speed": "20.8",
+        "context": "500k"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-GPT-6.1-Sol-low",
+      "name": "GPT-6.1 Sol (low)",
+      "title": "GPT-6.1 Sol (low)",
+      "origin_title": "GPT-6.1 Sol (low)",
+      "summary": "Artificial Analysis 公开榜：智能指数 35.0，任务成本 $0.16，任务耗时 1.9 分钟，首 token 延迟 2.72 秒。厂商：OpenAI。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#GPT-6.1-Sol-low",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "OpenAI",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 35.0 · OpenAI",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 35.0,
+      "aa_price": "$0.16",
+      "aa_speed": "1.9",
+      "aa_latency": "2.72",
+      "rank": 37,
+      "metrics": {
+        "aa_quality": 35.0,
+        "aa_price": "$0.16",
+        "aa_speed": "1.9",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Opus-5.5-low",
+      "name": "Claude Opus 5.5 (low)",
+      "title": "Claude Opus 5.5 (low)",
+      "origin_title": "Claude Opus 5.5 (low)",
+      "summary": "Artificial Analysis 公开榜：智能指数 35.0，任务成本 $0.98，任务耗时 3.0 分钟，首 token 延迟 6.12 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Opus-5.5-low",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 35.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 35.0,
+      "aa_price": "$0.98",
+      "aa_speed": "3.0",
+      "aa_latency": "6.12",
+      "rank": 38,
+      "metrics": {
+        "aa_quality": 35.0,
+        "aa_price": "$0.98",
+        "aa_speed": "3.0",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Claude-Haiku-5.5-xhigh",
+      "name": "Claude Haiku 5.5 (xhigh)",
+      "title": "Claude Haiku 5.5 (xhigh)",
+      "origin_title": "Claude Haiku 5.5 (xhigh)",
+      "summary": "Artificial Analysis 公开榜：智能指数 35.0，任务成本 $0.25，任务耗时 9.7 分钟，首 token 延迟 51.47 秒。厂商：Anthropic。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Claude-Haiku-5.5-xhigh",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Anthropic",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 35.0 · Anthropic",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 35.0,
+      "aa_price": "$0.25",
+      "aa_speed": "9.7",
+      "aa_latency": "51.47",
+      "rank": 39,
+      "metrics": {
+        "aa_quality": 35.0,
+        "aa_price": "$0.25",
+        "aa_speed": "9.7",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "aa-Tencent-Hy4",
+      "name": "Tencent Hy4",
+      "title": "Tencent Hy4",
+      "origin_title": "Tencent Hy4",
+      "summary": "Artificial Analysis 公开榜：智能指数 35.0，任务成本 $1.03，任务耗时 13.9 分钟，首 token 延迟 103.27 秒。厂商：Tencent。",
+      "url": "https://artificialanalysis.ai/leaderboards/models#Tencent-Hy4",
+      "updated_at": "2026-11-07T07:12:16.000+08:00",
+      "author": "Tencent",
+      "category": "Artificial Analysis",
+      "contexts": {
+        "topics": [
+          "leaderboard",
+          "benchmark"
+        ]
+      },
+      "hook": "智能指数 35.0 · Tencent",
+      "disclaimer": "榜单数字取自公开页快照，可能随站点更新变化。",
+      "source": "Artificial Analysis",
+      "aa_quality": 35.0,
+      "aa_price": "$1.03",
+      "aa_speed": "13.9",
+      "aa_latency": "103.27",
+      "rank": 40,
+      "metrics": {
+        "aa_quality": 35.0,
+        "aa_price": "$1.03",
+        "aa_speed": "13.9",
+        "context": "1M"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-gemini-2.5-pro",
+      "name": "gemini-2.5-pro",
+      "title": "gemini-2.5-pro",
+      "origin_title": "gemini-2.5-pro",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1466.2，排名 #1，约 35586 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#gemini-2.5-pro",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1466 · #1",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1466.2449319357888,
+      "rank": 1,
+      "metrics": {
+        "arena_score": 1466.2449319357888,
+        "rank": 1,
+        "votes": 35586,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-mistral-medium-2508",
+      "name": "mistral-medium-2508",
+      "title": "mistral-medium-2508",
+      "origin_title": "mistral-medium-2508",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1433.4，排名 #2，约 7526 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#mistral-medium-2508",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1433 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1433.4008835768732,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1433.4008835768732,
+        "rank": 2,
+        "votes": 7526,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-grok-4-0709",
+      "name": "grok-4-0709",
+      "title": "grok-4-0709",
+      "origin_title": "grok-4-0709",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1430.5，排名 #2，约 18320 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#grok-4-0709",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1431 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1430.5057975316654,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1430.5057975316654,
+        "rank": 2,
+        "votes": 18320,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-chatgpt-4o-latest-20250326",
+      "name": "chatgpt-4o-latest-20250326",
+      "title": "chatgpt-4o-latest-20250326",
+      "origin_title": "chatgpt-4o-latest-20250326",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1429.4，排名 #2，约 36845 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#chatgpt-4o-latest-20250326",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1429 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1429.3784880709006,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1429.3784880709006,
+        "rank": 2,
+        "votes": 36845,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-glm-4.5",
+      "name": "glm-4.5",
+      "title": "glm-4.5",
+      "origin_title": "glm-4.5",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1429.1，排名 #2，约 11222 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#glm-4.5",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1429 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1429.0835090080654,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1429.0835090080654,
+        "rank": 2,
+        "votes": 11222,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-qwen-max-2025-08-15",
+      "name": "qwen-max-2025-08-15",
+      "title": "qwen-max-2025-08-15",
+      "origin_title": "qwen-max-2025-08-15",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1429.0，排名 #2，约 5547 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#qwen-max-2025-08-15",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1429 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1428.9845440105557,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1428.9845440105557,
+        "rank": 2,
+        "votes": 5547,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-deepseek-r1-0528",
+      "name": "deepseek-r1-0528",
+      "title": "deepseek-r1-0528",
+      "origin_title": "deepseek-r1-0528",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1424.4，排名 #2，约 21281 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#deepseek-r1-0528",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1424 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1424.3669811230845,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1424.3669811230845,
+        "rank": 2,
+        "votes": 21281,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-grok-3-preview-02-24",
+      "name": "grok-3-preview-02-24",
+      "title": "grok-3-preview-02-24",
+      "origin_title": "grok-3-preview-02-24",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1423.1，排名 #2，约 36935 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#grok-3-preview-02-24",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1423 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1423.1029663770807,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1423.1029663770807,
+        "rank": 2,
+        "votes": 36935,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-gpt-5-high",
+      "name": "gpt-5-high",
+      "title": "gpt-5-high",
+      "origin_title": "gpt-5-high",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1420.9，排名 #2，约 11581 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#gpt-5-high",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1421 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1420.910740549526,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1420.910740549526,
+        "rank": 2,
+        "votes": 11581,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-o3-2025-04-16",
+      "name": "o3-2025-04-16",
+      "title": "o3-2025-04-16",
+      "origin_title": "o3-2025-04-16",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1420.7，排名 #5，约 41055 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#o3-2025-04-16",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1421 · #5",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1420.7282166569546,
+      "rank": 5,
+      "metrics": {
+        "arena_score": 1420.7282166569546,
+        "rank": 5,
+        "votes": 41055,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-deepseek-v3.1",
+      "name": "deepseek-v3.1",
+      "title": "deepseek-v3.1",
+      "origin_title": "deepseek-v3.1",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1417.7，排名 #2，约 4979 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#deepseek-v3.1",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1418 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1417.7252859443245,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1417.7252859443245,
+        "rank": 2,
+        "votes": 4979,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-claude-opus-4-1-20250805-thinking-16k",
+      "name": "claude-opus-4-1-20250805-thinking-16k",
+      "title": "claude-opus-4-1-20250805-thinking-16k",
+      "origin_title": "claude-opus-4-1-20250805-thinking-16k",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1416.6，排名 #5，约 8729 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#claude-opus-4-1-20250805-thinking-16k",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1417 · #5",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1416.5721133786938,
+      "rank": 5,
+      "metrics": {
+        "arena_score": 1416.5721133786938,
+        "rank": 5,
+        "votes": 8729,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-gpt-4.5-preview-2025-02-27",
+      "name": "gpt-4.5-preview-2025-02-27",
+      "title": "gpt-4.5-preview-2025-02-27",
+      "origin_title": "gpt-4.5-preview-2025-02-27",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1415.6，排名 #6，约 15271 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#gpt-4.5-preview-2025-02-27",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1416 · #6",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1415.63200046145,
+      "rank": 6,
+      "metrics": {
+        "arena_score": 1415.63200046145,
+        "rank": 6,
+        "votes": 15271,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-qwen3-235b-a22b-thinking-2507",
+      "name": "qwen3-235b-a22b-thinking-2507",
+      "title": "qwen3-235b-a22b-thinking-2507",
+      "origin_title": "qwen3-235b-a22b-thinking-2507",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1415.4，排名 #6，约 8888 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#qwen3-235b-a22b-thinking-2507",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1415 · #6",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1415.390241792794,
+      "rank": 6,
+      "metrics": {
+        "arena_score": 1415.390241792794,
+        "rank": 6,
+        "votes": 8888,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-qwen3-235b-a22b-instruct-2507",
+      "name": "qwen3-235b-a22b-instruct-2507",
+      "title": "qwen3-235b-a22b-instruct-2507",
+      "origin_title": "qwen3-235b-a22b-instruct-2507",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1414.4，排名 #7，约 13168 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#qwen3-235b-a22b-instruct-2507",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1414 · #7",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1414.389126513848,
+      "rank": 7,
+      "metrics": {
+        "arena_score": 1414.389126513848,
+        "rank": 7,
+        "votes": 13168,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-deepseek-v3.1-thinking",
+      "name": "deepseek-v3.1-thinking",
+      "title": "deepseek-v3.1-thinking",
+      "origin_title": "deepseek-v3.1-thinking",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1412.9，排名 #6，约 4421 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#deepseek-v3.1-thinking",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1413 · #6",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1412.9126325308996,
+      "rank": 6,
+      "metrics": {
+        "arena_score": 1412.9126325308996,
+        "rank": 6,
+        "votes": 4421,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-gpt-5-chat",
+      "name": "gpt-5-chat",
+      "title": "gpt-5-chat",
+      "origin_title": "gpt-5-chat",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1409.0，排名 #10，约 8700 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#gpt-5-chat",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1409 · #10",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1408.975058808343,
+      "rank": 10,
+      "metrics": {
+        "arena_score": 1408.975058808343,
+        "rank": 10,
+        "votes": 8700,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-gemini-2.5-flash",
+      "name": "gemini-2.5-flash",
+      "title": "gemini-2.5-flash",
+      "origin_title": "gemini-2.5-flash",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1408.9，排名 #11，约 39067 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#gemini-2.5-flash",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1409 · #11",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1408.8813986353036,
+      "rank": 11,
+      "metrics": {
+        "arena_score": 1408.8813986353036,
+        "rank": 11,
+        "votes": 39067,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-claude-opus-4-1-20250805",
+      "name": "claude-opus-4-1-20250805",
+      "title": "claude-opus-4-1-20250805",
+      "origin_title": "claude-opus-4-1-20250805",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1406.3，排名 #11，约 11695 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#claude-opus-4-1-20250805",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1406 · #11",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1406.3414807646886,
+      "rank": 11,
+      "metrics": {
+        "arena_score": 1406.3414807646886,
+        "rank": 11,
+        "votes": 11695,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-gpt-5-old",
+      "name": "gpt-5-old",
+      "title": "gpt-5-old",
+      "origin_title": "gpt-5-old",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1405.9，排名 #2，约 827 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#gpt-5-old",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1406 · #2",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1405.8885541662894,
+      "rank": 2,
+      "metrics": {
+        "arena_score": 1405.8885541662894,
+        "rank": 2,
+        "votes": 827,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-mai-1-preview",
+      "name": "mai-1-preview",
+      "title": "mai-1-preview",
+      "origin_title": "mai-1-preview",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1403.0，排名 #11，约 4705 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#mai-1-preview",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1403 · #11",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1403.0412199362547,
+      "rank": 11,
+      "metrics": {
+        "arena_score": 1403.0412199362547,
+        "rank": 11,
+        "votes": 4705,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-hunyuan-t1-20250711",
+      "name": "hunyuan-t1-20250711",
+      "title": "hunyuan-t1-20250711",
+      "origin_title": "hunyuan-t1-20250711",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1399.1，排名 #16，约 6023 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#hunyuan-t1-20250711",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1399 · #16",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1399.1062230899572,
+      "rank": 16,
+      "metrics": {
+        "arena_score": 1399.1062230899572,
+        "rank": 16,
+        "votes": 6023,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-qwen3-235b-a22b-no-thinking",
+      "name": "qwen3-235b-a22b-no-thinking",
+      "title": "qwen3-235b-a22b-no-thinking",
+      "origin_title": "qwen3-235b-a22b-no-thinking",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1391.6，排名 #20，约 29735 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#qwen3-235b-a22b-no-thinking",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1392 · #20",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1391.6429206661337,
+      "rank": 20,
+      "metrics": {
+        "arena_score": 1391.6429206661337,
+        "rank": 20,
+        "votes": 29735,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-glm-4.5-air",
+      "name": "glm-4.5-air",
+      "title": "glm-4.5-air",
+      "origin_title": "glm-4.5-air",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1389.9，排名 #20，约 10200 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#glm-4.5-air",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1390 · #20",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1389.858268635106,
+      "rank": 20,
+      "metrics": {
+        "arena_score": 1389.858268635106,
+        "rank": 20,
+        "votes": 10200,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    },
+    {
+      "id": "arena-qwen-vl-max-2025-08-13",
+      "name": "qwen-vl-max-2025-08-13",
+      "title": "qwen-vl-max-2025-08-13",
+      "origin_title": "qwen-vl-max-2025-08-13",
+      "summary": "LMArena 文本对战公开快照（HF 空间 2025-08-29）：Arena Score 1381.4，排名 #20，约 1469 场对战。实时榜请打开 lmarena.ai / arena.ai。",
+      "url": "https://lmarena.ai/#qwen-vl-max-2025-08-13",
+      "updated_at": "2025-08-29T00:00:00.000Z",
+      "category": "LMArena",
+      "contexts": {
+        "topics": [
+          "LMArena",
+          "elo"
+        ]
+      },
+      "hook": "Arena Score 1381 · #20",
+      "disclaimer": "公开 Elo 快照 2025-08-29，非实时；请点榜单核实。",
+      "source": "LMArena",
+      "arena_score": 1381.4353615018529,
+      "rank": 20,
+      "metrics": {
+        "arena_score": 1381.4353615018529,
+        "rank": 20,
+        "votes": 1469,
+        "snapshot": "2025-08-29"
+      },
+      "_channel": "models",
+      "_pretranslated": true
+    }
+  ],
+  "meta": {
+    "aa": "https://artificialanalysis.ai/leaderboards/models",
+    "arena": "https://huggingface.co/spaces/lmarena-ai/lmarena-leaderboard/resolve/main/elo_results_20250829.pkl",
+    "arena_snapshot": "2025-08-29"
+  }
+}

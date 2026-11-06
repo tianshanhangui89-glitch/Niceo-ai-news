@@ -125,27 +125,60 @@ def ingest_smol() -> tuple[int, str]:
     return len(out), "https://news.smol.ai"
 
 
+def _batch_plain(fragment: str) -> str:
+    return H.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", fragment or ""))).strip()
+
+
 def ingest_batch() -> tuple[int, str]:
     html = fetch("https://www.deeplearning.ai/the-batch/").decode("utf-8", "replace")
-    issues = sorted({int(x) for x in re.findall(r"/the-batch/issue-(\d+)/?", html)}, reverse=True)
+    found: list[tuple[int, str, str, str]] = []
+    seen: set[int] = set()
+    for article in re.findall(r"<article\b[^>]*>(.*?)</article>", html, re.S):
+        m = re.search(r'href="/the-batch/issue-(\d+)"', article)
+        if not m:
+            continue
+        num = int(m.group(1))
+        if num in seen:
+            continue
+        seen.add(num)
+        h2 = re.search(r"<h2[^>]*>(.*?)</h2>", article, re.S)
+        title_en = _batch_plain(h2.group(1)) if h2 else ""
+        if not title_en:
+            alts = re.findall(r'alt="([^"]{20,240})"', article)
+            title_en = H.unescape(alts[0]).strip() if alts else f"The Batch Issue {num}"
+        date_m = re.search(r">([A-Z][a-z]{2}\s+\d{1,2},\s+202\d)<", article)
+        blurb_m = re.search(r'<p class="body2[^"]*"[^>]*>(.*?)</p>', article, re.S)
+        blurb = _batch_plain(blurb_m.group(1)) if blurb_m else ""
+        found.append((num, title_en, date_m.group(1) if date_m else "", blurb))
+    if not found:
+        # older listing markup: keep issue numbers, dates filled below
+        for num in sorted({int(x) for x in re.findall(r"/the-batch/issue-(\d+)", html)}, reverse=True)[:9]:
+            found.append((num, f"The Batch Issue {num}", "", ""))
+    found.sort(key=lambda x: -x[0])
     out = []
-    for num in issues[:9]:
+    # Issue 377 was dated 2026-10-30 on the listing. Only used when a card has no date badge.
+    anchor_issue, anchor_date = 377, datetime(2026, 10, 30, 12, 0, tzinfo=SH)
+    for num, title_en, date_s, blurb in found[:9]:
         url = f"https://www.deeplearning.ai/the-batch/issue-{num}/"
-        title_en = f"The Batch Issue {num}"
-        # try to pull title from listing card
-        m = re.search(rf'issue-{num}/[^>]*>\s*([^<]{{12,180}})\s*<', html)
-        if m:
-            title_en = H.unescape(m.group(1)).strip()
-        # rough date: weekly; leave none → fetch_news uses today; set relative guess from issue order
-        # Issue 377 ≈ 2026-10-30 from prior ingest
+        updated = None
+        if date_s:
+            try:
+                updated = datetime.strptime(date_s, "%b %d, %Y").replace(tzinfo=SH, hour=12)
+            except ValueError:
+                updated = None
+        if updated is None:
+            updated = anchor_date - timedelta(weeks=anchor_issue - num)
+        summary = f"Andrew Ng 团队周报（第 {num} 期，{updated.strftime('%Y-%m-%d')}）。原题：{title_en}。"
+        if blurb:
+            summary += f"编者导语：{blurb}"
         out.append({
             "id": f"batch-issue-{num}",
             "name": title_en,
             "title": f"《The Batch》第 {num} 期",
             "origin_title": title_en,
-            "summary": f"Andrew Ng 团队周报（Issue {num}）。原题：{title_en}。请打开原文阅读 Data Points / ML Research。",
+            "summary": summary,
             "url": url,
-            "updated_at": None,
+            "updated_at": updated.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
             "author": "Andrew Ng / DeepLearning.AI",
             "category": "一周精选",
             "contexts": {"topics": ["The Batch", "Andrew Ng"]},
@@ -155,15 +188,6 @@ def ingest_batch() -> tuple[int, str]:
             "_channel": "ai",
             "_pretranslated": True,
         })
-    # stamp dates for the newest few based on weekly cadence ending ~2026-10-30 for 377
-    if out:
-        # find max issue
-        base_issue = max(int(x["id"].split("-")[-1]) for x in out)
-        base_date = datetime(2026, 10, 30, 12, 0, tzinfo=SH)
-        for it in out:
-            n = int(it["id"].split("-")[-1])
-            d = base_date - timedelta(weeks=base_issue - n)
-            it["updated_at"] = d.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     write_raw("ai-batch", "ai", out, {"source": "https://www.deeplearning.ai/the-batch/"})
     return len(out), "https://www.deeplearning.ai/the-batch/"
 

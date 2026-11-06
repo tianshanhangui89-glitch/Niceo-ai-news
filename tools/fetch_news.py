@@ -196,7 +196,8 @@ def load_raw_stories() -> list[dict[str, Any]]:
     stories: list[dict[str, Any]] = []
     if not RAW.exists():
         return stories
-    for f in sorted(RAW.glob("*.json")):
+    # Newest dated snapshot wins when the same id appears in older raw files.
+    for f in sorted(RAW.glob("*.json"), reverse=True):
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
         except Exception as e:

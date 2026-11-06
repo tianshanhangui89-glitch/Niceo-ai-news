@@ -45,3 +45,19 @@ GITHUB_ZH = {
     "vercel-labs/agent-desktop": "面向 AI Agent 的「操控电脑」命令行工具。",
     "vinta/awesome-python": "回答「我想用 Python 做 X，该用什么工具？」的权威清单。",
 }
+
+# 2026-11-07 trending descriptions translated from the GitHub page
+GITHUB_ZH["zed-industries/zed"] = "高性能多人代码编辑器，由 Atom 与 Tree-sitter 的作者打造，主打「思考般的写码速度」。"
+GITHUB_ZH["rails/rails"] = "Ruby on Rails，用 Ruby 构建网页应用的框架。"
+GITHUB_ZH["mpv-player/mpv"] = "命令行媒体播放器。"
+GITHUB_ZH["rust-lang/rust"] = "Rust 编程语言：帮助每个人构建可靠、高效的软件。"
+GITHUB_ZH["react/react"] = "用于 Web 与原生用户界面的库。"
+GITHUB_ZH["angular/angular"] = "用于交付 Web 应用的 Angular 框架。"
+GITHUB_ZH["symfony/symfony"] = "Symfony PHP 框架。"
+GITHUB_ZH["prometheus/prometheus"] = "Prometheus 监控系统与时间序列数据库。"
+GITHUB_ZH["microsoft/vscode"] = "Visual Studio Code 代码编辑器。"
+GITHUB_ZH["nushell/nushell"] = "一种新型 shell。"
+GITHUB_ZH["etcd-io/etcd"] = "为分布式系统中最关键的数据提供可靠的分布式键值存储。"
+GITHUB_ZH["openssl/openssl"] = "通用 TLS 与加密库。"
+GITHUB_ZH["Donchitos/Claude-Code-Game-Studios"] = "把 Claude Code 变成游戏开发工作室：仓库介绍称含 49 个 AI Agent、72 项工作流技能，以及仿照真实工作室层级的协作系统。"
+GITHUB_ZH["nightly-labs/openbot"] = "本地优先的桌面工作区，用来长期运行 AI 队友；可为 Codex、Claude、Grok 提供独立工作区、任务队列、文件共享、浏览器控制与 Agent 之间协作。"
