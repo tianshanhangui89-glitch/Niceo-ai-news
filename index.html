@@ -10,7 +10,7 @@
 :root{
   --bg:#0B1220; --card:#121A2B; --card2:#172033; --line:#243044;
   --txt:#E8EEF8; --muted:#93A4BD; --acc:#22D3EE; --acc2:#38BDF8;
-  --ok:#34D399; --warn:#FBBF24; --bad:#F87171;
+  --ok:#34D399; --warn:#FBBF24; --bad:#F87171; --star:#FBBF24;
   --radius:16px; --pad:14px;
   --safe-top:env(safe-area-inset-top,0px);
   --safe-bot:env(safe-area-inset-bottom,0px);
@@ -23,7 +23,7 @@ body{padding-bottom:calc(18px + var(--safe-bot));}
 a{color:var(--acc2);text-decoration:none}
 header{
   position:sticky;top:0;z-index:20;
-  padding:calc(10px + var(--safe-top)) var(--pad) 10px;
+  padding:calc(10px + var(--safe-top)) var(--pad) 8px;
   background:linear-gradient(180deg,rgba(11,18,32,.98),rgba(11,18,32,.92));
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
 }
@@ -38,9 +38,14 @@ header{
 }
 .btn.primary{background:linear-gradient(135deg,#0891B2,#22D3EE);color:#042F2E;border:none}
 .btn:active{transform:scale(.98);opacity:.9}
-.search{
-  margin-top:10px;display:flex;gap:8px;
+.tabs{display:flex;gap:6px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{
+  flex:1;min-width:0;border:1px solid var(--line);background:var(--card2);color:var(--muted);
+  border-radius:12px;padding:10px 8px;font-size:13px;font-weight:700;cursor:pointer;text-align:center;
 }
+.tab.on{color:#042F2E;background:var(--acc);border-color:transparent}
+.search{margin-top:10px;display:flex;gap:8px;}
 .search input{
   flex:1;min-width:0;border-radius:12px;border:1px solid var(--line);
   background:var(--card2);color:var(--txt);padding:12px 14px;font-size:15px;outline:none;
@@ -71,15 +76,33 @@ main{padding:12px var(--pad) 0}
   background:linear-gradient(180deg,var(--card),var(--card2));
   border:1px solid var(--line);border-radius:var(--radius);
   padding:14px 14px 12px;margin:0 0 12px;cursor:pointer;
-  box-shadow:0 8px 24px rgba(0,0,0,.18);
+  box-shadow:0 8px 24px rgba(0,0,0,.18);position:relative;
 }
 .card:active{transform:scale(.995)}
+.card-top{display:flex;align-items:flex-start;gap:8px;margin-bottom:8px}
 .cat{
   display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;
-  color:#083344;background:#A5F3FC;border-radius:999px;padding:3px 8px;margin-bottom:8px;
+  color:#083344;background:#A5F3FC;border-radius:999px;padding:3px 8px;
 }
-.card h2{margin:0 0 8px;font-size:17px;line-height:1.35}
+.cat.world{background:#FDE68A;color:#78350F}
+.cat.startup{background:#C4B5FD;color:#4C1D95}
+.cat.github{background:#BBF7D0;color:#14532D}
+.cat.favch{background:#FBCFE8;color:#9D174D}
+.fav-btn{
+  margin-left:auto;border:none;background:transparent;color:var(--muted);
+  font-size:22px;line-height:1;padding:4px 6px;cursor:pointer;min-width:40px;min-height:40px;
+}
+.fav-btn.on{color:var(--star)}
+.card h2{margin:0 0 8px;font-size:17px;line-height:1.35;padding-right:8px}
 .card .sum{margin:0;color:#C7D2E5;font-size:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.gh-stats{
+  display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px;font-size:12px;font-weight:700;
+}
+.gh-stats span{
+  background:rgba(34,211,238,.12);border:1px solid var(--line);border-radius:999px;
+  padding:4px 10px;color:#A5F3FC;
+}
+.gh-stats .rank{background:rgba(251,191,36,.15);color:#FDE68A}
 .foot{display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:12px;color:var(--muted)}
 .empty{
   text-align:center;padding:48px 16px;color:var(--muted);
@@ -92,9 +115,7 @@ main{padding:12px var(--pad) 0}
   opacity:0;pointer-events:none;transition:.25s;z-index:50;max-width:90vw;
 }
 .toast.show{opacity:1}
-.pull{
-  text-align:center;color:var(--muted);font-size:12px;height:0;overflow:hidden;transition:.15s;
-}
+.pull{text-align:center;color:var(--muted);font-size:12px;height:0;overflow:hidden;transition:.15s;}
 #detail{
   display:none;position:fixed;inset:0;z-index:40;background:rgba(2,6,23,.72);
   padding:calc(18px + var(--safe-top)) 12px calc(18px + var(--safe-bot));
@@ -105,8 +126,6 @@ main{padding:12px var(--pad) 0}
 }
 #detail h2{margin:8px 0 10px;font-size:20px}
 #detail .actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
-.spinner{display:inline-block;width:12px;height:12px;border:2px solid #67E8F9;border-right-color:transparent;border-radius:50%;animation:sp .7s linear infinite}
-@keyframes sp{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
@@ -114,10 +133,17 @@ main{padding:12px var(--pad) 0}
   <div class="row">
     <div class="brand">
       <h1>AI热点</h1>
-      <p id="sub">X 上的 AI 相关热点 · 日更</p>
+      <p id="sub">AI · 时政 · 创业 · GitHub</p>
     </div>
     <button class="btn" id="btnDates" type="button">日期</button>
     <button class="btn primary" id="btnRefresh" type="button">刷新</button>
+  </div>
+  <div class="tabs" id="tabs">
+    <button class="tab on" type="button" data-ch="ai">AI</button>
+    <button class="tab" type="button" data-ch="world">时政</button>
+    <button class="tab" type="button" data-ch="startup">创业</button>
+    <button class="tab" type="button" data-ch="github">GitHub</button>
+    <button class="tab" type="button" data-ch="fav">收藏</button>
   </div>
   <div class="search">
     <input id="q" type="search" placeholder="搜索标题 / 摘要 / 分类" enterkeyhint="search" autocomplete="off">
@@ -140,10 +166,13 @@ const REMOTES = [
   "https://cdn.jsdelivr.net/gh/tianshanhangui89-glitch/niceo-ai-news@main/data.json"
 ];
 const LOCALS = ["./data.json", "data.json"];
+const FAV_KEY = "ainews.favorites.v1";
 let DATA = {items:[], generated_at:"", days:[]};
 let filterDate = "all";
 let filterCat = "all";
 let query = "";
+let channel = "ai"; // ai | world | startup | github | fav
+let FAVS = loadFavs();
 
 const $ = (id)=>document.getElementById(id);
 function toast(msg){
@@ -156,8 +185,43 @@ function setStatus(text, mode){
 }
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));}
 function openUrl(url){
-  // WebView intercepts http(s); keep target=_blank as fallback for desktop preview
   try{ window.open(url, "_blank"); }catch(e){ location.href=url; }
+}
+function loadFavs(){
+  try{ const j=JSON.parse(localStorage.getItem(FAV_KEY)||"{}"); return (j && typeof j==="object")?j:{}; }
+  catch(e){ return {}; }
+}
+function saveFavs(){
+  try{ localStorage.setItem(FAV_KEY, JSON.stringify(FAVS)); }catch(e){ toast("收藏保存失败（存储已满？）"); }
+}
+function isFav(id){ return !!(FAVS && FAVS[id]); }
+function snapshot(it){
+  return {
+    id:it.id, title:it.title, summary:it.summary, url:it.url, source:it.source,
+    author:it.author, published_at:it.published_at, date:it.date, category:it.category,
+    topics:it.topics||[], hook:it.hook||"", disclaimer:it.disclaimer||"",
+    channel:it.channel||"ai", language:it.language, stars:it.stars, forks:it.forks,
+    rank:it.rank, period:it.period, stars_today:it.stars_today, metrics:it.metrics||{},
+    saved_at: new Date().toISOString()
+  };
+}
+function toggleFav(it, ev){
+  if(ev){ ev.stopPropagation(); ev.preventDefault(); }
+  if(!it || !it.id) return;
+  if(FAVS[it.id]){ delete FAVS[it.id]; toast("已取消收藏"); }
+  else { FAVS[it.id]=snapshot(it); toast("已加入收藏"); }
+  saveFavs();
+  render();
+}
+function chLabel(ch){
+  return ({ai:"AI",world:"时政",startup:"创业",github:"GitHub",fav:"收藏"})[ch]||ch;
+}
+function catClass(it){
+  const ch=it.channel||"ai";
+  if(ch==="world") return "cat world";
+  if(ch==="startup") return "cat startup";
+  if(ch==="github") return "cat github";
+  return "cat";
 }
 
 async function fetchJson(url, ms){
@@ -181,13 +245,14 @@ async function loadAll(preferRemote){
     try{
       const j=await fetchJson(u, u.startsWith("http")?12000:4000);
       if(!j || !Array.isArray(j.items)) throw new Error("格式不对");
+      // normalize missing channel
+      j.items.forEach(it=>{ if(!it.channel) it.channel="ai"; });
       if(!best){ best=j; from=u; }
       else {
         const a=String(j.generated_at||j.generated||"");
         const b=String(best.generated_at||best.generated||"");
         if(a>b){ best=j; from=u; }
       }
-      // local first path: if not preferRemote and local ok, still try remotes for newer
       if(!preferRemote && !u.startsWith("http")) continue;
     }catch(e){ errors.push(u.split("/").slice(-2).join("/")+": "+(e.message||e)); }
   }
@@ -207,25 +272,45 @@ async function loadAll(preferRemote){
   if(preferRemote) toast(remote?"已同步最新":"远端不可用，已用本地");
 }
 
+function poolItems(){
+  if(channel==="fav") return Object.values(FAVS).sort((a,b)=>String(b.saved_at||"").localeCompare(String(a.saved_at||"")));
+  return (DATA.items||[]).filter(it => (it.channel||"ai")===channel);
+}
+
 function cats(){
   const m=new Map();
-  for(const it of DATA.items||[]){ m.set(it.category||"其他",(m.get(it.category||"其他")||0)+1); }
+  for(const it of poolItems()){
+    if(channel==="github"){
+      const p=it.period||"daily";
+      const label=({daily:"今日趋势",weekly:"本周趋势",popular:"高星热度"})[p]||p;
+      m.set(label,(m.get(label)||0)+1);
+    } else {
+      m.set(it.category||"其他",(m.get(it.category||"其他")||0)+1);
+    }
+  }
   return [...m.entries()].sort((a,b)=>b[1]-a[1]);
 }
 
 function filtered(){
   const q=query.trim().toLowerCase();
-  return (DATA.items||[]).filter(it=>{
-    if(filterDate!=="all" && it.date!==filterDate) return false;
-    if(filterCat!=="all" && (it.category||"其他")!==filterCat) return false;
+  return poolItems().filter(it=>{
+    if(channel!=="fav" && filterDate!=="all" && it.date!==filterDate) return false;
+    if(filterCat!=="all"){
+      if(channel==="github"){
+        const p=it.period||"daily";
+        const label=({daily:"今日趋势",weekly:"本周趋势",popular:"高星热度"})[p]||p;
+        if(label!==filterCat) return false;
+      } else if((it.category||"其他")!==filterCat) return false;
+    }
     if(!q) return true;
-    const hay=((it.title||"")+" "+(it.summary||"")+" "+(it.category||"")).toLowerCase();
+    const hay=((it.title||"")+" "+(it.summary||"")+" "+(it.category||"")+" "+(it.language||"")).toLowerCase();
     return hay.includes(q);
   });
 }
 
 function renderChips(){
   const box=$("chips");
+  if(channel==="fav"){ box.innerHTML=""; return; }
   const parts=[];
   parts.push(`<button class="chip ${filterCat==="all"?"on":""}" data-cat="all">全部</button>`);
   for(const [c,n] of cats().slice(0,10)){
@@ -237,57 +322,121 @@ function renderChips(){
   });
 }
 
+function ghStatsHtml(it){
+  const bits=[];
+  if(it.rank) bits.push(`<span class="rank">#${esc(it.rank)} ${esc(({daily:"今日",weekly:"本周",popular:"热度"})[it.period]||it.period||"")}</span>`);
+  if(it.stars!=null) bits.push(`<span>★ ${Number(it.stars).toLocaleString()}</span>`);
+  if(it.stars_today) bits.push(`<span>+${Number(it.stars_today).toLocaleString()} 今日</span>`);
+  if(it.language) bits.push(`<span>${esc(it.language)}</span>`);
+  if(it.forks) bits.push(`<span>Fork ${Number(it.forks).toLocaleString()}</span>`);
+  return bits.length?`<div class="gh-stats">${bits.join("")}</div>`:"";
+}
+
 function render(){
+  document.querySelectorAll("#tabs .tab").forEach(el=>{
+    el.classList.toggle("on", el.getAttribute("data-ch")===channel);
+  });
   renderChips();
   const items=filtered();
-  $("count").textContent=items.length+" / "+(DATA.items||[]).length+" 条";
+  const totalPool=poolItems().length;
+  const favN=Object.keys(FAVS).length;
+  $("count").textContent = channel==="fav"
+    ? (`收藏 ${items.length} / ${favN}`)
+    : (`${items.length} / ${totalPool} · 全库 ${(DATA.items||[]).length}`);
   const list=$("list");
   if(!items.length){
-    list.innerHTML=`<div class="empty"><b>暂无热点</b>下拉或点右上角「刷新」拉取今日 X AI 新闻。<br>若刚安装且无网，等日更任务写入后再打开。</div>`;
+    if(channel==="fav"){
+      list.innerHTML=`<div class="empty"><b>还没有收藏</b>在任意频道点卡片右上角 ★，新闻会保存在这里。<br>即使日更刷新后原条目下架，收藏仍可看。</div>`;
+    } else {
+      list.innerHTML=`<div class="empty"><b>暂无内容</b>下拉或点右上角「刷新」拉取最新数据。<br>当前频道：${esc(chLabel(channel))}</div>`;
+    }
     return;
   }
-  const byDay={};
-  for(const it of items){
-    const d=it.date||"未知日期";
-    (byDay[d]=byDay[d]||[]).push(it);
-  }
-  const days=Object.keys(byDay).sort().reverse();
+  // GitHub: group by period; others by day
   let html="";
-  for(const d of days){
-    html+=`<div class="day">${esc(d)} · ${byDay[d].length} 条</div>`;
-    for(const it of byDay[d]){
-      html+=`<article class="card" data-id="${esc(it.id)}">
-        <span class="cat">${esc(it.category||"AI")}</span>
-        <h2>${esc(it.title)}</h2>
-        <p class="sum">${esc(it.summary)}</p>
-        <div class="foot"><span>${esc((it.published_at||"").slice(0,16))}</span><span>看原文 →</span></div>
-      </article>`;
+  if(channel==="github"){
+    const order=["daily","weekly","popular"];
+    const labels={daily:"今日趋势",weekly:"本周趋势",popular:"高星热度"};
+    const by={};
+    for(const it of items){ const p=it.period||"daily"; (by[p]=by[p]||[]).push(it); }
+    for(const p of order){
+      if(!by[p]||!by[p].length) continue;
+      html+=`<div class="day">${labels[p]} · ${by[p].length} 个仓库</div>`;
+      for(const it of by[p]) html+=cardHtml(it, false);
+    }
+  } else if(channel==="fav"){
+    html+=`<div class="day">我的收藏 · ${items.length}</div>`;
+    for(const it of items) html+=cardHtml(it, true);
+  } else {
+    const byDay={};
+    for(const it of items){ const d=it.date||"未知日期"; (byDay[d]=byDay[d]||[]).push(it); }
+    const days=Object.keys(byDay).sort().reverse();
+    for(const d of days){
+      html+=`<div class="day">${esc(d)} · ${byDay[d].length} 条</div>`;
+      for(const it of byDay[d]) html+=cardHtml(it, false);
     }
   }
   list.innerHTML=html;
   list.querySelectorAll(".card").forEach(el=>{
-    el.onclick=()=>showDetail(el.getAttribute("data-id"));
+    el.onclick=()=>showDetail(el.getAttribute("data-id"), el.getAttribute("data-from-fav")==="1");
+  });
+  list.querySelectorAll(".fav-btn").forEach(btn=>{
+    btn.onclick=(e)=>{
+      e.stopPropagation(); e.preventDefault();
+      const id=btn.getAttribute("data-id");
+      const fromFav=btn.getAttribute("data-from-fav")==="1";
+      const it = fromFav ? FAVS[id] : (DATA.items||[]).find(x=>x.id===id) || FAVS[id];
+      if(it) toggleFav(it, e);
+    };
   });
 }
 
-function showDetail(id){
-  const it=(DATA.items||[]).find(x=>x.id===id);
+function cardHtml(it, fromFav){
+  const on=isFav(it.id)?" on":"";
+  const star=isFav(it.id)?"★":"☆";
+  const chTag = fromFav ? `<span class="cat favch">${esc(chLabel(it.channel||"ai"))}</span>` : "";
+  const gh = (it.channel==="github" || channel==="github") ? ghStatsHtml(it) : "";
+  return `<article class="card" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}">
+    <div class="card-top">
+      <span class="${catClass(it)}">${esc(it.category||chLabel(it.channel||"ai"))}</span>
+      ${chTag}
+      <button class="fav-btn${on}" type="button" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}" aria-label="收藏">${star}</button>
+    </div>
+    <h2>${esc(it.title)}</h2>
+    ${gh}
+    <p class="sum">${esc(it.summary)}</p>
+    <div class="foot"><span>${esc((it.published_at||it.date||"").toString().slice(0,16))}</span><span>${it.channel==="github"?"打开仓库 →":"看原文 →"}</span></div>
+  </article>`;
+}
+
+function findItem(id, fromFav){
+  if(fromFav && FAVS[id]) return FAVS[id];
+  return (DATA.items||[]).find(x=>x.id===id) || FAVS[id];
+}
+
+function showDetail(id, fromFav){
+  const it=findItem(id, !!fromFav);
   if(!it) return;
+  const favOn=isFav(it.id);
   $("detail").style.display="block";
   $("sheet").innerHTML=`
-    <div class="row"><span class="cat">${esc(it.category||"AI")}</span>
+    <div class="row"><span class="${catClass(it)}">${esc(it.category||"AI")}</span>
+      <span style="color:var(--muted);font-size:12px;margin-left:8px">${esc(chLabel(it.channel||"ai"))}</span>
       <button class="btn" type="button" id="closeDetail" style="margin-left:auto">关闭</button></div>
     <h2>${esc(it.title)}</h2>
     <p style="color:var(--muted);font-size:12px;margin:0 0 10px">${esc(it.published_at||it.date||"")} · ${esc(it.source||"X")}</p>
+    ${(it.channel==="github")?ghStatsHtml(it):""}
     <p style="margin:0;font-size:15px;line-height:1.65">${esc(it.summary)}</p>
     ${it.hook?`<p style="margin:12px 0 0;color:#A5B4C8;font-size:13px">导语：${esc(it.hook)}</p>`:""}
     <div class="actions">
-      <button class="btn primary" type="button" id="openSrc">打开 X 原文</button>
+      <button class="btn primary" type="button" id="openSrc">${it.channel==="github"?"打开 GitHub":"打开 X 原文"}</button>
+      <button class="btn" type="button" id="togFav">${favOn?"取消收藏 ★":"收藏 ☆"}</button>
       <button class="btn" type="button" id="copyLink">复制链接</button>
     </div>
-    <p style="margin:14px 0 0;color:var(--muted);font-size:11px">摘要来自 X News 聚合，可能随讨论演变；请点原文核实。非投资/医疗建议。</p>`;
+    <p style="margin:14px 0 0;color:var(--muted);font-size:11px">摘要可能随讨论演变；请点原文核实。收藏保存在本机，不会上传。非投资/医疗建议。</p>`;
   $("closeDetail").onclick=()=>{$("detail").style.display="none";};
   $("openSrc").onclick=()=>openUrl(it.url);
+  $("togFav").onclick=(e)=>{ toggleFav(it,e); showDetail(id, fromFav); };
   $("copyLink").onclick=async()=>{
     try{ await navigator.clipboard.writeText(it.url); toast("已复制链接"); }
     catch(e){ toast(it.url); }
@@ -297,16 +446,22 @@ function showDetail(id){
 
 $("btnRefresh").onclick=()=>loadAll(true);
 $("q").addEventListener("input", e=>{ query=e.target.value||""; render(); });
+$("tabs").querySelectorAll(".tab").forEach(el=>{
+  el.onclick=()=>{
+    channel=el.getAttribute("data-ch");
+    filterCat="all";
+    render();
+  };
+});
 $("btnDates").onclick=()=>{
-  const days=["all", ...[...new Set((DATA.items||[]).map(x=>x.date).filter(Boolean))].sort().reverse()];
-  const labels={all:"全部日期"};
+  if(channel==="fav"||channel==="github"){ toast(channel==="fav"?"收藏不按日期筛选":"GitHub 请用上方趋势/热度筛选"); return; }
+  const days=["all", ...[...new Set(poolItems().map(x=>x.date).filter(Boolean))].sort().reverse()];
   const i=Math.max(0, days.indexOf(filterDate));
   filterDate=days[(i+1)%days.length];
   toast(filterDate==="all"?"显示全部日期":("只看 "+filterDate));
   render();
 };
 
-// pull to refresh (simple)
 let startY=0, pulling=false;
 document.addEventListener("touchstart",e=>{
   if(window.scrollY<=0){ startY=e.touches[0].clientY; pulling=true; }

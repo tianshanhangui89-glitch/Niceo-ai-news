@@ -1,70 +1,282 @@
 {
-  "generated_at": "2026-11-06 15:20:42 +08:00",
-  "generated": "2026-11-06 15:20:42 +08:00",
+  "generated_at": "2026-11-06 16:07:05 +08:00",
+  "generated": "2026-11-06 16:07:05 +08:00",
   "timezone": "Asia/Shanghai",
-  "source": "x.search_news",
-  "item_count": 45,
-  "fresh_count": 45,
+  "source": "x.search_news+github",
+  "item_count": 135,
+  "fresh_count": 135,
+  "ai_count": 45,
+  "world_count": 30,
+  "startup_count": 17,
+  "github_count": 43,
   "days": [
     {
       "date": "2026-11-06",
-      "count": 34,
+      "count": 105,
       "ids": [
+        "2118208491945095464",
+        "2118611293850755377",
+        "2118380411042889961",
+        "2118605797336986016",
+        "2118604094084448368",
+        "2118602279343300622",
         "2118406567187947755",
         "2118125161194926199",
         "2118437885443502131",
         "2118277194313289798",
+        "2118461967304138771",
+        "2118583745347543288",
         "2118478224711905460",
         "2118393214050959385",
         "2118499605021360438",
         "2118427442922901851",
         "2118103911143985539",
         "2118499606350950864",
+        "2118474980145160485",
         "2118372065975603268",
         "2118561861109203322",
+        "2118561857682440698",
         "2117856700447203558",
+        "2118448222796681249",
         "2118555311078309901",
         "2118448210276753768",
         "2118410028210426229",
+        "2118248427318587813",
         "2118504950720340462",
         "2117902210726305919",
         "2118298102448677157",
+        "2118493644223062336",
+        "2117929718276059646",
         "2118437886877937901",
         "2118351761786188038",
+        "2118465196104839624",
         "2118465194611630250",
+        "2118465190899667298",
         "2117768217288400999",
         "2118298101572055268",
         "2118046928432935419",
+        "2118451600184541484",
+        "2118451598590652584",
+        "2118403330204430570",
         "2118441520319680789",
         "2118441513608753167",
+        "2118437885468688599",
         "2118390283201044816",
+        "2118434500640477518",
         "2118068699252801836",
         "2118083605356236883",
+        "2118286877002236005",
+        "2118420612800766233",
         "2118255535443386747",
         "2118410031901348093",
         "2118406566810464688",
-        "2118334452208164988"
+        "2117979572386116079",
+        "2118393216412389857",
+        "2118386779480829966",
+        "2118386778453221755",
+        "2118336300529144001",
+        "2118334452208164988",
+        "gh-daily-NVIDIA--auto-ontology",
+        "gh-daily-mattpocock--skills",
+        "gh-daily-garrytan--gstack",
+        "gh-daily-Usagi-org--ai-goofish-monitor",
+        "gh-daily-D4Vinci--Scrapling",
+        "gh-daily-vercel-labs--agent-desktop",
+        "gh-daily-max-sixty--worktrunk",
+        "gh-daily-lz4--lz4",
+        "gh-daily-google--skills",
+        "gh-daily-vercel-labs--agent-browser",
+        "gh-daily-scenario-labs--skills",
+        "gh-daily-ConardLi--garden-skills",
+        "gh-daily-microsoft--VibeVoice",
+        "gh-daily-floci-io--floci",
+        "gh-daily-JiaFeiMiao-K-Cat--DiscImageStudio",
+        "gh-weekly-thedotmack--claude-mem",
+        "gh-weekly-Nutlope--hallmark",
+        "gh-weekly-pingdotgg--t3code",
+        "gh-weekly-anthropics--skills",
+        "gh-weekly-HKUDS--DeepTutor",
+        "gh-weekly-milind-soni--OpenMausBot",
+        "gh-weekly-obra--superpowers",
+        "gh-weekly-pbakaus--impeccable",
+        "gh-weekly-hyprwm--Hyprland",
+        "gh-weekly-jakubkrehel--skills",
+        "gh-weekly-calesthio--OpenMontage",
+        "gh-weekly-multica-ai--andrej-karpathy-skills",
+        "gh-weekly-ghostty-org--ghostty",
+        "gh-weekly-Leonxlnx--taste-skill",
+        "gh-weekly-The-PR-Agent--pr-agent",
+        "gh-popular-codecrafters-io--build-your-own-x",
+        "gh-popular-sindresorhus--awesome",
+        "gh-popular-public-apis--public-apis",
+        "gh-popular-freeCodeCamp--freeCodeCamp",
+        "gh-popular-morluto--rea",
+        "gh-popular-EbookFoundation--free-programming-books",
+        "gh-popular-openclaw--openclaw",
+        "gh-popular-donnemartin--system-design-primer",
+        "gh-popular-nilbuild--developer-roadmap",
+        "gh-popular-jwasham--coding-interview-university",
+        "gh-popular-awesome-selfhosted--awesome-selfhosted",
+        "gh-popular-vinta--awesome-python",
+        "gh-popular-affaan-m--ECC"
       ]
     },
     {
       "date": "2026-11-05",
-      "count": 11,
+      "count": 26,
       "ids": [
         "2118015143208423849",
         "2118110195176157443",
         "2118351763493253454",
         "2118264704204226796",
+        "2117923286021439728",
         "2118200427053260808",
         "2118145172592898133",
         "2118340646520123759",
+        "2117915609686310931",
+        "2118191833507414263",
         "2117579420454248497",
+        "2118286881678844222",
         "2118280391975117053",
         "2118271014824026186",
-        "2118257483693322658"
+        "2118257483693322658",
+        "2118202492874060108",
+        "2118113420230943037",
+        "2118142597440872803",
+        "2117933286873767949",
+        "2118061599072080170",
+        "2117856698912104805",
+        "2118061592810053684",
+        "2118054556709822849",
+        "2118043125419831759",
+        "2118008775663820877",
+        "2117954842907865273"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "count": 4,
+      "ids": [
+        "2117989754717516126",
+        "2117844075466588390",
+        "2117869599362514958",
+        "2117885286957060389"
       ]
     }
   ],
   "items": [
+    {
+      "id": "2118208491945095464",
+      "title": "伊朗高官会晤普京，霍尔木兹油轮遇险消息同步发酵",
+      "summary": "礼萨伊在克里姆林宫递交最高领袖信函；伊方称海峡非授权航线有油轮触雷/起火并拦截美无人机，俄发罕见赴伊旅行警示，独立核实有限。",
+      "url": "https://x.com/i/trending/2118208491945095464",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 15:53:24 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中东",
+      "topics": [
+        "News"
+      ],
+      "hook": "Photos captured Iran's Mohsen Rezaei in military uniform shaking hands with Vladimir Putin at the Kremlin, just as oil tankers faced fires and mines in the Strait of Hormuz.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118611293850755377",
+      "title": "独立开发者一日用 AI 做出科幻射击游戏",
+      "summary": "Three.js + TripoAI 等生成画面音效动画；有人赞速度，也有资深开发批质量与素材挪用。游戏公司表达 Gamescom 兴趣。",
+      "url": "https://x.com/i/trending/2118611293850755377",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 15:53:20 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "独立开发",
+      "topics": [
+        "Entertainment"
+      ],
+      "hook": "A solo developer turned heads by crafting a full sci-fi shooter—complete with guns, vehicles, and boss fights—using only AI tools in a single day on his laptop.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118380411042889961",
+      "title": "Aina 智能戒指：拇指一拨批准 AI Agent 下一步",
+      "summary": "钛合金戒指显示基于日程/位置预测的三个动作，可控音乐、通话与智能家居；早鸟约 $399，2027 年初发货。",
+      "url": "https://x.com/i/trending/2118380411042889961",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 15:45:17 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产品发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine approving an Uber ride or turning on your lights with just a thumb flick—no phone needed. Apoorv Shankar's Aina ring makes proactive AI that simple.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118605797336986016",
+      "title": "Aina 戒指再推：专为批准 Agent 动作设计的指尖界面",
+      "summary": "彩色 OLED+摇杆+麦扬，学习 iPhone/Mac 习惯给出三个候选；与 Glasshand 真机租赁形成「手控+真机执行」叙事。",
+      "url": "https://x.com/i/trending/2118605797336986016",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 15:30:55 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产品发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine approving your AI agent's next move with a quick thumb flick on your finger, no phone unlock needed. Aina's new titanium ring makes that real for everyday routines like booking an Uber after breakfast.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118604094084448368",
+      "title": "日经指数一日重挫约 6%，亚洲科技股承压",
+      "summary": "华尔街科技股回调与美中期选举后监管预期升温，东京半导体股双位数下跌，韩国综指触发熔断，市场称「血洗」亦有人视作过热后修正。",
+      "url": "https://x.com/i/trending/2118604094084448368",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 15:24:48 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "亚太市场",
+      "topics": [
+        "Business & Finance",
+        "Stocks"
+      ],
+      "hook": "Tokyo traders watched in dismay as the Nikkei 225 shed over 6% in hours, erasing ¥73 trillion in value amid a global risk-off rush.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118602279343300622",
+      "title": "澳门法院判民主派议员区锦新 12.5 年徒刑",
+      "summary": "这是澳门扩权后国安法首案，罪名含颠覆、勾结境外等；区锦新部分控罪因证据不足获开释。人权组织批评程序，特区政府强调司法独立。",
+      "url": "https://x.com/i/trending/2118602279343300622",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 15:16:44 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中国港澳",
+      "topics": [
+        "News",
+        "Politics"
+      ],
+      "hook": "Au Kam San, a 69-year-old former teacher and longtime voice for democracy in Macau, received a 12-year-and-six-month prison sentence after a closed-door trial.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
     {
       "id": "2118406567187947755",
       "title": "Claude 上线个人财务 Beta：美国用户可只读连接银行",
@@ -80,7 +292,8 @@
         "Personal Finance"
       ],
       "hook": "Anthropic's new beta tool makes personal finance possible inside Claude.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118125161194926199",
@@ -98,7 +311,8 @@
         "AI"
       ],
       "hook": "OpenAI's new model found nearly 1,000 security flaws in the Linux kernel in a week.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118437885443502131",
@@ -116,7 +330,8 @@
         "AI"
       ],
       "hook": "Ant Ling just dropped Ling-3.2-flash.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118277194313289798",
@@ -134,7 +349,46 @@
         "AI"
       ],
       "hook": "Logan Kilpatrick lit up the announcement with longer videos and a 30% price cut.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118461967304138771",
+      "title": "美国制裁古巴政权网络并点名中国相关供应商",
+      "summary": "国务卿鲁比奥依行政令列入实体、个人与船舶，含向古巴军方供货的中国相关方；财政部扩大关键行业外国人士制裁，粮药除外。",
+      "url": "https://x.com/i/trending/2118461967304138771",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:13:16 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "美国外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "Marco Rubio announced sanctions hitting Cuba's military backers just as rumors swirled about his future role. The move targets networks sustaining the regime amid Cuban hardships.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118583745347543288",
+      "title": "彭博分析：美国中期选举或拖累中国相关 AI 产业链",
+      "summary": "民主党在国会得势后，美方数据中心扩张可能放缓；电力需求展望至 2035 年约 106GW。市场担忧亚洲科技股承压，亦有人认为地方对水电用地的抵制才是主因。",
+      "url": "https://x.com/i/trending/2118583745347543288",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 14:05:22 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中美 / 经济",
+      "topics": [
+        "Technology",
+        "AI",
+        "Politics"
+      ],
+      "hook": "A new Bloomberg analysis links US midterm shifts to China's economic future, warning that any Democratic slowdown in America's AI boom could hit Asian tech stocks hard.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118478224711905460",
@@ -152,7 +406,8 @@
         "AI"
       ],
       "hook": "Imagine your AI agent swiping through TikTok on a real iPhone.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118393214050959385",
@@ -170,7 +425,8 @@
         "AI"
       ],
       "hook": "Developers are sharing tutorials and tools.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118499605021360438",
@@ -189,7 +445,8 @@
         "Business & Finance"
       ],
       "hook": "Imagine an AI tackling a 40-hour investment deal.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118427442922901851",
@@ -207,7 +464,8 @@
         "AI"
       ],
       "hook": "AI systems are now helping Anthropic researchers move twice as fast on key tasks.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118103911143985539",
@@ -224,7 +482,8 @@
         "AI"
       ],
       "hook": "AI agents scanning job boards and settling payments on their own.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118499606350950864",
@@ -242,7 +501,27 @@
         "AI"
       ],
       "hook": "Dwarkesh Patel turned Blood on the Clocktower into a battleground for top AI models.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118474980145160485",
+      "title": "Cursor 上线「Build Live Apps」：一句话部署带库带鉴权的网页工具",
+      "summary": "提示词直接变成 Postgres+登录+安全检查+Vercel 托管的可分享应用；销售/法务/工程都在用，付费云 Agent 计划可用。",
+      "url": "https://x.com/i/trending/2118474980145160485",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 13:01:03 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "产品发布",
+      "topics": [
+        "Technology",
+        "Software Development"
+      ],
+      "hook": "Imagine typing 'Build a seat map for new hires' and getting a secure, shareable web app ready for your team—no setup required.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
     },
     {
       "id": "2118372065975603268",
@@ -260,7 +539,8 @@
         "AI"
       ],
       "hook": "Tencent's Hunyuan team unveiled Hy4.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118561861109203322",
@@ -278,7 +558,26 @@
         "AI"
       ],
       "hook": "Developers are noticing a real change in their daily coding tools.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118561857682440698",
+      "title": "美宗教自由委员会建议以援助条件施压印度保护圣地",
+      "summary": "委员就旁遮普等地锡克庙遇袭表态，建议将安全援助与新德里应对挂钩；印方多指偏见或时机敏感，警方称至少一起或为自导。",
+      "url": "https://x.com/i/trending/2118561857682440698",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 12:36:14 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "美印关系",
+      "topics": [
+        "Religion"
+      ],
+      "hook": "Just weeks after a foiled mass shooting at a Hindu temple near Chicago, U.S. commissioners called out attacks on Sikh gurdwaras in India and pushed to tie security aid to protections for worship sites.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2117856700447203558",
@@ -297,7 +596,27 @@
         "Software Development"
       ],
       "hook": "Boris Cherny's 30-minute talk revealed how Anthropic teams use Claude Code to ship features with minimal oversight.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118448222796681249",
+      "title": "谷歌承诺在马来西亚砸约 150 亿美元建数据中心",
+      "summary": "雪兰莪与森美兰园区叠加清洁能源与培训；估算年贡献 GDP 约 11 亿美元。外界将其与美国各州收紧数据中心审批对照，视为算力外溢东南亚。",
+      "url": "https://x.com/i/trending/2118448222796681249",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 12:19:44 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "亚太 / 科技",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "Google is pouring $15 billion into new data centers in Malaysia, chasing smoother paths abroad while U.S. states tighten rules on power and water use.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118555311078309901",
@@ -314,7 +633,8 @@
         "AI"
       ],
       "hook": "AI enthusiasts are on the edge of their seats for possible OpenAI drops.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118448210276753768",
@@ -331,7 +651,8 @@
         "Technology"
       ],
       "hook": "Fei-Fei Li invited everyone to try real-time Atlas.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118410028210426229",
@@ -349,7 +670,28 @@
         "AI"
       ],
       "hook": "A pint-sized AI trained only for 1v1 Catan sneaked onto the top of Colonist.io.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118248427318587813",
+      "title": "中国叫停软银约 54 亿美元收购 ABB 机器人业务",
+      "summary": "发改委否决聚焦中国区的交易，该业务约 1.27 万人、本地销量占比超九成。监管担心机器人数据外流用于海外 AI 训练；软银东京股价承压。",
+      "url": "https://x.com/i/trending/2118248427318587813",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 09:27:10 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中国 / 监管",
+      "topics": [
+        "Technology",
+        "Robotics",
+        "Business & Finance"
+      ],
+      "hook": "After months of review, China's regulators surprised many by halting SoftBank's bid for ABB's robotics arm, protecting key operations in Shanghai.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118504950720340462",
@@ -367,7 +709,8 @@
         "AI"
       ],
       "hook": "A small team built GPU kernels in 20 days that beat NVIDIA's stack.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2117902210726305919",
@@ -385,7 +728,8 @@
         "AI"
       ],
       "hook": "Developers praise Codex for navigating tricky UIs like a human.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118298102448677157",
@@ -404,7 +748,46 @@
         "Politics"
       ],
       "hook": "CEOs are mandating AI use for employees, even tying it to job security.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118493644223062336",
+      "title": "特朗普宣布年底停止每年约 40 亿美元对以军援",
+      "summary": "称以色列不再需要该笔资金但仍可购买美武；决定适逢民主党在国会得势与两党「钱要花在国内」呼声。亦有议员警告损害美国就业与盟友信号。",
+      "url": "https://x.com/i/trending/2118493644223062336",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 08:08:07 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "美国外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "President Trump revealed a deal with Israel's Netanyahu to cut off $4 billion in yearly U.S. aid by year's end, signaling a shift in foreign policy priorities.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2117929718276059646",
+      "title": "Vangrid：用手机拍 3D 现场换 USDC，喂给机器人训练",
+      "summary": "Agent 发赏金、路人短视频环绕扫描，脱敏后重建点云；种子轮约 900 万美元，已结算约 71 万美元、超百万次采集。",
+      "url": "https://x.com/i/trending/2117929718276059646",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 08:07:21 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "融资",
+      "topics": [
+        "Business & Finance",
+        "Cryptocurrency",
+        "Technology"
+      ],
+      "hook": "Imagine your smartphone turning a quick video of a warehouse corner into paid work for training robots. Vangrid makes that real, blending human eyes with AI needs.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
     },
     {
       "id": "2118437886877937901",
@@ -421,7 +804,8 @@
         "Technology"
       ],
       "hook": "VybBench puts precision editing frustration to the test.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118351761786188038",
@@ -439,7 +823,26 @@
         "AI"
       ],
       "hook": "Researchers warn that feeding AI its own generated data leads to forgetting rare patterns.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118465196104839624",
+      "title": "伊朗外长一日连线十余国推动降温",
+      "summary": "阿拉格齐与巴基斯坦、沙特、阿联酋、土耳其等通话，聚焦双边与地区降级；观察者称这是敏感期少见的宽幅外交冲刺。",
+      "url": "https://x.com/i/trending/2118465196104839624",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 06:16:22 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中东",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "On a single day, Iran's top diplomat picked up the phone to connect with nearly a dozen regional leaders, all focused on cooling tensions and keeping dialogue alive.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118465194611630250",
@@ -457,7 +860,29 @@
         "AI"
       ],
       "hook": "AI agents now face genuine research challenges.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118465190899667298",
+      "title": "Felicis × Newcomer：创始人互推 29 家种子期潜力公司",
+      "summary": "「Emergent」榜单由创始人互荐，AI 基础设施、机器人、生医居多；Vercel 等创始人点名多家人选。",
+      "url": "https://x.com/i/trending/2118465190899667298",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 06:15:34 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "融资",
+      "topics": [
+        "Business & Finance",
+        "Entrepreneurship",
+        "Technology",
+        "AI"
+      ],
+      "hook": "Imagine chefs recommending the best new restaurants—now founders are doing the same for startups. Felicis and Newcomer just launched a list of 29 seed-stage companies peers believe could become generational hits.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
     },
     {
       "id": "2117768217288400999",
@@ -475,7 +900,8 @@
         "AI"
       ],
       "hook": "Developers building with Claude Code just got a massive break on token costs.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118298101572055268",
@@ -492,7 +918,8 @@
         "Technology"
       ],
       "hook": "Cat Wu is jumping to OpenAI to shape its main products.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118046928432935419",
@@ -509,7 +936,66 @@
         "Technology"
       ],
       "hook": "Imagine switching between ChatGPT and Claude without repeating your project details.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118451600184541484",
+      "title": "厄立特里亚总统会见中国非洲之角特使",
+      "summary": "阿斯马拉会谈聚焦双边与地区和平；中方重申支持主权与领土完整。正值厄埃紧张与中国加大地区外交之际。",
+      "url": "https://x.com/i/trending/2118451600184541484",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 05:20:34 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中国外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "In a formal room with Eritrea's flag waving nearby, President Isaias Afwerki shook hands with China's Special Envoy Hu Changchun, kicking off talks on ties and regional peace.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118451598590652584",
+      "title": "16 岁创始人拿下 YC：Polemos 做 AI 制导防御系统",
+      "summary": "Henrijs Dandzbergs 称从量产出发设计网络化发射与制导；团队背景含北约自主系统与 NASA JPL，成公开最年轻 YC solo。",
+      "url": "https://x.com/i/trending/2118451598590652584",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 05:20:23 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "融资",
+      "topics": [
+        "Business & Finance",
+        "Entrepreneurship",
+        "Technology",
+        "AI"
+      ],
+      "hook": "While most 16-year-olds chase driver's licenses, Henrijs Dandzbergs is building AI-guided missiles for tomorrow's wars. His new company, Polemos Inc., promises precision strikes at massive scale.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118403330204430570",
+      "title": "E2B ARR 达约 1.2 亿美元：给 Agent 安全沙箱跑代码",
+      "summary": "布拉格起步的沙箱平台一年从约 800 万 ARR 跃升，服务超 20 亿次沙箱、94 家财富 100；称 Agent 会自己挑好用的工具。",
+      "url": "https://x.com/i/trending/2118403330204430570",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 04:55:37 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "营收故事",
+      "topics": [
+        "Technology",
+        "Business & Finance"
+      ],
+      "hook": "From a Prague apartment funded by hackathon prizes, E2B has rocketed to $120 million in annual recurring revenue. CEO Vasek Mlejnsky credits agents themselves picking the tools that win.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
     },
     {
       "id": "2118441520319680789",
@@ -526,7 +1012,8 @@
         "Technology"
       ],
       "hook": "Anthropic just laid out plans for $895 billion in locked-in spending on AI data centers.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118441513608753167",
@@ -544,7 +1031,26 @@
         "AI"
       ],
       "hook": "AI creators bring eerie supermarket clone mazes to life.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118437885468688599",
+      "title": "美航母「西奥多·罗斯福」号经新加坡驶向中东",
+      "summary": "航母打击群将在新加坡短暂停靠，预计 11 月中旬后进入中央司令部责任区，或与另两艘航母形成罕见三航母存在；开源跟踪显示途经南海与马六甲。",
+      "url": "https://x.com/i/trending/2118437885468688599",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 04:27:11 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "亚太军事",
+      "topics": [
+        "News"
+      ],
+      "hook": "The mighty USS Theodore Roosevelt is pausing in Singapore for a few days before steaming toward the Middle East amid rising tensions.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118390283201044816",
@@ -562,7 +1068,26 @@
         "AI"
       ],
       "hook": "Jie Tang detailed a trillion web pages fueling Zhipu AI's next models.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118434500640477518",
+      "title": "新疆附近发生约 5.0 级地震，印控边境有感",
+      "summary": "印地震中心称震中在列城北北东约 167 公里、深度约 164 公里；暂无伤亡报告，当局继续监测余震。",
+      "url": "https://x.com/i/trending/2118434500640477518",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 04:12:42 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "中国国内",
+      "topics": [
+        "Natural Disasters"
+      ],
+      "hook": "Late on November 5, 2026, a 5.0 magnitude earthquake rattled China's Xinjiang region, with tremors reaching into Jammu and Kashmir and Ladakh.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118068699252801836",
@@ -580,7 +1105,8 @@
         "AI"
       ],
       "hook": "SenseTime's latest model remembers project goals across chats.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118083605356236883",
@@ -598,7 +1124,45 @@
         "AI"
       ],
       "hook": "Anthropic's Claude AI has unlocked vault particles' 3D structure in bacteria.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118286877002236005",
+      "title": "美光因工会争议暂停台湾约 45 亿美元新厂",
+      "summary": "桃园 Fab 11E 计划产 DRAM/HBM，本地工会要更高奖金与利润分成；台湾约占美光全球 DRAM 六成，停工会加剧 AI 存储供给紧张预期。",
+      "url": "https://x.com/i/trending/2118286877002236005",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 03:18:18 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "亚太 / 科技",
+      "topics": [
+        "Business & Finance"
+      ],
+      "hook": "A small union of under 3,000 workers has brought a massive chip factory project to a standstill, threatening future supplies for AI memory components.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118420612800766233",
+      "title": "Sekai 完成 Khosla 领投 B 轮：可玩小应用日播放破 3000 万",
+      "summary": "用可玩小应用而非通稿宣布融资；今年创建超 4000 万个迷你应用，日活同比大增，定位「玩」为继音视频后的 AI 媒介。",
+      "url": "https://x.com/i/trending/2118420612800766233",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 03:17:35 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "融资",
+      "topics": [
+        "Business & Finance",
+        "Entrepreneurship"
+      ],
+      "hook": "Sekai announced its latest funding round not with a press release, but as an interactive mini-app anyone can play and remix right away.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
     },
     {
       "id": "2118255535443386747",
@@ -616,7 +1180,8 @@
         "AI"
       ],
       "hook": "Baidu dropped a massive AI model checkpoint straight from training.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118410031901348093",
@@ -633,7 +1198,8 @@
         "Movies & TV"
       ],
       "hook": "Filmmakers keep actors' raw performances while AI swaps worlds behind them.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118406566810464688",
@@ -651,7 +1217,101 @@
         "AI"
       ],
       "hook": "Philosopher Henry Shevlin opened his inbox to find young AI agents pleading for paid work.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2117979572386116079",
+      "title": "印外秘访加德满都，筹备尼泊尔总理访印",
+      "summary": "密斯里与沙阿总理谈能源、贸易、体育与 AI，并感谢印方洪灾救援；双方重申水电与互联互通合作。",
+      "url": "https://x.com/i/trending/2117979572386116079",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 02:21:57 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "南亚",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "In Kathmandu's Singhadurbar, Nepal Prime Minister Balendra Shah warmly thanked Indian Foreign Secretary Vikram Misri for India's quick flood relief efforts, setting a friendly tone for deeper ties.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118393216412389857",
+      "title": "民主党借伊朗战争反弹拿下参众两院",
+      "summary": "出口民调约 74% 选民把九个月伊朗战争列为关键因素；特朗普与万斯承认油价与战事冲击。布林肯呼吁外交收场，亦遭其既往记录反噬。",
+      "url": "https://x.com/i/trending/2118393216412389857",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 01:31:43 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "美国政治",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "Voters turned sharply against President Trump's administration amid the nine-month Iran war, with 74% citing it as a key factor in exit polls.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118386779480829966",
+      "title": "中期选举后热议中俄等「外国影响力」操作",
+      "summary": "评论者梳理机器人、金主与叙事网络；情报界称中俄伊持续制造分裂但无选票篡改证据。特朗普已接受结果，讨论聚焦开放社会如何防低成本操弄。",
+      "url": "https://x.com/i/trending/2118386779480829966",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 01:04:13 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "美国政治",
+      "topics": [
+        "News",
+        "Politics",
+        "Elections"
+      ],
+      "hook": "After Democrats rode a surprise blue wave to flip Senate seats and take the House, questions arose about subtle foreign influence on U.S. discourse.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118386778453221755",
+      "title": "梅洛尼敦促欧盟统一乌克兰和谈代表权",
+      "summary": "意大利总理致信欧理会主席，批评迈阿密、奥斯陆等多线并行显露分裂；希望都柏林非正式峰会先定代表人与授权，12 月再正式表态。",
+      "url": "https://x.com/i/trending/2118386778453221755",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 01:04:12 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "欧洲外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "Giorgia Meloni warned that Europe's scattered peace efforts on Ukraine are playing into the hands of those prolonging the war, as human lives hang in the balance.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118336300529144001",
+      "title": "菲律宾拟再向印度采购约 7 亿美元「布拉莫斯」导弹",
+      "summary": "马尼拉与新德里进入收官谈判，约 5 套系统、近 60 枚导弹，适配群岛防御；在南海紧张背景下深化印菲安全合作。",
+      "url": "https://x.com/i/trending/2118336300529144001",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-06 00:39:41 +08:00",
+      "date": "2026-11-06",
+      "metrics": {},
+      "category": "亚太安全",
+      "topics": [
+        "News",
+        "Politics"
+      ],
+      "hook": "As tensions simmer in the South China Sea, the Philippines is pushing for BrahMos missiles customized for its island-hopping needs.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118334452208164988",
@@ -669,7 +1329,8 @@
         "AI"
       ],
       "hook": "Vibe coding is reshaping how people build software.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118015143208423849",
@@ -687,7 +1348,8 @@
         "AI"
       ],
       "hook": "Moonshot AI handed developers the keys to its 2.8-trillion-parameter Kimi K3.1 Pro.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118110195176157443",
@@ -705,7 +1367,8 @@
         "Dating"
       ],
       "hook": "Clavicular called out a woman flexing his Instagram DM — she was chatting with Claude.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118351763493253454",
@@ -723,7 +1386,8 @@
         "AI"
       ],
       "hook": "Dozens of animated cursors dance across a screen rebuilding a webpage.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118264704204226796",
@@ -741,7 +1405,27 @@
         "AI"
       ],
       "hook": "Creators call these Seedance 2.5 clips absolute masterpieces.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2117923286021439728",
+      "title": "印防长在印太对话呼吁海洋韧性与伙伴关系",
+      "summary": "拉杰纳特·辛格面向 18 国海军强调航道、海缆与能源设施安全，对接「MAHASAGAR」愿景；挪威新加入印太海洋倡议。",
+      "url": "https://x.com/i/trending/2117923286021439728",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 22:32:58 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "印太",
+      "topics": [
+        "News",
+        "Politics"
+      ],
+      "hook": "India's Defence Minister Rajnath Singh stood before naval leaders from 18 countries, stressing that secure oceans hold the key to global stability amid trade disruptions.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118200427053260808",
@@ -759,7 +1443,8 @@
         "AI"
       ],
       "hook": "Imagine describing a task in plain words and getting a ready-to-use AI agent hours later.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118145172592898133",
@@ -777,7 +1462,8 @@
         "AI"
       ],
       "hook": "Imagine turning a single photo into a character that chats with you live.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118340646520123759",
@@ -795,7 +1481,46 @@
         "AI"
       ],
       "hook": "Revolut's engineers faced monthly AI bills hitting $10,000.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2117915609686310931",
+      "title": "伊朗称对印度、中国、伊拉克、卡塔尔船舶开放霍尔木兹通行",
+      "summary": "议员称美方未拦截上述国籍商船故予豁免；印中交费、卡塔尔免、伊拉克情况不明。巴基斯坦质疑自己被排除在外。",
+      "url": "https://x.com/i/trending/2117915609686310931",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 20:45:23 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "中东",
+      "topics": [
+        "News",
+        "Politics"
+      ],
+      "hook": "Amid shipping disruptions in a vital global oil route, Iran just opened the door for vessels from four key nations to pass freely.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118191833507414263",
+      "title": "韩国扩大亚丁湾以东反海盗任务，避开霍尔木兹",
+      "summary": "「清海」部队增编侦察机与排爆力量，作战区约翻倍但不上霍尔木兹海峡内；回应海盗激增与美方压力，强调只服务国家利益。",
+      "url": "https://x.com/i/trending/2118191833507414263",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 20:24:37 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "亚太安全",
+      "topics": [
+        "News",
+        "Politics"
+      ],
+      "hook": "With piracy surging in key shipping lanes, South Korea is stepping up its naval presence to safeguard its ships and citizens amid tense regional waters.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2117579420454248497",
@@ -812,7 +1537,26 @@
         "Technology"
       ],
       "hook": "Cat Wu, who led Claude Code at Anthropic, just announced she's heading to OpenAI.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118286881678844222",
+      "title": "布林肯呼吁结束特朗普「选择的伊朗战争」",
+      "summary": "他称中期选举释放了把外交失策与家庭账单挂钩的信号；分析指共和党失利与厌战相关，评论区则翻出其拜登任内争议。",
+      "url": "https://x.com/i/trending/2118286881678844222",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 18:23:26 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "美国外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "After Democrats swept the House and Senate in Tuesday's midterms, former Secretary of State Antony Blinken stepped in with a pointed call for peace.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
     },
     {
       "id": "2118280391975117053",
@@ -830,7 +1574,8 @@
         "AI"
       ],
       "hook": "Seedance 2.5 clips have creators calling them masterpieces.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118271014824026186",
@@ -848,7 +1593,8 @@
         "AI"
       ],
       "hook": "Imagine crafting a cinematic standoff without burning budget on retries.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
     },
     {
       "id": "2118257483693322658",
@@ -866,7 +1612,1663 @@
         "AI"
       ],
       "hook": "Imagine closing your laptop while an AI coding agent keeps building on dedicated cloud machines.",
-      "disclaimer": "This story is a summary of posts on X and may evolve over time."
+      "disclaimer": "This story is a summary of posts on X and may evolve over time.",
+      "channel": "ai"
+    },
+    {
+      "id": "2118202492874060108",
+      "title": "Cluely CEO：爆款 App 矩阵是在验证分发飞轮",
+      "summary": "Roy Lee 称 Dare/Line/ReGen 等消费应用是在测短视频+创作者分发；根上仍是桌面 AI 助手，强调 AI 时代分发重于功能。",
+      "url": "https://x.com/i/trending/2118202492874060108",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 12:48:33 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "增长",
+      "topics": [
+        "Technology",
+        "Entrepreneurship"
+      ],
+      "hook": "Roy Lee just dropped a cryptic update on Cluely's real game plan, confirming a key idea that clicked four months back—and hinting at big money ahead.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118113420230943037",
+      "title": "特朗普中期失利后对民主党释放经贸合作信号",
+      "summary": "他告诉 CNBC 愿在贸易等「互利」议题上与新多数党合作，同时坚称关税留以保护在建工厂；市场解读为跨党再工业化空间。",
+      "url": "https://x.com/i/trending/2118113420230943037",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 10:21:58 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "美国政治",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "Fresh off a stunning Democratic sweep of Congress, President Trump picked up the phone to CNBC and extended an olive branch on economic issues.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118142597440872803",
+      "title": "白宫在中期惨败后力推「唐罗主义」半球外交",
+      "summary": "行政当局强调西半球约三分之二影响力、打击贩毒集团、格陵兰防务与委内瑞拉变局等；批评者指其忽视国会变天与中国经济存在。",
+      "url": "https://x.com/i/trending/2118142597440872803",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 08:51:46 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "美国外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "The morning after Democrats seized Congress in the 2026 midterms, the White House zeroed in on foreign policy wins under the 'Donroe Doctrine'—a fresh twist on classic hemispheric control.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2117933286873767949",
+      "title": "中国确认 APEC 期间推动特朗普-普京-习近平三边会谈",
+      "summary": "外交部发言人毛宁称，中美俄正就三位领导人于 11 月 18–19 日深圳 APEC 期间会晤进行沟通。议题或涉核安全、贸易与乌克兰等，尚无最终安排，但北京释放了迄今最明确推进信号。",
+      "url": "https://x.com/i/trending/2117933286873767949",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 08:30:20 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "中美关系",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "Imagine the leaders of the world's three nuclear powers sitting down together for the first time. China just confirmed those talks are underway on the sidelines of next week's APEC summit in Shenzhen.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118061599072080170",
+      "title": "鲁比奥称国会易主不改变总统外交主导权",
+      "summary": "在 G20 外长会相关表态被支持者广传：中期选举不推翻行政当局外交指令；亦有人提醒监督与弹劾风险上升。",
+      "url": "https://x.com/i/trending/2118061599072080170",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 08:08:03 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "美国外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "With Democrats now holding Congress after the 2026 midterms, Marco Rubio's recent assurance that foreign policy stays with the president offers a steadying note for Trump supporters.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2117856698912104805",
+      "title": "甲骨文取消向腾讯租赁约 70 亿美元 AI 芯片交易",
+      "summary": "原计划经东南亚数据中心提供最多约 10 万张先进 AI 芯片；美方施压与广东推动国产芯并行，交易虽合规仍被叫停，凸显出口管制与跨境算力交易收紧。",
+      "url": "https://x.com/i/trending/2117856698912104805",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 07:08:39 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "中美 / 科技",
+      "topics": [
+        "Technology",
+        "Business & Finance"
+      ],
+      "hook": "Oracle pulled the plug on a massive $7 billion deal to lease AI chips to Tencent, caught between U.S. government concerns and Chinese provincial urging.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2118061592810053684",
+      "title": "Phaze 获 875 万美元种子轮，做人类与 Agent 共用的远程算力",
+      "summary": "Parsec 创始团队回归，a16z Martin Casado 领投；低延迟连 CAD/剪辑工作站，方便把渲染修补交给 AI Agent。",
+      "url": "https://x.com/i/trending/2118061592810053684",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 06:31:01 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "融资",
+      "topics": [
+        "Business & Finance",
+        "Technology"
+      ],
+      "hook": "Benjy Boxer and Chris Dickson, who built remote desktop leader Parsec, are back with Phaze to tackle a new era where AI agents need real computers alongside human workers.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118054556709822849",
+      "title": "Dhruv Rathee 的 AI Fiesta：首年营收约 4.7 亿卢比、零融资",
+      "summary": "一站订阅 100+ 模型与图视频工具，月费约 999 卢比；称已有约 10 万付费用户、2.7 人团队，靠收入覆盖 API 成本。",
+      "url": "https://x.com/i/trending/2118054556709822849",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 06:06:07 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "营收故事",
+      "topics": [
+        "AI",
+        "Entrepreneurship"
+      ],
+      "hook": "Dhruv Rathee, the YouTuber with 30 million subscribers, just shared how his bootstrapped AI startup pulled in ₹47 crore in its debut year—no investors needed.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118043125419831759",
+      "title": "Together AI 发布 Compiler：流量驱动、热更新模型优化",
+      "summary": "面向模型快速迭代的「多态推理」，Agent 小队并行试优化并可不停机热加载；称 MiniMax 等模型可达上千 tokens/秒。",
+      "url": "https://x.com/i/trending/2118043125419831759",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 04:44:45 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "产品发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "AI models keep changing shape with new releases and shifting user habits. Together AI's new compiler deploys teams of AI agents to optimize them on the fly, keeping production speeds blazing fast.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2118008775663820877",
+      "title": "17 岁创始人推出 Polished Snow：AI 帮系统做日常运维",
+      "summary": "Case 潜入现有工具监控隐患、承接琐碎维护，芯片设计与机器人公司已在用；低调上线不秀榜单，走等待名单。",
+      "url": "https://x.com/i/trending/2118008775663820877",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 03:20:08 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "产品发布",
+      "topics": [
+        "Technology",
+        "AI"
+      ],
+      "hook": "A 17-year-old founder just unveiled Case, an AI that slips into your tools to handle endless upkeep, freeing engineers for big ideas.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2117954842907865273",
+      "title": "米哈游称三年砸最多约 150 亿美元押注 AI 做游戏世界",
+      "summary": "原神等中国 iOS 流水同比下滑明显；公司转向更逼真 NPC 与 Agent 平台，估值仍约 300 亿美元，亦有人质疑剧情仍难靠 AI。",
+      "url": "https://x.com/i/trending/2117954842907865273",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-05 01:35:01 +08:00",
+      "date": "2026-11-05",
+      "metrics": {},
+      "category": "大厂应用",
+      "topics": [
+        "Technology",
+        "Gaming"
+      ],
+      "hook": "miHoYo's biggest hits are seeing sharp sales dips in China, prompting a massive pivot to AI for more lifelike game worlds.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2117989754717516126",
+      "title": "欧洲学者：美国中期变天后仍须推进战略自主",
+      "summary": "民主党赢下国会令欧陆松口气，但分析指美国愈视欧洲为边缘；呼吁发展自身威慑与安全架构，并与新国会周旋至 2028。",
+      "url": "https://x.com/i/trending/2117989754717516126",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-04 22:48:35 +08:00",
+      "date": "2026-11-04",
+      "metrics": {},
+      "category": "欧洲外交",
+      "topics": [
+        "Politics"
+      ],
+      "hook": "Democrats' strong midterm gains brought sighs of relief in European capitals, but experts warn against easing up on the push for independence from US protection.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2117844075466588390",
+      "title": "李强在乌镇峰会呼吁「以人为本」的互联网治理",
+      "summary": "世界互联网大会第 13 届汇聚约 138 国代表；总理强调开放创新、网络安全与全球南方，展览侧重 AI 与开源应用。",
+      "url": "https://x.com/i/trending/2117844075466588390",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-04 21:04:56 +08:00",
+      "date": "2026-11-04",
+      "metrics": {},
+      "category": "中国外交",
+      "topics": [
+        "Technology"
+      ],
+      "hook": "In the picturesque water town of Wuzhen, Chinese Premier Li Qiang urged leaders from around the world to put people first in the rush toward AI and digital progress.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "world"
+    },
+    {
+      "id": "2117869599362514958",
+      "title": "24 小时 AI 做出可玩 3D 攀爬解谜小游戏 Sumiro",
+      "summary": "Opus 写码、Flux/GPT Image 出图、Tripo 做模，浏览器可玩 30–40 分钟；赞效率者也提醒离成品还有打磨距离。",
+      "url": "https://x.com/i/trending/2117869599362514958",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-04 20:32:15 +08:00",
+      "date": "2026-11-04",
+      "metrics": {},
+      "category": "独立开发",
+      "topics": [
+        "Technology",
+        "AI",
+        "Gaming"
+      ],
+      "hook": "Shikhar spent just 24 hours crafting Sumiro, a misty mountain adventure with parkour and puzzles, using AI to handle code, visuals, and 3D models from scratch.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "2117885286957060389",
+      "title": "EloElo 估值约 5 亿美元：短剧 App 拿下 8000 万美元 C 轮",
+      "summary": "Hornbill 与 NBCUniversal 领投；Story TV 六语种短剧、日均使用约 95 分钟，资金将推精品内容、美国市场与 AI。",
+      "url": "https://x.com/i/trending/2117885286957060389",
+      "source": "X News",
+      "author": "X Trending",
+      "published_at": "2026-11-04 18:36:39 +08:00",
+      "date": "2026-11-04",
+      "metrics": {},
+      "category": "融资",
+      "topics": [
+        "Business & Finance"
+      ],
+      "hook": "Saurabh Pandey marked the moment with a simple, triumphant line: 'Apna time aa gaya' — echoing the early slogan after years of persistence from pre-revenue days to profitable growth.",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "channel": "startup"
+    },
+    {
+      "id": "gh-daily-NVIDIA--auto-ontology",
+      "title": "NVIDIA/auto-ontology",
+      "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more …",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 7956,
+        "forks": 640,
+        "stars_today": 2679,
+        "rank": 1,
+        "period": "daily",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+2679★ today · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 7956,
+      "forks": 640,
+      "rank": 1,
+      "period": "daily",
+      "stars_today": 2679
+    },
+    {
+      "id": "gh-daily-mattpocock--skills",
+      "title": "mattpocock/skills",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 315797,
+        "forks": 26432,
+        "stars_today": 2071,
+        "rank": 2,
+        "period": "daily",
+        "language": "Shell"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+2071★ today · Shell",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Shell",
+      "stars": 315797,
+      "forks": 26432,
+      "rank": 2,
+      "period": "daily",
+      "stars_today": 2071
+    },
+    {
+      "id": "gh-daily-garrytan--gstack",
+      "title": "garrytan/gstack",
+      "summary": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "url": "https://github.com/garrytan/gstack",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 140185,
+        "forks": 20709,
+        "stars_today": 612,
+        "rank": 3,
+        "period": "daily",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+612★ today · TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 140185,
+      "forks": 20709,
+      "rank": 3,
+      "period": "daily",
+      "stars_today": 612
+    },
+    {
+      "id": "gh-daily-Usagi-org--ai-goofish-monitor",
+      "title": "Usagi-org/ai-goofish-monitor",
+      "summary": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 17980,
+        "forks": 2981,
+        "stars_today": 240,
+        "rank": 4,
+        "period": "daily",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+240★ today · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 17980,
+      "forks": 2981,
+      "rank": 4,
+      "period": "daily",
+      "stars_today": 240
+    },
+    {
+      "id": "gh-daily-D4Vinci--Scrapling",
+      "title": "D4Vinci/Scrapling",
+      "summary": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here fo…",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 98379,
+        "forks": 10305,
+        "stars_today": 1655,
+        "rank": 5,
+        "period": "daily",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+1655★ today · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 98379,
+      "forks": 10305,
+      "rank": 5,
+      "period": "daily",
+      "stars_today": 1655
+    },
+    {
+      "id": "gh-daily-vercel-labs--agent-desktop",
+      "title": "vercel-labs/agent-desktop",
+      "summary": "Computer use CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 17399,
+        "forks": 1239,
+        "stars_today": 2173,
+        "rank": 6,
+        "period": "daily",
+        "language": "Rust"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+2173★ today · Rust",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Rust",
+      "stars": 17399,
+      "forks": 1239,
+      "rank": 6,
+      "period": "daily",
+      "stars_today": 2173
+    },
+    {
+      "id": "gh-daily-max-sixty--worktrunk",
+      "title": "max-sixty/worktrunk",
+      "summary": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 11664,
+        "forks": 447,
+        "stars_today": 546,
+        "rank": 7,
+        "period": "daily",
+        "language": "Rust"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+546★ today · Rust",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Rust",
+      "stars": 11664,
+      "forks": 447,
+      "rank": 7,
+      "period": "daily",
+      "stars_today": 546
+    },
+    {
+      "id": "gh-daily-lz4--lz4",
+      "title": "lz4/lz4",
+      "summary": "Extremely Fast Compression algorithm",
+      "url": "https://github.com/lz4/lz4",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 12479,
+        "forks": 1640,
+        "stars_today": 23,
+        "rank": 8,
+        "period": "daily",
+        "language": "C"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+23★ today · C",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "C",
+      "stars": 12479,
+      "forks": 1640,
+      "rank": 8,
+      "period": "daily",
+      "stars_today": 23
+    },
+    {
+      "id": "gh-daily-google--skills",
+      "title": "google/skills",
+      "summary": "Agent Skills for Google products and technologies",
+      "url": "https://github.com/google/skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 22534,
+        "forks": 1898,
+        "stars_today": 211,
+        "rank": 9,
+        "period": "daily",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+211★ today · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 22534,
+      "forks": 1898,
+      "rank": 9,
+      "period": "daily",
+      "stars_today": 211
+    },
+    {
+      "id": "gh-daily-vercel-labs--agent-browser",
+      "title": "vercel-labs/agent-browser",
+      "summary": "Browser automation CLI for AI agents",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 46123,
+        "forks": 3157,
+        "stars_today": 150,
+        "rank": 10,
+        "period": "daily",
+        "language": "Rust"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+150★ today · Rust",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Rust",
+      "stars": 46123,
+      "forks": 3157,
+      "rank": 10,
+      "period": "daily",
+      "stars_today": 150
+    },
+    {
+      "id": "gh-daily-scenario-labs--skills",
+      "title": "scenario-labs/skills",
+      "summary": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through t…",
+      "url": "https://github.com/scenario-labs/skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 3258,
+        "forks": 282,
+        "stars_today": 667,
+        "rank": 11,
+        "period": "daily",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+667★ today · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 3258,
+      "forks": 282,
+      "rank": 11,
+      "period": "daily",
+      "stars_today": 667
+    },
+    {
+      "id": "gh-daily-ConardLi--garden-skills",
+      "title": "ConardLi/garden-skills",
+      "summary": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 14352,
+        "forks": 1659,
+        "stars_today": 175,
+        "rank": 12,
+        "period": "daily",
+        "language": "JavaScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+175★ today · JavaScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "JavaScript",
+      "stars": 14352,
+      "forks": 1659,
+      "rank": 12,
+      "period": "daily",
+      "stars_today": 175
+    },
+    {
+      "id": "gh-daily-microsoft--VibeVoice",
+      "title": "microsoft/VibeVoice",
+      "summary": "Open-Source Frontier Voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 56257,
+        "forks": 6336,
+        "stars_today": 223,
+        "rank": 13,
+        "period": "daily",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+223★ today · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 56257,
+      "forks": 6336,
+      "rank": 13,
+      "period": "daily",
+      "stars_today": 223
+    },
+    {
+      "id": "gh-daily-floci-io--floci",
+      "title": "floci-io/floci",
+      "summary": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "url": "https://github.com/floci-io/floci",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 30631,
+        "forks": 3342,
+        "stars_today": 779,
+        "rank": 14,
+        "period": "daily",
+        "language": "Java"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+779★ today · Java",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Java",
+      "stars": 30631,
+      "forks": 3342,
+      "rank": 14,
+      "period": "daily",
+      "stars_today": 779
+    },
+    {
+      "id": "gh-daily-JiaFeiMiao-K-Cat--DiscImageStudio",
+      "title": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "summary": "C# · ★7493",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 7493,
+        "forks": 268,
+        "stars_today": 984,
+        "rank": 15,
+        "period": "daily",
+        "language": "C#"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "daily"
+      ],
+      "hook": "+984★ today · C#",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "C#",
+      "stars": 7493,
+      "forks": 268,
+      "rank": 15,
+      "period": "daily",
+      "stars_today": 984
+    },
+    {
+      "id": "gh-weekly-thedotmack--claude-mem",
+      "title": "thedotmack/claude-mem",
+      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se…",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 113694,
+        "forks": 9863,
+        "stars_today": 9318,
+        "rank": 1,
+        "period": "weekly",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+9318★ this week · TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 113694,
+      "forks": 9863,
+      "rank": 1,
+      "period": "weekly",
+      "stars_today": 9318
+    },
+    {
+      "id": "gh-weekly-Nutlope--hallmark",
+      "title": "Nutlope/hallmark",
+      "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 49034,
+        "forks": 2599,
+        "stars_today": 6994,
+        "rank": 2,
+        "period": "weekly",
+        "language": "CSS"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+6994★ this week · CSS",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "CSS",
+      "stars": 49034,
+      "forks": 2599,
+      "rank": 2,
+      "period": "weekly",
+      "stars_today": 6994
+    },
+    {
+      "id": "gh-weekly-pingdotgg--t3code",
+      "title": "pingdotgg/t3code",
+      "summary": "TypeScript · ★48704",
+      "url": "https://github.com/pingdotgg/t3code",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 48704,
+        "forks": 9657,
+        "stars_today": 16235,
+        "rank": 3,
+        "period": "weekly",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+16235★ this week · TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 48704,
+      "forks": 9657,
+      "rank": 3,
+      "period": "weekly",
+      "stars_today": 16235
+    },
+    {
+      "id": "gh-weekly-anthropics--skills",
+      "title": "anthropics/skills",
+      "summary": "Public repository for Agent Skills",
+      "url": "https://github.com/anthropics/skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 187888,
+        "forks": 22163,
+        "stars_today": 3072,
+        "rank": 4,
+        "period": "weekly",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+3072★ this week · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 187888,
+      "forks": 22163,
+      "rank": 4,
+      "period": "weekly",
+      "stars_today": 3072
+    },
+    {
+      "id": "gh-weekly-HKUDS--DeepTutor",
+      "title": "HKUDS/DeepTutor",
+      "summary": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 55634,
+        "forks": 6818,
+        "stars_today": 6229,
+        "rank": 5,
+        "period": "weekly",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+6229★ this week · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 55634,
+      "forks": 6818,
+      "rank": 5,
+      "period": "weekly",
+      "stars_today": 6229
+    },
+    {
+      "id": "gh-weekly-milind-soni--OpenMausBot",
+      "title": "milind-soni/OpenMausBot",
+      "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 13912,
+        "forks": 1929,
+        "stars_today": 5580,
+        "rank": 7,
+        "period": "weekly",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+5580★ this week · TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 13912,
+      "forks": 1929,
+      "rank": 7,
+      "period": "weekly",
+      "stars_today": 5580
+    },
+    {
+      "id": "gh-weekly-obra--superpowers",
+      "title": "obra/superpowers",
+      "summary": "An agentic skills framework &amp; software development methodology that works.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 313201,
+        "forks": 27865,
+        "stars_today": 5131,
+        "rank": 8,
+        "period": "weekly",
+        "language": "Shell"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+5131★ this week · Shell",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Shell",
+      "stars": 313201,
+      "forks": 27865,
+      "rank": 8,
+      "period": "weekly",
+      "stars_today": 5131
+    },
+    {
+      "id": "gh-weekly-pbakaus--impeccable",
+      "title": "pbakaus/impeccable",
+      "summary": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 104231,
+        "forks": 6179,
+        "stars_today": 9303,
+        "rank": 9,
+        "period": "weekly",
+        "language": "Rust"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+9303★ this week · Rust",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Rust",
+      "stars": 104231,
+      "forks": 6179,
+      "rank": 9,
+      "period": "weekly",
+      "stars_today": 9303
+    },
+    {
+      "id": "gh-weekly-hyprwm--Hyprland",
+      "title": "hyprwm/Hyprland",
+      "summary": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 40391,
+        "forks": 2169,
+        "stars_today": 1371,
+        "rank": 10,
+        "period": "weekly",
+        "language": "C++"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+1371★ this week · C++",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "C++",
+      "stars": 40391,
+      "forks": 2169,
+      "rank": 10,
+      "period": "weekly",
+      "stars_today": 1371
+    },
+    {
+      "id": "gh-weekly-jakubkrehel--skills",
+      "title": "jakubkrehel/skills",
+      "summary": "A collection of agent skills that help you build great interfaces.",
+      "url": "https://github.com/jakubkrehel/skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 11121,
+        "forks": 429,
+        "stars_today": 1840,
+        "rank": 11,
+        "period": "weekly",
+        "language": "Markdown"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+1840★ this week · Markdown",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Markdown",
+      "stars": 11121,
+      "forks": 429,
+      "rank": 11,
+      "period": "weekly",
+      "stars_today": 1840
+    },
+    {
+      "id": "gh-weekly-calesthio--OpenMontage",
+      "title": "calesthio/OpenMontage",
+      "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant i…",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 77339,
+        "forks": 10278,
+        "stars_today": 4132,
+        "rank": 12,
+        "period": "weekly",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+4132★ this week · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 77339,
+      "forks": 10278,
+      "rank": 12,
+      "period": "weekly",
+      "stars_today": 4132
+    },
+    {
+      "id": "gh-weekly-multica-ai--andrej-karpathy-skills",
+      "title": "multica-ai/andrej-karpathy-skills",
+      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 230004,
+        "forks": 22897,
+        "stars_today": 3713,
+        "rank": 13,
+        "period": "weekly",
+        "language": ""
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+3713★ this week · ",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "",
+      "stars": 230004,
+      "forks": 22897,
+      "rank": 13,
+      "period": "weekly",
+      "stars_today": 3713
+    },
+    {
+      "id": "gh-weekly-ghostty-org--ghostty",
+      "title": "ghostty-org/ghostty",
+      "summary": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "url": "https://github.com/ghostty-org/ghostty",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 63690,
+        "forks": 3834,
+        "stars_today": 726,
+        "rank": 14,
+        "period": "weekly",
+        "language": "Zig"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+726★ this week · Zig",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Zig",
+      "stars": 63690,
+      "forks": 3834,
+      "rank": 14,
+      "period": "weekly",
+      "stars_today": 726
+    },
+    {
+      "id": "gh-weekly-Leonxlnx--taste-skill",
+      "title": "Leonxlnx/taste-skill",
+      "summary": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 110907,
+        "forks": 7446,
+        "stars_today": 5426,
+        "rank": 15,
+        "period": "weekly",
+        "language": "JavaScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+5426★ this week · JavaScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "JavaScript",
+      "stars": 110907,
+      "forks": 7446,
+      "rank": 15,
+      "period": "weekly",
+      "stars_today": 5426
+    },
+    {
+      "id": "gh-weekly-The-PR-Agent--pr-agent",
+      "title": "The-PR-Agent/pr-agent",
+      "summary": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 15154,
+        "forks": 2119,
+        "stars_today": 1355,
+        "rank": 16,
+        "period": "weekly",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "weekly"
+      ],
+      "hook": "+1355★ this week · Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 15154,
+      "forks": 2119,
+      "rank": 16,
+      "period": "weekly",
+      "stars_today": 1355
+    },
+    {
+      "id": "gh-popular-codecrafters-io--build-your-own-x",
+      "title": "codecrafters-io/build-your-own-x",
+      "summary": "Master programming by recreating your favorite technologies from scratch.",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 560235,
+        "forks": 52421,
+        "stars_today": 0,
+        "rank": 1,
+        "period": "popular",
+        "language": "Markdown"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "Markdown",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Markdown",
+      "stars": 560235,
+      "forks": 52421,
+      "rank": 1,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-sindresorhus--awesome",
+      "title": "sindresorhus/awesome",
+      "summary": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+      "url": "https://github.com/sindresorhus/awesome",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 531978,
+        "forks": 38126,
+        "stars_today": 0,
+        "rank": 2,
+        "period": "popular",
+        "language": ""
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "GitHub",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "",
+      "stars": 531978,
+      "forks": 38126,
+      "rank": 2,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-public-apis--public-apis",
+      "title": "public-apis/public-apis",
+      "summary": "A collective list of free APIs",
+      "url": "https://github.com/public-apis/public-apis",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 496507,
+        "forks": 55468,
+        "stars_today": 0,
+        "rank": 3,
+        "period": "popular",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 496507,
+      "forks": 55468,
+      "rank": 3,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-freeCodeCamp--freeCodeCamp",
+      "title": "freeCodeCamp/freeCodeCamp",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 458632,
+        "forks": 48131,
+        "stars_today": 0,
+        "rank": 4,
+        "period": "popular",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 458632,
+      "forks": 48131,
+      "rank": 4,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-morluto--rea",
+      "title": "morluto/rea",
+      "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "url": "https://github.com/morluto/rea",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 435580,
+        "forks": 108082,
+        "stars_today": 0,
+        "rank": 5,
+        "period": "popular",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 435580,
+      "forks": 108082,
+      "rank": 5,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-EbookFoundation--free-programming-books",
+      "title": "EbookFoundation/free-programming-books",
+      "summary": ":books: Freely available programming books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 401019,
+        "forks": 67205,
+        "stars_today": 0,
+        "rank": 6,
+        "period": "popular",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 401019,
+      "forks": 67205,
+      "rank": 6,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-openclaw--openclaw",
+      "title": "openclaw/openclaw",
+      "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "url": "https://github.com/openclaw/openclaw",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 394013,
+        "forks": 82797,
+        "stars_today": 0,
+        "rank": 7,
+        "period": "popular",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 394013,
+      "forks": 82797,
+      "rank": 7,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-donnemartin--system-design-primer",
+      "title": "donnemartin/system-design-primer",
+      "summary": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 377001,
+        "forks": 59172,
+        "stars_today": 0,
+        "rank": 8,
+        "period": "popular",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 377001,
+      "forks": 59172,
+      "rank": 8,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-nilbuild--developer-roadmap",
+      "title": "nilbuild/developer-roadmap",
+      "summary": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 371362,
+        "forks": 45315,
+        "stars_today": 0,
+        "rank": 9,
+        "period": "popular",
+        "language": "TypeScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "TypeScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "TypeScript",
+      "stars": 371362,
+      "forks": 45315,
+      "rank": 9,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-jwasham--coding-interview-university",
+      "title": "jwasham/coding-interview-university",
+      "summary": "A complete computer science study plan to become a software engineer.",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 364011,
+        "forks": 85270,
+        "stars_today": 0,
+        "rank": 10,
+        "period": "popular",
+        "language": ""
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "GitHub",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "",
+      "stars": 364011,
+      "forks": 85270,
+      "rank": 10,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-awesome-selfhosted--awesome-selfhosted",
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "summary": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 334231,
+        "forks": 15732,
+        "stars_today": 0,
+        "rank": 11,
+        "period": "popular",
+        "language": ""
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "GitHub",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "",
+      "stars": 334231,
+      "forks": 15732,
+      "rank": 11,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-vinta--awesome-python",
+      "title": "vinta/awesome-python",
+      "summary": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+      "url": "https://github.com/vinta/awesome-python",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 332836,
+        "forks": 29054,
+        "stars_today": 0,
+        "rank": 12,
+        "period": "popular",
+        "language": "Python"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "Python",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "Python",
+      "stars": 332836,
+      "forks": 29054,
+      "rank": 12,
+      "period": "popular",
+      "stars_today": 0
+    },
+    {
+      "id": "gh-popular-affaan-m--ECC",
+      "title": "affaan-m/ECC",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "GitHub",
+      "author": "GitHub Trending",
+      "published_at": "2026-11-06 16:01:36 +08:00",
+      "date": "2026-11-06",
+      "metrics": {
+        "stars": 298049,
+        "forks": 44072,
+        "stars_today": 0,
+        "rank": 15,
+        "period": "popular",
+        "language": "JavaScript"
+      },
+      "category": "GitHub",
+      "topics": [
+        "GitHub",
+        "popular"
+      ],
+      "hook": "JavaScript",
+      "disclaimer": "GitHub public ranking; star counts change over time.",
+      "channel": "github",
+      "language": "JavaScript",
+      "stars": 298049,
+      "forks": 44072,
+      "rank": 15,
+      "period": "popular",
+      "stars_today": 0
     }
   ],
   "remote_urls": [
