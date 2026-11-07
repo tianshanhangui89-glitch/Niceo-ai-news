@@ -45,7 +45,7 @@ python3 - <<'PY'
 import json
 d=json.load(open("data.json"))
 print("generated_at=", d.get("generated_at"))
-for k in ("item_count","ai_count","world_count","startup_count","github_count","papers_count","models_count"):
+for k in ("item_count","ai_count","world_count","startup_count","github_count","papers_count","models_count","skills_count"):
     print(f"{k}=", d.get(k))
 assert d.get("items") and d.get("generated_at"), "data.json incomplete"
 PY
@@ -77,10 +77,12 @@ git push origin HEAD:main
 
 ## 技能频道（skills）
 
-- 来源：X `search_news` 抓「热门 AI 技能 / Agent Skills / SKILL.md / Claude·Cursor 技能包」介绍。
-- raw：`raw/YYYY-MM-DD-skills-*.json`（`channel: skills`）。
+- 定位：Gui 重点频道。展示「装什么 skill / 怎么用 / 爆款技能介绍」，主题要散（写作、视频剪辑、办公、开发、Cursor·Claude 技能包、自动化、Harness 等），不要只剩 Harness / Claude Code / CLAUDE.md。
+- 来源：X `search_news` **多路 query**（写作 / 视频剪辑 / 办公 / 开发 / Agent Skills / SKILL.md / Cursor skills / Claude Code skills / 自动化 / harness 等），去重后入库；目标约 **25–40+** 条（质量优先）。
+- raw：`raw/YYYY-MM-DD-skills-*.json`（`channel: skills`；可多个文件，`fetch_news.py` 会合并）。
 - **展示文案一律中文**：`title` / `summary` / `hook` / `category`（英文模型名、产品名可保留原文）。入库走 `tools/skills_zh_map.py` 精选表，缺省时 `fetch_news.py` 可机翻并回写 map；禁止把未翻译的 `[EN]` 英文条当作最终展示。
-- **若本次 Cloud 环境无 X 工具或抓取为空：保留 data.json 里已有 `channel=skills` 条目，禁止整频道清空。**
+- **日更预写（关键）**：Cursor Cloud Agent **通常没有 X MCP**，跑 `CURSOR_REFRESH.md` 时往往无法现场 `x.search_news`。因此 **Schedule `x-ai` 启动 Cloud 之前**，须由**有 X 工具的 Bot**（如 Niceo-Coding / 本机有 X 的执行方）先写入当日 `raw/YYYY-MM-DD-skills-*.json`（格式：`{"fetched_at","channel":"skills","data":[...x stories]}`），Cloud 再 `ingest` + `fetch_news` 合并进 `data.json`。无预写时：保留已有 skills，**禁止整频道清空**。
+- 推荐可靠方案：Schedule `x-ai` 增加前置一步「有 X 的 bot 多路 search_news → 写 raw skills」；Cloud 只负责 ingest/fetch/publish。
 
 ## 故障处理
 

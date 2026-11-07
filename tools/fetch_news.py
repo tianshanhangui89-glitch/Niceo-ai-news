@@ -595,22 +595,29 @@ def main() -> int:
     seen_url: set[str] = set()
     seen_id: set[str] = set()
     fresh: list[dict[str, Any]] = []
+    fresh_idx: dict[str, int] = {}
     for s in stories:
         sid = str(s.get("id"))
-        if sid in seen_id:
-            continue
         item = normalize(s, today)
         if not item:
             continue
+        ch = item.get("channel") or "ai"
         u = item["url"]
+        # 技能频道可从 ai/world/startup 夺回同一 X story id（技能栏优先展示）
+        if sid in seen_id:
+            if ch == "skills" and sid in fresh_idx:
+                prev = fresh[fresh_idx[sid]]
+                if prev.get("channel") != "skills":
+                    fresh[fresh_idx[sid]] = item
+            continue
         # models/papers may share a leaderboard host; keep unique ids (fragment URLs preferred)
-        if item.get("channel") in ("models", "papers", "github"):
-            if sid in seen_id:
-                continue
-        elif u in seen_url:
+        if ch in ("models", "papers", "github"):
+            pass
+        elif u in seen_url and ch != "skills":
             continue
         seen_id.add(sid)
         seen_url.add(u)
+        fresh_idx[sid] = len(fresh)
         fresh.append(item)
 
     if not fresh and not OUT.exists():
