@@ -9,6 +9,7 @@
      - GitHub：raw/YYYY-MM-DD-github-*.json（Trending/热度）→ channel=github
      - 论文：raw/YYYY-MM-DD-papers-*.json（HF Daily Papers / arXiv）→ channel=papers
      - 模型：raw/YYYY-MM-DD-models-*.json（LMArena / Artificial Analysis）→ channel=models
+     - 技能：raw/YYYY-MM-DD-skills-*.json（X 上热门 AI 技能介绍）→ channel=skills
      - AI 一手：raw/YYYY-MM-DD-ai-smol-*.json / ai-batch-*.json → channel=ai
   2) python3 tools/fetch_news.py
   3) bash tools/publish.sh
@@ -30,6 +31,11 @@ try:
     from github_zh_map import GITHUB_ZH  # full_name -> 中文摘要
 except Exception:
     GITHUB_ZH = {}
+
+try:
+    from skills_zh_map import SKILLS_ZH  # id -> {title, summary, hook, category}
+except Exception:
+    SKILLS_ZH = {}
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "raw"
@@ -187,6 +193,8 @@ def channel_from_filename(name: str) -> str:
         return "papers"
     if "-models-" in n or "-model-" in n:
         return "models"
+    if "-skills-" in n or "-skill-" in n:
+        return "skills"
     if "-ai-" in n or "-smol-" in n or "-batch-" in n:
         return "ai"
     return "ai"
@@ -196,8 +204,7 @@ def load_raw_stories() -> list[dict[str, Any]]:
     stories: list[dict[str, Any]] = []
     if not RAW.exists():
         return stories
-    # Newest dated snapshot wins when the same id appears in older raw files.
-    for f in sorted(RAW.glob("*.json"), reverse=True):
+    for f in sorted(RAW.glob("*.json")):
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
         except Exception as e:
@@ -233,6 +240,7 @@ def default_category(channel: str) -> str:
         "github": "GitHub",
         "papers": "论文",
         "models": "模型",
+        "skills": "AI技能",
     }.get(channel, "AI")
 
 
@@ -286,6 +294,95 @@ def translate_github_summary(full_name: str, en: str) -> str:
 
 
 
+
+def translate_en_to_zh(en: str, *, limit: int = 450) -> str | None:
+    """Best-effort machine translate; None if unavailable. Never invent content."""
+    en = (en or "").replace("&amp;", "&").strip()
+    if not en:
+        return None
+    if has_cjk(en):
+        return en
+    try:
+        from deep_translator import GoogleTranslator  # type: ignore
+        zh = GoogleTranslator(source="en", target="zh-CN").translate(en[:limit])
+        if zh and has_cjk(zh):
+            return zh.strip()
+    except Exception:
+        pass
+    return None
+
+
+def persist_skills_zh(sid: str, payload: dict[str, str]) -> None:
+    """Append curated/machine Chinese for a skills id into skills_zh_map.py."""
+    try:
+        SKILLS_ZH[sid] = {**SKILLS_ZH.get(sid, {}), **payload}
+        map_path = Path(__file__).resolve().parent / "skills_zh_map.py"
+        key_line = json.dumps(sid, ensure_ascii=False)
+        if map_path.exists() and key_line in map_path.read_text(encoding="utf-8"):
+            return
+        with map_path.open("a", encoding="utf-8") as f:
+            f.write(f"SKILLS_ZH[{key_line}] = {json.dumps(payload, ensure_ascii=False)}\n")
+    except Exception:
+        pass
+
+
+def skills_category_zh(cat: str | None) -> str:
+    c = (cat or "").strip()
+    if has_cjk(c):
+        return c
+    mapping = {
+        "Other": "技能合集",
+        "News": "动态",
+        "Research": "研究",
+        "Tutorial": "教程",
+        "Guide": "指南",
+        "Product": "产品",
+        "AI": "AI技能",
+    }
+    return mapping.get(c, "AI技能")
+
+
+def translate_skills_fields(sid: str, en_title: str, en_sum: str, en_hook: str, cat: str | None) -> dict[str, str]:
+    """Curated map > already Chinese > machine translate > [EN] fallback."""
+    mapped = SKILLS_ZH.get(sid, {})
+    title = mapped.get("title") or ""
+    summary = mapped.get("summary") or ""
+    hook = mapped.get("hook") or ""
+    category = mapped.get("category") or skills_category_zh(cat)
+
+    if not title:
+        if has_cjk(en_title):
+            title = en_title
+        else:
+            title = translate_en_to_zh(en_title, limit=200) or (("[EN] " + en_title) if en_title else "未命名技能热点")
+    if not summary:
+        if has_cjk(en_sum):
+            summary = en_sum
+        else:
+            summary = translate_en_to_zh(en_sum, limit=500) or (
+                (("[EN] " + en_sum) if en_sum else "暂无摘要。")
+            )
+    if len(summary) > 280:
+        summary = summary[:277] + "…"
+    if not hook:
+        if has_cjk(en_hook):
+            hook = en_hook
+        else:
+            hook = translate_en_to_zh(en_hook, limit=220) or (en_hook or "")
+    if len(hook) > 160:
+        hook = hook[:157] + "…"
+
+    # Persist machine results for future runs (only if we produced CJK and id was unmapped)
+    if sid not in SKILLS_ZH and has_cjk(title) and has_cjk(summary):
+        persist_skills_zh(sid, {
+            "title": title,
+            "summary": summary,
+            "hook": hook,
+            "category": category,
+        })
+    return {"title": title, "summary": summary, "hook": hook, "category": category}
+
+
 def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     sid = str(story.get("id") or "")
     if not sid or sid in SKIP_IDS:
@@ -301,10 +398,24 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     en_title = (story.get("name") or story.get("title") or "").strip()
     en_sum = (story.get("summary") or story.get("hook") or "").strip()
 
+    skills_zh_fields = None
+    if channel == "skills":
+        # 技能栏：精选表 / ZH_MAP / 预翻译 / 机翻 → 标题·摘要·钩子一律中文
+        en_hook = (story.get("hook") or "").strip()
+        skills_zh_fields = translate_skills_fields(
+            sid,
+            en_title,
+            en_sum or (story.get("summary") or ""),
+            en_hook,
+            story.get("category"),
+        )
+
     if pre.get("title"):
         title = pre["title"]
     elif pre_ready and story.get("title"):
         title = str(story.get("title")).strip()
+    elif channel == "skills" and skills_zh_fields:
+        title = skills_zh_fields["title"]
     elif zh.get("title"):
         title = zh["title"]
     elif channel == "github":
@@ -317,6 +428,8 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
         summary = pre.get("summary") or translate_github_summary(en_title, en_sum or (story.get("summary") or ""))
         if len(summary) > 220:
             summary = summary[:217] + "…"
+    elif channel == "skills" and skills_zh_fields:
+        summary = pre.get("summary") or skills_zh_fields["summary"]
     elif pre.get("summary"):
         summary = pre["summary"]
     elif pre_ready and story.get("summary"):
@@ -337,6 +450,8 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     cat = pre.get("category") or zh.get("category") or story.get("category") or default_category(channel)
     if channel == "github":
         cat = "GitHub"
+    elif channel == "skills" and skills_zh_fields:
+        cat = skills_zh_fields.get("category") or skills_category_zh(cat)
     topics = []
     ctx = story.get("contexts") or {}
     if isinstance(ctx, dict):
@@ -352,6 +467,7 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
             (story.get("source") or story.get("author") or (
                 "论文" if channel == "papers" else
                 "模型榜" if channel == "models" else
+                "AI技能" if channel == "skills" else
                 "X Trending"
             ))
         ),
@@ -363,9 +479,16 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
         "hook": (
             github_hook_zh(story.get("period"), story.get("stars_today"), story.get("language"))
             if channel == "github"
-            else (story.get("hook") or "")
+            else (
+                (skills_zh_fields.get("hook") if skills_zh_fields else None)
+                or (story.get("hook") or "")
+            )
         ),
-        "disclaimer": story.get("disclaimer") or "",
+        "disclaimer": (
+            "本条为 X 帖摘要，可能随讨论演变，请自行核实。"
+            if channel == "skills"
+            else (story.get("disclaimer") or "")
+        ),
         "channel": channel,
     }
     if channel == "github":
@@ -440,7 +563,7 @@ def merge_history(new_items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     ))
     items = non_gh + gh
     cutoff = (now_sh() - timedelta(days=14)).strftime("%Y-%m-%d")
-    items = [x for x in items if (x.get("date") or "9999") >= cutoff or x.get("channel") in ("github", "models", "papers")]
+    items = [x for x in items if (x.get("date") or "9999") >= cutoff or x.get("channel") in ("github", "models", "papers", "skills")]
     return items
 
 
@@ -494,7 +617,7 @@ def main() -> int:
         payload = {
             "generated_at": now_sh().strftime("%Y-%m-%d %H:%M:%S %z").replace("+0800", "+08:00"),
             "timezone": "Asia/Shanghai",
-            "source": "x.search_news+github+papers+models+primary",
+            "source": "x.search_news+github+papers+models+skills+primary",
             "item_count": 0,
             "ai_count": 0,
             "world_count": 0,
@@ -502,6 +625,7 @@ def main() -> int:
             "github_count": 0,
             "papers_count": 0,
             "models_count": 0,
+            "skills_count": 0,
             "days": [],
             "items": [],
             "note": "今日尚未抓到数据；下拉刷新或等待日更任务。",
@@ -527,7 +651,7 @@ def main() -> int:
         "generated_at": gen,
         "generated": gen,
         "timezone": "Asia/Shanghai",
-        "source": "x.search_news+github+papers+models+primary",
+        "source": "x.search_news+github+papers+models+skills+primary",
         "item_count": len(items),
         "fresh_count": len(fresh),
         "ai_count": cnt("ai"),
@@ -536,6 +660,7 @@ def main() -> int:
         "github_count": cnt("github"),
         "papers_count": cnt("papers"),
         "models_count": cnt("models"),
+        "skills_count": cnt("skills"),
         "days": build_days(items),
         "items": items,
         "remote_urls": [
@@ -548,8 +673,8 @@ def main() -> int:
     for dest in [ROOT / "github-publish" / "data.json", ROOT / "app" / "data.json"]:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(text, encoding="utf-8")
-    print(f"写出 {OUT} ：共 {len(items)} 条（本轮 {len(fresh)}） ai={cnt('ai')} world={cnt('world')} startup={cnt('startup')} github={cnt('github')} papers={cnt('papers')} models={cnt('models')}")
-    for ch in ("world", "startup", "github", "papers", "models", "ai"):
+    print(f"写出 {OUT} ：共 {len(items)} 条（本轮 {len(fresh)}） ai={cnt('ai')} world={cnt('world')} startup={cnt('startup')} github={cnt('github')} papers={cnt('papers')} models={cnt('models')} skills={cnt('skills')}")
+    for ch in ("world", "startup", "github", "papers", "models", "skills", "ai"):
         print(f"--- {ch} ---")
         for it in [x for x in fresh if x.get("channel") == ch][:5]:
             print(" -", it["title"][:80])

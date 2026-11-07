@@ -239,6 +239,14 @@ function toggleFav(it, ev){
 function chLabel(ch){
   return ({ai:"AI",world:"时政",startup:"创业",github:"GitHub",papers:"论文",models:"模型",skills:"技能",fav:"收藏"})[ch]||ch;
 }
+function catDisplay(cat, ch){
+  const c=(cat||"").trim();
+  if(!c) return chLabel(ch||"ai");
+  if(/[\u4e00-\u9fff]/.test(c)) return c;
+  const map={Other:"技能合集",News:"动态",Research:"研究",Tutorial:"教程",Guide:"指南",Product:"产品",AI:"AI"};
+  if((ch||"")==="skills") return map[c]||"AI技能";
+  return map[c]||c;
+}
 function catClass(it){
   const ch=it.channel||"ai";
   if(ch==="world") return "cat world";
@@ -351,7 +359,7 @@ function renderChips(){
 function paperStatsHtml(it){
   const bits=[];
   if(it.arxiv_id) bits.push(`<span>arXiv ${esc(it.arxiv_id)}</span>`);
-  if(it.category) bits.push(`<span>${esc(it.category)}</span>`);
+  if(it.category) bits.push(`<span>${esc(catDisplay(it.category, it.channel||"ai"))}</span>`);
   if(it.metrics && it.metrics.upvotes!=null) bits.push(`<span>▲ ${esc(it.metrics.upvotes)}</span>`);
   return bits.length?`<div class="gh-stats">${bits.join("")}</div>`:"";
 }
@@ -463,7 +471,7 @@ function cardHtml(it, fromFav){
   const src = it.source ? `<span>${esc(it.source)}</span>` : `<span>${esc((it.published_at||it.date||"").toString().slice(0,16))}</span>`;
   return `<article class="card" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}">
     <div class="card-top">
-      <span class="${catClass(it)}">${esc(it.category||chLabel(it.channel||"ai"))}</span>
+      <span class="${catClass(it)}">${esc(catDisplay(it.category, it.channel||"ai"))}</span>
       ${chTag}
       <button class="fav-btn${on}" type="button" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}" aria-label="收藏">${star}</button>
     </div>
@@ -486,7 +494,7 @@ function showDetail(id, fromFav){
   const favOn=isFav(it.id);
   $("detail").style.display="block";
   $("sheet").innerHTML=`
-    <div class="row"><span class="${catClass(it)}">${esc(it.category||"AI")}</span>
+    <div class="row"><span class="${catClass(it)}">${esc(catDisplay(it.category, it.channel||"ai"))}</span>
       <span style="color:var(--muted);font-size:12px;margin-left:8px">${esc(chLabel(it.channel||"ai"))}</span>
       <button class="btn" type="button" id="closeDetail" style="margin-left:auto">关闭</button></div>
     <h2>${esc(it.title)}</h2>

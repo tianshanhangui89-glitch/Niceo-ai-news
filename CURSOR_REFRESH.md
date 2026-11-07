@@ -79,6 +79,7 @@ git push origin HEAD:main
 
 - 来源：X `search_news` 抓「热门 AI 技能 / Agent Skills / SKILL.md / Claude·Cursor 技能包」介绍。
 - raw：`raw/YYYY-MM-DD-skills-*.json`（`channel: skills`）。
+- **展示文案一律中文**：`title` / `summary` / `hook` / `category`（英文模型名、产品名可保留原文）。入库走 `tools/skills_zh_map.py` 精选表，缺省时 `fetch_news.py` 可机翻并回写 map；禁止把未翻译的 `[EN]` 英文条当作最终展示。
 - **若本次 Cloud 环境无 X 工具或抓取为空：保留 data.json 里已有 `channel=skills` 条目，禁止整频道清空。**
 
 ## 故障处理
