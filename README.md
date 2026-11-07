@@ -35,8 +35,8 @@
 
 1. Agent 用 `x.search_news` 抓 AI / 时政 / 创业 → `raw/YYYY-MM-DD-*.json`
 2. Agent 抓 GitHub Trending → `raw/YYYY-MM-DD-github-*.json`
-2b. Agent 用 `x.search_news` 抓热门 AI 技能介绍 → `raw/YYYY-MM-DD-skills-*.json`（无 X 时保留旧 skills，勿清空）
-3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py` 刷新一手源）→ `data.json`
+2b. **技能预写（有 X 的 Bot，Cloud 之前）**：多路 `x.search_news`（写作/视频/办公/开发/Agent Skills/SKILL.md/Cursor·Claude skills/自动化/harness）→ `raw/YYYY-MM-DD-skills-*.json`，去重约 25–40+ 条；主题要散。Cloud Agent 无 X MCP，**不能指望它现场抓 skills**；无预写则保留旧 skills，勿清空。
+3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py` 刷新一手源）→ `data.json`（skills 走 `skills_zh_map` / 机翻，展示全中文）
 4. `bash tools/publish.sh` → 推公开仓
 
 重建 APK：
