@@ -13,7 +13,7 @@
       "id": "2118773897453555992",
       "name": "Asian Governments Step In to Steady Stock Markets After AI Selloff",
       "summary": "Triggered by fears of U.S. policy shifts curbing AI data centers, markets in Taiwan, South Korea, and China saw steep declines, with Taiwan's benchmark falling over 20 percent from its peak. Taiwan capped short sales at 3 percent of daily volume starting November 9, raised margin collateral to 130 percent, and readied a $15 billion stabilization fund for interventions. South Korea waived margin loan rules to prevent forced selling, while China expanded liquidity facilities and cut buyback rates to bolster equities and restore confidence.",
-      "hook": "Taiwan's Taiex index plunged nearly 9 percent in a single day, its worst weekly drop since 2001, prompting swift action from regulators across the region.",
+      "hook": "台湾加权指数在一天内暴跌近9%，创下自2001年以来最糟糕的单周跌幅，促使整个地区的监管机构迅速采取行动。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -23,13 +23,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T18:43:49.000Z",
-      "url": "https://x.com/i/trending/2118773897453555992"
+      "url": "https://x.com/i/trending/2118773897453555992",
+      "_pretranslated": {
+        "title": "亚洲各国政府介入以稳定人工智能抛售后的股市",
+        "summary": "受到对美国政策变化可能抑制人工智能数据中心的担忧影响，台湾、韩国和中国的市场出现大幅下跌，台湾的基准指数从高点下跌超过20%。自11月9日起，台湾将融券卖空上限设为每日成交量的3%，将保证金抵押提高至130%，并准备了150亿美元的稳定基金用于干预。韩国免除了保证金贷款规则以防止被迫卖出，而中国则扩大了流动性工具并下调了回购利率。",
+        "category": "动态"
+      },
+      "_hook_en": "Taiwan's Taiex index plunged nearly 9 percent in a single day, its worst weekly drop since 2001, prompting swift action from regulators across the region."
     },
     {
       "id": "2117856698912104805",
       "name": "Oracle Cancels $7 Billion AI Chip Deal with Tencent After U.S. Pressure",
       "summary": "The five-year contract would have provided Tencent with up to 100,000 advanced AI chips through Oracle's Southeast Asia data centers, bypassing U.S. and Chinese export restrictions on such hardware. U.S. officials directly approached Oracle with worries about the arrangement, while Guangdong province officials visited Tencent to push support for domestic Chinese chipmakers. Though legal under current rules, the political pressures from both sides led to the cancellation, with no comments yet from Oracle, Tencent, or the White House. The move reflects tightening U.S. export controls and growing scrutiny on cross-border AI infrastructure deals.",
-      "hook": "Oracle pulled the plug on a massive $7 billion deal to lease AI chips to Tencent, caught between U.S. government concerns and Chinese provincial urging.",
+      "hook": "甲骨文终止了一笔价值70亿美元的大型交易，该交易计划向腾讯租赁AI芯片，原因是在美国政府的担忧和中国地方政府的敦促之间左右为难。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -39,13 +45,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-04T23:08:39.000Z",
-      "url": "https://x.com/i/trending/2117856698912104805"
+      "url": "https://x.com/i/trending/2117856698912104805",
+      "_hook_en": "Oracle pulled the plug on a massive $7 billion deal to lease AI chips to Tencent, caught between U.S. government concerns and Chinese provincial urging."
     },
     {
       "id": "2118286877002236005",
       "name": "Micron Pauses $4.5 Billion Taiwan Chip Plant Over Union Dispute",
       "summary": "Micron Technology has halted construction on its planned $4.5 billion Fab 11E facility in Taoyuan, Taiwan, due to a labor dispute with a local union demanding higher bonuses and 15 percent of operating profits. The plant, set to produce DRAM and high-bandwidth memory starting in 2028, faces uncertainty after executives worried any deal could be overturned, despite an agreement with another union last month. Taiwan handles 60 percent of Micron's global DRAM output, so the pause risks tightening future supply amid booming AI demand, while competitors like SK Hynix and Samsung stand to gain. Micron insists existing operations continue normally and remains committed to dialogue.",
-      "hook": "A small union of under 3,000 workers has brought a massive chip factory project to a standstill, threatening future supplies for AI memory components.",
+      "hook": "一个由不到3,000名工人组成的小型工会使一个大型芯片工厂项目陷入停顿，威胁到未来用于人工智能存储组件的供应。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -54,13 +61,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T19:18:18.000Z",
-      "url": "https://x.com/i/trending/2118286877002236005"
+      "url": "https://x.com/i/trending/2118286877002236005",
+      "_hook_en": "A small union of under 3,000 workers has brought a massive chip factory project to a standstill, threatening future supplies for AI memory components."
     },
     {
       "id": "2118749229791228036",
       "name": "Taiwan Imposes Short-Selling Curbs and Activates Stabilization Fund After Taiex Plunge",
       "summary": "The Taiex benchmark dropped 1,873 points, or 4.51 percent, to 39,701.64 on Friday—its fourth-worst single-day fall ever—and has now fallen over 20 percent from its early October peak near 50,000. Officials blamed heavy foreign selling and fears of U.S. election impacts on AI data centers, prompting the Financial Supervisory Commission to slash intraday short-sale limits to 3 percent of average volume starting November 9 and hike margin requirements to 130 percent. The NT$500 billion National Financial Stabilization Fund was also greenlit for intervention, its 10th use since 2000, as similar measures rolled out in South Korea and China to steady AI-linked markets.",
-      "hook": "Taiwan's stock market took a brutal hit, shedding nearly 1,900 points in one day amid shaky investor confidence. Regulators responded swiftly with tough new rules and a massive fund ready to step in.",
+      "hook": "台湾股市遭受重创，在投资者信心动摇的情况下，一天内下跌近1,900点。监管机构迅速采取了严格的新规，并准备了巨额基金进行干预。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -70,13 +78,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T17:03:51.000Z",
-      "url": "https://x.com/i/trending/2118749229791228036"
+      "url": "https://x.com/i/trending/2118749229791228036",
+      "_pretranslated": {
+        "title": "台湾在台股大跌后实施卖空限制并启动稳定基金",
+        "summary": "台股加权指数（Taiex）周五下跌1,873点，或4.51%，至39,701.64点——这是有史以来第四大单日跌幅——目前已从10月初接近50,000的峰值下跌超过20%。官员们将此归因于大量外资抛售以及对美国大选可能影响人工智能数据中心的担忧，这促使金融监督管理委员会自11月9日起将盘中融券卖出限额下调至平均成交量的3%，并将保证金要求提高至130%。新台币5,000亿元国家金融",
+        "category": "动态"
+      },
+      "_hook_en": "Taiwan's stock market took a brutal hit, shedding nearly 1,900 points in one day amid shaky investor confidence. Regulators responded swiftly with tough new rules and a massive fund ready to step in."
     },
     {
       "id": "2119032223299236218",
       "name": "U.S. Approves Nvidia H200 Chip Sales to Chinese Firms with Empty Offices",
       "summary": "The U.S. Commerce Department cleared about two dozen Chinese companies, including New Matrix and Maginfra, to purchase or assemble Nvidia H200 chips for AI training. New Matrix's Beijing address is an empty industrial site, and its owners link to sanctioned Wise Road Capital; Maginfra ties to blacklisted Inspur, with no physical presence at its location. The approvals follow a Trump-era policy routing Taiwan-made chips through the U.S. for tariffs and reviews banning military use, though major firms like Baidu, BYD, and Tesla Shanghai also received clearance. The findings raise questions about oversight in U.S.-China tech trade.",
-      "hook": "Reporters visited the listed addresses of some approved Chinese companies and found empty shells with dangling wires and no records. These firms now handle powerful Nvidia H200 AI chips amid U.S. security reviews.",
+      "hook": "记者走访了部分获批中国公司的登记地址，发现只是空壳，电线悬挂，没有任何记录。这些公司如今在美国安全审查下处理强大的英伟达 H200 人工智能芯片。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -85,13 +99,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T19:38:33.000Z",
-      "url": "https://x.com/i/trending/2119032223299236218"
+      "url": "https://x.com/i/trending/2119032223299236218",
+      "_pretranslated": {
+        "title": "美国批准向拥有空办公室的中国公司销售英伟达 H200 芯片",
+        "summary": "美国商务部批准了约二十多家中国公司，包括新矩阵（New Matrix）和马金法（Maginfra），购买或组装用于人工智能训练的英伟达H200芯片。新矩阵在北京的地址是一处空置的工业用地，其所有者与受制裁的智道资本（Wise Road Capital）有关；马金法与被列入黑名单的浪潮（Inspur）有关，其所在地没有实际存在。此次批准遵循特朗普时代的政策，通过美国处理台湾制造的芯片以征收关税并进行审查，禁止军事使用，尽管主要",
+        "category": "动态"
+      },
+      "_hook_en": "Reporters visited the listed addresses of some approved Chinese companies and found empty shells with dangling wires and no records. These firms now handle powerful Nvidia H200 AI chips amid U.S. security reviews."
     },
     {
       "id": "2118787808999645532",
       "name": "US Warns China to Honor Busan Trade Truce Commitments Immediately",
       "summary": "The warning centers on shortfalls in rare earth mineral deliveries, especially yttrium vital for jet engines and missiles, where China has provided only about two-thirds of pledged volumes. The 2025 Busan truce between Presidents Trump and Xi Jinping eased tariffs and boosted US farm good purchases, but US officials say progress requires concrete action amid disputes from Beijing. With the truce extended to January 2027 and leaders set to meet soon at APEC and G20 summits, both sides aim to prevent escalation in these critical supply chains.",
-      "hook": "US Treasury Secretary Scott Bessent didn't mince words on a Friday call with China's Vice Premier He Lifeng: Beijing must deliver on last year's trade promises right away.",
+      "hook": "美国财政部长斯科特·贝森特在周五与中国副总理何立峰的电话会议中直言不讳：北京必须立即履行去年的贸易承诺。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -100,13 +120,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T03:34:39.000Z",
-      "url": "https://x.com/i/trending/2118787808999645532"
+      "url": "https://x.com/i/trending/2118787808999645532",
+      "_pretranslated": {
+        "title": "美国敦促中国立即履行釜山贸易休战承诺",
+        "summary": "警告集中在稀土矿石供应不足上，尤其是对喷气发动机和导弹至关重要的钇，而中国只提供了承诺数量的大约三分之二。2025年特朗普总统与习近平主席在釜山达成的停战协议减轻了关税并增加了美国农产品的购买，但美国官员表示，在北京的争议中，进展需要具体行动。随着停战协议延长到2027年1月，两国领导人准备在APEC和G20峰会上会晤，双方的目标是预",
+        "category": "动态"
+      },
+      "_hook_en": "US Treasury Secretary Scott Bessent didn't mince words on a Friday call with China's Vice Premier He Lifeng: Beijing must deliver on last year's trade promises right away."
     },
     {
       "id": "2118344901230547360",
       "name": "Moonshot AI Seeks Nvidia Blackwell Access via Europe",
       "summary": "The Beijing-based lab discussed renting clusters of 8,000 or more Blackwell GPUs from European providers, mainly for running models and some training, sources told CNBC. Blocked from direct U.S. shipments, Moonshot offered 30% to 50% higher upfront payments to offset risks for the cloud operators. No deals are confirmed yet, but the push follows White House accusations of prior remote access in Thailand and highlights workarounds in the U.S.-China tech race as Chinese firms chase scarce compute power.",
-      "hook": "Moonshot AI, racing to power its Kimi models amid U.S. export curbs, turned to European data centers for thousands of Nvidia's top Blackwell chips.",
+      "hook": "Moonshot AI 在美国出口限制下，为了推动其 Kimi 模型的发展，转向欧洲数据中心获取数千块 Nvidia 的顶级 Blackwell 芯片。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -116,13 +142,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T22:01:24.000Z",
-      "url": "https://x.com/i/trending/2118344901230547360"
+      "url": "https://x.com/i/trending/2118344901230547360",
+      "_pretranslated": {
+        "title": "Moonshot AI 通过欧洲寻求获取 Nvidia Blackwell 访问权限",
+        "summary": "据消息人士告诉CNBC，这家总部位于北京的实验室讨论过从欧洲供应商租用8,000个或更多的Blackwell GPU集群，主要用于运行模型和部分训练。由于被阻止直接向美国发货，Moonshot为云运营商提供了高达30%至50%的预付款以抵消风险。目前尚未确认任何交易，但这一推动行动是在白宫指控此前在泰国有远程访问之后进行的，并凸显了在美中科技竞争中，中国企业在追逐稀缺计算资源时采取的变通方式。",
+        "category": "动态"
+      },
+      "_hook_en": "Moonshot AI, racing to power its Kimi models amid U.S. export curbs, turned to European data centers for thousands of Nvidia's top Blackwell chips."
     },
     {
       "id": "2118461961566302212",
       "name": "US Lawmakers Demand Nvidia CEO Briefing on Alleged Chinese Spy Ties",
       "summary": "US intelligence assessed that Alice Huang, an executive at Nvidia customer Megaspeed, was recruited by China's Ministry of State Security to gather AI chip information and influence looser export rules, according to a Financial Times report citing a memo to top officials. Republican lawmakers sent Huang a letter on November 4 requesting a closed-door briefing on November 18 to address national security concerns over PRC access to sensitive technology. Nvidia stated its interactions with her were standard customer meetings, with internal reviews finding no wrongdoing or improper chip diversions.",
-      "hook": "Photos of Nvidia CEO Jensen Huang with Alice Huang, an executive linked to Chinese intelligence, have drawn sharp attention amid US export control worries.",
+      "hook": "英伟达首席执行官黄仁勋与与中国情报有关的高管黄爱丽丝的照片在美国出口管制担忧中引起了高度关注。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -133,13 +165,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T20:11:16.000Z",
-      "url": "https://x.com/i/trending/2118461961566302212"
+      "url": "https://x.com/i/trending/2118461961566302212",
+      "_pretranslated": {
+        "title": "美国立法者要求英伟达首席执行官就涉嫌与中国间谍关系进行简报",
+        "summary": "据《金融时报》引用一份致高级官员的备忘录报道，美国情报部门评估认为，英伟达客户Megaspeed的高管Alice Huang被中国国家安全部招募，以收集人工智能芯片信息并影响更宽松的出口规则。共和党议员于11月4日向Huang发送了一封信，要求在11月18日举行闭门简报，以解决关于中国获取敏感技术的国家安全问题。英伟达表示，其与她的互动是",
+        "category": "动态"
+      },
+      "_hook_en": "Photos of Nvidia CEO Jensen Huang with Alice Huang, an executive linked to Chinese intelligence, have drawn sharp attention amid US export control worries."
     },
     {
       "id": "2119172440320336218",
       "name": "US Intelligence Alleges Nvidia CEO's Link to Suspected Chinese Spy",
       "summary": "A Financial Times report revealed American intelligence assessed that Alice Huang, an executive at Nvidia customer Megaspeed, was recruited by China's Ministry of State Security to target Nvidia and influence US chip export policies. Nvidia insists their meetings were standard business and found no illegal activity after investigating Megaspeed. Three House Republican chairs requested a closed-door briefing with Huang on November 18 amid calls for a congressional probe, while betting markets put 20 percent odds on his resignation before 2029.",
-      "hook": "US officials detailed a memo this year about Nvidia CEO Jensen Huang's alleged romance with an executive tied to Chinese intelligence, raising alarms over AI chip exports.",
+      "hook": "美国官员今年详细说明了一份备忘录，涉及英伟达首席执行官黄仁勋据称与一名与中国情报有关的高管的恋情，这引发了对人工智能芯片出口的担忧。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -150,13 +188,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T22:06:07.000Z",
-      "url": "https://x.com/i/trending/2119172440320336218"
+      "url": "https://x.com/i/trending/2119172440320336218",
+      "_pretranslated": {
+        "title": "美国情报机构指控英伟达首席执行官与疑似中国间谍有关联",
+        "summary": "《金融时报》的一篇报道披露，美国情报部门评估认为，Nvidia客户Megaspeed的高管Alice Huang被中国国家安全部招募，以针对Nvidia并影响美国芯片出口政策。Nvidia坚持认为他们的会议是正常的商务活动，并在调查Megaspeed后未发现任何非法行为。三位众议院共和党主席在11月18日要求与Huang进行闭门简报，同时在国会调查呼声中，博彩市场也将",
+        "category": "动态"
+      },
+      "_hook_en": "US officials detailed a memo this year about Nvidia CEO Jensen Huang's alleged romance with an executive tied to Chinese intelligence, raising alarms over AI chip exports."
     },
     {
       "id": "2118448222796681249",
       "name": "Google Commits $15 Billion to Malaysia Data Centers Amid U.S. Hurdles",
       "summary": "The investment funds campuses in Selangor and Negeri Sembilan, plus clean energy and workforce training, building on a prior $2 billion pledge. It promises $1.1 billion yearly to Malaysia's GDP and over 37,000 jobs annually during construction in 2027-2028, with 9,000 sustained roles at higher wages once operational. Observers tie the move to U.S. midterm wins for candidates pushing data center restrictions, sparking talk of companies shifting to AI-friendly spots like Malaysia for its stable infrastructure and economic perks.",
-      "hook": "Google is pouring $15 billion into new data centers in Malaysia, chasing smoother paths abroad while U.S. states tighten rules on power and water use.",
+      "hook": "谷歌正在马来西亚的新数据中心投入150亿美元，追求在海外更顺畅的发展途径，同时美国各州正在收紧对电力和用水的规定。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -166,13 +210,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T04:19:44.000Z",
-      "url": "https://x.com/i/trending/2118448222796681249"
+      "url": "https://x.com/i/trending/2118448222796681249",
+      "_hook_en": "Google is pouring $15 billion into new data centers in Malaysia, chasing smoother paths abroad while U.S. states tighten rules on power and water use."
     },
     {
       "id": "2118714864268955949",
       "name": "TSMC Denies Plans for 3D DRAM Production at Nvidia's Request",
       "summary": "The Information first reported TSMC's internal planning for advanced 3D DRAM, vertically stacked memory to boost density and ease AI-driven shortages straining high-bandwidth supplies. Nvidia, its largest customer, reportedly pushed for it amid surging data center demand. TSMC denied active exploration, with a spokesperson emphasizing its focus on integrated circuit foundry work and serving the global logic chip industry. Skeptics highlighted TSMC's lack of DRAM expertise, calling it a mismatch, while the buzz underscores AI's pressure on semiconductor supply chains.",
-      "hook": "Reports surfaced Thursday that TSMC was eyeing 3D DRAM chips to help Nvidia tackle AI memory shortages. The foundry quickly shut down the idea, sticking to its logic chip roots.",
+      "hook": "周四有报道称，台积电正在考虑生产3D DRAM芯片，以帮助英伟达应对人工智能内存短缺问题。但这家代工厂迅速否决了这一想法，继续专注于其逻辑芯片的本业。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -181,13 +226,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T20:21:36.000Z",
-      "url": "https://x.com/i/trending/2118714864268955949"
+      "url": "https://x.com/i/trending/2118714864268955949",
+      "_pretranslated": {
+        "title": "台积电否认应英伟达要求开展3D DRAM生产计划",
+        "summary": "The Information 首次报道了台积电针对先进 3D DRAM 的内部规划，这种垂直堆叠的内存旨在提高密度并缓解高带宽供应紧张导致的 AI 驱动短缺。据报道，其最大客户英伟达在数据中心需求激增的情况下推动了这一计划。台积电否认正在积极探索，发言人强调其重点是集成电路代工业务并服务全球逻辑芯片行业。怀疑者指出台积电缺乏 DRAM 专业知识，称这是不匹配的。",
+        "category": "动态"
+      },
+      "_hook_en": "Reports surfaced Thursday that TSMC was eyeing 3D DRAM chips to help Nvidia tackle AI memory shortages. The foundry quickly shut down the idea, sticking to its logic chip roots."
     },
     {
       "id": "2119182991700181073",
       "name": "Data Center Bans Win Local Votes Amid AI Race Debates",
       "summary": "In recent U.S. midterms, voters in dozens of locales approved restrictions or bans on data centers, with opposition prevailing in nearly every case. Proponents argue these facilities drive jobs, tax revenue, and clean growth like in SimCity, while positioning the U.S. against China's rapid buildout. Skeptics point to real strains on power grids, water, noise, and uneven local benefits, sparking talks of decentralized options and broader infrastructure needs.",
-      "hook": "Communities across Ohio and Illinois just voted to block new data centers, even as supporters warn it risks America's edge over China in AI.",
+      "hook": "俄亥俄州和伊利诺伊州的社区刚刚投票决定阻止新建数据中心，即使支持者警告说，这可能会危及美国在人工智能领域对中国的优势。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -197,13 +248,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T21:45:40.000Z",
-      "url": "https://x.com/i/trending/2119182991700181073"
+      "url": "https://x.com/i/trending/2119182991700181073",
+      "_pretranslated": {
+        "title": "数据中心在人工智能竞赛辩论中禁止赢得本地选票",
+        "summary": "在最近的美国中期选举中，数十个地区的选民批准了针对数据中心的限制或禁令，而反对意见几乎在每个案例中占上风。支持者认为，这些设施可以带来就业、税收和类似于《模拟城市》的清洁增长，同时使美国在与中国的快速建设竞争中占据优势。怀疑者则指出，这些设施给电网、水资源、噪音以及地方利益分配带来了实际压力，引发了关于分布式选项和更广泛基础设施需求的讨论。",
+        "category": "动态"
+      },
+      "_hook_en": "Communities across Ohio and Illinois just voted to block new data centers, even as supporters warn it risks America's edge over China in AI."
     },
     {
       "id": "2118777500524278072",
       "name": "Semiconductor Stocks Plunge 21.8% in Historic Five-Day Selloff",
       "summary": "The SOX index recorded its third-largest five-day decline ever, including a 12.3% single-day plunge on Thursday, while the 3x leveraged ETF SOXL shed about 60%. Investors had poured a record $9.5 billion into US leveraged ETFs the prior month, with $7 billion into SOXL alone. Democrats' midterm election win earlier that week fueled worries over tighter AI data center rules, higher power costs, and delayed infrastructure spending in a now-crowded AI trade. Analysts note forward P/E ratios at seven-year lows amid elevated earnings estimates, though leverage risks remain high.",
-      "hook": "The Philadelphia Semiconductor Index tumbled 21.8% over five trading days through November 5, its worst drop since the 2001 dot-com bust. Heavy leverage from record ETF inflows turned a sentiment shift into a sharp market jolt.",
+      "hook": "费城半导体指数在截至11月5日的五个交易日内暴跌了21.8%，这是自2001年互联网泡沫破裂以来的最大跌幅。来自创纪录ETF流入的大量杠杆将情绪转变成了市场的剧烈震荡。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -212,13 +269,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T18:58:00.000Z",
-      "url": "https://x.com/i/trending/2118777500524278072"
+      "url": "https://x.com/i/trending/2118777500524278072",
+      "_pretranslated": {
+        "title": "半导体股票在历史性的五天抛售中暴跌21.8%",
+        "summary": "SOX指数录得有史以来第三大五日跌幅，其中周四单日下跌12.3%，而3倍杠杆ETF SOXL下跌约60%。投资者在前一个月向美国杠杆ETF投入了创纪录的95亿美元，其中单是SOXL就投入了70亿美元。当周早些时候，民主党在中期选举中获胜，引发了对更严格的AI数据中心规定、更高电力成本以及基础设施支出延迟的担忧，而AI交易已趋于拥挤。分析师指出前瞻市盈率为seve",
+        "category": "动态"
+      },
+      "_hook_en": "The Philadelphia Semiconductor Index tumbled 21.8% over five trading days through November 5, its worst drop since the 2001 dot-com bust. Heavy leverage from record ETF inflows turned a sentiment shift into a sharp market jolt."
     },
     {
       "id": "2118369270791065647",
       "name": "Investors Debate Memory Stocks' Low Valuations and LTA Reliability",
       "summary": "A detailed discussion highlights how long-term agreements (LTAs) in memory chips mainly shift costs via prepayments, but buyers have historically abandoned them during sharp price drops over 60%, making forward earnings tricky to trust. While companies like Samsung, SK hynix, and Micron boast sold-out volumes through 2029-2030 fueled by AI-driven HBM demand, skeptics warn of cyclical oversupply risks, contrasting TSMC's steady premium pricing and margins. Defenders point to durable AI needs and take-or-pay terms, yet uncertainty lingers over whether these deals will hold in downturns.",
-      "hook": "Veteran investors are questioning if memory stocks' bargain prices hide big risks from shaky long-term supply deals. Past cycles show customers often ditch contracts when prices crash.",
+      "hook": "资深投资者正在质疑内存股票的低价是否掩盖了长期供应协议不稳带来的巨大风险。过去的周期显示，当价格暴跌时，客户往往会放弃合同。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -230,13 +293,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T19:32:29.000Z",
-      "url": "https://x.com/i/trending/2118369270791065647"
+      "url": "https://x.com/i/trending/2118369270791065647",
+      "_pretranslated": {
+        "title": "投资者讨论内存股的低估值和长期可靠性",
+        "summary": "一篇详细讨论强调了内存芯片的长期协议（LTA）主要通过预付款转移成本，但历史上买家在价格骤降超过60%时往往会放弃这些协议，使得预测未来收益变得难以信任。尽管三星、SK海力士和美光等公司通过AI驱动的HBM需求宣称其销量已售罄至2029-2030年，但持怀疑态度的人警告存在周期性过剩风险，这与台积电稳定的高端定价和利润形成对比。支持者则指出AI需求的持久性和",
+        "category": "动态"
+      },
+      "_hook_en": "Veteran investors are questioning if memory stocks' bargain prices hide big risks from shaky long-term supply deals. Past cycles show customers often ditch contracts when prices crash."
     },
     {
       "id": "2117935307915952327",
       "name": "Google Commits $15 Billion for Malaysia Data Centers",
       "summary": "Between 2027 and 2028, Google will construct new campuses in Selangor and Negeri Sembilan, expand cloud operations, and add over one gigawatt of clean energy to the grid. The projects promise $1.1 billion annual GDP growth and 37,000 jobs with above-median wages, while addressing water security and training workers. As U.S. builds face delays from local opposition, Malaysia steps up as Southeast Asia's data center hub, drawing investment where approvals move quickly.",
-      "hook": "Google is pouring $15 billion into Malaysia's tech future, building data centers to meet the AI boom's massive computing needs.",
+      "hook": "谷歌正在向马来西亚的科技未来投入150亿美元，建设数据中心以满足人工智能热潮带来的巨大计算需求。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -245,13 +314,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T21:21:52.000Z",
-      "url": "https://x.com/i/trending/2117935307915952327"
+      "url": "https://x.com/i/trending/2117935307915952327",
+      "_pretranslated": {
+        "title": "谷歌承诺为马来西亚数据中心投资150亿美元",
+        "summary": "在2027年至2028年间，谷歌将在雪兰莪和森美兰建设新的园区，扩大云计算业务，并向电网新增超过一吉瓦的清洁能源。这些项目预计将带来每年11亿美元的GDP增长和37,000个高于平均工资的就业岗位，同时解决水资源安全问题并培训工人。随着美国的建设因地方反对而面临延迟，马来西亚作为东南亚的数据中心枢纽加速发展，吸引投资，因为批复速度快。",
+        "category": "动态"
+      },
+      "_hook_en": "Google is pouring $15 billion into Malaysia's tech future, building data centers to meet the AI boom's massive computing needs."
     },
     {
       "id": "2118800545875976547",
       "name": "Trump's Tariffs Divide Opinions After Republican Midterm Losses",
       "summary": "Supporters point to Trump's claims of thousands of plants and factories under construction in the U.S., crediting tariffs alongside tax cuts for reviving an industrial ecosystem and countering practices like slave labor in China. Critics, including a former DOJ prosecutor, call the tariffs a flawed vanity decision that fueled inflation, raised costs for goods like food, and hurt Republicans politically when affordability topped voter concerns. Exit polls showed most voters saw the policies as harmful to economies, though Trump vows to press on with executive authority amid mixed results on jobs and trade deficits.",
-      "hook": "President Trump's tariff policies face sharp scrutiny after Republican midterm defeats, with voices clashing over factories sprouting up versus shoppers facing steeper prices.",
+      "hook": "在共和党中期选举失利后，特朗普总统的关税政策面临严格审查，各方意见分歧，有的认为工厂正在兴起，有的认为消费者面临更高的价格。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -260,13 +335,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T20:28:01.000Z",
-      "url": "https://x.com/i/trending/2118800545875976547"
+      "url": "https://x.com/i/trending/2118800545875976547",
+      "_pretranslated": {
+        "title": "特朗普的关税在共和党中期选举失利后引发意见分歧",
+        "summary": "支持者指出特朗普声称美国有数千个工厂正在建设中，并将关税与减税措施一起归功于振兴工业生态系统，以及对抗像中国奴隶劳动这样的做法。批评人士，包括前司法部检察官，则称这些关税是一项有缺陷的虚荣决定，导致通货膨胀，增加了食品等商品的成本，并在负担能力成为选民关注重点时，对共和党人造成政治上的伤害。出口民调显示，大多数选民认为这些政策是哈",
+        "category": "动态"
+      },
+      "_hook_en": "President Trump's tariff policies face sharp scrutiny after Republican midterm defeats, with voices clashing over factories sprouting up versus shoppers facing steeper prices."
     },
     {
       "id": "2118248427318587813",
       "name": "China Blocks SoftBank's $5.4 Billion ABB Robotics Deal",
       "summary": "China's National Development and Reform Commission prohibited SoftBank Group's $5.4 billion takeover of ABB's robotics division, focusing on its Chinese operations that employ 12,700 people and produce over 90% of robots sold locally. Regulators worried that robotics data could flow overseas to train AI models, including those tied to OpenAI where SoftBank has a stake. ABB and SoftBank confirmed the block but continue discussing the overall deal, amid SoftBank shares dropping in Tokyo and broader concerns over high-tech supply chains.",
-      "hook": "After months of review, China's regulators surprised many by halting SoftBank's bid for ABB's robotics arm, protecting key operations in Shanghai.",
+      "hook": "经过数月的审查，中国监管机构让许多人感到惊讶，他们叫停了软银对ABB机器人部门的收购，保护了上海的关键业务。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -277,13 +358,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T01:27:10.000Z",
-      "url": "https://x.com/i/trending/2118248427318587813"
+      "url": "https://x.com/i/trending/2118248427318587813",
+      "_hook_en": "After months of review, China's regulators surprised many by halting SoftBank's bid for ABB's robotics arm, protecting key operations in Shanghai."
     },
     {
       "id": "2118540138095718543",
       "name": "Chanos Warns Against Dumping Tech for Pricey Consumer Stocks",
       "summary": "Short seller James Chanos pushed back on the shift out of battered high-beta tech like Nvidia, Microsoft, and Amazon into higher-valued consumer and defensive stocks such as Progressive and Booking Holdings. Nvidia closed November 5 at $181.60, down over 9% that day and far from its $239 October high, amid post-election worries on AI spending. Reactions blended caution with humor, like one noting Nvidia's valuation at a quarter of Costco's despite both being strong businesses, highlighting the debate over whether tech weakness offers value or defensives are overpriced.",
-      "hook": "James Chanos sees investors selling tech stocks down 40-70% to chase consumer names trading at 30-100x earnings. He questions if that's the smartest move right now.",
+      "hook": "詹姆斯·查诺斯看到投资者抛售科技股，下跌40-70%，以追逐市盈率在30-100倍的消费类股票。他质疑现在这样做是不是最明智的选择。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -293,13 +375,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T03:11:23.000Z",
-      "url": "https://x.com/i/trending/2118540138095718543"
+      "url": "https://x.com/i/trending/2118540138095718543",
+      "_pretranslated": {
+        "title": "查诺斯警告不要抛售科技股转而购买高价消费股",
+        "summary": "做空者詹姆斯·查诺斯对从饱受打击的高贝塔科技股如英伟达、微软和亚马逊转向更高估值的消费和防御性股票如Progressive和Booking Holdings的趋势表示反对。由于选举后的人工智能支出担忧，英伟达在11月5日收盘价为181.60美元，当日下跌超过9%，远低于其10月239美元的高点。市场反应既有谨慎也有幽默，比如有人指出，尽管两家公司都是强劲的企业，但英伟达的估值仅为Costco的四分之一，这凸显了",
+        "category": "动态"
+      },
+      "_hook_en": "James Chanos sees investors selling tech stocks down 40-70% to chase consumer names trading at 30-100x earnings. He questions if that's the smartest move right now."
     },
     {
       "id": "2118068701924585771",
       "name": "Micron Shares Drop Below $800 on Election Fears",
       "summary": "Micron closed at $795.23, down 7% or nearly $60 on high volume, as SanDisk, Nvidia, and Google broke below key moving averages. Democratic gains sparked worries over tighter permitting and power rules that could slow AI infrastructure in key states. Traders noted strong fundamentals like projected $196 billion earnings in 2027 and low multiples near 5x, creating split views on whether this signals an AI bear market or a buying opportunity.",
-      "hook": "Micron's stock tumbled below $800 on Wednesday, dragging memory chip and AI stocks like Nvidia down with it. Investors reacted to midterm results hinting at hurdles for data center expansion.",
+      "hook": "美光的股价周三暴跌至800美元以下，拖累了内存芯片和人工智能股票，如英伟达。投资者对中期业绩的反应暗示数据中心扩张面临障碍。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -308,13 +396,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T07:21:53.000Z",
-      "url": "https://x.com/i/trending/2118068701924585771"
+      "url": "https://x.com/i/trending/2118068701924585771",
+      "_pretranslated": {
+        "title": "美光股价因选举担忧跌破800美元",
+        "summary": "美光收盘价为795.23美元，下跌7%，约60美元，成交量高，因为SanDisk、Nvidia和Google跌破关键移动均线。民主党的收益引发了对更严格许可和电力规则的担忧，这可能会减缓关键州的AI基础设施建设。交易员指出强劲的基本面，如预计2027年盈利1960亿美元和接近5倍的低市盈率，这在是否标志着AI熊市还是买入机会上造成了分歧观点。",
+        "category": "动态"
+      },
+      "_hook_en": "Micron's stock tumbled below $800 on Wednesday, dragging memory chip and AI stocks like Nvidia down with it. Investors reacted to midterm results hinting at hurdles for data center expansion."
     },
     {
       "id": "2118499614534123697",
       "name": "Trump Defends Tariffs as Key to U.S. Factory Boom After Midterm Losses",
       "summary": "On November 5, following Republican midterm losses that gave Democrats control of Congress, Trump insisted his tariff policies are driving about 3,000 new plants and factories in the U.S. He warned that removing tariffs now would halt all construction, as foreign companies build here to avoid duties of 50 to 300 percent on imports. Supporters see it as vital leverage to rebuild manufacturing, while critics blame higher costs for goods that fueled voter frustration over inflation. Trump signaled more actions ahead to protect the approach.",
-      "hook": "Seated at the Resolute Desk amid family photos and flags, President Trump faced reporters with a clear message: his tariffs are sparking a wave of new factories across America.",
+      "hook": "特朗普总统坐在决心桌前，周围摆放着家庭照片和国旗，面对记者时传达了一个明确的信息：他的关税正在引发美国各地一波新的工厂潮。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -323,13 +417,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T06:05:35.000Z",
-      "url": "https://x.com/i/trending/2118499614534123697"
+      "url": "https://x.com/i/trending/2118499614534123697",
+      "_pretranslated": {
+        "title": "特朗普在中期选举失利后将关税辩护为美国工厂繁荣的关键",
+        "summary": "11月5日，在共和党中期选举失利，民主党获得国会控制权之后，特朗普坚持认为他的关税政策正在推动美国约3000个新工厂和厂房的建设。他警告说，现在取消关税将停止所有建设，因为外国公司在此建厂以避免50%至300%的进口关税。支持者认为这是重建制造业的重要杠杆，而批评者则将商品成本上涨归咎于引发选民对通胀不满的原因。特朗普暗示",
+        "category": "动态"
+      },
+      "_hook_en": "Seated at the Resolute Desk amid family photos and flags, President Trump faced reporters with a clear message: his tariffs are sparking a wave of new factories across America."
     },
     {
       "id": "2118474988189876731",
       "name": "Debate Heats Over U.S. Data Centers Amid AI Race with China",
       "summary": "Lloyd Blankfein argued on X that blocking data center projects hands AI leadership to China, calling it a fix for eroded U.S. industrial capacity and middle-class jobs. Critics pointed to his past dealings with Chinese firms, while data shows the U.S. leads with 5,427 centers versus China's 449. Hyperscalers like AWS are expanding in places like Greece and Germany to dodge U.S. permitting fights and power concerns, highlighting the tension between local impacts and national tech edge.",
-      "hook": "Right after the U.S. midterms, Meta's Dina Powell McCormick warned that building data centers at home is getting tougher, pushing tech giants to look abroad.",
+      "hook": "就在美国中期选举之后，Meta 的迪娜·鲍威尔·麦考密克警告说，在国内建设数据中心变得越来越困难，这促使科技巨头转向海外。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -338,13 +438,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T02:06:10.000Z",
-      "url": "https://x.com/i/trending/2118474988189876731"
+      "url": "https://x.com/i/trending/2118474988189876731",
+      "_pretranslated": {
+        "title": "随着美中人工智能竞争加剧，美国数据中心之争升温",
+        "summary": "劳埃德·布兰克费因在X上表示，阻止数据中心项目会将人工智能领导权拱手让给中国，并称这是修复美国工业能力和中产阶级工作岗位流失的一种办法。批评者指出他过去与中国企业的交易，而数据显示，美国以5,427个数据中心领先于中国的449个。像AWS这样的超大规模云服务提供商正在希腊和德国等地扩张，以规避美国的许可争议和电力问题，这凸显了地方影响与国家技术优势之间的紧张关系。",
+        "category": "动态"
+      },
+      "_hook_en": "Right after the U.S. midterms, Meta's Dina Powell McCormick warned that building data centers at home is getting tougher, pushing tech giants to look abroad."
     },
     {
       "id": "2118386778998444502",
       "name": "Goldman Sachs Picks Yen as Top Hedge Against AI Stock Selloff",
       "summary": "Goldman Sachs recommends selling the US dollar against the yen as the best FX hedge during the 20 largest episodes since 2000 where equities and yields fell in tandem. A sharp AI selloff could drive Treasury yields lower and lift yen demand, making this trade timely amid rising correlations. While traders eye the idea and charts show yen weakness near 0.0063 on JPYUSD, skeptics point to Bank of Japan interventions and prefer gold as the true safe haven.",
-      "hook": "In times of market stress, when stocks and bond yields drop together, the Japanese yen has quietly stepped up as a protector. Goldman Sachs now sees it as the ideal shield for a potential AI-driven plunge.",
+      "hook": "在市场压力时期，当股票和债券收益率同时下跌时，日元悄然成为了一种保护工具。高盛现在认为，它是潜在的人工智能驱动下跌的理想防护盾。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -353,13 +459,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T17:04:36.000Z",
-      "url": "https://x.com/i/trending/2118386778998444502"
+      "url": "https://x.com/i/trending/2118386778998444502",
+      "_pretranslated": {
+        "title": "高盛选择日元作为对冲人工智能股票抛售的首选工具",
+        "summary": "高盛建议在2000年以来发生的20次股市和收益率同步下跌的最大事件中，将美元兑日元卖出作为最佳外汇对冲。一次大规模的人工智能抛售可能会推动国债收益率下降并提升日元需求，这使得在相关性上升的背景下，此交易具有时效性。虽然交易员关注这一想法，且图表显示JPYUSD在0.0063附近的日元走势疲软，但怀疑者指出日本银行的干预，并认为黄金才是真正的避险资产。",
+        "category": "动态"
+      },
+      "_hook_en": "In times of market stress, when stocks and bond yields drop together, the Japanese yen has quietly stepped up as a protector. Goldman Sachs now sees it as the ideal shield for a potential AI-driven plunge."
     },
     {
       "id": "2118358836637520267",
       "name": "Tech Stocks Plunge at Open After Democrats Take Congress",
       "summary": "On November 5, 2026, the U.S. stock market kicked off with a sharp sell-off as AI and semiconductor shares like Nvidia down 3-4%, Tesla off 5-6%, and AMD sliding 7-11% erased $400-700 billion in value. The S&P 500 fell about 1% right away, breaking key levels toward $765, while the QQQ trust dropped over 3% to $669.52. Traders linked the move to midterm results handing Democrats Congress control, raising fears of stricter rules on AI data centers that could curb chip demand. Some sectors held up better, but eyes stayed on technical supports like the 50-day EMA near $765 for any rebound.",
-      "hook": "The opening bell rang, and hundreds of billions vanished from tech stocks in minutes, led by Nvidia and Tesla drops amid post-election jitters.",
+      "hook": "开盘铃响起，数千亿美元在几分钟内从科技股中蒸发，以英伟达和特斯拉的下跌为首，这是选后紧张情绪引发的。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -368,13 +480,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T15:10:45.000Z",
-      "url": "https://x.com/i/trending/2118358836637520267"
+      "url": "https://x.com/i/trending/2118358836637520267",
+      "_pretranslated": {
+        "title": "民主党掌控国会后，科技股开盘大跌",
+        "summary": "2026年11月5日，美国股市开盘即出现大幅抛售，AI和半导体股票如英伟达下跌3-4%，特斯拉下跌5-6%，AMD下滑7-11%，抹去了4000亿至7000亿美元的市值。标普500指数立即下跌约1%，跌破关键水平至765点附近，而QQQ信托跌幅超过3%，至669.52美元。交易员将此举与期中选举结果联系起来，认为民主党掌控国会可能带来对AI数据中心更严格的规定，从而可能抑制芯片需求。一些板块表现尚可。",
+        "category": "动态"
+      },
+      "_hook_en": "The opening bell rang, and hundreds of billions vanished from tech stocks in minutes, led by Nvidia and Tesla drops amid post-election jitters."
     },
     {
       "id": "2118655806057087268",
       "name": "India Launches Semicon 2.0 Portal and Approves 12 Key Electronics Projects",
       "summary": "The new Semicon 2.0 Web Application Portal opened Friday for applications in machines, materials, additional fabs, and advanced packaging under pillars 2, 3, and 4. It requires complete submissions to filter out non-serious applicants, as Vaishnaw emphasized attracting technology-focused investors for long-term growth. The government also greenlit 12 projects worth Rs 7,503 crore, set to generate Rs 39,045 crore in production and 7,127 direct jobs across seven states, with Tamil Nadu securing four. These approvals bring total ECMS investments over Rs 77,000 crore, exceeding targets and boosting India's self-reliant electronics ecosystem.",
-      "hook": "Union Minister Ashwini Vaishnaw made it clear: only serious players need apply for India's semiconductor push. He launched the Semcon 2.0 portal Friday, welcoming committed tech builders to the table.",
+      "hook": "联邦部长阿什维尼·维什纳夫明确表示：只有真正认真的参与者才应申请加入印度的半导体计划。他于周五启动了 Semcon 2.0 门户，欢迎有承诺的技术开发者参与其中。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -383,13 +501,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T15:58:19.000Z",
-      "url": "https://x.com/i/trending/2118655806057087268"
+      "url": "https://x.com/i/trending/2118655806057087268",
+      "_pretranslated": {
+        "title": "印度启动半导体 2.0 门户并批准 12 个关键电子项目",
+        "summary": "新的 Semicon 2.0 网络应用门户于周五开放，接受机器、材料、额外晶圆厂和先进封装在支柱 2、3 和 4 下的申请。Vaishnaw 强调要吸引以技术为主的投资者实现长期增长，因此要求完整提交以筛选非认真的申请者。政府还批准了价值 7,503 亿卢比的 12 个项目，预计将在七个州创造 39,045 亿卢比的产值和 7,127 个直接就业岗位，其中泰米尔纳德邦获得了份额。",
+        "category": "动态"
+      },
+      "_hook_en": "Union Minister Ashwini Vaishnaw made it clear: only serious players need apply for India's semiconductor push. He launched the Semcon 2.0 portal Friday, welcoming committed tech builders to the table."
     },
     {
       "id": "2118499608926236917",
       "name": "Michael Burry Trims 25% of Semiconductor ETF Puts, Keeps Large Position",
       "summary": "In his Substack newsletter, Burry sold 25% of his puts on the VanEck Semiconductor ETF (SMH) but called the remaining stake 'very large.' He kept bearish options on Palantir, Oracle, Caterpillar, and the Nasdaq-100, while adding to his long position in MercadoLibre after its earnings. The move came as chip stocks sold off sharply, drawing reactions from praise for locking in profits to doubts about his full exit timing. Burry sticks to his view of an AI-driven market top within nine months, after shifting to longer-dated puts in October.",
-      "hook": "Michael Burry, the investor who foresaw the 2008 housing crash, just trimmed part of his big bet against semiconductor stocks while holding firm on the rest.",
+      "hook": "迈克尔·伯里，这位预测了2008年住房崩盘的投资者，刚刚削减了他对半导体股票的大部分押注，同时对剩下的部分保持坚定。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -399,13 +523,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T00:30:16.000Z",
-      "url": "https://x.com/i/trending/2118499608926236917"
+      "url": "https://x.com/i/trending/2118499608926236917",
+      "_pretranslated": {
+        "title": "迈克尔·伯里削减25%的半导体ETF看跌期权，保留大额仓位",
+        "summary": "在他的Substack新闻通讯中，伯里卖出了25%的VanEck半导体ETF（SMH）认沽期权，但称剩余的持仓“非常大”。他继续持有Palantir、Oracle、Caterpillar和纳斯达克100的看跌期权，同时在MercadoLibre公布财报后增加了多头仓位。此举发生在芯片股大幅下跌之时，引发了从称赞其锁定利润到对其完全退出时机存疑的各种反应。伯里坚持他对基于人工智能的市场顶在九个月内形成的观点，",
+        "category": "动态"
+      },
+      "_hook_en": "Michael Burry, the investor who foresaw the 2008 housing crash, just trimmed part of his big bet against semiconductor stocks while holding firm on the rest."
     },
     {
       "id": "2118266156570268053",
       "name": "Strong Jobs Data Clashes with Voter Anger Over Tariffs After GOP Midterm Losses",
       "summary": "October brought solid economic news: 165,000 new jobs, unemployment dipping to 4.1 percent, and third-quarter GDP up 3.4 percent annually. But exit polls showed deep frustration, with 66 percent of voters saying Trump's tariffs hurt the economy and drove up costs for everyday items. Critics called the policy a political misstep that fueled inflation without delivering promised factory jobs or trade gains, while defenders highlighted resilient spending and low unemployment. This divide between macro strength and household struggles defined the Republican defeats.",
-      "hook": "The economy added 165,000 jobs last month with unemployment at 4.1 percent, yet voters punished Republicans in the 2026 midterms over high prices tied to tariffs.",
+      "hook": "上个月经济增加了16.5万个就业岗位，失业率为4.1%，然而选民在2026年中期选举中因为关税导致的高物价而惩罚共和党人。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -414,13 +544,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T18:45:16.000Z",
-      "url": "https://x.com/i/trending/2118266156570268053"
+      "url": "https://x.com/i/trending/2118266156570268053",
+      "_pretranslated": {
+        "title": "强劲的就业数据与共和党中期选举失利后选民对关税的愤怒相冲突",
+        "summary": "十月带来了稳健的经济消息：新增就业岗位165,000个，失业率下降至4.1%，第三季度国内生产总值按年增长3.4%。但出口民意调查显示出深深的挫败感，66%的选民表示特朗普的关税政策损害了经济并推高了日常用品的成本。批评者称该政策是政治上的失误，助长了通货膨胀，却未能兑现承诺的工厂岗位或贸易收益，而支持者则强调消费的韧性和低失业率。这种分歧在",
+        "category": "动态"
+      },
+      "_hook_en": "The economy added 165,000 jobs last month with unemployment at 4.1 percent, yet voters punished Republicans in the 2026 midterms over high prices tied to tariffs."
     },
     {
       "id": "2118755141201314211",
       "name": "Poll Pits Iran Nuclear Fears Against Rising U.S. Living Costs",
       "summary": "A widely shared poll asks Americans to choose between worrying about Iran getting a nuclear weapon or tackling soaring food, gas, and housing prices. Many replies prioritize household budgets, with some dismissing Iran threats based on U.S. intelligence saying Tehran halted weapon work in 2007, while others insist preventing a nuclear Iran justifies higher costs. Recent data shows energy up 18.5 percent and gas over $4.30 a gallon amid regional conflict, as IAEA notes no repairs at Iran's damaged nuclear sites but ongoing access blocks.",
-      "hook": "Families juggling $4.30 gas and climbing grocery bills are asking: does Iran's nuclear risk feel as urgent as empty wallets right now?",
+      "hook": "面对每加仑4.30美元的汽油和不断上涨的食品账单，家庭们在问：伊朗的核风险现在感觉是否像空空的钱包一样紧迫？",
       "category": "News",
       "contexts": {
         "topics": [
@@ -429,13 +565,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T17:28:09.000Z",
-      "url": "https://x.com/i/trending/2118755141201314211"
+      "url": "https://x.com/i/trending/2118755141201314211",
+      "_pretranslated": {
+        "title": "民意调查显示伊朗核担忧与美国生活成本上升形成对比",
+        "summary": "一项广泛传播的民意调查要求美国人权衡是担心伊朗获取核武器，还是应对飙升的食品、汽油和住房价格。许多回复优先考虑家庭开支，一些人则根据美国情报认为德黑兰在2007年已停止武器计划而不再担心伊朗威胁，而另一些人坚持认为防止伊朗拥有核武器值得支付更高成本。最新数据显示，在地区冲突影响下，能源价格上涨18.5%，汽油价格超过每加仑4.30美元，国际原子能机构指出伊朗的受损设施尚未进行修复。",
+        "category": "动态"
+      },
+      "_hook_en": "Families juggling $4.30 gas and climbing grocery bills are asking: does Iran's nuclear risk feel as urgent as empty wallets right now?"
     },
     {
       "id": "2118461967304138771",
       "name": "Rubio Announces New Sanctions on Cuban Regime Networks",
       "summary": "On November 5, U.S. Secretary of State Marco Rubio unveiled sanctions targeting eight entities, two individuals, and five vessels linked to Cuba's financial, shipping, and military support, including China-based suppliers like CEIEC and Beijing H&C Technologies. The measures block property and expand authority to sanction foreign persons in Cuba's electronics, manufacturing, marine, and technology sectors, aiming to disrupt state-owned enterprises and intermediaries sustaining the regime. Cuban Foreign Minister Bruno Rodríguez condemned the actions as harmful to the people, while supporters like Rep. Carlos Gimenez praised them as vital pressure against threats to U.S. security.",
-      "hook": "Marco Rubio stood firm, declaring the U.S. will not tolerate communist networks threatening the hemisphere from Cuba.",
+      "hook": "马可·鲁比奥站稳立场，宣称美国不会容忍来自古巴威胁半球的共产党网络。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -444,13 +586,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T20:52:06.000Z",
-      "url": "https://x.com/i/trending/2118461967304138771"
+      "url": "https://x.com/i/trending/2118461967304138771",
+      "_hook_en": "Marco Rubio stood firm, declaring the U.S. will not tolerate communist networks threatening the hemisphere from Cuba."
     },
     {
       "id": "2118732621727629392",
       "name": "Xi Jinping Votes in Beijing Local Elections Alongside Senior Leaders",
       "summary": "Chinese President Xi Jinping and several top leaders cast ballots Friday at a polling station in Beijing's Zhongnanhai district for local people's congress deputies. The event was part of massive district and township elections across Beijing, with 13,054 stations electing nearly 16,000 deputies from more than one billion registered voters nationwide. State media called it 'whole-process people's democracy' under Party leadership, while some observers labeled it 'whole-process fake democracy' due to pre-selected candidates and one-party oversight.",
-      "hook": "Around 3:30 p.m., Xi Jinping walked into a Beijing polling station, showed his voter card, marked his ballot, and dropped it in the box—just like everyone else there.",
+      "hook": "下午大约3:30，习近平走进北京的一个投票站，出示他的选民证，填写选票，然后将其投入投票箱——就像在场的其他人一样。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -459,13 +602,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T20:26:32.000Z",
-      "url": "https://x.com/i/trending/2118732621727629392"
+      "url": "https://x.com/i/trending/2118732621727629392",
+      "_pretranslated": {
+        "title": "习近平与高级领导人一起在北京地方选举中投票",
+        "summary": "中国国家主席习近平和几位高级领导人周五在北京中南海地区的一个投票站投票，选举地方人民代表大会代表。此次活动是北京市大规模区、乡镇选举的一部分，全市共有13,054个投票站，选出近16,000名代表，全国注册选民超过十亿。官方媒体称其为“全过程人民民主”，而一些观察人士则将其称为“全过程虚假民主”。",
+        "category": "动态"
+      },
+      "_hook_en": "Around 3:30 p.m., Xi Jinping walked into a Beijing polling station, showed his voter card, marked his ballot, and dropped it in the box—just like everyone else there."
     },
     {
       "id": "2118800542344359978",
       "name": "Canadian Lawyer Questions 'Not Like Americans' Mindset After U.S. Visit",
       "summary": "In a post shared days after the November 3, 2026, U.S. midterm elections, Chipiuk noted flags on homes and businesses, open opinions, personal responsibility, and less government dependence south of the border. She asked why Canadians keep insisting 'we're not like Americans' and what they're proud of in that distinction. Replies poured in: some travelers praised friendly encounters and better service, others called Canadian superiority 'prideful arrogance,' while a few hesitated over politics but kept cultural differences in focus.",
-      "hook": "Eva Chipiuk snapped a selfie at a U.S. marina surrounded by American flags, struck by the everyday pride she saw everywhere. Her observations prompted Canadians to reflect on what truly sets their country apart.",
+      "hook": "埃娃·奇皮尤克在美国一个停泊着美国旗帜的码头自拍，对她所看到的随处可见的日常自豪感感到震撼。她的观察促使加拿大人思考究竟是什么让他们的国家与众不同。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -475,13 +624,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T20:27:26.000Z",
-      "url": "https://x.com/i/trending/2118800542344359978"
+      "url": "https://x.com/i/trending/2118800542344359978",
+      "_pretranslated": {
+        "title": "加拿大律师在美国访问后质疑“与美国人不同”的心态",
+        "summary": "在2026年11月3日美国中期选举后的几天分享的一篇帖子中，Chipiuk指出边境以南的住宅和企业挂旗、公开表达意见、个人责任以及较少依赖政府。她问道，为什么加拿大人总是坚持“我们不像美国人”，以及他们以这种差异感到自豪的是什么。回复如潮涌入：一些游客称赞友好的遭遇和更好的服务，另一些人则称加拿大的优越感为“自负的傲慢”，还有少数人对政治犹豫不决。",
+        "category": "动态"
+      },
+      "_hook_en": "Eva Chipiuk snapped a selfie at a U.S. marina surrounded by American flags, struck by the everyday pride she saw everywhere. Her observations prompted Canadians to reflect on what truly sets their country apart."
     },
     {
       "id": "2118507584122450402",
       "name": "Democrats Flip House and Senate in 2026 Midterms, Sparking Dictatorship Debate",
       "summary": "Democrats won big in the 2026 midterms, taking control of the House and Senate with flips in Republican strongholds like Texas, Kansas, and South Carolina. A viral video claimed Trump watched his 'dictatorship crumble,' but responses stressed that elections proving voters' power disprove the label. Rep. Nancy Mace called out the claims as uninformed, while others noted America lacks the term limits, competitive votes, or peaceful transfers absent in real dictatorships. The exchange underscores ongoing debates over using words like 'dictator' in U.S. politics.",
-      "hook": "A video showed President Trump as his 'dictatorship crumbles' after Democrats seized Congress. Quick replies fired back: if elections can boot a leader, it's no dictatorship.",
+      "hook": "一段视频显示特朗普总统在民主党夺取国会后他的“独裁统治崩溃”。快速回复反驳道：如果选举能罢免一位领导人，那就不算独裁。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -490,13 +645,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T01:03:35.000Z",
-      "url": "https://x.com/i/trending/2118507584122450402"
+      "url": "https://x.com/i/trending/2118507584122450402",
+      "_pretranslated": {
+        "title": "民主党在2026年中期选举中翻转众议院和参议院，引发独裁讨论",
+        "summary": "2026年中期选举中，民主党大获全胜，通过在德克萨斯州、堪萨斯州和南卡罗来纳州等共和党堡垒的翻盘，控制了众议院和参议院。一段病毒视频声称特朗普观看了他的“独裁统治瓦解”，但回应强调选举证明了选民的权力，驳斥了这一标签。众议员南希·梅斯（Nancy Mace）称这些说法是不明智的，而其他人指出，美国缺乏真正独裁政权中没有的任期限制、竞争性投票或和平权力交接。这一交流凸显了",
+        "category": "动态"
+      },
+      "_hook_en": "A video showed President Trump as his 'dictatorship crumbles' after Democrats seized Congress. Quick replies fired back: if elections can boot a leader, it's no dictatorship."
     },
     {
       "id": "2118515779704328349",
       "name": "Guy Offers to Wash Dishes: Does He Like A or B?",
       "summary": "In the scenario, the guy takes over dishwashing from girl A while standing near girl B, prompting men to say he likes A for the simple help, and women to argue he likes B to chat up close. K-pop stars like iKON's B.I picked B, while fans joked about keeping it from Jungkook. The back-and-forth highlights Korean online trends of dissecting everyday acts for hidden romantic signals, with some embracing the fun and others calling it overthinking kindness.",
-      "hook": "Two girls at the sink, a guy steps up to help one—suddenly everyone's debating his real crush in this Korean TikTok riddle that's crossed over to X.",
+      "hook": "两个女孩在水槽旁，一个男孩走上前去帮其中一个——突然大家都在讨论他真正喜欢的人，这个韩国 TikTok 谜题已经传到 X 上了。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -505,13 +666,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T10:19:57.000Z",
-      "url": "https://x.com/i/trending/2118515779704328349"
+      "url": "https://x.com/i/trending/2118515779704328349",
+      "_pretranslated": {
+        "title": "男孩主动洗碗：他喜欢A还是B？",
+        "summary": "在这个场景中，男生接手了女孩A的洗碗工作，同时站在女孩B旁边，这让男人们说他喜欢A只是为了简单的帮忙，而女人们则争论他喜欢B是为了近距离聊天。像iKON的B.I这样的K-pop明星选择了B，而粉丝们开玩笑说要瞒着Jungkook。这种来回讨论凸显了韩国网络流行趋势，即对日常行为进行剖析以寻找隐藏的浪漫信号，有些人乐在其中，而有些人则称这是把善意想得过头了。",
+        "category": "时政"
+      },
+      "_hook_en": "Two girls at the sink, a guy steps up to help one—suddenly everyone's debating his real crush in this Korean TikTok riddle that's crossed over to X."
     },
     {
       "id": "2118878937627656372",
       "name": "China Marks Lidong, Beginning of Winter, with Traditions and Warm Wishes",
       "summary": "Lidong, part of the UNESCO-recognized 24 Solar Terms, guides farming and daily life by tracking the sun's path. Northerners eat dumplings—whose name echoes the seasons' meeting—and warming dishes like ginger duck to prepare for cold months. Actor Zhang Linghe shared a simple holiday greeting, while game fans, donghua artists, and global voices like SNK in Japan joined with art, tips to bundle up, and nods to classical Song dynasty paintings.",
-      "hook": "Frost silvers branches in northern China as people welcome Lidong, the 19th solar term signaling winter's start on November 7.",
+      "hook": "随着人们迎接立冬——这一标志冬季开始的第十九个节气——11月7日，北方中国的枝头被霜雪银白覆盖。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -520,13 +687,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T08:57:02.000Z",
-      "url": "https://x.com/i/trending/2118878937627656372"
+      "url": "https://x.com/i/trending/2118878937627656372",
+      "_pretranslated": {
+        "title": "中国以传统习俗和温暖的祝福纪念立冬，即冬季的开始",
+        "summary": "立冬，作为联合国教科文组织认可的二十四节气之一，通过追踪太阳的轨迹指导农业和日常生活。北方人吃饺子——其名字呼应节气的交替——以及姜母鸭等暖身菜肴，为寒冷的季节做准备。演员张凌赫分享了一个简短的节日问候，而游戏爱好者、动漫创作者以及来自日本的全球角色如SNK也通过艺术作品、保暖小贴士以及向宋代古典画作致敬的方式一同参与。",
+        "category": "动态"
+      },
+      "_hook_en": "Frost silvers branches in northern China as people welcome Lidong, the 19th solar term signaling winter's start on November 7."
     },
     {
       "id": "2118502291942613398",
       "name": "Trump Calls LA Mayoral Election Crooked Over Spencer Pratt's Loss",
       "summary": "Trump claimed the November 3 runoff was rigged after Spencer Pratt lost to Nithya Raman in the June primary due to later ballot counts. He said the winner, incumbent Mayor Karen Bass, cried thinking she lost, only for votes to appear and pull her ahead—though Raman actually defeated Bass 52% to 48%, unseating her for the first time in over 20 years. Trump used the race as proof of crooked elections amid his push for voter ID and citizenship checks, while critics note no evidence of fraud and certified results.",
-      "hook": "From the Oval Office, President Trump watched the LA mayoral race unfold and couldn't believe what happened to reality star Spencer Pratt.",
+      "hook": "在椭圆形办公室里，特朗普总统观看洛杉矶市长选举的进展，并且无法相信真人秀明星斯宾塞·普拉特发生了什么。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -535,13 +708,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T14:46:34.000Z",
-      "url": "https://x.com/i/trending/2118502291942613398"
+      "url": "https://x.com/i/trending/2118502291942613398",
+      "_pretranslated": {
+        "title": "特朗普称洛杉矶市长选举因斯宾塞·普拉特的失败而不公",
+        "summary": "特朗普声称，11月3日的决选存在操纵，因为斯宾塞·普拉特在6月初选中因后来的选票计数而输给了尼蒂亚·拉曼。他说获胜者、现任市长卡伦·巴斯以为自己输了而哭泣，结果选票出现并将她拉到前面——尽管实际上拉曼以52%对48%的票数击败了巴斯，首次在20多年内将她赶下台。特朗普将这场选举作为选举不公的证据，以推动选民身份证明和公民身份检查，而批评人士指出没有舞弊的证据。",
+        "category": "动态"
+      },
+      "_hook_en": "From the Oval Office, President Trump watched the LA mayoral race unfold and couldn't believe what happened to reality star Spencer Pratt."
     },
     {
       "id": "2118842020215070809",
       "name": "Post-Election Market Rally Sparks Debate on Who Cares About Stocks",
       "summary": "After Democrats took control of Congress in the 2026 midterms, markets rallied with the S&P 500 up 1.6% and the Dow surging over 1,500 points, fueled by divided government clarity and President Trump's acceptance of results. Many replies dismissed stock gains as irrelevant to average Americans without investments, while others warned of broader impacts like recessions, job losses, pensions, and economic ripples to wages and prices. The exchange highlights differing views on Wall Street's connection to daily realities, with some noting the new Congress starts in January limiting quick changes.",
-      "hook": "A simple post pairing 'Elections have consequences' with rising market charts drew blunt replies like 'You have no idea how much we do not give a fuck.' It captured a raw divide over whether Wall Street moves touch everyday lives.",
+      "hook": "一条简单的帖子将“选举有后果”与上涨的市场图表配对，引来了直白的回复，比如“你根本不知道我们有多么不在乎”。它捕捉到了一个关于华尔街动向是否影响日常生活的原始分歧。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -552,13 +731,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T23:11:18.000Z",
-      "url": "https://x.com/i/trending/2118842020215070809"
+      "url": "https://x.com/i/trending/2118842020215070809",
+      "_pretranslated": {
+        "title": "选后股市反弹引发关于谁关心股票的讨论",
+        "summary": "在2026年中期选举中，民主党掌控国会后，市场反弹，标普500指数上涨1.6%，道琼斯指数猛增超过1,500点，这一涨势得益于分裂政府的明确性以及特朗普总统对选举结果的接受。许多评论回应称，股市的上涨对没有投资的普通美国人无关紧要，而其他人则警告可能带来的更广泛影响，如经济衰退、失业、养老金，以及对工资和物价的经济波及效应。这一交流凸显了华尔街关联问题上不同的观点。",
+        "category": "时政"
+      },
+      "_hook_en": "A simple post pairing 'Elections have consequences' with rising market charts drew blunt replies like 'You have no idea how much we do not give a fuck.' It captured a raw divide over whether Wall Street moves touch everyday lives."
     },
     {
       "id": "2118857592441078007",
       "name": "US Defense Secretary and Russian Envoy Exchange QAnon Phrases on X",
       "summary": "The exchange happened amid President Trump's White House meeting with Dmitriev on a potential broad US-Russia security framework covering Ukraine and Europe. Analyst Caroline Orr Bueno noted it activated QAnon communities like she hadn't seen in years, with critics calling it coordinated signaling and supporters defending Hegseth's Pentagon role. European officials expressed alarm that any deal could weaken NATO and boost Moscow's influence, while reactions ranged from outrage to solidarity amid ongoing diplomatic scrutiny.",
-      "hook": "Just three minutes after US Defense Secretary Pete Hegseth posted 'Patriots in control'—a known QAnon slogan—Russian envoy Kirill Dmitriev replied with 'WWG1WGA.' The rapid back-and-forth lit up online discussions.",
+      "hook": "就在美国国防部长皮特·赫格塞斯（Pete Hegseth）发布“爱国者掌控”（Patriots in control）——一个已知的QAnon口号——仅三分钟后，俄罗斯特使基里尔·德米特里耶夫（Kirill Dmitriev）回复了“WWG1WGA”。这一快速的互动在网上引发了热烈讨论。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -567,13 +752,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T22:19:57.000Z",
-      "url": "https://x.com/i/trending/2118857592441078007"
+      "url": "https://x.com/i/trending/2118857592441078007",
+      "_pretranslated": {
+        "title": "美国国防部长与俄罗斯特使在X平台上互换QAnon词语",
+        "summary": "这一交流发生在特朗普总统与德米特里耶夫就可能涵盖乌克兰和欧洲的美俄广泛安全框架在白宫会晤之际。分析师卡罗琳·奥尔·布埃诺指出，这激活了她多年未见的QAnon社区，批评者称这是协调信号，而支持者则为赫格塞斯在五角大楼的角色辩护。欧洲官员表示担忧，任何协议都可能削弱北约并增强莫斯科的影响力，而各方反应从愤怒到团结不一而足。",
+        "category": "动态"
+      },
+      "_hook_en": "Just three minutes after US Defense Secretary Pete Hegseth posted 'Patriots in control'—a known QAnon slogan—Russian envoy Kirill Dmitriev replied with 'WWG1WGA.' The rapid back-and-forth lit up online discussions."
     },
     {
       "id": "2119139913903812820",
       "name": "Users Remind Poster Democrats Take Office in January After 2026 Midterm Win",
       "summary": "Democrats won control of the House and Senate on November 3, flipping long-held Republican states in a major victory. The post ignored that new members don't start until January 3, 2027, prompting blunt corrections like 'You’re a idiot democrats are not yet in power' and 'They’re not in office yet you walnut.' Discussions included a century-long inflation chart showing multi-year cycles, with current rates at 3.7 percent, underscoring how policy changes take time to impact prices.",
-      "hook": "Just two days after Democrats swept the 2026 midterms, one user asked why prices hadn't dropped yet. Replies poured in with a simple calendar check.",
+      "hook": "就在民主党横扫2026年中期选举两天后，有一位用户询问为什么价格还没有下降。回复涌入，其中有一个简单的日历检查。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -582,13 +773,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T18:56:38.000Z",
-      "url": "https://x.com/i/trending/2119139913903812820"
+      "url": "https://x.com/i/trending/2119139913903812820",
+      "_pretranslated": {
+        "title": "用户提醒海报：民主党在2026年中期选举获胜后将于一月上任",
+        "summary": "民主党在11月3日赢得了众议院和参议院的控制权，在一场重大胜利中翻转了长期由共和党掌控的州。该帖子忽略了新成员要到2027年1月3日才上任，这引发了直接的纠正，比如“你是个白痴，民主党还没有掌权”和“他们还没上任，你这个胡桃。”讨论中还包括一张百年通胀图表，显示多年周期，目前的通胀率为3.7%，强调了政策变化需要时间才能影响物价。",
+        "category": "动态"
+      },
+      "_hook_en": "Just two days after Democrats swept the 2026 midterms, one user asked why prices hadn't dropped yet. Replies poured in with a simple calendar check."
     },
     {
       "id": "2118830797105029183",
       "name": "Marco Rubio Draws Online Praise as 2028 Contender After GOP Losses",
       "summary": "Social media users are praising Secretary of State Marco Rubio for his eloquence and steady presence, sharing a clip captioned that he speaks, looks, thinks, and acts like a president with great integrity. The buzz intensified following significant Republican midterm defeats that gave Democrats control of Congress, sparking debates on the party's 2028 path and often contrasting Rubio favorably with Vice President JD Vance. Critics counter by labeling him a neocon tied to donors and foreign policy hawks, while Rubio has rejected speculation about leaving the administration early, committing to serve out President Trump's full term.",
-      "hook": "A polished video clip of Marco Rubio has people calling him presidential material, especially after Republicans lost Congress in the midterms.",
+      "hook": "一段精心制作的马尔科·鲁比奥视频片段让人们称他具备总统潜质，尤其是在共和党在中期选举中失去国会之后。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -597,13 +794,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T22:26:26.000Z",
-      "url": "https://x.com/i/trending/2118830797105029183"
+      "url": "https://x.com/i/trending/2118830797105029183",
+      "_pretranslated": {
+        "title": "马尔科·鲁比奥在共和党失利后作为2028年候选人赢得网络赞誉",
+        "summary": "社交媒体用户正在赞扬国务卿马尔科·鲁比奥的口才和稳定的风度，并分享了一段视频，标题称他说话、外貌、思维和行为都像一位具有高度诚信的总统。在重大共和党中期选举失利，使民主党掌控国会之后，这种热议进一步加剧，引发了关于党内2028年发展道路的讨论，并常常将鲁比奥与副总统JD·范斯进行有利比较。批评者则反驳称他是一个与捐助者和外交政策相关的鹰派新人。",
+        "category": "动态"
+      },
+      "_hook_en": "A polished video clip of Marco Rubio has people calling him presidential material, especially after Republicans lost Congress in the midterms."
     },
     {
       "id": "2118900013837271337",
       "name": "Grandma's Energetic Dance Urges Grandson to Marry in Resurfaced Video",
       "summary": "In the clip, the grandmother ropes in her friends for a group campaign, leaving the grandson unimpressed amid chants of 'Jiéhūn.' The video, originally from earlier this year, has resurfaced with viewers dubbing it the 'Chinese no bitches dance' and mixing laughs with notes on family marriage pressure. It highlights China's marriage slump, with 2026 registrations at an 18-year low of 4.65 million couples in the first nine months, tied to skewed gender ratios and high bride prices from past policies.",
-      "hook": "A young man visits his grandmother in a rural Chinese village, only to face her lively dance routine chanting 'get married' while he sits stone-faced under a floral blanket.",
+      "hook": "一个年轻人去中国农村的奶奶家，结果面对她生动的舞蹈表演，一边跳舞一边喊着“结婚吧”，而他则面无表情地坐在花色毯子下。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -612,13 +815,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T03:00:37.000Z",
-      "url": "https://x.com/i/trending/2118900013837271337"
+      "url": "https://x.com/i/trending/2118900013837271337",
+      "_pretranslated": {
+        "title": "奶奶充满活力的舞蹈在重新出现的视频中催促孙子结婚",
+        "summary": "视频中，祖母拉动朋友们发起集体活动，孙子在“姐姐”的呼喊声中显得不以为然。这段视频最初拍摄于今年早些时候，现已重新流出，观众称之为“中国无婊子舞”，并夹杂了笑声与家庭婚姻压力的暗示。视频凸显了中国婚姻低迷，2026年前九个月登记人数降至18年来最低的465万对情侣，这与性别比例失衡和过去警方高昂的新娘价格有关",
+        "category": "时政"
+      },
+      "_hook_en": "A young man visits his grandmother in a rural Chinese village, only to face her lively dance routine chanting 'get married' while he sits stone-faced under a floral blanket."
     },
     {
       "id": "2118714867381047685",
       "name": "Trump Weighs Iran Military Options After Security Meetings",
       "summary": "President Trump met with his national security team Wednesday and Thursday to consider next steps on Iran, including possible renewed strikes, sustained economic pressure, or a diplomatic deal. He told reporters the world would know his choice soon, noting it could take Iran 25 years to recover from prior damage while stressing the need to halt its nuclear program. U.S. Central Command prepares for operations around November 9's new moon, even as Qatari mediators push proposals like easing blockades for Strait of Hormuz access and nuclear talks, amid divided views on escalation.",
-      "hook": "From the Oval Office, President Trump made it clear: he'd prefer not to destroy more of Iran, but the decision looms large after intense White House talks.",
+      "hook": "特朗普总统在椭圆形办公室明确表示：他宁愿不摧毁伊朗更多，但在白宫激烈讨论之后，这一决定变得迫在眉睫。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -627,13 +836,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T18:29:20.000Z",
-      "url": "https://x.com/i/trending/2118714867381047685"
+      "url": "https://x.com/i/trending/2118714867381047685",
+      "_pretranslated": {
+        "title": "特朗普在安全会议后权衡伊朗军事选项",
+        "summary": "特朗普总统周三和周四会见了他的国家安全团队，考虑针对伊朗的下一步措施，包括可能的重新打击、持续的经济压力或外交协议。他告诉记者，世界很快就会知道他的选择，并指出伊朗可能需要25年才能从以前的损害中恢复，同时强调必须阻止其核计划。美国中央司令部准备在11月9日的新月期间进行行动，即使卡塔尔调解人推动诸如放松封锁等提议。",
+        "category": "动态"
+      },
+      "_hook_en": "From the Oval Office, President Trump made it clear: he'd prefer not to destroy more of Iran, but the decision looms large after intense White House talks."
     },
     {
       "id": "2118113420230943037",
       "name": "Trump Offers Bipartisanship but Warns of Veto Power After Democratic Gains",
       "summary": "In a call with CNBC, Trump highlighted shared ground with Democrats on trade, recalling how Bernie Sanders supporters backed him in 2016, and said cooperation could be productive on financial ideas too. He made clear he'd use his veto against opposing bills, echoing his view of it as the presidency's ultimate tool. Supporters echoed the message online, and the White House visually reinforced it with the veto hat on the Resolute Desk, previewing two years of potential deals or standoffs as Democrats prepare to take power in January.",
-      "hook": "After Democrats took the House and Senate, President Trump picked up the phone to signal possible teamwork—while placing a bold 'VETO' hat right on his Oval Office desk.",
+      "hook": "在民主党夺取众议院和参议院之后，特朗普总统拿起电话以示可能的合作——同时在他的椭圆形办公室桌上放了一顶醒目的“否决”帽子。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -642,13 +857,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T18:29:35.000Z",
-      "url": "https://x.com/i/trending/2118113420230943037"
+      "url": "https://x.com/i/trending/2118113420230943037",
+      "_hook_en": "After Democrats took the House and Senate, President Trump picked up the phone to signal possible teamwork—while placing a bold 'VETO' hat right on his Oval Office desk."
     },
     {
       "id": "2118649258098446487",
       "name": "White House Confirms End of DEI in Federal Policy",
       "summary": "Reactions split along familiar lines, with supporters hailing a return to merit-based hiring and critics calling it a cultural rollback that ignores workforce imbalances. The announcement came as August data showed women capturing 98 percent of net job gains—158,000 positions out of 162,000 total—while men added just 4,000. Users shared stories of hiring barriers for young white men, citing past surveys where one in six managers were told to deprioritize them, fueling debates on immigration, discrimination, and economic opportunity.",
-      "hook": "The White House issued a direct statement Thursday: DEI initiatives are gone from federal policy. It quickly drew cheers from some and sharp pushback from others.",
+      "hook": "白宫周四发布了直接声明：联邦政策中取消了 DEI（多样性、公平性与包容性）倡议。这一举动迅速获得了一些人的欢呼，同时也引来了另一些人的强烈反对。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -657,13 +873,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T10:23:11.000Z",
-      "url": "https://x.com/i/trending/2118649258098446487"
+      "url": "https://x.com/i/trending/2118649258098446487",
+      "_pretranslated": {
+        "title": "白宫确认联邦政策中多样性、公平与包容（DEI）的终止",
+        "summary": "反应沿着熟悉的路线分化，支持者称赞这是回归以能力为基础的招聘，而批评者则称这是文化倒退，忽视了劳动力的不平衡。此公告发布之际，八月份数据显示女性获得了98%的净就业增长——162,000个岗位中的158,000个——而男性仅增加了4,000个岗位。用户分享了年轻白人男性在招聘中遇到的障碍，引用了过去的调查显示，每六位经理中就有一位被告知要降低对他们的优先考虑，这引发了关于移民的辩论。",
+        "category": "动态"
+      },
+      "_hook_en": "The White House issued a direct statement Thursday: DEI initiatives are gone from federal policy. It quickly drew cheers from some and sharp pushback from others."
     },
     {
       "id": "2118502288259957196",
       "name": "White House Shares Zelda Video of Trump After Midterm Loss",
       "summary": "The 44-second clip, styled after Ocarina of Time and timed with its Nintendo Switch 2 remake, shows a suited Trump character navigating game worlds, sitting at the Resolute Desk, and highlighting claims like a 125-year low murder rate and 17 months without illegal aliens released into the country. Posted November 5 under a 'The Legend of Trump: Make America Great Again' title, it drew mixed reactions: amusement from fans who praised the account handler, frustration from critics calling it tone-deaf 'Zelda AI slop,' and boycott calls against Nintendo. This follows prior White House uses of Pokémon and Halo imagery, despite objections from rights holders like The Pokémon Company, with Nintendo yet to comment.",
-      "hook": "Days after Democrats took the House and Senate, the White House dropped a playful video casting President Trump as Link from The Legend of Zelda, complete with the line 'It's dangerous to go alone! Take this 🇺🇸'.",
+      "hook": "在民主党赢得众议院和参议院几天后，白宫发布了一段有趣的视频，把特朗普总统扮成《塞尔达传说》中的林克，并配上台词“单独行动很危险！拿着这个 🇺🇸”。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -673,13 +895,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T00:41:44.000Z",
-      "url": "https://x.com/i/trending/2118502288259957196"
+      "url": "https://x.com/i/trending/2118502288259957196",
+      "_pretranslated": {
+        "title": "白宫分享了特朗普在中期选举失利后的《塞尔达传说》视频",
+        "summary": "这段44秒的视频模仿《塞尔达传说：时光之笛》的风格，并配合任天堂Switch 2版重制版的时间安排，展示了穿西装的特朗普角色在游戏世界中穿行、坐在决策桌前，并强调一些主张，如125年来的最低谋杀率以及17个月内没有非法移民被释放入境。该视频于11月5日以“特朗普传说：让美国再次伟大”为标题发布，引发了不同反响：支持者为视频创作者感到有趣并表示赞赏，而批评者则因为语气问题感到沮丧。",
+        "category": "动态"
+      },
+      "_hook_en": "Days after Democrats took the House and Senate, the White House dropped a playful video casting President Trump as Link from The Legend of Zelda, complete with the line 'It's dangerous to go alone! Take this 🇺🇸'."
     },
     {
       "id": "2118510485469540650",
       "name": "Trump Calls U.S. Conflict with Iran a 'Virtual Occupation'",
       "summary": "On November 5, Trump described the seven-month U.S.-led campaign against Iran's nuclear program and influence as 'virtually an occupation,' noting 18 American lives lost—far fewer than in past conflicts like Vietnam. He highlighted control of key objectives amid ongoing strikes and diplomatic talks, with casualties in the low dozens and hundreds wounded. Online responses split, with some embracing the framing of success and others mocking the lack of ground troops or regime change in Iran.",
-      "hook": "From the Oval Office, President Trump drew a line between war and what he termed a 'virtual occupation' of Iran, pointing to low casualties compared to Vietnam's toll.",
+      "hook": "特朗普总统在椭圆形办公室将战争与他所谓的对伊朗的“虚拟占领”区分开来，并指出与越南的伤亡相比，伤亡人数较少。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -688,13 +916,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T01:14:33.000Z",
-      "url": "https://x.com/i/trending/2118510485469540650"
+      "url": "https://x.com/i/trending/2118510485469540650",
+      "_pretranslated": {
+        "title": "特朗普称美国与伊朗的冲突为“虚拟占领”",
+        "summary": "11月5日，特朗普将历时七个月、由美国主导的针对伊朗核计划和影响力的行动描述为“几乎是一种占领”，并指出有18名美国人遇难——远低于越南等过去的冲突。他强调在持续的空袭和外交谈判中对关键目标的控制，伤亡人数为几十人，数百人受伤。网络反应分裂，有人接受这种成功的表述，也有人嘲笑缺乏地面部队或未实现伊朗政权更迭。",
+        "category": "动态"
+      },
+      "_hook_en": "From the Oval Office, President Trump drew a line between war and what he termed a 'virtual occupation' of Iran, pointing to low casualties compared to Vietnam's toll."
     },
     {
       "id": "2118740888293630292",
       "name": "Stepman's 'Gulag' Warning Fuels Debate on Democratic Intentions",
       "summary": "Stepman pointed to ideas like national popular vote compacts, D.C. and Puerto Rico statehood, court packing, and prosecutions of Trump officials as steps toward that goal. She cited a September poll of 683 Democratic voters where large majorities approved hypothetical headlines of Trump's impeachment, 25th Amendment removal, or even military ouster to 'safeguard the Constitution,' with 45% very positive about his death in sleep. Critics dismissed the 'gulag' label as paranoid, while allies highlighted the poll data as evidence of risks to democratic norms ahead of 2028.",
-      "hook": "Inez Stepman warned that Democrats aim to jail political opponents and reshape institutions to hold power forever. Her post drew sharp pushback and defenses alike.",
+      "hook": "伊内兹·斯特普曼警告说，民主党人旨在监禁政治对手，并重塑机构以永远掌权。她的帖子引来了强烈的反对和辩护。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -703,13 +937,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T23:44:34.000Z",
-      "url": "https://x.com/i/trending/2118740888293630292"
+      "url": "https://x.com/i/trending/2118740888293630292",
+      "_pretranslated": {
+        "title": "斯特普曼的“古拉格”警告加剧了关于民主意图的争论",
+        "summary": "Stepman 指出像全国普选投票协议、华盛顿特区和波多黎各建州、法院扩权以及对特朗普官员的起诉等举措都是实现该目标的步骤。她引用了一项针对 683 名民主党选民的九月民调，大多数人支持假设性的新闻头条，例如特朗普被弹劾、第 25 修正案罢免，甚至军事罢免以“维护宪法”，其中 45% 对他在睡梦中去世持非常积极态度。批评者认为“古拉格”标签是偏执的，而盟友强调...",
+        "category": "时政"
+      },
+      "_hook_en": "Inez Stepman warned that Democrats aim to jail political opponents and reshape institutions to hold power forever. Her post drew sharp pushback and defenses alike."
     },
     {
       "id": "2118752269613097385",
       "name": "Gas Prices Drop After Midterms, Fueling Online Debate on Causes",
       "summary": "Analysts tie the decline to market hopes for Middle East de-escalation following Democratic gains in Congress, with national gas averages expected to dip under $4 per gallon soon. The drop ends months of highs from the Iran conflict under President Trump, which disrupted shipping and kept prices elevated above prior levels. Social media erupted in arguments, with some claiming oil companies hiked prices to sway votes against Trump, while others pointed to the war's direct impact and sarcastically noted the oil industry's politics.",
-      "hook": "Gas prices finally eased below $100 a barrel for oil after the midterms, but online users quickly clashed over whether oil companies timed it or the Iran war was truly behind the months of pain.",
+      "hook": "在中期选举之后，油价终于降至每桶不到100美元，但网络用户很快就石油公司是否刻意操控时间，还是伊朗战争确实导致了数月的痛苦而展开了激烈争论。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -718,13 +958,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T17:16:50.000Z",
-      "url": "https://x.com/i/trending/2118752269613097385"
+      "url": "https://x.com/i/trending/2118752269613097385",
+      "_pretranslated": {
+        "title": "中期选举后油价下跌，引发关于原因的在线讨论",
+        "summary": "分析人士将这一下降归因于市场对中东局势缓和的希望，这种希望源于民主党在国会的胜利，预计全国平均汽油价格很快将降至每加仑4美元以下。这一下跌结束了特朗普通总统时期因伊朗冲突而导致的数月高价，该冲突扰乱了运输并使价格高于此前水平。社交媒体上争论四起，一些人声称石油公司提高价格以影响反对特朗普的投票，而另一些人则指出战争的直接影响，并带有讽刺意味",
+        "category": "动态"
+      },
+      "_hook_en": "Gas prices finally eased below $100 a barrel for oil after the midterms, but online users quickly clashed over whether oil companies timed it or the Iran war was truly behind the months of pain."
     },
     {
       "id": "2119128839062426046",
       "name": "Foreign-Born Jobs Surge 809K as Native Employment Drops 64K in October",
       "summary": "Bureau of Labor Statistics figures reveal foreign-born employment rose sharply to 19.5% of the total U.S. workforce, up from 19.1%, amid a decline for native-born workers. Critics, including the Heritage Foundation and online voices like Tom Slocum and Derrick Evans, call for ending or drastically reforming H-1B visas to prioritize American workers and force companies to raise wages. The data fuels arguments that the program favors cost savings over filling true skill gaps, highlighting tensions in a tight labor market.",
-      "hook": "U.S. jobs data shows a stark split: foreign-born workers gained 809,000 positions last month, while native-born Americans lost 64,000. This shift has many questioning the H-1B visa program's role in the job market.",
+      "hook": "美国就业数据表明了明显的分化：上个月，外籍工作人员增加了809,000个职位，而本土出生的美国人则失去了64,000个职位。这一变化让许多人质疑H-1B签证计划在就业市场中的作用。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -733,13 +979,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T18:12:06.000Z",
-      "url": "https://x.com/i/trending/2119128839062426046"
+      "url": "https://x.com/i/trending/2119128839062426046",
+      "_pretranslated": {
+        "title": "外籍人士就业激增 80.9 万，而本地就业在十月下降 6.4 万",
+        "summary": "劳工统计局的数据显示，海外出生的就业人数急剧上升，占美国劳动总人口的19.5%，高于之前的19.1%，而本土出生的工人数量则有所下降。批评人士，包括传统基金会以及像Tom Slocum和Derrick Evans这样的网络声音，呼吁终止或大幅改革H-1B签证，以优先考虑美国工人并迫使公司提高工资。这些数据加剧了关于该项目更注重成本节约而非填补真正技能缺口的争论，凸显了紧张局势。",
+        "category": "动态"
+      },
+      "_hook_en": "U.S. jobs data shows a stark split: foreign-born workers gained 809,000 positions last month, while native-born Americans lost 64,000. This shift has many questioning the H-1B visa program's role in the job market."
     },
     {
       "id": "2118403334587502668",
       "name": "Fed Rate Hike Odds Drop to 65% After Midterms and Tech Selloff",
       "summary": "Prediction markets like Polymarket now show a 65 percent chance of a 25 basis point rate increase at the Fed's December 9 meeting, down from over 80 percent earlier in the week. The shift followed Democratic gains in the midterms and a sharp Nasdaq drop of more than 5 percent on November 5, with Nvidia shares falling over 9 percent amid worries over AI spending scrutiny. Platforms like Kalshi echo this at 67 percent, while the probability of no change has climbed to about one-third, with upcoming jobs and inflation data poised to sway the final call.",
-      "hook": "Traders slashed their bets on a Federal Reserve rate hike after Democrats swept Congress and tech stocks tumbled hard. The odds flipped fast, showing how politics and markets can reshape economic outlooks overnight.",
+      "hook": "在民主党横扫国会且科技股大幅下跌后，交易员大幅降低了对美联储加息的押注。赔率迅速翻转，显示了政治和市场如何在一夜之间重塑经济前景。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -749,13 +1001,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T23:32:21.000Z",
-      "url": "https://x.com/i/trending/2118403334587502668"
+      "url": "https://x.com/i/trending/2118403334587502668",
+      "_pretranslated": {
+        "title": "中期选举和科技股抛售后，美联储加息概率降至65%",
+        "summary": "像 Polymarket 这样的预测市场现在显示，美联储 12 月 9 日会议将加息 25 个基点的概率为 65%，低于本周早些时候的 80% 以上。这一变化是在中期选举中民主党获利以及 11 月 5 日纳斯达克大幅下跌超过 5% 后发生的，英伟达股价因对人工智能支出审查的担忧下跌超过 9%。像 Kalshi 这样的平台也显示类似情况，概率为 67%，而维持不变的可能性已上升到约三分之一。",
+        "category": "动态"
+      },
+      "_hook_en": "Traders slashed their bets on a Federal Reserve rate hike after Democrats swept Congress and tech stocks tumbled hard. The odds flipped fast, showing how politics and markets can reshape economic outlooks overnight."
     },
     {
       "id": "2118717268397801476",
       "name": "Voters Reject Data Center Proposals Nationwide, Hitting AI Stocks",
       "summary": "In about 40 local ballot measures across multiple states, voters approved restrictions, moratoriums, or bans on data centers in nearly every case, with just one small North Dakota town approving development. The pushback stemmed from concerns over rising electricity costs, heavy water use, noise, and land impacts, leading to sharp drops in AI and semiconductor stocks as investors worried about delays in the infrastructure boom. Wall Street sees the selloff as a buying chance, with Morgan Stanley's Mike Wilson holding firm on an S&P 500 target of 8,000, while skeptics like Michael Burry question the quick rebound calls.",
-      "hook": "On Election Day, communities from Ohio to Texas drew a line in the sand against new data centers, voicing clear worries about power bills, water strain, and neighborhood changes.",
+      "hook": "在选举日，从俄亥俄州到德克萨斯州的社区对新的数据中心划清界限，明确表达了对电费、水资源压力和社区变化的担忧。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -764,13 +1022,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T21:16:20.000Z",
-      "url": "https://x.com/i/trending/2118717268397801476"
+      "url": "https://x.com/i/trending/2118717268397801476",
+      "_pretranslated": {
+        "title": "选民在全国范围内拒绝数据中心提案，打击人工智能股票",
+        "summary": "在多个州的大约40项地方投票措施中，选民几乎在所有情况下都批准了对数据中心的限制、暂停或禁止，只有北达科他州的一个小镇批准了开发。反对的原因主要是对电费上升、水资源大量使用、噪音以及土地影响的担忧，这导致 AI 和半导体股票大幅下跌，因为投资者担心基础设施建设热潮会延迟。华尔街将这次抛售视为买入机会，摩根士丹利也认为如此。",
+        "category": "动态"
+      },
+      "_hook_en": "On Election Day, communities from Ohio to Texas drew a line in the sand against new data centers, voicing clear worries about power bills, water strain, and neighborhood changes."
     },
     {
       "id": "2118563772571033872",
       "name": "Godfather Meme Casts JD Vance as Disloyal Fredo Facing Trump",
       "summary": "Shared by il Donaldo Trumpo, the video overlays Vance's face on Fredo Corleone in the tense boat confrontation with Trump as the Godfather, complete with the original music and drama. It taps into online theories portraying Vance as the 'great white wolf' leading a supposed anti-Trump 'wolf pack' of insiders, amid screenshots warning of exposures and removals. Replies celebrated it as video of the month, with many tying the humor to real tensions like Vance's comments on midterm losses and leadership questions.",
-      "hook": "A clever edit swaps JD Vance into the iconic Godfather scene where Fredo faces his brother's wrath, delivering the line 'I know it was you, Fredo-Vance. You broke my heart.' The clip hit hard with laughs and quick shares.",
+      "hook": "一个巧妙的剪辑将JD Vance置入标志性的《教父》场景中，Fredo面对他哥哥的愤怒时，台词是“我知道是你，Fredo-Vance。你伤了我的心。”该片段引起了强烈的笑声和快速分享。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -779,13 +1043,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T04:46:23.000Z",
-      "url": "https://x.com/i/trending/2118563772571033872"
+      "url": "https://x.com/i/trending/2118563772571033872",
+      "_pretranslated": {
+        "title": "教父表情包将JD·万斯描绘成面对特朗普的不忠弗雷多",
+        "summary": "由 il Donaldo Trumpo 分享，该视频将万斯的脸覆盖在弗雷多·科里昂身上，出现在与特朗普作为教父的紧张船上对抗场景中，还保留了原始的音乐和戏剧效果。它利用了网络上将万斯描绘为“伟大的白狼”，领导所谓反特朗普内部“狼群”的理论，同时附有警告曝光和除名的截图。评论区称其为本月最佳视频，许多人将这种幽默与真实紧张局势联系起来，比如万斯关于中期选举失利和领导的评论。",
+        "category": "时政"
+      },
+      "_hook_en": "A clever edit swaps JD Vance into the iconic Godfather scene where Fredo faces his brother's wrath, delivering the line 'I know it was you, Fredo-Vance. You broke my heart.' The clip hit hard with laughs and quick shares."
     },
     {
       "id": "2119033663983849915",
       "name": "Bank of England Raises Interest Rates to 4% Amid Energy Inflation Fears",
       "summary": "The Monetary Policy Committee voted 8-1 on November 4 to lift the rate from 3.75% to 4%, citing persistent inflationary pressures from higher energy costs linked to Middle East tensions. Officials aim to curb second-round effects on wages and prices, with inflation at 3.5% in September and projected to hit around 5% by mid-2027. Critics argue the move fails to tackle supply-driven inflation from war and energy imports, instead burdening families with higher borrowing costs while funneling billions to banks through interest on reserves.",
-      "hook": "Households bracing for steeper mortgage bills watched as the Bank of England hiked its key rate this week—the first jump in over three years.",
+      "hook": "家庭在准备应对更高的抵押贷款账单时，目睹英格兰银行本周提高了基准利率——这是三年多来的首次上调。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -794,13 +1064,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T12:54:46.000Z",
-      "url": "https://x.com/i/trending/2119033663983849915"
+      "url": "https://x.com/i/trending/2119033663983849915",
+      "_pretranslated": {
+        "title": "英格兰银行在能源通胀担忧中将利率提高至4%",
+        "summary": "货币政策委员会在11月4日以8比1的投票结果决定将利率从3.75%提高至4%，理由是来自中东紧张局势引发的能源成本上升导致的持续通胀压力。官员们的目标是抑制工资和物价的二次效应，9月的通胀率为3.5%，预计到2027年中将达到约5%。批评者认为，此举未能应对战争和能源进口导致的供应驱动型通胀，反而增加了家庭的借贷成本，同时将数十亿的资金流向...",
+        "category": "动态"
+      },
+      "_hook_en": "Households bracing for steeper mortgage bills watched as the Bank of England hiked its key rate this week—the first jump in over three years."
     },
     {
       "id": "2118729998253076589",
       "name": "Grassroots Flood House Democrats with Calls Against Jeffries for Speaker",
       "summary": "After Democrats took House control in the midterms, a Change.org petition with nearly 920,000 signatures—boosted by Mark Ruffalo—pushes for a competitive Speaker race instead of elevating Minority Leader Hakeem Jeffries. Callers and online voices like Kyle Kulinski and Krystal Ball suggest alternatives such as Jamie Raskin, citing low approval ratings for Jeffries and Chuck Schumer from an NBC poll. While Jeffries has strong caucus backing and no real challengers, the surge highlights tensions between party leaders and the grassroots base seeking fresh faces.",
-      "hook": "House Democrats' offices are ringing off the hook with hundreds of calls urging them to skip Hakeem Jeffries for Speaker. One senior member fielded over 500 in just two days.",
+      "hook": "众议院民主党办公室的电话响个不停，数百通电话敦促他们不要支持哈基姆·杰弗里斯担任议长。一位高级成员在短短两天内接到了超过500个电话。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -810,13 +1086,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T01:01:04.000Z",
-      "url": "https://x.com/i/trending/2118729998253076589"
+      "url": "https://x.com/i/trending/2118729998253076589",
+      "_pretranslated": {
+        "title": "基层民众通过电话向众议院民主党议员施压，反对杰弗里斯担任议长",
+        "summary": "在中期选举中民主党夺回众议院控制权后，一份在Change.org上发布的请愿书获得了近92万签名——由马克·鲁法洛推动——呼吁举行一场有竞争性的议长竞选，而不是提升少数派领袖哈基姆·杰弗里斯。打电话和在线声音如凯尔·库林斯基和克里斯塔尔·鲍尔提出了如杰米·拉斯金等替代人选，指出杰弗里斯和查克·舒默在NBC民调中的低支持率。尽管杰弗里斯在党团中有强力支持且没有真正的挑战者，这股浪潮仍凸显了紧张局势。",
+        "category": "动态"
+      },
+      "_hook_en": "House Democrats' offices are ringing off the hook with hundreds of calls urging them to skip Hakeem Jeffries for Speaker. One senior member fielded over 500 in just two days."
     },
     {
       "id": "2118369272619762075",
       "name": "Traders Brace for US October Jobs Report Volatility",
       "summary": "The Bureau of Labor Statistics releases October nonfarm payrolls and unemployment at 8:30 a.m. ET, with economists eyeing 65,000 new jobs, a steady 4.2% unemployment rate, and slowing wage growth to 2.9% year-over-year. Weaker data might ease December Fed rate hike odds—now over 70%—boosting bitcoin and gold, while stronger figures could spark selling. Traders share strategies like tight stops and high risk-reward trades, stressing discipline amid expected market reactions.",
-      "hook": "Gold and crypto traders are on edge as today's jobs data looms, ready for swings that could shift rate hike bets and asset prices.",
+      "hook": "随着今天的就业数据临近，黄金和加密货币交易者紧张不安，准备应对可能改变加息预期和资产价格的波动。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -825,13 +1107,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T12:56:31.000Z",
-      "url": "https://x.com/i/trending/2118369272619762075"
+      "url": "https://x.com/i/trending/2118369272619762075",
+      "_pretranslated": {
+        "title": "交易者为美国十月就业报告的波动性做好准备",
+        "summary": "劳工统计局将在美国东部时间上午8:30发布10月份非农就业和失业数据，经济学家预计新增就业岗位为65,000个，失业率保持在4.2%，工资增长放缓至同比2.9%。较弱的数据可能降低12月份美联储加息的概率——目前超过70%——从而提振比特币和黄金，而较强的数据可能引发抛售。交易者分享了如紧密止损和高风险回报交易的策略，强调在预期的市场反应中保持纪律性。",
+        "category": "动态"
+      },
+      "_hook_en": "Gold and crypto traders are on edge as today's jobs data looms, ready for swings that could shift rate hike bets and asset prices."
     },
     {
       "id": "2118481246506397981",
       "name": "Morgan Stanley Sees U.S. Stock Correction Nearing End",
       "summary": "Morgan Stanley's Chief U.S. Equity Strategist Mike Wilson says the stock market correction that started in June is entering its final stages, thanks to better market breadth and less political uncertainty after the November 3 midterms. The firm expects large-cap stocks to rise about 15 percent in the next six months based on historical patterns, while keeping its year-end S&P 500 target at 8,000 and viewing any dip as a buying opportunity. They note that 60 percent of Russell 3000 stocks have dropped at least 20 percent since June, but see upcoming events like election results as chances to add to quality investments heading into 2027. On November 5, the S&P 500 sat near 7,354 after a volatile drop.",
-      "hook": "Mike Wilson calls the market pullback its 'final innings,' spotting signs of recovery amid improving breadth and post-midterm clarity.",
+      "hook": "迈克·威尔逊称市场回调是其“最后几局”，在广度改善和中期选举后的明朗中发现复苏的迹象。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -841,13 +1129,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T23:19:28.000Z",
-      "url": "https://x.com/i/trending/2118481246506397981"
+      "url": "https://x.com/i/trending/2118481246506397981",
+      "_pretranslated": {
+        "title": "摩根士丹利认为美国股市调整接近尾声",
+        "summary": "摩根士丹利的首席美国股票策略师迈克·威尔逊表示，自六月开始的股市调整正在进入最后阶段，这得益于市场广度改善以及11月3日中期选举后政治不确定性降低。该公司预计，根据历史模式，大盘股在未来六个月将上涨约15%，同时维持其年终标准普尔500指数目标为8000，并将任何下跌视为买入机会。他们指出，罗素3000指数的60%股票已经下跌",
+        "category": "动态"
+      },
+      "_hook_en": "Mike Wilson calls the market pullback its 'final innings,' spotting signs of recovery amid improving breadth and post-midterm clarity."
     },
     {
       "id": "2118758314469421427",
       "name": "Labour's Autumn Budget Draws Mixed Reactions on Relief Measures",
       "summary": "The Budget offers a one-off £100 energy payment for up to 20 million low-band council tax households, extended fuel duty cuts and VAT relief on electricity until July 2027, plus removal of gas standing charges. Officials highlight a National Living Wage rise and first-time buyer help, calling it support for those 'left behind.' Critics point to 25% energy bill hikes, record-high tax burdens as a share of GDP, and share cartoons depicting taxpayers crushed under politicians' jumps, arguing it fails to ease real pressures.",
-      "hook": "Labour pitched its Autumn Budget as breathing room for households feeling squeezed, but online voices quickly countered with tales of rising bills and tax pressures.",
+      "hook": "工党将其秋季预算描述为为感到经济紧张的家庭提供喘息之机，但网络上的声音很快就以账单上涨和税收压力的故事进行了反驳。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -856,13 +1150,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T20:02:48.000Z",
-      "url": "https://x.com/i/trending/2118758314469421427"
+      "url": "https://x.com/i/trending/2118758314469421427",
+      "_pretranslated": {
+        "title": "工党的秋季预算对救济措施引起褒贬不一的反应",
+        "summary": "预算提供一次性100英镑的能源补助，针对多达2000万低档次市政税家庭，同时延长燃油税减免和电力增值税减免至2027年7月，并取消天然气基础费用。官员强调国家最低工资上涨和首次购房者援助，称这是对那些“被落下”的人的支持。批评者指出能源账单上涨25%，税收占GDP比例创历史新高，并分享描绘纳税人被政客践踏的漫画，认为这不公平。",
+        "category": "动态"
+      },
+      "_hook_en": "Labour pitched its Autumn Budget as breathing room for households feeling squeezed, but online voices quickly countered with tales of rising bills and tax pressures."
     },
     {
       "id": "2118113416384819503",
       "name": "Globe and Mail Opinion on Bigger Government Role Draws Backlash",
       "summary": "Eugene Lang's Globe and Mail piece from November 4 argues Canada should expand government roles in eight key sectors like emerging tech, critical minerals, and defense to build economic resilience amid global shifts. Critics, including business leaders, point to already high government spending at 34.4% of GDP and public employment at 21.1% of the workforce, linking it to stagnant productivity and weak private investment. The debate highlights divides over whether more intervention or less will drive growth.",
-      "hook": "Shopify CEO Tobi Lutke saw the headline and couldn't hold back: 'You can’t make this shit up. Imagine believing this.' His reaction captured the swift pushback to a call for more state involvement in Canada's economy.",
+      "hook": "Shopify 首席执行官托比·卢特克看到这个标题时忍不住说道：‘你根本编不出这种糟糕的事。想象一下有人会相信这个。’ 他的反应反映了对于呼吁在加拿大经济中增加国家干预的迅速反弹。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -871,13 +1171,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T22:43:14.000Z",
-      "url": "https://x.com/i/trending/2118113416384819503"
+      "url": "https://x.com/i/trending/2118113416384819503",
+      "_pretranslated": {
+        "title": "《环球邮报》关于政府更大角色的评论引发反弹",
+        "summary": "尤金·朗（Eugene Lang）于11月4日在《环球邮报》上的文章认为，加拿大应在八个关键领域扩大政府作用，如新兴技术、关键矿产和国防，以在全球变局中建立经济韧性。批评者，包括商业领袖，指出政府开支已达国内生产总值的34.4%，公共部门就业占劳动力的21.1%，并将其与生产力停滞和私人投资疲弱联系起来。这场辩论凸显了关于应加大干预还是减少干预的分歧。",
+        "category": "动态"
+      },
+      "_hook_en": "Shopify CEO Tobi Lutke saw the headline and couldn't hold back: 'You can’t make this shit up. Imagine believing this.' His reaction captured the swift pushback to a call for more state involvement in Canada's economy."
     },
     {
       "id": "2118413819148222589",
       "name": "Jim Cramer's 'Market Boom' Call Sparks Inverse Memes Amid Sharp Selloff",
       "summary": "U.S. stocks tumbled that day, with the S&P 500 down 4.36%, Nasdaq Composite off 5.52%, and Dow shedding over 1,800 points, driven by declines in AI and chip stocks. Cramer's optimistic note followed his observation that the Nasdaq 100 had breached its 'Situational Low,' but it fueled the classic 'inverse Cramer' meme, where his bullish takes become sell signals. Communities like WallStreetBets posted 'it's over,' users shared panicked cartoon images, and crypto voice Tiffany Fong bluntly told him to shut up, highlighting his enduring role in finance chatter.",
-      "hook": "On November 5, as stocks plunged sharply, Jim Cramer declared the market headed for a 'boom'—and online crowds instantly fired back with sarcasm and memes.",
+      "hook": "11月5日，随着股市暴跌，吉姆·克莱默宣称市场将迎来“繁荣”——而网络上的人群立即用讽刺和表情包回击。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -886,13 +1192,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T04:02:55.000Z",
-      "url": "https://x.com/i/trending/2118413819148222589"
+      "url": "https://x.com/i/trending/2118413819148222589",
+      "_pretranslated": {
+        "title": "吉姆·克莱默的“市场繁荣”预测在市场急剧抛售中引发反向表情包",
+        "summary": "当天美国股市暴跌，标普500指数下跌4.36%，纳斯达克综合指数下跌5.52%，道琼斯指数下跌超过1800点，主要受人工智能和芯片股票下跌的影响。克雷默的乐观看法是在他观察到纳斯达克100指数突破其“情境低点”之后发布的，但这反而引发了典型的“逆向克雷默”梗，即他的看涨观点反而成为卖出信号。像WallStreetBets这样的社区发布了“结束了”，用户分享了惊慌的卡通图片，数字货币博主Tiffany Fong也直言告诉大家",
+        "category": "动态"
+      },
+      "_hook_en": "On November 5, as stocks plunged sharply, Jim Cramer declared the market headed for a 'boom'—and online crowds instantly fired back with sarcasm and memes."
     },
     {
       "id": "2118298102448677157",
       "name": "Corporate Push for AI Clashes with Worker Skepticism",
       "summary": "Corporate leaders see AI as key to productivity and growth, with some warning staff to adopt it or risk replacement by colleagues who do. Meanwhile, the public and workers remain wary, rejecting data center proposals in recent elections and citing early hype about massive job losses and dystopian outcomes. Surveys reveal Americans split on risks versus benefits, as executives invest heavily despite lagging everyday sentiment.",
-      "hook": "CEOs are mandating AI use for employees, even tying it to job security, while many workers push back amid fears of job loss and disempowerment.",
+      "hook": "首席执行官正在强制员工使用人工智能，甚至将其与工作保障挂钩，而许多员工因担心失业和被剥夺权力而进行抵制。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -903,13 +1215,14 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T00:20:14.000Z",
-      "url": "https://x.com/i/trending/2118298102448677157"
+      "url": "https://x.com/i/trending/2118298102448677157",
+      "_hook_en": "CEOs are mandating AI use for employees, even tying it to job security, while many workers push back amid fears of job loss and disempowerment."
     },
     {
       "id": "2118502289610588343",
       "name": "Comedian's 'Sell Everything' Video Hits Amid Market Drop",
       "summary": "In the satirical clip, Slash's character claims his firm exited markets days ago and predicts 98 percent plunges in stocks, bonds, crypto, property, and even bank cash, suggesting a switch to classic cars, boats, or watches. The video arrived as the S&P 500 fell 4.4 percent and Nasdaq dropped 5.5 percent on Thursday after midterm elections, with the Magnificent Seven tech stocks losing over $1 trillion. Reactions ranged from treating it as real advice—like buying pre-1964 silver coins—to spotting the parody and joking about crashing classic car values in a downturn.",
-      "hook": "British comedian Damien Slash dressed as a frantic hedge fund boss, urging viewers to dump all assets before a total collapse. Posted on November 5, it landed right as Wall Street took a real beating.",
+      "hook": "英国喜剧演员达米恩·斯拉什装扮成一个疯狂的对冲基金老板，敦促观众在彻底崩盘之前抛售所有资产。该视频发布于11月5日，正值华尔街遭受重创之际。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -918,13 +1231,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T00:42:38.000Z",
-      "url": "https://x.com/i/trending/2118502289610588343"
+      "url": "https://x.com/i/trending/2118502289610588343",
+      "_pretranslated": {
+        "title": "喜剧演员的“卖掉一切”视频在市场下跌时走红",
+        "summary": "在这段讽刺短片中，Slash 扮演的角色声称他的公司几天前就已退出市场，并预测股票、债券、加密货币、房地产甚至银行现金将下跌 98%，建议转向经典汽车、游艇或手表。该视频发布时，标普 500 指数在中期选举后周四下跌 4.4%，纳斯达克指数下跌 5.5%，而“七巨头”科技股损失超过 1 万亿美元。人们的反应从将其当作真实建议——比如购买 1964 年前的银币——到发现",
+        "category": "时政"
+      },
+      "_hook_en": "British comedian Damien Slash dressed as a frantic hedge fund boss, urging viewers to dump all assets before a total collapse. Posted on November 5, it landed right as Wall Street took a real beating."
     },
     {
       "id": "2118122341712662976",
       "name": "Thune Seeks Second Term as Senate GOP Leader After Midterm Losses",
       "summary": "Thune confirmed his bid for another term atop Senate Republicans, setting up a leadership vote on November 10, even as conservatives blame him for midterm defeats that handed Democrats a 54-44 Senate edge and House majority. Critics accuse him of blocking voter ID laws like the SAVE America Act, slowing judicial confirmations, and failing to advance Trump priorities, with one poll showing 99 percent calling for his immediate resignation. Thune defends his record on safer streets, tax relief, and border security, vowing to work with President Trump against Democratic moves. The contest underscores GOP rifts on strategy and rules as markets tumbled, with the Dow dropping over 1,800 points.",
-      "hook": "With Democrats now controlling Congress, Senate Majority Leader John Thune announced he'll fight to keep leading Republicans as minority leader amid sharp internal criticism.",
+      "hook": "随着民主党现在控制国会，参议院多数党领袖约翰·图恩宣布，他将在受到尖锐内部批评的情况下，争取继续担任共和党少数党领袖。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -935,13 +1254,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T22:49:33.000Z",
-      "url": "https://x.com/i/trending/2118122341712662976"
+      "url": "https://x.com/i/trending/2118122341712662976",
+      "_pretranslated": {
+        "title": "图恩在期中选举失利后寻求连任参议院共和党领导人",
+        "summary": "图恩确认他将竞选连任参议院共和党领导职务，并将领导选举定于11月10日，即使保守派将中期选举失败归咎于他，因为这次失败让民主党获得了54比44的参议院优势和众议院多数。批评者指责他阻挠票民身份法案，比如《拯救美国法案》，拖慢司法确认进程，并未推进特朗普的优先事项，一项民调显示99%的人呼吁他立即辞职。图恩为他在街道安全、减税方面的记录进行辩护，并",
+        "category": "动态"
+      },
+      "_hook_en": "With Democrats now controlling Congress, Senate Majority Leader John Thune announced he'll fight to keep leading Republicans as minority leader amid sharp internal criticism."
     },
     {
       "id": "2118862497755414835",
       "name": "Rand Paul's Six Penny Plan Targets $40 Trillion Debt After GOP Losses",
       "summary": "Paul's Six Penny Plan proposes cutting projected federal spending by six cents on every dollar each year for five years to balance the budget without tax hikes or picking specific programs. He ties the idea to voter anger over 27% inflation erosion, high gas prices from the Iran war, and tariff costs, especially after Democrats took House and Senate control in the 2026 midterms. Supporters see it as basic household budgeting, while skeptics question its political feasibility and impact on daily life amid calls for targeted cuts to defense or Social Security.",
-      "hook": "With the national debt topping $40 trillion and interest payments outpacing defense spending, Senator Rand Paul is calling for simple, everyday fiscal discipline that families already use.",
+      "hook": "随着国家债务超过40万亿美元，利息支付超过国防开支，参议员兰德·保罗呼吁采取家庭已经使用的简单、日常的财政纪律。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -950,13 +1275,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T00:31:20.000Z",
-      "url": "https://x.com/i/trending/2118862497755414835"
+      "url": "https://x.com/i/trending/2118862497755414835",
+      "_pretranslated": {
+        "title": "兰德·保罗的六分钱计划在共和党失利后瞄准40万亿美元债务",
+        "summary": "保罗的六分钱计划建议在五年内，每年将每一美元的联邦支出削减六美分，以在不提高税收或挑选特定项目的情况下实现预算平衡。他将这一想法与选民对27%通货膨胀侵蚀、高油价（源于伊朗战争）以及关税成本的愤怒联系起来，尤其是在民主党于2026年中期选举中控制众议院和参议院之后。支持者认为这相当于基础的家庭预算，而怀疑者则质疑其政治可行性及对日常生活的影响。",
+        "category": "动态"
+      },
+      "_hook_en": "With the national debt topping $40 trillion and interest payments outpacing defense spending, Senator Rand Paul is calling for simple, everyday fiscal discipline that families already use."
     },
     {
       "id": "2119082422193258791",
       "name": "Bitcoin vs Gold Debate Heats Up Amid Investor Selling Pressure",
       "summary": "Both Bitcoin and gold faced selling pressure recently, sparking fresh comparisons on X where Schiff highlighted gold's stronger five-year gains of over 100% against Bitcoin's 23%. Timmer prefers Bitcoin, noting its relative strength—one Bitcoin now buys about 21 ounces of gold, up from 12—and massive $55 billion in ETF inflows since 2024, double gold and silver's. Both assets correlated 60-70% with the S&P 500 lately, limiting their hedge roles, as Bitcoin hovered near $76,000.",
-      "hook": "Peter Schiff mocked Bitcoin's stagnation near its six-year cost basis while gold doubled investments, but Fidelity's Jurrien Timmer counters that Bitcoin still buys more gold now than at recent lows.",
+      "hook": "彼得·希夫嘲笑比特币在其六年成本基础附近停滞不前，而黄金的投资翻了一番，但富达的朱里恩·蒂默反驳说，比特币现在仍然可以买到比近期低点更多的黄金。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -965,13 +1296,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T15:09:33.000Z",
-      "url": "https://x.com/i/trending/2119082422193258791"
+      "url": "https://x.com/i/trending/2119082422193258791",
+      "_pretranslated": {
+        "title": "比特币与黄金的争论在投资者抛售压力下升温",
+        "summary": "最近，比特币和黄金都面临抛售压力，引发了在X上的新一轮比较，Schiff强调黄金在过去五年的涨幅超过100%，远高于比特币的23%。Timmer更偏好比特币，指出其相对强势——目前一个比特币可兑换约21盎司黄金，而之前为12盎司——以及自2024年以来高达550亿美元的ETF流入量，是黄金和白银的两倍。最近，两种资产与标普500的相关性达到60-70%，限制了它们的对冲作用，而比特币徘徊在约76,000美元。",
+        "category": "动态"
+      },
+      "_hook_en": "Peter Schiff mocked Bitcoin's stagnation near its six-year cost basis while gold doubled investments, but Fidelity's Jurrien Timmer counters that Bitcoin still buys more gold now than at recent lows."
     },
     {
       "id": "2118444756380336305",
       "name": "U.S. Mortgage Rates Fall for Third Straight Week to 7.18%",
       "summary": "The average 30-year fixed mortgage rate dropped to 7.18% from 7.24%, while the 15-year rate eased to 6.57%, according to Freddie Mac's survey. Freddie Mac chief economist Sam Khater noted the decline improves conditions for buyers against strong economic growth, though rates remain well above last year's 6.22% for 30-year loans. Even with the drop, purchase applications fell last week, and experts call the change modest—like a 'rounding error'—with a $400,000 loan still costing $255 more monthly than a year ago.",
-      "hook": "Homebuyers caught a small break this week as mortgage rates dipped again, easing the pinch on wallets amid ongoing affordability struggles.",
+      "hook": "本周，购房者迎来了一丝小小的利好，因为抵押贷款利率再次下降，在持续的可负担性压力下缓解了钱包的紧张。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -981,13 +1318,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T20:55:51.000Z",
-      "url": "https://x.com/i/trending/2118444756380336305"
+      "url": "https://x.com/i/trending/2118444756380336305",
+      "_pretranslated": {
+        "title": "美国抵押贷款利率连续第三周下降至7.18%",
+        "summary": "根据弗雷迪·麦克的调查，30年期固定抵押贷款的平均利率从7.24%降至7.18%，而15年期利率降至6.57%。弗雷迪·麦克首席经济学家萨姆·卡特指出，这一下降改善了买家的购房条件，即使在经济强劲增长的情况下，不过利率仍远高于去年的30年期贷款6.22%。即便利率下降，上周购房申请仍有所下降，专家称这一变化只是温和的——就像一个“舍入误差”，对于一笔40万美元的贷款，每月仍要多支付255美元。",
+        "category": "动态"
+      },
+      "_hook_en": "Homebuyers caught a small break this week as mortgage rates dipped again, easing the pinch on wallets amid ongoing affordability struggles."
     },
     {
       "id": "2118729995359039573",
       "name": "SPY Rebounds Modestly as Traders Watch 200-Day Average and Inflation Data",
       "summary": "Traders split on SPY's next move, with some like Lia the Trader eyeing a long entry in the $660–$670 gap, while Bassem sees weakness and expects a retest of $727–$726 near the 200-day moving average. Charts show breaks below 20- and 50-day averages, a gravestone doji signaling a failed rally, and cautions from GEX Edge about rallies being sold until the 200-day support holds. Upcoming CPI on Tuesday and PPI on Friday will test the 730–740 range, as the S&P 500 ended the week down 2.68% at 7,376.86 amid Nasdaq correction worries.",
-      "hook": "After Thursday's sharp 4.41% plunge, SPY closed Friday up 0.31% at $735.29, leaving traders debating if it's a real bounce or just a pause before more downside.",
+      "hook": "经过周四大幅下跌4.41%后，SPY周五收盘上涨0.31%，报735.29美元，这让交易者在讨论这是一次真正的反弹，还是只是下跌前的短暂暂停。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -997,13 +1340,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T02:18:51.000Z",
-      "url": "https://x.com/i/trending/2118729995359039573"
+      "url": "https://x.com/i/trending/2118729995359039573",
+      "_pretranslated": {
+        "title": "随着交易者关注200日均线和通胀数据，SPY温和反弹",
+        "summary": "交易者对SPY的下一步走势意见不一，一些人如交易员Lia看好在660–670美元缺口的多头入场，而Bassem则看到疲软，预计将回测接近200日均线的727–726美元。图表显示跌破20日和50日均线，墓碑十字星暗示反弹失败，GEX Edge警告称在200日支撑位维持之前，反弹可能被抛售。即将到来的CPI在周二公布，PPI在周五公布，这将考验730–740美元区间，而标普500指数上周收盘下跌2.68%，报7,376点。",
+        "category": "动态"
+      },
+      "_hook_en": "After Thursday's sharp 4.41% plunge, SPY closed Friday up 0.31% at $735.29, leaving traders debating if it's a real bounce or just a pause before more downside."
     },
     {
       "id": "2117789434590478451",
       "name": "Democrats Win 2026 Midterms Despite Predictions of Cancellation",
       "summary": "In the lead-up to the 2026 midterms, figures like Rosie O’Donnell warned President Trump might stage a crisis, such as an assassination attempt or terrorist attack, to halt the vote entirely. Commentators revisited hyperbolic claims from certain circles insisting the elections would never happen, often tied to fears of dictatorship. Yet the elections proceeded smoothly with no national emergency declared, delivering a Democratic wave even in Republican strongholds and prompting reflections on the gap between those forecasts and reality.",
-      "hook": "As Democrats claimed majorities in the House and Senate on November 3, online users pointed out how earlier dire predictions of canceled elections fell flat.",
+      "hook": "随着民主党在11月3日宣称赢得众议院和参议院多数席位，网民们指出此前关于选举被取消的严重预测完全落空。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1012,13 +1361,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-05T22:42:50.000Z",
-      "url": "https://x.com/i/trending/2117789434590478451"
+      "url": "https://x.com/i/trending/2117789434590478451",
+      "_pretranslated": {
+        "title": "尽管有取消的预测，民主党赢得2026年中期选举",
+        "summary": "在2026年中期选举前，像罗西·奥唐奈尔这样的公众人物警告说，特朗普总统可能会制造危机，例如暗杀企图或恐怖袭击，以完全阻止投票。评论员们重新审视了某些圈子中夸张的说法，这些说法坚持认为选举永远不会举行，往往与对独裁的恐惧有关。然而，选举顺利进行，没有宣布全国紧急状态，即便在共和党据点地区也出现了民主党的浪潮，并引发了对此的反思。",
+        "category": "动态"
+      },
+      "_hook_en": "As Democrats claimed majorities in the House and Senate on November 3, online users pointed out how earlier dire predictions of canceled elections fell flat."
     },
     {
       "id": "2119153433207075248",
       "name": "Erdogan and Trump Discuss Diplomacy in Third Recent Call",
       "summary": "Erdogan urged an end to US-Iran tensions via diplomacy and expressed hope for progress in ending the Russia-Ukraine war, with Türkiye ready to boost contacts in Kyiv and Moscow. He thanked Trump for backing the upcoming Organization of Turkic States summit and voiced confidence in deepening bilateral ties. The call underscores Türkiye's role in navigating relations with major powers amid regional conflicts, though no US readout has detailed Trump's responses.",
-      "hook": "In their third phone call over the past 10 days, Turkish President Recep Tayyip Erdogan and US President Donald Trump focused on mending global tensions through dialogue.",
+      "hook": "在过去10天的第三次电话通话中，土耳其总统雷杰普·塔伊普·埃尔多安与美国总统唐纳德·特朗普重点通过对话缓解全球紧张局势。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1027,13 +1382,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T19:50:22.000Z",
-      "url": "https://x.com/i/trending/2119153433207075248"
+      "url": "https://x.com/i/trending/2119153433207075248",
+      "_pretranslated": {
+        "title": "埃尔多安和特朗普在最近第三次通话中讨论外交",
+        "summary": "埃尔多安呼吁通过外交结束美伊紧张局势，并表达了对结束俄乌战争取得进展的希望，土耳其准备加强与基辅和莫斯科的联系。他感谢特朗普支持即将举行的突厥国家组织峰会，并对深化双边关系表示信心。此次通话凸显了土耳其在地区冲突中处理与主要大国关系的作用，尽管美国方面尚未公布特朗普的具体回应。",
+        "category": "动态"
+      },
+      "_hook_en": "In their third phone call over the past 10 days, Turkish President Recep Tayyip Erdogan and US President Donald Trump focused on mending global tensions through dialogue."
     },
     {
       "id": "2118496569716879861",
       "name": "Romney Blames GOP Setbacks on Bad Policy and Character",
       "summary": "In a November 4 post, former Sen. Mitt Romney listed GOP missteps like impulsive Iran war, blanket pardons, apparent corruption, and abandoning allies as reasons for recent defeats, hoping for a course correction. The results surprised leaders, with Democrats gaining control of the House and Senate amid voter frustration over the U.S.-Iran conflict, high fuel prices, and economic issues. Kansas saw dramatic shifts, ending the GOP's state House supermajority and electing the state's first Democratic U.S. senator in nearly a century. Reactions praised Romney's candor or criticized him for not fighting Democrats harder, highlighting GOP divisions.",
-      "hook": "As Democrats flipped both chambers of Congress in the midterms, Mitt Romney pointed to erratic tariffs and impulsive decisions as the culprits behind the losses.",
+      "hook": "随着民主党在中期选举中翻转了国会两院，米特·罗姆尼将损失归因于反复无常的关税和冲动的决策。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1042,13 +1403,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T04:19:23.000Z",
-      "url": "https://x.com/i/trending/2118496569716879861"
+      "url": "https://x.com/i/trending/2118496569716879861",
+      "_pretranslated": {
+        "title": "罗姆尼将共和党的挫败归咎于糟糕的政策和品格",
+        "summary": "在11月4日的一篇帖子中，前参议员米特·罗姆尼列出了共和党的一些失误，如冲动的伊朗战争、全面赦免、明显的腐败以及抛弃盟友，作为近期失败的原因，并希望有所纠正。结果让领导人感到惊讶，民主党借助选民对美伊冲突、高燃油价格和经济问题的不满，控制了众议院和参议院。堪萨斯州出现了戏剧性的变化，结束了共和党的州众议院超级多数，并选出了该州第一位民主党人",
+        "category": "动态"
+      },
+      "_hook_en": "As Democrats flipped both chambers of Congress in the midterms, Mitt Romney pointed to erratic tariffs and impulsive decisions as the culprits behind the losses."
     },
     {
       "id": "2118724580911284269",
       "name": "Trump Meets Russian Envoy but Skips Ukrainian Officials at White House",
       "summary": "Trump hosted Kirill Dmitriev, Vladimir Putin's envoy, for a separate meeting during First Lady Melania Trump's gathering marking a short-lived ceasefire in Ukraine's Oleshky. He skipped the Ukrainian delegation present and later told reporters a major deal to end the war was close, potentially expanding across Europe. When asked about Russian strikes killing Ukrainian civilians in schools and buses, Trump said he raised it but noted 'the other way they kill too,' drawing criticism for equating aggressor and victim amid upcoming U.S.-mediated talks in Abu Dhabi.",
-      "hook": "At a White House event celebrating a fragile humanitarian ceasefire, President Trump chose a private chat with Russia's envoy over greeting Ukrainian representatives in the room.",
+      "hook": "在白宫庆祝脆弱人道主义停火的活动上，特朗普总统选择与俄罗斯特使进行私下交谈，而不是与在场的乌克兰代表打招呼。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1058,13 +1425,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T15:27:29.000Z",
-      "url": "https://x.com/i/trending/2118724580911284269"
+      "url": "https://x.com/i/trending/2118724580911284269",
+      "_pretranslated": {
+        "title": "特朗普在白宫会见俄罗斯特使，但未会见乌克兰官员",
+        "summary": "特朗普在第一夫人梅拉尼娅·特朗普举办的纪念乌克兰奥列什基短暂停火的聚会上，单独接待了弗拉基米尔·普京的特使基里尔·德米特里耶夫。他没有参加在场的乌克兰代表团，随后告诉记者，结束战争的一项重大协议即将达成，并可能在整个欧洲扩展。当被问及俄罗斯袭击导致乌克兰平民在学校和公交车中死亡时，特朗普表示他提出了这个问题，但指出“他们也以另一种方式杀人”，因将两者等同而受到批评。",
+        "category": "动态"
+      },
+      "_hook_en": "At a White House event celebrating a fragile humanitarian ceasefire, President Trump chose a private chat with Russia's envoy over greeting Ukrainian representatives in the room."
     },
     {
       "id": "2118223330209915378",
       "name": "Grok Rejects Speculation on U.S. Civil War Odds",
       "summary": "Social media threads probe AI like Grok on chances of civil war amid political divides, but Grok cites a late October 2026 Leger poll where 46% view it as unlikely in five years versus 29% likely, plus UC Davis data showing declining support for political violence. Prediction markets rate full-scale war near zero odds, stressing no side wins and polarization doesn't mean organized fighting. Commenters debate rural advantages or integrated lives making clear battle lines impossible, with many calling the talk futile or exaggerated.",
-      "hook": "Users keep asking AI who would win a hypothetical liberal-conservative civil war, but Grok shut it down with a firm 'No.' It pointed to polls showing most Americans see such conflict as unlikely.",
+      "hook": "用户们不断询问人工智能，在假设的自由派与保守派内战中谁会获胜，但Grok坚定地以“不会”回应。它指出民意调查显示，大多数美国人认为这种冲突不太可能发生。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1073,13 +1446,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T04:16:33.000Z",
-      "url": "https://x.com/i/trending/2118223330209915378"
+      "url": "https://x.com/i/trending/2118223330209915378",
+      "_pretranslated": {
+        "title": "Grok 拒绝对美国内战概率进行猜测",
+        "summary": "社交媒体讨论串就AI如Grok在政治分歧下内战可能性问题进行探讨，但Grok引用了2026年10月下旬的Leger民调，其中46%认为五年内内战不太可能，29%认为可能，同时引用了加州大学戴维斯分校的数据显示对政治暴力的支持下降。预测市场将全面战争的概率评为接近零，强调没有一方会获胜，并且极化并不意味着有组织的战斗。评论者们讨论了农村的优势或者生活的融合使清晰的战斗界线不可能出现，许多人相信……",
+        "category": "动态"
+      },
+      "_hook_en": "Users keep asking AI who would win a hypothetical liberal-conservative civil war, but Grok shut it down with a firm 'No.' It pointed to polls showing most Americans see such conflict as unlikely."
     },
     {
       "id": "2118611291300679837",
       "name": "UN Marks Day Against War's Environmental Destruction",
       "summary": "The United Nations observes the International Day for Preventing the Exploitation of the Environment in War and Armed Conflict, noting that 40 percent of internal conflicts over the past 60 years link to natural resources like timber, minerals, and water. These fights are twice as likely to restart, with damage persisting through poisoned water, ruined farmland, and scarred landscapes. Voices from Ukraine's Dmytro Lubinets, who cited the Kakhovka Dam breach costing UAH 8.63 trillion, to UN's Volker Türk calling for peace for people and planet, urge accountability and protection under international law.",
-      "hook": "On November 6, global leaders gather to remember how wars scar not just people, but forests, rivers, and soil for generations.",
+      "hook": "11月6日，全球领导人齐聚一堂，纪念战争给人类、森林、河流和土壤留下的跨世代创伤。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1088,13 +1467,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T16:28:29.000Z",
-      "url": "https://x.com/i/trending/2118611291300679837"
+      "url": "https://x.com/i/trending/2118611291300679837",
+      "_pretranslated": {
+        "title": "联合国纪念反对战争造成环境破坏日",
+        "summary": "联合国纪念防止战争和武装冲突中环境被剥削国际日，并指出过去60年中40%的内乱与木材、矿产和水等自然资源有关。这些冲突重燃的可能性是其他冲突的两倍，破坏通过被污染的水源、毁坏的农田和受损的景观持续存在。从乌克兰的德米特罗·卢比涅茨（Dmytro Lubinets）引用卡霍夫卡大坝垮塌造成的8.63万亿乌克兰格里夫纳损失，到联合国的沃尔（Vol）声音皆如此",
+        "category": "动态"
+      },
+      "_hook_en": "On November 6, global leaders gather to remember how wars scar not just people, but forests, rivers, and soil for generations."
     },
     {
       "id": "2118994094328545567",
       "name": "BBC Commentator Warns Russia Seeks to Destroy West via Hybrid Warfare",
       "summary": "During the segment, Syed described Europe as tilting toward war amid Russia's hybrid efforts. Viewers pushed back hard, with some questioning Russia's motives and pointing to the stalled Ukraine frontline as evidence against the claims. Journalist Thomas Fazi called it threat inflation, arguing many alleged Russian incidents lack proof and reflect Western psychological tactics instead. The backlash underscores deep splits on Russia's true intentions and the hybrid threat's reality.",
-      "hook": "Matthew Syed, a former Olympic table tennis player turned columnist, told BBC Newsnight that Russia aims to dismantle the West through covert attacks across Europe.",
+      "hook": "前奥运乒乓球运动员、现专栏作家马修·赛义德在接受BBC《新闻之夜》采访时表示，俄罗斯旨在通过在欧洲的隐蔽攻击来瓦解西方。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1103,13 +1488,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T19:38:21.000Z",
-      "url": "https://x.com/i/trending/2118994094328545567"
+      "url": "https://x.com/i/trending/2118994094328545567",
+      "_pretranslated": {
+        "title": "BBC 评论员警告称俄罗斯寻求通过混合战争摧毁西方",
+        "summary": "在节目环节中，赛义德将欧洲描述为在俄罗斯混合手段下倾向于战争。观众强烈反驳，有些人质疑俄罗斯的动机，并指出停滞的乌克兰前线作为反驳这些主张的证据。记者托马斯·法齐称这是威胁夸大，认为许多所谓的俄罗斯事件缺乏证据，反而反映了西方的心理策略。这种强烈反应凸显了人们在俄罗斯真实意图及混合威胁现实上的深刻分歧。",
+        "category": "动态"
+      },
+      "_hook_en": "Matthew Syed, a former Olympic table tennis player turned columnist, told BBC Newsnight that Russia aims to dismantle the West through covert attacks across Europe."
     },
     {
       "id": "2118842016503058794",
       "name": "Do Couples Need Daily Texts? Wide Views Emerge",
       "summary": "David's post asking if texting every day is necessary in a relationship sparked diverse responses. Some see daily check-ins as essential therapy through shared thoughts and jokes, while others prefer natural contact over forced vibes to avoid exhaustion. Experts emphasize mutual agreement, consistency over volume, and respecting boundaries, noting healthy patterns vary by couple.",
-      "hook": "A simple question about daily texting in relationships drew thousands of shares and personal stories from people worldwide.",
+      "hook": "关于恋爱中日常短信的一个简单问题，引起了全球数千次分享和人们的个人故事。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -1118,13 +1509,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T23:10:27.000Z",
-      "url": "https://x.com/i/trending/2118842016503058794"
+      "url": "https://x.com/i/trending/2118842016503058794",
+      "_pretranslated": {
+        "title": "情侣需要每天发短信吗？出现广泛观点",
+        "summary": "大卫的帖子问在一段关系中每天发短信是否必要，引发了各种回应。有些人认为每天的联系是通过分享想法和笑话进行必要的心理疗法，而另一些人则更喜欢自然的接触而非勉强的交流，以避免疲惫。专家们强调彼此的共识、重视持续性而非信息量，并尊重界限，同时指出健康的模式因情侣而异。",
+        "category": "时政"
+      },
+      "_hook_en": "A simple question about daily texting in relationships drew thousands of shares and personal stories from people worldwide."
     },
     {
       "id": "2117950458916454435",
       "name": "Melania Trump Hosts Russia-Ukraine Envoys After Oleshky Ceasefire Success",
       "summary": "The six-day humanitarian pause in Oleshky, a Russian-occupied town in Ukraine's Kherson region, allowed aid delivery amid severe shortages and marked one of the longest local halts since Russia's 2022 invasion. Trump acted as exclusive intermediary, overseeing demining, evacuations, and medical plans, then urged both sides at the White House to extend the effort for lasting peace. Ukrainian officials honored her with the Order of Princess Olga, while Russia's Kirill Dmitriev thanked her role; President Trump hinted at a larger agreement ahead. Supporters see it as a diplomatic step forward, though critics note the wider conflict persists.",
-      "hook": "Nearly 800 civilians safely evacuated from a war-torn Ukrainian town, thanks to a ceasefire arranged by First Lady Melania Trump. She brought Russian and Ukrainian officials together at the White House to celebrate the breakthrough.",
+      "hook": "由于梅拉尼娅·特朗普第一夫人安排的停火，近800名平民从一个饱受战争蹂躏的乌克兰小镇安全撤离。她曾在白宫将俄罗斯和乌克兰官员聚集在一起，以庆祝这一突破。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1134,13 +1531,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T11:49:37.000Z",
-      "url": "https://x.com/i/trending/2117950458916454435"
+      "url": "https://x.com/i/trending/2117950458916454435",
+      "_pretranslated": {
+        "title": "梅拉尼娅·特朗普在奥列什基停火成功后接待俄罗斯-乌克兰特使",
+        "summary": "在乌克兰赫尔松地区被俄罗斯占领的奥列什基镇，为期六天的人道主义暂停使援助得以在严重短缺的情况下送达，并标志着自俄罗斯2022年入侵以来当地最长的停顿之一。特朗普作为唯一中间人，监督排雷、疏散和医疗计划，然后在白宫敦促双方延长这一努力以实现持久和平。乌克兰官员授予她奥尔加公主勋章，而俄罗斯的基里尔·德米特里耶夫则感谢她的角色；普",
+        "category": "动态"
+      },
+      "_hook_en": "Nearly 800 civilians safely evacuated from a war-torn Ukrainian town, thanks to a ceasefire arranged by First Lady Melania Trump. She brought Russian and Ukrainian officials together at the White House to celebrate the breakthrough."
     },
     {
       "id": "2118116396576002131",
       "name": "Debate Erupts Over Conscription Avoidance and Patriotism in UK",
       "summary": "A Mirror report warned that dodging potential WW3 conscription could lead to social shame and job issues, as noted by war studies expert Professor Joshua Bilton, with pressure likely from peers. Former detective Peter Bleksley labeled reluctant youth 'traitorous cowards' on TalkTV, citing polls where half of young Brits say they would never fight. Reactions split sharply, with some refusing to defend leaders they distrust on borders and housing, while others urged volunteers over forced service. Polls show young adults prioritizing domestic woes over foreign conflicts amid high global tensions.",
-      "hook": "A former detective called young Brits unwilling to fight 'cowards,' sparking a wave of divided reactions online. The comments hit amid government plans to widen army call-up ages.",
+      "hook": "一名前侦探称不愿参战的年轻英国人为“懦夫”，在网上引发了一波分裂的反应。此评论正值政府计划扩大征兵年龄之际。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1149,13 +1552,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T14:15:16.000Z",
-      "url": "https://x.com/i/trending/2118116396576002131"
+      "url": "https://x.com/i/trending/2118116396576002131",
+      "_pretranslated": {
+        "title": "英国关于逃避征兵与爱国主义的辩论爆发",
+        "summary": "《镜报》的一份报告警告称，逃避潜在的第三次世界大战征兵可能会导致社会羞辱和就业问题，战争研究专家乔舒亚·比尔顿教授指出，来自同龄人的压力也可能存在。前侦探彼得·布莱克斯利在TalkTV上称不情愿参军的年轻人为“叛国懦夫”，并引用民调显示一半英国年轻人表示他们永远不会参战。反应分歧明显，一些人拒绝为了他们不信任的领导人而在边境和住房问题上服役，而另一些人则主张志愿参军而非强制服役。",
+        "category": "动态"
+      },
+      "_hook_en": "A former detective called young Brits unwilling to fight 'cowards,' sparking a wave of divided reactions online. The comments hit amid government plans to widen army call-up ages."
     },
     {
       "id": "2119198391628365987",
       "name": "LBC Caller Unfazed by Hypothetical Putin Takeover of UK",
       "summary": "During the radio exchange, Marcus dismissed concerns about democracy and freedoms, prioritizing his current economic hardships over abstract threats. Online responses highlighted his raw honesty about poverty and lack of prospects, while criticizing the host for focusing on 'Putler bad' instead of real issues like UK arrests for online speech—12,000 yearly versus Russia's 400. The clip drew thousands of views, fueling debates on whether media overlooks working-class realities in favor of distant warnings about authoritarianism.",
-      "hook": "A frustrated LBC caller named Marcus told host Ben Kentish that Vladimir Putin running the UK wouldn't change his daily struggles one bit.",
+      "hook": "一位感到沮丧的LBC来电者马库斯告诉主持人本·肯蒂什，即使弗拉基米尔·普京管理英国，他的日常困境也不会有任何改变。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1165,13 +1574,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T22:46:29.000Z",
-      "url": "https://x.com/i/trending/2119198391628365987"
+      "url": "https://x.com/i/trending/2119198391628365987",
+      "_pretranslated": {
+        "title": "LBC来电者对普京假设接管英国毫不动摇",
+        "summary": "在广播交流中，马库斯对民主和自由的担忧置之不理，把当前的经济困境置于抽象威胁之上。网络回应强调了他对贫困和缺乏前景的直率诚实，同时批评主持人关注“普特勒不好”，而不是像英国因网络言论每年抓捕1.2万人，而俄罗斯只有400人的实际问题。这段片段获得了数千次观看，引发了关于媒体是否忽视工人阶级现实而关注遥远问题的讨论。",
+        "category": "动态"
+      },
+      "_hook_en": "A frustrated LBC caller named Marcus told host Ben Kentish that Vladimir Putin running the UK wouldn't change his daily struggles one bit."
     },
     {
       "id": "2118752269239791987",
       "name": "Joe Kent Urges Trump to End Iran War and Fire Key Officials",
       "summary": "On November 6, former National Counterterrorism Center Director Joe Kent posted on X demanding Trump end the war with Iran immediately, restrain Israel, and put America first, echoing his detailed opinion piece on Responsible Statecraft. He specifically calls for firing Defense Secretary Pete Hegseth, CIA Director John Ratcliffe, Secretary of State Marco Rubio, and Chief of Staff Susie Wiles to bypass the 'neocon national security blob' and deliver on voters' midterm rejection of the conflict's costs like inflation and energy spikes. Supporters including Trita Parsi and Jack Hunter amplified the message tying it to Republican losses, while critics argue Trump owns the war he started; the push highlights growing pressure for de-escalation amid U.S. casualties and economic strain from strikes launched February 28, 2026.",
-      "hook": "Retired Green Beret Joe Kent didn't hold back, calling on President Trump to declare the Iran war over and clean house among top advisors.",
+      "hook": "退役绿色贝雷帽乔·肯特毫不保留，呼吁总统特朗普宣布伊朗战争结束，并清理高层顾问团队。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1180,13 +1595,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T17:16:25.000Z",
-      "url": "https://x.com/i/trending/2118752269239791987"
+      "url": "https://x.com/i/trending/2118752269239791987",
+      "_pretranslated": {
+        "title": "乔·肯特敦促特朗普结束对伊朗的战争并解雇关键官员",
+        "summary": "在11月6日，前国家反恐中心主任乔·肯特在X上发帖，要求特朗普立即结束与伊朗的战争，约束以色列，并把美国放在首位，这呼应了他在《负责任的治国》中发表的详细社论。他特别呼吁解雇国防部长皮特·赫格塞斯、中央情报局局长约翰·拉特克利夫、国务卿马尔科·鲁比奥和白宫幕僚长苏西·怀尔斯，以绕过“新保守派国家安全集团”，实现选民在中期选举中对冲突的否决意愿。",
+        "category": "动态"
+      },
+      "_hook_en": "Retired Green Beret Joe Kent didn't hold back, calling on President Trump to declare the Iran war over and clean house among top advisors."
     },
     {
       "id": "2118255542246555847",
       "name": "Trump Touts NASA Revival and World's Largest Air Show at Kennedy Space Center",
       "summary": "On November 6, Trump spoke at Kennedy Space Center, declaring NASA back on track after years of neglect, with plans for the site to host the world's largest air show in two years to showcase aviation, space tech, and economic deals. The event highlighted administration achievements amid midterm losses tied to the ongoing Iran conflict, where Trump defended strikes as crucial to stopping Iran's nuclear program. Supporters cite intelligence on Iran's missile buildup as justification, while critics note domestic costs like higher fuel prices; national security meetings continue without new operations.",
-      "hook": "Standing at NASA's Kennedy Space Center, President Trump rallied the crowd with a vision of American space leadership restored, from Mars missions to a massive air show on the horizon.",
+      "hook": "站在美国国家航空航天局肯尼迪航天中心，特朗普总统向人群发表讲话，描绘了重振美国太空领导地位的愿景，从火星任务到即将到来的大型航空展。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1195,13 +1616,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T07:27:49.000Z",
-      "url": "https://x.com/i/trending/2118255542246555847"
+      "url": "https://x.com/i/trending/2118255542246555847",
+      "_pretranslated": {
+        "title": "特朗普宣传肯尼迪航天中心的NASA复兴和世界上最大的航空展",
+        "summary": "11月6日，特朗普在肯尼迪航天中心发表演讲，宣称在经历多年的忽视后，NASA已经重回正轨，并计划在两年内将该地点打造成世界最大的航空展，以展示航空、航天技术和经济交易。此次活动突显了政府在中期选举损失背景下的成就，这些损失与持续的伊朗冲突有关，而特朗普辩护称，空袭对阻止伊朗核计划至关重要。支持者引用关于伊朗导弹扩张的情报作为理由，而批评者",
+        "category": "动态"
+      },
+      "_hook_en": "Standing at NASA's Kennedy Space Center, President Trump rallied the crowd with a vision of American space leadership restored, from Mars missions to a massive air show on the horizon."
     },
     {
       "id": "2118717264501342603",
       "name": "NATO's Rutte Predicts Compromise in Ukraine Peace Deal",
       "summary": "Appearing on *Pauw & De Wit*, Rutte said peace will likely require give-and-take, with Ukrainian President Volodymyr Zelensky choosing the terms, even as U.S.-brokered talks loom in Abu Dhabi. He warned Russia will remain a threat to Europe post-war, sent an encouraging note to President Trump after U.S. midterms, and pictured celebrating peace with Zelensky by getting 'super drunk' on a Swiss mountaintop with red wine. Rutte stressed America's key role in Europe's defense while noting Europe's own purchases of Russian energy, calling it a sign no side is fully innocent.",
-      "hook": "NATO Secretary General Mark Rutte shared a candid view on Dutch TV: wars like Russia's against Ukraine rarely end in total victory, but in tough compromises decided by Ukraine alone.",
+      "hook": "北约秘书长马尔克·吕特在荷兰电视上分享了一个坦率的观点：像俄罗斯对乌克兰的战争很少以彻底胜利告终，而是由乌克兰单方面决定的艰难妥协。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1210,13 +1637,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T17:38:22.000Z",
-      "url": "https://x.com/i/trending/2118717264501342603"
+      "url": "https://x.com/i/trending/2118717264501342603",
+      "_pretranslated": {
+        "title": "北约的鲁特预测乌克兰和平协议将达成妥协",
+        "summary": "在《Pauw & De Wit》节目中露面时，鲁特表示，和平很可能需要互相妥协，由乌克兰总统弗拉基米尔·泽连斯基选择条件，即使美国斡旋的阿布扎比会谈即将进行。他警告称，战争结束后俄罗斯仍将对欧洲构成威胁，在美国中期选举后向特朗普总统发出鼓励的信息，并设想与泽连斯基一起庆祝和平，在瑞士山顶喝红酒‘喝得酩酊大醉’。鲁特强调了美国在欧洲防务中的关键作用，同时指出欧洲的",
+        "category": "动态"
+      },
+      "_hook_en": "NATO Secretary General Mark Rutte shared a candid view on Dutch TV: wars like Russia's against Ukraine rarely end in total victory, but in tough compromises decided by Ukraine alone."
     },
     {
       "id": "2118800540146479167",
       "name": "LBC Caller Unfazed by Hypothetical Putin Takeover of UK",
       "summary": "Marcus told host Ben Kentish he felt unaffected by the idea of dictatorship, sparking online reactions that highlighted frustrations among younger Britons over government restrictions on speech and freedoms. Another caller, Josh, said he'd pick prison over conscription in a conflict, while MP Rupert Lowe urged giving young men something worth defending amid economic and cultural strains. Critics called the views naive given Russia's record, but supporters pointed to UK's 12,000 annual social media arrests versus Russia's 400, fueling debate on trust in institutions.",
-      "hook": "A radio caller named Marcus stunned LBC host Ben Kentish by saying a Putin-led takeover of Britain wouldn't change his daily life much.",
+      "hook": "一位名叫马克斯的电台听众让LBC主持人本·肯蒂什感到震惊，他说普京领导下的英国接管并不会改变他的日常生活太多。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1225,13 +1658,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T21:45:19.000Z",
-      "url": "https://x.com/i/trending/2118800540146479167"
+      "url": "https://x.com/i/trending/2118800540146479167",
+      "_pretranslated": {
+        "title": "LBC来电者对普京假设接管英国毫不动摇",
+        "summary": "马库斯告诉主持人本·肯蒂什，他对独裁的想法没有任何感觉，这引发了网络上的反应，凸显了年轻英国人对政府言论和自由限制的挫败感。另一位来电者乔什表示，他宁愿入狱也不愿在冲突中被征召，而议员鲁珀特·洛威则呼吁在经济和文化压力下，给年轻人一些值得捍卫的东西。批评者称这些观点在俄罗斯的纪录面前显得天真，但支持者则指出英国每年有12,000起社会媒体事件。",
+        "category": "动态"
+      },
+      "_hook_en": "A radio caller named Marcus stunned LBC host Ben Kentish by saying a Putin-led takeover of Britain wouldn't change his daily life much."
     },
     {
       "id": "2119118120178843784",
       "name": "Pete Hegseth Faces Loyalty and Criticism Amid Military Leadership Debate",
       "summary": "The White House praised restored military strength under President Trump and Secretary of War Pete Hegseth, with images showing them together under captions like 'STRONGEST MILITARY IN GENERATIONS.' Trump defended Hegseth publicly, saying he is doing a very good job, despite pressure from Democrats who gained Congress and blame the Iran war for electoral defeats. Hegseth accused the press of irresponsible coverage that highlights pilot difficulties over successes, while posting defiant videos vowing not to back down. Supporters highlight soaring recruitment and a focus on lethality, as the renamed Department of War signals a shift to combat readiness.",
-      "hook": "Pete Hegseth stands firm as supporters rally with calls to 'protect him at all costs,' while critics push for investigations after midterm losses.",
+      "hook": "皮特·赫格塞斯在支持者呼吁“不惜一切代价保护他”时坚定不移，而批评者在中期选举失利后推动进行调查。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1240,13 +1679,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T17:28:13.000Z",
-      "url": "https://x.com/i/trending/2119118120178843784"
+      "url": "https://x.com/i/trending/2119118120178843784",
+      "_pretranslated": {
+        "title": "皮特·赫格塞思在军事领导力辩论中面临忠诚与批评",
+        "summary": "白宫赞扬了在特朗普总统和战争部长皮特·赫格塞斯手下恢复的军事力量，并配有他们在一起的图片和诸如“几代人中最强大的军队”的标题。特朗普公开为赫格塞斯辩护，称他工作非常出色，尽管民主党获得了国会并将伊朗战争归咎于选举失败，给他施加了压力。赫格塞斯指责媒体报道不负责任，强调飞行员的困难而非成功，同时发布了挑衅的视频。",
+        "category": "动态"
+      },
+      "_hook_en": "Pete Hegseth stands firm as supporters rally with calls to 'protect him at all costs,' while critics push for investigations after midterm losses."
     },
     {
       "id": "2119123336563483052",
       "name": "Poll Asking Worst President Sparks Trump Debate After Midterms",
       "summary": "The multiple-choice graphic names Donald Trump as option A, alongside Kennedy, Reagan, Obama, and Buchanan, amid a CNN-linked survey calling him the worst in history. It surfaced after Trump's 'MR. VETO' posts signaling plans to block Democratic legislation following their 2026 midterm gains. Critics labeled him the worst ever, citing scholar rankings and corruption claims, while supporters defended his record and dismissed the poll as mere optics. Broader surveys like YouGov show nearly half of Americans view him as a failure, with approval at historic lows.",
-      "hook": "A simple poll listing Trump first among five presidents hit social media just as Democrats took Congress, fueling sharp exchanges between fans and critics.",
+      "hook": "一项简单的民意调查将特朗普列为五位总统中的第一名，这条消息在民主党掌控国会时刚好在社交媒体上出现，引发了支持者和批评者之间的激烈争论。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1255,13 +1700,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T17:48:56.000Z",
-      "url": "https://x.com/i/trending/2119123336563483052"
+      "url": "https://x.com/i/trending/2119123336563483052",
+      "_pretranslated": {
+        "title": "关于最差总统的民意调查在期中选举后引发特朗普辩论",
+        "summary": "这份多项选择图表将唐纳德·特朗普列为A选项，与肯尼迪、里根、奥巴马和布坎南一起，同时在一项与CNN相关的调查中将他称为历史上最差总统。这一消息在特朗普发布“否决先生”帖子后浮出水面，意在表明他计划在民主党在2026年中期选举获胜后阻止其立法。批评者称他是有史以来最差总统，引用学者排名和腐败指控，而支持者则为他的记录辩护，并将该民调视为仅仅是表面现象。像YouGov这样的更广泛调查显示，近一半人...",
+        "category": "动态"
+      },
+      "_hook_en": "A simple poll listing Trump first among five presidents hit social media just as Democrats took Congress, fueling sharp exchanges between fans and critics."
     },
     {
       "id": "2118803630971146387",
       "name": "Zelenskyy Warns of Russian Strikes on Ukraine's Energy and Bridges",
       "summary": "Ukrainian President Volodymyr Zelenskyy stated Friday that Russia is gearing up for attacks on energy facilities, Dnipro River bridges, and civilian sites, urging partners for urgent Patriot missile deliveries. He pointed to Ukraine's strikes on Russian oil refineries as retaliation for Moscow's assaults on power grids and logistics, insisting that sanctions and pressure pave the way for talks. Financial Times sources say Putin aims to demolish Ukraine's infrastructure by next year to force concessions, including Donbas withdrawal, amid U.S. election shifts and Kyiv explosions causing outages in freezing weather.",
-      "hook": "As cold snaps grip Kyiv, Zelenskyy revealed fresh intelligence of Russian strikes looming over power plants, bridges, and homes—while Ukraine readies defenses and eyes more Patriot missiles.",
+      "hook": "随着寒潮席卷基辅，泽连斯基披露了最新情报，称俄罗斯可能对电厂、桥梁和民宅发动打击——与此同时，乌克兰在准备防御，并关注更多爱国者导弹的部署。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1271,13 +1722,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T01:18:44.000Z",
-      "url": "https://x.com/i/trending/2118803630971146387"
+      "url": "https://x.com/i/trending/2118803630971146387",
+      "_pretranslated": {
+        "title": "泽连斯基警告俄罗斯可能对乌克兰的能源设施和桥梁发动袭击",
+        "summary": "乌克兰总统弗拉基米尔·泽连斯基周五表示，俄罗斯正在为攻击能源设施、第聂伯河桥梁和民用场所做准备，并敦促伙伴国紧急提供爱国者导弹。他指出乌克兰对俄罗斯炼油厂的袭击是对莫斯科对电网和物流的攻击的报复，并坚持认为制裁和压力为谈判铺平道路。《金融时报》消息人士称，普京的目标是到明年摧毁乌克兰的基础设施以迫使其妥协。",
+        "category": "动态"
+      },
+      "_hook_en": "As cold snaps grip Kyiv, Zelenskyy revealed fresh intelligence of Russian strikes looming over power plants, bridges, and homes—while Ukraine readies defenses and eyes more Patriot missiles."
     },
     {
       "id": "2118528338918777000",
       "name": "Trump Ends $4 Billion Annual Military Aid to Israel",
       "summary": "Trump announced the cutoff by year's end, saying Israel no longer needs the support after months of talks with Netanyahu. Netanyahu's team framed it positively, noting Israel's strong economy and the bipartisan history of aid used for mutual defense, with a June letter already signaling the change. The move surprised some like President Herzog, but both sides emphasized continued weapon purchases and a maturing alliance amid regional challenges.",
-      "hook": "On Election Day, President Trump declared an end to $4 billion in yearly U.S. military aid to Israel, citing its thriving economy. Netanyahu's office welcomed the shift from aid to partnership.",
+      "hook": "在选举日，特朗普总统宣布结束每年向以色列提供的40亿美元军事援助，理由是其经济繁荣。内塔尼亚胡办公室对从援助转向合作表示欢迎。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1286,13 +1743,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T22:49:15.000Z",
-      "url": "https://x.com/i/trending/2118528338918777000"
+      "url": "https://x.com/i/trending/2118528338918777000",
+      "_pretranslated": {
+        "title": "特朗普终止向以色列提供每年40亿美元的军事援助",
+        "summary": "特朗普宣布将在年底前停止支持，他表示经过数月与内塔尼亚胡的谈判后，以色列不再需要该支持。内塔尼亚胡的团队以积极的角度来表述此事，指出以色列经济强劲，并强调援助的两党历史是用于共同防御的，同时6月份的信件已预示了这一变化。这一举动让一些人感到惊讶，比如总统赫尔佐格，但双方都强调在地区挑战中将继续采购武器并发展成熟的联盟。",
+        "category": "动态"
+      },
+      "_hook_en": "On Election Day, President Trump declared an end to $4 billion in yearly U.S. military aid to Israel, citing its thriving economy. Netanyahu's office welcomed the shift from aid to partnership."
     },
     {
       "id": "2119044557530608029",
       "name": "Irish Media Evacuated After Bomb Threat Emails",
       "summary": "Irish outlets like RTÉ, Newstalk, and the Irish Independent cleared their buildings Friday following hoax bomb threats signed 'Mikhail Andropov,' which also claimed prior aviation disruptions across Europe. Minister Helen McEntee said it's too early to confirm Russia's involvement, though recent hybrid attacks have been linked to Moscow, while Taoiseach Micheál Martin called the incidents coordinated and pledged to pursue those responsible. The threats come days before Ireland hosts over 50 leaders for the European Political Community summit on November 12, with authorities ramping up security amid online debates over motives from Russia to false flags.",
-      "hook": "Journalists rushed out of newsrooms as identical emails warned of bombs set to explode in 45 minutes. No devices turned up, but the scare hit just before major European summits in Dublin.",
+      "hook": "记者们冲出新闻编辑室，因为相同的电子邮件警告说炸弹将在45分钟内爆炸。没有发现任何装置，但这次恐慌发生在都柏林举行的重要欧洲峰会之前。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1301,13 +1764,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T22:20:11.000Z",
-      "url": "https://x.com/i/trending/2119044557530608029"
+      "url": "https://x.com/i/trending/2119044557530608029",
+      "_pretranslated": {
+        "title": "爱尔兰媒体在收到炸弹威胁邮件后被疏散",
+        "summary": "爱尔兰的媒体机构如RTÉ、新斯托克（Newstalk）和《爱尔兰独立报》在周五接到署名‘米哈伊尔·安德罗波夫’的虚假炸弹威胁后疏散了建筑物，这些威胁还声称此前欧洲的航空运输受到干扰。部长海伦·麦肯蒂（Helen McEntee）表示，目前确认俄罗斯参与还为时过早，尽管最近的混合攻击与莫斯科有关，而总理米凯尔·马丁（Micheál Martin）称这些事件具有协调性，并承诺追究责任人。这些威胁发生在爱尔兰即将接待50多位领导人会议的前几天。",
+        "category": "动态"
+      },
+      "_hook_en": "Journalists rushed out of newsrooms as identical emails warned of bombs set to explode in 45 minutes. No devices turned up, but the scare hit just before major European summits in Dublin."
     },
     {
       "id": "2118719826440900996",
       "name": "Canada Bars Russian and Belarusian Athletes from 2027 World Juniors",
       "summary": "The ban defies a Court of Arbitration for Sport ruling reinstating the athletes, with Carney citing Russia's and Belarus's support for the war in Ukraine as the reason. Hockey legend Wayne Gretzky voiced support, saying 'Good for him' at an event honoring his late father, reflecting feelings among many Canadian players and fans. Online reactions split sharply: some call it unfair to young athletes, while others highlight the war's toll on Ukraine, including killed aspiring hockey players. The tournament heads to Edmonton and Red Deer from late December into early January.",
-      "hook": "Prime Minister Mark Carney drew a firm line this week, announcing no Russian or Belarusian players will compete under their flags at the 2027 World Junior Hockey Championship in Alberta.",
+      "hook": "总理马克·卡尼本周划清了界限，宣布在2027年阿尔伯塔世界青年冰球锦标赛上，没有俄罗斯或白俄罗斯的运动员将以本国国旗参赛。",
       "category": "Sports",
       "contexts": {
         "topics": [
@@ -1316,13 +1785,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T19:06:47.000Z",
-      "url": "https://x.com/i/trending/2118719826440900996"
+      "url": "https://x.com/i/trending/2118719826440900996",
+      "_pretranslated": {
+        "title": "加拿大禁止俄罗斯和白俄罗斯运动员参加2027年世界青年锦标赛",
+        "summary": "该禁令违抗了体育仲裁法庭恢复这些运动员资格的裁决，卡尼将其原因归结为俄罗斯和白俄罗斯对乌克兰战争的支持。冰球传奇人物韦恩·格雷茨基在一次纪念已故父亲的活动上表示支持，说“为他感到高兴”，反映了许多加拿大球员和球迷的感受。网上反应呈现明显分歧：一些人认为这对年轻运动员不公平，而另一些人则强调战争给乌克兰带来的代价，包括被杀害的有抱负的冰球运动员。",
+        "category": "体育"
+      },
+      "_hook_en": "Prime Minister Mark Carney drew a firm line this week, announcing no Russian or Belarusian players will compete under their flags at the 2027 World Junior Hockey Championship in Alberta."
     },
     {
       "id": "2118674123182444840",
       "name": "European Leaders Reject U.S. Plan for Russia-Involved Security Overhaul",
       "summary": "President Trump's team, via envoy Jared Kushner, proposed permanent security consultations with Russia to end the Ukraine war, framing it as a 'big, beautiful agreement' involving all of Europe while keeping NATO central. EU foreign policy chief Kaja Kallas, joined by Polish and Ukrainian ministers, rejected it outright, insisting Europe already has security through NATO and the EU, and that concessions must come from Russia as the aggressor. Ukrainian President Zelenskyy warned against dividing Europe like Yalta 2.0, demanding Russia's withdrawal first, as critics noted the plan echoes Kremlin language and ignores past broken Russian promises. With trilateral talks set for Abu Dhabi next week, Europeans stress no deal will be imposed without their input.",
-      "hook": "Jared Kushner outlined a sweeping U.S. vision for European security talks including Russia, but leaders in Warsaw fired back swiftly: Putin holds no veto over the continent's future.",
+      "hook": "贾里德·库什纳概述了包括俄罗斯在内的欧盟安全谈判的全面美国愿景，但华沙的领导人迅速反驳：普京对欧洲大陆的未来没有否决权。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1331,13 +1806,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T17:48:42.000Z",
-      "url": "https://x.com/i/trending/2118674123182444840"
+      "url": "https://x.com/i/trending/2118674123182444840",
+      "_pretranslated": {
+        "title": "欧洲领导人拒绝美国关于俄罗斯参与的安全改革计划",
+        "summary": "特朗普总统的团队通过特使贾里德·库什纳提议与俄罗斯进行永久性的安全磋商，以结束乌克兰战争，并将其框定为一项涉及整个欧洲的“宏大、美丽的协议”，同时保持北约的核心地位。欧盟外交事务负责人卡雅·卡拉斯在波兰和乌克兰部长的陪同下，直接拒绝了这一提议，坚称欧洲已经通过北约和欧盟获得安全，并且让步必须来自作为侵略者的俄罗斯。乌克兰总统泽连斯基警告不要分裂。",
+        "category": "动态"
+      },
+      "_hook_en": "Jared Kushner outlined a sweeping U.S. vision for European security talks including Russia, but leaders in Warsaw fired back swiftly: Putin holds no veto over the continent's future."
     },
     {
       "id": "2118688546261291045",
       "name": "Trump Shares 'Winner on Iran' Headline After Midterm Losses",
       "summary": "Democrats won control of Congress in Tuesday's midterms, a historic Republican defeat many blame on the Iran war Trump started in February, which spiked gas prices and squeezed household budgets. Trump defends the strikes as essential to stop Iran's nuclear program, while his son Don Jr. and VP JD Vance say the war's fuel costs flipped voter sentiment. Approval ratings plunged from the mid-40s to 38 percent amid cost-of-living worries, leaving Trump with fewer options as Democrats take power.",
-      "hook": "Even after Democrats seized the House and Senate, President Trump kept posting a Newsmax headline praising him as a 'winner' right on Iran.",
+      "hook": "即使在民主党控制了众议院和参议院之后，特朗普总统仍然在新闻最大的网站上发布一条标题，称自己在伊朗事务上是“赢家”。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1346,13 +1827,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T18:17:39.000Z",
-      "url": "https://x.com/i/trending/2118688546261291045"
+      "url": "https://x.com/i/trending/2118688546261291045",
+      "_pretranslated": {
+        "title": "特朗普在中期选举失利后分享“伊朗赢家”头条",
+        "summary": "周二的中期选举中，民主党赢得了国会控制权，这是共和党的历史性失败，许多人将其归咎于特朗普在二月发动的伊朗战争，该战争推高了油价并挤压了家庭预算。特朗普为这些空袭辩护称，这是阻止伊朗核计划的必要措施，而他的儿子唐纳德·特朗普小和副总统JD·范斯则表示，这场战争的燃料成本改变了选民的态度。在生活成本担忧下，特朗普的支持率从中期的40多％下降到38％，随着民主党掌权，特朗普的选择余地减少。",
+        "category": "动态"
+      },
+      "_hook_en": "Even after Democrats seized the House and Senate, President Trump kept posting a Newsmax headline praising him as a 'winner' right on Iran."
     },
     {
       "id": "2118684623781704000",
       "name": "Nick Fuentes Calls Trump a 'Total Scumbag' Over White House Memo",
       "summary": "On his America First show Thursday, Fuentes labeled President Trump a 'vain narcissist' and 'total and complete scumbag,' criticizing a White House memo sent to over 3,000 conservative groups monitoring their statements amid Republican midterm losses. He called Trump backers' loyalty cult-like, mocking blind faith in the president's decisions like those on the Iran conflict. The White House described the memo as routine outreach for unity, but Fuentes argued the movement has lost sight of principles for personality.",
-      "hook": "Nick Fuentes sat at his desk, America First cap nearby, and unloaded on Trump with raw intensity after a White House memo to conservatives.",
+      "hook": "尼克·富恩特斯坐在办公桌前，旁边放着“美国优先”帽子，在白宫给保守派的备忘录之后，他以强烈的情绪猛烈抨击特朗普。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1361,13 +1848,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T16:41:14.000Z",
-      "url": "https://x.com/i/trending/2118684623781704000"
+      "url": "https://x.com/i/trending/2118684623781704000",
+      "_pretranslated": {
+        "title": "尼克·傅恩特斯因白宫备忘录称特朗普为‘完全的无赖’",
+        "summary": "在周四的《美国优先》节目中，富恩特斯称特朗普总统为“自负的自恋者”和“完全彻底的卑鄙小人”，批评白宫向3000多个保守派团体发送的备忘录，这些团体在共和党中期选举失利中监控其言论。他称特朗普支持者的忠诚像邪教一样，嘲笑他们对总统决策（如伊朗冲突决策）的盲目信仰。白宫称该备忘录是为团结的例行联络，但富恩特斯认为，这场运动已经失去了原则。",
+        "category": "动态"
+      },
+      "_hook_en": "Nick Fuentes sat at his desk, America First cap nearby, and unloaded on Trump with raw intensity after a White House memo to conservatives."
     },
     {
       "id": "2118458552000110812",
       "name": "Trump Warns of Destroying Rest of Iran After Midterms",
       "summary": "Trump's comments follow U.S. midterms, amid reports he held off on major combat during the campaign but now leans toward attacking Iran, per two senior sources. High-level White House meetings included Gen. Dan Caine, fueling speculation, while supporters see strength and critics call it political. Iran sent a new nuclear proposal via Qatar, demanding U.S. concessions first, as Israel offers support but says the decision is America's alone.",
-      "hook": "President Trump said he would rather not destroy the rest of Iran, but might have to, with rebuilding taking 25 years. Americans will know next steps soon.",
+      "hook": "特朗普总统表示，他宁愿不摧毁伊朗的其他部分，但可能不得不这样做，重建将需要25年。美国人很快就会知道下一步行动。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1376,13 +1869,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T01:27:25.000Z",
-      "url": "https://x.com/i/trending/2118458552000110812"
+      "url": "https://x.com/i/trending/2118458552000110812",
+      "_pretranslated": {
+        "title": "特朗普警告称在中期选举后将摧毁伊朗其余部分",
+        "summary": "特朗普的评论是在美国中期选举之后发表的，据两位高级消息人士透露，他在竞选期间曾推迟重大战斗，但现在倾向于攻击伊朗。白宫高层会议包括丹·凯恩将军，引发了猜测，而支持者认为这是力量的表现，批评者则称这是政治手段。伊朗通过卡塔尔提交了一项新的核计划提案，要求美国先作出让步，以色列表示支持，但称决定完全由美国作出。",
+        "category": "动态"
+      },
+      "_hook_en": "President Trump said he would rather not destroy the rest of Iran, but might have to, with rebuilding taking 25 years. Americans will know next steps soon."
     },
     {
       "id": "2118869609034158442",
       "name": "Marc Thiessen Urges Conservatives to Blame Trump Directly for Iran War",
       "summary": "In heated X posts, conservative commentator Marc Thiessen dismissed talk of a 'neocon cabal' behind the Iran war and insisted Trump made the call himself to stop Iran's nuclear program. Replies poured in from figures like Sean Davis, who likened Thiessen to Anthony Fauci, while others targeted both the president and commentators. The debate, fueled by midterm losses and Vance's election tie-in, reveals ongoing rifts in the conservative movement over the conflict's high costs, including energy prices.",
-      "hook": "Marc Thiessen fired back at fellow conservatives dodging blame for the Iran war, telling them to 'man up' and direct their criticism straight at President Trump.",
+      "hook": "Marc Thiessen 回击了那些推脱伊朗战争责任的保守派同僚，告诉他们要“振作起来”，并直接将批评指向特朗普总统。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1391,13 +1890,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T01:01:00.000Z",
-      "url": "https://x.com/i/trending/2118869609034158442"
+      "url": "https://x.com/i/trending/2118869609034158442",
+      "_pretranslated": {
+        "title": "马克·蒂森敦促保守派直接指责特朗普发起对伊朗的战争",
+        "summary": "在激烈的X帖子中，保守派评论员马克·蒂森（Marc Thiessen）驳斥了围绕伊朗战争背后的“新保守派阴谋”的说法，并坚持认为特朗普亲自做出了制止伊朗核计划的决定。肖恩·戴维斯（Sean Davis）等人纷纷回复，将蒂森比作安东尼·福奇（Anthony Fauci），同时其他人则针对总统和评论员进行攻击。这场由中期选举失利和范斯（Vance）选举相关事件推动的辩论，揭示了保守派运动内部关于这一冲突高昂成本（包括能源价格）持续存在的分歧。",
+        "category": "动态"
+      },
+      "_hook_en": "Marc Thiessen fired back at fellow conservatives dodging blame for the Iran war, telling them to 'man up' and direct their criticism straight at President Trump."
     },
     {
       "id": "2118386783918387281",
       "name": "Melania Trump Hosts Russian and Ukrainian Officials for Oleshky Ceasefire Event",
       "summary": "On November 5, First Lady Melania Trump received Ukraine’s Order of Princess Olga for her hands-on role in securing a six-day ceasefire in Russian-occupied Oleshky, which enabled aid deliveries and family reunifications. She reviewed demining plans and evacuation logistics herself, then distributed personal letters to Presidents Putin and Zelensky while Russian envoys gifted her a child’s drawing. The rare gathering drew praise for saving lives but criticism for hosting Russian representatives amid the ongoing war, blending humanitarian success with diplomatic debate.",
-      "hook": "In a chandelier-lit White House hall, Melania Trump brought together Russian and Ukrainian officials to celebrate a truce that evacuated nearly 800 civilians from a war-torn city.",
+      "hook": "在一个吊灯照亮的白宫大厅里，梅拉尼娅·特朗普将俄罗斯和乌克兰官员聚集在一起，庆祝一项让近800名平民从战火纷飞的城市撤离的停火协议。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1406,13 +1911,19 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T01:46:32.000Z",
-      "url": "https://x.com/i/trending/2118386783918387281"
+      "url": "https://x.com/i/trending/2118386783918387281",
+      "_pretranslated": {
+        "title": "梅拉尼娅·特朗普主持俄乌官员出席奥莱什基停火活动",
+        "summary": "11月5日，第一夫人梅拉尼娅·特朗普因其在确保俄罗斯占领的奥列什基六天停火中的亲身参与而获得乌克兰奥尔加公主勋章，此举使援助物资得以运送并实现家庭团聚。她亲自审查了排雷计划和撤离后勤安排，然后向普京总统和泽连斯基总统分发了个人信件，而俄罗斯特使则赠送她一幅儿童画。这次罕见的聚会因挽救生命而受到赞扬，但也因接待俄罗斯代表而受到批评。",
+        "category": "动态"
+      },
+      "_hook_en": "In a chandelier-lit White House hall, Melania Trump brought together Russian and Ukrainian officials to celebrate a truce that evacuated nearly 800 civilians from a war-torn city."
     },
     {
       "id": "2117834258299466235",
       "name": "Democrats Flip House and Senate in 2026 Midterm Sweep",
       "summary": "Democrats gained at least seven Senate seats and dozens in the House, capturing traditionally Republican areas and several governorships. Exit polls showed 74 percent of voters viewed the prolonged Iran conflict as a major factor, with 62 percent of them backing Democrats who saw the war as a misstep. Republicans grappled with blame, as figures like Matt Walsh called it a catastrophic blunder and Trump insisted he would have won in a landslide if on the ballot, while pledging to work across the aisle.",
-      "hook": "Voters across red states like Texas and Ohio turned out in force, handing Democrats control of Congress amid frustration over the Iran war and rising costs.",
+      "hook": "在德克萨斯州和俄亥俄州等红州的选民大规模投票，使民主党在国会中取得控制权，这是由于对伊朗战争和不断上涨的生活成本的沮丧。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1421,7 +1932,13 @@
       },
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-06T03:30:03.000Z",
-      "url": "https://x.com/i/trending/2117834258299466235"
+      "url": "https://x.com/i/trending/2117834258299466235",
+      "_pretranslated": {
+        "title": "民主党在2026年中期选举中翻转众议院和参议院",
+        "summary": "民主党至少赢得了七个参议院席位和众议院数十个席位，赢下了传统的共和党地区和几个州长职位。出口民调显示，74%的选民认为长期的伊朗冲突是一个主要因素，其中62%的人支持把战争视为错误的民主党人。共和党人陷入了责任争论，比如马特·沃尔什等人称之为灾难性的错误，而特朗普坚称如果参选他将会大胜，同时承诺将跨越分歧合作。",
+        "category": "动态"
+      },
+      "_hook_en": "Voters across red states like Texas and Ohio turned out in force, handing Democrats control of Congress amid frustration over the Iran war and rising costs."
     }
   ]
 }
