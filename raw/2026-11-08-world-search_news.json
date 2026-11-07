@@ -1,0 +1,1427 @@
+{
+  "fetched_at": "2026-11-08T07:01:10.892+08:00",
+  "channel": "world",
+  "queries": [
+    "geopolitics OR election OR war OR tariff OR sanctions OR diplomacy",
+    "China US chip export OR Taiwan OR semiconductor policy",
+    "Fed OR inflation OR climate OR oil OR market OR recession news",
+    "Trump OR Putin OR Ukraine OR Middle East OR NATO news",
+    "时政 OR 外交 OR 白宫 OR 关税 OR 制裁 OR 选举"
+  ],
+  "data": [
+    {
+      "id": "2118773897453555992",
+      "name": "Asian Governments Step In to Steady Stock Markets After AI Selloff",
+      "summary": "Triggered by fears of U.S. policy shifts curbing AI data centers, markets in Taiwan, South Korea, and China saw steep declines, with Taiwan's benchmark falling over 20 percent from its peak. Taiwan capped short sales at 3 percent of daily volume starting November 9, raised margin collateral to 130 percent, and readied a $15 billion stabilization fund for interventions. South Korea waived margin loan rules to prevent forced selling, while China expanded liquidity facilities and cut buyback rates to bolster equities and restore confidence.",
+      "hook": "Taiwan's Taiex index plunged nearly 9 percent in a single day, its worst weekly drop since 2001, prompting swift action from regulators across the region.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T18:43:49.000Z",
+      "url": "https://x.com/i/trending/2118773897453555992"
+    },
+    {
+      "id": "2117856698912104805",
+      "name": "Oracle Cancels $7 Billion AI Chip Deal with Tencent After U.S. Pressure",
+      "summary": "The five-year contract would have provided Tencent with up to 100,000 advanced AI chips through Oracle's Southeast Asia data centers, bypassing U.S. and Chinese export restrictions on such hardware. U.S. officials directly approached Oracle with worries about the arrangement, while Guangdong province officials visited Tencent to push support for domestic Chinese chipmakers. Though legal under current rules, the political pressures from both sides led to the cancellation, with no comments yet from Oracle, Tencent, or the White House. The move reflects tightening U.S. export controls and growing scrutiny on cross-border AI infrastructure deals.",
+      "hook": "Oracle pulled the plug on a massive $7 billion deal to lease AI chips to Tencent, caught between U.S. government concerns and Chinese provincial urging.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-04T23:08:39.000Z",
+      "url": "https://x.com/i/trending/2117856698912104805"
+    },
+    {
+      "id": "2118286877002236005",
+      "name": "Micron Pauses $4.5 Billion Taiwan Chip Plant Over Union Dispute",
+      "summary": "Micron Technology has halted construction on its planned $4.5 billion Fab 11E facility in Taoyuan, Taiwan, due to a labor dispute with a local union demanding higher bonuses and 15 percent of operating profits. The plant, set to produce DRAM and high-bandwidth memory starting in 2028, faces uncertainty after executives worried any deal could be overturned, despite an agreement with another union last month. Taiwan handles 60 percent of Micron's global DRAM output, so the pause risks tightening future supply amid booming AI demand, while competitors like SK Hynix and Samsung stand to gain. Micron insists existing operations continue normally and remains committed to dialogue.",
+      "hook": "A small union of under 3,000 workers has brought a massive chip factory project to a standstill, threatening future supplies for AI memory components.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T19:18:18.000Z",
+      "url": "https://x.com/i/trending/2118286877002236005"
+    },
+    {
+      "id": "2118749229791228036",
+      "name": "Taiwan Imposes Short-Selling Curbs and Activates Stabilization Fund After Taiex Plunge",
+      "summary": "The Taiex benchmark dropped 1,873 points, or 4.51 percent, to 39,701.64 on Friday—its fourth-worst single-day fall ever—and has now fallen over 20 percent from its early October peak near 50,000. Officials blamed heavy foreign selling and fears of U.S. election impacts on AI data centers, prompting the Financial Supervisory Commission to slash intraday short-sale limits to 3 percent of average volume starting November 9 and hike margin requirements to 130 percent. The NT$500 billion National Financial Stabilization Fund was also greenlit for intervention, its 10th use since 2000, as similar measures rolled out in South Korea and China to steady AI-linked markets.",
+      "hook": "Taiwan's stock market took a brutal hit, shedding nearly 1,900 points in one day amid shaky investor confidence. Regulators responded swiftly with tough new rules and a massive fund ready to step in.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T17:03:51.000Z",
+      "url": "https://x.com/i/trending/2118749229791228036"
+    },
+    {
+      "id": "2119032223299236218",
+      "name": "U.S. Approves Nvidia H200 Chip Sales to Chinese Firms with Empty Offices",
+      "summary": "The U.S. Commerce Department cleared about two dozen Chinese companies, including New Matrix and Maginfra, to purchase or assemble Nvidia H200 chips for AI training. New Matrix's Beijing address is an empty industrial site, and its owners link to sanctioned Wise Road Capital; Maginfra ties to blacklisted Inspur, with no physical presence at its location. The approvals follow a Trump-era policy routing Taiwan-made chips through the U.S. for tariffs and reviews banning military use, though major firms like Baidu, BYD, and Tesla Shanghai also received clearance. The findings raise questions about oversight in U.S.-China tech trade.",
+      "hook": "Reporters visited the listed addresses of some approved Chinese companies and found empty shells with dangling wires and no records. These firms now handle powerful Nvidia H200 AI chips amid U.S. security reviews.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T19:38:33.000Z",
+      "url": "https://x.com/i/trending/2119032223299236218"
+    },
+    {
+      "id": "2118787808999645532",
+      "name": "US Warns China to Honor Busan Trade Truce Commitments Immediately",
+      "summary": "The warning centers on shortfalls in rare earth mineral deliveries, especially yttrium vital for jet engines and missiles, where China has provided only about two-thirds of pledged volumes. The 2025 Busan truce between Presidents Trump and Xi Jinping eased tariffs and boosted US farm good purchases, but US officials say progress requires concrete action amid disputes from Beijing. With the truce extended to January 2027 and leaders set to meet soon at APEC and G20 summits, both sides aim to prevent escalation in these critical supply chains.",
+      "hook": "US Treasury Secretary Scott Bessent didn't mince words on a Friday call with China's Vice Premier He Lifeng: Beijing must deliver on last year's trade promises right away.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T03:34:39.000Z",
+      "url": "https://x.com/i/trending/2118787808999645532"
+    },
+    {
+      "id": "2118344901230547360",
+      "name": "Moonshot AI Seeks Nvidia Blackwell Access via Europe",
+      "summary": "The Beijing-based lab discussed renting clusters of 8,000 or more Blackwell GPUs from European providers, mainly for running models and some training, sources told CNBC. Blocked from direct U.S. shipments, Moonshot offered 30% to 50% higher upfront payments to offset risks for the cloud operators. No deals are confirmed yet, but the push follows White House accusations of prior remote access in Thailand and highlights workarounds in the U.S.-China tech race as Chinese firms chase scarce compute power.",
+      "hook": "Moonshot AI, racing to power its Kimi models amid U.S. export curbs, turned to European data centers for thousands of Nvidia's top Blackwell chips.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T22:01:24.000Z",
+      "url": "https://x.com/i/trending/2118344901230547360"
+    },
+    {
+      "id": "2118461961566302212",
+      "name": "US Lawmakers Demand Nvidia CEO Briefing on Alleged Chinese Spy Ties",
+      "summary": "US intelligence assessed that Alice Huang, an executive at Nvidia customer Megaspeed, was recruited by China's Ministry of State Security to gather AI chip information and influence looser export rules, according to a Financial Times report citing a memo to top officials. Republican lawmakers sent Huang a letter on November 4 requesting a closed-door briefing on November 18 to address national security concerns over PRC access to sensitive technology. Nvidia stated its interactions with her were standard customer meetings, with internal reviews finding no wrongdoing or improper chip diversions.",
+      "hook": "Photos of Nvidia CEO Jensen Huang with Alice Huang, an executive linked to Chinese intelligence, have drawn sharp attention amid US export control worries.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T20:11:16.000Z",
+      "url": "https://x.com/i/trending/2118461961566302212"
+    },
+    {
+      "id": "2119172440320336218",
+      "name": "US Intelligence Alleges Nvidia CEO's Link to Suspected Chinese Spy",
+      "summary": "A Financial Times report revealed American intelligence assessed that Alice Huang, an executive at Nvidia customer Megaspeed, was recruited by China's Ministry of State Security to target Nvidia and influence US chip export policies. Nvidia insists their meetings were standard business and found no illegal activity after investigating Megaspeed. Three House Republican chairs requested a closed-door briefing with Huang on November 18 amid calls for a congressional probe, while betting markets put 20 percent odds on his resignation before 2029.",
+      "hook": "US officials detailed a memo this year about Nvidia CEO Jensen Huang's alleged romance with an executive tied to Chinese intelligence, raising alarms over AI chip exports.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T22:06:07.000Z",
+      "url": "https://x.com/i/trending/2119172440320336218"
+    },
+    {
+      "id": "2118448222796681249",
+      "name": "Google Commits $15 Billion to Malaysia Data Centers Amid U.S. Hurdles",
+      "summary": "The investment funds campuses in Selangor and Negeri Sembilan, plus clean energy and workforce training, building on a prior $2 billion pledge. It promises $1.1 billion yearly to Malaysia's GDP and over 37,000 jobs annually during construction in 2027-2028, with 9,000 sustained roles at higher wages once operational. Observers tie the move to U.S. midterm wins for candidates pushing data center restrictions, sparking talk of companies shifting to AI-friendly spots like Malaysia for its stable infrastructure and economic perks.",
+      "hook": "Google is pouring $15 billion into new data centers in Malaysia, chasing smoother paths abroad while U.S. states tighten rules on power and water use.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T04:19:44.000Z",
+      "url": "https://x.com/i/trending/2118448222796681249"
+    },
+    {
+      "id": "2118714864268955949",
+      "name": "TSMC Denies Plans for 3D DRAM Production at Nvidia's Request",
+      "summary": "The Information first reported TSMC's internal planning for advanced 3D DRAM, vertically stacked memory to boost density and ease AI-driven shortages straining high-bandwidth supplies. Nvidia, its largest customer, reportedly pushed for it amid surging data center demand. TSMC denied active exploration, with a spokesperson emphasizing its focus on integrated circuit foundry work and serving the global logic chip industry. Skeptics highlighted TSMC's lack of DRAM expertise, calling it a mismatch, while the buzz underscores AI's pressure on semiconductor supply chains.",
+      "hook": "Reports surfaced Thursday that TSMC was eyeing 3D DRAM chips to help Nvidia tackle AI memory shortages. The foundry quickly shut down the idea, sticking to its logic chip roots.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T20:21:36.000Z",
+      "url": "https://x.com/i/trending/2118714864268955949"
+    },
+    {
+      "id": "2119182991700181073",
+      "name": "Data Center Bans Win Local Votes Amid AI Race Debates",
+      "summary": "In recent U.S. midterms, voters in dozens of locales approved restrictions or bans on data centers, with opposition prevailing in nearly every case. Proponents argue these facilities drive jobs, tax revenue, and clean growth like in SimCity, while positioning the U.S. against China's rapid buildout. Skeptics point to real strains on power grids, water, noise, and uneven local benefits, sparking talks of decentralized options and broader infrastructure needs.",
+      "hook": "Communities across Ohio and Illinois just voted to block new data centers, even as supporters warn it risks America's edge over China in AI.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T21:45:40.000Z",
+      "url": "https://x.com/i/trending/2119182991700181073"
+    },
+    {
+      "id": "2118777500524278072",
+      "name": "Semiconductor Stocks Plunge 21.8% in Historic Five-Day Selloff",
+      "summary": "The SOX index recorded its third-largest five-day decline ever, including a 12.3% single-day plunge on Thursday, while the 3x leveraged ETF SOXL shed about 60%. Investors had poured a record $9.5 billion into US leveraged ETFs the prior month, with $7 billion into SOXL alone. Democrats' midterm election win earlier that week fueled worries over tighter AI data center rules, higher power costs, and delayed infrastructure spending in a now-crowded AI trade. Analysts note forward P/E ratios at seven-year lows amid elevated earnings estimates, though leverage risks remain high.",
+      "hook": "The Philadelphia Semiconductor Index tumbled 21.8% over five trading days through November 5, its worst drop since the 2001 dot-com bust. Heavy leverage from record ETF inflows turned a sentiment shift into a sharp market jolt.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T18:58:00.000Z",
+      "url": "https://x.com/i/trending/2118777500524278072"
+    },
+    {
+      "id": "2118369270791065647",
+      "name": "Investors Debate Memory Stocks' Low Valuations and LTA Reliability",
+      "summary": "A detailed discussion highlights how long-term agreements (LTAs) in memory chips mainly shift costs via prepayments, but buyers have historically abandoned them during sharp price drops over 60%, making forward earnings tricky to trust. While companies like Samsung, SK hynix, and Micron boast sold-out volumes through 2029-2030 fueled by AI-driven HBM demand, skeptics warn of cyclical oversupply risks, contrasting TSMC's steady premium pricing and margins. Defenders point to durable AI needs and take-or-pay terms, yet uncertainty lingers over whether these deals will hold in downturns.",
+      "hook": "Veteran investors are questioning if memory stocks' bargain prices hide big risks from shaky long-term supply deals. Past cycles show customers often ditch contracts when prices crash.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T19:32:29.000Z",
+      "url": "https://x.com/i/trending/2118369270791065647"
+    },
+    {
+      "id": "2117935307915952327",
+      "name": "Google Commits $15 Billion for Malaysia Data Centers",
+      "summary": "Between 2027 and 2028, Google will construct new campuses in Selangor and Negeri Sembilan, expand cloud operations, and add over one gigawatt of clean energy to the grid. The projects promise $1.1 billion annual GDP growth and 37,000 jobs with above-median wages, while addressing water security and training workers. As U.S. builds face delays from local opposition, Malaysia steps up as Southeast Asia's data center hub, drawing investment where approvals move quickly.",
+      "hook": "Google is pouring $15 billion into Malaysia's tech future, building data centers to meet the AI boom's massive computing needs.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T21:21:52.000Z",
+      "url": "https://x.com/i/trending/2117935307915952327"
+    },
+    {
+      "id": "2118800545875976547",
+      "name": "Trump's Tariffs Divide Opinions After Republican Midterm Losses",
+      "summary": "Supporters point to Trump's claims of thousands of plants and factories under construction in the U.S., crediting tariffs alongside tax cuts for reviving an industrial ecosystem and countering practices like slave labor in China. Critics, including a former DOJ prosecutor, call the tariffs a flawed vanity decision that fueled inflation, raised costs for goods like food, and hurt Republicans politically when affordability topped voter concerns. Exit polls showed most voters saw the policies as harmful to economies, though Trump vows to press on with executive authority amid mixed results on jobs and trade deficits.",
+      "hook": "President Trump's tariff policies face sharp scrutiny after Republican midterm defeats, with voices clashing over factories sprouting up versus shoppers facing steeper prices.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T20:28:01.000Z",
+      "url": "https://x.com/i/trending/2118800545875976547"
+    },
+    {
+      "id": "2118248427318587813",
+      "name": "China Blocks SoftBank's $5.4 Billion ABB Robotics Deal",
+      "summary": "China's National Development and Reform Commission prohibited SoftBank Group's $5.4 billion takeover of ABB's robotics division, focusing on its Chinese operations that employ 12,700 people and produce over 90% of robots sold locally. Regulators worried that robotics data could flow overseas to train AI models, including those tied to OpenAI where SoftBank has a stake. ABB and SoftBank confirmed the block but continue discussing the overall deal, amid SoftBank shares dropping in Tokyo and broader concerns over high-tech supply chains.",
+      "hook": "After months of review, China's regulators surprised many by halting SoftBank's bid for ABB's robotics arm, protecting key operations in Shanghai.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Robotics",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T01:27:10.000Z",
+      "url": "https://x.com/i/trending/2118248427318587813"
+    },
+    {
+      "id": "2118540138095718543",
+      "name": "Chanos Warns Against Dumping Tech for Pricey Consumer Stocks",
+      "summary": "Short seller James Chanos pushed back on the shift out of battered high-beta tech like Nvidia, Microsoft, and Amazon into higher-valued consumer and defensive stocks such as Progressive and Booking Holdings. Nvidia closed November 5 at $181.60, down over 9% that day and far from its $239 October high, amid post-election worries on AI spending. Reactions blended caution with humor, like one noting Nvidia's valuation at a quarter of Costco's despite both being strong businesses, highlighting the debate over whether tech weakness offers value or defensives are overpriced.",
+      "hook": "James Chanos sees investors selling tech stocks down 40-70% to chase consumer names trading at 30-100x earnings. He questions if that's the smartest move right now.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T03:11:23.000Z",
+      "url": "https://x.com/i/trending/2118540138095718543"
+    },
+    {
+      "id": "2118068701924585771",
+      "name": "Micron Shares Drop Below $800 on Election Fears",
+      "summary": "Micron closed at $795.23, down 7% or nearly $60 on high volume, as SanDisk, Nvidia, and Google broke below key moving averages. Democratic gains sparked worries over tighter permitting and power rules that could slow AI infrastructure in key states. Traders noted strong fundamentals like projected $196 billion earnings in 2027 and low multiples near 5x, creating split views on whether this signals an AI bear market or a buying opportunity.",
+      "hook": "Micron's stock tumbled below $800 on Wednesday, dragging memory chip and AI stocks like Nvidia down with it. Investors reacted to midterm results hinting at hurdles for data center expansion.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T07:21:53.000Z",
+      "url": "https://x.com/i/trending/2118068701924585771"
+    },
+    {
+      "id": "2118499614534123697",
+      "name": "Trump Defends Tariffs as Key to U.S. Factory Boom After Midterm Losses",
+      "summary": "On November 5, following Republican midterm losses that gave Democrats control of Congress, Trump insisted his tariff policies are driving about 3,000 new plants and factories in the U.S. He warned that removing tariffs now would halt all construction, as foreign companies build here to avoid duties of 50 to 300 percent on imports. Supporters see it as vital leverage to rebuild manufacturing, while critics blame higher costs for goods that fueled voter frustration over inflation. Trump signaled more actions ahead to protect the approach.",
+      "hook": "Seated at the Resolute Desk amid family photos and flags, President Trump faced reporters with a clear message: his tariffs are sparking a wave of new factories across America.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T06:05:35.000Z",
+      "url": "https://x.com/i/trending/2118499614534123697"
+    },
+    {
+      "id": "2118474988189876731",
+      "name": "Debate Heats Over U.S. Data Centers Amid AI Race with China",
+      "summary": "Lloyd Blankfein argued on X that blocking data center projects hands AI leadership to China, calling it a fix for eroded U.S. industrial capacity and middle-class jobs. Critics pointed to his past dealings with Chinese firms, while data shows the U.S. leads with 5,427 centers versus China's 449. Hyperscalers like AWS are expanding in places like Greece and Germany to dodge U.S. permitting fights and power concerns, highlighting the tension between local impacts and national tech edge.",
+      "hook": "Right after the U.S. midterms, Meta's Dina Powell McCormick warned that building data centers at home is getting tougher, pushing tech giants to look abroad.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T02:06:10.000Z",
+      "url": "https://x.com/i/trending/2118474988189876731"
+    },
+    {
+      "id": "2118386778998444502",
+      "name": "Goldman Sachs Picks Yen as Top Hedge Against AI Stock Selloff",
+      "summary": "Goldman Sachs recommends selling the US dollar against the yen as the best FX hedge during the 20 largest episodes since 2000 where equities and yields fell in tandem. A sharp AI selloff could drive Treasury yields lower and lift yen demand, making this trade timely amid rising correlations. While traders eye the idea and charts show yen weakness near 0.0063 on JPYUSD, skeptics point to Bank of Japan interventions and prefer gold as the true safe haven.",
+      "hook": "In times of market stress, when stocks and bond yields drop together, the Japanese yen has quietly stepped up as a protector. Goldman Sachs now sees it as the ideal shield for a potential AI-driven plunge.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T17:04:36.000Z",
+      "url": "https://x.com/i/trending/2118386778998444502"
+    },
+    {
+      "id": "2118358836637520267",
+      "name": "Tech Stocks Plunge at Open After Democrats Take Congress",
+      "summary": "On November 5, 2026, the U.S. stock market kicked off with a sharp sell-off as AI and semiconductor shares like Nvidia down 3-4%, Tesla off 5-6%, and AMD sliding 7-11% erased $400-700 billion in value. The S&P 500 fell about 1% right away, breaking key levels toward $765, while the QQQ trust dropped over 3% to $669.52. Traders linked the move to midterm results handing Democrats Congress control, raising fears of stricter rules on AI data centers that could curb chip demand. Some sectors held up better, but eyes stayed on technical supports like the 50-day EMA near $765 for any rebound.",
+      "hook": "The opening bell rang, and hundreds of billions vanished from tech stocks in minutes, led by Nvidia and Tesla drops amid post-election jitters.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T15:10:45.000Z",
+      "url": "https://x.com/i/trending/2118358836637520267"
+    },
+    {
+      "id": "2118655806057087268",
+      "name": "India Launches Semicon 2.0 Portal and Approves 12 Key Electronics Projects",
+      "summary": "The new Semicon 2.0 Web Application Portal opened Friday for applications in machines, materials, additional fabs, and advanced packaging under pillars 2, 3, and 4. It requires complete submissions to filter out non-serious applicants, as Vaishnaw emphasized attracting technology-focused investors for long-term growth. The government also greenlit 12 projects worth Rs 7,503 crore, set to generate Rs 39,045 crore in production and 7,127 direct jobs across seven states, with Tamil Nadu securing four. These approvals bring total ECMS investments over Rs 77,000 crore, exceeding targets and boosting India's self-reliant electronics ecosystem.",
+      "hook": "Union Minister Ashwini Vaishnaw made it clear: only serious players need apply for India's semiconductor push. He launched the Semcon 2.0 portal Friday, welcoming committed tech builders to the table.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T15:58:19.000Z",
+      "url": "https://x.com/i/trending/2118655806057087268"
+    },
+    {
+      "id": "2118499608926236917",
+      "name": "Michael Burry Trims 25% of Semiconductor ETF Puts, Keeps Large Position",
+      "summary": "In his Substack newsletter, Burry sold 25% of his puts on the VanEck Semiconductor ETF (SMH) but called the remaining stake 'very large.' He kept bearish options on Palantir, Oracle, Caterpillar, and the Nasdaq-100, while adding to his long position in MercadoLibre after its earnings. The move came as chip stocks sold off sharply, drawing reactions from praise for locking in profits to doubts about his full exit timing. Burry sticks to his view of an AI-driven market top within nine months, after shifting to longer-dated puts in October.",
+      "hook": "Michael Burry, the investor who foresaw the 2008 housing crash, just trimmed part of his big bet against semiconductor stocks while holding firm on the rest.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T00:30:16.000Z",
+      "url": "https://x.com/i/trending/2118499608926236917"
+    },
+    {
+      "id": "2118266156570268053",
+      "name": "Strong Jobs Data Clashes with Voter Anger Over Tariffs After GOP Midterm Losses",
+      "summary": "October brought solid economic news: 165,000 new jobs, unemployment dipping to 4.1 percent, and third-quarter GDP up 3.4 percent annually. But exit polls showed deep frustration, with 66 percent of voters saying Trump's tariffs hurt the economy and drove up costs for everyday items. Critics called the policy a political misstep that fueled inflation without delivering promised factory jobs or trade gains, while defenders highlighted resilient spending and low unemployment. This divide between macro strength and household struggles defined the Republican defeats.",
+      "hook": "The economy added 165,000 jobs last month with unemployment at 4.1 percent, yet voters punished Republicans in the 2026 midterms over high prices tied to tariffs.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T18:45:16.000Z",
+      "url": "https://x.com/i/trending/2118266156570268053"
+    },
+    {
+      "id": "2118755141201314211",
+      "name": "Poll Pits Iran Nuclear Fears Against Rising U.S. Living Costs",
+      "summary": "A widely shared poll asks Americans to choose between worrying about Iran getting a nuclear weapon or tackling soaring food, gas, and housing prices. Many replies prioritize household budgets, with some dismissing Iran threats based on U.S. intelligence saying Tehran halted weapon work in 2007, while others insist preventing a nuclear Iran justifies higher costs. Recent data shows energy up 18.5 percent and gas over $4.30 a gallon amid regional conflict, as IAEA notes no repairs at Iran's damaged nuclear sites but ongoing access blocks.",
+      "hook": "Families juggling $4.30 gas and climbing grocery bills are asking: does Iran's nuclear risk feel as urgent as empty wallets right now?",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Elections"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T17:28:09.000Z",
+      "url": "https://x.com/i/trending/2118755141201314211"
+    },
+    {
+      "id": "2118461967304138771",
+      "name": "Rubio Announces New Sanctions on Cuban Regime Networks",
+      "summary": "On November 5, U.S. Secretary of State Marco Rubio unveiled sanctions targeting eight entities, two individuals, and five vessels linked to Cuba's financial, shipping, and military support, including China-based suppliers like CEIEC and Beijing H&C Technologies. The measures block property and expand authority to sanction foreign persons in Cuba's electronics, manufacturing, marine, and technology sectors, aiming to disrupt state-owned enterprises and intermediaries sustaining the regime. Cuban Foreign Minister Bruno Rodríguez condemned the actions as harmful to the people, while supporters like Rep. Carlos Gimenez praised them as vital pressure against threats to U.S. security.",
+      "hook": "Marco Rubio stood firm, declaring the U.S. will not tolerate communist networks threatening the hemisphere from Cuba.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T20:52:06.000Z",
+      "url": "https://x.com/i/trending/2118461967304138771"
+    },
+    {
+      "id": "2118732621727629392",
+      "name": "Xi Jinping Votes in Beijing Local Elections Alongside Senior Leaders",
+      "summary": "Chinese President Xi Jinping and several top leaders cast ballots Friday at a polling station in Beijing's Zhongnanhai district for local people's congress deputies. The event was part of massive district and township elections across Beijing, with 13,054 stations electing nearly 16,000 deputies from more than one billion registered voters nationwide. State media called it 'whole-process people's democracy' under Party leadership, while some observers labeled it 'whole-process fake democracy' due to pre-selected candidates and one-party oversight.",
+      "hook": "Around 3:30 p.m., Xi Jinping walked into a Beijing polling station, showed his voter card, marked his ballot, and dropped it in the box—just like everyone else there.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Elections"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T20:26:32.000Z",
+      "url": "https://x.com/i/trending/2118732621727629392"
+    },
+    {
+      "id": "2118800542344359978",
+      "name": "Canadian Lawyer Questions 'Not Like Americans' Mindset After U.S. Visit",
+      "summary": "In a post shared days after the November 3, 2026, U.S. midterm elections, Chipiuk noted flags on homes and businesses, open opinions, personal responsibility, and less government dependence south of the border. She asked why Canadians keep insisting 'we're not like Americans' and what they're proud of in that distinction. Replies poured in: some travelers praised friendly encounters and better service, others called Canadian superiority 'prideful arrogance,' while a few hesitated over politics but kept cultural differences in focus.",
+      "hook": "Eva Chipiuk snapped a selfie at a U.S. marina surrounded by American flags, struck by the everyday pride she saw everywhere. Her observations prompted Canadians to reflect on what truly sets their country apart.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T20:27:26.000Z",
+      "url": "https://x.com/i/trending/2118800542344359978"
+    },
+    {
+      "id": "2118507584122450402",
+      "name": "Democrats Flip House and Senate in 2026 Midterms, Sparking Dictatorship Debate",
+      "summary": "Democrats won big in the 2026 midterms, taking control of the House and Senate with flips in Republican strongholds like Texas, Kansas, and South Carolina. A viral video claimed Trump watched his 'dictatorship crumble,' but responses stressed that elections proving voters' power disprove the label. Rep. Nancy Mace called out the claims as uninformed, while others noted America lacks the term limits, competitive votes, or peaceful transfers absent in real dictatorships. The exchange underscores ongoing debates over using words like 'dictator' in U.S. politics.",
+      "hook": "A video showed President Trump as his 'dictatorship crumbles' after Democrats seized Congress. Quick replies fired back: if elections can boot a leader, it's no dictatorship.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T01:03:35.000Z",
+      "url": "https://x.com/i/trending/2118507584122450402"
+    },
+    {
+      "id": "2118515779704328349",
+      "name": "Guy Offers to Wash Dishes: Does He Like A or B?",
+      "summary": "In the scenario, the guy takes over dishwashing from girl A while standing near girl B, prompting men to say he likes A for the simple help, and women to argue he likes B to chat up close. K-pop stars like iKON's B.I picked B, while fans joked about keeping it from Jungkook. The back-and-forth highlights Korean online trends of dissecting everyday acts for hidden romantic signals, with some embracing the fun and others calling it overthinking kindness.",
+      "hook": "Two girls at the sink, a guy steps up to help one—suddenly everyone's debating his real crush in this Korean TikTok riddle that's crossed over to X.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Relationships"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T10:19:57.000Z",
+      "url": "https://x.com/i/trending/2118515779704328349"
+    },
+    {
+      "id": "2118878937627656372",
+      "name": "China Marks Lidong, Beginning of Winter, with Traditions and Warm Wishes",
+      "summary": "Lidong, part of the UNESCO-recognized 24 Solar Terms, guides farming and daily life by tracking the sun's path. Northerners eat dumplings—whose name echoes the seasons' meeting—and warming dishes like ginger duck to prepare for cold months. Actor Zhang Linghe shared a simple holiday greeting, while game fans, donghua artists, and global voices like SNK in Japan joined with art, tips to bundle up, and nods to classical Song dynasty paintings.",
+      "hook": "Frost silvers branches in northern China as people welcome Lidong, the 19th solar term signaling winter's start on November 7.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Food"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T08:57:02.000Z",
+      "url": "https://x.com/i/trending/2118878937627656372"
+    },
+    {
+      "id": "2118502291942613398",
+      "name": "Trump Calls LA Mayoral Election Crooked Over Spencer Pratt's Loss",
+      "summary": "Trump claimed the November 3 runoff was rigged after Spencer Pratt lost to Nithya Raman in the June primary due to later ballot counts. He said the winner, incumbent Mayor Karen Bass, cried thinking she lost, only for votes to appear and pull her ahead—though Raman actually defeated Bass 52% to 48%, unseating her for the first time in over 20 years. Trump used the race as proof of crooked elections amid his push for voter ID and citizenship checks, while critics note no evidence of fraud and certified results.",
+      "hook": "From the Oval Office, President Trump watched the LA mayoral race unfold and couldn't believe what happened to reality star Spencer Pratt.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Elections"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T14:46:34.000Z",
+      "url": "https://x.com/i/trending/2118502291942613398"
+    },
+    {
+      "id": "2118842020215070809",
+      "name": "Post-Election Market Rally Sparks Debate on Who Cares About Stocks",
+      "summary": "After Democrats took control of Congress in the 2026 midterms, markets rallied with the S&P 500 up 1.6% and the Dow surging over 1,500 points, fueled by divided government clarity and President Trump's acceptance of results. Many replies dismissed stock gains as irrelevant to average Americans without investments, while others warned of broader impacts like recessions, job losses, pensions, and economic ripples to wages and prices. The exchange highlights differing views on Wall Street's connection to daily realities, with some noting the new Congress starts in January limiting quick changes.",
+      "hook": "A simple post pairing 'Elections have consequences' with rising market charts drew blunt replies like 'You have no idea how much we do not give a fuck.' It captured a raw divide over whether Wall Street moves touch everyday lives.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T23:11:18.000Z",
+      "url": "https://x.com/i/trending/2118842020215070809"
+    },
+    {
+      "id": "2118857592441078007",
+      "name": "US Defense Secretary and Russian Envoy Exchange QAnon Phrases on X",
+      "summary": "The exchange happened amid President Trump's White House meeting with Dmitriev on a potential broad US-Russia security framework covering Ukraine and Europe. Analyst Caroline Orr Bueno noted it activated QAnon communities like she hadn't seen in years, with critics calling it coordinated signaling and supporters defending Hegseth's Pentagon role. European officials expressed alarm that any deal could weaken NATO and boost Moscow's influence, while reactions ranged from outrage to solidarity amid ongoing diplomatic scrutiny.",
+      "hook": "Just three minutes after US Defense Secretary Pete Hegseth posted 'Patriots in control'—a known QAnon slogan—Russian envoy Kirill Dmitriev replied with 'WWG1WGA.' The rapid back-and-forth lit up online discussions.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T22:19:57.000Z",
+      "url": "https://x.com/i/trending/2118857592441078007"
+    },
+    {
+      "id": "2119139913903812820",
+      "name": "Users Remind Poster Democrats Take Office in January After 2026 Midterm Win",
+      "summary": "Democrats won control of the House and Senate on November 3, flipping long-held Republican states in a major victory. The post ignored that new members don't start until January 3, 2027, prompting blunt corrections like 'You’re a idiot democrats are not yet in power' and 'They’re not in office yet you walnut.' Discussions included a century-long inflation chart showing multi-year cycles, with current rates at 3.7 percent, underscoring how policy changes take time to impact prices.",
+      "hook": "Just two days after Democrats swept the 2026 midterms, one user asked why prices hadn't dropped yet. Replies poured in with a simple calendar check.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T18:56:38.000Z",
+      "url": "https://x.com/i/trending/2119139913903812820"
+    },
+    {
+      "id": "2118830797105029183",
+      "name": "Marco Rubio Draws Online Praise as 2028 Contender After GOP Losses",
+      "summary": "Social media users are praising Secretary of State Marco Rubio for his eloquence and steady presence, sharing a clip captioned that he speaks, looks, thinks, and acts like a president with great integrity. The buzz intensified following significant Republican midterm defeats that gave Democrats control of Congress, sparking debates on the party's 2028 path and often contrasting Rubio favorably with Vice President JD Vance. Critics counter by labeling him a neocon tied to donors and foreign policy hawks, while Rubio has rejected speculation about leaving the administration early, committing to serve out President Trump's full term.",
+      "hook": "A polished video clip of Marco Rubio has people calling him presidential material, especially after Republicans lost Congress in the midterms.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T22:26:26.000Z",
+      "url": "https://x.com/i/trending/2118830797105029183"
+    },
+    {
+      "id": "2118900013837271337",
+      "name": "Grandma's Energetic Dance Urges Grandson to Marry in Resurfaced Video",
+      "summary": "In the clip, the grandmother ropes in her friends for a group campaign, leaving the grandson unimpressed amid chants of 'Jiéhūn.' The video, originally from earlier this year, has resurfaced with viewers dubbing it the 'Chinese no bitches dance' and mixing laughs with notes on family marriage pressure. It highlights China's marriage slump, with 2026 registrations at an 18-year low of 4.65 million couples in the first nine months, tied to skewed gender ratios and high bride prices from past policies.",
+      "hook": "A young man visits his grandmother in a rural Chinese village, only to face her lively dance routine chanting 'get married' while he sits stone-faced under a floral blanket.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Relationships"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T03:00:37.000Z",
+      "url": "https://x.com/i/trending/2118900013837271337"
+    },
+    {
+      "id": "2118714867381047685",
+      "name": "Trump Weighs Iran Military Options After Security Meetings",
+      "summary": "President Trump met with his national security team Wednesday and Thursday to consider next steps on Iran, including possible renewed strikes, sustained economic pressure, or a diplomatic deal. He told reporters the world would know his choice soon, noting it could take Iran 25 years to recover from prior damage while stressing the need to halt its nuclear program. U.S. Central Command prepares for operations around November 9's new moon, even as Qatari mediators push proposals like easing blockades for Strait of Hormuz access and nuclear talks, amid divided views on escalation.",
+      "hook": "From the Oval Office, President Trump made it clear: he'd prefer not to destroy more of Iran, but the decision looms large after intense White House talks.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T18:29:20.000Z",
+      "url": "https://x.com/i/trending/2118714867381047685"
+    },
+    {
+      "id": "2118113420230943037",
+      "name": "Trump Offers Bipartisanship but Warns of Veto Power After Democratic Gains",
+      "summary": "In a call with CNBC, Trump highlighted shared ground with Democrats on trade, recalling how Bernie Sanders supporters backed him in 2016, and said cooperation could be productive on financial ideas too. He made clear he'd use his veto against opposing bills, echoing his view of it as the presidency's ultimate tool. Supporters echoed the message online, and the White House visually reinforced it with the veto hat on the Resolute Desk, previewing two years of potential deals or standoffs as Democrats prepare to take power in January.",
+      "hook": "After Democrats took the House and Senate, President Trump picked up the phone to signal possible teamwork—while placing a bold 'VETO' hat right on his Oval Office desk.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T18:29:35.000Z",
+      "url": "https://x.com/i/trending/2118113420230943037"
+    },
+    {
+      "id": "2118649258098446487",
+      "name": "White House Confirms End of DEI in Federal Policy",
+      "summary": "Reactions split along familiar lines, with supporters hailing a return to merit-based hiring and critics calling it a cultural rollback that ignores workforce imbalances. The announcement came as August data showed women capturing 98 percent of net job gains—158,000 positions out of 162,000 total—while men added just 4,000. Users shared stories of hiring barriers for young white men, citing past surveys where one in six managers were told to deprioritize them, fueling debates on immigration, discrimination, and economic opportunity.",
+      "hook": "The White House issued a direct statement Thursday: DEI initiatives are gone from federal policy. It quickly drew cheers from some and sharp pushback from others.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T10:23:11.000Z",
+      "url": "https://x.com/i/trending/2118649258098446487"
+    },
+    {
+      "id": "2118502288259957196",
+      "name": "White House Shares Zelda Video of Trump After Midterm Loss",
+      "summary": "The 44-second clip, styled after Ocarina of Time and timed with its Nintendo Switch 2 remake, shows a suited Trump character navigating game worlds, sitting at the Resolute Desk, and highlighting claims like a 125-year low murder rate and 17 months without illegal aliens released into the country. Posted November 5 under a 'The Legend of Trump: Make America Great Again' title, it drew mixed reactions: amusement from fans who praised the account handler, frustration from critics calling it tone-deaf 'Zelda AI slop,' and boycott calls against Nintendo. This follows prior White House uses of Pokémon and Halo imagery, despite objections from rights holders like The Pokémon Company, with Nintendo yet to comment.",
+      "hook": "Days after Democrats took the House and Senate, the White House dropped a playful video casting President Trump as Link from The Legend of Zelda, complete with the line 'It's dangerous to go alone! Take this 🇺🇸'.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Elections",
+          "Memes"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T00:41:44.000Z",
+      "url": "https://x.com/i/trending/2118502288259957196"
+    },
+    {
+      "id": "2118510485469540650",
+      "name": "Trump Calls U.S. Conflict with Iran a 'Virtual Occupation'",
+      "summary": "On November 5, Trump described the seven-month U.S.-led campaign against Iran's nuclear program and influence as 'virtually an occupation,' noting 18 American lives lost—far fewer than in past conflicts like Vietnam. He highlighted control of key objectives amid ongoing strikes and diplomatic talks, with casualties in the low dozens and hundreds wounded. Online responses split, with some embracing the framing of success and others mocking the lack of ground troops or regime change in Iran.",
+      "hook": "From the Oval Office, President Trump drew a line between war and what he termed a 'virtual occupation' of Iran, pointing to low casualties compared to Vietnam's toll.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T01:14:33.000Z",
+      "url": "https://x.com/i/trending/2118510485469540650"
+    },
+    {
+      "id": "2118740888293630292",
+      "name": "Stepman's 'Gulag' Warning Fuels Debate on Democratic Intentions",
+      "summary": "Stepman pointed to ideas like national popular vote compacts, D.C. and Puerto Rico statehood, court packing, and prosecutions of Trump officials as steps toward that goal. She cited a September poll of 683 Democratic voters where large majorities approved hypothetical headlines of Trump's impeachment, 25th Amendment removal, or even military ouster to 'safeguard the Constitution,' with 45% very positive about his death in sleep. Critics dismissed the 'gulag' label as paranoid, while allies highlighted the poll data as evidence of risks to democratic norms ahead of 2028.",
+      "hook": "Inez Stepman warned that Democrats aim to jail political opponents and reshape institutions to hold power forever. Her post drew sharp pushback and defenses alike.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T23:44:34.000Z",
+      "url": "https://x.com/i/trending/2118740888293630292"
+    },
+    {
+      "id": "2118752269613097385",
+      "name": "Gas Prices Drop After Midterms, Fueling Online Debate on Causes",
+      "summary": "Analysts tie the decline to market hopes for Middle East de-escalation following Democratic gains in Congress, with national gas averages expected to dip under $4 per gallon soon. The drop ends months of highs from the Iran conflict under President Trump, which disrupted shipping and kept prices elevated above prior levels. Social media erupted in arguments, with some claiming oil companies hiked prices to sway votes against Trump, while others pointed to the war's direct impact and sarcastically noted the oil industry's politics.",
+      "hook": "Gas prices finally eased below $100 a barrel for oil after the midterms, but online users quickly clashed over whether oil companies timed it or the Iran war was truly behind the months of pain.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T17:16:50.000Z",
+      "url": "https://x.com/i/trending/2118752269613097385"
+    },
+    {
+      "id": "2119128839062426046",
+      "name": "Foreign-Born Jobs Surge 809K as Native Employment Drops 64K in October",
+      "summary": "Bureau of Labor Statistics figures reveal foreign-born employment rose sharply to 19.5% of the total U.S. workforce, up from 19.1%, amid a decline for native-born workers. Critics, including the Heritage Foundation and online voices like Tom Slocum and Derrick Evans, call for ending or drastically reforming H-1B visas to prioritize American workers and force companies to raise wages. The data fuels arguments that the program favors cost savings over filling true skill gaps, highlighting tensions in a tight labor market.",
+      "hook": "U.S. jobs data shows a stark split: foreign-born workers gained 809,000 positions last month, while native-born Americans lost 64,000. This shift has many questioning the H-1B visa program's role in the job market.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T18:12:06.000Z",
+      "url": "https://x.com/i/trending/2119128839062426046"
+    },
+    {
+      "id": "2118403334587502668",
+      "name": "Fed Rate Hike Odds Drop to 65% After Midterms and Tech Selloff",
+      "summary": "Prediction markets like Polymarket now show a 65 percent chance of a 25 basis point rate increase at the Fed's December 9 meeting, down from over 80 percent earlier in the week. The shift followed Democratic gains in the midterms and a sharp Nasdaq drop of more than 5 percent on November 5, with Nvidia shares falling over 9 percent amid worries over AI spending scrutiny. Platforms like Kalshi echo this at 67 percent, while the probability of no change has climbed to about one-third, with upcoming jobs and inflation data poised to sway the final call.",
+      "hook": "Traders slashed their bets on a Federal Reserve rate hike after Democrats swept Congress and tech stocks tumbled hard. The odds flipped fast, showing how politics and markets can reshape economic outlooks overnight.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T23:32:21.000Z",
+      "url": "https://x.com/i/trending/2118403334587502668"
+    },
+    {
+      "id": "2118717268397801476",
+      "name": "Voters Reject Data Center Proposals Nationwide, Hitting AI Stocks",
+      "summary": "In about 40 local ballot measures across multiple states, voters approved restrictions, moratoriums, or bans on data centers in nearly every case, with just one small North Dakota town approving development. The pushback stemmed from concerns over rising electricity costs, heavy water use, noise, and land impacts, leading to sharp drops in AI and semiconductor stocks as investors worried about delays in the infrastructure boom. Wall Street sees the selloff as a buying chance, with Morgan Stanley's Mike Wilson holding firm on an S&P 500 target of 8,000, while skeptics like Michael Burry question the quick rebound calls.",
+      "hook": "On Election Day, communities from Ohio to Texas drew a line in the sand against new data centers, voicing clear worries about power bills, water strain, and neighborhood changes.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T21:16:20.000Z",
+      "url": "https://x.com/i/trending/2118717268397801476"
+    },
+    {
+      "id": "2118563772571033872",
+      "name": "Godfather Meme Casts JD Vance as Disloyal Fredo Facing Trump",
+      "summary": "Shared by il Donaldo Trumpo, the video overlays Vance's face on Fredo Corleone in the tense boat confrontation with Trump as the Godfather, complete with the original music and drama. It taps into online theories portraying Vance as the 'great white wolf' leading a supposed anti-Trump 'wolf pack' of insiders, amid screenshots warning of exposures and removals. Replies celebrated it as video of the month, with many tying the humor to real tensions like Vance's comments on midterm losses and leadership questions.",
+      "hook": "A clever edit swaps JD Vance into the iconic Godfather scene where Fredo faces his brother's wrath, delivering the line 'I know it was you, Fredo-Vance. You broke my heart.' The clip hit hard with laughs and quick shares.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T04:46:23.000Z",
+      "url": "https://x.com/i/trending/2118563772571033872"
+    },
+    {
+      "id": "2119033663983849915",
+      "name": "Bank of England Raises Interest Rates to 4% Amid Energy Inflation Fears",
+      "summary": "The Monetary Policy Committee voted 8-1 on November 4 to lift the rate from 3.75% to 4%, citing persistent inflationary pressures from higher energy costs linked to Middle East tensions. Officials aim to curb second-round effects on wages and prices, with inflation at 3.5% in September and projected to hit around 5% by mid-2027. Critics argue the move fails to tackle supply-driven inflation from war and energy imports, instead burdening families with higher borrowing costs while funneling billions to banks through interest on reserves.",
+      "hook": "Households bracing for steeper mortgage bills watched as the Bank of England hiked its key rate this week—the first jump in over three years.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T12:54:46.000Z",
+      "url": "https://x.com/i/trending/2119033663983849915"
+    },
+    {
+      "id": "2118729998253076589",
+      "name": "Grassroots Flood House Democrats with Calls Against Jeffries for Speaker",
+      "summary": "After Democrats took House control in the midterms, a Change.org petition with nearly 920,000 signatures—boosted by Mark Ruffalo—pushes for a competitive Speaker race instead of elevating Minority Leader Hakeem Jeffries. Callers and online voices like Kyle Kulinski and Krystal Ball suggest alternatives such as Jamie Raskin, citing low approval ratings for Jeffries and Chuck Schumer from an NBC poll. While Jeffries has strong caucus backing and no real challengers, the surge highlights tensions between party leaders and the grassroots base seeking fresh faces.",
+      "hook": "House Democrats' offices are ringing off the hook with hundreds of calls urging them to skip Hakeem Jeffries for Speaker. One senior member fielded over 500 in just two days.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T01:01:04.000Z",
+      "url": "https://x.com/i/trending/2118729998253076589"
+    },
+    {
+      "id": "2118369272619762075",
+      "name": "Traders Brace for US October Jobs Report Volatility",
+      "summary": "The Bureau of Labor Statistics releases October nonfarm payrolls and unemployment at 8:30 a.m. ET, with economists eyeing 65,000 new jobs, a steady 4.2% unemployment rate, and slowing wage growth to 2.9% year-over-year. Weaker data might ease December Fed rate hike odds—now over 70%—boosting bitcoin and gold, while stronger figures could spark selling. Traders share strategies like tight stops and high risk-reward trades, stressing discipline amid expected market reactions.",
+      "hook": "Gold and crypto traders are on edge as today's jobs data looms, ready for swings that could shift rate hike bets and asset prices.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T12:56:31.000Z",
+      "url": "https://x.com/i/trending/2118369272619762075"
+    },
+    {
+      "id": "2118481246506397981",
+      "name": "Morgan Stanley Sees U.S. Stock Correction Nearing End",
+      "summary": "Morgan Stanley's Chief U.S. Equity Strategist Mike Wilson says the stock market correction that started in June is entering its final stages, thanks to better market breadth and less political uncertainty after the November 3 midterms. The firm expects large-cap stocks to rise about 15 percent in the next six months based on historical patterns, while keeping its year-end S&P 500 target at 8,000 and viewing any dip as a buying opportunity. They note that 60 percent of Russell 3000 stocks have dropped at least 20 percent since June, but see upcoming events like election results as chances to add to quality investments heading into 2027. On November 5, the S&P 500 sat near 7,354 after a volatile drop.",
+      "hook": "Mike Wilson calls the market pullback its 'final innings,' spotting signs of recovery amid improving breadth and post-midterm clarity.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T23:19:28.000Z",
+      "url": "https://x.com/i/trending/2118481246506397981"
+    },
+    {
+      "id": "2118758314469421427",
+      "name": "Labour's Autumn Budget Draws Mixed Reactions on Relief Measures",
+      "summary": "The Budget offers a one-off £100 energy payment for up to 20 million low-band council tax households, extended fuel duty cuts and VAT relief on electricity until July 2027, plus removal of gas standing charges. Officials highlight a National Living Wage rise and first-time buyer help, calling it support for those 'left behind.' Critics point to 25% energy bill hikes, record-high tax burdens as a share of GDP, and share cartoons depicting taxpayers crushed under politicians' jumps, arguing it fails to ease real pressures.",
+      "hook": "Labour pitched its Autumn Budget as breathing room for households feeling squeezed, but online voices quickly countered with tales of rising bills and tax pressures.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T20:02:48.000Z",
+      "url": "https://x.com/i/trending/2118758314469421427"
+    },
+    {
+      "id": "2118113416384819503",
+      "name": "Globe and Mail Opinion on Bigger Government Role Draws Backlash",
+      "summary": "Eugene Lang's Globe and Mail piece from November 4 argues Canada should expand government roles in eight key sectors like emerging tech, critical minerals, and defense to build economic resilience amid global shifts. Critics, including business leaders, point to already high government spending at 34.4% of GDP and public employment at 21.1% of the workforce, linking it to stagnant productivity and weak private investment. The debate highlights divides over whether more intervention or less will drive growth.",
+      "hook": "Shopify CEO Tobi Lutke saw the headline and couldn't hold back: 'You can’t make this shit up. Imagine believing this.' His reaction captured the swift pushback to a call for more state involvement in Canada's economy.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T22:43:14.000Z",
+      "url": "https://x.com/i/trending/2118113416384819503"
+    },
+    {
+      "id": "2118413819148222589",
+      "name": "Jim Cramer's 'Market Boom' Call Sparks Inverse Memes Amid Sharp Selloff",
+      "summary": "U.S. stocks tumbled that day, with the S&P 500 down 4.36%, Nasdaq Composite off 5.52%, and Dow shedding over 1,800 points, driven by declines in AI and chip stocks. Cramer's optimistic note followed his observation that the Nasdaq 100 had breached its 'Situational Low,' but it fueled the classic 'inverse Cramer' meme, where his bullish takes become sell signals. Communities like WallStreetBets posted 'it's over,' users shared panicked cartoon images, and crypto voice Tiffany Fong bluntly told him to shut up, highlighting his enduring role in finance chatter.",
+      "hook": "On November 5, as stocks plunged sharply, Jim Cramer declared the market headed for a 'boom'—and online crowds instantly fired back with sarcasm and memes.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T04:02:55.000Z",
+      "url": "https://x.com/i/trending/2118413819148222589"
+    },
+    {
+      "id": "2118298102448677157",
+      "name": "Corporate Push for AI Clashes with Worker Skepticism",
+      "summary": "Corporate leaders see AI as key to productivity and growth, with some warning staff to adopt it or risk replacement by colleagues who do. Meanwhile, the public and workers remain wary, rejecting data center proposals in recent elections and citing early hype about massive job losses and dystopian outcomes. Surveys reveal Americans split on risks versus benefits, as executives invest heavily despite lagging everyday sentiment.",
+      "hook": "CEOs are mandating AI use for employees, even tying it to job security, while many workers push back amid fears of job loss and disempowerment.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T00:20:14.000Z",
+      "url": "https://x.com/i/trending/2118298102448677157"
+    },
+    {
+      "id": "2118502289610588343",
+      "name": "Comedian's 'Sell Everything' Video Hits Amid Market Drop",
+      "summary": "In the satirical clip, Slash's character claims his firm exited markets days ago and predicts 98 percent plunges in stocks, bonds, crypto, property, and even bank cash, suggesting a switch to classic cars, boats, or watches. The video arrived as the S&P 500 fell 4.4 percent and Nasdaq dropped 5.5 percent on Thursday after midterm elections, with the Magnificent Seven tech stocks losing over $1 trillion. Reactions ranged from treating it as real advice—like buying pre-1964 silver coins—to spotting the parody and joking about crashing classic car values in a downturn.",
+      "hook": "British comedian Damien Slash dressed as a frantic hedge fund boss, urging viewers to dump all assets before a total collapse. Posted on November 5, it landed right as Wall Street took a real beating.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T00:42:38.000Z",
+      "url": "https://x.com/i/trending/2118502289610588343"
+    },
+    {
+      "id": "2118122341712662976",
+      "name": "Thune Seeks Second Term as Senate GOP Leader After Midterm Losses",
+      "summary": "Thune confirmed his bid for another term atop Senate Republicans, setting up a leadership vote on November 10, even as conservatives blame him for midterm defeats that handed Democrats a 54-44 Senate edge and House majority. Critics accuse him of blocking voter ID laws like the SAVE America Act, slowing judicial confirmations, and failing to advance Trump priorities, with one poll showing 99 percent calling for his immediate resignation. Thune defends his record on safer streets, tax relief, and border security, vowing to work with President Trump against Democratic moves. The contest underscores GOP rifts on strategy and rules as markets tumbled, with the Dow dropping over 1,800 points.",
+      "hook": "With Democrats now controlling Congress, Senate Majority Leader John Thune announced he'll fight to keep leading Republicans as minority leader amid sharp internal criticism.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics",
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T22:49:33.000Z",
+      "url": "https://x.com/i/trending/2118122341712662976"
+    },
+    {
+      "id": "2118862497755414835",
+      "name": "Rand Paul's Six Penny Plan Targets $40 Trillion Debt After GOP Losses",
+      "summary": "Paul's Six Penny Plan proposes cutting projected federal spending by six cents on every dollar each year for five years to balance the budget without tax hikes or picking specific programs. He ties the idea to voter anger over 27% inflation erosion, high gas prices from the Iran war, and tariff costs, especially after Democrats took House and Senate control in the 2026 midterms. Supporters see it as basic household budgeting, while skeptics question its political feasibility and impact on daily life amid calls for targeted cuts to defense or Social Security.",
+      "hook": "With the national debt topping $40 trillion and interest payments outpacing defense spending, Senator Rand Paul is calling for simple, everyday fiscal discipline that families already use.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T00:31:20.000Z",
+      "url": "https://x.com/i/trending/2118862497755414835"
+    },
+    {
+      "id": "2119082422193258791",
+      "name": "Bitcoin vs Gold Debate Heats Up Amid Investor Selling Pressure",
+      "summary": "Both Bitcoin and gold faced selling pressure recently, sparking fresh comparisons on X where Schiff highlighted gold's stronger five-year gains of over 100% against Bitcoin's 23%. Timmer prefers Bitcoin, noting its relative strength—one Bitcoin now buys about 21 ounces of gold, up from 12—and massive $55 billion in ETF inflows since 2024, double gold and silver's. Both assets correlated 60-70% with the S&P 500 lately, limiting their hedge roles, as Bitcoin hovered near $76,000.",
+      "hook": "Peter Schiff mocked Bitcoin's stagnation near its six-year cost basis while gold doubled investments, but Fidelity's Jurrien Timmer counters that Bitcoin still buys more gold now than at recent lows.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Cryptocurrency"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T15:09:33.000Z",
+      "url": "https://x.com/i/trending/2119082422193258791"
+    },
+    {
+      "id": "2118444756380336305",
+      "name": "U.S. Mortgage Rates Fall for Third Straight Week to 7.18%",
+      "summary": "The average 30-year fixed mortgage rate dropped to 7.18% from 7.24%, while the 15-year rate eased to 6.57%, according to Freddie Mac's survey. Freddie Mac chief economist Sam Khater noted the decline improves conditions for buyers against strong economic growth, though rates remain well above last year's 6.22% for 30-year loans. Even with the drop, purchase applications fell last week, and experts call the change modest—like a 'rounding error'—with a $400,000 loan still costing $255 more monthly than a year ago.",
+      "hook": "Homebuyers caught a small break this week as mortgage rates dipped again, easing the pinch on wallets amid ongoing affordability struggles.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Real Estate"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T20:55:51.000Z",
+      "url": "https://x.com/i/trending/2118444756380336305"
+    },
+    {
+      "id": "2118729995359039573",
+      "name": "SPY Rebounds Modestly as Traders Watch 200-Day Average and Inflation Data",
+      "summary": "Traders split on SPY's next move, with some like Lia the Trader eyeing a long entry in the $660–$670 gap, while Bassem sees weakness and expects a retest of $727–$726 near the 200-day moving average. Charts show breaks below 20- and 50-day averages, a gravestone doji signaling a failed rally, and cautions from GEX Edge about rallies being sold until the 200-day support holds. Upcoming CPI on Tuesday and PPI on Friday will test the 730–740 range, as the S&P 500 ended the week down 2.68% at 7,376.86 amid Nasdaq correction worries.",
+      "hook": "After Thursday's sharp 4.41% plunge, SPY closed Friday up 0.31% at $735.29, leaving traders debating if it's a real bounce or just a pause before more downside.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T02:18:51.000Z",
+      "url": "https://x.com/i/trending/2118729995359039573"
+    },
+    {
+      "id": "2117789434590478451",
+      "name": "Democrats Win 2026 Midterms Despite Predictions of Cancellation",
+      "summary": "In the lead-up to the 2026 midterms, figures like Rosie O’Donnell warned President Trump might stage a crisis, such as an assassination attempt or terrorist attack, to halt the vote entirely. Commentators revisited hyperbolic claims from certain circles insisting the elections would never happen, often tied to fears of dictatorship. Yet the elections proceeded smoothly with no national emergency declared, delivering a Democratic wave even in Republican strongholds and prompting reflections on the gap between those forecasts and reality.",
+      "hook": "As Democrats claimed majorities in the House and Senate on November 3, online users pointed out how earlier dire predictions of canceled elections fell flat.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-05T22:42:50.000Z",
+      "url": "https://x.com/i/trending/2117789434590478451"
+    },
+    {
+      "id": "2119153433207075248",
+      "name": "Erdogan and Trump Discuss Diplomacy in Third Recent Call",
+      "summary": "Erdogan urged an end to US-Iran tensions via diplomacy and expressed hope for progress in ending the Russia-Ukraine war, with Türkiye ready to boost contacts in Kyiv and Moscow. He thanked Trump for backing the upcoming Organization of Turkic States summit and voiced confidence in deepening bilateral ties. The call underscores Türkiye's role in navigating relations with major powers amid regional conflicts, though no US readout has detailed Trump's responses.",
+      "hook": "In their third phone call over the past 10 days, Turkish President Recep Tayyip Erdogan and US President Donald Trump focused on mending global tensions through dialogue.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T19:50:22.000Z",
+      "url": "https://x.com/i/trending/2119153433207075248"
+    },
+    {
+      "id": "2118496569716879861",
+      "name": "Romney Blames GOP Setbacks on Bad Policy and Character",
+      "summary": "In a November 4 post, former Sen. Mitt Romney listed GOP missteps like impulsive Iran war, blanket pardons, apparent corruption, and abandoning allies as reasons for recent defeats, hoping for a course correction. The results surprised leaders, with Democrats gaining control of the House and Senate amid voter frustration over the U.S.-Iran conflict, high fuel prices, and economic issues. Kansas saw dramatic shifts, ending the GOP's state House supermajority and electing the state's first Democratic U.S. senator in nearly a century. Reactions praised Romney's candor or criticized him for not fighting Democrats harder, highlighting GOP divisions.",
+      "hook": "As Democrats flipped both chambers of Congress in the midterms, Mitt Romney pointed to erratic tariffs and impulsive decisions as the culprits behind the losses.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T04:19:23.000Z",
+      "url": "https://x.com/i/trending/2118496569716879861"
+    },
+    {
+      "id": "2118724580911284269",
+      "name": "Trump Meets Russian Envoy but Skips Ukrainian Officials at White House",
+      "summary": "Trump hosted Kirill Dmitriev, Vladimir Putin's envoy, for a separate meeting during First Lady Melania Trump's gathering marking a short-lived ceasefire in Ukraine's Oleshky. He skipped the Ukrainian delegation present and later told reporters a major deal to end the war was close, potentially expanding across Europe. When asked about Russian strikes killing Ukrainian civilians in schools and buses, Trump said he raised it but noted 'the other way they kill too,' drawing criticism for equating aggressor and victim amid upcoming U.S.-mediated talks in Abu Dhabi.",
+      "hook": "At a White House event celebrating a fragile humanitarian ceasefire, President Trump chose a private chat with Russia's envoy over greeting Ukrainian representatives in the room.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T15:27:29.000Z",
+      "url": "https://x.com/i/trending/2118724580911284269"
+    },
+    {
+      "id": "2118223330209915378",
+      "name": "Grok Rejects Speculation on U.S. Civil War Odds",
+      "summary": "Social media threads probe AI like Grok on chances of civil war amid political divides, but Grok cites a late October 2026 Leger poll where 46% view it as unlikely in five years versus 29% likely, plus UC Davis data showing declining support for political violence. Prediction markets rate full-scale war near zero odds, stressing no side wins and polarization doesn't mean organized fighting. Commenters debate rural advantages or integrated lives making clear battle lines impossible, with many calling the talk futile or exaggerated.",
+      "hook": "Users keep asking AI who would win a hypothetical liberal-conservative civil war, but Grok shut it down with a firm 'No.' It pointed to polls showing most Americans see such conflict as unlikely.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T04:16:33.000Z",
+      "url": "https://x.com/i/trending/2118223330209915378"
+    },
+    {
+      "id": "2118611291300679837",
+      "name": "UN Marks Day Against War's Environmental Destruction",
+      "summary": "The United Nations observes the International Day for Preventing the Exploitation of the Environment in War and Armed Conflict, noting that 40 percent of internal conflicts over the past 60 years link to natural resources like timber, minerals, and water. These fights are twice as likely to restart, with damage persisting through poisoned water, ruined farmland, and scarred landscapes. Voices from Ukraine's Dmytro Lubinets, who cited the Kakhovka Dam breach costing UAH 8.63 trillion, to UN's Volker Türk calling for peace for people and planet, urge accountability and protection under international law.",
+      "hook": "On November 6, global leaders gather to remember how wars scar not just people, but forests, rivers, and soil for generations.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T16:28:29.000Z",
+      "url": "https://x.com/i/trending/2118611291300679837"
+    },
+    {
+      "id": "2118994094328545567",
+      "name": "BBC Commentator Warns Russia Seeks to Destroy West via Hybrid Warfare",
+      "summary": "During the segment, Syed described Europe as tilting toward war amid Russia's hybrid efforts. Viewers pushed back hard, with some questioning Russia's motives and pointing to the stalled Ukraine frontline as evidence against the claims. Journalist Thomas Fazi called it threat inflation, arguing many alleged Russian incidents lack proof and reflect Western psychological tactics instead. The backlash underscores deep splits on Russia's true intentions and the hybrid threat's reality.",
+      "hook": "Matthew Syed, a former Olympic table tennis player turned columnist, told BBC Newsnight that Russia aims to dismantle the West through covert attacks across Europe.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T19:38:21.000Z",
+      "url": "https://x.com/i/trending/2118994094328545567"
+    },
+    {
+      "id": "2118842016503058794",
+      "name": "Do Couples Need Daily Texts? Wide Views Emerge",
+      "summary": "David's post asking if texting every day is necessary in a relationship sparked diverse responses. Some see daily check-ins as essential therapy through shared thoughts and jokes, while others prefer natural contact over forced vibes to avoid exhaustion. Experts emphasize mutual agreement, consistency over volume, and respecting boundaries, noting healthy patterns vary by couple.",
+      "hook": "A simple question about daily texting in relationships drew thousands of shares and personal stories from people worldwide.",
+      "category": "Other",
+      "contexts": {
+        "topics": [
+          "Relationships"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T23:10:27.000Z",
+      "url": "https://x.com/i/trending/2118842016503058794"
+    },
+    {
+      "id": "2117950458916454435",
+      "name": "Melania Trump Hosts Russia-Ukraine Envoys After Oleshky Ceasefire Success",
+      "summary": "The six-day humanitarian pause in Oleshky, a Russian-occupied town in Ukraine's Kherson region, allowed aid delivery amid severe shortages and marked one of the longest local halts since Russia's 2022 invasion. Trump acted as exclusive intermediary, overseeing demining, evacuations, and medical plans, then urged both sides at the White House to extend the effort for lasting peace. Ukrainian officials honored her with the Order of Princess Olga, while Russia's Kirill Dmitriev thanked her role; President Trump hinted at a larger agreement ahead. Supporters see it as a diplomatic step forward, though critics note the wider conflict persists.",
+      "hook": "Nearly 800 civilians safely evacuated from a war-torn Ukrainian town, thanks to a ceasefire arranged by First Lady Melania Trump. She brought Russian and Ukrainian officials together at the White House to celebrate the breakthrough.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T11:49:37.000Z",
+      "url": "https://x.com/i/trending/2117950458916454435"
+    },
+    {
+      "id": "2118116396576002131",
+      "name": "Debate Erupts Over Conscription Avoidance and Patriotism in UK",
+      "summary": "A Mirror report warned that dodging potential WW3 conscription could lead to social shame and job issues, as noted by war studies expert Professor Joshua Bilton, with pressure likely from peers. Former detective Peter Bleksley labeled reluctant youth 'traitorous cowards' on TalkTV, citing polls where half of young Brits say they would never fight. Reactions split sharply, with some refusing to defend leaders they distrust on borders and housing, while others urged volunteers over forced service. Polls show young adults prioritizing domestic woes over foreign conflicts amid high global tensions.",
+      "hook": "A former detective called young Brits unwilling to fight 'cowards,' sparking a wave of divided reactions online. The comments hit amid government plans to widen army call-up ages.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T14:15:16.000Z",
+      "url": "https://x.com/i/trending/2118116396576002131"
+    },
+    {
+      "id": "2119198391628365987",
+      "name": "LBC Caller Unfazed by Hypothetical Putin Takeover of UK",
+      "summary": "During the radio exchange, Marcus dismissed concerns about democracy and freedoms, prioritizing his current economic hardships over abstract threats. Online responses highlighted his raw honesty about poverty and lack of prospects, while criticizing the host for focusing on 'Putler bad' instead of real issues like UK arrests for online speech—12,000 yearly versus Russia's 400. The clip drew thousands of views, fueling debates on whether media overlooks working-class realities in favor of distant warnings about authoritarianism.",
+      "hook": "A frustrated LBC caller named Marcus told host Ben Kentish that Vladimir Putin running the UK wouldn't change his daily struggles one bit.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T22:46:29.000Z",
+      "url": "https://x.com/i/trending/2119198391628365987"
+    },
+    {
+      "id": "2118752269239791987",
+      "name": "Joe Kent Urges Trump to End Iran War and Fire Key Officials",
+      "summary": "On November 6, former National Counterterrorism Center Director Joe Kent posted on X demanding Trump end the war with Iran immediately, restrain Israel, and put America first, echoing his detailed opinion piece on Responsible Statecraft. He specifically calls for firing Defense Secretary Pete Hegseth, CIA Director John Ratcliffe, Secretary of State Marco Rubio, and Chief of Staff Susie Wiles to bypass the 'neocon national security blob' and deliver on voters' midterm rejection of the conflict's costs like inflation and energy spikes. Supporters including Trita Parsi and Jack Hunter amplified the message tying it to Republican losses, while critics argue Trump owns the war he started; the push highlights growing pressure for de-escalation amid U.S. casualties and economic strain from strikes launched February 28, 2026.",
+      "hook": "Retired Green Beret Joe Kent didn't hold back, calling on President Trump to declare the Iran war over and clean house among top advisors.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T17:16:25.000Z",
+      "url": "https://x.com/i/trending/2118752269239791987"
+    },
+    {
+      "id": "2118255542246555847",
+      "name": "Trump Touts NASA Revival and World's Largest Air Show at Kennedy Space Center",
+      "summary": "On November 6, Trump spoke at Kennedy Space Center, declaring NASA back on track after years of neglect, with plans for the site to host the world's largest air show in two years to showcase aviation, space tech, and economic deals. The event highlighted administration achievements amid midterm losses tied to the ongoing Iran conflict, where Trump defended strikes as crucial to stopping Iran's nuclear program. Supporters cite intelligence on Iran's missile buildup as justification, while critics note domestic costs like higher fuel prices; national security meetings continue without new operations.",
+      "hook": "Standing at NASA's Kennedy Space Center, President Trump rallied the crowd with a vision of American space leadership restored, from Mars missions to a massive air show on the horizon.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T07:27:49.000Z",
+      "url": "https://x.com/i/trending/2118255542246555847"
+    },
+    {
+      "id": "2118717264501342603",
+      "name": "NATO's Rutte Predicts Compromise in Ukraine Peace Deal",
+      "summary": "Appearing on *Pauw & De Wit*, Rutte said peace will likely require give-and-take, with Ukrainian President Volodymyr Zelensky choosing the terms, even as U.S.-brokered talks loom in Abu Dhabi. He warned Russia will remain a threat to Europe post-war, sent an encouraging note to President Trump after U.S. midterms, and pictured celebrating peace with Zelensky by getting 'super drunk' on a Swiss mountaintop with red wine. Rutte stressed America's key role in Europe's defense while noting Europe's own purchases of Russian energy, calling it a sign no side is fully innocent.",
+      "hook": "NATO Secretary General Mark Rutte shared a candid view on Dutch TV: wars like Russia's against Ukraine rarely end in total victory, but in tough compromises decided by Ukraine alone.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T17:38:22.000Z",
+      "url": "https://x.com/i/trending/2118717264501342603"
+    },
+    {
+      "id": "2118800540146479167",
+      "name": "LBC Caller Unfazed by Hypothetical Putin Takeover of UK",
+      "summary": "Marcus told host Ben Kentish he felt unaffected by the idea of dictatorship, sparking online reactions that highlighted frustrations among younger Britons over government restrictions on speech and freedoms. Another caller, Josh, said he'd pick prison over conscription in a conflict, while MP Rupert Lowe urged giving young men something worth defending amid economic and cultural strains. Critics called the views naive given Russia's record, but supporters pointed to UK's 12,000 annual social media arrests versus Russia's 400, fueling debate on trust in institutions.",
+      "hook": "A radio caller named Marcus stunned LBC host Ben Kentish by saying a Putin-led takeover of Britain wouldn't change his daily life much.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T21:45:19.000Z",
+      "url": "https://x.com/i/trending/2118800540146479167"
+    },
+    {
+      "id": "2119118120178843784",
+      "name": "Pete Hegseth Faces Loyalty and Criticism Amid Military Leadership Debate",
+      "summary": "The White House praised restored military strength under President Trump and Secretary of War Pete Hegseth, with images showing them together under captions like 'STRONGEST MILITARY IN GENERATIONS.' Trump defended Hegseth publicly, saying he is doing a very good job, despite pressure from Democrats who gained Congress and blame the Iran war for electoral defeats. Hegseth accused the press of irresponsible coverage that highlights pilot difficulties over successes, while posting defiant videos vowing not to back down. Supporters highlight soaring recruitment and a focus on lethality, as the renamed Department of War signals a shift to combat readiness.",
+      "hook": "Pete Hegseth stands firm as supporters rally with calls to 'protect him at all costs,' while critics push for investigations after midterm losses.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T17:28:13.000Z",
+      "url": "https://x.com/i/trending/2119118120178843784"
+    },
+    {
+      "id": "2119123336563483052",
+      "name": "Poll Asking Worst President Sparks Trump Debate After Midterms",
+      "summary": "The multiple-choice graphic names Donald Trump as option A, alongside Kennedy, Reagan, Obama, and Buchanan, amid a CNN-linked survey calling him the worst in history. It surfaced after Trump's 'MR. VETO' posts signaling plans to block Democratic legislation following their 2026 midterm gains. Critics labeled him the worst ever, citing scholar rankings and corruption claims, while supporters defended his record and dismissed the poll as mere optics. Broader surveys like YouGov show nearly half of Americans view him as a failure, with approval at historic lows.",
+      "hook": "A simple poll listing Trump first among five presidents hit social media just as Democrats took Congress, fueling sharp exchanges between fans and critics.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T17:48:56.000Z",
+      "url": "https://x.com/i/trending/2119123336563483052"
+    },
+    {
+      "id": "2118803630971146387",
+      "name": "Zelenskyy Warns of Russian Strikes on Ukraine's Energy and Bridges",
+      "summary": "Ukrainian President Volodymyr Zelenskyy stated Friday that Russia is gearing up for attacks on energy facilities, Dnipro River bridges, and civilian sites, urging partners for urgent Patriot missile deliveries. He pointed to Ukraine's strikes on Russian oil refineries as retaliation for Moscow's assaults on power grids and logistics, insisting that sanctions and pressure pave the way for talks. Financial Times sources say Putin aims to demolish Ukraine's infrastructure by next year to force concessions, including Donbas withdrawal, amid U.S. election shifts and Kyiv explosions causing outages in freezing weather.",
+      "hook": "As cold snaps grip Kyiv, Zelenskyy revealed fresh intelligence of Russian strikes looming over power plants, bridges, and homes—while Ukraine readies defenses and eyes more Patriot missiles.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T01:18:44.000Z",
+      "url": "https://x.com/i/trending/2118803630971146387"
+    },
+    {
+      "id": "2118528338918777000",
+      "name": "Trump Ends $4 Billion Annual Military Aid to Israel",
+      "summary": "Trump announced the cutoff by year's end, saying Israel no longer needs the support after months of talks with Netanyahu. Netanyahu's team framed it positively, noting Israel's strong economy and the bipartisan history of aid used for mutual defense, with a June letter already signaling the change. The move surprised some like President Herzog, but both sides emphasized continued weapon purchases and a maturing alliance amid regional challenges.",
+      "hook": "On Election Day, President Trump declared an end to $4 billion in yearly U.S. military aid to Israel, citing its thriving economy. Netanyahu's office welcomed the shift from aid to partnership.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T22:49:15.000Z",
+      "url": "https://x.com/i/trending/2118528338918777000"
+    },
+    {
+      "id": "2119044557530608029",
+      "name": "Irish Media Evacuated After Bomb Threat Emails",
+      "summary": "Irish outlets like RTÉ, Newstalk, and the Irish Independent cleared their buildings Friday following hoax bomb threats signed 'Mikhail Andropov,' which also claimed prior aviation disruptions across Europe. Minister Helen McEntee said it's too early to confirm Russia's involvement, though recent hybrid attacks have been linked to Moscow, while Taoiseach Micheál Martin called the incidents coordinated and pledged to pursue those responsible. The threats come days before Ireland hosts over 50 leaders for the European Political Community summit on November 12, with authorities ramping up security amid online debates over motives from Russia to false flags.",
+      "hook": "Journalists rushed out of newsrooms as identical emails warned of bombs set to explode in 45 minutes. No devices turned up, but the scare hit just before major European summits in Dublin.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T22:20:11.000Z",
+      "url": "https://x.com/i/trending/2119044557530608029"
+    },
+    {
+      "id": "2118719826440900996",
+      "name": "Canada Bars Russian and Belarusian Athletes from 2027 World Juniors",
+      "summary": "The ban defies a Court of Arbitration for Sport ruling reinstating the athletes, with Carney citing Russia's and Belarus's support for the war in Ukraine as the reason. Hockey legend Wayne Gretzky voiced support, saying 'Good for him' at an event honoring his late father, reflecting feelings among many Canadian players and fans. Online reactions split sharply: some call it unfair to young athletes, while others highlight the war's toll on Ukraine, including killed aspiring hockey players. The tournament heads to Edmonton and Red Deer from late December into early January.",
+      "hook": "Prime Minister Mark Carney drew a firm line this week, announcing no Russian or Belarusian players will compete under their flags at the 2027 World Junior Hockey Championship in Alberta.",
+      "category": "Sports",
+      "contexts": {
+        "topics": [
+          "Ice Hockey"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T19:06:47.000Z",
+      "url": "https://x.com/i/trending/2118719826440900996"
+    },
+    {
+      "id": "2118674123182444840",
+      "name": "European Leaders Reject U.S. Plan for Russia-Involved Security Overhaul",
+      "summary": "President Trump's team, via envoy Jared Kushner, proposed permanent security consultations with Russia to end the Ukraine war, framing it as a 'big, beautiful agreement' involving all of Europe while keeping NATO central. EU foreign policy chief Kaja Kallas, joined by Polish and Ukrainian ministers, rejected it outright, insisting Europe already has security through NATO and the EU, and that concessions must come from Russia as the aggressor. Ukrainian President Zelenskyy warned against dividing Europe like Yalta 2.0, demanding Russia's withdrawal first, as critics noted the plan echoes Kremlin language and ignores past broken Russian promises. With trilateral talks set for Abu Dhabi next week, Europeans stress no deal will be imposed without their input.",
+      "hook": "Jared Kushner outlined a sweeping U.S. vision for European security talks including Russia, but leaders in Warsaw fired back swiftly: Putin holds no veto over the continent's future.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T17:48:42.000Z",
+      "url": "https://x.com/i/trending/2118674123182444840"
+    },
+    {
+      "id": "2118688546261291045",
+      "name": "Trump Shares 'Winner on Iran' Headline After Midterm Losses",
+      "summary": "Democrats won control of Congress in Tuesday's midterms, a historic Republican defeat many blame on the Iran war Trump started in February, which spiked gas prices and squeezed household budgets. Trump defends the strikes as essential to stop Iran's nuclear program, while his son Don Jr. and VP JD Vance say the war's fuel costs flipped voter sentiment. Approval ratings plunged from the mid-40s to 38 percent amid cost-of-living worries, leaving Trump with fewer options as Democrats take power.",
+      "hook": "Even after Democrats seized the House and Senate, President Trump kept posting a Newsmax headline praising him as a 'winner' right on Iran.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T18:17:39.000Z",
+      "url": "https://x.com/i/trending/2118688546261291045"
+    },
+    {
+      "id": "2118684623781704000",
+      "name": "Nick Fuentes Calls Trump a 'Total Scumbag' Over White House Memo",
+      "summary": "On his America First show Thursday, Fuentes labeled President Trump a 'vain narcissist' and 'total and complete scumbag,' criticizing a White House memo sent to over 3,000 conservative groups monitoring their statements amid Republican midterm losses. He called Trump backers' loyalty cult-like, mocking blind faith in the president's decisions like those on the Iran conflict. The White House described the memo as routine outreach for unity, but Fuentes argued the movement has lost sight of principles for personality.",
+      "hook": "Nick Fuentes sat at his desk, America First cap nearby, and unloaded on Trump with raw intensity after a White House memo to conservatives.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T16:41:14.000Z",
+      "url": "https://x.com/i/trending/2118684623781704000"
+    },
+    {
+      "id": "2118458552000110812",
+      "name": "Trump Warns of Destroying Rest of Iran After Midterms",
+      "summary": "Trump's comments follow U.S. midterms, amid reports he held off on major combat during the campaign but now leans toward attacking Iran, per two senior sources. High-level White House meetings included Gen. Dan Caine, fueling speculation, while supporters see strength and critics call it political. Iran sent a new nuclear proposal via Qatar, demanding U.S. concessions first, as Israel offers support but says the decision is America's alone.",
+      "hook": "President Trump said he would rather not destroy the rest of Iran, but might have to, with rebuilding taking 25 years. Americans will know next steps soon.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T01:27:25.000Z",
+      "url": "https://x.com/i/trending/2118458552000110812"
+    },
+    {
+      "id": "2118869609034158442",
+      "name": "Marc Thiessen Urges Conservatives to Blame Trump Directly for Iran War",
+      "summary": "In heated X posts, conservative commentator Marc Thiessen dismissed talk of a 'neocon cabal' behind the Iran war and insisted Trump made the call himself to stop Iran's nuclear program. Replies poured in from figures like Sean Davis, who likened Thiessen to Anthony Fauci, while others targeted both the president and commentators. The debate, fueled by midterm losses and Vance's election tie-in, reveals ongoing rifts in the conservative movement over the conflict's high costs, including energy prices.",
+      "hook": "Marc Thiessen fired back at fellow conservatives dodging blame for the Iran war, telling them to 'man up' and direct their criticism straight at President Trump.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T01:01:00.000Z",
+      "url": "https://x.com/i/trending/2118869609034158442"
+    },
+    {
+      "id": "2118386783918387281",
+      "name": "Melania Trump Hosts Russian and Ukrainian Officials for Oleshky Ceasefire Event",
+      "summary": "On November 5, First Lady Melania Trump received Ukraine’s Order of Princess Olga for her hands-on role in securing a six-day ceasefire in Russian-occupied Oleshky, which enabled aid deliveries and family reunifications. She reviewed demining plans and evacuation logistics herself, then distributed personal letters to Presidents Putin and Zelensky while Russian envoys gifted her a child’s drawing. The rare gathering drew praise for saving lives but criticism for hosting Russian representatives amid the ongoing war, blending humanitarian success with diplomatic debate.",
+      "hook": "In a chandelier-lit White House hall, Melania Trump brought together Russian and Ukrainian officials to celebrate a truce that evacuated nearly 800 civilians from a war-torn city.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-07T01:46:32.000Z",
+      "url": "https://x.com/i/trending/2118386783918387281"
+    },
+    {
+      "id": "2117834258299466235",
+      "name": "Democrats Flip House and Senate in 2026 Midterm Sweep",
+      "summary": "Democrats gained at least seven Senate seats and dozens in the House, capturing traditionally Republican areas and several governorships. Exit polls showed 74 percent of voters viewed the prolonged Iran conflict as a major factor, with 62 percent of them backing Democrats who saw the war as a misstep. Republicans grappled with blame, as figures like Matt Walsh called it a catastrophic blunder and Trump insisted he would have won in a landslide if on the ballot, while pledging to work across the aisle.",
+      "hook": "Voters across red states like Texas and Ohio turned out in force, handing Democrats control of Congress amid frustration over the Iran war and rising costs.",
+      "category": "News",
+      "contexts": {
+        "topics": [
+          "Politics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-06T03:30:03.000Z",
+      "url": "https://x.com/i/trending/2117834258299466235"
+    }
+  ]
+}
