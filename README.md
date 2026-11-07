@@ -4,7 +4,7 @@
 
 ## App 功能
 
-- 顶栏频道（可横向滑动）：**AI** | **时政** | **创业** | **GitHub** | **论文** | **模型** | **收藏**
+- 顶栏频道（可横向滑动）：**AI** | **时政** | **创业** | **GitHub** | **论文** | **模型** | **技能** | **收藏**
 - 收藏：点卡片右上角 ★，完整快照写入 WebView `localStorage`（键 `ainews.favorites.v1`），日更下架后仍可看
 - **刷新**：只拉已发布的 `data.json`（便宜、不调 Cursor）
 - **即时更新**：启动 **Cursor Cloud Agent**（消耗 Cursor 云端额度，不走 Grok Bot）。需在本机粘贴 Cursor API Key（Dashboard → API Keys）；密钥存 `localStorage ainews.cursor_api_key`，不上传。长按按钮可改/清密钥。Agent 按仓库根目录 `CURSOR_REFRESH.md` 抓取并 **push 到 main**。
@@ -22,6 +22,7 @@
 | alphaXiv | 论文（讨论链） | `https://www.alphaxiv.org/abs/<id>` |
 | LMArena | 模型 | HF 空间 Elo pickle 快照 |
 | Artificial Analysis | 模型 | 公开榜单 HTML 表 |
+| X 热门 AI 技能介绍 | 技能 | `raw/YYYY-MM-DD-skills-*.json`（Agent Skills / SKILL.md 等） |
 
 ## 安装
 
@@ -34,13 +35,14 @@
 
 1. Agent 用 `x.search_news` 抓 AI / 时政 / 创业 → `raw/YYYY-MM-DD-*.json`
 2. Agent 抓 GitHub Trending → `raw/YYYY-MM-DD-github-*.json`
+2b. Agent 用 `x.search_news` 抓热门 AI 技能介绍 → `raw/YYYY-MM-DD-skills-*.json`（无 X 时保留旧 skills，勿清空）
 3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py` 刷新一手源）→ `data.json`
 4. `bash tools/publish.sh` → 推公开仓
 
 重建 APK：
 
 ```bash
-VERSION_NAME=1.3.20261106 VERSION_CODE=11061109 bash /workspace/x-ai-news/android/build_apk.sh
+VERSION_NAME=1.4.20261107 VERSION_CODE=11061111 bash /workspace/x-ai-news/android/build_apk.sh
 ```
 
 ## 说明

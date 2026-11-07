@@ -12,9 +12,9 @@
 
 ## 成功标准
 
-1. 跑完抓取流水线，写出新的 `data.json`（保留全部频道：`ai` / `world` / `startup` / `github` / `papers` / `models`）。
+1. 跑完抓取流水线，写出新的 `data.json`（保留全部频道：`ai` / `world` / `startup` / `github` / `papers` / `models` / `skills`）。
 2. `git add` + `commit` + **`git push origin main`**（或当前即为 main 时 `git push`）。
-3. 在日志末尾打印：`generated_at` 与各频道条数（`ai_count` / `world_count` / `startup_count` / `github_count` / `papers_count` / `models_count` / `item_count`）。
+3. 在日志末尾打印：`generated_at` 与各频道条数（`ai_count` / `world_count` / `startup_count` / `github_count` / `papers_count` / `models_count` / `skills_count` / `item_count`）。
 
 ## 禁止事项
 
@@ -69,10 +69,17 @@ git push origin HEAD:main
 | `github` | Trending / 热度（中文说明） |
 | `papers` | HF Daily Papers + arXiv cs.AI/LG/CL；含 `alphaxiv_url` |
 | `models` | LMArena Elo 快照 + Artificial Analysis 公开榜 |
+| `skills` | X 上热门 AI 技能介绍（Agent Skills / SKILL.md / 技能包等） |
 
 - 用户可见标题 / 摘要 / hook：**中文**（模型名、论文英文原题可放 `origin_title` / 英文 title）。
 - 旧字段兼容；可有可选扩展字段。
 - LMArena 若 live API 失败：继续用 HF 空间公开 Elo pickle 快照，并在摘要标明快照日期。
+
+## 技能频道（skills）
+
+- 来源：X `search_news` 抓「热门 AI 技能 / Agent Skills / SKILL.md / Claude·Cursor 技能包」介绍。
+- raw：`raw/YYYY-MM-DD-skills-*.json`（`channel: skills`）。
+- **若本次 Cloud 环境无 X 工具或抓取为空：保留 data.json 里已有 `channel=skills` 条目，禁止整频道清空。**
 
 ## 故障处理
 

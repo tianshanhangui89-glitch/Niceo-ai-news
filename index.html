@@ -101,6 +101,7 @@ main{padding:12px var(--pad) 0}
 .cat.github{background:#BBF7D0;color:#14532D}
 .cat.papers{background:#FECACA;color:#7F1D1D}
 .cat.models{background:#BFDBFE;color:#1E3A8A}
+.cat.skills{background:#FDE68A;color:#713F12}
 .cat.favch{background:#FBCFE8;color:#9D174D}
 .fav-btn{
   margin-left:auto;border:none;background:transparent;color:var(--muted);
@@ -147,7 +148,7 @@ main{padding:12px var(--pad) 0}
   <div class="row">
     <div class="brand">
       <h1>AI热点</h1>
-      <p id="sub">AI · 时政 · 创业 · GitHub · 论文 · 模型</p>
+      <p id="sub">AI · 时政 · 创业 · GitHub · 论文 · 模型 · 技能</p>
     </div>
     <div class="hdr-actions">
       <button class="btn" id="btnDates" type="button">日期</button>
@@ -162,6 +163,7 @@ main{padding:12px var(--pad) 0}
     <button class="tab" type="button" data-ch="github">GitHub</button>
     <button class="tab" type="button" data-ch="papers">论文</button>
     <button class="tab" type="button" data-ch="models">模型</button>
+    <button class="tab" type="button" data-ch="skills">技能</button>
     <button class="tab" type="button" data-ch="fav">收藏</button>
   </div>
   <div class="search">
@@ -190,7 +192,7 @@ let DATA = {items:[], generated_at:"", days:[]};
 let filterDate = "all";
 let filterCat = "all";
 let query = "";
-let channel = "ai"; // ai | world | startup | github | fav
+let channel = "ai"; // ai | world | startup | github | papers | models | skills | fav
 let FAVS = loadFavs();
 
 const $ = (id)=>document.getElementById(id);
@@ -235,7 +237,7 @@ function toggleFav(it, ev){
   render();
 }
 function chLabel(ch){
-  return ({ai:"AI",world:"时政",startup:"创业",github:"GitHub",papers:"论文",models:"模型",fav:"收藏"})[ch]||ch;
+  return ({ai:"AI",world:"时政",startup:"创业",github:"GitHub",papers:"论文",models:"模型",skills:"技能",fav:"收藏"})[ch]||ch;
 }
 function catClass(it){
   const ch=it.channel||"ai";
@@ -244,6 +246,7 @@ function catClass(it){
   if(ch==="github") return "cat github";
   if(ch==="papers") return "cat papers";
   if(ch==="models") return "cat models";
+  if(ch==="skills") return "cat skills";
   return "cat";
 }
 
@@ -366,6 +369,7 @@ function openLabel(it){
   if(ch==="github") return "打开仓库 →";
   if(ch==="papers") return "打开论文 →";
   if(ch==="models") return "打开榜单 →";
+  if(ch==="skills") return "打开原帖 →";
   if((it.source||"").includes("smol") || it.source==="The Batch" || it.source==="smol.ai") return "看原文 →";
   if((it.source||"").includes("X") || (it.url||"").includes("x.com")) return "看原文 →";
   return "看原文 →";
@@ -375,6 +379,7 @@ function primaryBtnLabel(it){
   if(ch==="github") return "打开仓库";
   if(ch==="papers") return "打开论文";
   if(ch==="models") return "打开榜单";
+  if(ch==="skills") return "打开原帖";
   return "看原文";
 }
 function ghStatsHtml(it){
@@ -647,8 +652,8 @@ function buildRefreshPrompt(){
     "Refresh all AI热点 feeds now and publish data.json to main.",
     "Steps: python3 tools/ingest_primary.py && python3 tools/fetch_news.py;",
     "then git add data.json (and raw/*.json if present), commit, git push origin HEAD:main.",
-    "Print generated_at and per-channel counts (ai/world/startup/github/papers/models).",
-    "Preserve channels ai (X+smol.ai+The Batch), world, startup, github, papers, models.",
+    "Print generated_at and per-channel counts (ai/world/startup/github/papers/models/skills).",
+    "Preserve channels ai (X+smol.ai+The Batch), world, startup, github, papers, models, skills.",
     "Chinese titles/summaries/hooks; keep English model names / origin_title. Do not invent metrics.",
     "Do not rebuild APK. Do not change Android/UI unless ingest scripts are broken.",
     "Do not touch Xiaohongshu or social accounts. workOnCurrentBranch must stay on main."
