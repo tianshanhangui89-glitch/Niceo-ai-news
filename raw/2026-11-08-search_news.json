@@ -248,7 +248,7 @@
       "id": "2118427442922901851",
       "name": "Anthropic AI Capabilities Accelerate Twice as Fast, METR Reports",
       "summary": "A METR assessment, drawn from three months of Anthropic's internal data like benchmark scores and researcher interviews, finds model improvements on key tasks now happening at about 2x the rate from March 2024 to October 2025, with internal AECI scores packing two years of prior progress into one. Around 80% of this speedup stems from AI aiding R&D, and METR sees no clear barriers to even faster gains ahead. Anthropic's Sam McCandlish agreed the findings match their view but defended redactions of sensitive details, while lawmakers like Rep. Greg Casar called to ban recursive self-improvement amid rising concerns.",
-      "hook": "Anthropic 的人工智能模型正在以前两倍的速度进步，这在很大程度上得益于人工智能工具帮助他们自己的研究人员进一步推动界限。",
+      "hook": "Anthropic 的人工智能模型正在以以前两倍的速度前进，这在很大程度上要归功于人工智能工具帮助他们自己的研究人员进一步突破界限。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -259,7 +259,12 @@
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T18:23:17.000Z",
       "url": "https://x.com/i/trending/2118427442922901851",
-      "_hook_en": "Anthropic's AI models are advancing at double the previous speed, largely thanks to AI tools helping their own researchers push boundaries further."
+      "_hook_en": "Anthropic's AI models are advancing at double the previous speed, largely thanks to AI tools helping their own researchers push boundaries further.",
+      "_pretranslated": {
+        "title": "METR 报告称，人择人工智能能力加速速度提高了一倍",
+        "summary": "METR 评估根据 Anthropic 三个月的内部数据（如基准分数和研究人员访谈）得出，发现关键任务的模型改进速度是 2024 年 3 月至 2025 年 10 月的两倍左右，内部 AECI 分数将之前两年的进展压缩为一年。大约 80% 的加速源于人工智能对研发的帮助，METR 认为未来更快的进步没有明显的障碍。 Anthropic 的 Sam McCandlish 同意研究结果符合他们的观点，但为修改进行辩护",
+        "category": "动态"
+      }
     },
     {
       "id": "2118812904648794590",
@@ -1352,7 +1357,7 @@
       "id": "2118555311078309901",
       "name": "OpenAI and Anthropic Locked in AI Model Release Standoff",
       "summary": "Reports indicated OpenAI's next models, like GPT-6.2 Astra and cyber updates, might launch as early as November 6, 2026, but nothing happened. Anthropic has yet to release Fable 5.5, leaving its Fable 5.1 as the latest flagship. Observers call it a waiting game, with analysts noting OpenAI fears Fable while Anthropic eyes Astra, amid high stakes like Anthropic's IPO. Both filled the quiet with side announcements, as users hope for breakthroughs soon.",
-      "hook": "人工智能爱好者不断刷新他们的动态，等待下一款大模型的发布，但它始终没有到来。OpenAI 和 Anthropic 似乎陷入僵局，双方都在等待对方先行动。",
+      "hook": "人工智能爱好者不断刷新他们的动态，等待下一个不会到来的大型模型发布。 OpenAI 和 Anthropic 似乎陷入了困境，双方都在犹豫，直到对方先采取行动。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1363,7 +1368,12 @@
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T01:01:03.000Z",
       "url": "https://x.com/i/trending/2118555311078309901",
-      "_hook_en": "AI enthusiasts keep refreshing their feeds, waiting for the next big model drop that just won't come. OpenAI and Anthropic seem stuck, each holding back until the other moves first."
+      "_hook_en": "AI enthusiasts keep refreshing their feeds, waiting for the next big model drop that just won't come. OpenAI and Anthropic seem stuck, each holding back until the other moves first.",
+      "_pretranslated": {
+        "title": "OpenAI 和 Anthropic 陷入 AI 模型发布僵局",
+        "summary": "有报道称 OpenAI 的下一个模型，例如 GPT-6.2 Astra 和网络更新，最早可能会在 2026 年 11 月 6 日推出，但什么也没发生。 Anthropic 尚未发布《神鬼寓言 5.5》，其最新旗舰产品是《神鬼寓言 5.1》。观察人士称这是一场等待游戏，分析师指出 OpenAI 担心 Fable，而 Anthropic 则关注 Astra，因为 Anthropic 的 IPO 等高风险。由于用户希望尽快取得突破，两者都通过侧面公告填补了沉默。",
+        "category": "动态"
+      }
     },
     {
       "id": "2119072383084503233",
@@ -1434,7 +1444,7 @@
       "id": "2118406567187947755",
       "name": "Anthropic Launches Personal Finance Feature in Claude for U.S. Users",
       "summary": "The Personal Finance feature lets U.S. Pro, Max, and Ultra plan users connect bank and credit card accounts via Plaid for read-only access. Claude pulls balances, transactions, and spending categories to answer simple questions like monthly summaries or cash left after bills, complete with charts—no fund transfers or advice given. Users appreciate the convenience but voice privacy worries and frustration over the U.S.-only rollout, while Anthropic stresses no data training and easy unlinking. It's part of AI's shift toward helpful personal tools, following similar ChatGPT updates.",
-      "hook": "想象一下，你可以在不离开聊天的情况下向你的人工智能询问快速的支出明细。Anthropic 的新测试工具通过安全地关联银行账户，使 Claude 订阅者能够实现这一点。",
+      "hook": "想象一下，在不离开聊天的情况下，要求人工智能快速提供支出明细。 Anthropic 的新测试版工具通过安全地链接银行账户，使 Claude 订阅者能够实现这一点。",
       "category": "News",
       "contexts": {
         "topics": [
@@ -1444,7 +1454,12 @@
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T16:17:44.000Z",
       "url": "https://x.com/i/trending/2118406567187947755",
-      "_hook_en": "Imagine asking your AI for a quick spending breakdown without leaving the chat. Anthropic's new beta tool makes that possible for Claude subscribers by linking bank accounts securely."
+      "_hook_en": "Imagine asking your AI for a quick spending breakdown without leaving the chat. Anthropic's new beta tool makes that possible for Claude subscribers by linking bank accounts securely.",
+      "_pretranslated": {
+        "title": "Anthropic 为美国用户推出 Claude 个人理财功能",
+        "summary": "个人理财功能允许 U.S. Pro、Max 和 Ultra 计划用户通过 Plaid 连接银行和信用卡帐户以进行只读访问。克劳德提取余额、交易和支出类别来回答简单的问题，例如每月摘要或账单后剩余的现金，并附有图表 - 没有提供资金转账或建议。用户欣赏这种便利，但表达了对仅在美国推出的隐私担忧和沮丧，而 Anthropic 则强调没有数据训练和容易取消链接。它",
+        "category": "动态"
+      }
     },
     {
       "id": "2119068289079116040",
@@ -1472,7 +1487,7 @@
       "id": "2118264704204226796",
       "name": "Seedance 2.5 Delivers Cinematic AI Videos with Built-in Audio",
       "summary": "Seedance 2.5 generates realistic and fantastical videos up to 30 seconds long in one go, complete with synchronized audio and support for reference images, videos, and clips. Creators praise its consistent characters, storytelling flow, and region-specific edits, sharing mind-blowing outputs like dramatic chases, misty forest walks, and dragon encounters. Platforms like Voyager make it more accessible at lower costs with storyboards to reduce failed tries, fueling fuller narratives from wild ideas.",
-      "hook": "想象一条巨大的白龙面对冒险者，或者一只小小的橙色生物从洞里探出头——这些超现实的场景在字节跳动最新的 AI 工具中以流畅的 30 秒短片呈现出来。",
+      "hook": "想象一下一条巨大的白龙面对着冒险家，或者一个微小的橙色生物从洞里偷看——这些超现实的场景在字节跳动最新人工智能工具的 30 秒流畅剪辑中栩栩如生。",
       "category": "Entertainment",
       "contexts": {
         "topics": [
@@ -1483,7 +1498,12 @@
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T05:52:26.000Z",
       "url": "https://x.com/i/trending/2118264704204226796",
-      "_hook_en": "Imagine a massive white dragon facing adventurers or a tiny orange creature peeking from a hole—these surreal scenes come alive in smooth 30-second clips from ByteDance's latest AI tool."
+      "_hook_en": "Imagine a massive white dragon facing adventurers or a tiny orange creature peeking from a hole—these surreal scenes come alive in smooth 30-second clips from ByteDance's latest AI tool.",
+      "_pretranslated": {
+        "title": "Seedance 2.5 通过内置音频提供影院级 AI 视频",
+        "summary": "Seedance 2.5 一次性生成长达 30 秒的逼真且奇幻的视频，并配有同步音频并支持参考图像、视频和剪辑。创作者称赞其一致的角色、故事讲述流程和针对特定地区的编辑，分享令人兴奋的输出，如戏剧性的追逐、迷雾森林漫步和与龙的遭遇。像 Voyager 这样的平台可以通过故事板以更低的成本更容易地访问它，以减少失败的尝试，从而从狂野的想法中推动更完整的叙述",
+        "category": "AI技能"
+      }
     },
     {
       "id": "2118280391975117053",
@@ -1660,7 +1680,7 @@
       "id": "2118611293850755377",
       "name": "AI Tools Enable Full Games in One Day, Dividing Developers",
       "summary": "One creator detailed an original title made in a day, while another quit their job to craft what they called the world’s first AAA-quality sci-fi FPS with AI help, complete with combat and bosses. A site now releases multiple fully automated AI-generated browser games daily, covering art, code, and sound. Supporters praise the speed for faster prototyping, but critics highlight glitches like frozen textures and question the value without deeper human effort, echoing debates over creativity in Roblox's 70,000 AI-assisted games and Steam releases.",
-      "hook": "开发者们正在分享使用 AI 技术栈如 Opus 5.5、Flux 3 Max 和 Three.js 在 24 小时内完成的完整浏览器游戏的帖子和视频。这些成果让一些人感到欣喜，而另一些人则提出尖锐批评。",
+      "hook": "开发人员正在分享使用 Opus 5.5、Flux 3 Max 和 Three.js 等 AI 堆栈在 24 小时内构建的完整网页游戏的线程和视频。结果引起了一些人的喜悦，也引起了另一些人的尖锐批评。",
       "category": "Other",
       "contexts": {
         "topics": [
@@ -1672,7 +1692,12 @@
       "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
       "updated_at": "2026-11-07T00:22:21.000Z",
       "url": "https://x.com/i/trending/2118611293850755377",
-      "_hook_en": "Developers are sharing threads and videos of complete browser games built in 24 hours using AI stacks like Opus 5.5, Flux 3 Max, and Three.js. The results spark joy in some and sharp critiques in others."
+      "_hook_en": "Developers are sharing threads and videos of complete browser games built in 24 hours using AI stacks like Opus 5.5, Flux 3 Max, and Three.js. The results spark joy in some and sharp critiques in others.",
+      "_pretranslated": {
+        "title": "人工智能工具可以在一天之内完成完整游戏，这让开发者产生了分歧",
+        "summary": "一位创作者详细介绍了一天内制作的原创游戏，而另一位创作者则辞去工作，在人工智能的帮助下打造了他们所谓的世界上第一款 AAA 品质的科幻第一人称射击游戏，并配有战斗和 Boss。某网站现在每天都会发布多款完全自动化的人工智能生成的浏览器游戏，涵盖美术、代码和声音。支持者赞扬更快的原型制作速度，但批评者强调了诸如冻结纹理之类的故障，并质疑在没有更深入的人类努力的情况下的价值，这呼应了关于 Ro 创造力的争论",
+        "category": "技能合集"
+      }
     },
     {
       "id": "2118351763493253454",
