@@ -143,6 +143,7 @@ main{padding:12px var(--pad) 0}
 }
 #detail h2{margin:8px 0 10px;font-size:20px}
 #detail .actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+#detail .actions .btn:disabled{cursor:not-allowed;filter:grayscale(.2)}
 </style>
 </head>
 <body>
@@ -208,7 +209,37 @@ function setStatus(text, mode){
 }
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));}
 function openUrl(url){
-  try{ window.open(url, "_blank"); }catch(e){ location.href=url; }
+  if(!url) return;
+  try{
+    const w=window.open(url, "_blank");
+    if(!w) location.href=url;
+  }catch(e){ location.href=url; }
+}
+function isXUrl(u){
+  const s=String(u||"").toLowerCase();
+  return (s.includes("x.com/")||s.includes("twitter.com/")) && s.includes("/status/");
+}
+function isGithubUrl(u){
+  return String(u||"").toLowerCase().includes("github.com/");
+}
+function skillXUrl(it){
+  if(!it) return "";
+  if(isXUrl(it.x_url)) return it.x_url;
+  if(isXUrl(it.url)) return it.url;
+  return "";
+}
+function skillGithubUrl(it){
+  if(!it) return "";
+  if(isGithubUrl(it.github_url)) return it.github_url;
+  const repo=String(it.repo||"").trim();
+  if(/^[\w.-]+\/[\w.-]+$/.test(repo)) return "https://github.com/"+repo;
+  if(isGithubUrl(it.url)) return it.url;
+  const blob=String(it.install||"");
+  const m=blob.match(/https?:\/\/github\.com\/[\w.-]+\/[\w.-]+/i);
+  if(m) return m[0];
+  const m2=blob.match(/npx\s+skills(?:@latest)?\s+add\s+(?:https?:\/\/github\.com\/)?([\w.-]+\/[\w.-]+)/i);
+  if(m2) return "https://github.com/"+m2[1];
+  return "";
 }
 function loadFavs(){
   try{ const j=JSON.parse(localStorage.getItem(FAV_KEY)||"{}"); return (j && typeof j==="object")?j:{}; }
@@ -222,7 +253,7 @@ function snapshot(it){
   return {
     id:it.id, title:it.title, summary:it.summary, url:it.url, source:it.source,
     author:it.author, published_at:it.published_at, date:it.date, category:it.category,
-    topics:it.topics||[], hook:it.hook||"", disclaimer:it.disclaimer||"", skill_name:it.skill_name||"", install:it.install||"", repo:it.repo||"",
+    topics:it.topics||[], hook:it.hook||"", disclaimer:it.disclaimer||"", skill_name:it.skill_name||"", install:it.install||"", repo:it.repo||"", x_url:it.x_url||"", github_url:it.github_url||"",
     channel:it.channel||"ai", language:it.language, stars:it.stars, forks:it.forks,
     rank:it.rank, period:it.period, stars_today:it.stars_today, metrics:it.metrics||{},
     origin_title:it.origin_title, paper_id:it.paper_id, arxiv_id:it.arxiv_id, alphaxiv_url:it.alphaxiv_url,
@@ -504,6 +535,20 @@ function showDetail(id, fromFav){
   const it=findItem(id, !!fromFav);
   if(!it) return;
   const favOn=isFav(it.id);
+  const isSkill=(it.channel==="skills");
+  const xUrl=isSkill?skillXUrl(it):"";
+  const ghUrl=isSkill?skillGithubUrl(it):"";
+  const copyTarget=isSkill?(xUrl||ghUrl||it.url||""):(it.url||"");
+  let actionBtns="";
+  if(isSkill){
+    if(xUrl) actionBtns+=`<button class="btn primary" type="button" id="openX">看 X 原帖</button>`;
+    else actionBtns+=`<button class="btn" type="button" id="openX" disabled style="opacity:.45">看 X 原帖</button>`;
+    if(ghUrl) actionBtns+=`<button class="btn primary" type="button" id="openGh">打开 GitHub</button>`;
+    else actionBtns+=`<button class="btn" type="button" id="openGh" disabled style="opacity:.45">打开 GitHub</button>`;
+  }else{
+    actionBtns=`<button class="btn primary" type="button" id="openSrc">${primaryBtnLabel(it)}</button>`;
+    if(it.alphaxiv_url) actionBtns+=`<button class="btn" type="button" id="openAlpha">讨论 alphaXiv</button>`;
+  }
   $("detail").style.display="block";
   $("sheet").innerHTML=`
     <div class="row"><span class="${catClass(it)}">${esc(catDisplay(it.category, it.channel||"ai"))}</span>
@@ -517,19 +562,23 @@ function showDetail(id, fromFav){
     ${it.skill_name?`<p style="margin:8px 0 0;color:#A5B4C8;font-size:12px">Skill：${esc(it.skill_name)}${it.repo?" · "+esc(it.repo):""}</p>`:""}
     ${it.hook?`<p style="margin:12px 0 0;color:#A5B4C8;font-size:13px">导语：${esc(it.hook)}</p>`:""}
     <div class="actions">
-      <button class="btn primary" type="button" id="openSrc">${primaryBtnLabel(it)}</button>
-      ${it.alphaxiv_url?`<button class="btn" type="button" id="openAlpha">讨论 alphaXiv</button>`:""}
+      ${actionBtns}
       <button class="btn" type="button" id="togFav">${favOn?"取消收藏 ★":"收藏 ☆"}</button>
       <button class="btn" type="button" id="copyLink">复制链接</button>
     </div>
     <p style="margin:14px 0 0;color:var(--muted);font-size:11px">摘要可能随讨论演变；请点原文核实。收藏保存在本机，不会上传。非投资/医疗建议。</p>`;
   $("closeDetail").onclick=()=>{$("detail").style.display="none";};
-  $("openSrc").onclick=()=>openUrl(it.url);
-  const oa=$("openAlpha"); if(oa) oa.onclick=()=>openUrl(it.alphaxiv_url);
+  if(isSkill){
+    const bx=$("openX"); if(bx && xUrl) bx.onclick=()=>openUrl(xUrl);
+    const bg=$("openGh"); if(bg && ghUrl) bg.onclick=()=>openUrl(ghUrl);
+  }else{
+    $("openSrc").onclick=()=>openUrl(it.url);
+    const oa=$("openAlpha"); if(oa) oa.onclick=()=>openUrl(it.alphaxiv_url);
+  }
   $("togFav").onclick=(e)=>{ toggleFav(it,e); showDetail(id, fromFav); };
   $("copyLink").onclick=async()=>{
-    try{ await navigator.clipboard.writeText(it.url); toast("已复制链接"); }
-    catch(e){ toast(it.url); }
+    try{ await navigator.clipboard.writeText(copyTarget); toast("已复制链接"); }
+    catch(e){ toast(copyTarget); }
   };
   $("detail").onclick=(e)=>{ if(e.target.id==="detail") $("detail").style.display="none"; };
 }

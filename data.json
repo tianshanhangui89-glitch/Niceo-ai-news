@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09 10:18:47 +08:00",
-  "generated": "2026-11-09 10:18:47 +08:00",
+  "generated_at": "2026-11-09 10:39:35 +08:00",
+  "generated": "2026-11-09 10:39:35 +08:00",
   "timezone": "Asia/Shanghai",
   "source": "x.search_news+x.search_posts+github+papers+models+skills+primary",
   "item_count": 689,
@@ -2236,7 +2236,9 @@
       "channel": "skills",
       "skill_name": "obra/superpowers",
       "install": "例：npx skills add obra/superpowers ；npx skills add anthropics/skills@frontend-design",
-      "repo": "obra/superpowers"
+      "repo": "obra/superpowers",
+      "x_url": "https://x.com/bpflmzj/status/2119408291839381961",
+      "github_url": "https://github.com/obra/superpowers"
     },
     {
       "id": "2118712117738008893",
@@ -2477,7 +2479,9 @@
       "channel": "skills",
       "skill_name": "remotion-clone-video",
       "install": "npx skills add crafter-station/remotion-clone-video -a claude-code",
-      "repo": "crafter-station/remotion-clone-video"
+      "repo": "crafter-station/remotion-clone-video",
+      "x_url": "https://x.com/Manojkumar2257/status/2119288319603601526",
+      "github_url": "https://github.com/crafter-station/remotion-clone-video"
     },
     {
       "id": "2119193388322791487",
@@ -2612,7 +2616,8 @@
       "channel": "skills",
       "skill_name": "frontend-design",
       "install": "npx skills add anthropics/skills --skill frontend-design",
-      "repo": "anthropics/skills"
+      "repo": "anthropics/skills",
+      "github_url": "https://github.com/anthropics/skills"
     },
     {
       "id": "2119210352743469511",
@@ -3764,7 +3769,9 @@
       "channel": "skills",
       "skill_name": "swiftui-expert-skill",
       "install": "npx skills@latest add https://github.com/avdlee/swiftui-agent-skill --skill swiftui-expert-skill",
-      "repo": "AvdLee/SwiftUI-Agent-Skill"
+      "repo": "AvdLee/SwiftUI-Agent-Skill",
+      "x_url": "https://x.com/twannl/status/2119066096917520649",
+      "github_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill"
     },
     {
       "id": "2118878938697286142",
@@ -3972,7 +3979,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "ljg-card",
-      "install": "在 Codex 等 Agent 中安装开源合集里的 ljg-card（可只装这一项）"
+      "install": "npx skills add lijigang/ljg-skills --skill ljg-card",
+      "repo": "lijigang/ljg-skills",
+      "x_url": "https://x.com/Morry4AI/status/2119012866351411403",
+      "github_url": "https://github.com/lijigang/ljg-skills"
     },
     {
       "id": "2118515779704328349",
@@ -7461,7 +7471,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "Story Studio",
-      "install": "按原帖安装 Story Studio，从选题一路生成到剪映草稿"
+      "install": "npx skills add konlu/story-studio",
+      "repo": "konlu/story-studio",
+      "x_url": "https://x.com/Morry4AI/status/2118606623195500975",
+      "github_url": "https://github.com/konlu/story-studio"
     },
     {
       "id": "2118604094084448368",
@@ -10537,7 +10550,9 @@
       "channel": "skills",
       "skill_name": "garden-skills",
       "install": "npx skills add ConardLi/garden-skills",
-      "repo": "ConardLi/garden-skills"
+      "repo": "ConardLi/garden-skills",
+      "x_url": "https://x.com/AISuperDomain/status/2118356546698760516",
+      "github_url": "https://github.com/ConardLi/garden-skills"
     },
     {
       "id": "2118355780474937831",
@@ -10559,7 +10574,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "去AI味 Skill（lieflat）",
-      "install": "按原帖 Skill 安装后，对文稿跑检测报告再改写"
+      "install": "npx skills add larashero3-dotcom/lieflat-less-ai-tone",
+      "repo": "larashero3-dotcom/lieflat-less-ai-tone",
+      "x_url": "https://x.com/lieflat_3/status/2118355780474937831",
+      "github_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone"
     },
     {
       "id": "2118110195176157443",
@@ -10944,7 +10962,9 @@
       "channel": "skills",
       "skill_name": "awesome-short-drama-skills",
       "install": "npx skills add UnderleveledBuilder/awesome-short-drama-skills",
-      "repo": "UnderleveledBuilder/awesome-short-drama-skills"
+      "repo": "UnderleveledBuilder/awesome-short-drama-skills",
+      "x_url": "https://x.com/bitmeowAI/status/2118264004221235707",
+      "github_url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills"
     },
     {
       "id": "2118257483693322658",
@@ -11122,7 +11142,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "answer-me-with-html",
-      "install": "安装开源 Skill answer-me-with-html，输出 HTML 在浏览器查看"
+      "install": "npx skills add QingYunA/answer-me-with-html",
+      "repo": "QingYunA/answer-me-with-html",
+      "x_url": "https://x.com/Morry4AI/status/2118162383310831763",
+      "github_url": "https://github.com/QingYunA/answer-me-with-html"
     },
     {
       "id": "2118113416456065424",
@@ -11189,7 +11212,9 @@
       "channel": "skills",
       "skill_name": "video-director",
       "install": "npx skills add aakashH242/video-director --skill video-director",
-      "repo": "aakashH242/video-director"
+      "repo": "aakashH242/video-director",
+      "x_url": "https://x.com/aakashH242/status/2118148694164037989",
+      "github_url": "https://github.com/aakashH242/video-director"
     },
     {
       "id": "2118142597440872803",
@@ -11788,7 +11813,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "unslop",
-      "install": "从开源仓库安装 unslop，按找问题→定方向→逐步改执行"
+      "install": "npx skills add heydamir/unslop",
+      "repo": "heydamir/unslop",
+      "x_url": "https://x.com/Morry4AI/status/2117882546352771154",
+      "github_url": "https://github.com/heydamir/unslop"
     },
     {
       "id": "hf-2611.06042",
@@ -12117,7 +12145,9 @@
       "channel": "skills",
       "skill_name": "anatomy",
       "install": "npx skills add wheresryan22/anatomy",
-      "repo": "wheresryan22/anatomy"
+      "repo": "wheresryan22/anatomy",
+      "x_url": "https://x.com/sumitdesk/status/2117563737968369925",
+      "github_url": "https://github.com/wheresryan22/anatomy"
     },
     {
       "id": "hf-2611.04408",
@@ -12183,7 +12213,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "pixelfx",
-      "install": "用 Agent 调用 pixelfx Skill，或预览 Gallery 后导出"
+      "install": "npx skills add patch-gg/pixelfx",
+      "repo": "patch-gg/pixelfx",
+      "x_url": "https://x.com/Morry4AI/status/2117488203217477899",
+      "github_url": "https://github.com/patch-gg/pixelfx"
     },
     {
       "id": "2117475589540229603",
@@ -12206,7 +12239,9 @@
       "channel": "skills",
       "skill_name": "marketingskills",
       "install": "npx skills add coreyhaines31/marketingskills",
-      "repo": "coreyhaines31/marketingskills"
+      "repo": "coreyhaines31/marketingskills",
+      "x_url": "https://x.com/the_real_siqide/status/2117475589540229603",
+      "github_url": "https://github.com/coreyhaines31/marketingskills"
     },
     {
       "id": "hf-2611.04277",
@@ -12349,7 +12384,9 @@
       "channel": "skills",
       "skill_name": "skills CLI (vercel-labs)",
       "install": "npx skills add vercel-labs/agent-skills  （或 npx skills find <关键词>）",
-      "repo": "vercel-labs/skills"
+      "repo": "vercel-labs/skills",
+      "x_url": "https://x.com/StreetAnalyst_/status/2117082277918429456",
+      "github_url": "https://github.com/vercel-labs/skills"
     },
     {
       "id": "hf-2611.03743",
@@ -12516,7 +12553,9 @@
       "channel": "skills",
       "skill_name": "teardown",
       "install": "npx skills add elvarofficial/teardown -g -a claude-code",
-      "repo": "elvarofficial/teardown"
+      "repo": "elvarofficial/teardown",
+      "x_url": "https://x.com/AIhaveadream1/status/2117021222516986082",
+      "github_url": "https://github.com/elvarofficial/teardown"
     },
     {
       "id": "hf-2611.01926",
@@ -12563,7 +12602,8 @@
       "channel": "skills",
       "skill_name": "stageshow",
       "install": "npx skills add benjitaylor/skills --skill stageshow",
-      "repo": "benjitaylor/skills"
+      "repo": "benjitaylor/skills",
+      "github_url": "https://github.com/benjitaylor/skills"
     },
     {
       "id": "2116796747200799060",
@@ -12585,7 +12625,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "花叔设计 Skill",
-      "install": "按花叔原帖 / Morry 分享安装该设计 Skill 后按场景提示生成"
+      "install": "npx skills add alchaincyf/huashu-design",
+      "repo": "alchaincyf/huashu-design",
+      "x_url": "https://x.com/Morry4AI/status/2116796747200799060",
+      "github_url": "https://github.com/alchaincyf/huashu-design"
     },
     {
       "id": "hf-2611.02075",
@@ -12743,7 +12786,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "SkillSpector",
-      "install": "让 Codex 安装 NVIDIA SkillSpector，先对目标仓做 --no-llm 静态扫描"
+      "install": "见仓库 README：uv tool install git+https://github.com/NVIDIA/skillspector.git",
+      "repo": "NVIDIA/SkillSpector",
+      "x_url": "https://x.com/Morry4AI/status/2116038414739132696",
+      "github_url": "https://github.com/NVIDIA/SkillSpector"
     },
     {
       "id": "batch-issue-378",
@@ -12806,7 +12852,9 @@
       "channel": "skills",
       "skill_name": "spec-driven-development",
       "install": "npx skills add addyosmani/agent-skills --skill spec-driven-development --agent claude-code -y",
-      "repo": "addyosmani/agent-skills"
+      "repo": "addyosmani/agent-skills",
+      "x_url": "https://x.com/AiMaster1689/status/2115744550916403289",
+      "github_url": "https://github.com/addyosmani/agent-skills"
     },
     {
       "id": "smol-ainews-gemini-4-carbon",
@@ -12849,7 +12897,9 @@
       "channel": "skills",
       "skill_name": "video-skills",
       "install": "npx skills add sonnyproto/video-skills",
-      "repo": "sonnyproto/video-skills"
+      "repo": "sonnyproto/video-skills",
+      "x_url": "https://x.com/sonnyproto/status/2115630711743078884",
+      "github_url": "https://github.com/sonnyproto/video-skills"
     },
     {
       "id": "hf-2610.40119",
@@ -12916,7 +12966,9 @@
       "channel": "skills",
       "skill_name": "skill-diet",
       "install": "npx skills add nicobailon/skill-diet -g",
-      "repo": "nicobailon/skill-diet"
+      "repo": "nicobailon/skill-diet",
+      "x_url": "https://x.com/dngzsn37461/status/2115064818176778661",
+      "github_url": "https://github.com/nicobailon/skill-diet"
     },
     {
       "id": "smol-ainews-anthropic-s1",
@@ -12958,7 +13010,10 @@
       "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
       "channel": "skills",
       "skill_name": "diagram-design",
-      "install": "安装 diagram-design，把要可视化的段落交给它选结构出图"
+      "install": "npx skills add cathrynlavery/diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "x_url": "https://x.com/Morry4AI/status/2114959114107514885",
+      "github_url": "https://github.com/cathrynlavery/diagram-design"
     },
     {
       "id": "hf-2610.36544",
@@ -13029,7 +13084,9 @@
       "channel": "skills",
       "skill_name": "awesome-gamedev-agent-skills",
       "install": "npx skills add gamedev-skills/awesome-gamedev-agent-skills",
-      "repo": "gamedev-skills/awesome-gamedev-agent-skills"
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "x_url": "https://x.com/Achgdesigner/status/2114243327717503350",
+      "github_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills"
     },
     {
       "id": "hf-2610.34074",
@@ -13076,7 +13133,9 @@
       "channel": "skills",
       "skill_name": "Design-Lounge",
       "install": "npx skills add SusanAcharya/Design-Lounge",
-      "repo": "SusanAcharya/Design-Lounge"
+      "repo": "SusanAcharya/Design-Lounge",
+      "x_url": "https://x.com/nasusanooo/status/2113619065923305862",
+      "github_url": "https://github.com/SusanAcharya/Design-Lounge"
     },
     {
       "id": "named-prototype-emil",
@@ -13099,7 +13158,8 @@
       "channel": "skills",
       "skill_name": "prototype",
       "install": "npx skills add emilkowalski/skills --skill prototype",
-      "repo": "emilkowalski/skills"
+      "repo": "emilkowalski/skills",
+      "github_url": "https://github.com/emilkowalski/skills"
     },
     {
       "id": "2111852560625602569",
@@ -13122,7 +13182,9 @@
       "channel": "skills",
       "skill_name": "scientific-agent-skills",
       "install": "npx skills add K-Dense-AI/scientific-agent-skills",
-      "repo": "K-Dense-AI/scientific-agent-skills"
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "x_url": "https://x.com/KowalPrato4o/status/2111852560625602569",
+      "github_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     {
       "id": "arena-gemini-2.5-pro",
