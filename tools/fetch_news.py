@@ -700,6 +700,36 @@ def ensure_item_chinese(item: dict[str, Any]) -> dict[str, Any]:
     return item
 
 
+def persist_skills_zh(sid: str, payload: dict[str, str]) -> None:
+    """Append curated/machine Chinese for a skills id into skills_zh_map.py."""
+    try:
+        SKILLS_ZH[sid] = {**SKILLS_ZH.get(sid, {}), **payload}
+        map_path = Path(__file__).resolve().parent / "skills_zh_map.py"
+        key_line = json.dumps(sid, ensure_ascii=False)
+        if map_path.exists() and key_line in map_path.read_text(encoding="utf-8"):
+            return
+        with map_path.open("a", encoding="utf-8") as f:
+            f.write(f"SKILLS_ZH[{key_line}] = {json.dumps(payload, ensure_ascii=False)}\n")
+    except Exception:
+        pass
+
+
+def skills_category_zh(cat: str | None) -> str:
+    c = (cat or "").strip()
+    if has_cjk(c):
+        return c
+    mapping = {
+        "Other": "技能合集",
+        "News": "动态",
+        "Research": "研究",
+        "Tutorial": "教程",
+        "Guide": "指南",
+        "Product": "产品",
+        "AI": "AI技能",
+    }
+    return mapping.get(c, "AI技能")
+
+
 def translate_skills_fields(sid: str, en_title: str, en_sum: str, en_hook: str, cat: str | None) -> dict[str, str]:
     """Curated map > already Chinese > machine translate > [EN] fallback."""
     mapped = SKILLS_ZH.get(sid, {})
