@@ -144,6 +144,18 @@ main{padding:12px var(--pad) 0}
 #detail h2{margin:8px 0 10px;font-size:20px}
 #detail .actions{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
 #detail .actions .btn:disabled{cursor:not-allowed;filter:grayscale(.2)}
+#toTop{
+  position:fixed;right:14px;bottom:calc(28px + var(--safe-bot));z-index:35;
+  width:48px;height:48px;border-radius:999px;border:1px solid var(--line);
+  background:linear-gradient(135deg,#0891B2,#22D3EE);color:#042F2E;
+  font-size:13px;font-weight:800;line-height:1.15;cursor:pointer;
+  box-shadow:0 10px 28px rgba(0,0,0,.35);
+  display:none;align-items:center;justify-content:center;text-align:center;
+  padding:6px 4px;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;
+}
+#toTop.show{display:flex;opacity:1;transform:translateY(0)}
+#toTop:active{transform:scale(.96)}
+#toTop[hidden]{display:none !important}
 </style>
 </head>
 <body>
@@ -183,6 +195,7 @@ main{padding:12px var(--pad) 0}
   <div id="list"></div>
 </main>
 <div id="detail"><div class="sheet" id="sheet"></div></div>
+<button type="button" id="toTop" aria-label="回到顶部" title="回到顶部">回到<br>顶部</button>
 <div class="toast" id="toast"></div>
 <script>
 const REMOTES = [
@@ -590,6 +603,7 @@ $("tabs").querySelectorAll(".tab").forEach(el=>{
     channel=el.getAttribute("data-ch");
     filterCat="all";
     render();
+    scrollToTop(false);
   };
 });
 $("btnDates").onclick=()=>{
@@ -618,8 +632,41 @@ document.addEventListener("touchend",e=>{
 }, {passive:true});
 
 
+function scrollY(){
+  return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+}
+function scrollToTop(smooth){
+  try{
+    window.scrollTo({top:0, left:0, behavior: smooth===false ? "auto" : "smooth"});
+  }catch(e){
+    window.scrollTo(0,0);
+  }
+  // WebView 偶发只滚 html/body 其一
+  try{ document.documentElement.scrollTop=0; document.body.scrollTop=0; }catch(e){}
+  updateToTop();
+}
+function detailOpen(){
+  return $("detail") && $("detail").style.display==="block";
+}
+function updateToTop(){
+  const btn=$("toTop");
+  if(!btn) return;
+  const show = !detailOpen() && scrollY() > 320;
+  btn.classList.toggle("show", show);
+  if(show) btn.removeAttribute("hidden");
+  else btn.setAttribute("hidden","");
+}
+$("toTop").onclick=()=>scrollToTop(true);
+window.addEventListener("scroll", updateToTop, {passive:true});
+window.addEventListener("resize", updateToTop, {passive:true});
+// 详情开关后同步悬浮钮可见性
+const __detailEl=$("detail");
+const __detailObs=new MutationObserver(updateToTop);
+if(__detailEl) __detailObs.observe(__detailEl,{attributes:true,attributeFilter:["style"]});
+updateToTop();
+
 window.appBack=function(){
-  if($("detail").style.display==="block"){ $("detail").style.display="none"; return true; }
+  if($("detail").style.display==="block"){ $("detail").style.display="none"; updateToTop(); return true; }
   return false;
 };
 
