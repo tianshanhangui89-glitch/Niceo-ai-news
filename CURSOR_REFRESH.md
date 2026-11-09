@@ -71,7 +71,9 @@ git push origin HEAD:main
 | `models` | LMArena Elo 快照 + Artificial Analysis 公开榜 |
 | `skills` | 具名可装 Skill 安利（Morry 风格：技能名+场景+安装） |
 
-- 用户可见标题 / 摘要 / hook：**中文**（模型名、论文英文原题可放 `origin_title` / 英文 title）。
+- 用户可见标题 / 摘要 / hook：**全频道必须中文**（ai/world/startup/github 摘要/papers/models 说明/skills 全部适用）。模型名、GitHub `owner/repo`、论文英文原题可保留在 `title`（models/github）或 `origin_title`。
+- **禁止**把英文原文或 `[EN]` 前缀当作最终展示；未知条目须机翻（`translate_en_to_zh`：Argos 离线 / MyMemory / gtx）并写入 `tools/news_zh_map.py`；精选文案优先 `ZH_MAP` / `skills_zh_map` / `github_zh_map`。
+- skills 继续走具名可装过滤（`is_named_installable_skill`），不要退回 Harness 概念帖。
 - 旧字段兼容；可有可选扩展字段。
 - LMArena 若 live API 失败：继续用 HF 空间公开 Elo pickle 快照，并在摘要标明快照日期。
 

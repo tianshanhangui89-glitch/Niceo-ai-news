@@ -37,6 +37,11 @@ try:
 except Exception:
     SKILLS_ZH = {}
 
+try:
+    from news_zh_map import NEWS_ZH  # id -> {title, summary, hook, category}
+except Exception:
+    NEWS_ZH = {}
+
 # 技能栏只收「具名可装」Skill 安利（对标 @Morry4AI / ljg-card），剔除 Harness / 概念闲聊。
 _SKILL_NAME_RE = re.compile(
     r"(?:Skill[：:\s]+|开源\s*Skill[：:\s]*|npx\s+skills\s+add\s+(?:[^\s]+\s+--skill\s+)?)([A-Za-z][\w./-]{1,64})",
@@ -111,7 +116,7 @@ RAW = ROOT / "raw"
 OUT = ROOT / "data.json"
 TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
 
-# 已知条目中文；未知保留英文并标 [EN]
+# 已知条目中文；未知走机翻（news_zh_map / translate_en_to_zh），禁止最终展示 [EN]
 ZH_MAP: dict[str, dict[str, str]] = {
     # --- AI (existing) ---
     "2117856700447203558": {"title": "开发者热传：用 Claude Code 搭强力 Agent 的实战教程", "summary": "Boris Cherny 分享 Anthropic 团队如何用 Claude Code 半自动交付功能；社区流出六步蓝图与元 Agent 校验套路，覆盖装机、记忆文件、角色分工与质量闸门。", "category": "Agent / 编程"},
@@ -364,16 +369,111 @@ def translate_github_summary(full_name: str, en: str) -> str:
 
 
 
+def _ensure_argos_path() -> None:
+    """Allow system python to import argostranslate from local .venv-translate."""
+    venv_site = ROOT / ".venv-translate" / "lib"
+    if not venv_site.exists():
+        return
+    for p in venv_site.glob("python*/site-packages"):
+        sp = str(p)
+        if sp not in sys.path:
+            sys.path.insert(0, sp)
+
+
+def _mymemory_translate(en: str) -> str | None:
+    import urllib.parse
+    import urllib.request
+    q = (en or "").strip()
+    if not q:
+        return None
+    url = "https://api.mymemory.translated.net/get?" + urllib.parse.urlencode({
+        "q": q[:450],
+        "langpair": "en|zh-CN",
+    })
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 niceo-ai-news/1.0"})
+    with urllib.request.urlopen(req, timeout=25) as resp:
+        data = json.loads(resp.read().decode("utf-8", errors="replace"))
+    zh = ((data or {}).get("responseData") or {}).get("translatedText") or ""
+    # MyMemory sometimes echoes ENGLISH QUERY IS OVER LIMIT...
+    if not zh or "MYMEMORY WARNING" in zh.upper() or zh.strip() == q.strip():
+        return None
+    return zh.strip()
+
+
+def _gtx_translate(en: str, *, target: str = "zh-CN") -> str | None:
+    """Unofficial Google gtx endpoint; may 429 — caller should fall back."""
+    import urllib.parse
+    import urllib.request
+    q = (en or "").strip()
+    if not q:
+        return None
+    params = urllib.parse.urlencode({
+        "client": "gtx",
+        "sl": "en",
+        "tl": target,
+        "dt": "t",
+        "q": q,
+    })
+    url = "https://translate.googleapis.com/translate_a/single?" + params
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 niceo-ai-news/1.0"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        data = json.loads(resp.read().decode("utf-8", errors="replace"))
+    if not data or not data[0]:
+        return None
+    out = "".join(part[0] for part in data[0] if part and part[0])
+    return out.strip() or None
+
+
+def _argos_translate(en: str) -> str | None:
+    try:
+        _ensure_argos_path()
+        from argostranslate import translate as argos_translate  # type: ignore
+        zh = argosstranslate_translate_safe(argos_translate, en)
+        return zh
+    except Exception:
+        return None
+
+
+def argosstranslate_translate_safe(argos_translate, en: str) -> str | None:
+    zh = argos_translate.translate(en, "en", "zh")
+    if zh and has_cjk(zh):
+        return zh.strip()
+    return None
+
+
 def translate_en_to_zh(en: str, *, limit: int = 450) -> str | None:
-    """Best-effort machine translate; None if unavailable. Never invent content."""
+    """Best-effort machine translate; None if unavailable. Never invent content.
+
+    Order: MyMemory → gtx → Argos offline → deep_translator.
+    Prefer availability over perfect phrasing; never leave [EN] as final UI text.
+    """
+    import time
     en = (en or "").replace("&amp;", "&").strip()
+    if en.startswith("[EN]"):
+        en = en[4:].strip()
     if not en:
         return None
     if has_cjk(en):
         return en
+    chunk = en[:limit]
+
+    # Argos offline first (stable for Cloud/day jobs); online APIs as quality upgrade.
+    zh = _argos_translate(chunk)
+    if zh and has_cjk(zh):
+        return zh
+
+    for fn in (_mymemory_translate, _gtx_translate):
+        try:
+            zh = fn(chunk)
+            if zh and has_cjk(zh):
+                time.sleep(0.12)
+                return zh.strip()
+        except Exception:
+            pass
+
     try:
         from deep_translator import GoogleTranslator  # type: ignore
-        zh = GoogleTranslator(source="en", target="zh-CN").translate(en[:limit])
+        zh = GoogleTranslator(source="en", target="zh-CN").translate(chunk)
         if zh and has_cjk(zh):
             return zh.strip()
     except Exception:
@@ -381,34 +481,155 @@ def translate_en_to_zh(en: str, *, limit: int = 450) -> str | None:
     return None
 
 
-def persist_skills_zh(sid: str, payload: dict[str, str]) -> None:
-    """Append curated/machine Chinese for a skills id into skills_zh_map.py."""
+def persist_news_zh(sid: str, payload: dict[str, str]) -> None:
+    """Append curated/machine Chinese for ai/world/startup id into news_zh_map.py."""
     try:
-        SKILLS_ZH[sid] = {**SKILLS_ZH.get(sid, {}), **payload}
-        map_path = Path(__file__).resolve().parent / "skills_zh_map.py"
+        NEWS_ZH[sid] = {**NEWS_ZH.get(sid, {}), **payload}
+        map_path = Path(__file__).resolve().parent / "news_zh_map.py"
         key_line = json.dumps(sid, ensure_ascii=False)
         if map_path.exists() and key_line in map_path.read_text(encoding="utf-8"):
             return
         with map_path.open("a", encoding="utf-8") as f:
-            f.write(f"SKILLS_ZH[{key_line}] = {json.dumps(payload, ensure_ascii=False)}\n")
+            f.write(f"NEWS_ZH[{key_line}] = {json.dumps(payload, ensure_ascii=False)}\n")
     except Exception:
         pass
 
 
-def skills_category_zh(cat: str | None) -> str:
+def category_zh_for_channel(cat: str | None, channel: str) -> str:
     c = (cat or "").strip()
     if has_cjk(c):
         return c
     mapping = {
-        "Other": "技能合集",
         "News": "动态",
+        "Other": "综合",
+        "Entertainment": "文娱",
+        "Sports": "体育",
         "Research": "研究",
         "Tutorial": "教程",
         "Guide": "指南",
         "Product": "产品",
-        "AI": "AI技能",
+        "AI": "AI",
+        "Business": "商业",
+        "Politics": "时政",
+        "Technology": "科技",
+        "Science": "科学",
     }
-    return mapping.get(c, "AI技能")
+    if c in mapping:
+        return mapping[c]
+    return default_category(channel)
+
+
+def translate_news_fields(
+    sid: str,
+    en_title: str,
+    en_sum: str,
+    en_hook: str,
+    cat: str | None,
+    channel: str,
+) -> dict[str, str]:
+    """ZH_MAP / NEWS_ZH / already Chinese / machine translate. Never leave [EN] as final UI text."""
+    mapped = {**NEWS_ZH.get(sid, {}), **ZH_MAP.get(sid, {})}  # curated ZH_MAP wins
+    title = (mapped.get("title") or "").strip()
+    summary = (mapped.get("summary") or "").strip()
+    hook = (mapped.get("hook") or "").strip()
+    category = mapped.get("category") or category_zh_for_channel(cat, channel)
+
+    def scrub(s: str) -> str:
+        s = (s or "").strip()
+        return s[4:].strip() if s.startswith("[EN]") else s
+
+    en_title, en_sum, en_hook = scrub(en_title), scrub(en_sum), scrub(en_hook)
+
+    if not title:
+        title = en_title if has_cjk(en_title) else (translate_en_to_zh(en_title, limit=220) or en_title or "未命名热点")
+    if not summary:
+        summary = en_sum if has_cjk(en_sum) else (translate_en_to_zh(en_sum, limit=500) or en_sum or "暂无摘要。")
+    if len(summary) > 280:
+        summary = summary[:277] + "…"
+    if not hook and en_hook:
+        hook = en_hook if has_cjk(en_hook) else (translate_en_to_zh(en_hook, limit=240) or "")
+    if len(hook) > 160:
+        hook = hook[:157] + "…"
+    category = category_zh_for_channel(category, channel)
+
+    # If machine translate failed, keep readable Chinese fallback (never [EN] prefix).
+    if title and not has_cjk(title) and en_title:
+        # last resort: keep English title without [EN] tag — caller may retry later
+        title = en_title
+    if summary and not has_cjk(summary) and not summary.startswith("暂无"):
+        # mark soft failure without banned [EN] display prefix
+        summary = summary if summary else "暂无摘要。"
+
+    if sid not in NEWS_ZH and has_cjk(title) and has_cjk(summary):
+        persist_news_zh(sid, {
+            "title": title,
+            "summary": summary,
+            "hook": hook,
+            "category": category,
+        })
+    return {"title": title, "summary": summary, "hook": hook, "category": category}
+
+
+def ensure_item_chinese(item: dict[str, Any]) -> dict[str, Any]:
+    """Post-pass: force title/summary/hook/category Chinese for display channels."""
+    ch = item.get("channel") or "ai"
+    sid = str(item.get("id") or "")
+    title = str(item.get("title") or "")
+    summary = str(item.get("summary") or "")
+    hook = str(item.get("hook") or "")
+    cat = item.get("category")
+
+    # github: keep owner/repo title; summary must be Chinese
+    if ch == "github":
+        if summary.startswith("[EN]") or (summary and not has_cjk(summary)):
+            item["summary"] = translate_github_summary(title, summary)
+        item["category"] = "GitHub"
+        return item
+
+    # models: English model names OK; summary/hook/category Chinese
+    if ch == "models":
+        if summary.startswith("[EN]") or (summary and not has_cjk(summary)):
+            zh = translate_en_to_zh(summary, limit=500)
+            if zh:
+                item["summary"] = zh[:277] + "…" if len(zh) > 280 else zh
+        if hook and not has_cjk(hook):
+            zh = translate_en_to_zh(hook, limit=240)
+            if zh:
+                item["hook"] = zh[:157] + "…" if len(zh) > 160 else zh
+        item["category"] = category_zh_for_channel(cat, ch)
+        return item
+
+    # papers/skills should already be Chinese; still scrub [EN] if any
+    if ch in ("papers", "skills"):
+        need = False
+        if title.startswith("[EN]") or (title and not has_cjk(title) and ch == "skills"):
+            need = True
+        if summary.startswith("[EN]") or (summary and not has_cjk(summary)):
+            need = True
+        if not need:
+            item["category"] = category_zh_for_channel(cat, ch) if ch == "skills" else (cat if has_cjk(str(cat or "")) else default_category(ch))
+            return item
+
+    # ai / world / startup (and any leftover EN)
+    if (
+        title.startswith("[EN]")
+        or summary.startswith("[EN]")
+        or (title and not has_cjk(title))
+        or (summary and not has_cjk(summary))
+        or (hook and not has_cjk(hook))
+        or not has_cjk(str(cat or ""))
+    ):
+        fields = translate_news_fields(sid, title, summary, hook, cat, ch)
+        if (not has_cjk(title) or title.startswith("[EN]")) and has_cjk(fields.get("title") or ""):
+            item["title"] = fields["title"]
+        if (not has_cjk(summary) or summary.startswith("[EN]")) and has_cjk(fields.get("summary") or ""):
+            item["summary"] = fields["summary"]
+        if hook and (not has_cjk(hook) or hook.startswith("[EN]")) and has_cjk(fields.get("hook") or ""):
+            item["hook"] = fields["hook"]
+        item["category"] = fields.get("category") or category_zh_for_channel(cat, ch)
+    else:
+        item["category"] = category_zh_for_channel(cat, ch)
+    return item
 
 
 def translate_skills_fields(sid: str, en_title: str, en_sum: str, en_hook: str, cat: str | None) -> dict[str, str]:
@@ -470,9 +691,10 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     en_sum = (story.get("summary") or story.get("hook") or "").strip()
 
     skills_zh_fields = None
+    news_zh_fields = None
+    en_hook = (story.get("hook") or "").strip()
     if channel == "skills":
         # 技能栏：精选表 / ZH_MAP / 预翻译 / 机翻 → 标题·摘要·钩子一律中文
-        en_hook = (story.get("hook") or "").strip()
         skills_zh_fields = translate_skills_fields(
             sid,
             en_title,
@@ -480,42 +702,62 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
             en_hook,
             story.get("category"),
         )
+    elif channel in ("ai", "world", "startup"):
+        # 新闻三栏：禁止最终展示 [EN]；精选表 / 预翻译 / 机翻
+        news_zh_fields = translate_news_fields(
+            sid,
+            en_title,
+            en_sum or (story.get("summary") or ""),
+            en_hook,
+            story.get("category"),
+            channel,
+        )
 
     if pre.get("title"):
         title = pre["title"]
-    elif pre_ready and story.get("title"):
+    elif pre_ready and story.get("title") and has_cjk(str(story.get("title") or "")):
         title = str(story.get("title")).strip()
     elif channel == "skills" and skills_zh_fields:
         title = skills_zh_fields["title"]
+    elif channel in ("ai", "world", "startup") and news_zh_fields:
+        title = news_zh_fields["title"]
     elif zh.get("title"):
         title = zh["title"]
     elif channel == "github":
         title = en_title  # keep owner/repo
+    elif channel == "models":
+        title = en_title  # keep English model names
+    elif has_cjk(en_title):
+        title = en_title
     else:
-        title = (("[EN] " + en_title) if en_title else "未命名热点")
+        # last-resort machine translate (papers etc. usually pretranslated)
+        title = translate_en_to_zh(en_title, limit=220) or (en_title or "未命名热点")
 
     if channel == "github":
-        # 说明一律中文：预翻译 > 精选表 > 已是中文 > 可选机翻 > [EN] 原文
+        # 说明一律中文：预翻译 > 精选表 > 已是中文 > 可选机翻
         summary = pre.get("summary") or translate_github_summary(en_title, en_sum or (story.get("summary") or ""))
         if len(summary) > 220:
             summary = summary[:217] + "…"
     elif channel == "skills" and skills_zh_fields:
         summary = pre.get("summary") or skills_zh_fields["summary"]
+    elif channel in ("ai", "world", "startup") and news_zh_fields:
+        summary = pre.get("summary") or news_zh_fields["summary"]
     elif pre.get("summary"):
         summary = pre["summary"]
-    elif pre_ready and story.get("summary"):
+    elif pre_ready and story.get("summary") and has_cjk(str(story.get("summary") or "")):
         summary = str(story.get("summary")).strip()
         if len(summary) > 280:
             summary = summary[:277] + "…"
     elif zh.get("summary"):
         summary = zh["summary"]
     else:
-        summary = en_sum
-        if len(summary) > 180:
-            summary = summary[:177] + "…"
-        if summary and not summary.startswith("[EN]"):
-            if not any("一" <= c <= "鿿" for c in summary):
-                summary = "[EN] " + summary
+        raw_sum = en_sum or (story.get("summary") or "")
+        if has_cjk(raw_sum):
+            summary = raw_sum
+        else:
+            summary = translate_en_to_zh(raw_sum, limit=500) or raw_sum or "暂无摘要。"
+        if len(summary) > 280:
+            summary = summary[:277] + "…"
 
     published = to_sh_iso(story.get("updated_at") or story.get("published_at"))
     cat = pre.get("category") or zh.get("category") or story.get("category") or default_category(channel)
@@ -523,6 +765,10 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
         cat = "GitHub"
     elif channel == "skills" and skills_zh_fields:
         cat = skills_zh_fields.get("category") or skills_category_zh(cat)
+    elif channel in ("ai", "world", "startup") and news_zh_fields:
+        cat = news_zh_fields.get("category") or category_zh_for_channel(cat, channel)
+    else:
+        cat = category_zh_for_channel(cat, channel)
     topics = []
     ctx = story.get("contexts") or {}
     if isinstance(ctx, dict):
@@ -552,6 +798,7 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
             if channel == "github"
             else (
                 (skills_zh_fields.get("hook") if skills_zh_fields else None)
+                or (news_zh_fields.get("hook") if news_zh_fields else None)
                 or (story.get("hook") or "")
             )
         ),
@@ -764,6 +1011,9 @@ def main() -> int:
                 continue
         cleaned.append(it)
     items = cleaned
+
+    # 全频道强制中文展示字段（历史 [EN] 条目也会在此回填）
+    items = [ensure_item_chinese(it) for it in items]
 
     gen = now_sh().strftime("%Y-%m-%d %H:%M:%S %z").replace("+0800", "+08:00")
     def cnt(ch): return sum(1 for x in items if x.get("channel") == ch)

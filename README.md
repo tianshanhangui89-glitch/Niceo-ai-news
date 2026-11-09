@@ -49,5 +49,5 @@ VERSION_NAME=1.4.20261107 VERSION_CODE=11061111 bash /workspace/x-ai-news/androi
 
 - 摘要来自公开榜/简报，请点原文核实；不是投资或医疗建议。
 - 收藏只存在本机，不会写入公开 `data.json`。
-- GitHub / 论文 / 新 AI 一手条目的标题与摘要为中文；论文保留 `origin_title`，模型名保持英文。
+- **全频道**用户可见 `title`/`summary`/`hook` 必须中文（禁止 `[EN]` 原文展示）。论文可保留 `origin_title`；模型名、GitHub `owner/repo` 可英文。未知条目机翻入 `news_zh_map`。
 - LMArena 使用 Hugging Face 空间公开 Elo 快照（非实时 SPA）；Artificial Analysis 数字来自公开页快照。
