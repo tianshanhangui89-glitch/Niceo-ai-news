@@ -9,7 +9,7 @@
      - GitHub：raw/YYYY-MM-DD-github-*.json（Trending/热度）→ channel=github
      - 论文：raw/YYYY-MM-DD-papers-*.json（HF Daily Papers / arXiv）→ channel=papers
      - 模型：raw/YYYY-MM-DD-models-*.json（LMArena / Artificial Analysis）→ channel=models
-     - 技能：raw/YYYY-MM-DD-skills-*.json（X 上热门 AI 技能介绍）→ channel=skills
+     - 技能：raw/YYYY-MM-DD-skills-*.json（具名可装 Skill 安利，优先 posts）→ channel=skills
      - AI 一手：raw/YYYY-MM-DD-ai-smol-*.json / ai-batch-*.json → channel=ai
   2) python3 tools/fetch_news.py
   3) bash tools/publish.sh
@@ -33,9 +33,78 @@ except Exception:
     GITHUB_ZH = {}
 
 try:
-    from skills_zh_map import SKILLS_ZH  # id -> {title, summary, hook, category}
+    from skills_zh_map import SKILLS_ZH  # id -> {title, summary, hook, category, skill_name, install}
 except Exception:
     SKILLS_ZH = {}
+
+# 技能栏只收「具名可装」Skill 安利（对标 @Morry4AI / ljg-card），剔除 Harness / 概念闲聊。
+_SKILL_NAME_RE = re.compile(
+    r"(?:Skill[：:\s]+|开源\s*Skill[：:\s]*|npx\s+skills\s+add\s+(?:[^\s]+\s+--skill\s+)?)([A-Za-z][\w./-]{1,64})",
+    re.I,
+)
+_INSTALL_RE = re.compile(r"npx\s+skills(?:@latest)?\s+add\s+[^\n`]+", re.I)
+_CONCEPT_BLOCK = re.compile(
+    r"\b(harness engineering|harness 工程|CLAUDE\.md 互传|只靠一句提示词|"
+    r"cognitive (?:offloading|surrender)|Agent Skills 概念|"
+    r"Free Guides Help Beginners Master Claude Code|"
+    r"Builders Craft Harnesses|"
+    r"Developers Share Tutorials to Build Powerful Claude Code Agents)\b",
+    re.I,
+)
+
+
+def extract_skill_name(text: str) -> str | None:
+    t = (text or "").strip()
+    if not t:
+        return None
+    # Explicit field-like patterns first
+    m = re.search(r"(?:开源\s*)?Skill[：:\s]+[`*]?([A-Za-z][\w.-]{1,48})[`*]?", t)
+    if m:
+        return m.group(1)
+    m = re.search(r"--skill\s+([A-Za-z][\w.-]{1,48})", t, re.I)
+    if m:
+        return m.group(1)
+    m = re.search(r"npx\s+skills(?:@latest)?\s+add\s+([\w.-]+/[\w.-]+)(?:\s+--skill\s+([\w.-]+))?", t, re.I)
+    if m:
+        return m.group(2) or m.group(1).split("/")[-1]
+    # Title pattern: "name：一句话"
+    m = re.match(r"^([A-Za-z][\w.-]{1,48}|[\u4e00-\u9fff][\u4e00-\u9fff\w.-]{1,24})[：:]", t)
+    if m and "Skill" not in m.group(1):
+        # only accept if rest looks like value prop AND skill-ish context elsewhere
+        return None
+    return None
+
+
+def is_named_installable_skill(story: dict) -> bool:
+    """Keep only posts/stories that name a concrete installable skill (or curated map entry)."""
+    sid = str(story.get("id") or "")
+    if sid in SKILLS_ZH and SKILLS_ZH[sid].get("skill_name"):
+        return True
+    if story.get("skill_name") or story.get("install") or story.get("repo"):
+        return True
+    pre = story.get("_pretranslated") if isinstance(story.get("_pretranslated"), dict) else {}
+    blob = " ".join([
+        str(story.get("name") or ""),
+        str(story.get("title") or ""),
+        str(story.get("summary") or ""),
+        str(story.get("hook") or ""),
+        str(pre.get("title") or ""),
+        str(pre.get("summary") or ""),
+    ])
+    if _CONCEPT_BLOCK.search(blob):
+        # allow if explicit install command still present
+        if not (_INSTALL_RE.search(blob) or story.get("install")):
+            return False
+    if _INSTALL_RE.search(blob):
+        return True
+    if extract_skill_name(blob):
+        # require installability cue
+        if re.search(r"npx\s+skills|SKILL\.md|安装|install|开源\s*Skill|Codex|Claude Code|Cursor", blob, re.I):
+            return True
+    # Chinese Morry-style: 「开源 Skill：xxx」
+    if re.search(r"开源\s*Skill[：:]\s*\S+", blob) or re.search(r"Skill[：:]\s*[A-Za-z][\w.-]+", blob):
+        return True
+    return False
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "raw"
@@ -388,6 +457,8 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     if not sid or sid in SKIP_IDS:
         return None
     channel = story.get("_channel") or "ai"
+    if channel == "skills" and not is_named_installable_skill(story):
+        return None
     url = story.get("url") or ("https://x.com/i/trending/" + sid if not sid.startswith("gh-") else "")
     if not url:
         return None
@@ -491,6 +562,41 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
         ),
         "channel": channel,
     }
+    if channel == "skills":
+        mapped = SKILLS_ZH.get(sid, {})
+        skill_name = (
+            story.get("skill_name")
+            or mapped.get("skill_name")
+            or extract_skill_name(
+                " ".join([str(story.get("name") or ""), str(story.get("title") or ""), str(story.get("summary") or "")])
+            )
+            or ""
+        )
+        install = story.get("install") or mapped.get("install") or ""
+        if not install:
+            blob = " ".join([str(story.get("summary") or ""), str(story.get("hook") or ""), str(story.get("name") or "")])
+            m = _INSTALL_RE.search(blob)
+            if m:
+                install = m.group(0).strip()
+        repo = story.get("repo") or mapped.get("repo") or ""
+        if skill_name:
+            item["skill_name"] = skill_name
+        if install:
+            item["install"] = install
+        if repo:
+            item["repo"] = repo
+        # Prefer curated Chinese title shape: skill + value
+        if mapped.get("title"):
+            item["title"] = mapped["title"]
+        if mapped.get("summary"):
+            item["summary"] = mapped["summary"]
+        if mapped.get("hook"):
+            item["hook"] = mapped["hook"]
+        if mapped.get("category"):
+            item["category"] = mapped["category"]
+        item["source"] = story.get("source") or "X Post"
+        item["author"] = story.get("author") or item.get("author") or "AI技能"
+        item["disclaimer"] = story.get("disclaimer") or "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
     if channel == "github":
         item["language"] = story.get("language") or ""
         item["stars"] = int(story.get("stars") or 0)
@@ -624,7 +730,7 @@ def main() -> int:
         payload = {
             "generated_at": now_sh().strftime("%Y-%m-%d %H:%M:%S %z").replace("+0800", "+08:00"),
             "timezone": "Asia/Shanghai",
-            "source": "x.search_news+github+papers+models+skills+primary",
+            "source": "x.search_news+x.search_posts+github+papers+models+skills+primary",
             "item_count": 0,
             "ai_count": 0,
             "world_count": 0,
@@ -647,10 +753,17 @@ def main() -> int:
         print("raw 无新条目，保留现有 data.json")
         return 0
 
-    # Ensure channel on all
+    # Ensure channel on all; skills 只保留具名可装（清掉历史 Harness/概念帖）
+    cleaned: list[dict[str, Any]] = []
     for it in items:
         if not it.get("channel"):
             it["channel"] = "ai"
+        if it.get("channel") == "skills":
+            # History items may lack skill_name; require map / fields / cues
+            if not is_named_installable_skill(it):
+                continue
+        cleaned.append(it)
+    items = cleaned
 
     gen = now_sh().strftime("%Y-%m-%d %H:%M:%S %z").replace("+0800", "+08:00")
     def cnt(ch): return sum(1 for x in items if x.get("channel") == ch)
@@ -658,7 +771,7 @@ def main() -> int:
         "generated_at": gen,
         "generated": gen,
         "timezone": "Asia/Shanghai",
-        "source": "x.search_news+github+papers+models+skills+primary",
+        "source": "x.search_news+x.search_posts+github+papers+models+skills+primary",
         "item_count": len(items),
         "fresh_count": len(fresh),
         "ai_count": cnt("ai"),

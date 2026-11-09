@@ -69,7 +69,7 @@ git push origin HEAD:main
 | `github` | Trending / 热度（中文说明） |
 | `papers` | HF Daily Papers + arXiv cs.AI/LG/CL；含 `alphaxiv_url` |
 | `models` | LMArena Elo 快照 + Artificial Analysis 公开榜 |
-| `skills` | X 上热门 AI 技能介绍（Agent Skills / SKILL.md / 技能包等） |
+| `skills` | 具名可装 Skill 安利（Morry 风格：技能名+场景+安装） |
 
 - 用户可见标题 / 摘要 / hook：**中文**（模型名、论文英文原题可放 `origin_title` / 英文 title）。
 - 旧字段兼容；可有可选扩展字段。
@@ -77,12 +77,16 @@ git push origin HEAD:main
 
 ## 技能频道（skills）
 
-- 定位：Gui 重点频道。展示「装什么 skill / 怎么用 / 爆款技能介绍」，主题要散（写作、视频剪辑、办公、开发、Cursor·Claude 技能包、自动化、Harness 等），不要只剩 Harness / Claude Code / CLAUDE.md。
-- 来源：X `search_news` **多路 query**（写作 / 视频剪辑 / 办公 / 开发 / Agent Skills / SKILL.md / Cursor skills / Claude Code skills / 自动化 / harness 等），去重后入库；目标约 **25–40+** 条（质量优先）。
-- raw：`raw/YYYY-MM-DD-skills-*.json`（`channel: skills`；可多个文件，`fetch_news.py` 会合并）。
-- **展示文案一律中文**：`title` / `summary` / `hook` / `category`（英文模型名、产品名可保留原文）。入库走 `tools/skills_zh_map.py` 精选表，缺省时 `fetch_news.py` 可机翻并回写 map；禁止把未翻译的 `[EN]` 英文条当作最终展示。
-- **日更预写（关键）**：Cursor Cloud Agent **通常没有 X MCP**，跑 `CURSOR_REFRESH.md` 时往往无法现场 `x.search_news`。因此 **Schedule `x-ai` 启动 Cloud 之前**，须由**有 X 工具的 Bot**（如 Niceo-Coding / 本机有 X 的执行方）先写入当日 `raw/YYYY-MM-DD-skills-*.json`（格式：`{"fetched_at","channel":"skills","data":[...x stories]}`），Cloud 再 `ingest` + `fetch_news` 合并进 `data.json`。无预写时：保留已有 skills，**禁止整频道清空**。
-- 推荐可靠方案：Schedule `x-ai` 增加前置一步「有 X 的 bot 多路 search_news → 写 raw skills」；Cloud 只负责 ingest/fetch/publish。
+- **产品标杆**：对标 @Morry4AI 类安利帖（例：开源 Skill `ljg-card`——场景价值 + 安装用法）。技能栏只收「对我实际有价值的**具名可装**热点技能」。
+- **必须具备**：具体 Skill 名（可装可跑）+ 能解决什么问题/适用场景 + 怎么装或怎么用（有仓库 / `npx skills add` / Codex 安装路径更佳）。中文 `title`（偏「技能名 + 一句话价值」）/`summary`/`hook`；可选字段 `skill_name` / `install` / `repo`。
+- **不要**：Harness / Claude Code 闲聊、泛「Agent Skills 概念帖」、无具体技能名的讨论贴、纯工具对比。
+- **采集（有 X 的 Bot）**：优先 `x.search_posts` / `search_posts_all`（以及作者时间线如 @Morry4AI），辅以少量 `search_news`。推荐 query 方向：
+  - `开源 Skill` / `Skill：` / `npx skills add` / `SKILL.md` + 安装/Codex/Claude/Cursor
+  - 内容创作可视化、短视频工作流、去 AI 味、设计 Skill、科研/营销/游戏合集中的**具名**项
+  - 过滤：能抽出 skill 名或明确可安装对象；写 `raw/YYYY-MM-DD-skills-named.json`（或 `*-skills-*.json`），条目带 `skill_name`/`install`/`_pretranslated` 更佳。
+- **入库过滤**：`fetch_news.py` 的 `is_named_installable_skill` 会剔除概念帖；精选中文走 `tools/skills_zh_map.py`。目标 **约 20+ 高质量**（质量优先，宁缺毋滥）。
+- raw：`raw/YYYY-MM-DD-skills-*.json`（`channel: skills`；可多个文件）。
+- **日更预写（关键）**：Cursor Cloud Agent **通常没有 X MCP**。Schedule `x-ai` 启动 Cloud **之前**，须由有 X 的 Bot 预写当日 named-skills raw；Cloud 只做 ingest/fetch/publish。无预写：保留已有 skills，**禁止整频道清空**；也不要用旧式概念向 `search_news` 结果灌水。
 
 ## 故障处理
 

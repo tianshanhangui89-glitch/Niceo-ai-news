@@ -102,6 +102,8 @@ main{padding:12px var(--pad) 0}
 .cat.papers{background:#FECACA;color:#7F1D1D}
 .cat.models{background:#BFDBFE;color:#1E3A8A}
 .cat.skills{background:#FDE68A;color:#713F12}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;background:#1F2937;color:#FDE68A;font-size:11px;margin-right:6px}
+.pill.muted{color:#CBD5E1;background:#111827}
 .cat.favch{background:#FBCFE8;color:#9D174D}
 .fav-btn{
   margin-left:auto;border:none;background:transparent;color:var(--muted);
@@ -220,7 +222,7 @@ function snapshot(it){
   return {
     id:it.id, title:it.title, summary:it.summary, url:it.url, source:it.source,
     author:it.author, published_at:it.published_at, date:it.date, category:it.category,
-    topics:it.topics||[], hook:it.hook||"", disclaimer:it.disclaimer||"",
+    topics:it.topics||[], hook:it.hook||"", disclaimer:it.disclaimer||"", skill_name:it.skill_name||"", install:it.install||"", repo:it.repo||"",
     channel:it.channel||"ai", language:it.language, stars:it.stars, forks:it.forks,
     rank:it.rank, period:it.period, stars_today:it.stars_today, metrics:it.metrics||{},
     origin_title:it.origin_title, paper_id:it.paper_id, arxiv_id:it.arxiv_id, alphaxiv_url:it.alphaxiv_url,
@@ -337,7 +339,7 @@ function filtered(){
       } else if((it.category||"其他")!==filterCat) return false;
     }
     if(!q) return true;
-    const hay=((it.title||"")+" "+(it.summary||"")+" "+(it.category||"")+" "+(it.language||"")).toLowerCase();
+    const hay=((it.title||"")+" "+(it.summary||"")+" "+(it.category||"")+" "+(it.language||"")+" "+(it.skill_name||"")+" "+(it.install||"")).toLowerCase();
     return hay.includes(q);
   });
 }
@@ -459,6 +461,15 @@ function render(){
   });
 }
 
+
+function skillMetaHtml(it){
+  const bits=[];
+  if(it.skill_name) bits.push(`<span class="pill">Skill · ${esc(it.skill_name)}</span>`);
+  if(it.install) bits.push(`<span class="pill muted">可装</span>`);
+  if(!bits.length) return "";
+  return `<div class="stats">${bits.join(" ")}</div>` + (it.install?`<p style="margin:0 0 8px;color:#CBD5E1;font-size:12px;line-height:1.45">安装：${esc(it.install)}</p>`:"");
+}
+
 function cardHtml(it, fromFav){
   const on=isFav(it.id)?" on":"";
   const star=isFav(it.id)?"★":"☆";
@@ -467,6 +478,7 @@ function cardHtml(it, fromFav){
   if(it.channel==="github" || channel==="github") extra = ghStatsHtml(it);
   else if(it.channel==="papers" || channel==="papers") extra = paperStatsHtml(it);
   else if(it.channel==="models" || channel==="models") extra = modelStatsHtml(it);
+  else if(it.channel==="skills" || channel==="skills") extra = skillMetaHtml(it);
   const sub = (it.origin_title && it.origin_title!==it.title) ? `<p style="margin:0 0 6px;color:#93A4BD;font-size:12px">${esc(it.origin_title)}</p>` : "";
   const src = it.source ? `<span>${esc(it.source)}</span>` : `<span>${esc((it.published_at||it.date||"").toString().slice(0,16))}</span>`;
   return `<article class="card" data-id="${esc(it.id)}" data-from-fav="${fromFav?"1":"0"}">
@@ -501,6 +513,8 @@ function showDetail(id, fromFav){
     <p style="color:var(--muted);font-size:12px;margin:0 0 10px">${esc(it.published_at||it.date||"")} · ${esc(it.source||"X")}</p>
     ${(it.channel==="github")?ghStatsHtml(it):""}
     <p style="margin:0;font-size:15px;line-height:1.65">${esc(it.summary)}</p>
+    ${it.install?`<p style="margin:12px 0 0;color:#FDE68A;font-size:13px;line-height:1.5">安装：<code style="font-size:12px;word-break:break-all">${esc(it.install)}</code></p>`:""}
+    ${it.skill_name?`<p style="margin:8px 0 0;color:#A5B4C8;font-size:12px">Skill：${esc(it.skill_name)}${it.repo?" · "+esc(it.repo):""}</p>`:""}
     ${it.hook?`<p style="margin:12px 0 0;color:#A5B4C8;font-size:13px">导语：${esc(it.hook)}</p>`:""}
     <div class="actions">
       <button class="btn primary" type="button" id="openSrc">${primaryBtnLabel(it)}</button>

@@ -22,7 +22,7 @@
 | alphaXiv | 论文（讨论链） | `https://www.alphaxiv.org/abs/<id>` |
 | LMArena | 模型 | HF 空间 Elo pickle 快照 |
 | Artificial Analysis | 模型 | 公开榜单 HTML 表 |
-| X 热门 AI 技能介绍 | 技能 | `raw/YYYY-MM-DD-skills-*.json`（Agent Skills / SKILL.md 等） |
+| 具名可装 Skill 安利（Morry 风格） | 技能 | `raw/YYYY-MM-DD-skills-*.json`（须含 skill 名+场景+安装） |
 
 ## 安装
 
@@ -35,8 +35,8 @@
 
 1. Agent 用 `x.search_news` 抓 AI / 时政 / 创业 → `raw/YYYY-MM-DD-*.json`
 2. Agent 抓 GitHub Trending → `raw/YYYY-MM-DD-github-*.json`
-2b. **技能预写（有 X 的 Bot，Cloud 之前）**：多路 `x.search_news`（写作/视频/办公/开发/Agent Skills/SKILL.md/Cursor·Claude skills/自动化/harness）→ `raw/YYYY-MM-DD-skills-*.json`，去重约 25–40+ 条；主题要散。Cloud Agent 无 X MCP，**不能指望它现场抓 skills**；无预写则保留旧 skills，勿清空。
-3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py` 刷新一手源）→ `data.json`（skills 走 `skills_zh_map` / 机翻，展示全中文）
+2b. **技能预写（有 X 的 Bot，Cloud 之前）**：用 `x.search_posts`/`search_posts_all`（+ @Morry4AI 等作者时间线）找**具名可装** Skill 安利（`Skill：xxx` / `npx skills add` / SKILL.md 安装），过滤掉 Harness/概念闲聊 → `raw/YYYY-MM-DD-skills-named.json`，约 20+ 高质量。Cloud 无 X MCP，**不能指望它现场抓 skills**；无预写则保留旧 skills，勿清空、勿用概念帖灌水。
+3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py`）→ `data.json`（skills 走 named 过滤 + `skills_zh_map`，标题偏「技能名+价值」，可含 `skill_name`/`install`）
 4. `bash tools/publish.sh` → 推公开仓
 
 重建 APK：
