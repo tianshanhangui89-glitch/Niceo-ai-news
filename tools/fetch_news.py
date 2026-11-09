@@ -80,6 +80,74 @@ def extract_skill_name(text: str) -> str | None:
     return None
 
 
+
+def _looks_like_x_url(url: str) -> bool:
+    u = (url or "").lower()
+    return ("x.com/" in u or "twitter.com/" in u) and "/status/" in u
+
+
+def _looks_like_github_url(url: str) -> bool:
+    u = (url or "").lower()
+    return "github.com/" in u
+
+
+def extract_skill_repo(story: dict, mapped: dict | None = None) -> str:
+    mapped = mapped or {}
+    candidates = [
+        story.get("repo"),
+        mapped.get("repo"),
+        story.get("github_url"),
+        mapped.get("github_url"),
+        story.get("install"),
+        mapped.get("install"),
+        story.get("url"),
+    ]
+    for c in candidates:
+        s = str(c or "").strip()
+        if not s:
+            continue
+        if re.match(r"^[\w.-]+/[\w.-]+$", s):
+            return s
+        m = re.search(r"github\.com/([\w.-]+/[\w.-]+)", s, re.I)
+        if m:
+            return m.group(1).rstrip(".git")
+        m = re.search(
+            r"npx\s+skills(?:@latest)?\s+add\s+(?:https?://github\.com/)?([\w.-]+/[\w.-]+)",
+            s,
+            re.I,
+        )
+        if m:
+            return m.group(1)
+    return ""
+
+
+def skill_link_fields(story: dict, mapped: dict | None = None, url: str = "") -> dict:
+    """Derive x_url + github_url for skills detail buttons."""
+    mapped = mapped or {}
+    url = url or str(story.get("url") or "")
+    x_url = str(story.get("x_url") or mapped.get("x_url") or "")
+    gh_url = str(story.get("github_url") or mapped.get("github_url") or "")
+    if _looks_like_x_url(url):
+        x_url = url
+    elif not _looks_like_x_url(x_url):
+        x_url = ""
+    repo = extract_skill_repo(story, mapped)
+    if not gh_url:
+        if _looks_like_github_url(url):
+            gh_url = url.split("?")[0].rstrip("/")
+        elif repo:
+            gh_url = "https://github.com/%s" % repo
+    elif not _looks_like_github_url(gh_url) and repo:
+        gh_url = "https://github.com/%s" % repo
+    out = {}
+    if repo:
+        out["repo"] = repo
+    if x_url:
+        out["x_url"] = x_url
+    if gh_url:
+        out["github_url"] = gh_url
+    return out
+
 def is_named_installable_skill(story: dict) -> bool:
     """Keep only posts/stories that name a concrete installable skill (or curated map entry)."""
     sid = str(story.get("id") or "")
@@ -825,13 +893,20 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
             m = _INSTALL_RE.search(blob)
             if m:
                 install = m.group(0).strip()
-        repo = story.get("repo") or mapped.get("repo") or ""
+        repo = extract_skill_repo(story, mapped)
         if skill_name:
             item["skill_name"] = skill_name
         if install:
             item["install"] = install
         if repo:
             item["repo"] = repo
+        links = skill_link_fields(story, mapped, item.get("url") or "")
+        if links.get("repo"):
+            item["repo"] = links["repo"]
+        if links.get("x_url"):
+            item["x_url"] = links["x_url"]
+        if links.get("github_url"):
+            item["github_url"] = links["github_url"]
         # Prefer curated Chinese title shape: skill + value
         if mapped.get("title"):
             item["title"] = mapped["title"]

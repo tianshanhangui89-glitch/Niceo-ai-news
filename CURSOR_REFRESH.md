@@ -80,7 +80,7 @@ git push origin HEAD:main
 ## 技能频道（skills）
 
 - **产品标杆**：对标 @Morry4AI 类安利帖（例：开源 Skill `ljg-card`——场景价值 + 安装用法）。技能栏只收「对我实际有价值的**具名可装**热点技能」。
-- **必须具备**：具体 Skill 名（可装可跑）+ 能解决什么问题/适用场景 + 怎么装或怎么用（有仓库 / `npx skills add` / Codex 安装路径更佳）。中文 `title`（偏「技能名 + 一句话价值」）/`summary`/`hook`；可选字段 `skill_name` / `install` / `repo`。
+- **必须具备**：具体 Skill 名（可装可跑）+ 能解决什么问题/适用场景 + 怎么装或怎么用（有仓库 / `npx skills add` / Codex 安装路径更佳）。中文 `title`（偏「技能名 + 一句话价值」）/`summary`/`hook`；可选字段 `skill_name` / `install` / `repo` / `x_url` / `github_url`（详情页「看 X 原帖」「打开 GitHub」）。
 - **不要**：Harness / Claude Code 闲聊、泛「Agent Skills 概念帖」、无具体技能名的讨论贴、纯工具对比。
 - **采集（有 X 的 Bot）**：优先 `x.search_posts` / `search_posts_all`（以及作者时间线如 @Morry4AI），辅以少量 `search_news`。推荐 query 方向：
   - `开源 Skill` / `Skill：` / `npx skills add` / `SKILL.md` + 安装/Codex/Claude/Cursor

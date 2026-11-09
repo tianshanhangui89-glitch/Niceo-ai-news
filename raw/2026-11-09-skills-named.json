@@ -18,8 +18,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "ljg-card",
-      "install": "在 Codex 等 Agent 中安装开源合集里的 ljg-card（可只装这一项）",
-      "repo": "",
+      "install": "npx skills add lijigang/ljg-skills --skill ljg-card",
+      "repo": "lijigang/ljg-skills",
       "_channel": "skills",
       "_pretranslated": {
         "title": "ljg-card：把文字变成知识长图 / 白板 / 漫画",
@@ -34,7 +34,9 @@
           "内容创作"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2119012866351411403",
+      "github_url": "https://github.com/lijigang/ljg-skills"
     },
     {
       "id": "2118162383310831763",
@@ -49,8 +51,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "answer-me-with-html",
-      "install": "安装开源 Skill answer-me-with-html，输出 HTML 在浏览器查看",
-      "repo": "",
+      "install": "npx skills add QingYunA/answer-me-with-html",
+      "repo": "QingYunA/answer-me-with-html",
       "_channel": "skills",
       "_pretranslated": {
         "title": "answer-me-with-html：复杂回答变一页 HTML 图解",
@@ -65,7 +67,9 @@
           "内容创作"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2118162383310831763",
+      "github_url": "https://github.com/QingYunA/answer-me-with-html"
     },
     {
       "id": "2117882546352771154",
@@ -80,8 +84,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "unslop",
-      "install": "从开源仓库安装 unslop，按找问题→定方向→逐步改执行",
-      "repo": "",
+      "install": "npx skills add heydamir/unslop",
+      "repo": "heydamir/unslop",
       "_channel": "skills",
       "_pretranslated": {
         "title": "unslop：三步工作流去掉网页「AI 味」",
@@ -96,7 +100,9 @@
           "设计 / 前端"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2117882546352771154",
+      "github_url": "https://github.com/heydamir/unslop"
     },
     {
       "id": "2114959114107514885",
@@ -111,8 +117,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "diagram-design",
-      "install": "安装 diagram-design，把要可视化的段落交给它选结构出图",
-      "repo": "",
+      "install": "npx skills add cathrynlavery/diagram-design",
+      "repo": "cathrynlavery/diagram-design",
       "_channel": "skills",
       "_pretranslated": {
         "title": "diagram-design：长文 / 流程做成专业知识图表",
@@ -127,7 +133,9 @@
           "内容创作"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2114959114107514885",
+      "github_url": "https://github.com/cathrynlavery/diagram-design"
     },
     {
       "id": "2118606623195500975",
@@ -142,8 +150,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "Story Studio",
-      "install": "按原帖安装 Story Studio，从选题一路生成到剪映草稿",
-      "repo": "",
+      "install": "npx skills add konlu/story-studio",
+      "repo": "konlu/story-studio",
       "_channel": "skills",
       "_pretranslated": {
         "title": "Story Studio：选题到剪映草稿的短视频流水线",
@@ -158,7 +166,9 @@
           "视频 / 创作"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2118606623195500975",
+      "github_url": "https://github.com/konlu/story-studio"
     },
     {
       "id": "2117488203217477899",
@@ -173,8 +183,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "pixelfx",
-      "install": "用 Agent 调用 pixelfx Skill，或预览 Gallery 后导出",
-      "repo": "",
+      "install": "npx skills add patch-gg/pixelfx",
+      "repo": "patch-gg/pixelfx",
       "_channel": "skills",
       "_pretranslated": {
         "title": "pixelfx：244 种像素特效给视频 / 品牌动画加料",
@@ -189,7 +199,9 @@
           "视频 / 视觉"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2117488203217477899",
+      "github_url": "https://github.com/patch-gg/pixelfx"
     },
     {
       "id": "2116038414739132696",
@@ -204,8 +216,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "SkillSpector",
-      "install": "让 Codex 安装 NVIDIA SkillSpector，先对目标仓做 --no-llm 静态扫描",
-      "repo": "",
+      "install": "见仓库 README：uv tool install git+https://github.com/NVIDIA/skillspector.git",
+      "repo": "NVIDIA/SkillSpector",
       "_channel": "skills",
       "_pretranslated": {
         "title": "SkillSpector：装 Skill 前先扫安全风险（NVIDIA）",
@@ -220,7 +232,9 @@
           "安全"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2116038414739132696",
+      "github_url": "https://github.com/NVIDIA/SkillSpector"
     },
     {
       "id": "2118355780474937831",
@@ -235,8 +249,8 @@
       "author": "lieflat_3",
       "source": "X Post",
       "skill_name": "去AI味 Skill（lieflat）",
-      "install": "按原帖 Skill 安装后，对文稿跑检测报告再改写",
-      "repo": "",
+      "install": "npx skills add larashero3-dotcom/lieflat-less-ai-tone",
+      "repo": "larashero3-dotcom/lieflat-less-ai-tone",
       "_channel": "skills",
       "_pretranslated": {
         "title": "去AI味 Skill：520 万字数据打磨的写作特征检测",
@@ -251,7 +265,9 @@
           "写作"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/lieflat_3/status/2118355780474937831",
+      "github_url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone"
     },
     {
       "id": "2118356546698760516",
@@ -282,7 +298,9 @@
           "技能合集"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/AISuperDomain/status/2118356546698760516",
+      "github_url": "https://github.com/ConardLi/garden-skills"
     },
     {
       "id": "2119288319603601526",
@@ -313,7 +331,9 @@
           "视频 / 开发"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Manojkumar2257/status/2119288319603601526",
+      "github_url": "https://github.com/crafter-station/remotion-clone-video"
     },
     {
       "id": "2115064818176778661",
@@ -344,7 +364,9 @@
           "开发工具"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/dngzsn37461/status/2115064818176778661",
+      "github_url": "https://github.com/nicobailon/skill-diet"
     },
     {
       "id": "2119066096917520649",
@@ -375,7 +397,9 @@
           "开发"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/twannl/status/2119066096917520649",
+      "github_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill"
     },
     {
       "id": "2117563737968369925",
@@ -406,7 +430,9 @@
           "开发 / 可视化"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/sumitdesk/status/2117563737968369925",
+      "github_url": "https://github.com/wheresryan22/anatomy"
     },
     {
       "id": "2117021222516986082",
@@ -437,7 +463,9 @@
           "教育 / 可视化"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/AIhaveadream1/status/2117021222516986082",
+      "github_url": "https://github.com/elvarofficial/teardown"
     },
     {
       "id": "2115630711743078884",
@@ -468,7 +496,9 @@
           "视频"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/sonnyproto/status/2115630711743078884",
+      "github_url": "https://github.com/sonnyproto/video-skills"
     },
     {
       "id": "2118148694164037989",
@@ -499,7 +529,9 @@
           "视频 / 开发"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/aakashH242/status/2118148694164037989",
+      "github_url": "https://github.com/aakashH242/video-director"
     },
     {
       "id": "2113619065923305862",
@@ -530,7 +562,9 @@
           "设计 / 前端"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/nasusanooo/status/2113619065923305862",
+      "github_url": "https://github.com/SusanAcharya/Design-Lounge"
     },
     {
       "id": "2114243327717503350",
@@ -561,7 +595,9 @@
           "游戏开发"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Achgdesigner/status/2114243327717503350",
+      "github_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills"
     },
     {
       "id": "2117475589540229603",
@@ -592,7 +628,9 @@
           "营销"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/the_real_siqide/status/2117475589540229603",
+      "github_url": "https://github.com/coreyhaines31/marketingskills"
     },
     {
       "id": "2115744550916403289",
@@ -623,7 +661,9 @@
           "开发"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/AiMaster1689/status/2115744550916403289",
+      "github_url": "https://github.com/addyosmani/agent-skills"
     },
     {
       "id": "2111852560625602569",
@@ -654,7 +694,9 @@
           "科研"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/KowalPrato4o/status/2111852560625602569",
+      "github_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     {
       "id": "2117082277918429456",
@@ -685,7 +727,9 @@
           "开发工具"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/StreetAnalyst_/status/2117082277918429456",
+      "github_url": "https://github.com/vercel-labs/skills"
     },
     {
       "id": "2118264004221235707",
@@ -716,7 +760,9 @@
           "视频 / 短剧"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/bitmeowAI/status/2118264004221235707",
+      "github_url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills"
     },
     {
       "id": "2116796747200799060",
@@ -731,8 +777,8 @@
       "author": "Morry4AI",
       "source": "X Post",
       "skill_name": "花叔设计 Skill",
-      "install": "按花叔原帖 / Morry 分享安装该设计 Skill 后按场景提示生成",
-      "repo": "",
+      "install": "npx skills add alchaincyf/huashu-design",
+      "repo": "alchaincyf/huashu-design",
       "_channel": "skills",
       "_pretranslated": {
         "title": "花叔设计 Skill：信息图 / 小红书图 / PPT / 交互 HTML",
@@ -747,7 +793,9 @@
           "设计 / 内容"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/Morry4AI/status/2116796747200799060",
+      "github_url": "https://github.com/alchaincyf/huashu-design"
     },
     {
       "id": "2119408291839381961",
@@ -778,7 +826,9 @@
           "开发"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "x_url": "https://x.com/bpflmzj/status/2119408291839381961",
+      "github_url": "https://github.com/obra/superpowers"
     },
     {
       "id": "named-frontend-design-anthropic",
@@ -809,7 +859,8 @@
           "设计 / 前端"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "github_url": "https://github.com/anthropics/skills"
     },
     {
       "id": "named-stageshow",
@@ -840,7 +891,8 @@
           "设计 / 前端"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "github_url": "https://github.com/benjitaylor/skills"
     },
     {
       "id": "named-prototype-emil",
@@ -871,7 +923,8 @@
           "设计"
         ]
       },
-      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。"
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "github_url": "https://github.com/emilkowalski/skills"
     }
   ]
 }
