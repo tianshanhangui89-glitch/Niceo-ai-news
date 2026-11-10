@@ -40,7 +40,8 @@ python3 tools/ingest_primary.py
 #    若本机刚跑过 ingest，也可：SKIP_PRIMARY_INGEST=1 python3 tools/fetch_news.py
 python3 tools/fetch_news.py
 
-# 3) 检查产物
+# 3) 检查产物，并确认技能标题没有被刷回推文
+python3 tools/test_skill_titles.py
 python3 - <<'PY'
 import json
 d=json.load(open("data.json"))
@@ -80,8 +81,13 @@ git push origin HEAD:main
 ## 技能频道（skills）
 
 - **产品标杆**：对标 @Morry4AI 类安利帖（例：开源 Skill `ljg-card`——场景价值 + 安装用法）。技能栏只收「对我实际有价值的**具名可装**热点技能」。
-- **必须具备**：具体 Skill 名（可装可跑）+ 能解决什么问题/适用场景 + 怎么装或怎么用（有仓库 / `npx skills add` / Codex 安装路径更佳）。中文 `title`（偏「技能名 + 一句话价值」）/`summary`/`hook`；可选字段 `skill_name` / `install` / `repo` / `x_url` / `github_url`（详情页「看 X 原帖」「打开 GitHub」）。
-- **不要**：Harness / Claude Code 闲聊、泛「Agent Skills 概念帖」、无具体技能名的讨论贴、纯工具对比。
+- **必须具备**：具体 Skill 名（可装可跑）+ 能解决什么问题/适用场景 + 怎么装或怎么用（有仓库 / `npx skills add` / Codex 安装路径更佳）。中文 `title` / `summary` / `hook`；可选字段 `skill_name` / `install` / `repo` / `x_url` / `github_url`（详情页「看 X 原帖」「打开 GitHub」）。
+- **标题格式（强制）**：`具体技能名：一句话核心用途`。用途 6–22 个字，写成自然的一句话，依据该条原文或仓库已写明的功能。示例：`ljg-card：把文字排成知识长图、白板或漫画`。
+- **标题禁止**：拼接或机翻整段推文、机械截断（以 `…` 结尾）、堆标签 / 作者 / 星数 / 安装命令 / 营销口号、编造原文没有的能力。链接、`npx`、`@`、英文冒号不要出现在 `title`。
+- **原文标题**：展示标题改写后，把原始标题留在 `source_title`（列表不展示，避免乱标题又出现在卡片副标题）。不要把推文写进 `origin_title`（该字段留给论文英文原题）。
+- **生成约束**：`fetch_news.py` 只接受通过 `is_clean_skill_title` 的标题。精选表里的合规标题优先于 raw / 机翻。不合规的新条目直接跳过，并且**不会**再把机翻推文追加进 `tools/skills_zh_map.py`。新技能要先写成合规 `title`（写进 `skills_zh_map.py`，或 raw 里直接给合规中文标题）再入库。
+- **发布前必跑**：`python3 tools/test_skill_titles.py`。测试不通过就不要推 `data.json`。
+- **不要**：Harness / Claude Code 闲聊、泛「Agent Skills 概念帖」、无具体技能名的讨论贴、纯工具对比。不要改回其它频道的全中文要求。
 - **采集（有 X 的 Bot）**：优先 `x.search_posts` / `search_posts_all`（以及作者时间线如 @Morry4AI），辅以少量 `search_news`。推荐 query 方向：
   - `开源 Skill` / `Skill：` / `npx skills add` / `SKILL.md` + 安装/Codex/Claude/Cursor
   - 内容创作可视化、短视频工作流、去 AI 味、设计 Skill、科研/营销/游戏合集中的**具名**项
@@ -104,5 +110,7 @@ Refresh all AI热点 feeds now and publish data.json to main.
 Steps: python3 tools/ingest_primary.py && python3 tools/fetch_news.py ;
 commit data.json (+ raw if present) ; git push origin HEAD:main ;
 print generated_at and per-channel counts.
+Skills titles must be 「技能名：一句话核心用途」 and pass python3 tools/test_skill_titles.py.
+Do not publish tweet dumps, install commands, or truncated translations as skills titles.
 Do not rebuild APK. Do not touch Xiaohongshu. Do not invent metrics.
 ```

@@ -36,7 +36,7 @@
 1. Agent 用 `x.search_news` 抓 AI / 时政 / 创业 → `raw/YYYY-MM-DD-*.json`
 2. Agent 抓 GitHub Trending → `raw/YYYY-MM-DD-github-*.json`
 2b. **技能预写（有 X 的 Bot，Cloud 之前）**：用 `x.search_posts`/`search_posts_all`（+ @Morry4AI 等作者时间线）找**具名可装** Skill 安利（`Skill：xxx` / `npx skills add` / SKILL.md 安装），过滤掉 Harness/概念闲聊 → `raw/YYYY-MM-DD-skills-named.json`，约 20+ 高质量。Cloud 无 X MCP，**不能指望它现场抓 skills**；无预写则保留旧 skills，勿清空、勿用概念帖灌水。
-3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py`）→ `data.json`（skills 走 named 过滤 + `skills_zh_map`，标题偏「技能名+价值」，可含 `skill_name`/`install`）
+3. `python3 tools/fetch_news.py`（会先跑 `ingest_primary.py`）→ `data.json`（skills 走 named 过滤 + `skills_zh_map`。标题必须是「技能名：一句话核心用途」，可含 `skill_name`/`install`；发布前跑 `python3 tools/test_skill_titles.py`）
 4. `bash tools/publish.sh` → 推公开仓
 
 重建 APK：
@@ -50,4 +50,5 @@ VERSION_NAME=1.4.20261107 VERSION_CODE=11061111 bash /workspace/x-ai-news/androi
 - 摘要来自公开榜/简报，请点原文核实；不是投资或医疗建议。
 - 收藏只存在本机，不会写入公开 `data.json`。
 - **全频道**用户可见 `title`/`summary`/`hook` 必须中文（禁止 `[EN]` 原文展示）。论文可保留 `origin_title`；模型名、GitHub `owner/repo` 可英文。未知条目机翻入 `news_zh_map`。
+- **技能标题**另外必须是「具体技能名：一句话核心用途」，依据原文或仓库已写明的功能，不把推文、安装命令或口号写进标题。原文标题留在 `source_title`。
 - LMArena 使用 Hugging Face 空间公开 Elo 快照（非实时 SPA）；Artificial Analysis 数字来自公开页快照。

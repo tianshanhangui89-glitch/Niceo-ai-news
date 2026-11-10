@@ -638,9 +638,36 @@ def translate_news_fields(
     return {"title": title, "summary": summary, "hook": hook, "category": category}
 
 
-def ensure_item_chinese(item: dict[str, Any]) -> dict[str, Any]:
+def apply_skill_title_rules(item: dict[str, Any]) -> dict[str, Any] | None:
+    """Force a clean skills title. Keep the previous headline in source_title when it changes."""
+    sid = str(item.get("id") or "")
+    mapped = SKILLS_ZH.get(sid, {})
+    story = {
+        "id": sid,
+        "name": item.get("source_title") or "",
+        "title": item.get("title") or "",
+        "skill_name": item.get("skill_name") or "",
+        "summary": item.get("summary") or "",
+    }
+    display = resolve_skill_display_title(story, mapped)
+    if not display:
+        return None
+    old = str(item.get("title") or "").strip()
+    if old and old != display and not item.get("source_title"):
+        item["source_title"] = old
+    item["title"] = display
+    if mapped.get("skill_name"):
+        item["skill_name"] = mapped["skill_name"]
+    return item
+
+
+def ensure_item_chinese(item: dict[str, Any]) -> dict[str, Any] | None:
     """Post-pass: force title/summary/hook/category Chinese for display channels."""
     ch = item.get("channel") or "ai"
+    if ch == "skills":
+        item = apply_skill_title_rules(item)
+        if item is None:
+            return None
     sid = str(item.get("id") or "")
     title = str(item.get("title") or "")
     summary = str(item.get("summary") or "")
@@ -700,9 +727,68 @@ def ensure_item_chinese(item: dict[str, Any]) -> dict[str, Any]:
     return item
 
 
+# 技能标题只允许「具体技能名：一句话核心用途」。
+# 用途 6–22 字，必须含中文；不收推文、链接、安装命令、@、星数、省略号或口号。
+_SKILL_TITLE_BANNED = re.compile(
+    r"(https?://|t\.co/|\bnpx\b|skills\s+add|@|…|\.\.\.|👇|🚀|🤯|★|⭐|\bRT\b|\n|\r)",
+    re.I,
+)
+
+
+def is_clean_skill_title(title: str | None) -> bool:
+    """True when a skills title is safe to show on the card."""
+    raw = title or ""
+    t = raw.strip()
+    if not t or t != raw or _SKILL_TITLE_BANNED.search(t):
+        return False
+    if t.count("：") != 1 or ":" in t:
+        return False
+    name, purpose = t.split("：", 1)
+    if not name or not purpose or name != name.strip() or purpose != purpose.strip():
+        return False
+    if "  " in name or name.count(" ") > 2:
+        return False
+    if not re.fullmatch(r"[\w\u4e00-\u9fff./（）()+\- ]{1,40}", name):
+        return False
+    if not re.fullmatch(r"[\u4e00-\u9fffA-Za-z0-9、]{6,22}", purpose):
+        return False
+    if sum(1 for c in purpose if "一" <= c <= "鿿") < 4:
+        return False
+    return True
+
+
+def resolve_skill_display_title(story: dict, mapped: dict | None = None) -> str:
+    """Pick a clean skills title. Never fall back to a tweet or a cut-off translation."""
+    mapped = mapped or {}
+    pre_raw = story.get("_pretranslated")
+    pre = pre_raw if isinstance(pre_raw, dict) else {}
+    candidates = (
+        mapped.get("title"),
+        pre.get("title"),
+        story.get("title"),
+        story.get("name"),
+    )
+    for cand in candidates:
+        text = str(cand or "").strip()
+        if is_clean_skill_title(text):
+            return text
+    name = str(mapped.get("skill_name") or story.get("skill_name") or "").strip()
+    purpose = str(mapped.get("purpose") or "").strip()
+    if name and purpose and "：" not in name and ":" not in name:
+        composed = f"{name}：{purpose}"
+        if is_clean_skill_title(composed):
+            return composed
+    return ""
+
+
 def persist_skills_zh(sid: str, payload: dict[str, str]) -> None:
-    """Append curated/machine Chinese for a skills id into skills_zh_map.py."""
+    """Append a skills id into skills_zh_map.py. Refuse titles that are not clean."""
     try:
+        title = str(payload.get("title") or "").strip()
+        if not is_clean_skill_title(title):
+            return
+        payload = dict(payload)
+        payload["title"] = title
         SKILLS_ZH[sid] = {**SKILLS_ZH.get(sid, {}), **payload}
         map_path = Path(__file__).resolve().parent / "skills_zh_map.py"
         key_line = json.dumps(sid, ensure_ascii=False)
@@ -731,18 +817,15 @@ def skills_category_zh(cat: str | None) -> str:
 
 
 def translate_skills_fields(sid: str, en_title: str, en_sum: str, en_hook: str, cat: str | None) -> dict[str, str]:
-    """Curated map > already Chinese > machine translate > [EN] fallback."""
+    """Curated clean title only. Summaries may still be translated; titles never copy a tweet."""
     mapped = SKILLS_ZH.get(sid, {})
-    title = mapped.get("title") or ""
+    title = str(mapped.get("title") or "")
+    if not is_clean_skill_title(title):
+        title = ""
     summary = mapped.get("summary") or ""
     hook = mapped.get("hook") or ""
     category = mapped.get("category") or skills_category_zh(cat)
 
-    if not title:
-        if has_cjk(en_title):
-            title = en_title
-        else:
-            title = translate_en_to_zh(en_title, limit=200) or (("[EN] " + en_title) if en_title else "未命名技能热点")
     if not summary:
         if has_cjk(en_sum):
             summary = en_sum
@@ -760,8 +843,8 @@ def translate_skills_fields(sid: str, en_title: str, en_sum: str, en_hook: str, 
     if len(hook) > 160:
         hook = hook[:157] + "…"
 
-    # Persist machine results for future runs (only if we produced CJK and id was unmapped)
-    if sid not in SKILLS_ZH and has_cjk(title) and has_cjk(summary):
+    # Only lock a title that already matches 「技能名：一句话用途」. Never store a translated tweet.
+    if sid not in SKILLS_ZH and is_clean_skill_title(title) and has_cjk(summary):
         persist_skills_zh(sid, {
             "title": title,
             "summary": summary,
@@ -778,6 +861,12 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     channel = story.get("_channel") or "ai"
     if channel == "skills" and not is_named_installable_skill(story):
         return None
+    skill_display_title = ""
+    if channel == "skills":
+        # 不合规标题直接丢弃，避免机翻推文覆盖精选标题。
+        skill_display_title = resolve_skill_display_title(story, SKILLS_ZH.get(sid, {}))
+        if not skill_display_title:
+            return None
     url = story.get("url") or ("https://x.com/i/trending/" + sid if not sid.startswith("gh-") else "")
     if not url:
         return None
@@ -792,7 +881,7 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     news_zh_fields = None
     en_hook = (story.get("hook") or "").strip()
     if channel == "skills":
-        # 技能栏：精选表 / ZH_MAP / 预翻译 / 机翻 → 标题·摘要·钩子一律中文
+        # 摘要仍可精选/机翻；标题只走合规的「技能名：一句话用途」。
         skills_zh_fields = translate_skills_fields(
             sid,
             en_title,
@@ -910,8 +999,8 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
     if channel == "skills":
         mapped = SKILLS_ZH.get(sid, {})
         skill_name = (
-            story.get("skill_name")
-            or mapped.get("skill_name")
+            mapped.get("skill_name")
+            or story.get("skill_name")
             or extract_skill_name(
                 " ".join([str(story.get("name") or ""), str(story.get("title") or ""), str(story.get("summary") or "")])
             )
@@ -937,9 +1026,19 @@ def normalize(story: dict[str, Any], today: str) -> dict[str, Any] | None:
             item["x_url"] = links["x_url"]
         if links.get("github_url"):
             item["github_url"] = links["github_url"]
-        # Prefer curated Chinese title shape: skill + value
-        if mapped.get("title"):
-            item["title"] = mapped["title"]
+        # 展示标题以合规规则为准；原文标题留在 source_title，不放到卡片副标题 origin_title。
+        item["title"] = skill_display_title
+        raw_head = (story.get("name") or story.get("title") or "").strip()
+        if raw_head and raw_head != skill_display_title:
+            item["source_title"] = raw_head
+        if sid not in SKILLS_ZH and is_clean_skill_title(item["title"]) and has_cjk(item.get("summary") or ""):
+            persist_skills_zh(sid, {
+                "title": item["title"],
+                "summary": item.get("summary") or "",
+                "hook": item.get("hook") or "",
+                "category": item.get("category") or "",
+                "skill_name": item.get("skill_name") or "",
+            })
         if mapped.get("summary"):
             item["summary"] = mapped["summary"]
         if mapped.get("hook"):
@@ -1117,8 +1216,14 @@ def main() -> int:
         cleaned.append(it)
     items = cleaned
 
-    # 全频道强制中文展示字段（历史 [EN] 条目也会在此回填）
-    items = [ensure_item_chinese(it) for it in items]
+    # 全频道强制中文展示字段（历史 [EN] 条目也会在此回填）。
+    # skills 标题不合规且无法从精选表修复时丢弃，避免下一轮刷新把推文写回卡片。
+    polished: list[dict[str, Any]] = []
+    for it in items:
+        it = ensure_item_chinese(it)
+        if it is not None:
+            polished.append(it)
+    items = polished
 
     gen = now_sh().strftime("%Y-%m-%d %H:%M:%S %z").replace("+0800", "+08:00")
     def cnt(ch): return sum(1 for x in items if x.get("channel") == ch)
