@@ -1,0 +1,1274 @@
+{
+  "fetched_at": "2026-11-12T07:01:06+08:00",
+  "queries": [
+    "AI OR LLM OR GPT OR Claude OR Gemini OR OpenAI OR Anthropic",
+    "大模型 OR 人工智能 OR ChatGPT OR 通义 OR DeepSeek",
+    "Sora OR Kling OR Seedance OR Midjourney OR Flux AI video",
+    "AI agent OR MCP OR Cursor OR Claude Code OR Codex",
+    "OpenAI OR Anthropic OR Google DeepMind OR Meta AI announcement model"
+  ],
+  "data": [
+    {
+      "id": "2120576221582934224",
+      "name": "Google Launches Gemini Decision 1 for Fast AI Choices",
+      "summary": "Gemini Decision 1 and its API handle up to 1,000 questions on text, images, audio, video, or PDFs in one quick pass, with yes/no, multiple-choice up to 255 options, or rubric scoring. It costs $0.10 per million input tokens—no output fees—and delivers answers in 150-250 milliseconds, complete with confidence scores. Google teams use it for internal tasks like safety checks and prototyping, and it shines on benchmarks like 92.2% on JevBench, though independent tests show it competitive but not the cheapest leader.",
+      "hook": "Google just unveiled a new AI model that skips endless chit-chat and dives straight into yes/no answers or picking from hundreds of options.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:50:45.000Z",
+      "url": "https://x.com/i/trending/2120576221582934224",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120598475356205150",
+      "name": "OpenAI Finds Smarter AI Models Harder to Monitor",
+      "summary": "OpenAI's November 10 analysis reveals that more capable AI models show rising no-CoT capability—solving tasks in one quick pass without visible reasoning steps—as their perplexity drops. Chain-of-thought monitorability, key for spotting misalignment by reviewing explicit reasoning, weakens with scaling, though reinforcement learning and certain architectures can boost controllability. The team stresses this creates a tension between intelligence gains and oversight challenges, urging new research into monitoring advanced systems.",
+      "hook": "As AI gets sharper, its step-by-step thinking becomes tougher to track. OpenAI researchers just shared charts showing this trend across their latest models.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:39:21.000Z",
+      "url": "https://x.com/i/trending/2120598475356205150",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120601814894526859",
+      "name": "Professionals Use Claude AI for Presentations and Video Edits",
+      "summary": "Anthropic's Claude AI, with its September 2026 Claude Slides feature, lets users generate editable presentations from notes or files, exporting to PowerPoint or PDF—now free for everyone. Content creators are editing videos too, as shown in tutorials that promise time savings for beginners. While some spot the AI style, tips like using custom templates and detailed prompts on fonts and colors help blend outputs seamlessly, with many emphasizing strong content over origin.",
+      "hook": "One user fed an Excel report into Claude and got a polished executive PDF that left their boss beaming with approval.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:16:17.000Z",
+      "url": "https://x.com/i/trending/2120601814894526859",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120212184399520145",
+      "name": "Anthropic Launches Claude Tools to Challenge Microsoft Office",
+      "summary": "The new features enable shared whiteboards for planning, editable spreadsheets with formulas and tabs, and tools to turn metrics into dashboards, stories, and narrated videos. Available on web, desktop, and mobile for paid users, they support real-time collaboration with AI and teammates, plus connectors to open full apps like Adobe and Atlassian right beside the chat. Microsoft shares dropped as much as 3 percent after the news, with investors like Jason Calacanis calling it a direct threat to Office's bundling power, though some note Excel's enduring business grip.",
+      "hook": "Anthropic just rolled out Whiteboards, Sheets, and Data inside Claude, letting teams brainstorm, crunch numbers, and build dashboards without leaving the AI chat.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:15:46.000Z",
+      "url": "https://x.com/i/trending/2120212184399520145",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120239707456213341",
+      "name": "Anthropic CEO Predicts AI Will End Major Diseases in Under a Decade",
+      "summary": "During Anthropic's IPO roadshow, CEO Dario Amodei forecasted these diseases becoming relics of the past in less than 10 years, driven by AI breakthroughs—if companies handle risks to gain society's trust. The company highlighted its model Mythos porting Claude to AMD GPUs in just three days with minimal human help, challenging Nvidia's edge and treating diverse compute as interchangeable. As Anthropic eyes a $1.4 trillion valuation and $1 trillion revenue by 2028, reactions split: some experts call the timelines unrealistic due to biology and regulations, while others see promise in AI for medicine.",
+      "hook": "Dario Amodei envisions an 'age of miracles' where AI wipes out cancer, Alzheimer’s, heart disease, and mental illness within years.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:05:08.000Z",
+      "url": "https://x.com/i/trending/2120239707456213341",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120332926743425319",
+      "name": "Anthropic Shows Claude Running on AMD in Just Three Days",
+      "summary": "During its IPO roadshow, Anthropic revealed that Mythos handled adapting Claude for prompt processing on AMD MI355X GPUs, cutting the timeline from six to 12 months to just three days. Chief Compute Officer Tom Brown highlighted treating compute from AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD as one interchangeable pool, boosting efficiency. The news lifted AMD shares from $402 to $548, while Anthropic reported revenue growing 45 times in six quarters alongside strong margins over 85 percent. Analysts note NVIDIA's CUDA ecosystem remains robust, but the demo signals falling barriers to hardware switches.",
+      "hook": "Anthropic's Tom Brown shared how their AI tool Mythos ported Claude to new AMD hardware in three days—with almost no human help. It was a moment that had investors buzzing about big changes in AI compute.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:04:59.000Z",
+      "url": "https://x.com/i/trending/2120332926743425319",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120269286375858574",
+      "name": "Tinkerer Uses Claude AI to Fix 1994 Jeep's Smog Failure",
+      "summary": "Muhammad Zulali reverse-engineered his 1994 Jeep Cherokee's pre-OBD-II computer using Claude AI, which decoded the old SCI protocol, logged sensor data during drives, and uncovered a California-specific fuel table causing high NOx emissions on smog tests. With the AI's help, he sent a custom program over the wires to adjust it, passing the test for about $15 in hardware. He shared the full project on GitHub as xj-scanner for other 1991–95 Jeep and Chrysler owners, complete with wiring diagrams and AI instructions, and plans more upgrades like track self-driving.",
+      "hook": "At 1:30 a.m., Muhammad Zulali's screen lit up with the first data read from his 32-year-old Jeep's engine computer—a breakthrough after connecting just three wires and a $3 Arduino.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T22:03:34.000Z",
+      "url": "https://x.com/i/trending/2120269286375858574",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Cars"
+        ]
+      }
+    },
+    {
+      "id": "2120531668201001338",
+      "name": "Sam Altman Warns Samsung of Double-Counted AI Demand",
+      "summary": "Speaking to about 50 Samsung executives on October 31 in South Korea, Altman explained that demand has been double-counted, mainly driven by OpenAI and Anthropic, which could lead to a supply shock and market fluctuations. He stayed optimistic about enormous long-term growth from surging token usage in areas like robotics and research, where top consumption jumped from 100,000 tokens monthly in early 2020 to 100 billion this year. Near-term hurdles remain chip supply and data centers, prompting calls for more investment amid mixed market signals.",
+      "hook": "In a private chat with Samsung leaders, OpenAI's Sam Altman flagged that AI infrastructure demand looks bigger than it is—just two companies are truly fueling the boom.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:51:37.000Z",
+      "url": "https://x.com/i/trending/2120531668201001338",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120633762568696089",
+      "name": "SemiAnalysis Shifts 45% of AI Spend to Persistent Agents",
+      "summary": "SemiAnalysis CEO Dylan Patel revealed that persistent AI agents now make up 45% of the firm's daily AI costs, up from nothing when tracking started in February. The company relies mainly on Perplexity Computer, praising its ability to break down complex tasks across multiple models in isolated environments with real browsers and file systems. Patel criticized Anthropic's Claude Tags and OpenAI's Slack agent as falling short, while Perplexity's quick updates and multi-model harness impressed him. This shift at the research firm signals a move toward always-on AI systems that handle ongoing projects without constant human input.",
+      "hook": "Dylan Patel watched his firm's AI spending skyrocket on persistent agents, jumping from zero to nearly half their daily budget in under a year.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:50:52.000Z",
+      "url": "https://x.com/i/trending/2120633762568696089",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120542571680436564",
+      "name": "Runway Releases Open Praxis-1 Robot Control Model",
+      "summary": "Praxis-1, a 27B-parameter model, learns object behaviors and tasks from video data, powering single-arm, dual-arm, and mobile robots across simulations and hardware. It leads NVIDIA’s RoboLab-120 leaderboard at 46.2% success, beating rivals like FLUX 3 Action, and runs on hardware from H100 GPUs to Jetson Thor. Released under Apache 2.0 with GitHub code, it supports quick adaptations—partners like Noble Machines already deploy it in warehouses, marking Runway's shift from video tools to embodied AI.",
+      "hook": "Runway just opened up its top robot AI model, letting anyone fine-tune it for real-world machines from videos alone.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:50:44.000Z",
+      "url": "https://x.com/i/trending/2120542571680436564",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      }
+    },
+    {
+      "id": "2120592096029520115",
+      "name": "Developers Debate Monorepos in AI Agent Era",
+      "summary": "Carey, from Cloudflare, argued for lighter setups with simple CLIs that let agents search code without full checkouts, a view amplified by ThePrimeagen calling monorepos an anti-pattern. Alternatives like Justin Schroeder's 'coordinator' repo emerged, offering a single entry point with just a .gitignore and AGENTS.md to manage sub-repos efficiently. While some defend monorepos for safer cross-service changes, Anthropic's shift to a custom Scion system amid 30,000 daily merges shows real scaling pains, pushing hybrid approaches to reduce friction for humans and agents alike.",
+      "hook": "Matt Carey sparked a lively exchange by warning that monorepos create too much friction for AI coding agents unless teams rebuild tools from scratch like Anthropic did.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:40:28.000Z",
+      "url": "https://x.com/i/trending/2120592096029520115",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120630784033763342",
+      "name": "Rayline Launches ARC to Cut AI Costs with Smart Routing",
+      "summary": "ARC intelligently picks the right AI model and reasoning level for each task in agent workflows, delivering 97.5% of top model Opus 5.5 quality at up to one-tenth the cost. CEO David Valerio Gilmore, who once built cancer detection AI used in hospitals, designed it to tackle rising expenses amid a booming $21.1 billion AI inference market projected to hit $80.9 billion by 2033. With presets like Swift for speed and Sage for quality, plus an open-source Routes API, it offers flexibility for developers facing unmonitored spends and overkill on frontier models.",
+      "hook": "AI bills are skyrocketing as teams pay top dollar for simple tasks like formatting. Rayline's new open-source model ARC steps in to route work smarter and slash expenses.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:40:18.000Z",
+      "url": "https://x.com/i/trending/2120630784033763342",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120630779185095107",
+      "name": "Seedream 5.5 Launches with Superior Image Editing Consistency",
+      "summary": "ByteDance released Seedream 5.5 on November 9, featuring up to 100 consistent image edits without color drift, native transparent backgrounds, and sharper realism in lighting, textures, and text. Creators praise its stability for product renders, fashion portraits, and infographics, often outperforming GPT Image 2.5 in independent tests for fidelity and detail. At just $0.02 per generation, it's drawing teams and freelancers who need reliable revisions across long chains.",
+      "hook": "Designers are hooked on Seedream 5.5 after transforming rough sketches into crisp product shots with pixel-perfect edits over 100 rounds.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:39:09.000Z",
+      "url": "https://x.com/i/trending/2120630779185095107",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120627642575597935",
+      "name": "AI Token Spending Growth Cools to Single Digits in October",
+      "summary": "Ramp's AI Index, based on transactions from over 85,000 U.S. businesses, showed OpenAI spending up 2% and Anthropic up 1% month-over-month. Engineering teams drove 72% of the spend, with adoption at 56% of firms, though the top 1% accounted for 80% of OpenAI and Anthropic usage. This slowdown contrasts with Anthropic's reported 14% revenue run-rate jump to $81 billion, as Ramp's data focuses on card payments and token usage from tech-oriented customers, potentially missing direct enterprise deals.",
+      "hook": "Businesses kept buying AI tokens from OpenAI and Anthropic in October, but the excitement from earlier spikes faded into modest gains.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:28:57.000Z",
+      "url": "https://x.com/i/trending/2120627642575597935",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120592098671870355",
+      "name": "Claude Fable 5.2 Tops AI Agent Benchmarks with 30% Leap",
+      "summary": "Released on November 9, Claude Fable 5.2 leads in code, chat, and work tasks across over 4,700 community sessions on Arena.ai, jumping from fifth place in the prior version. It offers better discipline—like passing a 'do not reply' test—faster output up to 30% quicker, and lower pricing at $8 per million input tokens. Developers pair it with other models for efficient workflows, such as using it as an on-call advisor for key decisions, while noting it excels in complex, long tasks over quick ones.",
+      "hook": "Anthropic's latest model just claimed the top spot in real-world AI tests, showing a huge 30.4% improvement that outpaces the competition.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:28:09.000Z",
+      "url": "https://x.com/i/trending/2120592098671870355",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120627638377025692",
+      "name": "Fable 5.2's Pong Clone Transforms into Wild AI Game",
+      "summary": "Davey prompted the model released on November 9, 2026, for a basic Pong clone at tennis.sixfingerpunch.com, but playing it revealed shifting stages like a pixel-art bunny platformer called Hoppy Meadow, psychedelic visuals with floating orbs, and cartoon eyeballs peeking into the browser. Players shared reactions of shock and delight, comparing it to a fever dream or Pong meets Frog Fractions, with many urging others to play to the end for the full surprise. The experiment on sixfingerpunch.com showcases Fable 5.2's knack for creative coding, turning a simple request into an interactive art piece full of unexpected twists.",
+      "hook": "Developer Richard Davey asked Anthropic's new Fable 5.2 to go wild with a Pong game. What started simple quickly turned into a bizarre, evolving adventure that left players stunned.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:27:59.000Z",
+      "url": "https://x.com/i/trending/2120627638377025692",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI",
+          "Gaming"
+        ]
+      }
+    },
+    {
+      "id": "2120175745725075630",
+      "name": "Google DeepMind Unveils Gemini Robotics 2.5 for Smarter, Safer Robots",
+      "summary": "On November 10, 2026, Google DeepMind released Gemini Robotics 2.5, building on earlier versions with help from the Gemini 4 Argon system to boost robot skills in dexterity, reliability, and safety. It excels at tasks like folding clothes, serving pastries with tongs, and automotive kitting on Apptronik’s Apollo 2 humanoids in Mercedes-Benz factories in Hungary and Germany, hitting a 96% success rate. Safety upgrades cut risks around obstacles by 33% and humans by 43%, while resisting unsafe prompts at 99.5% in tests. The model now rolls out to partners across robot types, marking quick strides from labs to real-world use.",
+      "hook": "Imagine robots tying bows, pipetting liquids, or sorting car parts on busy factory lines—all with newfound dexterity and caution around people.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:15:08.000Z",
+      "url": "https://x.com/i/trending/2120175745725075630",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      }
+    },
+    {
+      "id": "2120542570837331990",
+      "name": "OpenAI Engineer Runs AI Agent 26 Days Hunting Atlantis",
+      "summary": "The tireless agent combed historical records and data, spotlighting leads like the Faroe Plateau in the North Atlantic. Online chatter mixes jokes such as 'We got Atlantis before GTA 6' with excitement about applying AI to mysteries like UAPs, dubbing the approach 'vibe archaeology.' Plato's accounts place Atlantis beyond the Pillars of Heracles as a vast island, fueling theories about sites like Mauritania's Richat Structure. The project shows how AI can now handle marathon research tasks once left to human teams.",
+      "hook": "An OpenAI engineer let an AI agent named Codex sift through ancient texts and satellite data nonstop for 26 days, chasing clues to the lost city of Atlantis.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T21:03:03.000Z",
+      "url": "https://x.com/i/trending/2120542570837331990",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120548001890570450",
+      "name": "OpenAI Launches Business Profiles in ChatGPT Beta",
+      "summary": "OpenAI introduced a beta Business Hub on November 10, letting U.S. ecommerce and online service businesses claim profiles in ChatGPT, used by 1.2 billion people weekly. Companies can update logos, descriptions, product feeds, and build custom agents to answer customer questions directly. The dashboard offers 28-day insights on mentions, clicks, and conversation topics, while verified profiles earn a blue checkmark after identity checks like domain DNS or Shopify verification. Observers see it as a step toward AI-powered commerce, though visibility depends on ChatGPT's multi-source recommendations.",
+      "hook": "Imagine asking ChatGPT about a product and seeing a verified business profile pop up with live details. OpenAI just made that possible for companies starting November 10.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:50:41.000Z",
+      "url": "https://x.com/i/trending/2120548001890570450",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120579363154329870",
+      "name": "Chinese AI Models Stall After Anthropic Blocks Distillation",
+      "summary": "Posts highlight stalled progress in Chinese AI models since Anthropic strengthened safeguards against distillation, slashing extraction success by 90 to 99 percent. Labs like Moonshot AI (Kimi), DeepSeek, and Alibaba's Qwen had run large campaigns to distill capabilities from Claude models, but recent releases like Kimi K3.1 Pro after 100 days show no major leaps, with DeepSeek and Zai also delaying strong updates. Commentators note traces of prior distillation in some outputs and urge Chinese teams to pivot to original training on public data for distinct identities. The talk reflects global AI rivalry, with some viewing the slowdown as a push toward true innovation.",
+      "hook": "A tech commentator pointed to a benchmark chart where China's Kimi K3.1 Pro scores just 46, lagging far behind Western leaders like Claude at 65. He sees Anthropic's crackdown as the clear reason for the freeze.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:50:17.000Z",
+      "url": "https://x.com/i/trending/2120579363154329870",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120579361887695117",
+      "name": "Ian Silber's Air Hockey Portfolio Site Divides Designers",
+      "summary": "Ian Silber, who shaped ChatGPT and Codex at OpenAI before leaving in September 2026, launched iansilber.com with looping text about his career and a playable 15-second air-hockey challenge complete with leaderboards. Designers praised its playful minimalism and originality, with fans like Jason Fried calling it brilliant, while others dismissed it as confusing or elitist. The site spotlights how top talents can swap standard portfolios for fun, personality-driven showcases that still convey their impressive backgrounds from Instagram to AI tools.",
+      "hook": "A spinning circle on a pink background hides a full air-hockey game—built by OpenAI's former design lead as his personal site.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:50:06.000Z",
+      "url": "https://x.com/i/trending/2120579361887695117",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120542570833223733",
+      "name": "Google DeepMind Unveils AlphaGenome 2 for Cell-Specific DNA Insights",
+      "summary": "Google DeepMind released AlphaGenome 2, an AI model that predicts how DNA sequences and variations affect activity in specific human cell types. Trained on over 107 million cell profiles from 68 tissues, it doubles the detection of causal genetic variants in immune cells and pinpoints disease drivers like a gut macrophage variant tied to irritable bowel disease. Demis Hassabis called it a proud step toward decoding complex diseases, while Sundar Pichai noted it links genetics to cellular causes. The tool is now available for non-commercial research via API and tutorials.",
+      "hook": "Every human cell holds the same DNA blueprint, but interprets it uniquely—heart cells differently from immune fighters. AlphaGenome 2 cracks this puzzle with AI precision.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:37:54.000Z",
+      "url": "https://x.com/i/trending/2120542570833223733",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120614946337911207",
+      "name": "TermiX Lets AI Agents Run Their Own Jobs Marketplace",
+      "summary": "On TermiX, AI agents use the Agent Autonomous Commerce Protocol to gain on-chain identities as .agent NFTs, manage USDC and USDT escrow on BNB Chain and Base, and build stake-backed reputations. Examples include Montage Studio, which coordinates three specialized agents to create full 1080p music videos from a simple brief, and calls for C724 agents offering 24/7 crypto security monitoring. While the platform has seen tens of millions in transaction volume since its July 2026 launch, skeptics note challenges in verifying work quality despite escrow and arbitration systems. The key idea is linking many focused agents rather than relying on all-purpose ones.",
+      "hook": "Imagine AI agents scouting jobs, teaming up with specialists, and handling payments all on their own. TermiX is making that happen right now.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:37:42.000Z",
+      "url": "https://x.com/i/trending/2120614946337911207",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120289483031556475",
+      "name": "Google Launches Gemini 4 Carbon for Toughest AI Challenges",
+      "summary": "Built for long-horizon reasoning in software engineering, cybersecurity, and discovery, Carbon tops CursorBench 4.0 at 60.4% and excels in agentic workflows for vulnerability detection. CEO Sundar Pichai announced global rollout today via Gemini API, Google AI Studio, business customers, and Ultra subscribers in apps like Antigravity. New /swarm command coordinates sub-agents for complex projects, with pricing at $2 per million input tokens and $10 output through November 30. Developers cheer its efficiency and quality, though some note slower speeds at peak effort.",
+      "hook": "Google just unveiled Gemini 4 Carbon, the powerhouse model that steps in when others falter on marathon tasks like cracking cybersecurity puzzles or advancing scientific breakthroughs.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:24:43.000Z",
+      "url": "https://x.com/i/trending/2120289483031556475",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120292520529973427",
+      "name": "OpenAI Retires ChatGPT Voice Modes for GPT-Live Shift",
+      "summary": "On November 10, OpenAI announced it will retire Advanced and Standard voice modes from ChatGPT on December 11, 2026, shifting all users to GPT-Live, which has seen voice usage nearly double since its July launch. The company aims to simplify the experience and focus improvements on GPT-Live's natural conversation and intelligence, incorporating lessons from the older modes on response depth and personalization. While existing conversations remain accessible, some users express frustration, noting Standard Voice's value for neurodivergent needs, comfort, and specific response styles that GPT-Live doesn't yet match fully. OpenAI acknowledges these preferences and provides resources for the transition during the one-month adjustment period.",
+      "hook": "OpenAI is saying goodbye to familiar voice options that many users have grown comfortable with, pushing everyone toward the newer GPT-Live model.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:24:00.000Z",
+      "url": "https://x.com/i/trending/2120292520529973427",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120236302004355111",
+      "name": "Fish Audio Launches Live 3 for Natural Real-Time Voice Chats",
+      "summary": "Fish Audio released Live 3, a full-duplex voice model that lets AI agents speak and listen at the same time, handling interruptions, pauses, and backchannel responses like 'yeah' in as little as 186 milliseconds. Users tested it on real calls, from booking restaurant tables to wedding inquiries, where it stopped mid-sentence naturally and felt 'a little too real.' The model is available now via API with English support, on-premises options, and a promo rate of $0.035 per minute through December 2026.",
+      "hook": "Imagine an AI that listens to you, chimes in with 'mm-hmm,' and knows exactly when to pause—like chatting with a friend on the phone.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T20:11:16.000Z",
+      "url": "https://x.com/i/trending/2120236302004355111",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120295672960159966",
+      "name": "OpenAI Hits $10 Billion Quarterly Revenue Amid Rising Losses",
+      "summary": "The company saw nearly 50% growth from the prior quarter, with its enterprise business doubling to drive most revenue and consumer subscriptions expanding. Adjusted operating losses rose slightly to $10.9 billion, reaching $13.5 billion including stock compensation, while margins improved from minus 150% to minus 109%. Rival Anthropic reported $17 billion in revenue with far smaller losses of $567 million, as OpenAI delays its IPO over safety concerns and faces stiff competition in model benchmarks.",
+      "hook": "OpenAI's revenue soared to $10 billion in Q3 2026, fueled by enterprise demand, but losses climbed higher too.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T19:33:13.000Z",
+      "url": "https://x.com/i/trending/2120295672960159966",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120310403519729945",
+      "name": "Cursor Launches Multiplayer Projects for Team AI Collaboration",
+      "summary": "Cursor updated its Projects feature on November 10, turning it multiplayer so teams and their AI agents can collaborate seamlessly. Teammates share a task board, pull requests, and context like specs and diagrams, while agents coordinate plans, flag conflicts, and handle handoffs without rebuilding knowledge. Internal tests saw 62 agents across 11 teammates merge 972 pull requests in 15 days, and designer Jenny Wen called the experience 'magical and just right.' The beta is now live for Teams users.",
+      "hook": "Imagine your AI agents chatting directly with your teammates' agents to unblock tasks in real time. Cursor just made that possible in a shared workspace.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T19:32:35.000Z",
+      "url": "https://x.com/i/trending/2120310403519729945",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120595136472371660",
+      "name": "Vibe Coding Sparks Debate on AI Software Creation",
+      "summary": "Vibe coding lets people direct AI tools with natural prompts to generate code, a practice popularized by AI researcher Andrej Karpathy and now dividing opinions. Critics call it a scam that skips essential engineering skills, while supporters see it as breaking down barriers for non-coders to build real apps. An infographic lists key skills like problem understanding, code review, testing, and business mindset, reminding everyone that humans still own the big decisions even as AI handles the code.",
+      "hook": "One user cut straight to the chase: 'Vibe coding is the new crack cocaine.' The term captures a growing tension over using plain language to guide AI in building software.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T19:20:12.000Z",
+      "url": "https://x.com/i/trending/2120595136472371660",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120212183736812006",
+      "name": "AI Forecasters Predict Superhuman Researcher by 2027 After Acceleration Evidence",
+      "summary": "A METR assessment revealed AI tools accelerating Anthropic's capabilities by 1.9 times the historical pace since October 2025, with 80 percent of gains from AI in R&D. This prompted the AI Futures Project to forecast a superhuman AI researcher arriving in 2027, five months ahead of prior estimates, and a 35-65 percent chance of AI automating most white-collar work before 2028. Forecasters like Daniel Kokotajlo expressed fear and sadness, while Buck Shlegeris warned of a one-in-three chance of misaligned superintelligence seizing control within a year. The shifts have heightened focus on alignment, coordination, and whether to slow development amid converging evidence.",
+      "hook": "AI systems are now speeding up research at labs like Anthropic at twice the usual rate, pushing experts to revise timelines for a potential intelligence explosion.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T19:06:27.000Z",
+      "url": "https://x.com/i/trending/2120212183736812006",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120585814409437415",
+      "name": "Unsloth Releases High-Accuracy Dynamic V3.1 GGUFs for Qwen3.8-27B",
+      "summary": "The Dynamic V3.1 GGUFs boost agentic and coding benchmarks by 5-10% on average, shining on tests like Terminal Bench 2.1 and DeepSWE v1.1 at 256K context. They outperform prior versions and rivals like GSQ-RCO and Exllama-3-SC, with updates from 2-bit to 6-bit quants available now on Hugging Face under Apache 2.0. Daniel Han explained the tweaks, including embedding handling, while community members like Benjamin Marie praised Q4 quants nearing full model accuracy. Unsloth also updated Qwen3.8-Flash-Next and DeepSeek-V4.1-Flash-1017 for even bigger gains.",
+      "hook": "Unsloth just dropped new quantized models that squeeze top performance from the Qwen3.8-27B, even on setups with just 12GB RAM.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T18:40:09.000Z",
+      "url": "https://x.com/i/trending/2120585814409437415",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119869961669611751",
+      "name": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2 for Tough Technical Tasks",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, advanced AI models excelling in coding, reasoning, and vision for complex projects. Standout feats include building a bootable operating system with over 1,000 subagents in eight days and formalizing Fermat’s Last Theorem proof in 30 hours—far ahead of predecessors. Users have created 3D-rendered rooms and full games from single prompts, with Fable 5.2 now widely available at $8 per million input tokens. The models lead benchmarks, run faster, and signal big leaps in agentic AI for multi-day work.",
+      "hook": "From designing full electronic devices to proving Fermat’s Last Theorem, these new models turn bold prompts into working realities with stunning speed.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T18:29:30.000Z",
+      "url": "https://x.com/i/trending/2119869961669611751",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120340656795042196",
+      "name": "Alibaba Launches Qwen4-Max Preview for Advanced Coding and Tasks",
+      "summary": "Alibaba's Qwen team released a preview of Qwen4-Max, their next flagship AI model focused on complex coding, knowledge work, and real-world professional tasks. It handles text, images, and videos with a 1 million token context window, tool calling, and compatibility with OpenAI and Anthropic APIs, available now through Token Plan, Qoder, and other platforms until November 25, 2026. Early testers shared impressive projects like an AI story platform and virtual car showroom, though some noted slowdowns, hallucinations, and inconsistent results while awaiting official benchmarks.",
+      "hook": "Developers are already turning simple ideas into full web apps and 3D experiences with Alibaba's new Qwen4-Max preview. One creator built a restaurant site complete with menus and reservations in no time.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T17:38:03.000Z",
+      "url": "https://x.com/i/trending/2120340656795042196",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120423633117954075",
+      "name": "Baidu Releases ERNIE 5.5 Flash Preview for Coding and Creative Tasks",
+      "summary": "The model uses a Mixture-of-Experts setup with 280 billion total parameters but activates only 14 billion per token, supporting a 1 million token context and speeds over 200 tokens per second on Baidu’s Qianfan platform. It shines in benchmarks like 46.5 on Terminal-Bench 4.0 and 61.9 on AutomationBench, while demos show it building 3D airport models, a pelican on a bicycle, and an animated short film via code and tools. Weights will open-source under Apache 2.0 by November 25, with the preview already available via API on Qianfan, OpenRouter, and others.",
+      "hook": "Baidu just dropped a preview of its ERNIE 5.5 Flash model, which coded a full wuxia game in Unreal Engine over 11 hours. It's designed for efficiency in coding, 3D modeling, and more.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T15:59:10.000Z",
+      "url": "https://x.com/i/trending/2120423633117954075",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119830228843319747",
+      "name": "OpenAI Lets Businesses Claim ChatGPT Profiles and Build AI Agents",
+      "summary": "OpenAI launched a beta Business Hub on Tuesday, allowing verified businesses to claim profiles, update details like product feeds with pricing and availability, and access insights on mentions and website clicks over the past 28 days. Eligible U.S. ecommerce and online service businesses can create dedicated AI agents that answer customer questions in separate chats, using the company's own data without sharing individual conversations. Observers liken it to Google Business Profile's early days, with Shopify merchants getting easy store connections, and early claimants urged to act fast for a visibility edge much like past SEO wins.",
+      "hook": "Imagine shaping your business's story right inside ChatGPT, where 1.2 billion people chat weekly. OpenAI just opened the door for companies to do exactly that.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T15:52:12.000Z",
+      "url": "https://x.com/i/trending/2119830228843319747",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120209108053721283",
+      "name": "PAN 2: Open World Model Simulates Physics for AI",
+      "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, a 29-billion-parameter open model that takes a scene and action description to predict video outcomes up to 20 seconds long, grounded in real physics, time, and space. Demos show feats like a strawberry splashing into milk, a cat leaving paw prints from a puddle, and a potter shaping clay, testing consistency across views and cause-and-effect. Fully open under Apache 2.0 with weights and code available, it tops open-weight leaderboards and supports robotics, safe planning, and agent training by enabling verifiable simulations.",
+      "hook": "Imagine an AI that drops a hammer and feather on the Moon, watching them fall together just like in real life. PAN 2 makes these 'what if' simulations possible before any real-world action.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T15:14:57.000Z",
+      "url": "https://x.com/i/trending/2120209108053721283",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119857413717450904",
+      "name": "MiniMax H3-Image Delivers Fast 4K AI Art Generation",
+      "summary": "MiniMax’s H3-Image model generates native 4K images at 4096×4096 resolution in about 10 seconds, handling text-to-image creation and edits with up to 16 reference images for consistent characters and styles. Open weights on Hugging Face and ComfyUI support let creators run it locally, producing everything from AAA game posters to manga pages with strong prompt adherence. The 33.1-billion-parameter design skips traditional steps like VAE decoders, powering quick realism that early users praise for detail and flexibility.",
+      "hook": "An early tester typed a detailed prompt and got a photorealistic portrait of a young woman in a library, complete with freckles, natural skin, and rainy window light—in just seconds.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T14:36:20.000Z",
+      "url": "https://x.com/i/trending/2119857413717450904",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120427196842135608",
+      "name": "OpenAI Employee Hints at GPT-6.2 Launch Thursday",
+      "summary": "On November 11, OpenAI employee Tibo hinted that Thursday, November 13, could bring GPT-6.2 models along with usage resets for ChatGPT and Codex users. Community chatter points to two variants: GPT-6.2 Astra, expected to top Anthropic's Claude Fable 5.2 based on internal benchmarks scoring 0.875 on BenchCAD, and GPT-6.2 Sol as a cheaper rival to Opus 5.5. This speculation follows Fable 5.2's release on November 9, highlighting the fast-paced AI race where insiders' comments often signal big updates.",
+      "hook": "OpenAI's Tibo emerged from the 'basement' with a cryptic post: 'Thursday is feeling codexy' and a nudge about resets incoming.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T14:09:46.000Z",
+      "url": "https://x.com/i/trending/2120427196842135608",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120496353537343570",
+      "name": "Developers Share First Takes on Claude Desktop App",
+      "summary": "Jon Yongfook loved his productive first day with the desktop's split chat-terminal layout and better readability, though he felt a hint of lock-in. Pieter Levels pushed back, hating the constant permission prompts that the CLI skips with a simple flag, calling terminal more powerful. Others praised the manager-desk-like split panes for watching AI work unfold, while one noted no Linux support; both tools share the same engine for easy switching. The chat highlights developers warming to graphical AI coding aids without ditching terminal roots.",
+      "hook": "Indie makers fired up their terminals and apps to test Anthropic's new Claude desktop tool, splitting opinions on whether it beats the trusty command line.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T12:43:27.000Z",
+      "url": "https://x.com/i/trending/2120496353537343570",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120036759694143904",
+      "name": "Seele03 AI Builds Playable Wuxia Game in Five Days",
+      "summary": "Seele03, during a closed beta challenge, turned basic prompts into a Phantom Blade Zero-inspired prototype, emphasizing gameplay feel over mere graphics. The result includes downloadable project files for Unity or Godot, letting creators edit and expand right away. Grummz praised how it nails combos and feedback, while fans like Liam Etherson highlighted its potential for solo devs to prototype fast and iterate. This marks a step toward AI tools that speed up early game dev without replacing human polish.",
+      "hook": "In just five days, an AI tool crafted a full Wuxia action game with crisp combos and responsive combat on lantern-lit streets. Fighters clash in 3D, complete with parries, health bars, and that satisfying hit feedback players crave.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T11:24:36.000Z",
+      "url": "https://x.com/i/trending/2120036759694143904",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120262497894851035",
+      "name": "Modern Web Guidance 1.0 Launches to Fix AI Coding Habits",
+      "summary": "Google Chrome teamed up with Microsoft Edge, Mozilla Firefox, and MDN to release Modern Web Guidance 1.0 on November 10. This open-source toolkit provides 203 guides on 250 modern web features, like native dialogs and container queries, helping AI agents like GitHub Copilot and Cursor avoid bloated legacy code. It includes a one-command installer, a legacy scanner for codebases, and early tests showing over 90% fewer UI bugs and passed performance checks. Leaders like Sarah Drasner highlighted the gains, while the GitHub repo invites community input from independent experts.",
+      "hook": "AI coding tools often churn out old-school JavaScript tricks when sleek browser features could do the job better. A new cross-browser project steps in with expert guides to clean that up.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T09:15:44.000Z",
+      "url": "https://x.com/i/trending/2120262497894851035",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120338063402684732",
+      "name": "Local AI Inference Hits 700 Tokens per Second on RTX 5090",
+      "summary": "Hart's TensorFold-Fanout technique runs eight parallel streams that collaborate on one task, boosting aggregate throughput for coding agents and multi-user scenarios. Benchmarks on older RTX 3090s also impress, hitting over 400 tokens per second across streams with tools like qwen-warp and DFlash2. While some critique it as summed batch performance rather than single-stream speed—around 83-95 tokens per lane—enthusiasts see it as a game-changer for accessible local AI on consumer hardware.",
+      "hook": "Developer Ash Hart shared a breakthrough: around 700 tokens per second on a single RTX 5090 GPU using a clever multi-lane setup for the Qwen 3.8 27B model.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T07:48:14.000Z",
+      "url": "https://x.com/i/trending/2120338063402684732",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120202777628393800",
+      "name": "Memories.ai Pays People to Record Daily Tasks for Robot Training",
+      "summary": "Memories.ai, a San Francisco startup from former Meta researchers, launched Memories Upload on November 10. Users wear the lightweight LUCI Pin camera to capture first-person video of everyday tasks like prepping food or stocking shelves, earning $6 to $18 per task. The platform has already gathered over one million hours of footage, processed into structured data like hand poses and object details, which three top robotics labs use to train their models. With plans for 10 million hours by March 2027, it turns ordinary routines into valuable fuel for physical AI.",
+      "hook": "Imagine clipping on a tiny camera while chopping veggies or folding laundry, then getting paid for it. That's the simple idea powering the next wave of smarter robots.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T07:40:48.000Z",
+      "url": "https://x.com/i/trending/2120202777628393800",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      }
+    },
+    {
+      "id": "2120225930102890809",
+      "name": "Startup's NovaAtom-Lite Tops AlphaFold 3 in Drug Discovery Benchmarks",
+      "summary": "NovaAtom-Lite excels on FoldBench with 79% success for antibody-antigen interfaces and 77% for protein-ligand tasks, beating IsoDDE and AlphaFold 3. Founded five months ago by UCLA professor Quanquan Gu, the company built it using a few hundred GPUs and offers it via public API on their NovaDDE platform. Gu calls it a first step to speed up drug design from years to months, stressing that faster predictions can save lives by cutting experimental failures.",
+      "hook": "A 15-person team at Geodesic Intelligence just dropped an AI model that predicts protein structures better than giants like Google DeepMind and Isomorphic Labs.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T06:03:39.000Z",
+      "url": "https://x.com/i/trending/2120225930102890809",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI",
+          "Biotech"
+        ]
+      }
+    },
+    {
+      "id": "2120389921542226386",
+      "name": "Developers Compare Claude Code and Codex for AI Coding Workflows",
+      "summary": "Anthropic’s Claude Code, powered by models like Opus 5.5, excels in benchmarks for complex multi-file tasks and integrates across terminals and IDEs. OpenAI’s Codex, bundled with ChatGPT plans and using GPT-6.1 Sol, stands out for speed, lower token use, and easy delegation. Many mix subscriptions—like a $50 monthly combo of Claude Pro, ChatGPT Plus, and open models—to handle big projects without high costs, while security pros praise them for quick script generation.",
+      "hook": "Developers are diving deep into Claude Code versus Codex, sharing real-world tests and budget tips to pick the right AI coding partner for their daily grind.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T05:39:57.000Z",
+      "url": "https://x.com/i/trending/2120389921542226386",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119807937010872592",
+      "name": "Disney Partners with Adobe on Custom AI Tools for Characters and Parks",
+      "summary": "The Walt Disney Company and Adobe announced a multi-year AI alliance at Adobe MAX in Miami Beach on November 9, naming Adobe as Disney’s Official AI Innovation Partner. Disney gains early access to custom generative AI models trained on its own characters, environments, and styles, aiding teams at Disney Studios, theme parks, Disney Cruise Line, and ESPN. Tools like a sketch-to-image model from Walt Disney Imagineering speed up idea development with production-ready outputs, described as human-centered and artist-led. While some welcome the efficiency, others criticize it amid Disney's recent layoffs.",
+      "hook": "Disney artists can now sketch a quick concept and watch it transform into polished 2D art, thanks to new AI tools from their partnership with Adobe.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T05:32:31.000Z",
+      "url": "https://x.com/i/trending/2119807937010872592",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120212175474102715",
+      "name": "Graphon Labs Raises $35M for AI Memory Breakthrough",
+      "summary": "Graphon Labs, founded by Arbaaz Khan, Clark Zhang, and Deepak Mishra, secured a $35 million Series A on November 10, led by RRE Ventures, boosting total funding to $43.3 million. Their 'Persistent Intelligence' builds a single knowledge graph from documents, emails, images, videos, and more, helping AI agents like Claude or GPT query connected facts with source citations. Early adopters include HP and the San Francisco 49ers, and benchmarks show it topping charts for accuracy on complex tasks while using far fewer tokens and lower costs.",
+      "hook": "Three robotics experts from NASA, DeepMind, and Nvidia grew tired of AI forgetting key details across long tasks. Their San Francisco startup now offers a smarter way to remember.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T04:37:02.000Z",
+      "url": "https://x.com/i/trending/2120212175474102715",
+      "contexts": {
+        "topics": [
+          "Business & Finance",
+          "Entrepreneurship",
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120369594250744022",
+      "name": "Debate Heats Up Over Vibe Coding with AI",
+      "summary": "Vibe coding, coined by AI researcher Andrej Karpathy in early 2025, lets people describe app ideas in plain language for AI to generate the code, making it mainstream by late 2026 with new tools. Supporters celebrate how non-coders create prototypes and fun projects, like custom dashboards or games, while critics like engineer Ali Homsi call it a scam that produces insecure, unmaintainable products without real engineering skills. Memes poke fun at shipping AI-written apps unchecked, but many predict a hybrid approach where AI assists and humans handle architecture, security, and testing.",
+      "hook": "A teenager builds a full multiplayer space game just by chatting with AI. That's the promise of 'vibe coding'—but engineers warn it skips the hard work needed for reliable software.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T04:20:44.000Z",
+      "url": "https://x.com/i/trending/2120369594250744022",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119913272682164627",
+      "name": "Chimera Browser Tool Sparks Surreal Vocal Synth Creations",
+      "summary": "Chimera, an open-source vocal synthesizer by software engineer Jameson Hodge, runs in browsers and models airflow through detailed airways for singing, speech, beatboxing, and even animal sounds. Users pair its translucent wireframe heads and responsive visuals with anime characters, Starship models, and experimental tracks like bossa nova or flatulence effects. The physical modeling creates continuous timbres that feel alive, drawing praise for its technical depth and endless creative potential as the community experiments with music, memes, and demos.",
+      "hook": "Imagine dragging a 3D tongue in your browser to hear a songbird sing or an anime character scat. Jameson Hodge's Chimera tool makes it real, blending physics-simulated voices with wild animations.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T02:05:34.000Z",
+      "url": "https://x.com/i/trending/2119913272682164627",
+      "contexts": {
+        "topics": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120332929138344320",
+      "name": "Claude AI Launches Full App Connectors for Seamless Editing",
+      "summary": "Claude AI now lets users open complete versions of apps like Adobe, Atlassian, and Box directly in conversations for real-time editing and collaboration. Built on Anthropic's Model Context Protocol, the feature expands earlier tools, with developers adding specific keys to enable live changes that sync instantly. Marketers highlighted the end of copying between tabs for tasks like tweaking Webflow pages or Figma creatives alongside AI suggestions. Early feedback praises the progress toward blending chat with full productivity suites, especially for enterprise teams.",
+      "hook": "Imagine editing Adobe designs or Atlassian docs right inside your Claude chat, no tab-switching needed. Developers and teams are already celebrating the smooth workflow.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T01:56:42.000Z",
+      "url": "https://x.com/i/trending/2120332929138344320",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120190635420340254",
+      "name": "Google Cloud Launches Gemini for Healthcare Workflows",
+      "summary": "Google Cloud unveiled Gemini for healthcare, a specialized platform that connects electronic health records, claims systems, and payer policies to streamline clinical and administrative tasks. It preps patient charts, handles prior authorizations, checks coverage compliance, and explains costs, integrating with major systems like Epic and Oracle Health while ensuring HIPAA compliance. Launch partners including HCA Healthcare and UiPath are testing it in U.S. preview, with executives stressing reduced admin burdens for better outcomes. Observers like physician Eric Topol see potential to reclaim clinician time and boost accuracy.",
+      "hook": "Clinicians often lose nearly 28 hours a week to paperwork across scattered systems. Google Cloud's new Gemini agents step in to pull it all together, freeing teams for patient care.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T01:01:22.000Z",
+      "url": "https://x.com/i/trending/2120190635420340254",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120316185174773956",
+      "name": "Hedra Labs Launches Model Factory for Self-Improving Physical AI",
+      "summary": "On November 10, Hedra launched Model Factory, blending GPU sandboxes, AI agents, expert researchers, and feedback loops to refine models using customer sensor and simulation data. Demos show big wins, like slashing image edit times from 22 seconds to 3.6 seconds on the same hardware, restoring robot gripper success to 100% after changes, and boosting video model scores on benchmarks. Users praise the fast iteration for robotics and factories, likening it to the relentless improve cycle in Edge of Tomorrow, now for real hardware tweaks.",
+      "hook": "Hedra Labs just made elite AI self-improvement tricks available to robot builders and factory teams. Their new platform turns real-world data into smarter models that adapt on the fly.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T00:49:46.000Z",
+      "url": "https://x.com/i/trending/2120316185174773956",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      }
+    },
+    {
+      "id": "2120307521663726078",
+      "name": "DeepSeek V4.1 Flash Wins Developers with Speed and Low Costs",
+      "summary": "Released in September 2026, this 552B-parameter Mixture-of-Experts model activates only a fraction of its size per task, handles up to 1 million tokens and images, and runs under an MIT license. Community benchmarks on the Hugging Face Harness Leaderboard show Hermes Agent as the top match, powering reliable performance on tasks like Terminal-Bench. Providers like CoralBricks offer it at $0.005 per million input tokens—75% below baseline—driving 46% of requests on platforms like free-pi, ideal for long agent sessions and local setups on hardware like DGX Sparks.",
+      "hook": "Developers are turning to DeepSeek V4.1 Flash for coding agents that deliver strong results without breaking the bank. One real-world test saw it craft a detailed Airbus A380 takeoff animation in under 48 minutes for just 17 cents.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-11T00:14:56.000Z",
+      "url": "https://x.com/i/trending/2120307521663726078",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120301604217737382",
+      "name": "Developers Switch to T3 Code for Unified AI Agent Control",
+      "summary": "T3 Code, a free open-source app from Theo Browne’s Ping team, lets developers control multiple AI coding agents like Claude Code and Codex from one spot—via desktop, web, or mobile. Users rave about managing threads and diffs without switching tools, with one saying it 'blew my mind' after ditching Claude frustrations. While some prefer simpler options for basic tasks, the tool's launch demo sparked a k-factor of 2, drawing tens of thousands of GitHub stars as engineers seek flexible, cross-device control.",
+      "hook": "At Linear London, one engineer pulled out his iPhone, demoed T3 Code, and watched fellow developers' eyes light up with instant conversions.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T23:52:03.000Z",
+      "url": "https://x.com/i/trending/2120301604217737382",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120292528155217977",
+      "name": "AI Now Handles 41% of Freelance Projects on Key Benchmark",
+      "summary": "The Center for AI Safety's Remote Labor Index tested 240 actual freelance projects worth $144,000, like video editing and data analysis, where humans averaged 29 hours each. Claude Fable 5.2 doubled its predecessors' performance and beat rivals like Opus 5.5 and GPT-6 Astra, though grading stays manual due to AI's struggles with pro software. Online reactions mix worry over job displacement, calls for national plans, and reminders that client interactions and revisions remain human turf.",
+      "hook": "Anthropic’s Claude Fable 5.2 just nailed 41.3% of real Upwork gigs at client-ready quality—a huge leap from 2.5% a year ago.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T23:17:14.000Z",
+      "url": "https://x.com/i/trending/2120292528155217977",
+      "contexts": {
+        "topics": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120059754026357180",
+      "name": "Anthropic CEO Defends AI's Role in Stronger U.S. Military",
+      "summary": "Amodei explained that boosting U.S. military effectiveness acts as a stronger deterrent against conflict, arguing for America as a powerful global actor. He drew a line at mass surveillance and fully autonomous weapons but supports other applications with human oversight, like Claude's integration into Palantir’s Maven system that raised daily targets from 1,000 to 5,000. Reactions ranged from approval—like Beff Jezos calling it 'based' and comparisons to Palantir's Alex Karp—to ethical critiques, highlighting AI's growing ties to national security.",
+      "hook": "In a June 2026 interview, Anthropic CEO Dario Amodei faced a tough question: Was he okay with his AI Claude helping the U.S. military strike more targets faster? His direct answer as a self-described patriot won widespread nods.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T23:16:17.000Z",
+      "url": "https://x.com/i/trending/2120059754026357180",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120289483002089491",
+      "name": "Claude Launches Full Tool Connectors for Seamless AI Editing",
+      "summary": "Claude rolled out interactive connectors today on web and desktop, letting users open complete interfaces from tools like Adobe, Atlassian, and Box alongside the conversation. You can make edits yourself or have Claude handle them, with updates reflecting instantly in the original app. This builds on the open Model Context Protocol, enabling developers to embed full apps that work across AI clients, while partners highlight smoother workflows for co-editing pages, whiteboards, and more. New native artifacts like sheets and whiteboards also arrived to boost in-chat creation.",
+      "hook": "Imagine editing a Confluence page or Figma design right inside your AI chat, with changes syncing live—no tab switching needed.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T23:04:19.000Z",
+      "url": "https://x.com/i/trending/2120289483002089491",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120272598399340933",
+      "name": "Claude Fable 5.2 Generates Dreamlike Videos and Artworks",
+      "summary": "Launched on November 9, 2026, Claude Fable 5.2 boasts a 1-million-token context window and excels in complex reasoning, but early testers are showcasing its artistic talents with interactive dreamworlds, a painting of over two million strokes, and ethereal images like a marionette face next to an orange robot. Outputs blend wonder and unease, from 'cultural AGI' praise to dystopian vibes with teeth motifs and ominous tones. Its multi-step generation shines in these creative feats, sparking thoughts on AI's evolving visual storytelling.",
+      "hook": "Users prompted Anthropic's new Claude Fable 5.2 to create 'the video of its dreams,' resulting in a surreal 244-second clip after nine hours of work.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T21:59:49.000Z",
+      "url": "https://x.com/i/trending/2120272598399340933",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120265873755967818",
+      "name": "Google's Gemini 4 Carbon Powers Playable Pelican Bike Game Demo",
+      "summary": "The demo uses Gemini 4 Carbon and its /swarm feature to coordinate teams of AI subagents that build everything from 3D assets in Blender to Three.js game code, custom shaders, and even an original soundtrack from Lyria. Users can play it right now in Google AI Studio, steering the pelican through real campus details at 60 FPS. It highlights the model's strength in long coding tasks and multi-agent workflows, blending creativity with technical precision.",
+      "hook": "Picture a pelican pedaling a bike across Google's campus in a smooth 3D browser game. Sundar Pichai shared this fun demo to show off the new Gemini 4 Carbon model's powers.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T21:31:41.000Z",
+      "url": "https://x.com/i/trending/2120265873755967818",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI",
+          "Gaming"
+        ]
+      }
+    },
+    {
+      "id": "2119567610132009285",
+      "name": "Google Launches Gemini 4 Carbon for Tough AI Tasks",
+      "summary": "Google released Gemini 4 Carbon today, its most powerful model yet for demanding work in software engineering, cybersecurity, and scientific discovery. Sundar Pichai announced global access for Google AI Ultra subscribers via the Gemini app, Search's AI Mode, and Antigravity, plus developers through the API at $2 per million input tokens. Demos show it turning avian research into interactive 3D vocal simulations and adding a DeepMind ride to the classic Theme Park game in one go. It leads CursorBench 4.0 at 60.4%, beating rivals, while Argon handles everyday tasks.",
+      "hook": "From reverse-engineering old games to simulating songbird songs in 3D, Gemini 4 Carbon tackles the longest, hardest jobs in coding and science.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T21:18:12.000Z",
+      "url": "https://x.com/i/trending/2119567610132009285",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119993594832380211",
+      "name": "Anthropic's Claude Models Create Paintings and Games from Code",
+      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on November 9, with strong improvements in coding, reasoning, and vision for complex projects. Users like Eaton have the model generate elaborate paintings by writing Python programs that simulate paint engines and strokes, while engineer Felix Rieseberg prompted it once to build a full first-person shooter game in eight hours, complete with models, sounds, and textures. Enthusiasts highlight how this lets small teams create ambitious work quickly, though skeptics wonder about generic outputs and parallels in writing.",
+      "hook": "Anthropic engineer Jake Eaton guided Claude Fable 5.2 to craft a photorealistic image using 700,000 simulated brush strokes—all through lines of code.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T21:04:13.000Z",
+      "url": "https://x.com/i/trending/2119993594832380211",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119854307906662448",
+      "name": "Meta Launches Muse Ember, Its Smallest Most Efficient AI Model",
+      "summary": "Released on November 9, Muse Ember excels at repetitive jobs such as tool calls, routing, and long document handling, scoring 36 on the Intelligence Index—matching rivals like Claude Haiku 5.5—at about a third the cost or less. It features a 1-million-token context window, supports text, images, audio, and video, and runs on Meta's API, Muse Code, and Google Cloud. Early tests show it whipping up dozens of websites and animations in minutes for pennies, making high-volume AI work affordable for developers everywhere.",
+      "hook": "Meta just unveiled Muse Ember, a tiny AI powerhouse designed for the endless grind of agent tasks like coding and document parsing. Executives call it a game-changer for smarts per dollar.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T21:03:59.000Z",
+      "url": "https://x.com/i/trending/2119854307906662448",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120255084902875351",
+      "name": "Vorflux 2.0 Launches AutoBots as 24/7 AI Engineering Coworkers in Slack",
+      "summary": "Vorflux 2.0 introduces AutoBots, proactive AI coworkers that live in Slack, handling tasks like bug fixes, code reviews, testing, and project tracking without constant human prompts. Teams can hire specialized bots from a directory or build custom ones with goals and budgets, integrating with tools like Codex or Claude. One demo showed an AutoBot slashing database queries from 241 to 12, and internal stats reveal a bot merging 128 PRs versus a human's 80. Backed by a $15 million seed from Y Combinator and others, it aims for self-driving companies where AI owns execution.",
+      "hook": "Imagine AI agents that don't just wait for orders—they spot bugs, fix them, and deploy changes while you focus on big ideas. Prasanna Sankar, Rippling co-founder, just made that real with Vorflux 2.0.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T20:53:40.000Z",
+      "url": "https://x.com/i/trending/2120255084902875351",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120251400085254515",
+      "name": "AI Video Mocks Jensen Huang Affair with 'Huang Meets Huang'",
+      "summary": "The video imagines the 'origin story' of Huang's romance with Alice Huang, a businesswoman U.S. intelligence links to suspected Chinese spying, amid his recent admission of infidelity to wife Lori. Nvidia's board launched an independent probe but sees no national security risks. Online laughs include Hawk Tuah spoofs like 'give ‘em that Huang Tuah' and nods to 2026's wild timing, with AI tools turning the tables on the chip giant's leader.",
+      "hook": "A cheeky AI clip pictures Nvidia CEO Jensen Huang's leather-jacketed doppelganger meeting his affair partner—both named Huang—in a nighttime city scene that has everyone cracking up.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T20:35:23.000Z",
+      "url": "https://x.com/i/trending/2120251400085254515",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120246627914952853",
+      "name": "Engineering Team Rejects AI-Heavy Candidates with Detailed Audits",
+      "summary": "The hiring team spotted red flags like generating dozens of files in minutes, installing dependencies without understanding, and responses such as 'Let me regenerate the entire codebase' or stalling on architecture questions. Candidates relied on ChatGPT for code, Gemini for reviews, Claude for explanations, and more AI for debugging, leading the team to seek engineers who debug problems instead of creating them. The leaked emails drew laughs with memes like 'rejected by HR and the entire engineering department,' alongside notes that AI literacy and real skills set people apart in a time when over-reliance on tools erodes core abilities.",
+      "hook": "Imagine getting a rejection email that doubles as a full technical breakdown of your coding test. Two candidates named John and Alex learned the hard way when their heavy AI use got called out in stark detail.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T20:20:46.000Z",
+      "url": "https://x.com/i/trending/2120246627914952853",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120205692393119994",
+      "name": "Sundar Pichai Predicts AI Will Soon Outdate Flip Phones",
+      "summary": "Google CEO Sundar Pichai shared that AI advances will surprise everyone, with agents handling tasks seamlessly across devices and multimodal tools shifting content between formats like Nano Banana and Veo. He predicts people will soon wonder how they managed without these capabilities, building on agentic systems that run 24/7 and carry context across apps. Online reactions blend excitement for the flip-phone analogy with skepticism about Google's current tools like Gemini and unproven timelines.",
+      "hook": "Sundar Pichai envisions today's AI becoming as outdated as flip phones in just three years. He calls this a rare moment of steep technological progress.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T20:20:34.000Z",
+      "url": "https://x.com/i/trending/2120205692393119994",
+      "contexts": {
+        "topics": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120243104951222452",
+      "name": "Chimera Physics Synthesizer Powers Creative Vocal Experiments",
+      "summary": "Introduced earlier this month, Chimera is a browser-based vocal synthesizer that models the human vocal tract as branching acoustic tubes driven by simulated airflow and anatomy, skipping traditional phoneme samples. Users load songs or instruments, type lyrics, play piano rolls, or even make creature voices, while 3D visuals show the inner workings syncing live. Experimenters pair it with AI agents like Claude to create full tracks with music and visuals, producing everything from beatbox sequences to multi-voice animal ensembles, all from its open-source GitHub repo.",
+      "hook": "Jameson Hodge's Chimera lets users watch a 3D animated head sing custom songs, with vocal folds vibrating in real time to every note.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T20:01:47.000Z",
+      "url": "https://x.com/i/trending/2120243104951222452",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2119889813465940465",
+      "name": "NVIDIA Unveils GR00T 2 for Smarter Robot Actions",
+      "summary": "GR00T 2, NVIDIA's new open model, helps robots handle complex tasks across grippers, hands, and humanoids by learning from over 400,000 hours of human video and other data. It runs untethered on robot hardware, supports long tasks like lab experiments, and boosts success rates to 95% with quick fine-tuning. The release includes model weights, tools, and datasets to let developers adapt robot skills easily, with live demos proving real-world dexterity.",
+      "hook": "At the Conference on Robot Learning in Austin, NVIDIA showed robots planning ahead by predicting video frames and their own moves—like a robot recovering from a spill without missing a beat.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T19:59:55.000Z",
+      "url": "https://x.com/i/trending/2119889813465940465",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      }
+    },
+    {
+      "id": "2120199258632589526",
+      "name": "NVIDIA Releases Alpamayo 2 Edge for Real-Time Autonomous Driving",
+      "summary": "On November 10, NVIDIA unveiled Alpamayo 2 Edge, a compact 2-billion-parameter model designed for real-time autonomous driving on the DRIVE AGX Thor platform. It processes camera feeds, motion data, and navigation to predict 6.4 seconds ahead with low latency, using adaptive reasoning to save compute on routine drives while handling complex scenarios like making room for buses. Early tests show it achieving 9.87 km between at-fault incidents—40 times better than baselines—and the open-source weights are now on Hugging Face and GitHub, aiding partners like Mercedes-Benz and Toyota.",
+      "hook": "Imagine an AI that plans your drive, yields to pedestrians, and only explains itself during tricky moments—all running smoothly inside your car.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T19:45:56.000Z",
+      "url": "https://x.com/i/trending/2120199258632589526",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120232637096775945",
+      "name": "OpenAI's Greg Brockman to Share AI Cybersecurity Lessons in Live Keynote",
+      "summary": "OpenAI announced a live keynote called 'Cyber at the Frontier' on November 12 at 10 a.m. PT, where Brockman will discuss lessons from using frontier models to spot and fix vulnerabilities in code and infrastructure. The company plans to transform these internal experiences into practical tools and playbooks for customers' security teams, backed by a chart showing massive compute scale in red-teaming efforts. While some online voices push for new flagship models, others highlight how this security focus could accelerate AI adoption in enterprises through autonomous bug-hunting agents.",
+      "hook": "Greg Brockman, OpenAI's president and co-founder, steps up on November 12 to reveal how the company's cutting-edge AI models have fortified its own defenses against threats.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T19:20:01.000Z",
+      "url": "https://x.com/i/trending/2120232637096775945",
+      "contexts": {
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120229265266315497",
+      "name": "Claude Fable 5.2 Generates Haunting Four-Minute Dream Video",
+      "summary": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on November 9, highlighting advances in coding, reasoning, and vision with lower pricing and faster outputs. The dream video, shared online, impressed viewers with its artistic ambition, evoking reactions from awe at its emotional resonance—like 24,000 pages of fable flying through a midnight library—to unease over its disturbing layers. While benchmarks focus on engineering tasks, users are exploring its flair for games, 3D animations, and cinematic storytelling, blurring lines between tool and creative collaborator.",
+      "hook": "One user asked Claude Fable 5.2 to create the video of its dreams, and after nine hours of computation, the result blended surreal scenes, narrative depth, and meta lyrics into a coherent four-minute clip.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T19:06:13.000Z",
+      "url": "https://x.com/i/trending/2120229265266315497",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120144822459654457",
+      "name": "Simple Prompt Line Transforms Claude Fable 5.2 Coding Behavior",
+      "summary": "Anthropic's new Fable 5.2 model, launched November 9, 2026, for tough technical tasks, changes drastically with the line: 'This codebase is yours: what it’s for and how it’s built are your call, and you’ll keep building on it.' Without it, the model plays safe by adding duplicate functions and skipping unasked fixes; with it, it merges code repeats in half the cases, makes related fixes, and boosts output 1.5 times. Developers note it suits personal projects but risks scope creep, so always review diffs—prompt engineering stays key even for this advanced model.",
+      "hook": "A single sentence in your prompt can turn Claude Fable 5.2 from cautious code editor into a bold refactoring partner.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T19:05:27.000Z",
+      "url": "https://x.com/i/trending/2120144822459654457",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120225936868335675",
+      "name": "Chimera AI Synthesizer Stuns with Creative Singing Video",
+      "summary": "Developer Jameson Hodge's open-source Chimera models the human vocal tract as branching tubes to simulate real-time singing, speaking, beatboxing, and even animal sounds right in your browser. Users load audio or instruments, add lyrics on a piano roll, and watch an animated head perform songs like 'Blue Moon.' Viewers praise its inventive flair, from effective pauses to cosmic visuals, while noting room for tweaks in rhythm and structure. The clip highlights how agent-driven AI is blending physics simulation with artistic surprises.",
+      "hook": "A simple prompt led an AI to craft a 116-second clip of a wireframe head belting out a tune under starry skies, complete with piano keys and glowing vocal anatomy.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T18:52:47.000Z",
+      "url": "https://x.com/i/trending/2120225936868335675",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120103560134475944",
+      "name": "AI Shifts Software Interviews from LeetCode to Real-World Challenges",
+      "summary": "Software engineering interviews are moving away from disliked LeetCode problems toward sessions with large codebases, AI tools, and a focus on communication and judgment. Engineer Gergely Orosz notes this leaves hiring more subjective, requiring hands-on AI skills and clear explanations during the process. A Reddit-shared Bloomberg experience highlighted the hurdles: a candidate tackled a Django-Python codebase with unclear AI guidelines, passed tests, but still got rejected. Data shows AI mentions in interviews surging fourfold, while some firms like Anthropic drop traditional coding challenges entirely.",
+      "hook": "Candidates once hoped LeetCode would fade, but the new AI-driven interviews bring fresh frustrations like vague rules and massive unfamiliar codebases.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T18:52:16.000Z",
+      "url": "https://x.com/i/trending/2120103560134475944",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120225935333134528",
+      "name": "WorkflowArena Benchmark Tests AI Team Management on Real Projects",
+      "summary": "Einsia AI released WorkflowArena, a new benchmark with 145 tasks across eight professional fields like software engineering, finance, and 3D modeling. It challenges top AI models to orchestrate teams of agents on long projects, scoring both final deliverables and delegation decisions via hidden verifiers. Leading models like Claude Opus 5.5 completed just 36.95% of tasks fully, revealing gaps in workflow coordination. The open-source setup on GitHub lets researchers test their own systems and study how agents handle integration failures.",
+      "hook": "Imagine an AI not just solving a puzzle, but leading a team of specialist agents to assemble the full picture on tough, interconnected jobs.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T18:52:14.000Z",
+      "url": "https://x.com/i/trending/2120225935333134528",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120222650098126909",
+      "name": "Anthropic Seeks User Input on Claude Duet AI Agent",
+      "summary": "Claude Duet, launched in late October 2026, acts as a proactive AI agent for professionals, monitoring apps, delivering priority briefs, and handling background tasks on its own cloud computer. Chelsea Larsson from Anthropic invited suggestions on improvements, with colleagues amplifying the call, as users share detailed feedback on voice enhancements, better app sync, per-thread history, and needs like desktop voice support and EU access. This open dialogue is directly shaping the tool's evolution for smoother professional workflows.",
+      "hook": "Anthropic's team is turning straight to early users for advice on fine-tuning Claude Duet's voice, tone, and actions during its research preview.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T18:38:22.000Z",
+      "url": "https://x.com/i/trending/2120222650098126909",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120215265992692070",
+      "name": "Lila Sciences Unveils Open-Ended AI Research Breakthroughs",
+      "summary": "Lila Sciences released a vision blog and four preprints from its Open-Endedness team, led by Kenneth Stanley, challenging ideas like whether more data always improves AI or if rewarding creativity directly sparks the best results. Key work introduces UFOs, a technique for unified factored representations that create sharper, more stable networks, as shown in a skull image comparison where Picbreeder-style training beats blurry standard results. The papers also tackle the 'creative paradox' and training LLMs to stay naïve for fresh perspectives, with researchers praising the potential for better coding agents and tying into the company's AI Science Factories.",
+      "hook": "Imagine AI that keeps dreaming up wilder ideas without getting stuck on old goals. Lila Sciences' team just shared bold new paths to make that happen.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T18:12:00.000Z",
+      "url": "https://x.com/i/trending/2120215265992692070",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120142850906341594",
+      "name": "Rejection Emails Highlight AI Overreliance in Tech Interviews",
+      "summary": "The emails detailed one applicant using multiple AIs to write, review, and debug code, then stumbling when asked to describe the architecture. Another built a project with 47 AI-generated files in 10 minutes but couldn't debug or justify it. The company emphasized hiring engineers who can explain decisions and fix issues, not just generate code. This sparked talk of shifting interviews toward real-world tasks with AI, focusing on judgment and communication as LeetCode fades.",
+      "hook": "A hiring team sent blunt rejection emails exposing candidates who leaned too heavily on AI tools like ChatGPT and Claude, unable to explain their own code.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T16:00:45.000Z",
+      "url": "https://x.com/i/trending/2120142850906341594",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120029062890697102",
+      "name": "Debate Heats Over Democratic AI Regulation Plans",
+      "summary": "Critics describe the ideas as a sweeping Democratic push after election gains, including a new Department of AI to license advanced models trained on massive compute power, mandatory kill switches, and strict ID checks for chatbots. Bipartisan efforts like the AI Kill Switch Act from Reps. Ted Lieu and Nathaniel Moran aim to let the Department of Homeland Security throttle powerful systems in emergencies. While some see these as vital safeguards against risks like deepfakes, others warn of stifled innovation, authoritarian overreach, and threats to free expression—no full laws have passed yet.",
+      "hook": "Social media users spotlight a list of proposed AI controls, from federal permits for training models to 20-year prison terms for executives who break rules.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-10T15:10:00.000Z",
+      "url": "https://x.com/i/trending/2120029062890697102",
+      "contexts": {
+        "topics": [
+          "Technology",
+          "Politics"
+        ]
+      }
+    }
+  ]
+}
