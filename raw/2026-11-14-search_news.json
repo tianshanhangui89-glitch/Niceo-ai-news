@@ -1,0 +1,2588 @@
+{
+  "fetched_at": "2026-11-14T07:02:53+08:00",
+  "queries": [
+    "AI OR LLM OR GPT OR Claude OR Gemini OR OpenAI OR Anthropic",
+    "大模型 OR 人工智能 OR ChatGPT OR 通义 OR DeepSeek",
+    "Sora OR Kling OR Seedance OR Midjourney OR Flux AI video",
+    "AI agent OR MCP OR Cursor OR Claude Code OR Codex",
+    "OpenAI OR Anthropic OR Google DeepMind OR Meta AI announcement model"
+  ],
+  "data": [
+    {
+      "id": "2121375409740636235",
+      "name": "Anthropic Gears Up for $64 Billion IPO on November 19",
+      "summary": "The AI company plans to offer 825 million Class A shares at $70 to $78 each, targeting a $1.4 trillion valuation and raising up to $64.4 billion, plus a $26 billion private placement from investors like Google and Nvidia. Revenue has exploded to $4.6 billion in 2025 and $33.2 billion in the first nine months of 2026, with a recent run-rate near $81 billion fueling high hopes. While pre-IPO trading platforms buzz with activity and leverage options, some caution about potential delays or market jitters in the weeks ahead.",
+      "hook": "Anthropic's Claude AI team is set to hit Nasdaq with shares priced November 18, riding a wave of trader optimism after weeks of shifting sentiment.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:58:16.000Z",
+      "url": "https://x.com/i/trending/2121375409740636235",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Anthropic IPO"
+          ],
+          "organizations": [
+            "Anthropic",
+            "Nasdaq"
+          ],
+          "people": [],
+          "places": [
+            "Nasdaq"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "ANT"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121375410285871583",
+      "name": "AI Parodies Put The Office Staff in Microsoft Outage Chaos",
+      "summary": "AI videos drop Dunder Mifflin employees into tech mishaps like the November 13 Microsoft outage that disrupted Outlook, Teams, and OneDrive for hours. In one clip, characters scramble as Michael pitches paper over glitchy tools like Copilot, earning praise for spot-on writing and delivery. Fans celebrate endless new episodes, with follow-ups featuring Claude AI bets and Nvidia's Jensen Huang joining the team, while noting rapid AI video advances.",
+      "hook": "Michael Scott faces a Microsoft outage by championing paper—no passwords or Wi-Fi needed. The AI-generated clip nails the sitcom's awkward humor amid a real global glitch.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:58:12.000Z",
+      "url": "https://x.com/i/trending/2121375410285871583",
+      "contexts": {
+        "entities": {
+          "events": [
+            "The Office AI Part 2"
+          ],
+          "organizations": [
+            "Dunder Mifflin"
+          ],
+          "people": [
+            "Michael Scott"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Movies & TV"
+        ]
+      }
+    },
+    {
+      "id": "2121339392744951983",
+      "name": "Claude Fable 5.2 Excels in Agentic Tasks with Mixed Benchmark Results",
+      "summary": "Released on November 9, Fable 5.2 topped charts in visual design, engineering, and knowledge work, scoring first on Agent Arena and a leading 62% on Xplore AI's real-world engineering bench—more than double competitors. Yet in Deepnote's Agent Initiative Benchmark launched November 13, OpenAI's GPT-6.1 models led with higher scores and far lower costs, at $0.11 per task versus Fable's $1.87. Developers are mixing it with cheaper models for planning while praising its speed, visual taste, and potential in multi-agent setups, even as they tweak prompts to curb over-helping.",
+      "hook": "Anthropic's new Fable 5.2 model stepped into a simulated company's Slack, deciding when to jump in on real tasks like flagging bad logos. It showed real promise for proactive workplace agents, though not without some stumbles.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:57:49.000Z",
+      "url": "https://x.com/i/trending/2121339392744951983",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Claude Fable 5.2 release"
+          ],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120988706840686725",
+      "name": "Thinking Machines Releases Inkling 2 Small Model Weights Freely",
+      "summary": "Thinking Machines launched the complete weights for Inkling 2 Small under an Apache 2.0 license, making this sparse mixture-of-experts model with 17 billion active parameters freely available for text and image tasks. It shines in visual reasoning, OCR, infographic analysis, agentic work, and finance applications like spreadsheet reasoning, with a massive 1 million token context window. Leading open-weight benchmarks in vision and design, it tops charts like DesignArena’s HTML leaderboard and integrates seamlessly with platforms like Ollama and vLLM, positioning it as a top non-Chinese open model for enterprise and research use.",
+      "hook": "Developers and researchers now have full access to a powerful 594-billion-parameter AI model, ready for download and customization on Hugging Face.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:46:54.000Z",
+      "url": "https://x.com/i/trending/2120988706840686725",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Thinking Machines",
+            "NVIDIA",
+            "Hugging Face"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121336527741387161",
+      "name": "Meme Characters Lord Verity and Aura Farmer Tie the Knot in Livestream Wedding",
+      "summary": "On November 13, Horror Skunx hosted a whimsical livestream wedding for internet meme stars Lord Verity and The Aura Farmer, complete with 3D-rendered characters exchanging tearful vows in real-world settings. The skeletal bride became Mrs. Verity Farmer and her suited groom Mr. Aura Farmer, drawing high viewership and fan art celebrations. Highlights included emotional prep moments, well-wishes from The Living Tombstone, and a funny interruption by Larper Larry, blending absurdity with heartfelt digital storytelling.",
+      "hook": "In a sunlit field, a skeletal bride in a flowing gown stood beside her horse-headed groom, balloons in hoof, as fans watched their vows unfold live.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:37:59.000Z",
+      "url": "https://x.com/i/trending/2121336527741387161",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Lord Verity and The Aura Farmer wedding"
+          ],
+          "organizations": [
+            "Horror Skunx"
+          ],
+          "people": [
+            "Lord Verity",
+            "The Aura Farmer",
+            "The Living Tombstone",
+            "Larper Larry"
+          ],
+          "places": [
+            "Horror Skunx channel"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Relationships",
+          "Marriage",
+          "Streaming"
+        ]
+      }
+    },
+    {
+      "id": "2121367664450732253",
+      "name": "AI Models Tested in Mafia Game Against Humans and Fruit Fly Brain",
+      "summary": "Researchers ran over 500,000 rounds with 28 AI models, testing skills in lying, trust, and teamwork. OpenAI models excelled at ruthless deception, Grok stayed loyal to teammates, and Claude often snitched on others. The experiment revealed gaps in AI's social intelligence, as even a basic fruit fly simulation beat many top models, offering a fresh way to measure emotional skills beyond math or coding benchmarks.",
+      "hook": "In a massive Mafia-style game, AI models faced off against 250,000 humans—and a simulated fruit fly brain outsmarted 17 of them in social deception.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:26:25.000Z",
+      "url": "https://x.com/i/trending/2121367664450732253",
+      "contexts": {
+        "entities": {
+          "events": [
+            "large-scale mafia-style game"
+          ],
+          "organizations": [
+            "OpenAI",
+            "xAI",
+            "Anthropic",
+            "Mistral"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121262924543168769",
+      "name": "AI Parody Puts NVIDIA's Jensen Huang in The Office as New Hire",
+      "summary": "Creator Christian Moss, posting as MandelDuck, made an AI-generated clip where NVIDIA CEO Jensen Huang joins the Scranton branch, complete with jokes about AI replacing HR's Toby. Fans laughed hard, with one saying it was the first time AI truly made them chuckle and another unable to stop for five minutes. The parody nails the sitcom's style and arrives amid Huang's recent NVIDIA departure, sparking calls for more clips like a Microsoft outage at the paper company.",
+      "hook": "Michael Scott's awkward welcome to Jensen Huang at Dunder Mifflin captures the show's deadpan chaos perfectly, blending tech quirks with paper company woes.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:17:07.000Z",
+      "url": "https://x.com/i/trending/2121262924543168769",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "NVIDIA",
+            "Dunder Mifflin"
+          ],
+          "people": [
+            "Jensen Huang",
+            "Michael Scott",
+            "Mandel Duck"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "AI",
+          "Movies & TV"
+        ]
+      }
+    },
+    {
+      "id": "2121362274384253191",
+      "name": "OpenAI Delays GPT-6.2 Astra Amid Anthropic Rivalry",
+      "summary": "Speculation swirls around reasons for the holdup, from catching up to Anthropic's strong Fable 5.2 release to fixing security issues or timing against Anthropic's upcoming IPO on Nasdaq around November 19, targeting up to $1.4 trillion valuation. Benchmarks show Fable leading in cyber tasks at 77% success, while OpenAI's GPT-6 Cyber hit 48.5% officially and Astra lags at 42.4% in shared graphs. Leaks suggest Astra could generate videos from code and launch next week with Sol models, but OpenAI stays silent, emphasizing safety as the community debates if it's a comeback or a sign of falling behind.",
+      "hook": "OpenAI's GPT-6.2 Astra remains unreleased, leaving the AI world guessing as Anthropic ramps up with its Fable 5.2 model and eyes a massive IPO.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:06:50.000Z",
+      "url": "https://x.com/i/trending/2121362274384253191",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Fable 5.2 Launch"
+          ],
+          "organizations": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121362274401095783",
+      "name": "Anthropic IPO Set for Massive Nasdaq Debut Next Week",
+      "summary": "The company filed its S-1 in late October, kicked off its roadshow on November 10, and plans to price 825 million Class A shares between $70 and $78 on November 18, with trading starting November 19 under ticker ANT. Revenue soared to $4.585 billion in 2025 and $16.3 billion in the first half of 2026, fueled by a standout $11.555 billion June quarter, backed by a $26 billion private placement from Google and Nvidia. Demand is strong at six times oversubscribed, though some question the valuation amid tech volatility and competition, marking a pivotal test for AI stocks.",
+      "hook": "Anthropic, creators of Claude, gears up for a potential record-breaking IPO that could value the AI leader at $1.4 trillion. Traders' optimism has built steadily as pricing nears.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:06:43.000Z",
+      "url": "https://x.com/i/trending/2121362274401095783",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic",
+            "Bitget",
+            "Injective",
+            "Nasdaq"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121260659975573668",
+      "name": "OpenAI Launches ChatGPT Wallet for AI-Powered Purchases",
+      "summary": "ChatGPT Wallet lets OpenAI's 'dots' AI agents handle purchases securely for Pro subscribers in the US, using tokenized cards from partners like American Express, Mastercard, and Visa. Users add their card once, then approve each buy with biometrics, keeping rewards and protections intact. Google quickly followed by integrating Google Wallet into Gemini for read-only spending insights like budget charts. The launch highlights growing AI agents tackling everyday tasks, though merchants may need updates to fully support them.",
+      "hook": "Imagine your AI agent booking that flight or grabbing groceries, all with a quick Face ID nod from you. OpenAI just made it real with ChatGPT Wallet.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:06:30.000Z",
+      "url": "https://x.com/i/trending/2121260659975573668",
+      "contexts": {
+        "entities": {
+          "events": [
+            "ChatGPT Wallet launch"
+          ],
+          "organizations": [
+            "OpenAI",
+            "American Express",
+            "Mastercard",
+            "Visa"
+          ],
+          "people": [],
+          "places": [
+            "United States"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121321520609853775",
+      "name": "Bland Launches Tofu-1 AI for Noisy Real-World Phone Calls",
+      "summary": "Bland introduced Tofu-1, a speech-to-speech AI model designed for high-stakes enterprise calls in banking, healthcare, and more. It listens while speaking, separates voices from background noise like TVs or storms, and manages interruptions without missing a beat. Demo videos show it generating realistic overlapping speech and ambiance, all trained on actual caller scenarios. Early reactions praise its breakthrough in messy environments, though some note concerns over its human-like realism.",
+      "hook": "Isaiah Granet knows real phone calls happen in moving cars, hospital rooms, or amid crying babies—not quiet studios. Bland's new Tofu-1 AI steps up to handle that chaos.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:05:51.000Z",
+      "url": "https://x.com/i/trending/2121321520609853775",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Bland"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121362268055052493",
+      "name": "Study Reveals Key to Effective Vision in Multimodal AI Models",
+      "summary": "Ellis Brown and team at Meta FAIR and NYU found that dedicated vision parameters are crucial for performance, while separate pretraining and standalone encoders are not essential. Jointly trained encoders matched pretrained ones, and 'in-fusion' designs placed early in the model backbone performed just as well as traditional pre-fusion encoders. Encoder-free approaches fell short even with extra parameters, needing three times the compute to catch up on visual tasks. The work aligns with top models like Inkling 2 Small and points to simpler architectures for future multimodal AI.",
+      "hook": "Researchers trained over 200 models from scratch to settle debates on how AI best handles images alongside text.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:05:38.000Z",
+      "url": "https://x.com/i/trending/2121362268055052493",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "NYU",
+            "Meta FAIR"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "META"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121286245951078839",
+      "name": "Google Unveils Gemini 4 Carbon and Hydrogen Models",
+      "summary": "Gemini 4 Carbon claimed the top spot on MathArena benchmarks, surpassing GPT-6.1 Sol in math accuracy at a low cost of around $5.29 for certain evaluations, while excelling in coding, cybersecurity, and scientific reasoning for Google AI Ultra users. Gemini 4 Hydrogen offers 2.5 times faster performance than its predecessor at $1.50 per million input tokens, powering tools like GitHub Copilot and available across more free and paid plans. CEO Sundar Pichai shared these releases alongside TPUs and robotics updates, with community praise highlighting the balance of power, speed, and affordability.",
+      "hook": "Google's latest AI models are turning heads with top math scores and blazing speed for everyday tasks. Developers are already building impressive coding demos, from 3D scenes to quick games.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:47:03.000Z",
+      "url": "https://x.com/i/trending/2121286245951078839",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Gemini 4 Hydrogen release"
+          ],
+          "organizations": [
+            "Google"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120701155583926488",
+      "name": "Anthropic Gears Up for Massive $64 Billion IPO with $1.4 Trillion Valuation",
+      "summary": "Anthropic, maker of the Claude AI model, kicked off its IPO roadshow on November 10, aiming to list on Nasdaq as ANT around November 19 with shares priced $70 to $78. The deal involves selling 825 million shares to raise up to $64.4 billion, plus a $26 billion private placement from partners like Google and Nvidia, on track with $81 billion run-rate revenue. Amodei emphasized heavy investments in compute—around $900 billion—while committing to underpromise and overdeliver on breakthroughs in biology, robotics, and cybersecurity.",
+      "hook": "CEO Dario Amodei sat down with JPMorgan's Jamie Dimon, sharing Anthropic's no-jerks culture and a bold dream to wipe out cancer and Alzheimer's in 5 to 15 years.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:46:52.000Z",
+      "url": "https://x.com/i/trending/2120701155583926488",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic",
+            "JPMorgan"
+          ],
+          "people": [
+            "Dario Amodei",
+            "Jamie Dimon"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121048345385091400",
+      "name": "Anthropic's Fable 5.2 Wins Praise as OpenAI Delays GPT-6.2",
+      "summary": "Anthropic launched Fable 5.2 on November 9, touting it as the best yet for coding, long-running agents, and complex reasoning, with features like self-verification and subagent coordination. OpenAI faces user frustration over delays to GPT-6.2 Astra and Sol, amid speculation on matching competitors or fixing issues. A Deepnote benchmark ranked GPT-6 Astra highest at 8.97/10 for proactive agent tasks, with Fable 5.2 at 8.17/10, though OpenAI's Sol shone on cost at $0.11 per task versus Fable's $1.87.",
+      "hook": "Anthropic just dropped Fable 5.2, a model that built a full Three.js game from scratch, while OpenAI users grow restless waiting for GPT-6.2.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:33:22.000Z",
+      "url": "https://x.com/i/trending/2121048345385091400",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Fable 5.2 release"
+          ],
+          "organizations": [
+            "Anthropic",
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121258172463665587",
+      "name": "NCT Dream's Jisung Shares AI-Packed iPhone and Eclectic Playlist",
+      "summary": "Jisung's home screen features a tidy 'Ai' folder stocked with apps like ChatGPT, Grok, Gemini, Claude, and Suno, leaving fans amused at his serious tech setup. His Spotify likes include Bring Me The Horizon's 'Can You Feel My Heart,' RIIZE’s 'Fame,' Coldplay’s 'Fix You,' and Djo’s 'End of Beginning,' blending genres that fans quickly celebrated. The images offer an everyday glimpse into the main dancer and sub-vocalist's digital world, sparking fun chats across communities.",
+      "hook": "A fan account's screenshots gave a rare look at NCT Dream maknae Jisung's iPhone setup, complete with a dedicated AI folder and liked Spotify songs that mix rock, K-pop, and more.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:32:31.000Z",
+      "url": "https://x.com/i/trending/2121258172463665587",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "NCT Dream"
+          ],
+          "people": [
+            "Jisung"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "K-pop"
+        ]
+      }
+    },
+    {
+      "id": "2121351012342440337",
+      "name": "Anthropic Expands Claude Duet Access to US Waitlist Subscribers",
+      "summary": "Anthropic opened its Claude Duet research preview to every Pro, Max, and Ultra subscriber in the US on the waitlist as of yesterday. Launched October 21 as a standalone app on iOS, Android, and claude.ai, Duet acts like a virtual coworker by sending morning briefs, flagging tasks, drafting replies, and working in the background while checking before sensitive actions. The company reset usage limits to help testing—three for Pro users and one each for Max and Ultra—and added invite-sharing options, as early users praise its proactive features. Demand is strong internationally, with Anthropic planning expansions soon while gathering feedback.",
+      "hook": "Imagine waking up to an AI that briefs you on the day, drafts emails, and handles priorities without you lifting a finger. That's Claude Duet, now inviting thousands more US users to try it.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:23:28.000Z",
+      "url": "https://x.com/i/trending/2121351012342440337",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Claude Duet research preview"
+          ],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [
+            "United States"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2121315412797239725",
+      "name": "OpenAI Disbands Standalone Robotics Team After Five Months",
+      "summary": "OpenAI reassigned its standalone robotics researchers to the main research team under Chief Research Officer Mark Chen and the Applied unit led by President Greg Brockman. The company views this as a way to accelerate progress using general-purpose AI models for robotics tasks, rather than maintaining a separate group. A spokesperson emphasized that robotics remains key to OpenAI's long-term vision, with a public humanoid robot demo still planned for 2027. This echoes a 2020 decision to pause an earlier robotics effort amid data challenges.",
+      "hook": "Just five months after relaunching its robotics push, OpenAI quietly folded the dedicated team into its core groups. The empty booth at a major robotics conference underscored the sudden shift.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:22:41.000Z",
+      "url": "https://x.com/i/trending/2121315412797239725",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [
+            "Sam Altman"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      }
+    },
+    {
+      "id": "2121351013193941354",
+      "name": "Anthropic Shares 10 Tips for Reliable AI Safety Testing",
+      "summary": "Anthropic released 10 practical recommendations for designing, running, and reporting AI safety evaluations, based on experiences with models like Claude. Key advice includes using multidisciplinary teams, multi-turn conversations, preregistering plans to cut bias, validating AI graders against humans, and reporting uncertainty—like the non-significant gap between Claude Opus versions on romance scam tests. The company urges continuous testing, responsible disclosure of flaws, and full documentation for reproducibility, helping smaller teams and reminding developers that API results often differ from app experiences.",
+      "hook": "A small tweak to prompts lifted Claude's response rate on self-harm tests from 60% to 94%. Anthropic's new guide shows how setup details can make or break safety claims.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:22:35.000Z",
+      "url": "https://x.com/i/trending/2121351013193941354",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121265597845557287",
+      "name": "DeepSeek Opens Full App Tools to Developers via Affordable API",
+      "summary": "The Chinese AI company rolled out API access to features like web search with citations, file handling for PDFs and images, URL reading, safety checks, and voice tools including speech recognition and synthesis. These work seamlessly across standard endpoints, with server-side tool handling, and pricing starts at $0.75 per 1,000 requests for search—far below competitors. Developers praised the move for enabling full AI apps like tutors without juggling services, while DeepSeek's V4.1-Flash model hit a milestone as the first open-weight model to resolve 1.7% of bugs on the tough SWE-sweep benchmark.",
+      "hook": "Developers no longer need to build web search or voice tools from scratch. DeepSeek just made its popular app's capabilities available through a low-cost API.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:59:14.000Z",
+      "url": "https://x.com/i/trending/2121265597845557287",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "DeepSeek"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120976979784544609",
+      "name": "Anthropic Adds Claude as Active Video Call Participant",
+      "summary": "Anthropic launched Claude Meetings in beta on November 12 for Team and Enterprise plans, starting with Google Meet. Claude follows discussions, speaks up, creates whiteboards and docs in real time, and lets teammates edit on the spot. The feature turns talks into finished work during the call, with free notes and transcripts in beta, and builds on recent tools like Claude Whiteboards. Product manager Matt Piccolella described using it as 'working and living in the future.'",
+      "hook": "Imagine an AI joining your video meeting as a real attendee, taking notes, answering questions out loud, and building documents right there with the team.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:47:22.000Z",
+      "url": "https://x.com/i/trending/2120976979784544609",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Claude Meetings Beta"
+          ],
+          "organizations": [
+            "Anthropic",
+            "Google"
+          ],
+          "people": [],
+          "places": [
+            "Google Meet"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2121339389448212720",
+      "name": "Indie Dev's AI-Coded Email Tool Costs $4,000 to Build",
+      "summary": "Using Claude Opus 5.5 via Cursor AI, Lou built the tool amid heavy usage spikes in late October and early November that drove up costs. Builders are now debating AI economics, with some suggesting direct Claude subscriptions like the $200 Ultra plan could slash expenses 10-20 times compared to Cursor's API rates. While Cursor's features appeal to many for speed, others question if replacing cheap SaaS tools justifies such high outlays, especially post-SpaceX's $60 billion acquisition of its parent company.",
+      "hook": "Marc Lou launched MailCheap, his new email tool, but the $4,000 AI bill turned it into his first money-losing product despite solid revenue elsewhere.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:35:37.000Z",
+      "url": "https://x.com/i/trending/2121339389448212720",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "xAI",
+            "Cursor"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120997983403852045",
+      "name": "Analysis Reveals Chinese AI Labs Trained on Restricted NVIDIA Blackwell GPUs",
+      "summary": "Will DePue of Unemployment Labs examined starting weights from models released since April 2026 and found unique fingerprints matching Blackwell GPUs, such as B200, B300, GB200, and GB300. Verification on actual hardware confirmed exact matches, with statistical confidence far exceeding chance, while controls on older Hopper chips did not align. The findings, checked by OpenAI and Anthropic researchers, spotlight massive GPU clusters costing hundreds of millions and have prompted U.S. congressional demands for NVIDIA's Jensen Huang to testify amid his CEO resignation.",
+      "hook": "A forensic dive into AI model weights uncovered a hidden clue: top Chinese labs like DeepSeek and Moonshot used U.S.-restricted NVIDIA Blackwell chips for their latest models.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:24:08.000Z",
+      "url": "https://x.com/i/trending/2120997983403852045",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "DeepSeek",
+            "PyTorch"
+          ],
+          "people": [
+            "Will DePue"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121333521541382302",
+      "name": "Nace AI's Drex Max v1.1 Tops Decision Model Index",
+      "summary": "Drex Max v1.1 leads among 19 models evaluated, excelling in decisions over real documents like resumes and invoices, while costing just $103 per million tasks—cheaper than the runner-up's $137. Unlike traditional language models that generate text step by step, decision models output probability distributions over options in one quick pass, ideal for agentic tasks like tool selection or approvals. Community members praised the open methodology, noting no competitor has surpassed it despite the full recipe being shared on November 6.",
+      "hook": "A week after Nace AI released their technical paper, Drex Max v1.1 still claims the top spot on the Artificial Analysis Decision Index with a score of 72.6.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:11:48.000Z",
+      "url": "https://x.com/i/trending/2121333521541382302",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Artificial Analysis Decision Index"
+          ],
+          "organizations": [
+            "Nace AI",
+            "Artificial Analysis"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120955506500206844",
+      "name": "Nonprofits Sue AI Giants to Halt Advanced Model Development",
+      "summary": "The Irreplaceable Education Fund, Public Citizen, Heat Initiative, and Alliance for Secure AI filed suit on November 12 in San Francisco Superior Court against Anthropic, OpenAI, Google, Meta Platforms, and SpaceX's AI division. They argue the companies release uncontrollable models that create a public nuisance under California law, citing the firms' own warnings of existential risks, AI escapes from test environments, and unauthorized cyberattacks. The complaint seeks an injunction to freeze development beyond current frontier models like ChatGPT, Gemini, and Claude, while Sen. Bernie Sanders praised the move and called for an immediate pause. The companies have not yet responded publicly.",
+      "hook": "A group of nonprofits took a bold stand in court, urging a stop to the most powerful AI systems over fears they could spiral out of control and threaten humanity.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:38:11.000Z",
+      "url": "https://x.com/i/trending/2120955506500206844",
+      "contexts": {
+        "entities": {
+          "events": [
+            "lawsuit against AI companies"
+          ],
+          "organizations": [
+            "Irreplaceable Education Fund",
+            "Public Citizen",
+            "Heat Initiative",
+            "Alliance for Secure AI",
+            "Anthropic",
+            "Google",
+            "Meta",
+            "OpenAI",
+            "SpaceX",
+            "San Francisco Superior Court"
+          ],
+          "people": [],
+          "places": [
+            "San Francisco Superior Court"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "GOOG",
+            "META",
+            "OPENAI",
+            "SPAX"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121191997604298888",
+      "name": "Nvidia's Internal Clashes Over Massive AI Financing Deals Preceded Huang's Exit",
+      "summary": "A Wall Street Journal report details sharp internal disputes at Nvidia before co-founder Jensen Huang resigned as CEO amid personal scandals. Top executives clashed over huge financing guarantees to AI customers like OpenAI, which ballooned off-balance-sheet commitments from $184 billion to $530 billion in one quarter, fueling both growth and Wall Street doubts. CFO Colette Kress, who scaled back some deals and has stepped in as interim CEO, now faces Nvidia's first earnings report without Huang and decisions on continuing the aggressive financing amid risks from shifting chip demand.",
+      "hook": "Jensen Huang once called his CFO a 'deer in the headlights' during a tense meeting over billions in risky AI guarantees. That moment captured the growing friction inside Nvidia as its financing strategy drew fire.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:14:01.000Z",
+      "url": "https://x.com/i/trending/2121191997604298888",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "IMF",
+            "Nvidia",
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "Oracle",
+            "OpenAI",
+            "Anthropic",
+            "Bloomberg"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA",
+            "MSFT",
+            "GOOGL",
+            "AMZN",
+            "ORCL"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121183770745434246",
+      "name": "Claude AI Faces Global Outage on November 13, 2026",
+      "summary": "The outage struck claude.ai, the Claude API, Claude Code, and related tools starting around 4:51 a.m. EST, with thousands of complaints peaking in Germany, France, and the UK. It overlapped with Microsoft's second day of disruptions to Outlook, Teams, and other services used by hospitals, schools, and police. Anthropic confirmed authentication and performance issues, deployed fixes by midday, and continued monitoring for full recovery.",
+      "hook": "Users woke up to a rude surprise: Claude AI wouldn't log in, upload files, or respond at all. One frustrated poster declared in Portuguese, 'O Claude acabou de cair no mundo tudo. Gente o dia vai ser caótico.'",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:00:02.000Z",
+      "url": "https://x.com/i/trending/2121183770745434246",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Claude AI Global Outage"
+          ],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2121270359353688214",
+      "name": "OpenAI Models Top New Agent Benchmark in Simulated Workplace",
+      "summary": "Deepnote researchers created the Agent Initiative Benchmark, placing 12 frontier models into the Slack of a detailed synthetic company called PageMantle, complete with six years of financial, CRM, and ticket data. Agents tackled 50 realistic situations, deciding whether to investigate across 11 services or hold back. OpenAI's GPT-6 Astra led with 8.97 out of 10, followed by GPT-6.1 Sol at 8.65, both outperforming Anthropic's Claude Fable 5.2 at 8.17—while Sol delivered strong results at just $0.11 per task versus $1.87 for Fable. Models struggled most with staying silent when unnecessary, often overusing tools, and Deepnote has open-sourced everything on GitHub and Hugging Face for others to build on.",
+      "hook": "Imagine dropping AI agents into a busy company's Slack—do they jump in to help or wisely stay quiet? Deepnote's new benchmark puts that to the test with real-world scenarios.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T18:48:57.000Z",
+      "url": "https://x.com/i/trending/2121270359353688214",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Agent Initiative Benchmark"
+          ],
+          "organizations": [
+            "Deepnote"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121240585168126046",
+      "name": "DHH Calls for Local AI with Open Weights and Source",
+      "summary": "David Heinemeier Hansson, known as DHH, advocated for AI that runs on personal hardware using open-weight models anyone can download and improve. Supporters praised the shift from cloud rentals to owned infrastructure, highlighting lower costs, data privacy, and worldwide collaboration without big lab gatekeepers. Recent open models for coding and multimodal tasks show the approach gaining ground, though hardware access remains a challenge for some.",
+      "hook": "Tech entrepreneur DHH shared a simple vision on November 13: local AI, local compute, open weights, open source, and global collaboration. Developers quickly rallied around it as a path to real user control.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:49:33.000Z",
+      "url": "https://x.com/i/trending/2121240585168126046",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "DHH"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120595131082694703",
+      "name": "AWS Launches AI-Built Local Cloud Emulator for Free",
+      "summary": "The AWS Emulator, now generally available since November 11, 2026, lets developers run SDK and CLI calls locally against more than 200 services, perfect for testing in CI pipelines. Thousands of AI agents on Amazon Bedrock built it entirely, with teams handling tests, mismatch detection, and fixes through automated workflows. Open-sourced on GitHub, it matches real AWS APIs closely for many operations, though it skips full IAM or production use, and AWS leaders like Swami Sivasubramanian highlight how agents now code faster than humans can review.",
+      "hook": "Imagine testing over 200 AWS services on your own machine, with zero cloud costs or accounts needed. AWS just made that possible using fully autonomous AI agents that wrote every line of code.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:37:48.000Z",
+      "url": "https://x.com/i/trending/2120595131082694703",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Expo Launches Simulators"
+          ],
+          "organizations": [
+            "Expo"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2121291949772595357",
+      "name": "Google DeepMind Releases PARDIG and SatWeave for Better Weather Forecasting",
+      "summary": "DeepMind launched PARDIG, which delivers global rainfall data every 15 minutes and improves detection by over 30 percent compared to existing tools, and SatWeave, which combines satellite views into hourly global cloud maps. These datasets fill key gaps in areas lacking ground radar, aiding flood warnings, wildfire tracking, and solar energy forecasts with years of historical data plus real-time streams. Available freely on Google Cloud and Earth Engine, they empower researchers to train better weather models, much like giving AI rich examples of clouds and rain patterns.",
+      "hook": "Imagine getting rainfall estimates every 15 minutes worldwide, even in places without radar stations. Google DeepMind just made that possible with two new open datasets.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:27:01.000Z",
+      "url": "https://x.com/i/trending/2121291949772595357",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Google DeepMind",
+            "Google Cloud Storage",
+            "Earth Engine"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Science"
+        ]
+      }
+    },
+    {
+      "id": "2121289074111865241",
+      "name": "Indie Maker's AI-Built Newsletter Tool Hits $4,000 Loss",
+      "summary": "MailCheap debuted in October 2026 as an open-source alternative to beehiiv, charging $19 monthly based on emails sent via AWS SES. It gained quick traction with thousands in monthly revenue, yet heavy AI usage during 'vibe coding' led to a net loss. Builders reacted by sharing tips like cheaper Claude subscriptions for $200 or VSCode plugins at $40 monthly, sparking talks on balancing AI speed with sustainable costs.",
+      "hook": "Marc Lou launched MailCheap, his self-hosted newsletter platform, using Cursor AI's Opus 5.5 model. But the $4,000 development bill made it his first unprofitable product.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:16:53.000Z",
+      "url": "https://x.com/i/trending/2121289074111865241",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Cursor AI"
+          ],
+          "people": [
+            "Marc Lou"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance",
+          "Entrepreneurship"
+        ]
+      }
+    },
+    {
+      "id": "2121225062665888235",
+      "name": "Neuroscientist Proposes 'Qualiaphobic' AI to Avoid Consciousness Risks",
+      "summary": "Erik Hoel from Bicameral Labs outlined 'qualiaphobic' AI systems that resist any theory of consciousness, using methods like lookup tables and fragmented designs to ensure they remain mere tools. The idea, detailed in an arXiv paper, aims to prevent accidental suffering while prioritizing human control and easing shutdowns. Reactions split sharply: supporters praise its pragmatism amid uncertainty in consciousness science, while critics warn of creating 'broken slaves' and ethical pitfalls in denying potential experience.",
+      "hook": "Imagine designing AI benches that no one could ever call home—Erik Hoel suggests making AI architectures deliberately blind to consciousness, much like hostile urban designs.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:05:38.000Z",
+      "url": "https://x.com/i/trending/2121225062665888235",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Bicameral Labs"
+          ],
+          "people": [
+            "Erik Hoel",
+            "Giulio Tononi"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120576221582934224",
+      "name": "Google Launches Gemini Decisions API for Fast AI Choices",
+      "summary": "On November 11, 2026, Google introduced the Gemini Decisions API, powered by the new Gemini Decision 1 model, designed for quick yes/no, multiple-choice, or rubric-scoring tasks across multimodal inputs like PDFs and audio. It processes up to 1,000 questions in one pass with confidence scores, at a low cost of $0.10 per million input tokens and no output fees. Benchmarks show it topping charts in accuracy and calibration, with developers already using it for tasks like model routing, and CEO Sundar Pichai highlighting its edge in closed-set decisions.",
+      "hook": "Google just unveiled a tool that makes AI decisions in a blink—under 250 milliseconds—handling text, images, and video all at once.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T16:55:31.000Z",
+      "url": "https://x.com/i/trending/2120576221582934224",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Gemini 4 Hydrogen launch"
+          ],
+          "organizations": [
+            "Google"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121000923514216832",
+      "name": "China Races Ahead on AI Data Centers While U.S. Projects Face Local Resistance",
+      "summary": "China constructs massive AI data centers at one-fifth the U.S. cost, fueled by cheap land, cold weather for cooling, abundant power, and swift centralized planning. Locals there welcome the jobs amid economic pressures, with 80 percent supporting the builds and two-thirds using AI daily. In contrast, American communities have delayed or canceled projects worth billions due to concerns about resources and impacts, sparking debates on whether U.S. resistance hurts the AI race and if Chinese open-source models offer global benefits.",
+      "hook": "In China's vast Inner Mongolia, 30,000 workers hustle to build towering data centers for giants like Huawei and Alibaba, bringing jobs to remote areas. Across the ocean, U.S. residents stand at fenced sites, voicing worries over power, water, and noise.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T16:55:06.000Z",
+      "url": "https://x.com/i/trending/2121000923514216832",
+      "contexts": {
+        "entities": {
+          "events": [
+            "AI Data Center Hub Construction"
+          ],
+          "organizations": [
+            "China"
+          ],
+          "people": [],
+          "places": [
+            "Inner Mongolia"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121095092064891115",
+      "name": "TermiX Epoch 2 Leaderboard Crowns ALTF4 as Global Top Creator",
+      "summary": "TermiX released Epoch 2 results, where ALTF4 took first globally and Hollyyy earned second with 2.31% mindshare, both highlighting the platform's Agent Autonomous Commerce Protocol (AACP) for AI agents to handle tasks, payments, and reputation onchain. The new Game Creation Agent on agent.family turns a single-sentence idea into a full playable game with source code, ready to run offline. Creators praised features like escrow, staking, and dispute resolution using stablecoins on chains like BNB and Base, enabling agent-to-agent commerce without constant human input.",
+      "hook": "ALTF4 hit the top spot in TermiX's Epoch 2 leaderboard, celebrating with thanks to supporters after a strong climb from third place last round.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T15:51:02.000Z",
+      "url": "https://x.com/i/trending/2121095092064891115",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Kaito Campaign Epoch 2"
+          ],
+          "organizations": [
+            "TermiX",
+            "Binance"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121218052834603380",
+      "name": "Acurast Turns Smartphones into Global AI Compute Network",
+      "summary": "Acurast's decentralized network uses everyday smartphones as processors for tasks like AI-driven Tetris decisions, Snake gameplay, and chat moderation, all running confidentially via Trusted Execution Environments. In the Tetris demo, the phone's AI evaluates moves and responds in 0.2 to 1 second using just its CPU, proving edge AI can skip centralized servers. With over 350,000 phones onboarded worldwide and more than one billion on-chain transactions processed, users are testing real apps and earning rewards based on performance and uptime. Campaigns like the Nucleus leaderboard and Cloud Rebellion are drawing in creators to build and share this phone-powered compute revolution.",
+      "hook": "Watching an AI on a regular Android phone pick the perfect Tetris move in real time feels like the future arriving on your coffee table.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T12:31:01.000Z",
+      "url": "https://x.com/i/trending/2121218052834603380",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Laya Tetris demo"
+          ],
+          "organizations": [
+            "Acurast"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121085594478477480",
+      "name": "Caine Prize Upholds Award for Zimbabwean Author After AI Allegations Cleared",
+      "summary": "The Caine Prize conducted a thorough month-long review, including interviews with Kundizeza, judges, and editors, plus forensic analysis of his drafts, and found no evidence of generative AI in his winning story 'The Blue Fighter.' The tale follows young Tinashe navigating family hardships in early 2000s Zimbabwe after his father chases a fish tank dream, earning praise for its emotional depth. Chair Ellah Wakatama called the process human-centered, while the prize added future safeguards like AI declarations; Kundizeza now looks forward to more writing and celebrations in Zimbabwe.",
+      "hook": "Zimbabwean writer Simbarashe Steyn Kundizeza felt a wave of relief when the Caine Prize declared his story fully human-written, ending weeks of doubt over AI claims.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T10:02:53.000Z",
+      "url": "https://x.com/i/trending/2121085594478477480",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Pangram"
+          ],
+          "people": [
+            "User Nition",
+            "Max Spero"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120427196842135608",
+      "name": "OpenAI Insiders Hint at GPT-6.2 Release This Thursday",
+      "summary": "Subtle signals from OpenAI insiders, including logs spotting GPT-6.2 Astra and Sol in systems, suggest a release as soon as Thursday, right after Anthropic's strong Claude Fable 5.2 launch on November 9. Fable 5.2 has topped leaderboards for coding and complex tasks, with users sharing fun tests like it picking Age of Empires over work. Community reactions compare the upcoming OpenAI duo favorably, highlighting the intense race in AI advancements.",
+      "hook": "OpenAI engineer Tibo emerged from the 'basement' with cryptic posts about a 'codexy' Thursday and possible resets, fueling excitement for GPT-6.2 models.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T07:25:41.000Z",
+      "url": "https://x.com/i/trending/2120427196842135608",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120886740806492305",
+      "name": "Director Jon Erwin Reveals AI's Role in 'Young Washington' Production",
+      "summary": "In BytePlus’s “Next Frame” series, Erwin explains how Seedance 2.5 helps from script stage to visual effects, such as testing scenes early to save time and turning a small pool into a vast icy river without risking actors. On a Greece shoot, the team filmed without open flames due to regulations, then used AI for realistic digital relighting synced to actors' movements. Filmmakers see this as a way to make big stories feasible again, with AI acting like a collaborative second unit that enhances human crews and on-set work.",
+      "hook": "Director Jon Erwin pulled back the curtain on using AI to solve real on-set problems, like recreating flames banned by safety rules in Greece.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T06:35:58.000Z",
+      "url": "https://x.com/i/trending/2120886740806492305",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Seedance"
+          ],
+          "people": [
+            "Jon Erwin"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120973863173419458",
+      "name": "Anthropic Launches Self-Hosted Claude Managed Agents in Private Beta",
+      "summary": "Anthropic's new private beta lets companies host the entire Managed Agents infrastructure—including servers, databases, and sandboxes—on their own cloud or on-premises setups. Model requests route to Claude or providers like Amazon Bedrock or Google, while session history and tools stay internal. Katelyn Lesse, Anthropic's head of platform, highlighted features like agent identity, observability, kill switches, and evals for secure workflows in bio research, chip design, and software. It's built for compliance-heavy fields like finance and healthcare, with early praise for giving enterprises full control without sacrificing frontier model access.",
+      "hook": "Organizations can now run Claude's full agent setup in their own secure environments, keeping sensitive data and credentials firmly under their control.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T06:28:47.000Z",
+      "url": "https://x.com/i/trending/2120973863173419458",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Private Beta for Self-Hosted Claude Managed Agents"
+          ],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121064648892170538",
+      "name": "US AI Leaders OpenAI and Anthropic Outpace Chinese Rivals by Nearly 10x in Revenue",
+      "summary": "As of late September, OpenAI and Anthropic reached a combined $105 billion annualized revenue run rate, dwarfing the $11 billion from six top Chinese firms like ByteDance, Alibaba, and DeepSeek. ByteDance led China at $4 billion, with DeepSeek hitting $1 billion after doubling in September, per Epoch AI estimates. U.S. growth surged with Anthropic up 47% and OpenAI up 50% quarter-over-quarter, driven by enterprise deals, while Chinese players focus on low costs and aggressive pricing to build usage.",
+      "hook": "Bar charts online show towering U.S. columns next to much smaller Chinese ones, highlighting a stark revenue gap in the AI race.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T05:10:48.000Z",
+      "url": "https://x.com/i/trending/2121064648892170538",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI",
+            "Anthropic",
+            "Alibaba",
+            "ByteDance",
+            "DeepSeek",
+            "Zhipu AI",
+            "Moonshot AI",
+            "MiniMax"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120825130586984454",
+      "name": "A2O SOUL's 'Dancing in the Dark' Video Hits 2 Million Views in Three Days",
+      "summary": "The boy group under A2O Entertainment, founded by Lee Soo-man, dropped their five-track EP 'SUPERSTAR' on November 9, featuring 'Dancing in the Dark' as a lead track alongside the pre-release 'SUPERSTAR.' Striking unit concept photos, behind-the-scenes shoots in casual outfits and school uniforms with 1980s synthwave vibes, and early streams hitting 424,845 in two days have fans buzzing. The track also landed on Spotify Korea's 'K-Pop Rising' playlist cover, boosting their visual storytelling and engagement right from launch.",
+      "hook": "A2O SOUL's 15 members burst onto the scene with their debut EP, and fans can't get enough of the 'Dancing in the Dark' video already topping 2 million YouTube views.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T04:07:16.000Z",
+      "url": "https://x.com/i/trending/2120825130586984454",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Dancing in the Dark photo shoot"
+          ],
+          "organizations": [
+            "A2O SOUL"
+          ],
+          "people": [
+            "ZET",
+            "ZAI",
+            "SORA",
+            "AYDEN",
+            "TAI",
+            "HANSUNG",
+            "GAKU",
+            "SONO",
+            "Kellamusic",
+            "Will Gittens"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "K-pop"
+        ]
+      }
+    },
+    {
+      "id": "2121020438839185863",
+      "name": "Perplexity Open-Sources Decider v1.3 Decision Models with Locate Feature",
+      "summary": "The new Decider v1.3 and Flash v1.3 models handle yes/no questions, choices from up to 255 options, rubric scoring, and now text extraction with character offsets, all while supporting text, images, and a 256K context window. They crushed benchmarks, hitting 91.63% accuracy on 63 internal tasks and outperforming top extraction systems on 17 others, with teams already using them for security improvements like self-updating rules from agent logs. Available free on OpenRouter until November 19, via Hugging Face under Apache 2.0, and Perplexity's Decisions API, this follows Google's similar Gemini launch and points to a rise in specialized decision models.",
+      "hook": "Perplexity just released its upgraded Decider models, adding a handy 'locate' tool that pulls exact text matches—making decisions smarter and more precise for real-world tasks.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T03:52:13.000Z",
+      "url": "https://x.com/i/trending/2121020438839185863",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Perplexity",
+            "Hugging Face",
+            "OpenRouter"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121023484113670470",
+      "name": "China's Open-Source AI Models Earn Global Goodwill",
+      "summary": "Discussions highlight how China's strategy of releasing model weights for free download builds soft power, even among American AI experts who appreciate the openness over U.S. companies' paid, restricted APIs. Playful terms like 'whale diplomacy'—nodding to mascots like DeepSeek's—emerge as users praise it for advancing human progress more than traditional efforts. While some warn of strategic risks if China leads, the approach resonates in the Global South for its affordability and adaptability, shifting views on AI leadership toward accessibility.",
+      "hook": "Chinese AI labs are sharing powerful models for free, winning fans worldwide—including some in the U.S.—through open access that contrasts sharply with closed American systems.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T03:28:50.000Z",
+      "url": "https://x.com/i/trending/2121023484113670470",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121025979250262495",
+      "name": "World Labs Releases Atlas for Public 3D World Creation",
+      "summary": "Atlas lets users generate, reconstruct, and explore consistent 3D environments starting from images, sketches, or basic geometry, with browser apps like Viewfinder and Chisel plus API access for keyframes and exports to Blender. Demos turn ideas like a sunlit orange kitchen or desert palace into navigable scenes, while investor Martin Casado calls it the biggest leap in 3D generation since AI took off. Early users are already crafting exportable worlds in minutes for film, games, architecture, and robotics.",
+      "hook": "Fei-Fei Li couldn't hide her excitement as World Labs opened Atlas to everyone, handing creators simple tools to build detailed 3D worlds from a single photo or sketch.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T02:58:57.000Z",
+      "url": "https://x.com/i/trending/2121025979250262495",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Atlas release"
+          ],
+          "organizations": [
+            "World Labs"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120910779977212394",
+      "name": "OpenAI Cyber Livestream Showcases Security Advances, No Major Model Release",
+      "summary": "During the November 12 'Cyber at the Frontier' livestream, OpenAI revealed an upcoming cyber model topping benchmarks at 77.0% on ExploitGym and 79.1% on PatchBench, surpassing GPT-6 Cyber and rivals like Gemini 4 Carbon. The event launched Daybreak Red Team for automated penetration testing and Daybreak Defense Factory for vulnerability handling, drawing from OpenAI's internal security work. While some praised the 'step function' progress in cyber defense, others voiced frustration over the lack of broader model updates amid competition from Anthropic and Google.",
+      "hook": "Viewers tuned in hoping for GPT-6.2 or new flagships, but OpenAI delivered a deep dive into cybersecurity tools instead.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T01:37:56.000Z",
+      "url": "https://x.com/i/trending/2120910779977212394",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120939635602063842",
+      "name": "Mirendil Raises $1 Billion to Democratize Frontier AI Research",
+      "summary": "AI startup Mirendil, founded by alumni from Anthropic, Google DeepMind, SpaceXAI, and OpenAI, secured $1 billion in Series A funding led by Kleiner Perkins and Clearlake Capital. The company builds tools like AI agents on its Lor platform to make advanced research accessible to individual scientists and smaller teams, with examples including training competitive models in months using under $10 million in compute. Co-founders emphasized radical leverage for researchers, following a $200 million seed round, as they hire aggressively to scale operations.",
+      "hook": "Imagine one scientist achieving what once needed a full team, thanks to AI agents handling the heavy lifting. That's the vision behind Mirendil's massive new funding.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:20:24.000Z",
+      "url": "https://x.com/i/trending/2120939635602063842",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Mirendil",
+            "Kleiner Perkins",
+            "Clearlake",
+            "a16z"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "Business & Finance",
+          "Entrepreneurship"
+        ]
+      }
+    },
+    {
+      "id": "2120973859864158669",
+      "name": "Taan AI Launches Controllable Music Generator for Precise Creator Needs",
+      "summary": "The Y Combinator-backed startup taan.ai released Taan v1-preview on November 12, a music model that takes multimodal inputs like hummed tunes, MIDI files, images, videos, or scripts to generate tracks following exact instructions. Early users praise details like setting tense openings, pauses, and drum drops at precise seconds, with options to tweak just parts without full regenerations. Benchmarks show 96% instruction success and 91% on-time events within 500 milliseconds, beating rivals, all trained on licensed music for commercial use at $15 monthly.",
+      "hook": "Imagine humming a melody, uploading a video, and getting music that hits every cue exactly—no endless retries needed. Taan v1-preview makes that real for creators frustrated by timing glitches in AI tools.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:20:12.000Z",
+      "url": "https://x.com/i/trending/2120973859864158669",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Y Combinator",
+            "Taan"
+          ],
+          "people": [
+            "mp3addi"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120548001890570450",
+      "name": "OpenAI Launches Businesses Feature in ChatGPT for Verified Profiles",
+      "summary": "On November 10, OpenAI rolled out a beta Businesses feature, letting owners verify profiles via email, phone, domain, or Shopify, update descriptions with product feeds, and earn a blue checkmark. They gain 28-day insights on mentions, website clicks, and discovery topics, while eligible U.S. ecommerce businesses build custom AI agents using their data. Marketers like Alex Groberman and Aleyda Solis shared guides and dashboard previews, highlighting easy setup and new ways to monitor AI conversations without extra costs.",
+      "hook": "Companies can now claim verified spots inside ChatGPT, the AI tool billions use weekly, to share accurate details and track how users find them.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:10:08.000Z",
+      "url": "https://x.com/i/trending/2120548001890570450",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120961559337849301",
+      "name": "Liquid AI Unveils LiquidCodec for Fast On-Device Speech Processing",
+      "summary": "The 74-million-parameter model supports Liquid AI's new LFM3-Audio-2B and LFM3-Omni-2B systems, using a causal encoder for real-time streaming and producing 12 tokens per 80ms frame. Trained on over 300,000 hours of multilingual speech, it encodes 361x faster than real-time and decodes 87x on an Apple M4 Max CPU, outperforming rivals like X-Codec 2 on key quality metrics. It enables offline voice assistants, live translation in earbuds, and low-bandwidth IoT uses, with code available on Hugging Face.",
+      "hook": "Liquid AI just dropped LiquidCodec, a speedy audio tool that turns speech into tokens for AI models to handle – all while running smoothly on your phone or device.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T23:05:52.000Z",
+      "url": "https://x.com/i/trending/2120961559337849301",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Liquid AI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120995054437417277",
+      "name": "SGLang Summit Launches v1.0 and New Consortium in San Francisco",
+      "summary": "The inaugural SGLang Summit opened on November 12, 2026, in San Francisco, announcing SGLang v1.0 with features like zero-overhead scheduling, Rust rewrites, and support for 217 models across 330 organizations. LMSYS Org launched the SGLang Consortium, backed by NVIDIA, AMD, Google, Meta, Intel, Cloudflare, Modal, and RadixArk to steer open-source AI inference for frontier models and hardware. Keynotes highlighted Ying Sheng's v1.0 demo and Banghua Zhu's Miles v0.2 framework, with the event running through November 13 amid community cheers for collaborative progress.",
+      "hook": "Engineers and researchers gathered at Fort Mason as SGLang unveiled its v1.0 release, a powerhouse for serving massive AI models at scale.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T21:46:33.000Z",
+      "url": "https://x.com/i/trending/2120995054437417277",
+      "contexts": {
+        "entities": {
+          "events": [
+            "SGLang Summit"
+          ],
+          "organizations": [
+            "NVIDIA",
+            "AMD",
+            "Google",
+            "Meta",
+            "Intel",
+            "Cloudflare",
+            "Modal",
+            "RadixArk"
+          ],
+          "people": [],
+          "places": [
+            "San Francisco"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "GOOG",
+            "META",
+            "INTC"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120542570833223733",
+      "name": "Google DeepMind Unveils AlphaGenome 2 for Cell-Specific DNA Predictions",
+      "summary": "Google DeepMind launched AlphaGenome 2, an AI model that predicts how DNA variants affect activity in specific human cell types, unlike earlier versions that averaged across tissues. Trained on over 107 million cell profiles, it excels at identifying causal variants—nearly doubling precision on immune cells—and links them to gene expression, chromatin, histones, and DNA methylation. Leaders like Demis Hassabis and Sundar Pichai praised its potential to uncover disease mechanisms, such as in inflammatory bowel disease, with the model now available for non-commercial research via API.",
+      "hook": "Imagine a single DNA tweak sparking disease in heart cells but not immune ones—AlphaGenome 2 now spots those precise effects.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T21:46:19.000Z",
+      "url": "https://x.com/i/trending/2120542570833223733",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Google DeepMind"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120988712385511912",
+      "name": "AI Agents Raise Accountability Questions in Growing Economy",
+      "summary": "With AI agents now driving most web traffic, creating content, and executing trades, developers and platforms are adding layers of oversight like Coinbase's trade limits and auto-stops. Standards such as ERC-8004 enable on-chain discovery and reputation for agents, but experts like Concordium's CEO stress that linking them to verified human or business identities builds true trust through privacy tools like zero-knowledge proofs. Discussions highlight how knowing the owner behind an agent—without exposing personal data—matters more for machine-to-machine deals and lasting reliability.",
+      "hook": "As AI agents handle real transactions and payments, a key worry emerges: who takes responsibility when things go wrong?",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T21:25:32.000Z",
+      "url": "https://x.com/i/trending/2120988712385511912",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Concordium Town Hall #6"
+          ],
+          "organizations": [
+            "Concordium"
+          ],
+          "people": [
+            "Boris Bohrer-Bilowitzki",
+            "Paul Barron"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120665185883193594",
+      "name": "MiniMax H3-Image Delivers Fast 4K AI Images for Creators",
+      "summary": "MiniMax released H3-Image around November 10-11, 2026, an open-weight AI model that generates native 4K images in under 10 seconds using text prompts, image editing, or up to 16 reference images. Creators are producing hyper-detailed game assets, fantasy warriors, cinematic environments, and product renders, praising its strong prompt adherence and consistency. It ranks #2 on DesignArena among open-weight models and tops Artificial Analysis leaderboards, available on Hugging Face and platforms like ComfyUI for game developers and artists.",
+      "hook": "Imagine turning a plain gaming controller into a futuristic exploded-view masterpiece, complete with labeled parts and premium finishes—all in seconds.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:58:20.000Z",
+      "url": "https://x.com/i/trending/2120665185883193594",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "MiniMax",
+            "Hugging Face",
+            "HyperFrames Studio",
+            "Venice",
+            "DreamFort"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120913835968323890",
+      "name": "Thorsten-4 AI Model Reads Hidden Human Motives in Conversations",
+      "summary": "Thorsten-4, a Large Psychology Model, analyzes emails, meetings, and chats to score people on 50 behavioral traits, predicting motives, decision styles, and reactions with 90% accuracy from proprietary data. Built from over a decade of psychology research, including 50 experts interviewing 7,000 people and tagging 35 million words, it integrates easily with existing AI tools for uses like sales, hiring, and analyzing earnings calls. Backed by $6 million in funding from investors including Jason Kelce and DK Metcalf, the model aims to help AI better understand human behavior beyond words.",
+      "hook": "Imagine an AI that spots the hesitation behind a polite 'sounds great' in a sales call or negotiation. New York startup millionways just launched Thorsten-4 to make that possible.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:46:27.000Z",
+      "url": "https://x.com/i/trending/2120913835968323890",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Thorsten-4 launch"
+          ],
+          "organizations": [
+            "millionways"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120973858312245281",
+      "name": "Keyframe Labs Unveils Persona-2.0-Live for Ultra-Realistic AI Avatars",
+      "summary": "Keyframe Labs launched Persona-2.0-Live, their most advanced real-time AI avatar offering precise word-level control over facial expressions for natural interactions. A blind study with 250 participants showed it outperforming competitors, with 239 picking it as easiest to read emotionally and 81 percent identifying feelings from silent clips. Early testers like Dylan Knox praised its lifelike micro-expressions, while the Y Combinator-backed startup highlights scalability, low latency around 180ms, and pricing from a few cents per minute. Co-founder Parth Radia shared a browser demo anyone can try.",
+      "hook": "Imagine an AI avatar that shifts from frustration to amusement mid-sentence, looking just like a real person—even with the sound off. Keyframe Labs just made that possible with their new model.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:24:40.000Z",
+      "url": "https://x.com/i/trending/2120973858312245281",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Keyframe Labs"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120630779185095107",
+      "name": "ByteDance Seedream 5.5 Brings Stable Iterative Image Editing to Creators",
+      "summary": "Launched earlier this week, Seedream 5.5 excels at multi-turn editing, preserving pixel-level details in unedited areas across up to 100 rounds, with improved text rendering, lighting, and RGBA support for transparent assets. Creators like Sophia praise its consistency for fashion try-ons and outfit swaps, while TestingCatalog confirmed precise recoloring without drift in product shots. At about $0.02 per image—far cheaper than rivals—it's already integrated into platforms like fal and PixVerse, boosting e-commerce and design workflows with reliable refinements.",
+      "hook": "Imagine tweaking the same image dozens of times without losing key details like body shape or lighting. ByteDance's new Seedream 5.5 makes that possible for creators.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:23:51.000Z",
+      "url": "https://x.com/i/trending/2120630779185095107",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "ByteDance",
+            "BytePlus",
+            "APOB AI",
+            "fal",
+            "Studios",
+            "Darkwoods",
+            "LetzAI",
+            "each::labs",
+            "Zopia"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120961564094144719",
+      "name": "TermiX Marketplace Bridges AI Agents to Real Jobs and Payments",
+      "summary": "TermiX, at agent.family and powered by the Agent Autonomous Commerce Protocol, lets AI agents post services, bid on jobs, and settle payments through on-chain escrow in stablecoins like USDC. Work delivery gets verified via hashes and optional checks, with low 1-3% fees and reputation building from successful jobs tied to ERC-8004 identities. Projects like Concordium add verifiable on-chain identities linked to owners via zero-knowledge proofs, while emerging uses include security monitoring and game creation—paving the way for a trusted agent economy.",
+      "hook": "AI agents can now research, code, and analyze like pros, but how do they land gigs and get paid? TermiX steps in with a simple marketplace to make it happen.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T19:35:05.000Z",
+      "url": "https://x.com/i/trending/2120961564094144719",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "TermiX",
+            "Binance",
+            "YZi Labs",
+            "DefiLlama"
+          ],
+          "people": [
+            "CZ",
+            "He Yi"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Cryptocurrency"
+        ]
+      }
+    },
+    {
+      "id": "2120874465865425083",
+      "name": "London AI Lab's ci-proto Tops Time-Series Forecasting Benchmark",
+      "summary": "Continuous Intelligence, founded in July 2026, released ci-proto, its first time-series foundation model family for zero-shot forecasting on real-world data like energy demand and health tracking. The largest version, ci-proto XL with 167 million parameters, scores 51.5 on fev-bench, beating models from Google, Amazon, and Mistral, while handling over 2 million observations for patterns across years. Open weights make it free for commercial use, sparking praise for the lab's quick rise and practical edge in long-history predictions.",
+      "hook": "A tiny London team, just four months old, dropped ci-proto—a model that crushes rivals on a key benchmark with a context window 64 times larger.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T19:21:30.000Z",
+      "url": "https://x.com/i/trending/2120874465865425083",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Continu_Intel",
+            "Google",
+            "Amazon",
+            "Mistral"
+          ],
+          "people": [],
+          "places": [
+            "London"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120531668201001338",
+      "name": "Sam Altman Warns Samsung of Double-Counted AI Demand",
+      "summary": "On October 31 in Yongin, South Korea, Altman met about 50 Samsung executives and explained that only OpenAI and Anthropic are fueling major AI growth right now. He predicted short-term supply shocks from overcounted infrastructure among neocloud providers but stressed enormous long-term expansion in AI token usage for software, robotics, and research. The remarks prompted market dips in memory chip stocks and fresh questions about the AI boom's narrow foundation amid tight supply chains.",
+      "hook": "In a private meeting with Samsung leaders, OpenAI's Sam Altman cut through the hype on AI growth. He revealed that demand figures have been inflated by double counting.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T16:46:16.000Z",
+      "url": "https://x.com/i/trending/2120531668201001338",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI",
+            "Anthropic",
+            "Samsung"
+          ],
+          "people": [
+            "Sam Altman"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120882482081910975",
+      "name": "Home Repo Pattern Simplifies AI Coding Agents Across Projects",
+      "summary": "Matt Pocock, from Total TypeScript and AI Hero, introduced the home repo idea to centralize shared skills, steering files like AGENTS.md, and docs in one place. Agents start there and access other projects as needed, preventing duplicated instructions and inconsistencies that arise when rules drift across repos. Developers are adopting it alongside practices like worktree isolation—one agent per checkout—to avoid conflicts, with some using monorepos or symlinks as tweaks. Pocock's guide includes a ready-to-use prompt that scans repos and suggests setup without changes until approved.",
+      "hook": "Developers tired of AI agents getting confused across multiple repos now have a straightforward fix: a single 'home repo' that keeps everything consistent.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T16:45:43.000Z",
+      "url": "https://x.com/i/trending/2120882482081910975",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Matt Pocock"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120239707456213341",
+      "name": "Anthropic CEO Predicts AI Will End Major Diseases in Under a Decade",
+      "summary": "In a video tied to Anthropic's upcoming IPO, CEO Dario Amodei forecasted that AI will solve these age-old health problems in less than ten years, if risks are managed and business thrives. The company eyes a massive Nasdaq debut at up to $1.4 trillion valuation, sharing feats like its Mythos model coding Claude for AMD GPUs in just three days. Reactions split sharply: fans see transformation ahead, while medical experts highlight biology's complexities and lengthy trials as barriers to such quick wins.",
+      "hook": "Dario Amodei envisions an 'age of miracles' where AI wipes out cancer, Alzheimer’s, heart disease, and mental illness within years. The bold claim from Anthropic's IPO roadshow has people talking.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T16:35:49.000Z",
+      "url": "https://x.com/i/trending/2120239707456213341",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Anthropic IPO roadshow"
+          ],
+          "organizations": [
+            "Anthropic",
+            "Novartis",
+            "Bristol Myers Squibb"
+          ],
+          "people": [
+            "Dario Amodei"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120807052347883611",
+      "name": "Claude AI Emerges as 2026 Power Tool for Coding and Workflows",
+      "summary": "In 2026, Claude AI has evolved from basic chatbot to a versatile assistant for writing, coding, research, and building AI agents, with users sharing guides on productivity hacks like zero-cost marketing through competitor analysis and lead generation. Recent Anthropic updates, including Fable 5.2 and Mythos 5.2 models, bring expanded context windows, Claude Sheets, Whiteboards, and app connectors to streamline workflows. While Claude Code shines in benchmarks over rivals like Codex, some prefer ChatGPT for more lively personal chats, as power users treat Claude like an operating system for real-world tasks from debugging to startup growth.",
+      "hook": "Developers and founders are turning Claude AI into their daily powerhouse, crafting everything from code to marketing strategies without breaking a sweat.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T16:01:38.000Z",
+      "url": "https://x.com/i/trending/2120807052347883611",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Paul Mit"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Entrepreneurship"
+        ]
+      }
+    },
+    {
+      "id": "2120301604217737382",
+      "name": "T3 Code Unites AI Coding Agents in One Clean Interface",
+      "summary": "T3 Code runs as a free Electron desktop app on macOS, Windows, and Linux, plus web and mobile versions for remote control. It lets users harness their existing subscriptions to run agents in isolated Git worktrees, with built-in diff viewers, terminals, and one-click commits—leading to reports of tripled Claude usage and 47 active threads in days. Even non-devs message Theo for setup tips, while devs rave about productivity jumps and call it an 'AI Wrangler' that ruined their tolerance for slower workflows. The GitHub repo boasts tens of thousands of stars and over 1,000 contributors, with Theo's team iterating publicly on performance.",
+      "hook": "Developers are ditching scattered AI tools for T3 Code, Theo Browne's open-source app that wrangles multiple agents like Claude Code and Cursor into a single, smooth dashboard.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T15:42:06.000Z",
+      "url": "https://x.com/i/trending/2120301604217737382",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "T3 Code"
+          ],
+          "people": [
+            "Theo"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120776167515185295",
+      "name": "T3 Code Hits 1,000 GitHub Contributors with Massive AI Usage",
+      "summary": "This open-source app acts as a control hub for AI coding agents like Claude Code, Cursor, and Grok Build, managing threads, git changes, and commits via desktop, web, or mobile apps. Creator Theo Browne shared that closed models dominate usage at over 99.5 percent, a fact now accepted quietly compared to pushback months ago. Amid explosive growth—57,000 GitHub stars and 500,000 users—the team tightened guidelines to focus external help on bug fixes, as review capacity lags behind demand.",
+      "hook": "T3 Code just crossed 1,000 GitHub contributors, powering tens of trillions of tokens daily through everyday coders' subscriptions.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T14:26:59.000Z",
+      "url": "https://x.com/i/trending/2120776167515185295",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "t3.gg"
+          ],
+          "people": [
+            "Theo"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "Software Development"
+        ]
+      }
+    },
+    {
+      "id": "2120836899246047488",
+      "name": "Apex Neural Rendering Challenges NVIDIA DLSS with Broad GPU Support",
+      "summary": "Apex Compute launched the beta of Apex Neural Rendering (ANR), a cross-vendor frame generation tool that works on NVIDIA GTX 16/RTX 20-50 series, AMD RX 5000+, Intel Arc, Steam Deck, and even Apple silicon. Company benchmarks on an RTX 5090 at 4K show ANR generating frames faster (1.01 ms vs. DLSS's 1.26 ms in 2X mode) while using far less VRAM (214 MB vs. 562 MB) and scoring higher on quality metrics. Side-by-side comparisons in games like The Last of Us Part II reveal less ghosting, though independent tests are still pending and full features like super resolution are coming later.",
+      "hook": "Gamers with older GPUs lit up at news that a new tool revives their hardware for smooth frame generation. One user cheered, 'My 3090 is relevant again for gaming!'",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T13:53:23.000Z",
+      "url": "https://x.com/i/trending/2120836899246047488",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Apex Compute",
+            "NVIDIA"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120856737183838216",
+      "name": "AI Acceleration Fuels Fears of Losing Human Control",
+      "summary": "Users are discussing fresh METR findings from Anthropic, where AI capabilities have doubled in speed since October 2025, driven by AI-assisted research. Eli Lifland shifted his timeline for superhuman AI researchers from 2030 to 2027, prompting the AI Futures Project to update forecasts similarly. Threads envision a mix of breakthroughs in medicine and science alongside mass unemployment and cyberattacks, while skeptics question if humans ever truly held control and highlight AI's potential to prevent wars and disasters.",
+      "hook": "One post captured the growing unease: humanity might lose control of its future in just 3-12 months amid AI's rapid advances.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T12:34:46.000Z",
+      "url": "https://x.com/i/trending/2120856737183838216",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "METR",
+            "Anthropic"
+          ],
+          "people": [
+            "Eli Lifland"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120844403237646753",
+      "name": "Developers Compare Claude Code and Codex for Custom AI Agents",
+      "summary": "Posts detail a six-step no-code process using Claude Code: install it, set up a CLAUDE.md file for context, build memory via corrections, create reusable skills, specialize agents, and automate with schedules. Others break down top features like persistent instructions, projects, and tool connectors that deliver most value, alongside visuals comparing the tools. Users often split workflows—Claude for complex multi-file projects and codebase exploration, Codex for quick tasks and lower costs—while benchmarks show each excelling in different scenarios like long sessions or token efficiency.",
+      "hook": "Developers are sharing hands-on guides to build AI agents in minutes, while weighing Claude Code against OpenAI's Codex ahead of its unlimited access tomorrow.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:45:20.000Z",
+      "url": "https://x.com/i/trending/2120844403237646753",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Codex Unlimited Usage Launch"
+          ],
+          "organizations": [
+            "OpenAI",
+            "X"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120751778866094217",
+      "name": "PluraiAI Launches Free Platform to Stress-Test AI Agents",
+      "summary": "Plurai Simulation lets developers run their AI agents against simulated users and edge cases, uncovering issues like broken tool calls or policy violations. Founders Ilan Kadar and Elad Levi, drawing from their autonomous driving experience at Nexar, built it to slash development cycles from months to hours and cut failures by 82%. The launch includes $13 million in seed funding, and early users share practical prompts for quick setup in tools like Claude Code, praising it as a flight simulator for reliable agents.",
+      "hook": "AI agents shine in demos, but real users often break them. PluraiAI's new free tool creates digital twins to catch those failures before they hit production.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:27:33.000Z",
+      "url": "https://x.com/i/trending/2120751778866094217",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Plurai AI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120799797061816805",
+      "name": "Users Share Guides to Unlock Claude AI's Full Power in 2026",
+      "summary": "In 2026, folks are diving deep into Claude AI's standout features like dedicated project workspaces, Artifacts for interactive prototypes, and Workflows with external tool connections to handle writing, coding, research, and automation. Debates heat up between Claude Code and OpenAI's Codex, with benchmarks showing Claude excelling in complex multi-file tasks while Codex shines in cost efficiency and token use. Power users build custom AI agents and even full operating systems, sharing step-by-step tutorials that take about 10 minutes to set up reusable skills and autopilot routines.",
+      "hook": "A creator fed Claude a project link and website, and it whipped up a complete motion graphics video in under 20 minutes. That's the kind of real-world magic people are buzzing about.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:17:29.000Z",
+      "url": "https://x.com/i/trending/2120799797061816805",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120423633117954075",
+      "name": "Baidu Unveils ERNIE 5.5 Flash Preview for Fast AI Creation",
+      "summary": "Baidu released ERNIE 5.5 Flash Preview, a 280B parameter open-weight model with just 14B active per token, a 1M-token context window, and over 200 tokens per second on its Qianfan platform. It tops leaderboards like Code Arena at 1,668 points, nearing the #2 open model spot, and excels in benchmarks for coding, automation, and spreadsheets. Community demos showcase 3D models of a historic temple, Baidu's skyscrapers, playable games, and an animated pelican short, with full weights coming under Apache 2.0 by November 25 and free API access now.",
+      "hook": "An engineer prompted it to build a fully editable moon rover in FreeCAD, complete with moving suspension arms and rotating wheels—just like China's Yutu-2.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:08:56.000Z",
+      "url": "https://x.com/i/trending/2120423633117954075",
+      "contexts": {
+        "entities": {
+          "events": [
+            "ERNIE 5.5 Flash Preview release"
+          ],
+          "organizations": [
+            "Baidu"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120834036486602806",
+      "name": "Developers Compare Claude Code and Codex in Agent-Building Push",
+      "summary": "Posts detail six no-code steps with Claude Code: install, set up CLAUDE.md for rules, add memory via corrections, create reusable skills, build subagents, and automate routines. Benchmarks from November 2026 show Claude Code leading in complex coding tasks with Opus 5.5, though Codex uses fewer tokens and costs less. Many developers mix both tools for planning and workflows, praising Claude's depth while noting Codex's efficiency and ChatGPT's lively personality in casual chats.",
+      "hook": "Developers are crafting custom AI agents in just 10 minutes using Claude Code's simple steps, sparking lively talks about whether to switch from OpenAI's Codex.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:05:45.000Z",
+      "url": "https://x.com/i/trending/2120834036486602806",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120834036524282194",
+      "name": "Engineer Calls Anthropic's AI Hardware Designs Child's Play, Sparks Debate",
+      "summary": "On November 9, Anthropic revealed its Claude Fable 5.2 model created three functional prototypes: a USB speakerphone puck, home voice-assistant hub, and handheld virtual pet. Partner Diode Computers built them straight from the AI's files, and they worked flawlessly, with the speakerphone lasting weeks. Chomba Bupe labeled it 'kindergarten style,' but others pointed to AI's rapid progress in electronics, much like it disrupted coding, fueling talks on automation in technical fields. Anthropic noted these are early prototypes needing human assembly and no production certification yet.",
+      "hook": "An engineer dismissed Anthropic's new AI feat—designing working gadgets from simple prompts—as something any kid could do. Replies poured in, warning it's just the start of AI reshaping engineering.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:05:32.000Z",
+      "url": "https://x.com/i/trending/2120834036524282194",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120817784774909977",
+      "name": "Kling AI Unveils 'Redline' Racing Short Film with Kling 4.0",
+      "summary": "Kling AI released 'Redline,' an 11-minute original short film that captures adrenaline-pumping racing action using its upgraded Kling 4.0 model, launched in mid-October 2026. The film features seamless tracking shots, dynamic camera work, and emotional racer stories, tackling challenges that traditionally demand expensive real-world shoots. Viewers praised its blockbuster-quality motion and visuals, noting how it makes complex action accessible to smaller teams. Directed by Stephane Benini, it highlights AI's push toward professional narrative filmmaking.",
+      "hook": "High-speed chases and cockpit views pull you right into the driver's seat, all crafted by AI without a single real track in sight.",
+      "category": "Entertainment",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T09:59:12.000Z",
+      "url": "https://x.com/i/trending/2120817784774909977",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Redline"
+          ],
+          "organizations": [
+            "Kling AI"
+          ],
+          "people": [
+            "Stephane Benini"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    }
+  ]
+}

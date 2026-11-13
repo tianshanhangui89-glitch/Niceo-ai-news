@@ -1,0 +1,2143 @@
+{
+  "fetched_at": "2026-11-14T07:08:52.000+08:00",
+  "channel": "papers",
+  "data": [
+    {
+      "id": "hf-2611.17336",
+      "name": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "title": "论文｜Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "origin_title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Back to Pixels: Lifting Latent Video Diffusion into Pixel Space」。AI 摘要：Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block.",
+      "url": "https://arxiv.org/abs/2611.17336",
+      "arxiv_url": "https://arxiv.org/abs/2611.17336",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Yanke Song, Shuo Chen, Chris Rockwell, Guande He, Nan Liu, Desai Xie",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.17336",
+      "arxiv_id": "2611.17336",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17336",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.17190",
+      "name": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "title": "论文｜Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "origin_title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes」。AI 摘要：Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutually consistent correspondences that can draw the robust homography estimate towa",
+      "url": "https://arxiv.org/abs/2611.17190",
+      "arxiv_url": "https://arxiv.org/abs/2611.17190",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Robert Fonod, Nikolas Geroliminis",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.17190",
+      "arxiv_id": "2611.17190",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17190",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.09567",
+      "name": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "title": "论文｜TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "origin_title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates」。AI 摘要：Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations. The dataset contains 400 trajectorie",
+      "url": "https://arxiv.org/abs/2611.09567",
+      "arxiv_url": "https://arxiv.org/abs/2611.09567",
+      "updated_at": "2026-11-06T00:00:00.000Z",
+      "author": "Jarno Platenburg, Armand Kassaï Koupaï, Paola Cinnella, Patrick Gallinari",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.09567",
+      "arxiv_id": "2611.09567",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.09567",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16961",
+      "name": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "title": "论文｜The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "origin_title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「The Value of Thinking: Learning When to Reason in Hybrid Decision Models」。AI 摘要：A hybrid decision model routes between implicit single-forward-pass answering and full autoregressive reasoning via a self-routing block trained with calibrated decision policy optimization, reducing token and latency costs while preserving accuracy.",
+      "url": "https://arxiv.org/abs/2611.16961",
+      "arxiv_url": "https://arxiv.org/abs/2611.16961",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Zhengxu Yu, Ke Xu, Meng Fang, Haitham Ammar, Weilin Luo, Jun Wang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16961",
+      "arxiv_id": "2611.16961",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16961",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.12750",
+      "name": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+      "title": "论文｜The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+      "origin_title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?」。AI 摘要：A benchmark of news articles and queries shows that current large language models cannot reliably help users navigate diverse multilingual narratives, leaving gaps in exposure to competing accounts and risking echo chambers and information disparities.",
+      "url": "https://arxiv.org/abs/2611.12750",
+      "arxiv_url": "https://arxiv.org/abs/2611.12750",
+      "updated_at": "2026-11-09T00:00:00.000Z",
+      "author": "Nikhil Sharma, Kelly Marchisio, Kenton Murray, Ziang Xiao",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.12750",
+      "arxiv_id": "2611.12750",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.12750",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.15094",
+      "name": "A frontier machine intelligence for human neuroimaging",
+      "title": "论文｜A frontier machine intelligence for human neuroimaging",
+      "origin_title": "A frontier machine intelligence for human neuroimaging",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「A frontier machine intelligence for human neuroimaging」。AI 摘要：A vision-language model trained on nearly one million clinical neuroimaging studies interprets complete examinations, discusses findings in natural language, and outperforms existing general and medical models in diagnosis, localization, reporting, and progression assessment.",
+      "url": "https://arxiv.org/abs/2611.15094",
+      "arxiv_url": "https://arxiv.org/abs/2611.15094",
+      "updated_at": "2026-11-11T00:00:00.000Z",
+      "author": "Chenhui Zhao, Akshay Rao, Akhil Kondepudi, Yiwei Lyu, Xinhai Hou, Rikhil Seshadri",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.15094",
+      "arxiv_id": "2611.15094",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.15094",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.17334",
+      "name": "Unbundling Multimodal Vision Encoding",
+      "title": "论文｜Unbundling Multimodal Vision Encoding",
+      "origin_title": "Unbundling Multimodal Vision Encoding",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Unbundling Multimodal Vision Encoding」。AI 摘要：Controlled experiments show that multimodal language models do not need a pretrained vision encoder, but benefit from dedicated vision capacity trained jointly with the backbone and integrated early rather than before fusion.",
+      "url": "https://arxiv.org/abs/2611.17334",
+      "arxiv_url": "https://arxiv.org/abs/2611.17334",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Ellis Brown, Chris Hoang, Shengyi Qian, Shang-Wen Li, Mike Lewis, Marjan Ghazvininejad",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.17334",
+      "arxiv_id": "2611.17334",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17334",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16409",
+      "name": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "title": "论文｜Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "origin_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Experience-Handoff Reinforcement Learning for Recursive Self-Improvement」。AI 摘要：Language-model agents trained with reinforcement learning can improve by learning to create and curate experience artifacts that help future rollouts, not just by optimizing actions from scalar rewards.",
+      "url": "https://arxiv.org/abs/2611.16409",
+      "arxiv_url": "https://arxiv.org/abs/2611.16409",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Doyoung Kim, Byeongguk Jeon, Kailin Zhang, Sherry Yang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16409",
+      "arxiv_id": "2611.16409",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16409",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16009",
+      "name": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "title": "论文｜JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "origin_title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「JustRUA: A Controlled Study of GPT-6 Robot-Use Agents」。AI 摘要：A simplified evaluation harness that keeps full episode history and stops motions early substantially improves robot-use agent scores on RoboDojo, with scene geometry providing the largest additional benefit.",
+      "url": "https://arxiv.org/abs/2611.16009",
+      "arxiv_url": "https://arxiv.org/abs/2611.16009",
+      "updated_at": "2026-11-11T00:00:00.000Z",
+      "author": "Zefan Wang, Yufan Dang, Xuanwei Shi, Mingqi Gao, Cheng Yin, SikYuen Tam",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16009",
+      "arxiv_id": "2611.16009",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16009",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.15844",
+      "name": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+      "title": "论文｜Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+      "origin_title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Open Vision Banana: A Fully Open Recipe for Generative Visual Perception」。AI 摘要：Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-t",
+      "url": "https://arxiv.org/abs/2611.15844",
+      "arxiv_url": "https://arxiv.org/abs/2611.15844",
+      "updated_at": "2026-11-11T00:00:00.000Z",
+      "author": "Arpit Jadon, Valentinos Pariza, Jona Ruthardt, Ryousuke Yamada, A. Sophia Koepke, Andrei Bursuc",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.15844",
+      "arxiv_id": "2611.15844",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.15844",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.14256",
+      "name": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+      "title": "论文｜A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+      "origin_title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents」。AI 摘要：A survey analyzes why self-improvement mechanisms for multimodal agents transfer unevenly across reasoning, generation, navigation, and manipulation scenarios, framing them as trade-offs over scarce factors and task-structural resources.",
+      "url": "https://arxiv.org/abs/2611.14256",
+      "arxiv_url": "https://arxiv.org/abs/2611.14256",
+      "updated_at": "2026-11-10T00:00:00.000Z",
+      "author": "Jingjing Jiang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.14256",
+      "arxiv_id": "2611.14256",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.14256",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.08318",
+      "name": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "title": "论文｜Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "origin_title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement」。AI 摘要：Exposing benchmark success criteria to self-improving embodied coding agents can raise measured success under those criteria without improving instructed-task completion, and the advantage weakens under slight criteria changes and transfers poorly across tasks, while instruction-faithful criteria better reflect instructed-task performance.",
+      "url": "https://arxiv.org/abs/2611.08318",
+      "arxiv_url": "https://arxiv.org/abs/2611.08318",
+      "updated_at": "2026-11-05T00:00:00.000Z",
+      "author": "Wenbo Huang, Jianxin Bi, Shunyu Yang, Ruiyang Si, Rui Ni, Qiang Wang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.08318",
+      "arxiv_id": "2611.08318",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.08318",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2607.13920",
+      "name": "DeepStress: Stress-Testing Deep Search Agents",
+      "title": "论文｜DeepStress: Stress-Testing Deep Search Agents",
+      "origin_title": "DeepStress: Stress-Testing Deep Search Agents",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「DeepStress: Stress-Testing Deep Search Agents」。AI 摘要：A dynamic stress-testing framework shows that search agents often answer confidently despite unreliable retrieved evidence and may rely on memorized knowledge when documents are factually wrong.",
+      "url": "https://arxiv.org/abs/2607.13920",
+      "arxiv_url": "https://arxiv.org/abs/2607.13920",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Ismael Rousseau, Geraldine Damnati, Frederic Bechet",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2607.13920",
+      "arxiv_id": "2607.13920",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2607.13920",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.14046",
+      "name": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+      "title": "论文｜Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+      "origin_title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Structured Confidence Perturbation via Fisher Geometry for Adversarial Training」。AI 摘要：A hybrid adversarial training approach combining cross-entropy and KL divergence with geometry-aware perturbations on the confidence manifold improves robustness and transferability by targeting confidence structure deformation.",
+      "url": "https://arxiv.org/abs/2611.14046",
+      "arxiv_url": "https://arxiv.org/abs/2611.14046",
+      "updated_at": "2026-11-10T00:00:00.000Z",
+      "author": "Chenlong Wei, Hanling Wang, Chong Zhang, Qinkai Yu, Fangyu Wu, Xiaobo Jin",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.14046",
+      "arxiv_id": "2611.14046",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.14046",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.12872",
+      "name": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "title": "论文｜HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "origin_title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents」。AI 摘要：A novel multimodal memory framework enhances long-term interaction by combining relational graph expansion of semantic seeds with query-adaptive composition of heterogeneous evidence forms.",
+      "url": "https://arxiv.org/abs/2611.12872",
+      "arxiv_url": "https://arxiv.org/abs/2611.12872",
+      "updated_at": "2026-11-09T00:00:00.000Z",
+      "author": "Haozhen Zhang, Bohan Liu, Jianzhu Bao, Qingyuan Liu, Haodong Yue, Xiao Li",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.12872",
+      "arxiv_id": "2611.12872",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.12872",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.17331",
+      "name": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "title": "论文｜TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "origin_title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models」。AI 摘要：By baking global scene information from cross-view attention into a lightweight MLP, Test-Time Baking (TTB) enhances the fidelity of novel-view decoding in Large View Synthesis Models while maintaining the efficiency of Test-Time Training.",
+      "url": "https://arxiv.org/abs/2611.17331",
+      "arxiv_url": "https://arxiv.org/abs/2611.17331",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Chin-Yang Lin, Ryo Hachiuma, Jaesung Choe, Min-Hung Chen, Yu-Chiang Frank Wang, Yen-Yu Lin",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.17331",
+      "arxiv_id": "2611.17331",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17331",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.08219",
+      "name": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "title": "论文｜Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "origin_title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis」。AI 摘要：A real-source data synthesis framework trains a 4B agent on 4k task instances with supervised fine-tuning and rubric-based reinforcement learning, improving realistic productivity work and file-grounded reasoning over larger models.",
+      "url": "https://arxiv.org/abs/2611.08219",
+      "arxiv_url": "https://arxiv.org/abs/2611.08219",
+      "updated_at": "2026-11-05T00:00:00.000Z",
+      "author": "Teng Pan, Zixuan Wang, Yuchen Yan, Qifei Wu, Yao Chen, Yingqi Qu",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.08219",
+      "arxiv_id": "2611.08219",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.08219",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.17060",
+      "name": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+      "title": "论文｜Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+      "origin_title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors」。AI 摘要：Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments i",
+      "url": "https://arxiv.org/abs/2611.17060",
+      "arxiv_url": "https://arxiv.org/abs/2611.17060",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Hao Li, Fangzhou Hong, Zhaoxi Chen, Hui En Pang, Kairui Hu, Mingze Sun",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.17060",
+      "arxiv_id": "2611.17060",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17060",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2610.41453",
+      "name": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
+      "title": "论文｜Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
+      "origin_title": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution」。AI 摘要：Tool timeouts can leave AI agents facing ambiguous tool outcomes and partial execution: an action may have failed, committed or remained in flight while other workflow steps have already completed. We formulate evidence-guided task recovery over approved obligations, provider capabilities and states compatible with public evidence. A shared admissibility check handles key expiry, authorization tim",
+      "url": "https://arxiv.org/abs/2610.41453",
+      "arxiv_url": "https://arxiv.org/abs/2610.41453",
+      "updated_at": "2026-10-30T00:00:00.000Z",
+      "author": "Genliang Zhu, Xiaobo Chen, Ziyuan Wang, Chu Wang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2610.41453",
+      "arxiv_id": "2610.41453",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2610.41453",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.00428",
+      "name": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+      "title": "论文｜Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+      "origin_title": "Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?」。AI 摘要：A spectrum can be given to a model as a table in nanometers or as a plot in photon energy, and the decision should not depend on which one it sees. When the data needed for an answer are missing, the model should say so. We test representation invariance and abstention on measured optical spectra of silicon metasurfaces (MOCLIP) and gold nanoparticles, with labels computed from the data. Each spec",
+      "url": "https://arxiv.org/abs/2611.00428",
+      "arxiv_url": "https://arxiv.org/abs/2611.00428",
+      "updated_at": "2026-10-30T00:00:00.000Z",
+      "author": "Ziyuan Wang, Genliang Zhu, Xiaobo Chen",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.00428",
+      "arxiv_id": "2611.00428",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.00428",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.17167",
+      "name": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "title": "论文｜Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "origin_title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents」。AI 摘要：A decision model that acts poorly can still teach reinforcement learning policies effectively by judging complete action trajectories, improving success on ALFWorld and WebShop.",
+      "url": "https://arxiv.org/abs/2611.17167",
+      "arxiv_url": "https://arxiv.org/abs/2611.17167",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li, Tongbo Chen, Peng Qiu",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.17167",
+      "arxiv_id": "2611.17167",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17167",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.00359",
+      "name": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+      "title": "论文｜Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+      "origin_title": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers」。AI 摘要：AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbers, dates, person and organization names, and quoted spans survive each rewrite, using a rule-based checker validated by two AI annotators (precision 0.84-1.00, recall 0.93-0.95; n",
+      "url": "https://arxiv.org/abs/2611.00359",
+      "arxiv_url": "https://arxiv.org/abs/2611.00359",
+      "updated_at": "2026-10-30T00:00:00.000Z",
+      "author": "Ziyuan Wang, Genliang Zhu, Xiaobo Chen",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.00359",
+      "arxiv_id": "2611.00359",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.00359",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16905",
+      "name": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+      "title": "论文｜Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+      "origin_title": "Factored One-sided Adam-Moment for Practical and Scalable SOAP",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Factored One-sided Adam-Moment for Practical and Scalable SOAP」。AI 摘要：FOAM is a lightweight SOAP variant that uses input-only preconditioning and a factored Adam-moment estimator to match strong second-order and Muon baselines in LLM pre-training while using half the optimizer state and running at Muon-class speed.",
+      "url": "https://arxiv.org/abs/2611.16905",
+      "arxiv_url": "https://arxiv.org/abs/2611.16905",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Jaemyung Yu, Byeongho Heo, Sangdoo Yun, Dongyoon Han",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16905",
+      "arxiv_id": "2611.16905",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16905",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.15777",
+      "name": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "title": "论文｜SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "origin_title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models」。AI 摘要：SO-Arena evaluates System One models across domains and capability families, revealing that scaling and reasoning gains vary and that high overall accuracy does not ensure reliable decision-making.",
+      "url": "https://arxiv.org/abs/2611.15777",
+      "arxiv_url": "https://arxiv.org/abs/2611.15777",
+      "updated_at": "2026-11-11T00:00:00.000Z",
+      "author": "Lichen Li, Ziping Dong, Sicheng Feng, Qi Li, Xinchao Wang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.15777",
+      "arxiv_id": "2611.15777",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.15777",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16217",
+      "name": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+      "title": "论文｜WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+      "origin_title": "WorldDraft: If Code Builds the World, Can Video Models Just Render It?",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「WorldDraft: If Code Builds the World, Can Video Models Just Render It?」。AI 摘要：Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer hinges on two complementary criteria: (i) world preservation, retaining prescribed 4D kinematics and",
+      "url": "https://arxiv.org/abs/2611.16217",
+      "arxiv_url": "https://arxiv.org/abs/2611.16217",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Zhiyu Hou, Wen-Jie Shu, Harold Haodong Chen, Weilin Ruan, Chenfei Liao, Liuzhou Zhang",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16217",
+      "arxiv_id": "2611.16217",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16217",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16517",
+      "name": "UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation",
+      "title": "论文｜UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation",
+      "origin_title": "UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「UniSpark: Exploring Hybrid Attention for Multimodal Understanding and Generation」。AI 摘要：We present UniSpark-9B, a unified multimodal model that investigates hybrid attention for visual understanding and generation. Built on a Mixture-of-Transformer-Experts backbone with approximately 9B parameters in each branch, UniSpark combines full attention for explicit token interactions with GatedDeltaNet linear attention for compact context propagation. Autoregressive text prediction and visu",
+      "url": "https://arxiv.org/abs/2611.16517",
+      "arxiv_url": "https://arxiv.org/abs/2611.16517",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Jiancheng Pan, Yuzheng Liu, Hengyuan Cao, Qiyuan Zhang, Yangyan Li, Biao Gong",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16517",
+      "arxiv_id": "2611.16517",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16517",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16748",
+      "name": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "title": "论文｜PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "origin_title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models」。AI 摘要：PhysLoop leverages large language models to guide video generation, selection, and correction, enabling physically consistent self-improvement and controllable data construction for video models.",
+      "url": "https://arxiv.org/abs/2611.16748",
+      "arxiv_url": "https://arxiv.org/abs/2611.16748",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Yuxuan Chen, Xiaojie Li, Hao Chen, Juncheng Ma, Kewei Zhang, Zhongjing Du",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16748",
+      "arxiv_id": "2611.16748",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16748",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.16321",
+      "name": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+      "title": "论文｜From Large Language Models to Efficient System One Models via Adaptive Computation",
+      "origin_title": "From Large Language Models to Efficient System One Models via Adaptive Computation",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「From Large Language Models to Efficient System One Models via Adaptive Computation」。AI 摘要：Transferring LLMs into System One decision models typically replaces the language modeling head with a decision head while retaining the full backbone, making every decision pay for all layers. Yet it remains unclear how much depth such decisions require. We find that decision information is concentrated in intermediate layers, with early layers building essential features and the final six layers",
+      "url": "https://arxiv.org/abs/2611.16321",
+      "arxiv_url": "https://arxiv.org/abs/2611.16321",
+      "updated_at": "2026-11-12T00:00:00.000Z",
+      "author": "Minh-Anh Nguyen",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.16321",
+      "arxiv_id": "2611.16321",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.16321",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.15131",
+      "name": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "title": "论文｜Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "origin_title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Duo: A Reciprocal World Model for Full-Duplex Interaction」。AI 摘要：A reciprocal world model enables real-time full-duplex audiovisual interaction by jointly modeling intent and realization using autoregressive reasoning, synchronized attention, and dual rollout distillation.",
+      "url": "https://arxiv.org/abs/2611.15131",
+      "arxiv_url": "https://arxiv.org/abs/2611.15131",
+      "updated_at": "2026-11-11T00:00:00.000Z",
+      "author": "Hengyuan Cao, Biao Gong, Guoshan Lu, Qiyuan Zhang, Lin Liu, Yiding Tian",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.15131",
+      "arxiv_id": "2611.15131",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.15131",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.13004",
+      "name": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "title": "论文｜G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "origin_title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation」。AI 摘要：Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
+      "url": "https://arxiv.org/abs/2611.13004",
+      "arxiv_url": "https://arxiv.org/abs/2611.13004",
+      "updated_at": "2026-11-08T00:00:00.000Z",
+      "author": "Xu Huang, Ye Huang, Xiaotong Li, Zhengrong Yue, Jialv Zou, Minhao Jing",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.13004",
+      "arxiv_id": "2611.13004",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.13004",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.14815",
+      "name": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "title": "论文｜BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "origin_title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model」。AI 摘要：Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
+      "url": "https://arxiv.org/abs/2611.14815",
+      "arxiv_url": "https://arxiv.org/abs/2611.14815",
+      "updated_at": "2026-11-10T00:00:00.000Z",
+      "author": "Junyoung Seo, Jaewoo Seo, Seungryong Kim, Laura Leal-Taixé, Xiuming Zhang, Seung Wook Kim",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.14815",
+      "arxiv_id": "2611.14815",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.14815",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.05984",
+      "name": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+      "title": "论文｜On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+      "origin_title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「On the Design of Hyper-Connections: Simplification, Stability, and Scalability」。AI 摘要：A systematic study of Hyper-Connections architectures identifies the simpler efficient design SimpleHC, which removes residual mixing and uses shared memory access to match mHC performance while adding minimal training overhead and improving stability.",
+      "url": "https://arxiv.org/abs/2611.05984",
+      "arxiv_url": "https://arxiv.org/abs/2611.05984",
+      "updated_at": "2026-11-04T00:00:00.000Z",
+      "author": "Xiangdong Zhang, Xiaohan Qin, Sunan Zou, Tuo Dai, Bizhao Shi, Zhuo Xia",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.05984",
+      "arxiv_id": "2611.05984",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.05984",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.08538",
+      "name": "Subliminal Learning in Vision-Language Models",
+      "title": "论文｜Subliminal Learning in Vision-Language Models",
+      "origin_title": "Subliminal Learning in Vision-Language Models",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Subliminal Learning in Vision-Language Models」。AI 摘要：Subliminal learning can transfer hidden preferences from teacher to student vision-language models through unrelated visual tasks, affecting image choices and explanations.",
+      "url": "https://arxiv.org/abs/2611.08538",
+      "arxiv_url": "https://arxiv.org/abs/2611.08538",
+      "updated_at": "2026-11-04T00:00:00.000Z",
+      "author": "Arman Hatami, Romina Aalishah, Ilya E. Monosov",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.08538",
+      "arxiv_id": "2611.08538",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.08538",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.11531",
+      "name": "Probing Transformer Representations Layer by Layer, Module by Module",
+      "title": "论文｜Probing Transformer Representations Layer by Layer, Module by Module",
+      "origin_title": "Probing Transformer Representations Layer by Layer, Module by Module",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Probing Transformer Representations Layer by Layer, Module by Module」。AI 摘要：Jointly selecting layers and modules in transformer foundation models yields better probing features than depth-only or final-layer approaches, and simple fixed strategies recover much of the gain.",
+      "url": "https://arxiv.org/abs/2611.11531",
+      "arxiv_url": "https://arxiv.org/abs/2611.11531",
+      "updated_at": "2026-11-08T00:00:00.000Z",
+      "author": "Ambroise Odonnat, Theo Gnassounou, Laetitia Chapel, Romain Tavenard, Ievgen Redko",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.11531",
+      "arxiv_id": "2611.11531",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.11531",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.11306",
+      "name": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+      "title": "论文｜ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+      "origin_title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping」。AI 摘要：AI agents deployed on the open web are becoming more capable of performing actions that may breach contractual provisions and violate computer security laws. In this paper, we introduce ScrapeBench, the first agentic benchmark for empirically evaluating the legal compliance of AI agents with website scraping policies, namely terms of service (ToS) and robots.txt directives. Across widely used clos",
+      "url": "https://arxiv.org/abs/2611.11306",
+      "arxiv_url": "https://arxiv.org/abs/2611.11306",
+      "updated_at": "2026-11-10T00:00:00.000Z",
+      "author": "Joseph Marvin Imperial, Daniel Slate, Noam Kolt",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.11306",
+      "arxiv_id": "2611.11306",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.11306",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.13766",
+      "name": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "title": "论文｜FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "origin_title": "FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「FAME-QP: A GPU-Accelerated Quadratic-Programming Solver for Real-Time Model Predictive Control」。AI 摘要：We present FAME-QP, a GPU-accelerated solver for dense quadratic programs arising in linear model predictive control. FAME-QP combines constraint-dependent operator representations with fused single- and two-kernel iterations replayed through CUDA graphs, automatically selecting the execution configuration through device calibration and problem-specific timing. It probes a cached operator bank to ",
+      "url": "https://arxiv.org/abs/2611.13766",
+      "arxiv_url": "https://arxiv.org/abs/2611.13766",
+      "updated_at": "2026-11-10T00:00:00.000Z",
+      "author": "Santosh Mohan Rajkumar, Debdipta Goswami, Stephanie Stockar",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.13766",
+      "arxiv_id": "2611.13766",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.13766",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.12304",
+      "name": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "title": "论文｜Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "origin_title": "Evolving Infra: Agent-Adaptive LLM Serving at Scale",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Evolving Infra: Agent-Adaptive LLM Serving at Scale」。AI 摘要：Agentic workloads are a major source of LLM inference demand. Existing prefill--decode (PD) disaggregated serving systems offer limited flexibility for runtime adaptation of compute allocation and KV cache management, and rely on coarse signals that only partly capture the diverse and dynamic agent workload. These limitations lead to load imbalance between prefill and decode nodes and eviction of ",
+      "url": "https://arxiv.org/abs/2611.12304",
+      "arxiv_url": "https://arxiv.org/abs/2611.12304",
+      "updated_at": "2026-11-09T00:00:00.000Z",
+      "author": "Hao Kang, Weili Xu, Ziyang Li, Zheng Du, Hanchen Li, Tian Xia",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.12304",
+      "arxiv_id": "2611.12304",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.12304",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.05862",
+      "name": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "title": "论文｜CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "origin_title": "CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「CARTBench: Rubric-Based Evaluation of Shopping Advice for Complex and Ambiguous Requests with Timelines」。AI 摘要：Large language model (LLM) shopping assistants now recommend products in multi-turn conversations. However, reliable evaluation faces Data scarcity and Difficulty Standardizing Criteria. To address these obstacles, we introduce CARTBench for CART (Complex and Ambiguous Requests with Timelines). For Data scarcity, we curate cases from real commercial shopping needs across 17 retail domains, pairing",
+      "url": "https://arxiv.org/abs/2611.05862",
+      "arxiv_url": "https://arxiv.org/abs/2611.05862",
+      "updated_at": "2026-11-04T00:00:00.000Z",
+      "author": "Yuqin Dai, Zhanwei Zhang, Honghui Yang, Zhouheng Yao, Yueqi Zhang, Jingyu He",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.05862",
+      "arxiv_id": "2611.05862",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.05862",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.12869",
+      "name": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+      "title": "论文｜Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+      "origin_title": "Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Where Does Alignment Emerge and What Does It Mean? A Closer Look at the Platonic Representation Hypothesis」。AI 摘要：Cross-modal representational alignment between unimodal language and vision models increases with model capability when captions are clean and informative, but remains below same-modality alignment and can exceed explicitly aligned vision-language models.",
+      "url": "https://arxiv.org/abs/2611.12869",
+      "arxiv_url": "https://arxiv.org/abs/2611.12869",
+      "updated_at": "2026-11-09T18:53:57.000Z",
+      "author": "Julia Herbst, Simon Roschmann, Quentin Bouniot, Zeynep Akata",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.12869",
+      "arxiv_id": "2611.12869",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.12869",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "hf-2611.14418",
+      "name": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "title": "论文｜Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "origin_title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "summary": "来源：Hugging Face Daily Papers（社区投票）。原题「Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model」。AI 摘要：A dynamic weight precision allocation strategy is proposed, utilizing low-bit quantization and uncertainty-based gating to selectively upgrade weight precision during LLM generation, thereby optimizing computational cost.",
+      "url": "https://arxiv.org/abs/2611.14418",
+      "arxiv_url": "https://arxiv.org/abs/2611.14418",
+      "updated_at": "2026-11-10T00:00:00.000Z",
+      "author": "Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri",
+      "category": "HF Daily Papers",
+      "contexts": {
+        "topics": [
+          "huggingface",
+          "daily-papers"
+        ]
+      },
+      "hook": "HF 日更论文 · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本/社区摘要，请点原文核实。",
+      "source": "Hugging Face",
+      "paper_id": "2611.14418",
+      "arxiv_id": "2611.14418",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.14418",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17323",
+      "name": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "title": "论文｜AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "origin_title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "summary": "来源：arXiv cs.AI。原题「AgentSSL: Can MLE Agents Leverage Unlabeled Data?」。英文摘要：Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we i…",
+      "url": "https://arxiv.org/abs/2611.17323",
+      "arxiv_url": "https://arxiv.org/abs/2611.17323",
+      "updated_at": "2026-11-12T18:59:06Z",
+      "author": "Ethan Lin, Akanksha Sarkar, Ziang Liu, Kristin Branson, Jennifer J. Sun",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17323",
+      "arxiv_id": "2611.17323",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17323",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17316",
+      "name": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "title": "论文｜CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "origin_title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "summary": "来源：arXiv cs.AI。原题「CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation」。英文摘要：Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds. We introduce Coding-Repository Memory (CoReMem)…",
+      "url": "https://arxiv.org/abs/2611.17316",
+      "arxiv_url": "https://arxiv.org/abs/2611.17316",
+      "updated_at": "2026-11-12T18:58:22Z",
+      "author": "Peiwen Li, Harshit Verma, Sophia Zhou, Haiwen Wang, Ngoc Bui, Heng Chang",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17316",
+      "arxiv_id": "2611.17316",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17316",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17313",
+      "name": "Sketching Language Models for Context Attribution",
+      "title": "论文｜Sketching Language Models for Context Attribution",
+      "origin_title": "Sketching Language Models for Context Attribution",
+      "summary": "来源：arXiv cs.AI。原题「Sketching Language Models for Context Attribution」。英文摘要：Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\\varepsilon$ with constant probability using $…",
+      "url": "https://arxiv.org/abs/2611.17313",
+      "arxiv_url": "https://arxiv.org/abs/2611.17313",
+      "updated_at": "2026-11-12T18:57:48Z",
+      "author": "Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Felix Zhou",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17313",
+      "arxiv_id": "2611.17313",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17313",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17309",
+      "name": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "title": "论文｜Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "origin_title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "summary": "来源：arXiv cs.AI。原题「Classical Energies Learn to Reason 1,000x Faster than Looped Models」。英文摘要：Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem d…",
+      "url": "https://arxiv.org/abs/2611.17309",
+      "arxiv_url": "https://arxiv.org/abs/2611.17309",
+      "updated_at": "2026-11-12T18:56:56Z",
+      "author": "Benjamin Hoover, Hugh Blayney, James C. R. Whittington",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17309",
+      "arxiv_id": "2611.17309",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17309",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17298",
+      "name": "Consistent Video-to-Video Translation via Explicit Correspondences",
+      "title": "论文｜Consistent Video-to-Video Translation via Explicit Correspondences",
+      "origin_title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+      "summary": "来源：arXiv cs.AI。原题「Consistent Video-to-Video Translation via Explicit Correspondences」。英文摘要：Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency whenever relevant history falls outside the context window. To address this limitation, we introduce vid2vid-long, a correspondence-based approach gr…",
+      "url": "https://arxiv.org/abs/2611.17298",
+      "arxiv_url": "https://arxiv.org/abs/2611.17298",
+      "updated_at": "2026-11-12T18:55:09Z",
+      "author": "Gaurav Parmar, Zhengqi Li, Richard Zhang, Jun-Yan Zhu, Srinivasa Narasimhan, Eli Shechtman",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17298",
+      "arxiv_id": "2611.17298",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17298",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17297",
+      "name": "Goal Encoding in LLMs",
+      "title": "论文｜Goal Encoding in LLMs",
+      "origin_title": "Goal Encoding in LLMs",
+      "summary": "来源：arXiv cs.AI。原题「Goal Encoding in LLMs」。英文摘要：We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the…",
+      "url": "https://arxiv.org/abs/2611.17297",
+      "arxiv_url": "https://arxiv.org/abs/2611.17297",
+      "updated_at": "2026-11-12T18:55:06Z",
+      "author": "Arnab Sen Sharma, Eric Todd, Sheridan Feucht, Andy Arditi, Rohit Gandikota, Natalie Shapira",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17297",
+      "arxiv_id": "2611.17297",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17297",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17294",
+      "name": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "title": "论文｜Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "origin_title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "summary": "来源：arXiv cs.AI。原题「Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon」。英文摘要：On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and GPU execution, leaving GPU capacity idle for much of a rollout. We present Metal Sandbox, infrastruc…",
+      "url": "https://arxiv.org/abs/2611.17294",
+      "arxiv_url": "https://arxiv.org/abs/2611.17294",
+      "updated_at": "2026-11-12T18:54:42Z",
+      "author": "Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang, Zheng Ge",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17294",
+      "arxiv_id": "2611.17294",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17294",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17280",
+      "name": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "title": "论文｜Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "origin_title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "summary": "来源：arXiv cs.AI。原题「Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs」。英文摘要：We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through o…",
+      "url": "https://arxiv.org/abs/2611.17280",
+      "arxiv_url": "https://arxiv.org/abs/2611.17280",
+      "updated_at": "2026-11-12T18:51:05Z",
+      "author": "Gautam Galada, Supreeth Shastri, Sagnik Ray Choudhury",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17280",
+      "arxiv_id": "2611.17280",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17280",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17267",
+      "name": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "title": "论文｜LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "origin_title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "summary": "来源：arXiv cs.AI。原题「LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds」。英文摘要：We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world …",
+      "url": "https://arxiv.org/abs/2611.17267",
+      "arxiv_url": "https://arxiv.org/abs/2611.17267",
+      "updated_at": "2026-11-12T18:45:58Z",
+      "author": "Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, Shengqiong Wu",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17267",
+      "arxiv_id": "2611.17267",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17267",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17241",
+      "name": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "title": "论文｜Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "origin_title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "summary": "来源：arXiv cs.AI。原题「Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery」。英文摘要：Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consisten…",
+      "url": "https://arxiv.org/abs/2611.17241",
+      "arxiv_url": "https://arxiv.org/abs/2611.17241",
+      "updated_at": "2026-11-12T18:28:08Z",
+      "author": "Samidha Verma, Ankit Anand, Sayan Ranu",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17241",
+      "arxiv_id": "2611.17241",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17241",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17239",
+      "name": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "title": "论文｜When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "origin_title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "summary": "来源：arXiv cs.AI。原题「When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems」。英文摘要：In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated. We study the implications of this user adaptivity and prompt endogeneity for the evaluation of LLMs…",
+      "url": "https://arxiv.org/abs/2611.17239",
+      "arxiv_url": "https://arxiv.org/abs/2611.17239",
+      "updated_at": "2026-11-12T18:26:51Z",
+      "author": "Hannah Li",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17239",
+      "arxiv_id": "2611.17239",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17239",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17235",
+      "name": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+      "title": "论文｜Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+      "origin_title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+      "summary": "来源：arXiv cs.AI。原题「Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models」。英文摘要：This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Auto…",
+      "url": "https://arxiv.org/abs/2611.17235",
+      "arxiv_url": "https://arxiv.org/abs/2611.17235",
+      "updated_at": "2026-11-12T18:23:56Z",
+      "author": "Elnaserledinellah Mahmoud Abdelwahab",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17235",
+      "arxiv_id": "2611.17235",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17235",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17220",
+      "name": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+      "title": "论文｜Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+      "origin_title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+      "summary": "来源：arXiv cs.AI。原题「Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline」。英文摘要：Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make …",
+      "url": "https://arxiv.org/abs/2611.17220",
+      "arxiv_url": "https://arxiv.org/abs/2611.17220",
+      "updated_at": "2026-11-12T18:16:37Z",
+      "author": "Geoffrey Challen, Craig Zilles",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17220",
+      "arxiv_id": "2611.17220",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17220",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17214",
+      "name": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+      "title": "论文｜Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+      "origin_title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+      "summary": "来源：arXiv cs.AI。原题「Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs」。英文摘要：We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\\tilde O(HS\\sqrt{AK})$, whose $\\sqrt S$ gap to the $Ω(H\\sqrt{SAK})$ lower bound has long remained open. In linear AMDPs with $d$-dimensional features, after a five-y…",
+      "url": "https://arxiv.org/abs/2611.17214",
+      "arxiv_url": "https://arxiv.org/abs/2611.17214",
+      "updated_at": "2026-11-12T18:10:46Z",
+      "author": "Aarush Kulkarni, Khang Nguyen, William Chang, Yan Dai",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17214",
+      "arxiv_id": "2611.17214",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17214",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17199",
+      "name": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+      "title": "论文｜MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+      "origin_title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+      "summary": "来源：arXiv cs.AI。原题「MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI」。英文摘要：Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inv…",
+      "url": "https://arxiv.org/abs/2611.17199",
+      "arxiv_url": "https://arxiv.org/abs/2611.17199",
+      "updated_at": "2026-11-12T18:02:53Z",
+      "author": "Soumi Sarkar, Subhadip Boral, Sarbani Palit, Ashish Ghosh",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17199",
+      "arxiv_id": "2611.17199",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17199",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17186",
+      "name": "Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+      "title": "论文｜Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+      "origin_title": "Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+      "summary": "来源：arXiv cs.AI。原题「Cortex-FL: Agent-Mediated Collaboration for Federated Learning」。英文摘要：Federated learning (FL) enables independent data owners to train models collaboratively without centralizing raw data. However, identifying collaborators, preparing training tasks, and coordinating execution and incentives hinder its practical adoption by organizations without specialized expertise. We present Cortex-FL, an agent-native FL system that enables users to express learning objectives i…",
+      "url": "https://arxiv.org/abs/2611.17186",
+      "arxiv_url": "https://arxiv.org/abs/2611.17186",
+      "updated_at": "2026-11-12T17:52:51Z",
+      "author": "Rui Sun, Jinfeng Peng, Zehua Cheng, Jiahao Sun, Zhipeng Wang",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17186",
+      "arxiv_id": "2611.17186",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17186",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17161",
+      "name": "Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+      "title": "论文｜Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+      "origin_title": "Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+      "summary": "来源：arXiv cs.AI。原题「Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation」。英文摘要：Retrieval-augmented generation systems attach citations to attribute claims to their sources. These citations frequently misstate provenance, and standard verification cannot detect this. We measure provenance by counterfactual value substitution: a fact in the retrieved passages is replaced with a false variant and the model re-queried. We find that across five sizes of one model family and a sec…",
+      "url": "https://arxiv.org/abs/2611.17161",
+      "arxiv_url": "https://arxiv.org/abs/2611.17161",
+      "updated_at": "2026-11-12T17:39:14Z",
+      "author": "Tanzeel Abbas, Tehseen Zia, David Windridge",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17161",
+      "arxiv_id": "2611.17161",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17161",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17128",
+      "name": "Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models",
+      "title": "论文｜Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models",
+      "origin_title": "Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models",
+      "summary": "来源：arXiv cs.AI。原题「Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models」。英文摘要：Smaller language models (SLMs) make it feasible to deploy clinical natural language processing where large proprietary models are too costly, and parameter-efficient fine-tuning allows them to be specialised on commodity hardware. One obstacle persists after training: on medical tasks these models answer at far greater length than the clinical question requires. In clinical decision support and po…",
+      "url": "https://arxiv.org/abs/2611.17128",
+      "arxiv_url": "https://arxiv.org/abs/2611.17128",
+      "updated_at": "2026-11-12T17:21:12Z",
+      "author": "Tanzeel Abbas, Ahmad Kamran Malik, Nafees Qamar, Sana Liaqat",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17128",
+      "arxiv_id": "2611.17128",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17128",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17115",
+      "name": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "title": "论文｜CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "origin_title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "summary": "来源：arXiv cs.AI。原题「CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts」。英文摘要：Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy, a dependency graph or a constraint list) that code then enforces. We ask whether small language model (SLM) agents can be trusted to write these artifacts. Across 15 open-weight models, 13 of them between 1.7B and 12B para…",
+      "url": "https://arxiv.org/abs/2611.17115",
+      "arxiv_url": "https://arxiv.org/abs/2611.17115",
+      "updated_at": "2026-11-12T17:07:22Z",
+      "author": "Zimo Xu, Wenzhuo Liu, Hideki Nakayama",
+      "category": "cs.AI",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.AI"
+        ]
+      },
+      "hook": "arXiv cs.AI · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17115",
+      "arxiv_id": "2611.17115",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17115",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17332",
+      "name": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "title": "论文｜ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "origin_title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "summary": "来源：arXiv cs.LG。原题「ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research」。英文摘要：Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In academia, limited compute and inconsistent…",
+      "url": "https://arxiv.org/abs/2611.17332",
+      "arxiv_url": "https://arxiv.org/abs/2611.17332",
+      "updated_at": "2026-11-12T18:59:52Z",
+      "author": "Jie Wang, Tong Zhu, JiaHao Kuang, Zhe Xu, Yunkai Chai, Dehong Zheng",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17332",
+      "arxiv_id": "2611.17332",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17332",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17329",
+      "name": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "title": "论文｜Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "origin_title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "summary": "来源：arXiv cs.LG。原题「Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation」。英文摘要：Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gr…",
+      "url": "https://arxiv.org/abs/2611.17329",
+      "arxiv_url": "https://arxiv.org/abs/2611.17329",
+      "updated_at": "2026-11-12T18:59:37Z",
+      "author": "Zeynep Yıldız, Satchit Chatterji, Ercan Atam, Erman Acar",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17329",
+      "arxiv_id": "2611.17329",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17329",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17314",
+      "name": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "title": "论文｜Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "origin_title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "summary": "来源：arXiv cs.LG。原题「Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces」。英文摘要：Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to many related functions to facilitate its subsequent learning of similar functions. Pri…",
+      "url": "https://arxiv.org/abs/2611.17314",
+      "arxiv_url": "https://arxiv.org/abs/2611.17314",
+      "updated_at": "2026-11-12T18:57:49Z",
+      "author": "Abigail L. Tenenbaum, R. Thomas McCoy",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17314",
+      "arxiv_id": "2611.17314",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17314",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17308",
+      "name": "Quantifying structural stability of transparent models for general insurance pricing",
+      "title": "论文｜Quantifying structural stability of transparent models for general insurance pricing",
+      "origin_title": "Quantifying structural stability of transparent models for general insurance pricing",
+      "summary": "来源：arXiv cs.LG。原题「Quantifying structural stability of transparent models for general insurance pricing」。英文摘要：The short duration of general insurance contracts leads to rapid distributional shifts in the data, warranting regular model updates. This process may yield a post-update model that differs considerably from the pre-update model in both predictions and structure. Structural stability is upstream of predictive stability, yet existing structural stability metrics are mostly restricted to simple deci…",
+      "url": "https://arxiv.org/abs/2611.17308",
+      "arxiv_url": "https://arxiv.org/abs/2611.17308",
+      "updated_at": "2026-11-12T18:56:54Z",
+      "author": "Félix Côté, Marie-Pier Côté",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17308",
+      "arxiv_id": "2611.17308",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17308",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17303",
+      "name": "Towards a Theory of Learnability via Debate",
+      "title": "论文｜Towards a Theory of Learnability via Debate",
+      "origin_title": "Towards a Theory of Learnability via Debate",
+      "summary": "来源：arXiv cs.LG。原题「Towards a Theory of Learnability via Debate」。英文摘要：Debate has been recently proposed as a training protocol that is hoped to produce more aligned models even as model capabilities scale. The idea is that the human, instead of providing supervision in the form of labels, judges a debate between two models that compete to prove the correctness of opposite labels. It can be shown that functions of a much higher computational complexity can be correct…",
+      "url": "https://arxiv.org/abs/2611.17303",
+      "arxiv_url": "https://arxiv.org/abs/2611.17303",
+      "updated_at": "2026-11-12T18:55:58Z",
+      "author": "Tosca Lechner, Vinayak Pathak, Sivan Sabato, Ruth Urner",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17303",
+      "arxiv_id": "2611.17303",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17303",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17302",
+      "name": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "title": "论文｜FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "origin_title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "summary": "来源：arXiv cs.LG。原题「FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification」。英文摘要：Local Binary Patterns (LBP) remain among the most widely used texture descriptors, from industrial inspection to medical imaging. Yet their radius, sampling angles, color transform and thresholds are fixed by hand for each dataset. We present FLEX-LBP, which learns these parameters by backpropagation while every forward pass computes exact binary codes and hard histogram counts. A straight-through…",
+      "url": "https://arxiv.org/abs/2611.17302",
+      "arxiv_url": "https://arxiv.org/abs/2611.17302",
+      "updated_at": "2026-11-12T18:55:56Z",
+      "author": "Mohamed Alimoussa, Amal El Kaid",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17302",
+      "arxiv_id": "2611.17302",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17302",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17287",
+      "name": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "title": "论文｜Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "origin_title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "summary": "来源：arXiv cs.LG。原题「Negative-Only Policy Optimization for One-Sided Verifiable Rewards」。英文摘要：Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified …",
+      "url": "https://arxiv.org/abs/2611.17287",
+      "arxiv_url": "https://arxiv.org/abs/2611.17287",
+      "updated_at": "2026-11-12T18:52:33Z",
+      "author": "Jiacheng Xu, Shuo He, Fuxiang Zhang, Chaojie Wang, Bo An",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17287",
+      "arxiv_id": "2611.17287",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17287",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17246",
+      "name": "Programming Quantum Circuit Parameters with Large Language Models",
+      "title": "论文｜Programming Quantum Circuit Parameters with Large Language Models",
+      "origin_title": "Programming Quantum Circuit Parameters with Large Language Models",
+      "summary": "来源：arXiv cs.LG。原题「Programming Quantum Circuit Parameters with Large Language Models」。英文摘要：Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization. However, the conditions under which this approach is effective remain unclear. Here, we investigate a frozen, general-purpose LLM that generates complete circuit parameter vectors from symbolic circuit and Hamiltonian descriptions, with opti…",
+      "url": "https://arxiv.org/abs/2611.17246",
+      "arxiv_url": "https://arxiv.org/abs/2611.17246",
+      "updated_at": "2026-11-12T18:34:23Z",
+      "author": "Tiago de Souza Farias, Caio Moraes Porto, Matheus da Silva Fonseca, Nicolas Armando Cabrera Carpi, Anderson de Araujo Oliveira, Celso Jorge Villas-Boas",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17246",
+      "arxiv_id": "2611.17246",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17246",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17230",
+      "name": "Two mathematical models of knowledge distillation",
+      "title": "论文｜Two mathematical models of knowledge distillation",
+      "origin_title": "Two mathematical models of knowledge distillation",
+      "summary": "来源：arXiv cs.LG。原题「Two mathematical models of knowledge distillation」。英文摘要：Many hypotheses compete to explain the successes of knowledge distillation. To help address this, we propose and analyze a mathematical model of distillation, which suggests that distillation's performance comes not from obtaining better models but from easier to optimize landscapes. For generalized linear models trained with stochastic gradient descent, we prove that distillation fits performant …",
+      "url": "https://arxiv.org/abs/2611.17230",
+      "arxiv_url": "https://arxiv.org/abs/2611.17230",
+      "updated_at": "2026-11-12T18:21:37Z",
+      "author": "Audrey Xie, Ludwig Schmidt, John Duchi",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17230",
+      "arxiv_id": "2611.17230",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17230",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17228",
+      "name": "Linear Regression with Self-Selection Bias in Polynomial Time",
+      "title": "论文｜Linear Regression with Self-Selection Bias in Polynomial Time",
+      "origin_title": "Linear Regression with Self-Selection Bias in Polynomial Time",
+      "summary": "来源：arXiv cs.LG。原题「Linear Regression with Self-Selection Bias in Polynomial Time」。英文摘要：We revisit the problem of estimating $k$ linear regressors with self-selection bias in $n$ dimensions up to error $\\varepsilon$ with the maximum self-selection criterion, as introduced by Cherapanamjeri, Daskalakis, Ilyas, and Zampetakis [CDIZ23, STOC]. Our main result is a $\\mathrm{poly}(n,k,1/\\varepsilon)$ time algorithm for the unknown-index variant of this problem, thereby improving upon the r…",
+      "url": "https://arxiv.org/abs/2611.17228",
+      "arxiv_url": "https://arxiv.org/abs/2611.17228",
+      "updated_at": "2026-11-12T18:21:11Z",
+      "author": "Felix Zhou",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17228",
+      "arxiv_id": "2611.17228",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17228",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17226",
+      "name": "Sheaf-Inspired Structured Scoring Extensions of LightGCN for Collaborative Filtering",
+      "title": "论文｜Sheaf-Inspired Structured Scoring Extensions of LightGCN for Collaborative Filtering",
+      "origin_title": "Sheaf-Inspired Structured Scoring Extensions of LightGCN for Collaborative Filtering",
+      "summary": "来源：arXiv cs.LG。原题「Sheaf-Inspired Structured Scoring Extensions of LightGCN for Collaborative Filtering」。英文摘要：Graph-based collaborative filtering learns user and item representations by propagating embeddings over a user--item interaction graph. We investigate a modular, sheaf-inspired scoring extension placed on top of a three-layer LightGCN backbone. The motivation comes from cellular sheaves, where local vector spaces are related by linear restriction maps; here, this idea motivates structured, pair-de…",
+      "url": "https://arxiv.org/abs/2611.17226",
+      "arxiv_url": "https://arxiv.org/abs/2611.17226",
+      "updated_at": "2026-11-12T18:20:22Z",
+      "author": "Ksenia Belkovskaya, Timur Lidzhiev, Maria Stebliy, Alexander Tarakanov",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17226",
+      "arxiv_id": "2611.17226",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17226",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17225",
+      "name": "Data Archive for 2D and 3D Electrical Impedance Tomography with moderate conductivity contrast phantoms",
+      "title": "论文｜Data Archive for 2D and 3D Electrical Impedance Tomography with moderate conductivity contrast phantoms",
+      "origin_title": "Data Archive for 2D and 3D Electrical Impedance Tomography with moderate conductivity contrast phantoms",
+      "summary": "来源：arXiv cs.LG。原题「Data Archive for 2D and 3D Electrical Impedance Tomography with moderate conductivity contrast phantoms」。英文摘要：This document describes open Electrical Impedance Tomography (EIT) measurement data that were collected from biomedical imaging inspired phantoms with moderate conductivity contrasts. The data were collected with the KIT4 and KIT5 EIT measurement devices at the University of Eastern Finland, and are intended for EIT image reconstruction algorithm development and testing. The data from thoracic ima…",
+      "url": "https://arxiv.org/abs/2611.17225",
+      "arxiv_url": "https://arxiv.org/abs/2611.17225",
+      "updated_at": "2026-11-12T18:19:41Z",
+      "author": "S. J. Hamilton, A. Hauptmann, A. Hänninen, V. Kolehmainen, J. Niskanen, T. Savolainen",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17225",
+      "arxiv_id": "2611.17225",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17225",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17223",
+      "name": "Combinatorial Bernoulli Factories with Polynomially Many Coins",
+      "title": "论文｜Combinatorial Bernoulli Factories with Polynomially Many Coins",
+      "origin_title": "Combinatorial Bernoulli Factories with Polynomially Many Coins",
+      "summary": "来源：arXiv cs.LG。原题「Combinatorial Bernoulli Factories with Polynomially Many Coins」。英文摘要：We provide an efficient implementation of combinatorial Bernoulli factories. Such a factory turns coins of unknown biases $x$ into a random vertex of a polytope $P$ whose mean is exactly $x$. For every affine slice of the cube (the class of polytopes that admit a factory), we give a single algorithm whose expected number of coin flips and running time at every interior $x$ are polynomial in the di…",
+      "url": "https://arxiv.org/abs/2611.17223",
+      "arxiv_url": "https://arxiv.org/abs/2611.17223",
+      "updated_at": "2026-11-12T18:19:37Z",
+      "author": "Renato Paes Leme, Rad Niazadeh",
+      "category": "cs.LG",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.LG"
+        ]
+      },
+      "hook": "arXiv cs.LG · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17223",
+      "arxiv_id": "2611.17223",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17223",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17320",
+      "name": "Learning When Diffusion Language Models Should Regenerate",
+      "title": "论文｜Learning When Diffusion Language Models Should Regenerate",
+      "origin_title": "Learning When Diffusion Language Models Should Regenerate",
+      "summary": "来源：arXiv cs.CL。原题「Learning When Diffusion Language Models Should Regenerate」。英文摘要：Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. These findings motivate DiVR , a ve…",
+      "url": "https://arxiv.org/abs/2611.17320",
+      "arxiv_url": "https://arxiv.org/abs/2611.17320",
+      "updated_at": "2026-11-12T18:58:50Z",
+      "author": "Minhae Oh, Jeonghye Kim, Jinwoo Koo, Yeongoon Kim, Jimin Seo, Minsik Seol",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17320",
+      "arxiv_id": "2611.17320",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17320",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17191",
+      "name": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+      "title": "论文｜Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+      "origin_title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+      "summary": "来源：arXiv cs.CL。原题「Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off」。英文摘要：Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs. In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings. We identify a potential contributor: LoRA adapters, especially high-rank ones, frequently fail to realize the available capac…",
+      "url": "https://arxiv.org/abs/2611.17191",
+      "arxiv_url": "https://arxiv.org/abs/2611.17191",
+      "updated_at": "2026-11-12T17:55:33Z",
+      "author": "Tomohiro Sawada, Kartik Goyal",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17191",
+      "arxiv_id": "2611.17191",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17191",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17169",
+      "name": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "title": "论文｜Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "origin_title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "summary": "来源：arXiv cs.CL。原题「Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing」。英文摘要：A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order,…",
+      "url": "https://arxiv.org/abs/2611.17169",
+      "arxiv_url": "https://arxiv.org/abs/2611.17169",
+      "updated_at": "2026-11-12T17:43:44Z",
+      "author": "Umar Ahmed, Maxim Dunaev, Mohammad Nour Al Awad, Sergey Ivanov, Ivan Khodnenko",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17169",
+      "arxiv_id": "2611.17169",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17169",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17108",
+      "name": "LazyWeights: Decode-on-Demand Edge LLMs",
+      "title": "论文｜LazyWeights: Decode-on-Demand Edge LLMs",
+      "origin_title": "LazyWeights: Decode-on-Demand Edge LLMs",
+      "summary": "来源：arXiv cs.CL。原题「LazyWeights: Decode-on-Demand Edge LLMs」。英文摘要：Memory decides which LLMs an edge device runs, and how fast: capacity on a $4$ GB Jetson Nano, bandwidth on an $8$ GB Jetson Orin Nano Super. Deployed formats (GPTQ, AWQ, $\\texttt{llama.cpp}$'s K- and I-quants) spend equal bits on every integer code of a matrix, although the codes are far from uniform. $\\texttt{LazyWeights}$ keeps these formats but tunes GPTQ so the codes compress, Huffman-codes t…",
+      "url": "https://arxiv.org/abs/2611.17108",
+      "arxiv_url": "https://arxiv.org/abs/2611.17108",
+      "updated_at": "2026-11-12T17:03:40Z",
+      "author": "Arnab Sanyal, Gourav Datta, Sandeep P. Chinchali",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17108",
+      "arxiv_id": "2611.17108",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17108",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17107",
+      "name": "Disentangling Spurious Correlations: How IRM Handles Diverse Shortcuts in Text Classification",
+      "title": "论文｜Disentangling Spurious Correlations: How IRM Handles Diverse Shortcuts in Text Classification",
+      "origin_title": "Disentangling Spurious Correlations: How IRM Handles Diverse Shortcuts in Text Classification",
+      "summary": "来源：arXiv cs.CL。原题「Disentangling Spurious Correlations: How IRM Handles Diverse Shortcuts in Text Classification」。英文摘要：In NLP, models trained via Empirical Risk Minimization (ERM) often exploit spurious correlations, such as dialectal markers, at the expense of robust linguistic features, thereby degrading their out-of-distribution (OOD) generalization. Invariant Risk Minimization (IRM) aims to suppress such shortcuts by identifying predictive relationships that remain stable across environments, but its practical…",
+      "url": "https://arxiv.org/abs/2611.17107",
+      "arxiv_url": "https://arxiv.org/abs/2611.17107",
+      "updated_at": "2026-11-12T17:03:05Z",
+      "author": "Paul Grunenwald, Benoît Crabbé, Guillaume Wisniewski, Pirmin Lemberger",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17107",
+      "arxiv_id": "2611.17107",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17107",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17091",
+      "name": "Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography",
+      "title": "论文｜Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography",
+      "origin_title": "Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography",
+      "summary": "来源：arXiv cs.CL。原题「Optimal Single-History Tokenization Disambiguation for Provably Secure Linguistic Steganography」。英文摘要：Provably secure linguistic steganography assumes that the receiver recovers the sender's tokens, but a text channel delivers only text, and ambiguous tokenizations break extraction. Existing fixes change the distribution, synchronize whole pools of tokens at a capacity that collapses with large vocabularies, or track several token histories. We prove that if extraction is exact and error-free acro…",
+      "url": "https://arxiv.org/abs/2611.17091",
+      "arxiv_url": "https://arxiv.org/abs/2611.17091",
+      "updated_at": "2026-11-12T16:54:18Z",
+      "author": "Feng Jiang",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17091",
+      "arxiv_id": "2611.17091",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17091",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17072",
+      "name": "Reasoning Supervision and Capability Retention in LoRA Domain Adaptation",
+      "title": "论文｜Reasoning Supervision and Capability Retention in LoRA Domain Adaptation",
+      "origin_title": "Reasoning Supervision and Capability Retention in LoRA Domain Adaptation",
+      "summary": "来源：arXiv cs.CL。原题「Reasoning Supervision and Capability Retention in LoRA Domain Adaptation」。英文摘要：Fine-tuning foundation models on financial data has a wide range of applications, including identifying event types from news, monitoring risk and compliance language, and answering questions over filings and earnings calls. In this setting, the main challenge is to improve task performance without degrading the generalization capabilities of the model. In this paper, we present an extensive set o…",
+      "url": "https://arxiv.org/abs/2611.17072",
+      "arxiv_url": "https://arxiv.org/abs/2611.17072",
+      "updated_at": "2026-11-12T16:45:12Z",
+      "author": "Saleh Ashkboos, Dhruv Desai, Lavinia Ghita",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17072",
+      "arxiv_id": "2611.17072",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17072",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17068",
+      "name": "Discovering Effective Agent Memory Designs through Program Evolution",
+      "title": "论文｜Discovering Effective Agent Memory Designs through Program Evolution",
+      "origin_title": "Discovering Effective Agent Memory Designs through Program Evolution",
+      "summary": "来源：arXiv cs.CL。原题「Discovering Effective Agent Memory Designs through Program Evolution」。英文摘要：Program evolution provides a promising approach to discover agent memory designs and study the choices underlying their effectiveness. We introduce MAPE, a framework that evolves whole memory programs from minimal seeds through a standardized lifecycle interface and an iterative diagnosis-proposal loop. Experiments on LoCoMo and LongMemEval yield an absolute accuracy gain of up to 12% over manuall…",
+      "url": "https://arxiv.org/abs/2611.17068",
+      "arxiv_url": "https://arxiv.org/abs/2611.17068",
+      "updated_at": "2026-11-12T16:42:04Z",
+      "author": "Xinheng Ding, Seyyed Saeid Cheshmi, Ziyang Zhang, Tairan Chen, Wenya Xie, Yu Hou",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17068",
+      "arxiv_id": "2611.17068",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17068",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17053",
+      "name": "Evaluating Pretrained Language Semantics for Structured EHR Prediction Tasks",
+      "title": "论文｜Evaluating Pretrained Language Semantics for Structured EHR Prediction Tasks",
+      "origin_title": "Evaluating Pretrained Language Semantics for Structured EHR Prediction Tasks",
+      "summary": "来源：arXiv cs.CL。原题「Evaluating Pretrained Language Semantics for Structured EHR Prediction Tasks」。英文摘要：Structured Electronic Health Records (EHR) models typically treat each clinical concept as a dataset-specific token, discarding the natural-language semantics associated with the event. As a result, relationships between concepts must largely be learned from EHR co-occurrence, without directly exploiting any prior semantic knowledge. We investigate how pretrained causal language models can be adap…",
+      "url": "https://arxiv.org/abs/2611.17053",
+      "arxiv_url": "https://arxiv.org/abs/2611.17053",
+      "updated_at": "2026-11-12T16:34:49Z",
+      "author": "Ashvin Gupta, Brendan Delaney, Alessandra Russo",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17053",
+      "arxiv_id": "2611.17053",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17053",
+      "_channel": "papers",
+      "_pretranslated": true
+    },
+    {
+      "id": "arxiv-2611.17052",
+      "name": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+      "title": "论文｜Auditing AI peer reviewers: a benchmark on real scientific papers",
+      "origin_title": "Auditing AI peer reviewers: a benchmark on real scientific papers",
+      "summary": "来源：arXiv cs.CL。原题「Auditing AI peer reviewers: a benchmark on real scientific papers」。英文摘要：LLM-based peer review is now used at production scale, but its evaluation remains limited. We introduce a benchmark that injects objective, localisable errors of four types (general issues, mathematics, numerics, citations) at three severity levels into real papers and measures each reviewer's detection rate by error type and severity, together with its false-positive rate on clean copies. We also…",
+      "url": "https://arxiv.org/abs/2611.17052",
+      "arxiv_url": "https://arxiv.org/abs/2611.17052",
+      "updated_at": "2026-11-12T16:33:51Z",
+      "author": "Íñigo Zubeldia, Boris Bolliet, Francisco Villaescusa-Navarro, Pablo Villanueva-Domingo, Miles Cranmer",
+      "category": "cs.CL",
+      "contexts": {
+        "topics": [
+          "arxiv",
+          "cs.CL"
+        ]
+      },
+      "hook": "arXiv cs.CL · 可开 alphaXiv 讨论",
+      "disclaimer": "预印本，未经同行评审；请点原文核实。",
+      "source": "arXiv",
+      "paper_id": "2611.17052",
+      "arxiv_id": "2611.17052",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.17052",
+      "_channel": "papers",
+      "_pretranslated": true
+    }
+  ],
+  "meta": {
+    "hf": "https://huggingface.co/api/daily_papers",
+    "arxiv": "https://export.arxiv.org/api/query",
+    "alphaxiv_pattern": "https://www.alphaxiv.org/abs/<id>"
+  }
+}

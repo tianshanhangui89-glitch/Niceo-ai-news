@@ -1,0 +1,3681 @@
+{
+  "fetched_at": "2026-11-14T07:02:53+08:00",
+  "channel": "world",
+  "queries": [
+    "geopolitics OR election OR war OR tariff OR sanctions OR diplomacy",
+    "China US chip export OR Taiwan OR semiconductor policy",
+    "Fed OR inflation OR climate OR oil OR market OR recession news",
+    "Trump OR Putin OR Ukraine OR Middle East OR NATO news",
+    "时政 OR 外交 OR 白宫 OR 关税 OR 制裁 OR 选举"
+  ],
+  "data": [
+    {
+      "id": "2121375408176136593",
+      "name": "Andy Burnham Pushes EU Deals Rekindling Brexit Debate",
+      "summary": "Burnham aims to sign agreements ahead of a November 20 UK-EU summit that officials say could boost GDP by 0.4% through lower prices and economic gains, while staying outside the single market and customs union. Critics insist he lacks a mandate without a new election, arguing the 2016 referendum meant a clean break with no closer ties. Supporters point to Labour's manifesto promises for alignment and note shifting public views on Brexit's economic toll.",
+      "hook": "At a summit in Ireland, Prime Minister Andy Burnham called potential pacts on food, energy, and youth mobility the Brexit many voters had in mind back in 2016.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:58:09.000Z",
+      "url": "https://x.com/i/trending/2121375408176136593",
+      "contexts": {
+        "entities": {
+          "events": [
+            "2016 Brexit referendum"
+          ],
+          "organizations": [
+            "Labour Party",
+            "European Union"
+          ],
+          "people": [
+            "Andy Burnham"
+          ],
+          "places": [
+            "United Kingdom"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121242606592258522",
+      "name": "Treasury Secretary Blames Commerce for Nvidia Chip Export Delays",
+      "summary": "Bessent revealed that Treasury, Pentagon, State, and U.S. Trade Representative had urged adding Singapore-based Megaspeed—run by Alice Huang, a suspected Chinese intelligence asset—to the entity list for months, but Commerce holds the authority. Megaspeed bought over $4 billion in Nvidia AI chips, suspected of smuggling them to China, including banned H100 and H200 models that reached a Shanghai data center. The scandal escalated with Nvidia ousting CEO Jensen Huang over his affair with Alice Huang, prompting Bessent to demand Nvidia accountability for client vetting. Tensions rose with Senator Blumenthal calling for Commerce Secretary Howard Lutnick's removal amid conflict-of-interest concerns and enforcement failures on chip exports.",
+      "hook": "In a live CNBC interview, Treasury Secretary Scott Bessent pointed directly at the Commerce Department for stalling restrictions on Nvidia chip sales to a China-linked firm.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:58:08.000Z",
+      "url": "https://x.com/i/trending/2121242606592258522",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Department of Commerce",
+            "Department of the Treasury",
+            "Nvidia",
+            "Megaspeed",
+            "Department of State",
+            "Department of Defense",
+            "United States Trade Representative"
+          ],
+          "people": [
+            "Scott Bessent",
+            "Howard Lutnick",
+            "Jensen Huang",
+            "Alice Huang"
+          ],
+          "places": [
+            "Singapore",
+            "China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121180741333839974",
+      "name": "Trump Administration Suspends Major Tech Firms from Green Card Program",
+      "summary": "The Labor Department stopped new and pending PERM applications for Microsoft, Adobe, Cognizant, Tata Consultancy Services, Infosys, Wipro, HCL Technologies, and Capgemini in October, citing fraud investigations and U.S. worker displacement. Vice President JD Vance called out Microsoft for laying off thousands of Americans while relying heavily on H-1B visas and PERM certifications. Microsoft countered that most of its U.S. staff are American and recent filings mainly extend existing workers, while the outage stemmed from technical server issues. Supporters hail the 'America First' step as protecting jobs, as critics fear it hampers innovation by blocking specialized talent.",
+      "hook": "A major Microsoft outage hit this week, and some quickly linked it to the Trump administration's move to halt green card sponsorships for the company and others.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:57:19.000Z",
+      "url": "https://x.com/i/trending/2121180741333839974",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Microsoft Service Outages"
+          ],
+          "organizations": [
+            "U.S. Government",
+            "Capgemini",
+            "Infosys",
+            "Microsoft"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121372908467400850",
+      "name": "Critics Question Trump Team's Ukraine Peace Efforts",
+      "summary": "Steve Witkoff and Jared Kushner, Trump's key envoys for nearly two years, held talks with Putin after U.S.-mediated Russia-Ukraine discussions in Abu Dhabi that yielded a prisoner swap but no progress on territory or security. Critics including former Ambassador McFaul, analyst Anne Applebaum, and retired General Ben Hodges say the approach fails by pressuring Ukraine instead of Russia, prolonging the war now nearing its fifth year. Envoys call recent meetings constructive with plans for European involvement, but skeptics question their qualifications and motives tied to closer U.S.-Russia ties.",
+      "hook": "As shuttle diplomacy bounces from Abu Dhabi to Moscow and Dublin, voices like Michael McFaul argue negotiators have delivered no breakthroughs—just wider Russian demands and more civilian deaths.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:47:48.000Z",
+      "url": "https://x.com/i/trending/2121372908467400850",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Russia-Ukraine War"
+          ],
+          "organizations": [
+            "NATO"
+          ],
+          "people": [
+            "Michael McFaul",
+            "Steve Witkoff",
+            "Jared Kushner",
+            "Kallas"
+          ],
+          "places": [
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121372906378711098",
+      "name": "Trump to Host First-Ever Summit with Xi and Putin on Nuclear Arms",
+      "summary": "President Donald Trump will meet Chinese President Xi Jinping and Russian President Vladimir Putin next Thursday in Shenzhen, China, on the sidelines of the APEC conference. The talks center on nuclear arms control, with possible discussions on Ukraine, Iran, and North Korea. Trump has called such a meeting positive for the world, as these three nations hold most of the globe's nuclear weapons. White House officials aim for an ambitious arms control pact, though details await final confirmation.",
+      "hook": "For the first time, the leaders of the U.S., China, and Russia will sit down together. They'll tackle nuclear arms control amid global tensions.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:46:59.000Z",
+      "url": "https://x.com/i/trending/2121372906378711098",
+      "contexts": {
+        "entities": {
+          "events": [
+            "APEC conference",
+            "trilateral summit"
+          ],
+          "organizations": [
+            "APEC"
+          ],
+          "people": [
+            "Donald Trump",
+            "Xi Jinping",
+            "Vladimir Putin"
+          ],
+          "places": [
+            "Shenzhen, China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121370277858676919",
+      "name": "X Debate Questions Socialism's Historical Success Claims",
+      "summary": "One user asserted socialism boosted quality of life and equitably shared resources, but critics called it a lie, pointing to failed regimes and mass exodus from socialist nations to freer economies. Supporters countered that it ensures workers keep their labor's full value, rejecting 'free stuff' stereotypes. Threads highlighted China's poverty reduction after 1970s market reforms, plus data showing higher incomes and lifespans in economically freer places. The back-and-forth pits collective security against individual freedom, with the lion meme warning of caged comforts.",
+      "hook": "A bold post claimed socialism delivered homes, jobs, and equality by curbing the rich—sparking replies packed with counterexamples and that lion-in-a-cage meme.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:37:58.000Z",
+      "url": "https://x.com/i/trending/2121370277858676919",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [
+            "United States",
+            "Europe"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121370278877917293",
+      "name": "No Firm Evidence Alice Huang Spied for China, US Officials Say",
+      "summary": "Attorney General Todd Blanche stated on November 12 that the Justice Department has no conclusions on whether Alice Huang acted as a spy for Beijing, with the FBI still investigating. Intelligence sources told CNN the evidence does not prove she knowingly funneled information to China’s Ministry of State Security, and agencies like the CIA remain unconvinced. The case highlights divides in the administration over China tech threats, from espionage fears to routine business ties, amid ongoing probes into AI chip exports.",
+      "hook": "Jensen Huang stepped down as Nvidia CEO after admitting an affair with Chinese businesswoman Alice Huang. Now, top US officials are pushing back on spy allegations tied to her.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:37:54.000Z",
+      "url": "https://x.com/i/trending/2121370278877917293",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "U.S. intelligence",
+            "Justice Department",
+            "CNN"
+          ],
+          "people": [
+            "Alice Huang",
+            "Jensen Huang",
+            "Todd Blanche"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121300515418189941",
+      "name": "Trump Administration Directs Federal Agencies to Prioritize English in Operations",
+      "summary": "The Department of Justice guidance tells agencies to operate mainly in English for correspondence, regulations, websites, forms, notices, training, and AI, revoking a Clinton-era multilingual policy. Multilingual help is still allowed where law requires it or for missions like national security and health care, with English always the official version. Agencies like Housing and Urban Development have already removed non-English content, and supporters online call it common sense for unity and integration. A 60-day public comment period is open on the Federal Register.",
+      "hook": "Federal agencies are now instructed to make English their primary language for everything from websites to AI tools, following President Trump's executive order.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:37:54.000Z",
+      "url": "https://x.com/i/trending/2121300515418189941",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "U.S. Department of Justice",
+            "Housing and Urban Development",
+            "Homeland Security",
+            "Education",
+            "Treasury"
+          ],
+          "people": [
+            "Donald Trump"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121294822279430496",
+      "name": "Russia Proposes Sweeping Demands in Ukraine War Talks",
+      "summary": "The proposals, reported by Bild, call for Russia to keep occupied territories including all of Donbas, Ukraine to adopt permanent non-aligned status while allowing possible EU membership, and demilitarization of Odesa and Mykolaiv ports. They also seek no NATO bases in Estonia, Latvia, or Lithuania, Finland's NATO exit, and changes to Moldova's structure. In exchange, Russia offered to remove nuclear weapons from Belarus and withdraw troops from Transnistria. Finnish officials called the demands outrageous, the Kremlin denied them, and the ideas remain unconfirmed amid ongoing unofficial discussions.",
+      "hook": "Russian negotiators laid out bold conditions in Abu Dhabi talks, demanding Finland leave NATO and Ukraine stay out forever—ideas that stretch far beyond the battlefield.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:27:20.000Z",
+      "url": "https://x.com/i/trending/2121294822279430496",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Abu Dhabi Negotiations"
+          ],
+          "organizations": [
+            "NATO",
+            "Bild"
+          ],
+          "people": [
+            "Antti Häkkänen"
+          ],
+          "places": [
+            "Abu Dhabi",
+            "Finland",
+            "Estonia",
+            "Latvia",
+            "Lithuania",
+            "Odesa",
+            "Mykolaiv",
+            "Donbas",
+            "Moldova",
+            "Transnistria",
+            "Gagauzia",
+            "Belarus"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121327494901207377",
+      "name": "Kevin Hassett Expected to Leave White House Economic Role Soon",
+      "summary": "A Semafor report, citing three people familiar with his plans, says National Economic Council Director Hassett has been exploring outside roles even before Democrats retook Congress in the November 3 midterms. The White House spokesperson called the story baseless, and Hassett himself told CNBC it's 'not true,' with no official announcement yet. Possible successors include Treasury Secretary Scott Bessent or his counselor David Zervos, amid recent staffing shifts like deputy Ryan Baasch's September departure. Social media reactions split between celebrations of the rumored exit and speculation on what comes next for the economic team.",
+      "hook": "Kevin Hassett, Trump's top economic adviser since the second term began, is reportedly planning to step away from the White House in the coming weeks.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:27:05.000Z",
+      "url": "https://x.com/i/trending/2121327494901207377",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "National Economic Council",
+            "White House",
+            "Treasury Department"
+          ],
+          "people": [
+            "Kevin Hassett",
+            "Scott Bessent",
+            "David Zervos",
+            "Donald Trump"
+          ],
+          "places": [
+            "White House"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121362273516040325",
+      "name": "U.S. National Debt Tops $40.6 Trillion Amid Spending Debate",
+      "summary": "USDebtClock.org shows total obligations at $40,625,566,144,169, with annual federal spending over $7.4 trillion and a $2 trillion budget deficit. FY2025 budget charts reveal mandatory programs like Social Security (22.5%), Medicare (14.1%), and debt interest (13.8%) dominating at 59.5% of outlays, while discretionary spending sits lower. Commentator Matt Walsh linked the milestone to neoconservative policies, but replies countered that both parties, especially entitlements from the left and establishment Republicans, share responsibility, as debt tables trace growth across Obama, Trump, Biden, and beyond.",
+      "hook": "The debt clock hit $40.6 trillion this week, ticking at $117,937 per citizen and $362,828 per taxpayer. Online, fingers point across the political aisle over who's to blame.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:07:04.000Z",
+      "url": "https://x.com/i/trending/2121362273516040325",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121362274736652608",
+      "name": "Men Share Everyday Lives in Response to No-Cheat Challenge",
+      "summary": "Replies painted pictures of loyalty through ordinary routines like personal growth and time with partners, steering clear of dramatic gestures. The thread expanded into debates on gender differences in cheating, with users noting men often face harsher judgment despite data showing 20% of married men and 13% of women report extramarital sex from General Social Survey analyses. Discussions highlighted double standards, like how a man's affair is seen as always morally wrong more often than a woman's, mixing personal stories with critiques of relationship norms.",
+      "hook": "A simple question hit the platform: men who don't cheat or lie, what are you up to? Thousands replied with snapshots of gaming, family time, workouts, and quiet evenings.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T22:06:48.000Z",
+      "url": "https://x.com/i/trending/2121362274736652608",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Relationships"
+        ]
+      }
+    },
+    {
+      "id": "2121359608606584988",
+      "name": "Fed Flags AI as Top Financial Stability Risk in New Report",
+      "summary": "In its November 13 Financial Stability Report, the Fed noted that 87% of surveyed contacts now see AI as a key risk, up sharply from 50% in May. Rapid AI investments have driven $680 billion in advanced computing debt by October 2026, fueling high asset valuations and potential pullbacks if earnings disappoint. Other concerns trail behind, like a broad market correction at 52%, while the report also flags cybersecurity threats and complex AI financing structures amid the technology's quick economic integration.",
+      "hook": "The Federal Reserve just spotlighted artificial intelligence as the biggest threat to US financial stability, with worries growing fast among market watchers.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:55:29.000Z",
+      "url": "https://x.com/i/trending/2121359608606584988",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Federal Reserve"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121012227289620572",
+      "name": "Pete Hegseth Revives OSS Name for Pentagon Special Operations Office",
+      "summary": "Secretary of War Pete Hegseth redesignated the Assistant Secretary of War for Special Operations and Low-Intensity Conflict as the Office of Strategic Services, echoing the WWII agency's daring missions behind enemy lines. The move, announced via an official memorandum around November 2, provides at least $45 million in annual funding, 100 dedicated staff positions, and equal status to Army, Navy, and Air Force secretaries in decision-making. It aims to boost special operators' influence on budgeting and coordination for high-stakes missions, with plans for legislative changes including a permanent Under Secretary—though full implementation needs Congress's approval.",
+      "hook": "Pete Hegseth stepped up to revive a World War II legend, declaring 'The OSS is back' for the Pentagon's elite special operations team.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:45:36.000Z",
+      "url": "https://x.com/i/trending/2121012227289620572",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Department of War",
+            "Office of Strategic Services"
+          ],
+          "people": [
+            "Pete Hegseth"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121353948477145310",
+      "name": "Americans Grow Wary of Data Centers Amid AI Boom",
+      "summary": "A Pew Research Center survey of over 10,000 U.S. adults found negative views on data centers rising sharply from January to August 2026: 54% now say they're mostly bad for the environment, up from 39%; 50% worry about higher home energy costs, up from 38%; and 49% cite harms to local quality of life, up from 30%. Six in ten say they would not be comfortable with a new one nearby, with concerns cutting across demographics. Online discussions highlight divides, from polls on electricity and water use to comparisons with China's renewable-powered sites in remote areas, as some push for U.S. builds to keep AI leadership while others call for better planning to protect communities.",
+      "hook": "More Americans now see data centers straining the environment and their energy bills, a shift captured in a recent Pew survey that has people weighing the real costs.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:33:05.000Z",
+      "url": "https://x.com/i/trending/2121353948477145310",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "X"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News"
+        ]
+      }
+    },
+    {
+      "id": "2121312424238182897",
+      "name": "Trump Explains Prolonging Iran War to Protect Middle East Allies",
+      "summary": "Trump stated the U.S. stays involved to shield nations including Israel and others in the Middle East, calling them tremendous investors who prefer his measured approach over a quick end. He mentioned he could wrap it up fast but is extending it slightly for their sake, amid a war that's already cost $47.1 billion, 23 American lives, and hundreds wounded. Critics like Joe Kent question the strategy, pushing focus on oil flow over regime change, while online reactions highlight costs and perceived double standards in discussing alliances.",
+      "hook": "In a White House chat with Stephen A. Smith, President Trump revealed he's keeping the Iran conflict going a bit longer—at the request of allies like Israel who invest heavily in America.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:24:14.000Z",
+      "url": "https://x.com/i/trending/2121312424238182897",
+      "contexts": {
+        "entities": {
+          "events": [
+            "US war with Iran"
+          ],
+          "organizations": [
+            "Israel"
+          ],
+          "people": [
+            "Donald Trump",
+            "Stephen A. Smith",
+            "Marco Rubio",
+            "Mike Johnson"
+          ],
+          "places": [
+            "Middle East"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121169674729844825",
+      "name": "US Producer Prices Hit 6.5% Annual High in October",
+      "summary": "The Bureau of Labor Statistics reported the Producer Price Index rose 0.3% in October from September and 6.5% from a year earlier, the largest annual gain since November 2022. Core PPI, excluding food and energy, increased 0.3% monthly and 5.0% annually, matching forecasts, with goods up 0.5% and services up 0.2%. Economists like Heather Long warn that business inflation at 6.5%—hotter than the 4% consumer rate—could lead companies to pass higher costs to shoppers, bolstering the Federal Reserve's case for a December rate hike amid resilient economic data.",
+      "hook": "Producer prices surged to their highest yearly level in nearly four years, signaling fresh inflation pressures for businesses and households alike.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:24:01.000Z",
+      "url": "https://x.com/i/trending/2121169674729844825",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121098971187695933",
+      "name": "Right-Wing Split Emerges Over 'Neocon' Label After 2026 Midterms",
+      "summary": "Victor Davis Hanson traced the term's roots from 1970s anti-Soviet liberals to post-9/11 interventionists, cautioning it's now used to imply Jewish influence has hijacked Trump-era priorities. Harmeet K. Dhillon and Mark Levin called it a lazy stand-in for 'Jew,' while critics like Kacee Allen and Michael the Libertarian insisted it targets war hawks, not ethnicity. The debate, fueled by Iran policy tensions, highlights divides between interventionists and restraint advocates, amid notes that U.S. aid to Israel ends by 2026.",
+      "hook": "After the 2026 midterms, conservatives clashed sharply over foreign policy, with some warning that 'neocon' has morphed into a veiled antisemitic slur.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:11:13.000Z",
+      "url": "https://x.com/i/trending/2121098971187695933",
+      "contexts": {
+        "entities": {
+          "events": [
+            "debate on X"
+          ],
+          "organizations": [
+            "Israel",
+            "Trump administration"
+          ],
+          "people": [
+            "Victor Davis Hanson"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121278015649075425",
+      "name": "Anthropic IPO Excludes China and Hong Kong Investors Amid Strong Demand",
+      "summary": "The AI company plans to price shares on November 18 at $70 to $78 each, listing 825 million Class A shares under ticker ANT and potentially raising $64.4 billion at the high end, plus a $26 billion private placement from backers like Google and Nvidia. Banks are blocking orders from China and Hong Kong due to U.S. ITAR regulations on defense-related items, mirroring SpaceX's approach. Demand is robust at six times the available shares, with retail platforms like Bitget offering tokenized access from $100, though users note risks like volatility and no voting rights.",
+      "hook": "Anthropic's Nasdaq debut is set for November 19, but institutional investors from mainland China and Hong Kong are hitting a wall on orders.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:11:03.000Z",
+      "url": "https://x.com/i/trending/2121278015649075425",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic PBC"
+          ],
+          "people": [],
+          "places": [
+            "mainland China",
+            "Hong Kong"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "ANT"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121017841667440973",
+      "name": "Everyday Frustrations Tied to Theft, Crime, and Immigration Over Billionaires",
+      "summary": "Posts challenge blaming billionaires for economic woes, instead highlighting retail theft that locks toothpaste and detergent behind glass at stores like Walmart and Walgreens. Users share fears of street crime and point to immigration policies, including South Texas builders opposing deportations to keep cheap labor flowing. While some defend billionaires' job creation or blame government policies, the talk centers on safety, affordability, and daily inconveniences hitting close to home.",
+      "hook": "One user put it simply: 'Billionaires aren’t why I have to lock my doors at night.' That line captured a flood of personal stories about real-life hassles.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T21:10:27.000Z",
+      "url": "https://x.com/i/trending/2121017841667440973",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "X"
+          ],
+          "people": [
+            "Elon Musk"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121297589018722781",
+      "name": "Iran's Foreign Minister Warns Strikes Threaten Global Legal Order",
+      "summary": "In an opinion piece for Japan’s Kyodo News, Araghchi argued that U.S. and Israeli strikes on Iran violate the U.N. Charter's ban on force and lack Security Council approval. He highlighted attacks on schools, sports facilities, civilian sites, and safeguarded nuclear facilities, calling for an end to aggression, respect for sovereignty, and reparations. The remarks, shared online, drew amplification from outlets like Al Jazeera and Press TV, while critics noted Iran's past actions like its 1980 strike on Iraq’s Osirak reactor, fueling debate over preemptive force versus legal limits.",
+      "hook": "Iran's Foreign Minister Seyed Abbas Araghchi posed a stark question: If countries can strike based on fears of future threats, what remains of international law?",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:47:16.000Z",
+      "url": "https://x.com/i/trending/2121297589018722781",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Kyodo News",
+            "United Nations"
+          ],
+          "people": [
+            "Seyed Abbas Araghchi"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121297582920253620",
+      "name": "Russian Deputy Suggests Hiring NVIDIA's Jensen Huang for AI Push",
+      "summary": "Anton Gorelkin, First Deputy Chairman of the State Duma's Information Policy Committee, praised Huang's decades of experience in processor design, semiconductor production, and global supply chains. He proposed starting with an interview focused on professional expertise to advance Russia's domestic microelectronics, steering clear of NVIDIA secrets or personal matters. The idea highlights Russia's drive for tech self-reliance amid sanctions, though skeptics point to barriers like equipment restrictions and no confirmed contact with Huang.",
+      "hook": "Right after Jensen Huang stepped down from NVIDIA amid a personal scandal, a top Russian lawmaker floated an unexpected idea: bring him on board to boost Russia's chip and AI efforts.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:46:56.000Z",
+      "url": "https://x.com/i/trending/2121297582920253620",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "State Duma",
+            "NVIDIA"
+          ],
+          "people": [
+            "Anton Gorelkin",
+            "Jensen Huang"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120945636191219942",
+      "name": "Fed Cuts Rate Votes to Seven in 2027 Under Warsh's Strategy Shift",
+      "summary": "The Federal Reserve updated its 2027 FOMC schedule, removing the October rate vote and making it a strategy-only session, while shifting December to November 16-17. This leaves seven rate decisions: January, March, April, June, July, September, and November. Warsh sees it as a way to focus less on volatile data revisions and more on forward-looking policy, echoing his past critiques of rushed preparations. Supporters praise the space for strategy, while critics note risks of bigger rate jumps during longer gaps.",
+      "hook": "New Fed Chair Kevin Warsh is shaking up the calendar, ditching one rate decision for deeper thinking time amid noisy monthly data.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:46:41.000Z",
+      "url": "https://x.com/i/trending/2120945636191219942",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Federal Reserve"
+          ],
+          "people": [
+            "Kevin Warsh"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121336532246086048",
+      "name": "US Envoys Secure Prisoner Swap Deal in Russia-Ukraine Talks",
+      "summary": "The team held trilateral negotiations in Abu Dhabi, met Putin in Moscow, and Zelenskyy in Dublin, while consulting European advisors. Both sides agreed in principle to the conflict's largest prisoner exchange, with numbers to be finalized soon, and plan to include European partners in the next round to tackle postwar security and territorial issues. Kushner noted significant differences remain but expressed encouragement, as the White House called it a historic step—though Russia denied discussing European involvement and some Ukrainian voices raised skepticism over concessions.",
+      "hook": "After nine months without direct talks, US envoys Jared Kushner and Steve Witkoff raced from Abu Dhabi to Moscow and Dublin, securing a potential agreement to free thousands of prisoners.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:24:36.000Z",
+      "url": "https://x.com/i/trending/2121336532246086048",
+      "contexts": {
+        "entities": {
+          "events": [
+            "trilateral negotiations",
+            "prisoner-of-war exchange"
+          ],
+          "organizations": [
+            "Russian delegation",
+            "Ukrainian delegation"
+          ],
+          "people": [
+            "Jared Kushner",
+            "Steve Witkoff",
+            "Vladimir Putin",
+            "Volodymyr Zelenskyy"
+          ],
+          "places": [
+            "Abu Dhabi",
+            "Moscow",
+            "Dublin"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121336532241985796",
+      "name": "Jared Kushner Leads U.S. Talks on Russia-Ukraine Peace",
+      "summary": "Kushner, President Trump's son-in-law, joined Steve Witkoff in brokering the first direct U.S.-facilitated sessions in months, discussing security guarantees, humanitarian aid, and postwar plans. The meetings yielded progress like plans to involve European partners next. Critics question their qualifications and motives, with voices like Michael McFaul calling their efforts ineffective amid rising civilian deaths, while supporters see it as pragmatic steps toward a secure Ukraine.",
+      "hook": "Jared Kushner stepped into the spotlight as U.S. Special Envoy, co-leading trilateral talks in Abu Dhabi with Russian and Ukrainian teams. Social media quickly filled with questions about his role in such high-stakes diplomacy.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:24:09.000Z",
+      "url": "https://x.com/i/trending/2121336532241985796",
+      "contexts": {
+        "entities": {
+          "events": [
+            "trilateral negotiations",
+            "prisoner-of-war exchange"
+          ],
+          "organizations": [],
+          "people": [
+            "Jared Kushner",
+            "Steve Witkoff",
+            "Vladimir Putin",
+            "Volodymyr Zelenskyy"
+          ],
+          "places": [
+            "Abu Dhabi",
+            "Moscow"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120997983403852045",
+      "name": "Analysis Reveals Chinese AI Labs Trained on Restricted NVIDIA Blackwell GPUs",
+      "summary": "Will DePue of Unemployment Labs examined starting weights from models released since April 2026 and found unique fingerprints matching Blackwell GPUs, such as B200, B300, GB200, and GB300. Verification on actual hardware confirmed exact matches, with statistical confidence far exceeding chance, while controls on older Hopper chips did not align. The findings, checked by OpenAI and Anthropic researchers, spotlight massive GPU clusters costing hundreds of millions and have prompted U.S. congressional demands for NVIDIA's Jensen Huang to testify amid his CEO resignation.",
+      "hook": "A forensic dive into AI model weights uncovered a hidden clue: top Chinese labs like DeepSeek and Moonshot used U.S.-restricted NVIDIA Blackwell chips for their latest models.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:24:08.000Z",
+      "url": "https://x.com/i/trending/2120997983403852045",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "DeepSeek",
+            "PyTorch"
+          ],
+          "people": [
+            "Will DePue"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121330569581916590",
+      "name": "Zelenskyy Appears Uncomfortable in Videos with Kushner During Ukraine Talks",
+      "summary": "Kushner and Steve Witkoff wrapped up shuttle diplomacy with trilateral talks in Abu Dhabi, meetings with Putin in Moscow, and discussions with Zelenskyy in Dublin to revive Ukraine-Russia negotiations. Progress was claimed on prisoner exchanges and European involvement, but critics spotlight Kushner's unelected status, family ties to Trump, and Zelenskyy's pained expressions in clips. Additional worries arose over Starshield speed limits impacting Ukrainian drone operations amid the talks, fueling skepticism and calls for conflict-of-interest probes.",
+      "hook": "Videos show Ukrainian President Volodymyr Zelenskyy looking uneasy beside U.S. envoy Jared Kushner, prompting widespread online concern about the peace envoy's role.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:00:55.000Z",
+      "url": "https://x.com/i/trending/2121330569581916590",
+      "contexts": {
+        "entities": {
+          "events": [
+            "trilateral negotiations in Abu Dhabi",
+            "prisoner-of-war exchange"
+          ],
+          "organizations": [
+            "Russia",
+            "Ukraine"
+          ],
+          "people": [
+            "Jared Kushner",
+            "Steve Witkoff",
+            "Vladimir Putin",
+            "Volodymyr Zelenskyy"
+          ],
+          "places": [
+            "Abu Dhabi",
+            "Moscow",
+            "Dublin"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121330562157957434",
+      "name": "Catherine Liu Critiques Left's Focus on Culture Over Economics",
+      "summary": "In a Channel 4 News interview, University of California, Irvine professor Catherine Liu argued that an overemphasis on trauma, identity, and sensitivity distracts from material issues like infrastructure and economic justice. She expands on this in her book 'Traumatized: The New Politics of Public Suffering,' critiquing how public displays of fragility often benefit elites. Reactions split sharply: supporters like academic Lisa Mckenzie agree the left has long neglected improving everyday lives materially, while critics say the left stays focused on redistribution as the right pushes cultural battles.",
+      "hook": "Catherine Liu sat down with Krishnan Guru-Murthy and called out the progressive left for chasing culture wars instead of fixing roads and sharing wealth more fairly.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T20:00:06.000Z",
+      "url": "https://x.com/i/trending/2121330562157957434",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Channel 4 News"
+          ],
+          "people": [
+            "Catherine Liu"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121327504644509940",
+      "name": "Net Zero Debate Erupts Over Ward's Climate Claim",
+      "summary": "Ward, from the Grantham Research Institute at LSE, made the statement while challenging Neil's view that net zero is a scam. Critics pointed to natural climate variations over billions of years, like warming from 1910-1940 and 1970-2000, and argued emissions cuts alone won't stop shifts driven by factors like solar influences. A revived 2010 quote from IPCC's Ottmar Edenhofer framed climate policy as wealth redistribution, while an Oxford study showed natural sinks can't fully offset ongoing fossil fuel use without geological storage. The exchange underscores divides on policy costs, historical patterns, and motives behind global agreements.",
+      "hook": "Climate expert Bob Ward declared that climate change ends at net zero emissions, sparking backlash after calling journalist Andrew Neil a denier.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:49:21.000Z",
+      "url": "https://x.com/i/trending/2121327504644509940",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Andrew Neil",
+            "Bob Ward"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News"
+        ]
+      }
+    },
+    {
+      "id": "2121206311488733429",
+      "name": "House Committees Demand Testimony from Ex-Nvidia CEO Huang or Face Subpoena",
+      "summary": "The ultimatum from Reps. Brian Mast, John Moolenaar, and Rick Crawford follows Huang's recent resignation amid reports of extramarital affairs, including one with Alice Huang, a Chinese businesswoman assessed by U.S. officials as potentially tied to Chinese intelligence. Nvidia's general counsel Tim Teter is also requested to appear the next day, with lawmakers citing company events and staff talks as reasons amid U.S.-China AI competition concerns. Separately, Senate Banking Chairman Tim Scott seeks Huang's testimony on December 3, while Commerce Secretary Howard Lutnick has agreed to appear on December 10 over chip export issues.",
+      "hook": "Three House committees just drew a firm line: former Nvidia CEO Jensen Huang must confirm by 8 p.m. ET today for a December interview, or he'll face a subpoena.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:38:44.000Z",
+      "url": "https://x.com/i/trending/2121206311488733429",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Nvidia scandal"
+          ],
+          "organizations": [
+            "Nvidia",
+            "House committees",
+            "Senate Banking Committee",
+            "Department of Commerce"
+          ],
+          "people": [
+            "Jensen Huang",
+            "Howard Lutnick",
+            "Brian Mast",
+            "John Moolenaar",
+            "Rick Crawford",
+            "Tim Scott"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120900857302511619",
+      "name": "Banned Nvidia Chips Traced to Shanghai Data Center Tied to Jensen Huang's Affair Partner",
+      "summary": "Alice Huang, founder of a company linked to banned Nvidia H100, H200, and H800 chips, listed the hardware in Chinese government filings for a Shanghai data center run by her husband Kang Wei. The chips, originally sold to a Singapore partner, fueled suspicions that Huang was recruited by Chinese intelligence to target Jensen Huang, with whom she had an admitted extramarital affair leading to his resignation on November 12. Her firm also invested in China's DeepSeek AI lab to supply restricted Blackwell chips, prompting a Justice Department probe into smuggling and sharp drops in Super Micro and Nvidia shares. The case underscores challenges in enforcing U.S. export controls amid U.S.-China tech rivalry.",
+      "hook": "A personal affair between Nvidia's ex-CEO and Alice Huang has unraveled into a major scandal, with banned U.S. chips showing up in her husband's Shanghai AI facility.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:38:41.000Z",
+      "url": "https://x.com/i/trending/2120900857302511619",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "Super Micro",
+            "Shanghai Longteng Intelligent Computing"
+          ],
+          "people": [
+            "Alice Huang"
+          ],
+          "places": [
+            "Shanghai"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA",
+            "SMCI"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120721995763433728",
+      "name": "Shenzhen Hosts APEC 2026 as Global Economic Powerhouse",
+      "summary": "The 33rd APEC Economic Leaders’ Meeting takes place in Shenzhen on November 18-19, chaired by President Xi Jinping under the theme of building an Asia-Pacific community to prosper together. Leaders will discuss trade, connectivity, the digital economy, and AI, with expectations for a declaration and practical outcomes; the CEO Summit runs November 17-18. Chosen for its innovation hub status—its semiconductor industry hit RMB 361 billion in 2025—Shenzhen features light shows, fountains, and flower sculptures amid arrivals of delegates and journalists. U.S. President Trump and Japan’s prime minister are set to attend, spotlighting talks on chips, AI safety, and bilateral issues.",
+      "hook": "Shenzhen glows in purple lights and floral displays, welcoming world leaders to a city that rose from a fishing village just 40 years ago.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:37:41.000Z",
+      "url": "https://x.com/i/trending/2120721995763433728",
+      "contexts": {
+        "entities": {
+          "events": [
+            "33rd APEC Economic Leaders’ Meeting",
+            "APEC CEO Summit"
+          ],
+          "organizations": [
+            "Asia-Pacific Economic Cooperation"
+          ],
+          "people": [
+            "Xi Jinping"
+          ],
+          "places": [
+            "Shenzhen, Guangdong Province, China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121321521046016342",
+      "name": "Department of War Renames CDAO to Super Intelligence Office",
+      "summary": "The Chief Digital and Artificial Intelligence Office (CDAO) is now the Super Intelligence Office (SIO), following President Trump's directive to embrace super intelligence in national security. Cameron Stanley, the office's leader, said the change marks a shift beyond prototypes to delivering powerful SI tools to warfighters through programs like Maven Smart System and War Data Platform. The update includes a new website at www.SI.mil, refreshed branding on social media, and a logo rollout, with operations continuing seamlessly. Defense reports confirm the core mission stays the same amid broader federal tech integration.",
+      "hook": "The Department of War just unveiled a bold rebrand for its top AI office, signaling a leap from experiments to full-scale super intelligence for military edge.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:23:08.000Z",
+      "url": "https://x.com/i/trending/2121321521046016342",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Department of War",
+            "Chief Digital and Artificial Intelligence Office",
+            "Department of War Super Intelligence Office"
+          ],
+          "people": [
+            "President Trump"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121242602100105256",
+      "name": "Treasury Secretary Bessent Sees Strong Economy Amid Falling Gas Prices",
+      "summary": "In a post-midterm interview, Bessent pointed to oil prices dropping $20 a barrel this month, with national gasoline averages at $3.87 to $3.96 per AAA and GasBuddy data, and diesel down 10 percent. He called headline inflation an easing 'energy supply shock' from Iran tensions, urging the Fed to avoid overreacting since core inflation stays controlled and growth exceeds 3 percent with solid jobs. While Rep. Claudia Tenney cheered the pump relief, Chicago Fed's Austan Goolsbee cautioned that inflation lingers in services and AI-driven demand, highlighting divided views after Democrats took Congress.",
+      "hook": "Treasury Secretary Scott Bessent assured viewers on CNBC that no alarm bells are ringing for the economy, spotlighting gas prices dipping below $4 a gallon for the first time since July.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:13:11.000Z",
+      "url": "https://x.com/i/trending/2121242602100105256",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Scott Bessent"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121091229555499046",
+      "name": "Trump Supporters Declare Unshaken Loyalty After Midterm Losses",
+      "summary": "Supporters flooded X with pledges of unwavering commitment to Trump following the elections that gave Democrats control of Congress and amid criticism of the U.S. military campaign in Iran, which Trump called effectively over. Posts praised his resilience against attacks, with many stating 'We still stand by you' and sharing images of him with the American flag or saluting personnel. While a few voices raised policy concerns on immigration and foreign affairs, the overwhelming tone affirmed loyalty from day one, highlighting America's deep political divide as the lame-duck period continues.",
+      "hook": "Days after heavy Republican defeats in the November 4 midterms, one message sums it up: 'Nothing has changed for me. I ride for President Trump.'",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:12:54.000Z",
+      "url": "https://x.com/i/trending/2121091229555499046",
+      "contexts": {
+        "entities": {
+          "events": [
+            "assassination attempt on Donald Trump"
+          ],
+          "organizations": [],
+          "people": [
+            "Donald Trump"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121315413585752369",
+      "name": "Public Backlash Grows Over Kushner's Role in Russia-Ukraine Talks",
+      "summary": "Kushner and Steve Witkoff joined trilateral talks in Abu Dhabi this week—the first direct Russia-Ukraine contacts in months—followed by meetings with Putin in Moscow and Zelenskyy in Dublin. Kushner reported progress on a major prisoner exchange and plans to expand talks with European partners, though territorial and security gaps persist. Critics question why an unelected family member leads U.S. efforts, accusing him of pursuing personal business interests, while supporters see value in unconventional envoys breaking diplomatic deadlocks.",
+      "hook": "Jared Kushner, the president's son-in-law with no formal diplomatic role, stepped into high-stakes Russia-Ukraine negotiations, drawing sharp online criticism about his involvement.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T19:00:00.000Z",
+      "url": "https://x.com/i/trending/2121315413585752369",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "US government"
+          ],
+          "people": [
+            "Jared Kushner",
+            "Donald Trump",
+            "Vladimir Putin",
+            "Steve Witkoff"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120916454916674033",
+      "name": "Markets Bet on Fed Rate Hike After Hot Inflation Data",
+      "summary": "Futures and prediction platforms now show 88 to 95 percent odds of a 25 basis point hike at the Fed's December 9, 2026, meeting, lifting the target range to 4.00-4.25 percent. The shift followed October's Producer Price Index, which climbed 0.3 percent monthly and 6.5 percent yearly—the biggest annual jump since November 2022. Bank of America updated its forecast for hikes in December, January, and March, raising its peak rate view to 4.50-4.75 percent, though some investors worry about risks to growth amid economic slowdown signals.",
+      "hook": "October's inflation numbers hit hard, pushing financial markets to see a Federal Reserve rate increase as almost guaranteed by December.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T18:36:57.000Z",
+      "url": "https://x.com/i/trending/2120916454916674033",
+      "contexts": {
+        "entities": {
+          "events": [
+            "December 9, 2026 Meeting"
+          ],
+          "organizations": [
+            "Federal Reserve",
+            "Reuters"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121270358451859524",
+      "name": "Debate Compares 1950s and 1970s Life to Today’s Challenges",
+      "summary": "The discussion highlights how housing affordability for young adults has climbed above 25-30% of income recently, steeper than many past periods, while a sense of stagnation hits households after 15 years. Gallup polls show over half of Americans feeling their finances worsen, a low not seen since the Great Recession, even as unemployment stays near 4.1% and GDP grows. A 1950 Census pie chart reminds folks of the era's different demographics—89.5% White—while defenders note gains in life expectancy and cheaper gas relative to pay. The split boils down to better objective metrics today clashing with tougher homeownership and family costs.",
+      "hook": "People are looking back at the 1950s and high-inflation 1970s, wondering if everyday life felt easier then than now. Charts on housing costs and finances fuel the back-and-forth.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T18:26:10.000Z",
+      "url": "https://x.com/i/trending/2121270358451859524",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Matthew Yglesias"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121306576023908434",
+      "name": "Zelenskyy's Downcast Expression Draws Eyes at Dublin Diplomatic Talks",
+      "summary": "On November 12 at Casement Airfield in Baldonnel, Kushner and envoy Steve Witkoff met Zelenskyy following trilateral talks in Abu Dhabi and discussions with Putin. The envoys reported meaningful progress toward ending the war, including plans for the war's largest prisoner exchange and expanded talks with European partners. Zelenskyy called the exchange a key humanitarian win to reunite soldiers with families, while White House officials confirmed ongoing U.S. efforts at President Trump’s direction. Public views split sharply, with some seeing Zelenskyy's expression as conveying betrayal amid aid concerns.",
+      "hook": "Photos from a windswept airfield near Dublin captured Ukrainian President Volodymyr Zelenskyy looking visibly downcast beside U.S. envoy Jared Kushner, right after Kushner's Moscow visit with Putin.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T18:26:07.000Z",
+      "url": "https://x.com/i/trending/2121306576023908434",
+      "contexts": {
+        "entities": {
+          "events": [
+            "trilateral negotiations in Abu Dhabi",
+            "prisoner-of-war exchange"
+          ],
+          "organizations": [],
+          "people": [
+            "Jared Kushner",
+            "Steve Witkoff",
+            "Donald Trump",
+            "Volodymyr Zelenskyy",
+            "Vladimir Putin"
+          ],
+          "places": [
+            "Abu Dhabi",
+            "Dublin",
+            "Moscow"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120876459438846448",
+      "name": "Zelenskyy's Grim Expression Draws Notice After Kushner's Ukraine Plans Remarks",
+      "summary": "During a November 12-13, 2026, session at Casement Aerodrome near Dublin, Kushner and Steve Witkoff briefed Zelenskyy on talks following their Moscow meeting with Putin and Abu Dhabi discussions. Kushner praised Ukraine's postwar potential and security talks, while Zelenskyy noted upcoming European involvement and a major prisoner exchange. Observers highlighted Zelenskyy's somber look amid shuttle diplomacy pushing stalled negotiations forward, though territory and security issues persist.",
+      "hook": "Ukrainian President Volodymyr Zelenskyy stood with a downcast expression as U.S. envoy Jared Kushner called postwar plans for Ukraine 'really incredible.' The moment at a late-night Dublin meeting caught widespread attention.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T18:01:42.000Z",
+      "url": "https://x.com/i/trending/2120876459438846448",
+      "contexts": {
+        "entities": {
+          "events": [
+            "second round of trilateral Russia-Ukraine peace talks",
+            "largest prisoner exchange agreement"
+          ],
+          "organizations": [
+            "Russia",
+            "Ukraine"
+          ],
+          "people": [
+            "Jared Kushner",
+            "Steve Witkoff",
+            "Vladimir Putin",
+            "Volodymyr Zelenskyy"
+          ],
+          "places": [
+            "Abu Dhabi",
+            "Moscow",
+            "Dublin"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121300513820123241",
+      "name": "Rubio Accuses Zelensky of Lying on US Security Guarantees for Donbas",
+      "summary": "In a resurfaced clip from earlier this year, US Secretary of State Rubio directly contradicted Zelensky's claim that America conditioned security guarantees on Ukraine withdrawing from Donbas. Rubio stressed that guarantees would only apply after the war ends, not as a trade for territory, amid ongoing peace talks involving the US, Ukraine, and Russia. Zelensky has described NATO-like guarantees in exchange for Donbas changes as abstract ideas he cannot accept, highlighting frictions over borders, sequencing, and credibility in the negotiations.",
+      "hook": "Marco Rubio didn't hold back when he called out Ukrainian President Volodymyr Zelensky for misrepresenting US security guarantees tied to the Donbas region.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T18:00:41.000Z",
+      "url": "https://x.com/i/trending/2121300513820123241",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "US State Department"
+          ],
+          "people": [
+            "Marco Rubio",
+            "Volodymyr Zelenskyy"
+          ],
+          "places": [
+            "Donbas"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120731693443375610",
+      "name": "UT College Republicans Poll Puts John McEntee on Top for 2028 GOP Nod",
+      "summary": "The College Republicans group's informal poll showed McEntee leading Marco Rubio by one vote, with Ron DeSantis at 15 and JD Vance at 10. Broader polls like Atlas Intel give Rubio a strong 46 percent edge over Vance's 33 percent, while prediction markets on Kalshi favor Vance and Rubio. Talk of a Rubio-DeSantis Florida ticket circulates alongside Chris Christie's jab at DeSantis as an opportunist, highlighting young conservatives' early excitement for both fresh and familiar names.",
+      "hook": "Students at the University of Tennessee crowded around a whiteboard, casting votes for the next GOP presidential hopeful. John McEntee, a former Trump aide, topped the tally with 20 votes.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:50:09.000Z",
+      "url": "https://x.com/i/trending/2120731693443375610",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Tencent"
+          ],
+          "people": [
+            "John McEntee",
+            "Nick Fuentes"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121294821243408748",
+      "name": "Grace Auta's Tweet Challenges 'Emotional Women' Leadership Stereotype",
+      "summary": "Auta's post highlighted how men’s actions often lead to major crises, while women face criticism for supposed emotionality. Users like Miss Lana echoed this, noting men's scandals don't bar them from power, and called for rethinking stereotypes. Harvard Business Review research backs it up, showing women leaders handle uncertainty without letting anxiety drive decisions. The exchange mixes humor, frustration, and global perspectives on patriarchy and accountability.",
+      "hook": "Grace Auta pointed out the irony: men's wandering dicks crash economies and fragile egos start wars, yet women get labeled too emotional to lead. Her sharp take has people sharing their own stories of double standards.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:38:35.000Z",
+      "url": "https://x.com/i/trending/2121294821243408748",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Hillary Clinton",
+            "Donald Trump",
+            "Cleopatra"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121053097342452033",
+      "name": "ICE Video Sparks Nostalgia Debate on Immigration Enforcement",
+      "summary": "On November 12, U.S. Immigration and Customs Enforcement posted vintage clips captioned 'The way it was. The way it can be again,' linking to its recruitment page, with a French version alongside. Critics like David French and Aaron Reichlin-Melnick called it coded nostalgia for a whiter, Jim Crow-era U.S., while supporters like Dr. Sydney Watson praised it as a call to restore forefathers' civilization amid crime and border concerns. The post, blending recruitment with polarized views on safety, history, and identity, reflects ongoing tensions in immigration messaging.",
+      "hook": "Black-and-white footage of mid-20th-century America—classic cars cruising streets, families strolling near motels—revived strong feelings about the past and border security.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:38:20.000Z",
+      "url": "https://x.com/i/trending/2121053097342452033",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "U.S. Immigration and Customs Enforcement"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121083488065741024",
+      "name": "China Races Ahead on AI Data Centers While U.S. Faces Local Resistance",
+      "summary": "China is building enormous AI data centers in places like Ulanqab and Hohhot, drawing huge workforces and leveraging cheap land, labor, wind-solar power, and cold air for cooling—at one-fifth the cost of U.S. equivalents. Local farmers there welcome the changes, saying they bring benefits without harming farmland. In contrast, U.S. polls show 71 to 75 percent opposition near homes due to electricity costs, water use, and noise, leading to dozens of moratoriums and delays. This gap highlights the high stakes in the global AI race, where data center capacity drives economic and tech advantages.",
+      "hook": "In Inner Mongolia, 30,000 workers swarm construction sites, turning potato fields into massive AI hubs for Huawei and Alibaba. Across the ocean, American communities vote down similar projects over noise and energy worries.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:27:28.000Z",
+      "url": "https://x.com/i/trending/2121083488065741024",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "CBS News"
+          ],
+          "people": [],
+          "places": [
+            "United States",
+            "China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121255681604911475",
+      "name": "Trump Redirects Vance from Iran Talks to Domestic Corruption Fight",
+      "summary": "In a Truth Social post, Trump directed Vance to focus entirely on crime and corruption in states like Minnesota, California, and Illinois, which he described as 'poorly run, corrupt disasters' stealing billions monthly. Trump declared U.S.-Iran deal days over, pointing to recovered funds and control of the Strait as sufficient leverage. The shift follows Vance's recent blame of the Iran conflict for midterm losses and his role in prior diplomatic efforts, with analysts noting it as a pivot to sanctions over talks.",
+      "hook": "President Trump just pulled Vice President JD Vance off Iran negotiations, urging him to tackle what he calls massive corruption in Democrat-led cities instead.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:17:14.000Z",
+      "url": "https://x.com/i/trending/2121255681604911475",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Iran conflict"
+          ],
+          "organizations": [],
+          "people": [
+            "Donald Trump",
+            "JD Vance"
+          ],
+          "places": [
+            "Minnesota",
+            "California",
+            "Illinois",
+            "Strait of Hormuz"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121286246618022384",
+      "name": "GamersNexus Video Probes NVIDIA Supply Chain Issues Amid Huang Resignation",
+      "summary": "The investigative video details U.S. export controls on advanced GPUs, NVIDIA's responses, and evidence of restricted chips like H200 reaching Russian drones via Chinese firms and supply chains. It comes days after CEO Jensen Huang resigned on November 12, 2026, over reports of extramarital affairs, including one with a suspected Chinese intelligence-linked executive. Reactions praise the reporting's depth while some defend Huang, as NVIDIA stays silent on the claims amid broader U.S. chip export restrictions to adversaries.",
+      "hook": "Viewers grabbed popcorn for GamersNexus's hour-long dive into NVIDIA's export troubles, kicked off by footage of NVIDIA chips in a downed Russian drone.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T17:07:01.000Z",
+      "url": "https://x.com/i/trending/2121286246618022384",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "NVIDIA",
+            "GamersNexus"
+          ],
+          "people": [
+            "Jensen Huang"
+          ],
+          "places": [
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2121272773943427322",
+      "name": "Debate Over Whether Full-Time Jobs Cover Rent Today",
+      "summary": "The discussion highlights frustrations that wages lag behind housing costs, with median U.S. rents at $1,719 monthly as of November 2026—often higher for single-family homes. Responses range from urging personal responsibility and sacrifice, like in past decades, to noting generational differences: boomers faced high 1980s mortgage rates but lower relative home prices, while today's homes average 2,142 square feet versus 1,605 back then. It reflects ongoing divides on whether affordability issues come from individual choices or broader economic shifts.",
+      "hook": "A common exchange captures the tension: a boomer calls $18-an-hour warehouse pay good money, but average rent at $2,200 leaves workers eyeing roommates or overtime.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T16:09:34.000Z",
+      "url": "https://x.com/i/trending/2121272773943427322",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Personal Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121110547584467057",
+      "name": "China Conducts Large Unannounced Drills Around Taiwan Before APEC Summit",
+      "summary": "In early November, China ran major unannounced military exercises in the western Pacific and around Taiwan, peaking with more than 100 naval and coast guard ships simulating attacks, blockades, and regional operations. A submarine launched an intercontinental ballistic missile from the Yellow Sea, and about 70 vessels stayed active as of November 13. Officials described the scale as larger than prior named drills, timed just before the APEC summit in Shenzhen where U.S. President Trump and China's Xi Jinping are set to meet, serving as quiet pressure without formal announcements.",
+      "hook": "Taiwanese officials spotted over 100 Chinese vessels quietly massing around the island, calling it 'silent intimidation' with a gun hidden in a coat pocket.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T16:01:10.000Z",
+      "url": "https://x.com/i/trending/2121110547584467057",
+      "contexts": {
+        "entities": {
+          "events": [
+            "military exercises across Western Pacific around Taiwan"
+          ],
+          "organizations": [
+            "Chinese People's Liberation Army"
+          ],
+          "people": [],
+          "places": [
+            "Western Pacific",
+            "Taiwan",
+            "Japan",
+            "Philippines",
+            "Yellow Sea"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120991918419238999",
+      "name": "Users Pick Top Three Evils to Erase from the World",
+      "summary": "Khushi listed eight options—racism, cancer, abortion, hunger, religion, politics, poverty, and drugs—sparking thousands of responses. Many chose cancer for its heartbreak, racism for its harm, and poverty or hunger for their daily toll, while abortion and religion divided people sharply: some see abortion as vital for women's choices, others as the worst evil; religion drew claims of fueling violence alongside defenses as a moral anchor. Even Grok got asked, and users spun new lists with war or corruption, turning the prompt into a window on what troubles us most.",
+      "hook": "Imagine you could wipe out just three things forever—what would you choose? Khushi's simple question on November 12 drew nearly 10,000 replies, revealing heartfelt picks and heated debates.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T15:50:43.000Z",
+      "url": "https://x.com/i/trending/2120991918419238999",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News"
+        ]
+      }
+    },
+    {
+      "id": "2120559880071528712",
+      "name": "Nvidia Employees Rally to Reinstate Ousted CEO Jensen Huang",
+      "summary": "Jensen Huang stepped down Thursday as Nvidia CEO after 33 years, following reports of extramarital affairs including one with businesswoman Alice Huang, whom U.S. officials suspect as a Chinese intelligence asset, and relationships with two employees. The board accepted his immediate departure amid an investigation into national security concerns, appointing CFO Colette Kress as interim CEO while shares plunged, wiping out billions in market value. Longtime engineer praised Huang's first-principles leadership, with voices like Naval Ravikant calling him Nvidia's Steve Jobs; figures such as Pavel Durov and Elon Musk weighed in online, as employees demand transparency and his return.",
+      "hook": "Nvidia staff poured out their hearts in an internal post with over 1,600 comments, begging the board to bring back founder Jensen Huang after his sudden resignation.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T15:41:52.000Z",
+      "url": "https://x.com/i/trending/2120559880071528712",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "Megaspeed"
+          ],
+          "people": [
+            "Jensen Huang",
+            "Kimberly Powell",
+            "Alice Huang",
+            "Colette Kress"
+          ],
+          "places": [
+            "Singapore"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121255678354354247",
+      "name": "Argentina Enters Recession Under Milei's Reforms Amid Mixed Economic Signals",
+      "summary": "Private estimates confirmed a 1.2% or larger contraction in the third quarter, following a 0.6% drop earlier, with annual growth now projected at just 1% or less. Poverty climbed to 32.3% in the first half of 2026, affecting nearly 10 million in urban areas, while around 32,300 businesses closed since Milei took office in late 2023. Supporters highlight slashed inflation from over 25% to 2% monthly and a fiscal surplus, as export sectors like mining thrive despite struggles in retail and construction. Milei vows more cuts ahead of 2027 elections, even as his approval dips to 62% negative in polls.",
+      "hook": "Argentina's economy shrank for a second straight quarter in 2026, fueling heated debates over President Javier Milei's bold free-market changes and their real cost to everyday people.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T15:03:29.000Z",
+      "url": "https://x.com/i/trending/2121255678354354247",
+      "contexts": {
+        "entities": {
+          "events": [
+            "technical recession"
+          ],
+          "organizations": [],
+          "people": [
+            "Javier Milei"
+          ],
+          "places": [
+            "Argentina"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121255679608443376",
+      "name": "Trump's 60 Minutes Reflections on Death and Legacy Divide Online",
+      "summary": "Trump told interviewer he wants a legacy of making America great again, framing his religious beliefs amid questions on mortality and the afterlife. Supporters called the words moving, with one in tears over his sacrifices, while opponents shared memes like the Grim Reaper behind him and highlighted his net worth jumping from $2.5 billion in 2024 to as high as $7 billion, tied to crypto ventures. Forbes tracked the gains amid scrutiny of his finances during his second term, as reactions split sharply along familiar partisan lines.",
+      "hook": "In a candid 60 Minutes moment, President Trump shared hopes of being missed after he dies and going to heaven—while refusing to forgive some foes. The clip quickly pulled heartfelt support from fans and biting mockery from critics.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T15:03:04.000Z",
+      "url": "https://x.com/i/trending/2121255679608443376",
+      "contexts": {
+        "entities": {
+          "events": [
+            "assassination attempt",
+            "COVID diagnosis"
+          ],
+          "organizations": [],
+          "people": [
+            "Donald Trump"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121255679822299265",
+      "name": "Putin Warns Foreign Troops in Ukraine Would Resume Conflict",
+      "summary": "Speaking on November 12 with U.S. envoys Steve Witkoff and Jared Kushner, Putin called European plans for post-war troops a direct security threat to Russia, labeling them legitimate targets that would trigger renewed fighting. He reiterated Moscow's longstanding stance from early Istanbul talks and rejected territorial concessions, insisting on clear borders. Online reactions highlighted divides, with some calling out Russia's own forces in Ukraine as foreign troops, while others argued Ukraine should decide its security as a sovereign nation.",
+      "hook": "In a firm Kremlin meeting, Putin drew a clear line: any foreign troops on Ukrainian soil after a peace deal would restart the war immediately.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T15:03:02.000Z",
+      "url": "https://x.com/i/trending/2121255679822299265",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Vladimir Putin"
+          ],
+          "places": [
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121127001511665874",
+      "name": "Nifty 50 Drops 155 Points to 25,144 Amid Inflation and Oil Pressures",
+      "summary": "The Nifty 50 closed at 25,144.30 on November 13, down 155 points or 0.61 percent, pressured by retail inflation hitting 6.09 percent in October—above the RBI's 6 percent limit for the first time in two years—and Brent crude near $95–96 per barrel. Technical analysts like Sahil Pahwa and Deepak Kumar eye potential further downside to 24,600–24,779 if key supports at 25,000 break, while others such as Ashish H Kyal see possible consolidation around 25,090–25,190. Despite foreign investors buying ₹7,831 crore the prior day, divided views persist on whether this is healthy pullback in an uptrend or the start of extended weakness.",
+      "hook": "India's benchmark index slipped into the red as traders digested hotter-than-expected inflation data and climbing crude prices, ending a recent rally above 25,000.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T14:52:31.000Z",
+      "url": "https://x.com/i/trending/2121127001511665874",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Stocks"
+        ]
+      }
+    },
+    {
+      "id": "2121236566806872301",
+      "name": "Reuters Uncovers $3.2 Billion in Chinese AI Projects Using Restricted Nvidia Chips",
+      "summary": "A Reuters review of over 150 procurement notices and contracts revealed more than 23 billion yuan in AI computing projects across China, from government-backed centers in Fujian and Shaanxi to operating clusters in Wuxi using Nvidia's H100, H200, and H800 chips. These span universities, local ventures, and tech facilities, with some already online since March 2025. The findings contrast Nvidia's statements that controls have shut it out of China's data-center market, raising questions about enforcement amid former CEO Jensen Huang's resignation over unrelated allegations.",
+      "hook": "Despite U.S. export controls and Nvidia's claims of zero market share in China, projects worth over $3.2 billion are building around its restricted H100 and H200 processors.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T13:45:59.000Z",
+      "url": "https://x.com/i/trending/2121236566806872301",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Reuters",
+            "Nvidia"
+          ],
+          "people": [],
+          "places": [
+            "Fujian",
+            "Shaanxi",
+            "Gansu",
+            "Wuxi"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121234734676324772",
+      "name": "Markets Await October PPI Data Ahead of Fed Rate Decision",
+      "summary": "The Bureau of Labor Statistics will release October producer price figures, with economists expecting a 0.4% monthly rise in headline PPI—down sharply from September's 1.3%—and 6.6% year-over-year. A hotter-than-forecast reading might fuel calls for a bigger December rate hike and pressure stocks and crypto, while cooler data could ease yields and lift risk assets. Equity futures dipped slightly pre-release, and crypto stayed volatile amid the stakes, as this marks the final major inflation update before the Fed's December meeting. White House economic advisor Kevin Hassett called recent inflation readings disappointing due to energy costs and core measure acceleration.",
+      "hook": "Traders hold their breath this morning as the October Producer Price Index drops at 8:30 a.m. ET. This key inflation gauge could tip the scales on whether the Fed hikes rates by 25 or 50 basis points in December.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T13:37:16.000Z",
+      "url": "https://x.com/i/trending/2121234734676324772",
+      "contexts": {
+        "entities": {
+          "events": [
+            "October Producer Price Index Data Release"
+          ],
+          "organizations": [
+            "U.S. Bureau of Labor Statistics"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120976977649598783",
+      "name": "i-dle’s Yuqi Voices Support for China’s Taiwan Reunification Stance",
+      "summary": "On November 12, 2026, i-dle’s Chinese member Yuqi shared Xinhua content quoting President Xi Jinping on Taiwan reunification as a core Chinese mission, adding her own agreement. This echoes her past support, like during the 2019 Hong Kong protests, but stirred fan concerns given Taiwanese member Shuhua’s Taoyuan roots and indigenous heritage. Reactions ranged from disappointment over the political stance to calls for context on industry pressures in China, highlighting tensions in the group’s multinational fanbase.",
+      "hook": "Song Yuqi reposted a strong message on Weibo backing Beijing’s view on Taiwan, right alongside her Taiwanese bandmate Shuhua in i-dle.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T10:33:51.000Z",
+      "url": "https://x.com/i/trending/2120976977649598783",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Republic of China",
+            "Kuomintang"
+          ],
+          "people": [],
+          "places": [
+            "Taiwan"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121014948268744849",
+      "name": "Gold Plunges to One-Year Low Near $3,880 per Ounce",
+      "summary": "Silver faced even steeper pressure, down 59% from its January all-time high above $120 and now testing lows near $50. Analysts cited a stronger dollar near multi-month peaks, rising oil prices stoking inflation fears, and December rate-hike expectations as key drags on the non-yielding metals. Traders on X grew cautious, with Luke Gromen warning the drop 'should scare the absolute daylights out of investors' and signals 'something really wicked this way comes,' while The Market Ear called gold 'hanging by a thread' with support eyed at $3,400 if $3,900 breaks. All eyes now turn to upcoming U.S. data like the Producer Price Index for clues on the next move.",
+      "hook": "Gold prices tumbled nearly 3% on November 12, hitting the weakest levels since late 2025 amid a surging U.S. dollar and fresh bets on Fed rate hikes.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T09:06:05.000Z",
+      "url": "https://x.com/i/trending/2121014948268744849",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "US Federal Reserve"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "XAUUSD"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121142997005799912",
+      "name": "Melania Trump's Lantern Images Echo Child Rescue Efforts",
+      "summary": "Striking artwork shows First Lady Melania Trump in a dramatic scene, shared widely with captions praising her focus on children over politics. The visuals tie to her diplomacy in brokering a ceasefire in Ukraine's Oleshky, evacuating nearly 800 civilians and aiding child reunifications. Ukraine awarded her the Order of Princess Olha for these efforts, sparking warm comments like 'I love my First Lady' from fans who see her work as a humanitarian mission.",
+      "hook": "Melania Trump walks through misty gates holding a glowing lantern, a striking image supporters link to her real-life heroism in saving children.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T07:32:28.000Z",
+      "url": "https://x.com/i/trending/2121142997005799912",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Russia-Ukraine Ceasefire"
+          ],
+          "organizations": [
+            "United Nations"
+          ],
+          "people": [
+            "Melania Trump"
+          ],
+          "places": [
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121135829909115190",
+      "name": "Fake U.S.-Japan Tariff Clash Highlights Real Trade Tensions",
+      "summary": "The fictional dialogue between the U.S. Treasury and Japan's Ministry of Economy spread widely, drawing praise for Japan's leverage and warnings of self-inflicted harm from tariffs. In reality, the Trump administration has applied lower tariffs on Japanese goods amid negotiations, while Japan supplies key chip materials and holds $1.07 trillion in U.S. Treasuries. With the yen near 160 to the dollar, the post underscores ongoing frictions over trade imbalances, supply chains, and currency volatility in this vital partnership.",
+      "hook": "A made-up exchange shows the U.S. hitting Japan with 75% tariffs on electronics and autos, only for Tokyo to threaten cutting off chip chemicals and dumping U.S. debt. It spotlights the fragile balance in their alliance.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T07:03:32.000Z",
+      "url": "https://x.com/i/trending/2121135829909115190",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "U.S. Treasury Department",
+            "Japan's Ministry of Economy"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120729666051072171",
+      "name": "Xi Jinping Calls for Peaceful Taiwan Reunification at Sun Yat-sen Event",
+      "summary": "Speaking in Beijing's Great Hall of the People, Xi reaffirmed China's commitment to peaceful reunification under the 'one country, two systems' framework and expressed openness to dialogue with Taiwan figures who uphold the one-China principle. Taiwan's Mainland Affairs Council rejected the remarks as recycled rhetoric, insisting neither the government nor its people would accept a model seen as submission to Communist rule. The speech, which avoided any reference to force, highlights ongoing cross-strait tensions ahead of next week's APEC summit in Shenzhen.",
+      "hook": "At a grand ceremony honoring Dr. Sun Yat-sen's 160th birth anniversary, Xi Jinping framed Taiwan's reunification as an unstoppable historical mission tied to national unity.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T07:03:30.000Z",
+      "url": "https://x.com/i/trending/2120729666051072171",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Sun Yat-sen Birth Anniversary"
+          ],
+          "organizations": [
+            "People's Republic of China",
+            "Republic of China"
+          ],
+          "people": [
+            "Xi Jinping",
+            "Sun Yat-sen"
+          ],
+          "places": [
+            "Taiwan"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120900855180214402",
+      "name": "Kaja Kallas Insists Ceasefire First in Ukraine Talks",
+      "summary": "EU foreign policy chief Kaja Kallas told reporters that any shift to Europe's security talks diverts from the urgent need for a ceasefire with Russia. She stressed Moscow's lack of goodwill so far, as Ukrainian President Zelenskyy pushes for Europe's direct role in negotiations like recent Abu Dhabi meetings. While supporters like Michael McFaul praise her sequencing, EU divisions linger over who should represent the bloc—figures like Kallas and António Costa, or national leaders—with her lighthearted reply on seating arrangements cutting through the tension.",
+      "hook": "At the Dublin summit, Kaja Kallas drew a firm line: stop the killing in Ukraine before chasing broader peace deals. Her clear call came amid U.S.-led talks heating up.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T05:53:31.000Z",
+      "url": "https://x.com/i/trending/2120900855180214402",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Russia-Ukraine war"
+          ],
+          "organizations": [
+            "X"
+          ],
+          "people": [
+            "Kaja Kallas",
+            "Vladimir Medinsky"
+          ],
+          "places": [
+            "Russia",
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120942648663974138",
+      "name": "Debate Questions 1950s Nostalgia After WSJ Video",
+      "summary": "In her opinion piece, Camp points to huge gains in technology, medicine, and living standards since the 1950s, while noting drawbacks like limited opportunities for women and minorities. Viewers counter that nostalgia focuses on harder-to-measure losses, such as skyrocketing home price-to-income ratios from 2.3 in 1970 to 5.1 in 2024, weaker family formation, and declining social trust. Commenters like Inez Stepman and Rob Henderson argue these cultural shifts explain dissatisfaction more than economics alone, turning the discussion into a broader look at what makes life feel good.",
+      "hook": "Emma Camp's Wall Street Journal video asks if life was truly better in the 1950s, sparking replies that highlight today's affordability struggles and fading social ties.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T05:24:20.000Z",
+      "url": "https://x.com/i/trending/2120942648663974138",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Reason magazine"
+          ],
+          "people": [
+            "Emma Camp"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121108678086406528",
+      "name": "China Blocks Nvidia AI Chip Imports to Boost Domestic Tech",
+      "summary": "Around 600,000 Nvidia H200 AI chips sit unused in Hong Kong, as Beijing approves only small batches for select firms to limit reliance on U.S. technology and support local alternatives like Huawei's processors. This counters the idea that Chinese companies are desperate for American hardware amid U.S. export curbs. The move highlights both nations' push for semiconductor self-reliance, driving up black-market prices and reshaping AI supply chains.",
+      "hook": "Palmer Luckey pointed out something unexpected: China is holding back on Nvidia chips, even with hundreds of thousands waiting in Hong Kong warehouses.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T05:16:39.000Z",
+      "url": "https://x.com/i/trending/2121108678086406528",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia"
+          ],
+          "people": [],
+          "places": [
+            "Beijing",
+            "China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120384032521564367",
+      "name": "White House Issues 'STAND. FIGHT. DEFEND THE REPUBLIC' Rallying Cry",
+      "summary": "Posted on X, the slogan quickly caught on among supporters and officials, featuring Hegseth in pinstripe suits near flags and helicopters, President Trump in a red USA cap, and Revolutionary War imagery saying 'NEVER BACK DOWN.' The Department of War, renamed from Defense under Trump, spotlights warfighting priorities amid a push for military strength after midterm losses to Democrats. A follow-up vowed to defend borders and country, with echoes from aligned accounts praising fighters and patriots, though some linked it to QAnon signals while others saw pure patriotism.",
+      "hook": "The White House dropped a bold message on November 10: 'STAND. FIGHT. DEFEND THE REPUBLIC.' It paired with striking images of Secretary of War Pete Hegseth in dramatic military settings.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T05:01:41.000Z",
+      "url": "https://x.com/i/trending/2120384032521564367",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "White House"
+          ],
+          "people": [],
+          "places": [
+            "United States"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120979891139285213",
+      "name": "Trump Supporter Claims He Ended Eight Wars Including Venezuela and Africa",
+      "summary": "The video shows her insisting Trump doesn't lie, sparking online arguments where critics mock the vague claims, such as a nonexistent 'Africa War,' and label it confidently wrong MAGA style. Supporters counter by pointing to U.S.-Iran tensions since 1979 and Trump's own boasts of settling eight conflicts, including a quick 148-minute Venezuela operation with no U.S. casualties. Fact-checkers call several overstated or temporary, highlighting divides over Trump's foreign policy record and media sources amid ongoing operations like those with Iran.",
+      "hook": "At an outdoor event next to Vice President JD Vance, a Trump supporter confidently told a crowd that President Trump ended seven or eight wars—maybe nine—like ones in Venezuela and Africa, all from Fox News.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T04:07:41.000Z",
+      "url": "https://x.com/i/trending/2120979891139285213",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Fox News"
+          ],
+          "people": [
+            "Donald Trump"
+          ],
+          "places": [
+            "Venezuela",
+            "Africa"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121046175780659500",
+      "name": "Debate Intensifies Over U.S. AI Chip Curbs on China",
+      "summary": "Gavin Baker argues that allowing limited sales of less powerful Nvidia GPUs maintains U.S. leverage by keeping Chinese AI labs dependent on American tech and Southeast Asian clouds, warning strict bans would spur China's own efficient chips shared with Russia, Iran, and North Korea. Critics counter that past controls on Huawei accelerated Beijing's self-reliance, and note Nvidia CEO Jensen Huang's November 12 resignation amid ties to a suspected Chinese intelligence asset, fueling bipartisan calls for tougher curbs on chips and data centers. Meanwhile, TSMC seeks equipment without Chinese rare earths to shield advanced chip production from export risks, underscoring mutual supply chain tensions in the AI race.",
+      "hook": "Investor Gavin Baker likened U.S. policy to handing China muskets while America holds machine guns—a move he says keeps their labs reliant on U.S. hardware that could be cut off in a crisis.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T03:52:46.000Z",
+      "url": "https://x.com/i/trending/2121046175780659500",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Huawei",
+            "ZTE"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121023484113670470",
+      "name": "China's Open-Source AI Models Earn Global Goodwill",
+      "summary": "Discussions highlight how China's strategy of releasing model weights for free download builds soft power, even among American AI experts who appreciate the openness over U.S. companies' paid, restricted APIs. Playful terms like 'whale diplomacy'—nodding to mascots like DeepSeek's—emerge as users praise it for advancing human progress more than traditional efforts. While some warn of strategic risks if China leads, the approach resonates in the Global South for its affordability and adaptability, shifting views on AI leadership toward accessibility.",
+      "hook": "Chinese AI labs are sharing powerful models for free, winning fans worldwide—including some in the U.S.—through open access that contrasts sharply with closed American systems.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T03:28:50.000Z",
+      "url": "https://x.com/i/trending/2121023484113670470",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2121006519223525544",
+      "name": "Debate Over Capitalism and Socialism Highlights Historical Atrocities",
+      "summary": "The discussion questions why capitalism seems to sideline the poor if it's best for them, while critics share stark images from 20th-century socialist regimes like the Khmer Rouge's 1.7 to 2.2 million deaths and Soviet Red Terror. Defenders point to capitalism's role in lifting people from poverty and use examples like spotless Buc-ee’s restrooms versus messy public ones to show incentives matter. Others reference Bernie Sanders' explanations of socialism as curbing extreme wealth, underscoring ongoing divides between historical horrors and calls for equality.",
+      "hook": "Photos of mass graves and emaciated victims from Cambodia's Killing Fields and Soviet purges have surfaced in a heated exchange about which system truly helps ordinary people.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T02:48:40.000Z",
+      "url": "https://x.com/i/trending/2121006519223525544",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Zach Weinersmith"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120746370747310327",
+      "name": "Israel Prepares for Possible Strike on Iran Amid U.S. Tensions",
+      "summary": "Israel's security cabinet ordered the IDF to intensify preparations for potential action against Iran, with reports suggesting it could lead to war, even as Netanyahu acts in a caretaker role post-elections. Trump and Netanyahu reportedly clashed in a shouting phone call, with Netanyahu pushing for strikes and regime change while Trump urged more time for diplomacy and sanctions—claims Netanyahu's office called fake news. U.S. warnings signal possible full-scale fighting soon, met by Iran's threats of retaliation across the Middle East and Europe, amid unconfirmed reports and fluid diplomacy.",
+      "hook": "A tense phone call between Trump and Netanyahu highlighted deepening divides over Iran, as Israel ramps up military readiness for what could spark wider conflict.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T01:56:16.000Z",
+      "url": "https://x.com/i/trending/2120746370747310327",
+      "contexts": {
+        "entities": {
+          "events": [
+            "potential war with Iran"
+          ],
+          "organizations": [
+            "United Nations",
+            "United States"
+          ],
+          "people": [
+            "Israel's Ambassador to the United Nations"
+          ],
+          "places": [
+            "Middle East"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120964718357549112",
+      "name": "Rand Paul Warns Price Controls Will Cause Shortages Like in Soviet Union",
+      "summary": "Kentucky Republican Sen. Rand Paul argues high prices come from inflation driven by deficit spending, the war in Iran, and flawed trade policies—not a call for government price controls. He warns such measures lead to shortages, as seen in the Soviet Union and Venezuela, and ties Republican election losses to economic frustrations like gas prices. Paul pledges to fight socialist policies and push for a Federal Reserve audit amid voter concerns over affordability shown in exit polls.",
+      "hook": "Sen. Rand Paul points to empty shelves in the Soviet Union and Venezuela as a stark reminder of what happens with price controls.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T01:38:04.000Z",
+      "url": "https://x.com/i/trending/2120964718357549112",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [
+            "Rand Paul"
+          ],
+          "places": [
+            "Washington"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120861699670712610",
+      "name": "Iran's Clerics Push Nuclear Treaty Review and Defense Shift",
+      "summary": "On November 12, Iran's Assembly of Experts demanded a review of withdrawing from the Nuclear Non-Proliferation Treaty and revising the defense doctrine for stronger deterrence, labeling both an unavoidable necessity and national demand. The statement, guided by Supreme Leader Mojtaba Khamenei, cites untrustworthy international institutions and vows immediate armed responses to any attacks without limits. While not announcing withdrawal or weapons pursuit—Iran remains an NPT member—the move removes past barriers to these discussions amid threats and economic strains, with some seeing it as a step toward nuclear options.",
+      "hook": "Iran's top clerical body just issued a stark call, pointing to threats from the U.S. and Israel as proof that global rules no longer protect them.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T01:37:36.000Z",
+      "url": "https://x.com/i/trending/2120861699670712610",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Iran's Assembly of Experts"
+          ],
+          "people": [],
+          "places": [
+            "Iran"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120642753277345846",
+      "name": "Hillary Clinton Questions Trump Over Nvidia Spy Warnings",
+      "summary": "Clinton argued on a podcast that if the government knew Huang was targeted in an espionage plot linked to a Singapore firm diverting Nvidia chips to China, they had a duty to alert him instead of encouraging sales. She predicted Trump would ask Xi Jinping about it in their next meeting, only to accept a denial, much like with Putin. Trump has defended Huang, saying he believes the CEO's claim of ignorance, while the FBI investigates and Nvidia's board found no security breach after an internal review.",
+      "hook": "Hillary Clinton called out U.S. officials for not warning Nvidia CEO Jensen Huang about a suspected Chinese honeypot operation involving businesswoman Alice Huang.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T01:27:42.000Z",
+      "url": "https://x.com/i/trending/2120642753277345846",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia"
+          ],
+          "people": [
+            "Hillary Clinton",
+            "Donald Trump",
+            "Xi Jinping",
+            "Jensen Huang",
+            "Vladimir Putin"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120327458381804028",
+      "name": "Trump Officials Move to Military Bases Amid Iranian Death Threats",
+      "summary": "Senior Trump administration officials, including Bessent, Attorney General Todd Blanche, Secretary of State Marco Rubio, War Secretary Pete Hegseth, and Chief of Staff Stephen Miller, have relocated to bases like Fort McNair due to Iranian death threats tied to U.S. economic sanctions on Tehran. Bessent leads 'Operation Economic Outcast,' imposing tougher sanctions and trade restrictions to isolate Iran financially, and a Treasury spokesperson affirmed he will not be deterred. The threats intensified after a Wall Street Journal article published an aerial photo of Bessent's home, with reports indicating 30 percent or more of the cabinet now in military housing amid heightened U.S.-Iran tensions.",
+      "hook": "Treasury Secretary Scott Bessent and his family left their Washington home after Iranian threats escalated, seeking safety on a military base.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:49:54.000Z",
+      "url": "https://x.com/i/trending/2120327458381804028",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Salem News Channel"
+          ],
+          "people": [
+            "Donald Trump",
+            "Hugh Hewitt"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120654245317808410",
+      "name": "U.S. Attorney Warns Blumenthal Over Trump Donor Inquiries, Prompts Dueling Demands",
+      "summary": "On Nov. 11, U.S. Attorney Aaron Reitz for the Southern District of Texas demanded Blumenthal preserve documents related to inquiries into private donors funding White House projects, citing potential civil rights violations over protected associations. Blumenthal, incoming Senate investigations chair, dismissed the letter as baseless intimidation and countered with his own preservation demand on Reitz, vowing not to be deterred. The exchange highlights early tensions in post-midterm oversight battles, with Democrats pushing transparency on donor favors and administration allies decrying it as abuse of congressional power.",
+      "hook": "A U.S. attorney fired off a sharp letter to Sen. Richard Blumenthal, accusing him of intimidating Americans for ties to President Trump. Blumenthal hit back just as forcefully the same day.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:49:15.000Z",
+      "url": "https://x.com/i/trending/2120654245317808410",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "White House"
+          ],
+          "people": [
+            "Karoline Leavitt",
+            "Stephen Miller",
+            "President Trump"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121038883311796651",
+      "name": "McFaul and Russian Diplomat Clash Over Ukraine Invasion Blame",
+      "summary": "In a tense online exchange, McFaul listed Russia's actions—illegal occupation, kidnapped children, daily civilian killings—as undeniable facts, not his strategy. Russian diplomat Dmitry Polyanskiy dismissed it as ignoring history, while analyst Daniel Davis blamed NATO's expansion toward Russia's borders despite warnings. McFaul countered that major NATO growth ended in 2004, two decades before the 2022 invasion, and noted Putin did not invade Finland or Sweden when they later joined. The debate highlights a lasting divide: one side sees pure Russian aggression, the other points to Western moves as provocations.",
+      "hook": "Former U.S. Ambassador Michael McFaul laid out Russia's invasion of Ukraine as plain facts, from occupation to civilian deaths. A Russian diplomat fired back, urging a look at history instead.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:40:57.000Z",
+      "url": "https://x.com/i/trending/2121038883311796651",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Russia's Invasion of Ukraine",
+            "2014 Invasion of Ukraine",
+            "2022 Invasion of Ukraine"
+          ],
+          "organizations": [
+            "NATO"
+          ],
+          "people": [
+            "Dmitry Polyanskiy",
+            "Michael McFaul"
+          ],
+          "places": [
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120802679475909011",
+      "name": "Debate Heats Up Over Working into 70s and 80s",
+      "summary": "The piece warns that longer lives mean preparing to work well into the 70s or 80s, with careers spanning 60 years and later contributions. Many respond with data showing annual hours dropping from over 3,000 in the 1800s to 1,500-2,000 today in countries like the US, Germany, and France, plus rising lifetime leisure per economist Robert Fogel's projections. Critics argue productivity hasn't freed up time evenly, citing inequality and policy pressures that make early retirement harder for some, while others see tech advances failing to deliver promised ease.",
+      "hook": "A Wall Street Journal article urging career plans for lifespans into the 90s has people sharing charts of slashed work hours and questioning if retirement is slipping away.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:30:53.000Z",
+      "url": "https://x.com/i/trending/2120802679475909011",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Wall Street Journal"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Personal Finance"
+        ]
+      }
+    },
+    {
+      "id": "2121033884108251345",
+      "name": "Bitcoin Drops Below $72,000 Amid Trader Caution",
+      "summary": "The cryptocurrency closed around $71,400 on November 12 after an 8% weekly decline, fueled by $1.44 billion in Bitcoin ETF outflows over five days and slumping tech stocks. Analysts such as Exitpump foresee trading in a wider range, while Crypto Tony expects a further leg down, with charts showing broken supports and bearish patterns. Many remain cautious as the price tests $70,000 to $72,000 levels, though past cycles have seen recoveries from similar dips.",
+      "hook": "Bitcoin tumbled to $71,100 this week, prompting traders like Rex to call it a potential generational top on charts.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:21:19.000Z",
+      "url": "https://x.com/i/trending/2121033884108251345",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Cryptocurrency"
+        ]
+      }
+    },
+    {
+      "id": "2121031489911701989",
+      "name": "Call to Feature Black Experts on All News Topics Beyond Race",
+      "summary": "Bennett urged outlets to book Black experts on economy, foreign policy, and national security too, noting their expertise goes far beyond 'Black issues.' Colom, a Democrat, defeated Republican incumbent Cindy Hyde-Smith in a close race, marking the first Democratic win in that seat in over 40 years. Responses from Roland Martin, Nikole Hannah-Jones, and others expanded the point to Latino, LGBTQ+, disabled, and female analysts, highlighting how diverse voices enrich coverage of every major topic.",
+      "hook": "After Scott Colom's historic win as Mississippi's first Black U.S. senator since Reconstruction, journalist Geoff Bennett called out TV news for limiting Black analysts to race stories.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:10:04.000Z",
+      "url": "https://x.com/i/trending/2121031489911701989",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Colom's historic win"
+          ],
+          "organizations": [],
+          "people": [
+            "Geoff Bennett",
+            "Colom"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121028786443768180",
+      "name": "Trump Says U.S. Spies on China Effectively Too",
+      "summary": "During an appearance on The Hugh Hewitt Show, Trump responded to questions about Chinese spying by stressing reciprocity. 'We also go after them,' he said, referencing the 2023 surveillance balloon that should have been shot down sooner. He urged Americans not to act like 'a bunch of babies' about it, noting the U.S. handles such intelligence work effectively amid longstanding rivalries and current tensions over tech and trade.",
+      "hook": "In a radio interview, President Trump cut straight to the point on espionage: it goes both ways, and America does it well.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-13T00:01:21.000Z",
+      "url": "https://x.com/i/trending/2121028786443768180",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "United States",
+            "China"
+          ],
+          "people": [
+            "President Trump"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120942647267238027",
+      "name": "Florida Probes DSA for Possible Foreign Funding from Cuba and China",
+      "summary": "Attorney General James Uthmeier issued a subpoena on November 10 to the DSA, targeting delegations that visited Cuba and China since January 2023, along with related fundraising by Florida chapters. The investigation checks compliance with state laws banning contributions from foreign adversaries like those nations, which require transparency in donor funding. Governor Ron DeSantis voiced strong support, stressing Florida's firm opposition to communist influence, while the DSA acknowledged the subpoena but offered no further comment. Officials frame it as a routine compliance review under trade practices and charitable solicitation rules.",
+      "hook": "Florida's top law enforcement officer is digging into whether the Democratic Socialists of America took money from Cuba or China to fund trips and activities.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T23:05:50.000Z",
+      "url": "https://x.com/i/trending/2120942647267238027",
+      "contexts": {
+        "entities": {
+          "events": [
+            "March convoy to Cuba"
+          ],
+          "organizations": [
+            "Democratic Socialists of America"
+          ],
+          "people": [
+            "James Uthmeier"
+          ],
+          "places": [
+            "Cuba",
+            "China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121012233891435002",
+      "name": "BDSM Meme Marks Depression Since Key Dates Like March 2020",
+      "summary": "The playful acronym twist lists dates like March 2020 for the pandemic start, or Monday October 19th for weekly woes, with many tying it to Indonesia's 2024 presidential election. That timeline peaked when Prabowo Subianto and Gibran Rakabuming Raka won 58.6 percent of votes on February 14, got certified March 20 amid challenges, and were inaugurated October 20. It offers an ironic, collective nod to long low moods, spreading through quotes and personal adaptations.",
+      "hook": "People are redefining BDSM as 'Been Depressed Since' a personal milestone, turning tough times into shareable humor.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T22:54:45.000Z",
+      "url": "https://x.com/i/trending/2121012233891435002",
+      "contexts": {
+        "entities": {
+          "events": [
+            "March 2024 Election"
+          ],
+          "organizations": [
+            "Constitutional Court",
+            "Election Commission"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Elections"
+        ]
+      }
+    },
+    {
+      "id": "2120707679555289378",
+      "name": "Sen. Kennedy Urges Republicans to Work Holidays for Nominees and Cuts",
+      "summary": "With Democrats taking Congress in January 2027 after the midterms, Kennedy called the election outcome anything but normal and pushed aggressive action on judicial nominees and a reconciliation package needing only 50 votes. He used a blunt analogy—stop 'urinating on our hands'—to stress using reconciliation for $1 trillion in spending cuts, tax relief, border policies, and more, as outlined in the House Freedom Caucus's eight-point plan. Senate Republicans have started cloture on seven Trump judges amid Democratic resistance, while figures like Sens. Rick Scott and Rep. Mary Miller echo the call to work nonstop through Thanksgiving and Christmas.",
+      "hook": "Sen. John Kennedy stood on the Senate floor and laid it out plain: Republicans have just 50 days left in power, so skip the holidays if needed to confirm judges and pass key bills.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T22:54:21.000Z",
+      "url": "https://x.com/i/trending/2120707679555289378",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Midterm Elections"
+          ],
+          "organizations": [],
+          "people": [
+            "John Kennedy",
+            "Toby",
+            "Edith"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121006520062337505",
+      "name": "Catturd2 Claims Democrats Stole 2026 Midterms Amid Skeptical Backlash",
+      "summary": "Catturd2 accused Democrats of rigging the elections to seize control, urging followers to recognize the alleged plot and fight. Democrats secured majorities in the House and Senate, including gains in Republican areas like Texas, with many races decided by large margins and top Republicans conceding without legal fights. Skeptics highlighted the irony of such cheating under Republican control of the White House and key agencies, while observers found no evidence of systemic fraud. The back-and-forth underscores persistent divides in election trust as certified results take effect.",
+      "hook": "After Democrats swept the 2026 midterms, conservative voice Catturd2 called it outright cheating and rallied supporters to fight back. Replies poured in, quick with laughs and pointed questions.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T22:32:53.000Z",
+      "url": "https://x.com/i/trending/2121006520062337505",
+      "contexts": {
+        "entities": {
+          "events": [
+            "2020 election",
+            "2024 election"
+          ],
+          "organizations": [],
+          "people": [
+            "Donald Trump",
+            "Derrick Evans",
+            "Catturd"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2121000914253234337",
+      "name": "Dana Bash Laments Media Tribalism, Faces Irony Accusations",
+      "summary": "As CNN's chief political correspondent, Bash described the current media environment as entrenched and tribal in a video from the event. Commenters on X highlighted the irony, with Joe Concha questioning if she watches her network's reporting and others accusing her, Jake Tapper, Abby Phillip, and Brian Stelter of open Democratic support. The reactions spotlight ongoing debates over CNN's fact-focused image versus claims of left-leaning bias in story selection and tone. The exchange reflects public skepticism toward legacy media amid polarized sources.",
+      "hook": "Dana Bash called out the deep partisanship in today's media during a 92nd Street Y talk. Critics quickly pointed fingers back at her own CNN coverage.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T22:09:05.000Z",
+      "url": "https://x.com/i/trending/2121000914253234337",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "CNN"
+          ],
+          "people": [
+            "Dana Bash",
+            "Robert Garcia"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120949253665128651",
+      "name": "30-Year Mortgage Rates Drop to 7.11%, Lowest in Seven Weeks",
+      "summary": "Freddie Mac reported the average 30-year fixed mortgage rate fell to 7.11%, down from higher levels, while the 15-year rate hit 6.45%. Purchase applications surged 7.5% for the week ended Nov. 6, the biggest jump since April, even as existing-home sales dropped 5.5% in October to 3.75 million units—the lowest since 2010—with median prices at $416,700. Freddie Mac Chief Economist Sam Khater called the decline a welcome sign, but experts caution that rates remain high compared to last year’s 6.24% and buyers are holding out for bigger, sustained drops amid strained affordability.",
+      "hook": "Homebuyers caught a small break this week as mortgage rates eased for the fourth straight time, offering a bit more flexibility in a tough market.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T21:47:27.000Z",
+      "url": "https://x.com/i/trending/2120949253665128651",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Freddie Mac"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Real Estate"
+        ]
+      }
+    },
+    {
+      "id": "2120988718677078129",
+      "name": "Singapore Bars Alice Huang from Re-Entry Over Megaspeed Probe",
+      "summary": "Singapore authorities issued a stern warning to Alice Huang for providing inaccurate information during a February 2025 investigation into false declarations on server purchases and exports at the company she once led. They held her passport from June 2025 until February 26, 2026, before barring her return, though no charges were filed due to insufficient evidence. The probe, linked to U.S. suspicions of her ties to Jensen Huang and AI chip diversions, fueled Nvidia's scandal, prompting Jensen Huang's resignation as CEO and a 10 percent stock plunge to around 156. Singapore acted independently despite limited U.S. cooperation, amid ongoing probes into Megaspeed and six others.",
+      "hook": "Alice Huang handed back her passport and left Singapore, now permanently barred after police found she downplayed her role at Megaspeed International.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T21:26:51.000Z",
+      "url": "https://x.com/i/trending/2120988718677078129",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Megaspeed investigation"
+          ],
+          "organizations": [
+            "Megaspeed",
+            "Nvidia",
+            "DOJ",
+            "FBI"
+          ],
+          "people": [
+            "Alice Huang"
+          ],
+          "places": [
+            "Singapore",
+            "Beijing",
+            "China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Crime"
+        ]
+      }
+    },
+    {
+      "id": "2120982844659155098",
+      "name": "Grammar Quiz Debates 'Died ___ a Heart Attack'",
+      "summary": "The English grammar account posted options—by, from, with, or of—sparking users to explain that 'of' fits internal causes like diseases and heart attacks, while 'from' suits external factors like injuries. Language guides confirm both can work for illnesses, though 'of' often sounds more natural, and commenters noted 'with' implies coincidence instead. Jokes and memory tricks from songs added a fun touch as people tested similar cases like dying of old age.",
+      "hook": "A simple quiz on completing 'She died ___ a heart attack' pulled in tens of thousands of replies, with folks eagerly sharing their picks and rules of thumb.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:59:03.000Z",
+      "url": "https://x.com/i/trending/2120982844659155098",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Education"
+        ]
+      }
+    },
+    {
+      "id": "2120276241626677503",
+      "name": "Kushner and Witkoff Meet Putin After Abu Dhabi Prisoner Swap Deal",
+      "summary": "Acting as special envoys for President Trump, Kushner and Witkoff wrapped up two days of US-led talks between Russian and Ukrainian teams in the UAE, securing an agreement in principle for one of the war's largest prisoner swaps. No progress came on key issues like territory or security guarantees, but Kushner expressed encouragement and noted upcoming finalization of prisoner numbers. The Moscow visit precedes consultations in Dublin with Ukrainian President Zelenskyy and European leaders, amid divided reactions—some like Anne Applebaum warn it pressures Ukraine and prolongs fighting, while EU's Kaja Kallas calls for ceasefire first.",
+      "hook": "Fresh from mediating a major prisoner exchange in Abu Dhabi, US envoys Jared Kushner and Steve Witkoff landed in snowy Moscow to brief President Putin on Ukraine peace efforts.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:24:43.000Z",
+      "url": "https://x.com/i/trending/2120276241626677503",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Ukraine peace talks",
+            "trilateral talks",
+            "prisoner exchange"
+          ],
+          "organizations": [
+            "null"
+          ],
+          "people": [
+            "Vladimir Putin",
+            "Steve Witkoff",
+            "Jared Kushner",
+            "Donald Trump"
+          ],
+          "places": [
+            "Kremlin",
+            "Moscow",
+            "Ukraine"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "null"
+          ]
+        },
+        "sports": {
+          "teams": [
+            "null"
+          ]
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120358161064546520",
+      "name": "Trump-Netanyahu Tensions Escalate Over Iran Strategy",
+      "summary": "Netanyahu pushed for major combat operations and regime change in Tehran, arguing Iran is rebuilding its nuclear capabilities, while Trump advocated giving diplomacy and economic pressure more time. Israeli media described the exchange as a 'shouting match from hell,' though Netanyahu's office dismissed those reports as fake news. Meanwhile, Israel's security cabinet ordered military preparations for possible strikes, amid a new British poll showing 78% of respondents view Israel as a serious threat to world peace, second only to Russia.",
+      "hook": "A weekend phone call between U.S. President Donald Trump and Israeli Prime Minister Benjamin Netanyahu reportedly erupted into a fierce shouting match, as the leaders clashed on how to handle Iran's nuclear threat.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T20:12:08.000Z",
+      "url": "https://x.com/i/trending/2120358161064546520",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Ynet",
+            "Yedioth Ahronoth"
+          ],
+          "people": [
+            "Donald Trump",
+            "Benjamin Netanyahu"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120964723508130210",
+      "name": "Nvidia CEO Jensen Huang Resigns Over Affairs and Spy Concerns",
+      "summary": "Huang resigned Thursday following a board investigation into his relationships, including one with Alice Huang of Megaspeed, a Nvidia customer accused of diverting chips to China, and another with company VP Kimberly Powell. In a letter to employees on November 8, he apologized to his wife of 40 years for the unfaithfulness. The Economist's editorial called his position untenable due to risks to Nvidia's success and U.S. security, prompting backlash on X where some defended him as invaluable, while others stressed the stakes for AI leadership. Nvidia's stock dropped sharply, a shareholder sued over misleading investors, and CFO Colette Kress now serves as interim CEO.",
+      "hook": "Jensen Huang, Nvidia's co-founder and leader for decades, stepped down after admitting to two extramarital affairs—one linked to a woman U.S. officials suspect as a Chinese spy.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T19:46:46.000Z",
+      "url": "https://x.com/i/trending/2120964723508130210",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "The Economist"
+          ],
+          "people": [
+            "Jensen Huang"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120534041505976732",
+      "name": "Ted Cruz Boosts Nick Fuentes Clip on Anti-Israel Online Surge",
+      "summary": "Cruz amplified a video from Nick Fuentes, who argued that anti-Israel views exploded after the right's 2024 win, evolving into anti-Jewish content seeded by the left and Muslim nations, then exploited by grifters for profit. He wrote that every word rang true as a foreign influence operation. Responses split sharply, with some mocking Fuentes as a 'FED' and others pointing to Cruz's heavy funding from pro-Israel groups like AIPAC, which has given his campaigns hundreds of thousands over recent cycles.",
+      "hook": "Sen. Ted Cruz shared a podcaster's breakdown of rising anti-Israel sentiment online, calling it a foreign plot tearing the country apart.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T19:00:00.000Z",
+      "url": "https://x.com/i/trending/2120534041505976732",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Russia-Ukraine war"
+          ],
+          "organizations": [],
+          "people": [
+            "Nick Fuentes"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120898131017818589",
+      "name": "Photos of Neglected Rural Property Spark Debate on Small-Town Realities",
+      "summary": "A set of photos showing a cluttered, rundown rural property with junked vehicles and visible signs of neglect prompted blunt talk about health issues, rudeness, and drugs in such areas. Some agreed, citing century-old economic voids in old lumber and railroad towns, job losses to overseas manufacturing, and the opioid crisis hitting rural spots hardest, while recent reports note rising costs squeezing farm communities. Others suggested compromises like living near mid-sized cities of 75,000 for services without full urban hustle, and noted that not all rural areas struggle equally—a lighthearted 'Whole Foods Index' even emerged for amenity-rich spots.",
+      "hook": "Rusted cars piled up amid overgrown weeds and a crumbling building paint a stark picture of rural decay that one poster said they'd never call home.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T18:36:23.000Z",
+      "url": "https://x.com/i/trending/2120898131017818589",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [
+            "Rural America"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "News",
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120307529846796341",
+      "name": "Short Seller's Nvidia Bet Gains Spotlight After Stock Plunge",
+      "summary": "In May 2026, Culper Research, founded by 31-year-old Christian Lamarco, released a 40-page report shorting Nvidia over its China exposure via Southeast Asian channels, despite U.S. export curbs. The firm, named after George Washington's spy ring and run by just two analysts, drew little notice then as Nvidia hit record highs. Now, with the stock down sharply and over $1 trillion in value erased amid scrutiny of its China ties, traders are tipping their hats to the underdog research that warned early. Lamarco's story highlights how small outfits can uncover risks big players miss, though short selling stays a high-stakes game.",
+      "hook": "From a Brooklyn apartment, Christian Lamarco's tiny team bet against Nvidia's China risks—and six months later, their call looks prescient as shares drop 25%.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T15:32:35.000Z",
+      "url": "https://x.com/i/trending/2120307529846796341",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Culper Research",
+            "Nvidia",
+            "Megaspeed",
+            "Alibaba"
+          ],
+          "people": [
+            "Jensen Huang"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Technology"
+        ]
+      }
+    },
+    {
+      "id": "2120828084903711017",
+      "name": "Hot US Inflation Data Locks In Fed Rate Hike Expectations",
+      "summary": "US consumer prices rose 0.4% in October, beating forecasts of 0.3%, while core CPI excluding food and energy climbed 0.3% against expectations of 0.2%, pushing the three-month annualized core rate to 3.75%—its highest since April 2024. Traders now see a 100% chance of a December rate hike, with 90.8% odds for 25 basis points and 9.2% for 50, driving the dollar to a 19-month high. Fed Governor Christopher Waller supports the move to protect credibility, though some caution that labor and growth data might call for patience; the next meeting is December 8-9.",
+      "hook": "October's consumer prices jumped higher than anyone predicted, flipping market bets toward a Federal Reserve rate hike this December.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T15:32:31.000Z",
+      "url": "https://x.com/i/trending/2120828084903711017",
+      "contexts": {
+        "entities": {
+          "events": [
+            "December 8-9 meeting"
+          ],
+          "organizations": [
+            "Federal Reserve"
+          ],
+          "people": [
+            "Christopher Waller"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120601813988643036",
+      "name": "Zelenskyy Visits Dublin for Key Talks on Ukraine Defense and Energy",
+      "summary": "Zelenskyy arrived in Dublin on November 11 for the European Political Community Summit, his third visit to Ireland in a year, where he met Martin to discuss frontline updates, damaged infrastructure, and Ireland's support. Ireland committed €25 million more to Ukraine's Energy Support Fund—totaling €52 million—to repair power systems before winter, and agreed to join a drone coalition focused on naval security. Zelenskyy urged the return of mobilization-age Ukrainians while noting family complexities, as parallel US-Russia talks in Moscow loomed with plans to brief him soon.",
+      "hook": "Ukrainian President Volodymyr Zelenskyy stepped off his plane in Dublin, greeted by Irish flags and a warm handshake from Taoiseach Micheál Martin amid talks on war and winter readiness.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T15:31:53.000Z",
+      "url": "https://x.com/i/trending/2120601813988643036",
+      "contexts": {
+        "entities": {
+          "events": [
+            "EU mission to assist in Hezbollah disarmament"
+          ],
+          "organizations": [
+            "EU",
+            "Hezbollah"
+          ],
+          "people": [
+            "Irish Taoiseach"
+          ],
+          "places": [
+            "Ireland"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120272598806270068",
+      "name": "Rubio Declares U.S. Foreign Policy Serves America First at G7",
+      "summary": "Rubio made the remarks to emphasize that U.S. actions prioritize American interests, even if they differ from allies or foes. The State Department amplified the message online, drawing praise from supporters like commentator Eric Daugherty, who called it 'pure GOLD,' while critics including Iran's Foreign Minister accused the U.S. of repeating failed policies. Reactions highlighted questions on consistency, such as past donations from pro-Israel groups and selective approaches toward Russia. The stance reflects the Trump administration's focus on U.S. priorities amid sanctions on Iran and global tensions.",
+      "hook": "At G7 meetings in Paris, Secretary of State Marco Rubio cut straight to the point: 'We work for America. We don't work for the global order or other countries.' His words landed amid talks on Iran and Ukraine.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T15:12:15.000Z",
+      "url": "https://x.com/i/trending/2120272598806270068",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "U.S. State Department"
+          ],
+          "people": [
+            "Marco Rubio"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120411531921740057",
+      "name": "Nvidia H200 Chips Stockpile in Hong Kong Amid China Import Restrictions",
+      "summary": "Beijing withholds large-scale approval for the advanced chips to boost domestic makers like Huawei, allowing only small shipments to firms such as ByteDance and Alibaba—about 10,000 each recently. This has driven grey market prices sky-high, with an eight-chip server now costing over three times last year's price. Meanwhile, a U.S.-blacklisted university tied to China's military bought two H200s last month for $123,000 and rented capacity for AI work, highlighting enforcement gaps in U.S. export controls. The standoff pits China's self-reliance push against firms' need for Nvidia's top performance.",
+      "hook": "Around 600,000 Nvidia H200 AI chips wait in Hong Kong warehouses, blocked from mainland China even as tech giants hunger for their power.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T14:35:41.000Z",
+      "url": "https://x.com/i/trending/2120411531921740057",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Northwestern Polytechnical University",
+            "Shaanxi Bosuan Network Technology",
+            "US Commerce Department",
+            "Nvidia"
+          ],
+          "people": [],
+          "places": [
+            "Xi’an, China"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120547998153510949",
+      "name": "Rasmussen Urges Britain and France to Deploy Troops to Ukraine Now",
+      "summary": "Rasmussen laid out a five-point plan to end the Ukraine war, pushing for immediate troop deployments from Britain and France to guard key sites and alter Putin's strategy. His steps include linking Ukraine to NATO defenses, sending all Patriot systems to Kyiv, seizing over €200 billion in Russian assets for Ukraine, imposing strict sanctions like a fossil fuel ban, and offering firm security pledges. Lord Mark Sedwill echoed the need for NATO to go on the offensive, creating threats for Russia across multiple fronts to force real deterrence. While some praise the ideas for protecting civilians and speeding talks, others caution they could broaden the conflict.",
+      "hook": "Anders Fogh Rasmussen, former NATO chief, refuses to sit idle while talks drag on. He calls on Britain and France to send troops right away to shift the war's momentum.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T14:18:09.000Z",
+      "url": "https://x.com/i/trending/2120547998153510949",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "NATO",
+            "The Telegraph"
+          ],
+          "people": [
+            "Anders Fogh Rasmussen"
+          ],
+          "places": [
+            "Ukraine",
+            "Kyiv"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120878276310618601",
+      "name": "Chinese AI Firms Rush to Rent Overseas Nvidia Capacity Amid CEO Scandal Fears",
+      "summary": "Firms are approaching data centers in Southeast Asia and elsewhere to reserve capacity, spurred by reports of Nvidia CEO Jensen Huang's admitted infidelity with Alice Huang, a Chinese businesswoman U.S. intelligence labels a spy linked to smuggling billions in chips to China. They worry this controversy will accelerate the Remote Access Security Act, a bill passed by the House that would regulate cloud access to restricted tech and close a key workaround to existing export bans. Chinese AI stocks like Alibaba dropped sharply, while grey-market traders stockpile chips in anticipation of a broader crackdown.",
+      "hook": "Chinese AI companies are scrambling to secure Nvidia computing power abroad, anxious that a scandal engulfing the chipmaker's CEO could tighten U.S. restrictions even further.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T14:02:53.000Z",
+      "url": "https://x.com/i/trending/2120878276310618601",
+      "contexts": {
+        "entities": {
+          "events": [
+            "Remote Access Security Act"
+          ],
+          "organizations": [
+            "Nvidia"
+          ],
+          "people": [
+            "Jensen Huang"
+          ],
+          "places": [
+            "Southeast Asia"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      }
+    },
+    {
+      "id": "2120416176966607242",
+      "name": "Russia Drops Yuan Push for Dollar in Trade Amid US Sanctions",
+      "summary": "After peaking at nearly half of Russia's foreign trade settlements in mid-2024, the yuan's share has dropped to 22 percent as Chinese banks froze payments fearing US penalties. Russia now takes 69 percent of export payments from Asia in rubles, relying on pricey intermediaries that add 15-20 percent fees and delays. Observers see this as proof of the dollar's lasting dominance through deep markets and liquidity, complicating BRICS de-dollarization goals even as Russia-China trade volumes grow.",
+      "hook": "Russia's bold plan to swap the US dollar for China's yuan in global trade has hit a wall, thanks to American secondary sanctions scaring off banks.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T13:23:19.000Z",
+      "url": "https://x.com/i/trending/2120416176966607242",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Russia",
+            "China"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    },
+    {
+      "id": "2120847362264563965",
+      "name": "Mark Carney Ranks Second on Newsweek's Eco-Dissenter List",
+      "summary": "The November 4 ranking highlights Carney's government's decision to end the consumer carbon tax and tweak other climate measures since 2025, framing them as resistance to rapid decarbonization. Environmental leader Tzeporah Berman criticized the move, pointing to Canada's 'Fossil of the Day' award at COP31 in Turkey and arguing against claiming leadership abroad while cutting policies at home. NDP MP Leah Gazan said Carney ranks worse than billionaires and right-wing figures in addressing the climate emergency. Meanwhile, his comments downplaying security risks from China compared to the US have stirred separate debate ahead of a meeting with Xi Jinping.",
+      "hook": "Canadian Prime Minister Mark Carney landed second on Newsweek's list of top eco-policy dissenters, right behind Bill Gates and ahead of Donald Trump. Climate advocates quickly called it a blow to Canada's global standing.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:58:22.000Z",
+      "url": "https://x.com/i/trending/2120847362264563965",
+      "contexts": {
+        "entities": {
+          "events": [
+            "COP31"
+          ],
+          "organizations": [
+            "Stellantis",
+            "Roshel"
+          ],
+          "people": [
+            "Mark Carney"
+          ],
+          "places": [
+            "Canada"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "STLA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120845853627695345",
+      "name": "Users Challenge NATO Blame in Russia's Ukraine War",
+      "summary": "Social media discussions reject the claim that NATO expansion provoked Russia's invasion of Ukraine, instead pointing to a history of Russian and Soviet imperialism against neighbors. Posts list Russian military actions from 1918 to 2022, highlight voluntary NATO memberships by former Soviet states, and share visuals like charts, maps, and comparisons to past aggressors. While some note Russian security concerns, many emphasize Eastern Europe's choices driven by fear of renewed control, with figures like former Ukrainian President Petro Poroshenko calling NATO the surest defense.",
+      "hook": "A detailed post recalls how Soviet forces occupied half of Europe after World War II, forcing nations to break free and seek NATO protection once the USSR fell.",
+      "category": "News",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T11:51:37.000Z",
+      "url": "https://x.com/i/trending/2120845853627695345",
+      "contexts": {
+        "entities": {
+          "events": [
+            "2008 invasion of Georgia"
+          ],
+          "organizations": [
+            "NATO"
+          ],
+          "people": [
+            "Jake Broe",
+            "Daniel L. Davis"
+          ],
+          "places": [
+            "Eastern Europe",
+            "Ukraine",
+            "Georgia"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Politics"
+        ]
+      }
+    },
+    {
+      "id": "2120595133003596030",
+      "name": "Would You Press the Magic Money Button?",
+      "summary": "A thought experiment asks if you'd press a button for instant cash in your preferred currency, knowing it also gives the same to someone else worldwide. Some say press early to buy assets like gold or real estate before prices rise, echoing the Cantillon effect where first users gain the most. Others call it selfish, arguing it sparks inflation that hurts everyone else's purchasing power. The debate highlights divides between seizing opportunity and considering the broader economic impact.",
+      "hook": "Imagine a button that instantly creates a million units of any currency you choose, but hands one to a random stranger too. People dove deep into what happens next.",
+      "category": "Other",
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "updated_at": "2026-11-12T10:43:32.000Z",
+      "url": "https://x.com/i/trending/2120595133003596030",
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "X"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      }
+    }
+  ]
+}
