@@ -281,43 +281,104 @@ def ingest_papers() -> tuple[int, str]:
     return len(merged), "hf+arxiv"
 
 
+def _aa_cell_text(cell: str) -> str:
+    return H.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", cell))).strip()
+
+
+def _aa_metric(val: str, unit: str) -> str:
+    v = (val or "").strip()
+    if not v or v == "--":
+        return "暂无"
+    return f"{v} {unit}"
+
+
 def ingest_aa() -> list[dict]:
+    """Parse the public AA models table.
+
+    Column order changed (2026-11): Model, Intelligence Index, Cost per Task,
+    Time per Task, First Answer Token, Context Window. Creator is the logo alt
+    on the model cell, not its own column. Map from the header and refuse a
+    shifted layout instead of publishing numbers under the wrong labels.
+    """
     html = fetch("https://artificialanalysis.ai/leaderboards/models", timeout=90).decode("utf-8", "replace")
     rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S)
-    out = []
-    rank = 0
+    parsed: list[tuple[list[str], list[str]]] = []
     for r in rows:
         cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", r, re.S)
-        texts = [H.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", c))).strip() for c in cells]
-        if len(texts) < 6:
+        if len(cells) < 5:
             continue
-        name = texts[0]
-        # skip header
-        if not name or name.lower() in ("model", "models") or "Intelligence" in name:
+        texts = [_aa_cell_text(c) for c in cells]
+        parsed.append((texts, cells))
+
+    col = {"name": 0, "quality": 1, "price": 2, "speed": 3, "latency": 4, "context": 5}
+    for texts, _cells in parsed:
+        joined = " ".join(texts).lower()
+        if texts and texts[0].lower() == "model" and "intelligence" in joined:
+            def find(*needles: str) -> int | None:
+                for i, t in enumerate(texts):
+                    low = t.lower()
+                    if any(n in low for n in needles):
+                        return i
+                return None
+            mapped = {
+                "name": find("model"),
+                "quality": find("intelligence"),
+                "price": find("cost", "price"),
+                "speed": find("time per task", "speed"),
+                "latency": find("first answer", "latency"),
+                "context": find("context"),
+            }
+            if None not in (mapped["name"], mapped["quality"], mapped["price"], mapped["speed"], mapped["latency"]):
+                col = mapped
+            break
+
+    def cell(texts: list[str], key: str) -> str:
+        i = col.get(key)
+        if i is None or i >= len(texts):
+            return ""
+        return texts[i]
+
+    out = []
+    rank = 0
+    for texts, cells in parsed:
+        name = cell(texts, "name")
+        if not name or name.lower() in ("model", "models") or "intelligence" in name.lower():
             continue
-        # expect: name, context, org, quality, price, speed, latency, ...
-        context = texts[1] if len(texts) > 1 else ""
-        org = texts[2] if len(texts) > 2 else ""
-        quality_s = texts[3] if len(texts) > 3 else ""
-        price = texts[4] if len(texts) > 4 else ""
-        speed = texts[5] if len(texts) > 5 else ""
-        latency = texts[6] if len(texts) > 6 else ""
         try:
-            quality = float(quality_s)
+            quality = float(cell(texts, "quality").replace(",", ""))
         except ValueError:
             continue
+        price = cell(texts, "price")
+        speed = cell(texts, "speed")
+        latency = cell(texts, "latency")
+        context = cell(texts, "context")
+        if price not in ("", "--") and "$" not in price:
+            raise ValueError(f"AA price column misaligned for {name!r}: {price!r}")
+        for label, raw in (("speed", speed), ("latency", latency)):
+            if raw not in ("", "--"):
+                try:
+                    float(raw.replace(",", ""))
+                except ValueError:
+                    raise ValueError(f"AA {label} column misaligned for {name!r}: {raw!r}")
+        name_i = col["name"]
+        org = ""
+        if name_i < len(cells):
+            alts = re.findall(r'<img[^>]*\balt="([^"]*)"', cells[name_i])
+            org = next((a.strip() for a in alts if a.strip()), "")
         rank += 1
         if rank > 40:
             break
         frag = slug(name)
+        price_txt = price if price and price != "--" else "暂无"
+        org_txt = f"厂商：{org}。" if org else ""
         out.append({
             "id": f"aa-{frag}",
             "name": name,
             "title": name,
             "origin_title": name,
             "summary": (
-                f"Artificial Analysis 公开榜：智能指数 {quality}，任务成本 {price}，"
-                f"任务耗时 {speed} 分钟，首 token 延迟 {latency} 秒。厂商：{org or '—'}。"
+                f"Artificial Analysis 公开榜：智能指数 {quality}，任务成本 {price_txt}，"
+                f"任务耗时 {_aa_metric(speed, '分钟')}，首 token 延迟 {_aa_metric(latency, '秒')}。{org_txt}"
             ),
             "url": f"https://artificialanalysis.ai/leaderboards/models#{frag}",
             "updated_at": iso_now(),
@@ -336,6 +397,8 @@ def ingest_aa() -> list[dict]:
             "_channel": "models",
             "_pretranslated": True,
         })
+    if not out:
+        raise ValueError("AA table parsed zero ranked models")
     return out
 
 
