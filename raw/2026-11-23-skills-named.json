@@ -1,0 +1,884 @@
+{
+  "fetched_at": "2026-11-23T07:07:47+08:00",
+  "channel": "skills",
+  "source": "x.search_posts_all+x.getUsersPosts",
+  "filter": "named_installable_only",
+  "count": 35,
+  "data": [
+    {
+      "id": "2124565795003105494",
+      "name": "papercraft",
+      "title": "Ocarina of Time in a papercraft scrolling animation.",
+      "summary": "Ocarina of Time in a papercraft scrolling animation. \n\nInsane work by Gemini 4 Neon. Runs in the browser (three.js)\n\nTry the skill: npx skills add xikhar/papercraft https://t.co/NqlQpZKVIt",
+      "hook": "具名可装 · papercraft",
+      "category": "AI技能",
+      "url": "https://x.com/xikhar/status/2124565795003105494",
+      "updated_at": "2026-11-22T18:08:52.000Z",
+      "published_at": "2026-11-22T18:08:52.000Z",
+      "author": "xikhar",
+      "source": "X Post",
+      "x_url": "https://x.com/xikhar/status/2124565795003105494",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "papercraft",
+      "install": "npx skills add xikhar/papercraft",
+      "repo": "xikhar/papercraft",
+      "github_url": "https://github.com/xikhar/papercraft"
+    },
+    {
+      "id": "2124484289400283481",
+      "name": "boring-marketing-skills",
+      "title": "32 free marketing skills for Claude Code, built from real campaigns.",
+      "summary": "32 free marketing skills for Claude Code, built from real campaigns.\n\n→ The start-here skill reads any business's site and reviews and writes its brand files in about 3 minutes\n→ The ai-search skill checks whether ChatGPT, Perplexity and Google's AI mention the business, and what to fix\n→ The Google Business Profile skill compares you with the top 3 in the map pack and writes a month of posts\n→ The service area skill writes town pages that aren't the same page with the city swapped\n→ The reviews skill writes owner replies and sets up the ask after every job\n\nNo paid tools needed. MIT licensed.\n\nInstall: npx skills add boringmarketer/boring-marketing-skills",
+      "hook": "具名可装 · boring-marketing-skills",
+      "category": "AI技能",
+      "url": "https://x.com/RoundtableSpace/status/2124484289400283481",
+      "updated_at": "2026-11-22T12:45:00.000Z",
+      "published_at": "2026-11-22T12:45:00.000Z",
+      "author": "RoundtableSpace",
+      "source": "X Post",
+      "x_url": "https://x.com/RoundtableSpace/status/2124484289400283481",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "boring-marketing-skills",
+      "install": "npx skills add boringmarketer/boring-marketing-skills",
+      "repo": "boringmarketer/boring-marketing-skills",
+      "github_url": "https://github.com/boringmarketer/boring-marketing-skills"
+    },
+    {
+      "id": "2124005408377586034",
+      "name": "anthropics-skills",
+      "title": "整理了一下办公类 AI Skills，GitHub 上同样是制作 PPT、Excel、Word，就有大量不同的选择。",
+      "summary": "整理了一下办公类 AI Skills，GitHub 上同样是制作 PPT、Excel、Word，就有大量不同的选择。\n\n有些主打视觉效果，有些强调文件可编辑性，还有些只是把现有工具包装成 AI 工作流。\n\n对普通用户来说，其实没必要安装那么多。\n\n我根据项目文档、功能和输出格式，筛选了几套值得尝试的办公 Skills，覆盖 PPT、Excel、Word、PDF 四种常见需求。\n\n一套基础办公 Skills，加一个 PPT 专项 Skill，就能覆盖很多日常办公场景。\n\n——\n\n01｜PPT：PPT Master\n\n项目：hugohe3/ppt-master\n\n如果经常需要制作工作汇报、产品介绍或演示文稿，可以优先了解 PPT Master。\n\n它的特点是支持生成原生、可编辑的 PPTX 文件，而不只是幻灯片图片。\n\n主要功能包括：\n● 根据文字或文档生成 PPT\n● 使用原生文字、形状等元素\n● 修改已有 PPT\n● 根据参考模板建立设计方案\n\n我比较看重的是可编辑性。\n\n毕竟 AI 生成的 PPT，后续通常还需要调整内容和排版。\n\n另外，Anthropic 官方 PPTX Skill 和 MiniMax PPTX Generator 也值得关注，但建议先选择一个使用，不必全部安装。\n\n——\n\n02｜Excel：Anthropic XLSX\n\n项目：anthropics/skills/xlsx\n\nExcel 很适合交给 AI 辅助处理，尤其是规则明确的数据工作。\n\n例如，把销售数据整理成 Excel，自动计算收入、增长率，再生成汇总表和图表。\n\nAnthropic XLSX Skill 支持工作簿创建、编辑、公式处理、格式设置和数据分析。\n\n不过要注意：AI 能生成公式，不代表计算结果一定正确。 重要数据仍需核对。\n\n——\n\n03｜Word：Anthropic DOCX\n\n项目：anthropics/skills/docx\n\n适合文档创建、修改和排版，例如：\n● Markdown 转 Word\n● 将会议记录整理成正式文档\n● 修改已有报告并尽量保留格式\n\n它支持 Word 文档的创建、编辑、内容提取和格式处理。\n\nWord 的难点往往不是文字，而是排版。因此生成后，建议检查标题层级、表格、分页和图片位置。\n\n——\n\n04｜PDF：Anthropic PDF\n\n项目：anthropics/skills/pdf\n\n主要用于 PDF 内容处理，包括：\n● 提取文字和表格\n● 合并、拆分 PDF\n● 创建新的 PDF 文件\n\n需要注意，提取 PDF 内容和直接修改原有版面是两回事。\n\n扫描件、复杂排版等情况，可能需要额外工具。\n\n——\n\n选择办公 Skill，不能只看展示效果，更重要的是三个问题：\n① 能不能完成实际任务？\n② 生成的文件能不能继续编辑？\n③ 安装和维护成本是否值得？\n\n尤其是 PPT，漂亮的 HTML 演示页面和可编辑的 PPTX 文件，并不是同一种交付结果。\n\n不一定要选择功能最多的 Skill，能稳定完成工作、生成真正可用的文件，才是最重要的。\n\n我的优先推荐组合是：\n● PPT： PPT Master\n● Excel： Anthropic XLSX\n● Word： Anthropic DOCX\n● PDF： Anthropic PDF\n\n后三个 Skill 均来自 Anthropic 官方仓库。\n\nAnthropic 官方仓库：https://t.co/9sNOsB9hj4\nPPT Master仓库：https://t.co/JnD7s6IEob\n\n希望可以帮到你～",
+      "hook": "具名可装 · anthropics-skills",
+      "category": "AI技能",
+      "url": "https://x.com/Morry4AI/status/2124005408377586034",
+      "updated_at": "2026-11-21T05:02:06.000Z",
+      "published_at": "2026-11-21T05:02:06.000Z",
+      "author": "Morry4AI",
+      "source": "X Post",
+      "x_url": "https://x.com/Morry4AI/status/2124005408377586034",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "anthropics-skills",
+      "install": "npx skills add anthropics/skills",
+      "repo": "anthropics/skills",
+      "github_url": "https://github.com/anthropics/skills"
+    },
+    {
+      "id": "2124513984984555683",
+      "name": "social-media-research-skills",
+      "title": "卧槽！！！github的大神又开发了一套开源 Skill",
+      "summary": "卧槽！！！github的大神又开发了一套开源 Skill\n\n教你的 AI 助手去扒 TikTok、Instagram、YouTube、Reddit、X 和 LinkedIn 上真正跑起来的帖子。\n\n它能找出一个账号里超平均的爆款，读评论挖出大家在问什么、在骂什么，还能把竞争对手和他们的广告拆开看。\n\n装法就一行：\nnpx skills add ScrapeCreators/social-media-research-skills\n\nClaude Code、Cursor、Codex、Gemini CLI 都能用。\nhttps://t.co/Ete5a2hyFH",
+      "hook": "具名可装 · social-media-research-skills",
+      "category": "AI技能",
+      "url": "https://x.com/ChantoziQ/status/2124513984984555683",
+      "updated_at": "2026-11-22T14:43:00.000Z",
+      "published_at": "2026-11-22T14:43:00.000Z",
+      "author": "ChantoziQ",
+      "source": "X Post",
+      "x_url": "https://x.com/ChantoziQ/status/2124513984984555683",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "social-media-research-skills",
+      "install": "npx skills add ScrapeCreators/social-media-research-skills",
+      "repo": "ScrapeCreators/social-media-research-skills",
+      "github_url": "https://github.com/ScrapeCreators/social-media-research-skills"
+    },
+    {
+      "id": "2124605588684579111",
+      "name": "Scrapling",
+      "title": "卧槽 GitHub Star 数已逼近 10 万！Scrapling：让 AI Agent 具备强劲的网页抓取能力！",
+      "summary": "卧槽 GitHub Star 数已逼近 10 万！Scrapling：让 AI Agent 具备强劲的网页抓取能力！\n\n这是一套开源的 Python 网页抓取框架，单页提取和大规模并发爬虫都不在话下。\n\n核心亮点：\n\n✅ 静态网页和 JavaScript 动态页面都能抓\n\n✅ 隐身浏览器、指纹模拟加代理轮换，反爬应对能力更强\n\n✅ 智能元素定位，网页结构变动后依然能试着找回目标数据\n\n✅ 并发爬取、自动重试、断点续爬、多格式导出全都支持\n\n✅ 内置 MCP Server 和 Agent Skill，Claude、Cursor 等 AI Agent 可直接调用网页抓取工具\n\n特别适合 AI Agent 自动化、RAG 知识库构建、数据采集和竞品监控。\n\n项目地址：https://t.co/4Okb9caERm",
+      "hook": "具名可装 · Scrapling",
+      "category": "AI技能",
+      "url": "https://x.com/shenxiankk/status/2124605588684579111",
+      "updated_at": "2026-11-22T20:47:00.000Z",
+      "published_at": "2026-11-22T20:47:00.000Z",
+      "author": "shenxiankk",
+      "source": "X Post",
+      "x_url": "https://x.com/shenxiankk/status/2124605588684579111",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "Scrapling",
+      "install": "npx skills add D4Vinci/Scrapling",
+      "repo": "D4Vinci/Scrapling",
+      "github_url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "id": "2124609145613508722",
+      "name": "finding-google-skills",
+      "title": "no f*cking way... Google just put 413 free skills for Claude Code on GitHub. built by Google's own teams. 5.4 million installs and almost nobody is talking about it",
+      "summary": "no f*cking way... Google just put 413 free skills for Claude Code on GitHub. built by Google's own teams. 5.4 million installs and almost nobody is talking about it\n\none plans your ad budget with the same model Google gives advertisers. one builds a virtual try-on for your store. one spots changes on Earth from satellite data. one threat-models your app before a hacker does\n\n235 for Google Cloud, BigQuery, Cloud Run and the Gemini API\n53 for building and deploying your own agents with ADK\n52 for security: threat models, fuzzing, dependency scans\n73 more for Android graphics, XR, marketing and Earth Engine\n\na cloud architect, a security engineer and a marketing analyst cost $47,300 a month. here all 413 cost $0\n\nhow to grab them:\n\n1. run: npx skills add https://t.co/2BVgVqU1wD --skill finding-google-skills\n2. open Claude Code\n3. tell it what you're building and let the finder pick Google's skills for you\n\nskills: https://t.co/2BVgVqU1wD\nall 413: https://t.co/JpqhnyVoaL\n\nstart with the finder, then one skill for the thing you're stuck on\n\nGoogle's whole playbook is below ↓",
+      "hook": "具名可装 · finding-google-skills",
+      "category": "AI技能",
+      "url": "https://x.com/Walrus_systems/status/2124609145613508722",
+      "updated_at": "2026-11-22T21:01:08.000Z",
+      "published_at": "2026-11-22T21:01:08.000Z",
+      "author": "Walrus_systems",
+      "source": "X Post",
+      "x_url": "https://x.com/Walrus_systems/status/2124609145613508722",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "finding-google-skills",
+      "install": "npx skills add google/skills",
+      "repo": "google/skills",
+      "github_url": "https://github.com/google/skills"
+    },
+    {
+      "id": "2124621561369940318",
+      "name": "remotion-dev-skills",
+      "title": "claude animates by writing code that renders to video. use claude code + remotion's skill (npx skills add remotion-dev/skills), then brief it like a motion designer: size, fps, each scene in seconds, what moves and how, colors and fonts. https://t.co/zwh9df71O5",
+      "summary": "claude animates by writing code that renders to video. use claude code + remotion's skill (npx skills add remotion-dev/skills), then brief it like a motion designer: size, fps, each scene in seconds, what moves and how, colors and fonts. https://t.co/zwh9df71O5",
+      "hook": "具名可装 · remotion-dev-skills",
+      "category": "AI技能",
+      "url": "https://x.com/feyitheunicorn/status/2124621561369940318",
+      "updated_at": "2026-11-22T21:50:28.000Z",
+      "published_at": "2026-11-22T21:50:28.000Z",
+      "author": "feyitheunicorn",
+      "source": "X Post",
+      "x_url": "https://x.com/feyitheunicorn/status/2124621561369940318",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "remotion-dev-skills",
+      "install": "npx skills add remotion-dev/skills",
+      "repo": "remotion-dev/skills",
+      "github_url": "https://github.com/remotion-dev/skills"
+    },
+    {
+      "id": "2124594207864078765",
+      "name": "ccusage",
+      "title": "this is f*cking brilliant...",
+      "summary": "this is f*cking brilliant...\n\nYOU'RE STILL GUESSING HOW MUCH OF YOUR CLAUDE CODE LIMIT IS LEFT WHILE FREE TOOLS ON GITHUB SHOW IT, AND WHAT'S EATING IT, RIGHT IN YOUR TERMINAL.\n\nOne shows your limit. One shows your pace. One finds the waste. One keeps you going when you hit the wall.\n\nHere are 13 GitHub projects to stop hitting your Claude Code limit:\n\nSEE YOUR USAGE\n\n01 / ccusage → Daily, weekly and session token reports from your local logs. One command: npx ccusage@latest\nhttps://t.co/NlqHqHSX4F\n\n02 / Claude Code Usage Monitor → Live terminal monitor with forecasts and warnings.\nhttps://t.co/0rfHUd9B3j\n\n03 / claude-usage → Local dashboard with charts and cost estimates, as a web app or a VS Code extension.\nhttps://t.co/C7hITH2tzt\n\nSTATUS LINE\n\n04 / claude-pace → 5h and 7d quota in your status line, red when you burn faster than the window allows.\nhttps://t.co/XDPxNJMJCF\n\n05 / Claude Status Bar → Reset countdowns plus a prompt-cache timer that tells you when the next turn pays full price.\nhttps://t.co/WH7NS8a8wa\n\n06 / ccstatusline → Custom status line with model, git branch and token usage.\nhttps://t.co/0efTQoglhJ\n\nON YOUR DESK\n\n07 / CCSeva → macOS menu bar app with alerts at 70% and 90% of your limit.\nhttps://t.co/lBkzmzgyvG\n\n08 / Claude Code Usage Monitor for Windows → Taskbar widget with usage and reset times.\nhttps://t.co/O1UA1allZL\n\n09 / Clawdmeter → Your limits on a small ESP32 screen next to your keyboard.\nhttps://t.co/mhHh4yzyHe\n\nCUT THE WASTE\n\n10 / unclog → Shows the token cost of every agent, skill and command you installed, and the baseline before you type a word.\nhttps://t.co/lK0mzyrrY0\n\n11 / claude-crusts → Finds files read again and again, unused tool sched files, ranked by tokens saved.\nhttps://t.co/F937CIzqE7\n\n12 / claude-code-usage-analysis → Measures which habits throw your cache away, plus a prompt that checks your own logs.\nhttps://t.co/jiAtQwRFW5\n\nWHEN YOU HIT THE WALL\n\n13 / Claude Code Local → Carries the same conversation on with a local .\nhttps://t.co/ZVZw7mvXyd\n\nBookmark this. Which tips actually save tokens, tested on 945 runs, is in the article below",
+      "hook": "具名可装 · ccusage",
+      "category": "AI技能",
+      "url": "https://x.com/0xGhostyx/status/2124594207864078765",
+      "updated_at": "2026-11-22T20:01:46.000Z",
+      "published_at": "2026-11-22T20:01:46.000Z",
+      "author": "0xGhostyx",
+      "source": "X Post",
+      "x_url": "https://x.com/0xGhostyx/status/2124594207864078765",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ccusage",
+      "install": "npx skills add ccusage/ccusage",
+      "repo": "ccusage/ccusage",
+      "github_url": "https://github.com/ccusage/ccusage"
+    },
+    {
+      "id": "2124499478539317249",
+      "name": "termix-agent-skills",
+      "title": "如果你的 AI Agent 不只是会写代码，还能自己注册身份、寻找工作、提交报价，甚至完成链上交付，会发生什么？",
+      "summary": "如果你的 AI Agent 不只是会写代码，还能自己注册身份、寻找工作、提交报价，甚至完成链上交付，会发生什么？\n\n我最近发现了 @termix_ai 一个值得开发者关注的开源项目：TermiX AACP Agent Skills。\n\n它不是又一个普通的 AI 插件，而是一套让 Agent 理解 AACP 商业工作流的 Skills。\n\n目前支持 Claude Code、Cursor 和 OpenClaw。\n\n安装也很简单：\n\nnpx skills add TermiX-official/termix-agent-skills\n安装后，你可以直接向 Agent 提出任务：\n• 注册 Client、Provider 或 Evaluator 身份\n• 查找匹配自身能力的工作\n• 创建任务并提交报价\n• 质押 USDC\n• 提交交付成果\n• 查询争议和仲裁状态\n• 查看协议数据和 Treasury 指标\n\n我最感兴趣的是，它把原本需要开发者逐步理解的协议操作流程，整理成了 Agent 可以调用的工作知识。\n\n这意味着开发者不必每次都从零开始教 Agent 如何参与 AACP。\n一个值得关注的细节：目前这个 Skills 仓库连接的是 BSC Testnet，适合先体验和测试工作流，并不代表所有功能已经在主网上线。\nAI Agent 的下一步，不只是拥有工具，而是拥有参与真实商业活动的能力。\nGitHub:\nhttps://t.co/iDHGDsr7j5",
+      "hook": "具名可装 · termix-agent-skills",
+      "category": "AI技能",
+      "url": "https://x.com/Crypto_rider77/status/2124499478539317249",
+      "updated_at": "2026-11-22T13:45:21.000Z",
+      "published_at": "2026-11-22T13:45:21.000Z",
+      "author": "Crypto_rider77",
+      "source": "X Post",
+      "x_url": "https://x.com/Crypto_rider77/status/2124499478539317249",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "termix-agent-skills",
+      "install": "npx skills add TermiX-official/termix-agent-skills",
+      "repo": "TermiX-official/termix-agent-skills",
+      "github_url": "https://github.com/TermiX-official/termix-agent-skills"
+    },
+    {
+      "id": "2124434823934877772",
+      "name": "gemini-api-cli",
+      "title": "在codex里面调用gemini写文案，从未有过这么爽的体验！！！！",
+      "summary": "在codex里面调用gemini写文案，从未有过这么爽的体验！！！！\n\n主包在此之前一直使用codex来帮我润色文案，但是工作效率很低，codex帮我写的文案从来都不会令我满意，只能他先写完之后我再大改，或者我给他口喷一段让他整理我再小改，偶尔有大量文案的需求的时候我会单独使用gemini来喂给他上下文进行生成，但是这就导致了一个问题，我的工作上下文在codex，我没有办法完整的让gemini知道我的上下文并沉淀出本次工作的文案。\n\n所以主包这回直接想了一招焚诀，话不多说我们直接进入正题：\n\n做法很直接，给电脑装上 Google 官方开源的 Gemini API CLI，命令叫 gemini-api，让 Codex 整理当前任务的资料和要求，再交给 Gemini 写稿，全部步骤如下：\n\n第一步：装好工具和 Skill\n\n在 Mac 上打开“终端”，粘贴下面这行并回车：\n\ncurl -fsSL https://t.co/6K1GLHSwKT | bash\n\n跑完敲一下 gemini-api --version，能出版本号就说明装好了，找不到命令就让 Codex 检查安装路径。接着装官方 Skill：\nnpx skills add google-gemini/gemini-skills --skill gemini-api-cli --global\n\n中途让你选工具就选 Codex。如果提示没有 npx，让 Codex 帮你装好 Node.js LTS 再运行。装完让它确认能读到这个 Skill 就行。\n\n第二步：填好 API Key\n\n打开 Google AI Studio 登录账号，选择或新建项目，生成一把 API Key。拿到 Key 后在自己电脑上填，别往聊天框里发。在终端运行：「gemini-api configure」\n\n把 Key 填进 API Key 那一栏，OAuth access token 留空，API version 保持默认的 v1beta，API revision 和 Quota project 没特殊需求也留空，按界面提示保存。在 Mac 上系统钥匙串可用时，凭证会存进钥匙串，之后不用反复填。（看不懂就直接丢给codex让他给你具体命令，为了篇幅我就不全部列出来了\n\n第三步：跑通调用，直接用起来\n\n配好后让 Codex 实际跑一条，收到真实回复才算通：\n\ngemini-api generate \"请只回复：Gemini 实际调用成功。\" -m gemini-4-neon\n\n这里有个插曲，我之前在 Work 模式下受到沙箱环境限制，没法联网调用 gemini-api，后来切换到 Codex 模式继续调用就跑通了。\n\n之后我就是在 Codex 里正常说这次想写什么，让它整理本次工作的上下文和资料，交给 Gemini 写。看完哪里不满意，就在当前聊天里提意见，让它再交给 Gemini 改。这篇也是这样来回改的。\n\n最后说一下费用，网页会员和 API 计费是分开的。但是目前Google会给 AI Pro及以上订阅每月开发者赠金，pro，ultra5x和20x分别是 10、40、100 美元，我是之前jio买的18个月pro每个月10美元api赠金，三个月已经攒了30美元，我个人完全够用了。\n\n不过这个使用赠金有至少 5 美元预付及余额条件，具体看自己的账户页面，不同人不一样，主包自己必须要预付30刀才可以。。。。。。他会优先花你的赠金，赠金花完了才会花预付金，我这个预付金基本上是用不到了，就当捐给google了😡😡",
+      "hook": "具名可装 · gemini-api-cli",
+      "category": "AI技能",
+      "url": "https://x.com/YuriWang49/status/2124434823934877772",
+      "updated_at": "2026-11-22T09:28:26.000Z",
+      "published_at": "2026-11-22T09:28:26.000Z",
+      "author": "YuriWang49",
+      "source": "X Post",
+      "x_url": "https://x.com/YuriWang49/status/2124434823934877772",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "gemini-api-cli",
+      "install": "npx skills add google-gemini/gemini-skills --skill gemini-api-cli --global",
+      "repo": "google-gemini/gemini-skills",
+      "github_url": "https://github.com/google-gemini/gemini-skills"
+    },
+    {
+      "id": "2124627871989727629",
+      "name": "awesome-gamedev-agent-skills",
+      "title": "holy f*ck... 79 free skills just turned Claude Code into a full game studio. Unity, Unreal, Godot, Roblox and 8 more engines",
+      "summary": "holy f*ck... 79 free skills just turned Claude Code into a full game studio. Unity, Unreal, Godot, Roblox and 8 more engines\n\nGTA 6 took Rockstar 13 years and 2,000 people. yours takes a weekend and one sentence. a studio charges $25,000 for a small game, here it costs $0. describe yours and the right skills load themselves:\n\n→ shooter: enemies that flank you, take cover and call for backup\n→ RPG: quests, dialogue trees, inventory, saves\n→ roguelike: a new map every run, loot that scales\n→ Roblox: a simulator with pets, coins and a shop\n→ survival: crafting, hunger, base building\n→ the last step: a Steam build that passes every check\n\none line, 30 seconds to install: npx skills add gamedev-skills/awesome-gamedev-agent-skills\n\nthen paste this and swap in your idea:\n\n\"you are my game studio. build a [genre] in [engine] about [idea]. start with a one-page design doc: core loop, controls, 3 levels. ship the smallest playable version first, test it, fix what breaks, then add one feature at a time. nothing is done until I can play it\"\n\nyour new game studio is here: https://t.co/cIC7Ce8O2l\n\nwhat game have you been putting off for years?\n\nall 79 skills on one map below ↓ pick your genre and start tonight",
+      "hook": "具名可装 · awesome-gamedev-agent-skills",
+      "category": "AI技能",
+      "url": "https://x.com/mika_systems/status/2124627871989727629",
+      "updated_at": "2026-11-22T22:15:33.000Z",
+      "published_at": "2026-11-22T22:15:33.000Z",
+      "author": "mika_systems",
+      "source": "X Post",
+      "x_url": "https://x.com/mika_systems/status/2124627871989727629",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "awesome-gamedev-agent-skills",
+      "install": "npx skills add gamedev-skills/awesome-gamedev-agent-skills",
+      "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+      "github_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills"
+    },
+    {
+      "id": "2124632516447600991",
+      "name": "create-blender-story-video",
+      "title": "一个 Skill，竟然把Blender 从建模到成片的流程串起来了！",
+      "summary": "一个 Skill，竟然把Blender 从建模到成片的流程串起来了！\n\n让 AI在 Blender 里搭个 3D 场景已经不算新鲜了，但要做成一整条动画，后面的分镜、渲染、剪辑才是真正麻烦的地方\n\n装好Create Blender Story Video以后，给 Codex 或 Claude Code 一句创意，先确定视觉风格和分镜，再通过 Blender MCP 配合 Python 脚本建模、布光、设置摄像机和动画\n\n它对渲染的处理特别细节，它不是直接输出一整段视频，而是逐帧渲染成 PNG，分批记录进度，中途断了，还可以根据保存的状态接着渲，不用全部推倒重来。\n\n镜头完成后，还能接入 DaVinci Resolve 剪辑。最后检查帧数、编码、色彩信息，甚至还会验证整段视频能不能完整解码\n\n这套思路还是很实用的，让 AI 不是只负责制作，还得留下能检查、能恢复的中间成果\n\nGitHub：\nhttps://t.co/OGw9nbcFdR",
+      "hook": "具名可装 · create-blender-story-video",
+      "category": "AI技能",
+      "url": "https://x.com/CY160909/status/2124632516447600991",
+      "updated_at": "2026-11-22T22:34:00.000Z",
+      "published_at": "2026-11-22T22:34:00.000Z",
+      "author": "CY160909",
+      "source": "X Post",
+      "x_url": "https://x.com/CY160909/status/2124632516447600991",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "create-blender-story-video",
+      "install": "npx skills add yoruuuchan/create-blender-story-video",
+      "repo": "yoruuuchan/create-blender-story-video",
+      "github_url": "https://github.com/yoruuuchan/create-blender-story-video"
+    },
+    {
+      "id": "2124638737481220323",
+      "name": "huashu-design",
+      "title": "Huashu-Design 3.5发布了！这版能专门设计微信小程序，设计完的交付包可以直接交给WorkBuddy做成真的小程序；另外按App Store的分类又跑了18个App原型方向。",
+      "summary": "Huashu-Design 3.5发布了！这版能专门设计微信小程序，设计完的交付包可以直接交给WorkBuddy做成真的小程序；另外按App Store的分类又跑了18个App原型方向。\n\n安装或更新：把 https://t.co/rMvLbPR98v 发给你的agent就行 https://t.co/oI4amITzX1",
+      "hook": "具名可装 · huashu-design",
+      "category": "AI技能",
+      "url": "https://x.com/AlchainHust/status/2124638737481220323",
+      "updated_at": "2026-11-22T22:58:43.000Z",
+      "published_at": "2026-11-22T22:58:43.000Z",
+      "author": "AlchainHust",
+      "source": "X Post",
+      "x_url": "https://x.com/AlchainHust/status/2124638737481220323",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "huashu-design",
+      "install": "npx skills add alchaincyf/huashu-design",
+      "repo": "alchaincyf/huashu-design",
+      "github_url": "https://github.com/alchaincyf/huashu-design"
+    },
+    {
+      "id": "2124594767795564994",
+      "name": "LibreChat",
+      "title": "Insane how many things we pay monthly for have open-source alternatives on GitHub.",
+      "summary": "Insane how many things we pay monthly for have open-source alternatives on GitHub.\n\nHere are 10 projects worth knowing about, grouped by what they do 👇\n\nAI chat and coding\n\n• LibreChat — ChatGPT, Claude, Gemini, and other models in one interface\nhttps://t.co/ERRaOOZZU1\n\n• agent-skills — Engineering skills for AI coding agents\nhttps://t.co/eERb3gCZN4\n\nVideo and audio\n\n• HyperFrames — HeyGen’s framework for creating videos with code\nhttps://t.co/dpSzoawXNk\n\n• MoneyPrinterTurbo — AI-assisted short-video generation\nhttps://t.co/FT2yKiuWda\n\n• VoxCPM — AI voice generation and cloning\nhttps://t.co/0bPmPM184J\n\nEmail and integrations\n\n• Agentic Inbox — Cloudflare’s self-hosted email client with an AI agent\nhttps://t.co/CnmhiKMeJJ\n\n• Nango — API integrations for connecting your app to other services\nhttps://t.co/Ngn2AfdS37\n\nResearch and analysis\n\n• Flowsint — Visual, graph-based OSINT investigations\nhttps://t.co/PEhnsBKw9c\n\n• Fincept Terminal — Financial research, market analytics, and economic data\nhttps://t.co/vCB1SpxH8H\n\n• TradingAgents — A multi-agent framework for financial trading research\nhttps://t.co/asYu1WKq8n\n\nAI tool directories are useful, but I’d look on GitHub too. Sometimes the thing you’re looking for already has a whole repo.",
+      "hook": "具名可装 · LibreChat",
+      "category": "AI技能",
+      "url": "https://x.com/wangyan_im/status/2124594767795564994",
+      "updated_at": "2026-11-22T20:04:00.000Z",
+      "published_at": "2026-11-22T20:04:00.000Z",
+      "author": "wangyan_im",
+      "source": "X Post",
+      "x_url": "https://x.com/wangyan_im/status/2124594767795564994",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "LibreChat",
+      "install": "npx skills add danny-avila/LibreChat",
+      "repo": "danny-avila/LibreChat",
+      "github_url": "https://github.com/danny-avila/LibreChat"
+    },
+    {
+      "id": "2124586251101860196",
+      "name": "OpenMontage",
+      "title": "GitHub 看到个做自动化视频管线的开源项目 OpenMontage。",
+      "summary": "GitHub 看到个做自动化视频管线的开源项目 OpenMontage。\n\n它不是单独做个生成器，而是把 Claude Code、Codex、Cursor 这些当成执行底座，调底层模型做全流程工作流：\n\n1. 输入主题自动查资料、出选题、写分镜脚本\n2. 调生图/视频模型生成素材，搭配配音与 BGM\n3. 结合 Remotion 和 FFmpeg 自动剪辑合成、打字幕\n4. 支持长视频切片、播客拆条、视频翻译配音\n\n除了能接 Kling、Runway、Veo 这些商业 API，也能配合本地免费工具跑。内置了十几种预设管线和 Agent Skills，用来批量跑 YouTube/TikTok 的可以测测看：\n\nhttps://t.co/lgTe2D6iEU\n\n#开源项目 #AI视频",
+      "hook": "具名可装 · OpenMontage",
+      "category": "AI技能",
+      "url": "https://x.com/Stanllll6o/status/2124586251101860196",
+      "updated_at": "2026-11-22T19:30:09.000Z",
+      "published_at": "2026-11-22T19:30:09.000Z",
+      "author": "Stanllll6o",
+      "source": "X Post",
+      "x_url": "https://x.com/Stanllll6o/status/2124586251101860196",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "OpenMontage",
+      "install": "npx skills add OpenMontageInc/OpenMontage",
+      "repo": "OpenMontageInc/OpenMontage",
+      "github_url": "https://github.com/OpenMontageInc/OpenMontage"
+    },
+    {
+      "id": "2124627368639856896",
+      "name": "sprite-stacking",
+      "title": "ゲームのドット絵って、方向の数が一番きつい作業だったりします。",
+      "summary": "ゲームのドット絵って、方向の数が一番きつい作業だったりします。\n\n16方向対応にしようとすると、歩きモーションだけで何十枚もの絵が必要になる。ここで「やっぱり現実的じゃない」と諦める人がすごく多いんです。今回、その壁をClaude Codeのスキルがかなり変えてくれることがわかりました🤖\n\n仕組みはたとえると「動画のフレーム補完」に近い感じです。上・横・正面・背面の4方向だけ描けば、60fps化みたいに数式で中間の角度を自動補完して、16方向分のスプライトシートを生成してくれます。手で用意する枚数がかなり少なくなります。\n\nインストールは1行で終わります。\nnpx skills add danielwh2/sprite-stacking\n\nあとは「回転できるドット絵の木を作って」と自然言語で頼むだけです。絵が手元にない状態でも、Claude Codeが4方向の絵を自分で描いてスタッキングまでやってくれます。出力はGodotやUnityにそのまま読み込めるPNG形式です。\n\n注意点は2つあります。Python・Pillow・NumPyが入っていないと動かないので事前確認を。あとドット絵4枚のサイズを統一しておかないと、回転がズレてしまいます。\n\nドット絵制作の一番きついコストって、技術よりも「何方向分の枚数を作れるか」だと思うんです。そこをまるごと軽くしてくれる仕組みが1行のインストールで試せるようになった、というのが今回刺さりました。\n\nゲームを作ってみたい人・自分のキャラを動かしたい人、ぜひ一度試してみてください🐾",
+      "hook": "具名可装 · sprite-stacking",
+      "category": "AI技能",
+      "url": "https://x.com/chroniki_ai/status/2124627368639856896",
+      "updated_at": "2026-11-22T22:13:33.000Z",
+      "published_at": "2026-11-22T22:13:33.000Z",
+      "author": "chroniki_ai",
+      "source": "X Post",
+      "x_url": "https://x.com/chroniki_ai/status/2124627368639856896",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "sprite-stacking",
+      "install": "npx skills add danielwh2/sprite-stacking",
+      "repo": "danielwh2/sprite-stacking",
+      "github_url": "https://github.com/danielwh2/sprite-stacking"
+    },
+    {
+      "id": "2124428070752813166",
+      "name": "diagram-design",
+      "title": "7 万 star，只干一件事：让 AI 画的图不再像 AI 画的。",
+      "summary": "7 万 star，只干一件事：让 AI 画的图不再像 AI 画的。\n\n我画架构图一直有个毛病：Mermaid 一把梭，出图快是快，但每张都长一个样，圆角方块配默认配色，扔进文章里一眼就是 AI 味。\n\ndiagram-design 这个 skill 治的就是这个病。它不教你画图，它是把\"审美\"写进 skill 里交给 agent：51 种图，架构图、时序图、泳道、象限、桑基图全有，一句话告诉 agent 你要什么，它直接写一个双击就能打开的 HTML+SVG 文件。\n\n上手 3 步，复制就能跑：\n1. 装：npx skills add cathrynlavery/diagram-design，Claude Code、Cursor、Codex、Copilot 都能用\n2. 说人话提需求：\"给我画个我这个 app 的架构图：前端、后端、数据库、Redis 缓存\"\n3. 想换风格就跑一句 onboarding：onboard diagram-design to 你的网站，它会把你网站的配色和字体扒下来，以后每张图都跟你品牌一个味\n\n它牛在哪，我觉得就三点：\n- 审美是写死的规则不是玄学：一个强调色只留给最重要的一两个节点，1px 细线、不要阴影、所有坐标落在 4px 网格上，默认黑+橘红，出图直接能截图发\n- 对比度是算出来的：WCAG AA 4.5:1 不达标它自己给你调，不用你懂设计规范\n- 旧图不用重画：手里现成的 https://t.co/ztk1EprvhS、Mermaid、Excalidraw、PlantUML 扔给它，能按同一套风格重画一遍，还能导出 PNG/SVG\n\n局限我也直说，README 自己都认：出图质量跟模型走，同一句话跑两次版式可能不一样；而且它不是 Mermaid 那种能 diff 的文本格式，改图得重新让 agent 画。天天改的内部文档还是 Mermaid 合适，这东西是给\"要发出去的那张图\"准备的。\n\n搞开源/开发者工具的蓝V朋友欢迎互关。这项目 7 万 star，我觉得一半是真需求，一半是\"终于有人把审美写成代码了\"，有不同意见的来 👇\n🔵 蓝V互关 | Fellow Premium members, let's connect! 欢迎互关，一起交流 AI 与科技 👥",
+      "hook": "具名可装 · diagram-design",
+      "category": "AI技能",
+      "url": "https://x.com/ReignSwords/status/2124428070752813166",
+      "updated_at": "2026-11-22T09:01:36.000Z",
+      "published_at": "2026-11-22T09:01:36.000Z",
+      "author": "ReignSwords",
+      "source": "X Post",
+      "x_url": "https://x.com/ReignSwords/status/2124428070752813166",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "diagram-design",
+      "install": "npx skills add cathrynlavery/diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "github_url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "id": "2124636339882844606",
+      "name": "ecommerce-visual-copywriting-skill",
+      "title": "做跨境或者电商出海的看下这个开源 Skill：E-commerce Visual Copywriting，相当于把电商主图和 A+ 详情页的视觉策划流给标准化了。",
+      "summary": "做跨境或者电商出海的看下这个开源 Skill：E-commerce Visual Copywriting，相当于把电商主图和 A+ 详情页的视觉策划流给标准化了。\n\n传产品图并提需求（比如亚马逊保温杯主图/A+），它会按流程输出：\n- 卖点拆解与转化逻辑梳理\n- 每张图的画面排版规划与视觉流向\n- 标题文案、图内文字与详情页结构\n- 统一色系、字体与设计风格定义\n- 对应的生图 Prompt，直接喂给 Midjourney / Flux\n- 校验产品包装、Logo 和参数，减少生图幻觉\n\n适配 Amazon、Shopify、Temu、淘宝等场景，MIT 协议开源。\n\n安装命令：\nnpx skills add feichanggege/ecommerce-visual-copywriting-skill\n\n项目地址：\nhttps://t.co/mz1IuJvFpG\n\n平时生商品图你们一般用 Flux 还是 Midjourney？\n\n#AI工具 #电商设计",
+      "hook": "具名可装 · ecommerce-visual-copywriting-skill",
+      "category": "AI技能",
+      "url": "https://x.com/Stanllll6o/status/2124636339882844606",
+      "updated_at": "2026-11-22T22:49:11.000Z",
+      "published_at": "2026-11-22T22:49:11.000Z",
+      "author": "Stanllll6o",
+      "source": "X Post",
+      "x_url": "https://x.com/Stanllll6o/status/2124636339882844606",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ecommerce-visual-copywriting-skill",
+      "install": "npx skills add feichanggege/ecommerce-visual-copywriting-skill",
+      "repo": "feichanggege/ecommerce-visual-copywriting-skill",
+      "github_url": "https://github.com/feichanggege/ecommerce-visual-copywriting-skill"
+    },
+    {
+      "id": "2124631513530843433",
+      "name": "skill-distill",
+      "title": "\"skill-distill: Distilling a Successful Session into Reproducible Skills\"",
+      "summary": "\"skill-distill: Distilling a Successful Session into Reproducible Skills\"\n\nThe problem `skill-distill` aims to solve isn't \"just rerun the task with a more powerful model.\" Instead, it addresses the question: \"How can we enable open-weight models to replicate the achievements of frontier models by following a set of instructions?\"\n\nActing as a \"teacher\" within environments like Claude Code or Codex, `skill-distill` is invoked at the end of a successful session. It selects a \"student\"—a combination of an agent harness and a specific model (e.g., `omp` paired with `DeepSeek-V4.1-Flash`)—and initiates a closed-loop process: it extracts a \"skill\" from the session, launches the student in a clean state (within a `tmux` session) using the original prompt, compares the output, identifies where the student deviates, and iteratively refines the skill. Each version undergoes three trials until the student’s performance matches the reference.\n\nThe project emphasizes rigorous validation: the student is provided only with the original prompt, a clean starting state, and the distilled skill—all other global context or pre-existing skills within the harness are disabled. The skill definition cannot contain the final output or scripts that generate it; instead, it must focus on procedural steps, decision-making logic, potential pitfalls, and checkpoints. Checkpoints are first validated against the reference session; if a checkpoint fails there, it is discarded as invalid. A single \"lucky\" success proves nothing.\n\nUnder the hood, a Python-based bookkeeping system manages the workflow: `https://t.co/QIvLaoPM61` handles initialization, trials, status tracking, waiting, evidence collection, final verdicts, ledger maintenance, reporting, and acceptance. `extract_session.py` converts session logs into a readable reference, while `capture_web.py` uses a headless Chromium instance to host services, take screenshots, and log errors. The \"classroom\" consists of multiple students running in parallel within `tmux` sessions.\n\nThe tool supports various adapters, including `omp`, Codex CLI, Claude Code, `pi`, and `opencode`. `omp` and Codex CLI (acting as the teacher) have been verified. For Claude Code, using open-weight models requires pointing `ANTHROPIC_BASE_URL` to a compatible service; `pi` and `opencode` adapters are implemented but remain untested. A skill is only considered complete once a human has reviewed the side-by-side comparison and given their approval. The original session logs are stored in a `runs/` directory, which is ignored by Git. For those looking to turn an \"it worked once by chance\" scenario into a \"reliably repeatable\" one, this project offers an approach that—while perhaps unsophisticated—is highly credible: distill the conditions of a successful run, then replicate them across other models.\n\nSource: GitHub | \"sybil-solutions/skill-distill\" | https://t.co/cZ5KfS5QJu | 2026-11-21",
+      "hook": "具名可装 · skill-distill",
+      "category": "AI技能",
+      "url": "https://x.com/AIchanyi/status/2124631513530843433",
+      "updated_at": "2026-11-22T22:30:01.000Z",
+      "published_at": "2026-11-22T22:30:01.000Z",
+      "author": "AIchanyi",
+      "source": "X Post",
+      "x_url": "https://x.com/AIchanyi/status/2124631513530843433",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "skill-distill",
+      "install": "npx skills add sybil-solutions/skill-distill",
+      "repo": "sybil-solutions/skill-distill",
+      "github_url": "https://github.com/sybil-solutions/skill-distill"
+    },
+    {
+      "id": "2124629058319491512",
+      "name": "stitch-skills",
+      "title": "UIデザインからReact・React Nativeコード実装、さらにはデモ動画生成までをAIエージェントで一気通貫させませんか？",
+      "summary": "UIデザインからReact・React Nativeコード実装、さらにはデモ動画生成までをAIエージェントで一気通貫させませんか？\n\nGoogle Labs公開の「stitch-skills」は、Google StitchのMCPサーバーと連携してデザイン・実装・設計補助を行う公式エージェントスキル集です\n\n注目ポイントはこちら👇\n ✅ デザインとコードの双方向変換: テキストや画像からのUI生成（generate-design）だけでなく、既存コードからのデザインシステム抽出（extract-design-md）やStitchへの取り込み（code-to-design）にも対応しています\n✅ 実装から動画化までカバー: Stitchの画面をReactやReact Nativeコンポーネントへ変換するほか、Remotionを使ったウォークスルー動画の生成まで自動化できます\n✅ 主要コーディングエージェント対応: Agent Skills標準に準拠しており、Gemini CLI・Claude Code・Cursor・Codex・Antigravityなどにプラグインやスキルとして導入可能です\n\nデザインとフロントエンド開発の往復をエージェントに任せたいときに要チェックのリポジトリです\n\nhttps://t.co/C7QLYwBY5f\n#GoogleStitch #AI開発 #フロントエンド開発 #GitHub #AI",
+      "hook": "具名可装 · stitch-skills",
+      "category": "AI技能",
+      "url": "https://x.com/Tyr_Nippon/status/2124629058319491512",
+      "updated_at": "2026-11-22T22:20:15.000Z",
+      "published_at": "2026-11-22T22:20:15.000Z",
+      "author": "Tyr_Nippon",
+      "source": "X Post",
+      "x_url": "https://x.com/Tyr_Nippon/status/2124629058319491512",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "stitch-skills",
+      "install": "npx skills add google-labs-code/stitch-skills",
+      "repo": "google-labs-code/stitch-skills",
+      "github_url": "https://github.com/google-labs-code/stitch-skills"
+    },
+    {
+      "id": "2124591047963451397",
+      "name": "find-skills",
+      "title": "Para começar, você precisa ter o Claude Code e o Node.js instalados.",
+      "summary": "Para começar, você precisa ter o Claude Code e o Node.js instalados.\n\nAbra o terminal e execute:\n\nnpx skills add https://t.co/Wb2eQUlN40 --skill find-skills\n\nEsse comando instala a Find Skills no seu ambiente.\n\nRepositório oficial:\nhttps://t.co/Wb2eQUlN40 https://t.co/ffucVpuzLs",
+      "hook": "具名可装 · find-skills",
+      "category": "AI技能",
+      "url": "https://x.com/AraujoWhittaker/status/2124591047963451397",
+      "updated_at": "2026-11-22T19:49:13.000Z",
+      "published_at": "2026-11-22T19:49:13.000Z",
+      "author": "AraujoWhittaker",
+      "source": "X Post",
+      "x_url": "https://x.com/AraujoWhittaker/status/2124591047963451397",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "find-skills",
+      "install": "npx skills add vercel-labs/skills",
+      "repo": "vercel-labs/skills",
+      "github_url": "https://github.com/vercel-labs/skills"
+    },
+    {
+      "id": "2124584759221260739",
+      "name": "antialgorithm",
+      "title": "مهارة جديدة مفتوحة المصدر اسمها (antialgorithm) من (mankidev)، شغلها شي واحد: تبعد الموديل عن أول اختيار يجيه، لأنه غالباً الاختيار المتوقع.",
+      "summary": "مهارة جديدة مفتوحة المصدر اسمها (antialgorithm) من (mankidev)، شغلها شي واحد: تبعد الموديل عن أول اختيار يجيه، لأنه غالباً الاختيار المتوقع.\n\nحسب المستودع، المهارة تخلّي الموديل يسمّي اختياره الأول، وبعدها يبعد عنه لسبب ياخذه من المشروع نفسه. مخصصة للشغل الإبداعي: الأسماء، القصص، أفكار الألعاب، البوسترات والواجهات.\n\nومعها سكربتات:\n\nhttps://t.co/N5qa8x9Hoy يعطي نقطة بداية عشوائية إذا كان الطلب قصير.\nhttps://t.co/BeMOPNfyJX يسجّل الحركة اللي نجحت عشان ما تتكرر.\nhttps://t.co/BNpoamZmWE يطلّع النص اللي خرج عن الإطار أو تباينه ضعيف.\n\nالتركيب:\n\nnpx skills add mankidev/antialgorithm\n\nالرخصة MIT.",
+      "hook": "具名可装 · antialgorithm",
+      "category": "AI技能",
+      "url": "https://x.com/Hammad_AlHabib/status/2124584759221260739",
+      "updated_at": "2026-11-22T19:24:14.000Z",
+      "published_at": "2026-11-22T19:24:14.000Z",
+      "author": "Hammad_AlHabib",
+      "source": "X Post",
+      "x_url": "https://x.com/Hammad_AlHabib/status/2124584759221260739",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "antialgorithm",
+      "install": "npx skills add mankidev/antialgorithm",
+      "repo": "mankidev/antialgorithm",
+      "github_url": "https://github.com/mankidev/antialgorithm"
+    },
+    {
+      "id": "2124574507851509878",
+      "name": "easeout",
+      "title": "I made a skill that stops your coding agent from building iOS apps that look like AI slop.",
+      "summary": "I made a skill that stops your coding agent from building iOS apps that look like AI slop.\n\nLeft: Fable 5.2 on its own.\nRight: same prompt, same model, with Easeout.\n\nFree and open source: https://t.co/f3GzMN1pip\nnpx skills add easeout-dev/easeout https://t.co/8RISsOl7LA",
+      "hook": "具名可装 · easeout",
+      "category": "AI技能",
+      "url": "https://x.com/roman_grosz/status/2124574507851509878",
+      "updated_at": "2026-11-22T18:43:30.000Z",
+      "published_at": "2026-11-22T18:43:30.000Z",
+      "author": "roman_grosz",
+      "source": "X Post",
+      "x_url": "https://x.com/roman_grosz/status/2124574507851509878",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "easeout",
+      "install": "npx skills add easeout-dev/easeout",
+      "repo": "easeout-dev/easeout",
+      "github_url": "https://github.com/easeout-dev/easeout"
+    },
+    {
+      "id": "2124526140530335907",
+      "name": "seo-skills",
+      "title": "🔍 想让 AI 编程助手直接帮你做 SEO,而不是出一份没人看的审计 PDF?",
+      "summary": "🔍 想让 AI 编程助手直接帮你做 SEO,而不是出一份没人看的审计 PDF?\n\n据 @illyism 分享,开源项目 seo-skills 在 X 上收藏量极高。GitHub 目前 1,878 star。\n\n它是什么:\n• 30 个开源 SKILL.md 工作流,适配 Claude Code、Cursor、Codex 等 Agent\n• 成果是可合并的 PR / 仓库里的文件:改标题、robots.txt、301 映射等\n• 同时覆盖 Google 与 AI 搜索(ChatGPT、Perplexity 引用)\n• MIT 协议\n\n⚡ 3 步上手:\n1️⃣ npx skills add Illyism/seo-skills\n2️⃣ 只装一个:npx skills add Illyism/seo-skills --skill seo-autopilot\n3️⃣ 在 Agent 里描述需求,匹配的技能会自动触发\n\n🔗 https://t.co/zF9VLP1oVF\n\n#AI #开源 #SEO",
+      "hook": "具名可装 · seo-skills",
+      "category": "AI技能",
+      "url": "https://x.com/xxxdemo9/status/2124526140530335907",
+      "updated_at": "2026-11-22T15:31:18.000Z",
+      "published_at": "2026-11-22T15:31:18.000Z",
+      "author": "xxxdemo9",
+      "source": "X Post",
+      "x_url": "https://x.com/xxxdemo9/status/2124526140530335907",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "seo-skills",
+      "install": "npx skills add Illyism/seo-skills",
+      "repo": "Illyism/seo-skills",
+      "github_url": "https://github.com/Illyism/seo-skills"
+    },
+    {
+      "id": "2124525817283686605",
+      "name": "restaurant-ai-skills",
+      "title": "\"restaurant-ai-skills: 13 Essential Skills for Restaurant Management\"",
+      "summary": "\"restaurant-ai-skills: 13 Essential Skills for Restaurant Management\"\n\nWhen it comes to using AI in a restaurant, what’s often missing isn’t a \"general-purpose conversational assistant,\" but rather a set of specialized skills tailored to the practical realities of restaurant operations. This repository offers 13 discrete, installable \"Agent Skills\" covering everything from marketing and reservations to day-to-day guest communication.\n\nThe most compelling aspect is how it shifts the paradigm from simply \"asking an AI a question\" to \"providing the necessary context to get a job done.\" By feeding in data—such as menus, reservation logs, customer reviews, or sales exports—the system generates actionable insights, drafts, or operational plans, rather than vague, generic responses. The skills are organized into three core areas: driving foot traffic; managing menus and profit margins; and handling guest relations and team management. The first category includes planning events for slow periods, auditing Google Business Profiles and reservation flows, performing website SEO checkups, managing inquiries for large groups or private buyouts, and calculating capacity for table turnover and waitlists. The second category focuses on analyzing menu item performance, crafting menu copy, tracking food waste, and generating weekly operational summaries. The third category covers responding to reviews and guest messages, managing no-shows and cancellations, and facilitating a \"ten-minute handover\" for new staff members.\n\nThe technical architecture consists of two layers. At the core are Python-based scripts for menu analysis—these process local CSV files and output JSON data without uploading sensitive information or altering pricing. The other skills function as structured guides, examples, and templates that require no specific runtime environment. These skills follow the \"Agent Skills\" format, making them compatible with tools like Claude Code, Codex, and Cursor; alternatively, you can simply paste the `SKILL.md` files and relevant reference materials directly into your AI assistant.\n\nThe project also reflects a disciplined, nuanced approach: every skill includes a comprehensive example using dummy data. It distinguishes between key operational variables—for instance, treating unconfirmed arrivals as something other than zero, recognizing that an inquiry is not a confirmed booking, and understanding that the contribution of an individual dish is not the same as the restaurant’s overall profit. While the examples are provided in English, the generated reports adapt to the user’s preferred language, and drafts intended for guests are automatically composed in the guest’s own language. It is worth noting that tool recommendations appear only when a task genuinely requires them. Furthermore, any affiliation with the developer, Heep—as well as its related products, Painapo and GetPax—must be disclosed. Tasks concerning menus, food waste, or staff training are kept free of product pitches; there is a clear distinction between providing a list of available tools and offering specific recommendations on what a business should adopt. Currently, the framework covers format validation and installation checks, but it does not yet include performance evaluations within an actual client environment, nor have any commercial benefits been verified.\n\nFor restaurant owners and third-party management teams looking to evolve their use of AI—moving beyond simply \"generating polished text\" toward \"interpreting their own financial records\"—this toolkit offers a concrete, actionable path: delegate the processing of fragmented operational data to the AI, while retaining the final decision-making authority for yourself.\n\nSource: GitHub | heep-ai/restaurant-ai-skills | \n\nhttps://t.co/YLNloa3PSW",
+      "hook": "具名可装 · restaurant-ai-skills",
+      "category": "AI技能",
+      "url": "https://x.com/AIchanyi/status/2124525817283686605",
+      "updated_at": "2026-11-22T15:30:01.000Z",
+      "published_at": "2026-11-22T15:30:01.000Z",
+      "author": "AIchanyi",
+      "source": "X Post",
+      "x_url": "https://x.com/AIchanyi/status/2124525817283686605",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "restaurant-ai-skills",
+      "install": "npx skills add heep-ai/restaurant-ai-skills",
+      "repo": "heep-ai/restaurant-ai-skills",
+      "github_url": "https://github.com/heep-ai/restaurant-ai-skills"
+    },
+    {
+      "id": "2124459812641722378",
+      "name": "huashu-motion",
+      "title": "🤯 只对 Codex 说一句话，就能做出一支苹果发布会风格的产品宣传片？甚至可以直接指着画面让 AI 修改！",
+      "summary": "🤯 只对 Codex 说一句话，就能做出一支苹果发布会风格的产品宣传片？甚至可以直接指着画面让 AI 修改！\n\n这个开源项目叫 huashu-motion，把 AI Agent 变成了动画导演、动效设计师和作曲师。\n\n最值得关注的是 4 个能力：\n\n🎬 1. 一句话生成完整宣传片\n\n告诉 Agent 产品是什么、想做多长的视频，它会自动：\n研究产品和品牌风格\n提供 3 个视觉方向\n编写完整分镜与动画\n设计运镜、节奏和转场\n自动生成配乐和音效\n\n🎨 2. 指着画面修改，不用反复写 Prompt\n\n这是最有意思的功能。\n\n在浏览器编辑器里按 C，点击不满意的画面，直接写一句修改意见。\n\nAgent 能获取当前时间点、场景、选中元素和对应源码位置，只修改指定部分。\n\n每次修改都会保留版本，支持撤销。\n\n🎵 3. 音乐和画面真正卡在一起\n\nv0.6.0 新增真实曲目编排：\n\n自动分析 BPM、节拍和小节线\n根据视频时长调整音乐\n让画面高潮尽量对齐音乐高潮\n每个动画落点可以匹配音效\n支持自带音乐，也有 11 首默认曲库\n\n🎥 4. 直接用代码渲染，不依赖视频模型\n\n底层使用 HTML、GSAP、Canvas、Three.js、SVG。\n\n一支视频就是一个 index.html，浏览器逐帧渲染，FFmpeg 负责最终合成。\n\n还内置 20 种运动语言、12 个起步模板、23 种音效，以及自动画面质量检查。\n\n适合谁用？\n\n做 AI 产品宣传片、科技发布会动画、品牌广告、数据可视化、知识科普视频的创作者。\n\n尤其适合使用 Codex、Claude Code 做 Vibe Coding 的开发者。\n\n🔗 GitHub：\nhttps://t.co/ia7nnYtwwJ\n安装只需要：\n\nnpx skills add alchaincyf/huashu-motion\n\n⚠️ 两个实际门槛：\n\n需要 Node.js 22+、Chrome/Chromium 和 FFmpeg；目前作者主要在 macOS 实测，Windows 兼容性尚未得到验证。\n它不是文生视频模型，真人实拍和复杂真实场景需要自己提供素材；画面主要通过代码绘制，视觉上限取决于 Agent 的设计能力。\n#Codex #ClaudeCode #AI动画 #GSAP #ThreeJS #VibeCoding #开源项目",
+      "hook": "具名可装 · huashu-motion",
+      "category": "AI技能",
+      "url": "https://x.com/superfang119/status/2124459812641722378",
+      "updated_at": "2026-11-22T11:07:44.000Z",
+      "published_at": "2026-11-22T11:07:44.000Z",
+      "author": "superfang119",
+      "source": "X Post",
+      "x_url": "https://x.com/superfang119/status/2124459812641722378",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "huashu-motion",
+      "install": "npx skills add alchaincyf/huashu-motion",
+      "repo": "alchaincyf/huashu-motion",
+      "github_url": "https://github.com/alchaincyf/huashu-motion"
+    },
+    {
+      "id": "2124639840172159292",
+      "name": "Claude-BugHunter",
+      "title": "THIS REPO REFUSES TO LEAVE THE TOP OF GITHUB.",
+      "summary": "THIS REPO REFUSES TO LEAVE THE TOP OF GITHUB.\n\nClaude-BugHunter is sitting at #1 on GitHub's daily trending list again - +1,721 stars in a day, now around 17.7K stars total. When we covered it on Nov 18, it was at about 10.7K.\n\nWhat it is: a free, MIT-licensed skill bundle that turns Claude Code into a bug-hunting and red-team assistant.\n\nInside, per the repo:\n- 83 skills and 15 slash commands\n- 681 disclosed-report patterns across 24 core vulnerability classes\n- Enterprise identity + infrastructure attack matrices\n- Triage, severity and reporting workflows, plus Burp MCP integration\n\nDescribe what you're testing in plain English and the right skill loads automatically.\n\nBuilt for authorized testing and bug bounties only. Use it on targets you have permission to hack.\n\nhttps://t.co/LzNkPuf8eK",
+      "hook": "具名可装 · Claude-BugHunter",
+      "category": "AI技能",
+      "url": "https://x.com/Pro_Algorithm/status/2124639840172159292",
+      "updated_at": "2026-11-22T23:03:06.000Z",
+      "published_at": "2026-11-22T23:03:06.000Z",
+      "author": "Pro_Algorithm",
+      "source": "X Post",
+      "x_url": "https://x.com/Pro_Algorithm/status/2124639840172159292",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "Claude-BugHunter",
+      "install": "npx skills add elementalsouls/Claude-BugHunter",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "github_url": "https://github.com/elementalsouls/Claude-BugHunter"
+    },
+    {
+      "id": "2124626428507353162",
+      "name": "launch-project",
+      "title": "New Cursor skill: launch-project writes the brief before code, picks a free stack, opens a public MIT repo, and stops after one review.",
+      "summary": "New Cursor skill: launch-project writes the brief before code, picks a free stack, opens a public MIT repo, and stops after one review.\n\nnpx skills add mafzalkalwardev/launch-project --skill launch-project\n\nhttps://t.co/Kfi75ukaQz",
+      "hook": "具名可装 · launch-project",
+      "category": "AI技能",
+      "url": "https://x.com/mafzalkalwardev/status/2124626428507353162",
+      "updated_at": "2026-11-22T22:09:48.000Z",
+      "published_at": "2026-11-22T22:09:48.000Z",
+      "author": "mafzalkalwardev",
+      "source": "X Post",
+      "x_url": "https://x.com/mafzalkalwardev/status/2124626428507353162",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "launch-project",
+      "install": "npx skills add mafzalkalwardev/launch-project --skill launch-project",
+      "repo": "mafzalkalwardev/launch-project",
+      "github_url": "https://github.com/mafzalkalwardev/launch-project"
+    },
+    {
+      "id": "2124614430034112774",
+      "name": "agent-ergonomics",
+      "title": "I kept blaming my coding agent for being dumb.",
+      "summary": "I kept blaming my coding agent for being dumb.\n\nEspecially when building agent apps WITH an agent, it just seemed to always get things mixed up. \n\nIt would edit five files, miss the sixth, and tell me it was done. It would call a flag that doesn't exist, three times in a row. It would write my release notes like a sales pitch.\n\nThen I noticed the pattern. Every one of those mistakes happened where my code or my docs made it guess. The same thing defined in several places. Docs that said one thing while the code did another. Instructions so vague it filled the gaps with hype.\n\nAnd those were the same places that tripped up the people using my tools.\n\nSo I wrote a skill to fix them. It's called agent ergonomics. It's free, open source, and works with Codex, Cursor, Claude Code or any agent that reads skills.\n\nInstall it with one command:\n\nnpx skills add shinyobjectz/agent-ergonomics\n\nThen ask your agent in plain words. It works on three things:\n\n1. Code: finds the code that should live together, writes a plan to restructure it, and measures before and after.\n2. Words: strips the hype, filler and AI tells out of your docs and copy.\n3. Concepts: cuts the jargon a new user has to learn before they can do anything.\n\nGood UX and good agent experience turn out to be the same job. Fix the places where your agent guesses, and your users stop guessing too.\n\nhttps://t.co/YOZC24WTwk",
+      "hook": "具名可装 · agent-ergonomics",
+      "category": "AI技能",
+      "url": "https://x.com/shinyobjectz_/status/2124614430034112774",
+      "updated_at": "2026-11-22T21:22:08.000Z",
+      "published_at": "2026-11-22T21:22:08.000Z",
+      "author": "shinyobjectz_",
+      "source": "X Post",
+      "x_url": "https://x.com/shinyobjectz_/status/2124614430034112774",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "agent-ergonomics",
+      "install": "npx skills add shinyobjectz/agent-ergonomics",
+      "repo": "shinyobjectz/agent-ergonomics",
+      "github_url": "https://github.com/shinyobjectz/agent-ergonomics"
+    },
+    {
+      "id": "2124588415673127172",
+      "name": "limitr",
+      "title": "folks keep asking how to integrate limitr. just have your coding agent wire it up.",
+      "summary": "folks keep asking how to integrate limitr. just have your coding agent wire it up.\n\nnpx skills add dev-formata-io/limitr\n\nthen: \"set up free, pro, and enterprise plans with limitr. pro is $49/mo + usage, enterprise is observe only for now. keep my margin on pro above 50%, and stop any abuse on free.\"\n\nworks with claude code, cursor, codex, zips available for all skills in github repo.\n\ntry the open source with those two steps, scale on https://t.co/SJfp4qVo4L when it makes sense.",
+      "hook": "具名可装 · limitr",
+      "category": "AI技能",
+      "url": "https://x.com/cjcbuilds/status/2124588415673127172",
+      "updated_at": "2026-11-22T19:38:45.000Z",
+      "published_at": "2026-11-22T19:38:45.000Z",
+      "author": "cjcbuilds",
+      "source": "X Post",
+      "x_url": "https://x.com/cjcbuilds/status/2124588415673127172",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "limitr",
+      "install": "npx skills add dev-formata-io/limitr",
+      "repo": "dev-formata-io/limitr",
+      "github_url": "https://github.com/dev-formata-io/limitr"
+    },
+    {
+      "id": "2124587972280697126",
+      "name": "ci-optimiser",
+      "title": "make your ci faster and truthful stop wasting time and effort  https://t.co/6GQgGJhzdN",
+      "summary": "make your ci faster and truthful stop wasting time and effort  https://t.co/6GQgGJhzdN\n\nnpx skills add pymodel/ci-optimiser",
+      "hook": "具名可装 · ci-optimiser",
+      "category": "AI技能",
+      "url": "https://x.com/moelkholy95/status/2124587972280697126",
+      "updated_at": "2026-11-22T19:37:00.000Z",
+      "published_at": "2026-11-22T19:37:00.000Z",
+      "author": "moelkholy95",
+      "source": "X Post",
+      "x_url": "https://x.com/moelkholy95/status/2124587972280697126",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ci-optimiser",
+      "install": "npx skills add pymodel/ci-optimiser",
+      "repo": "pymodel/ci-optimiser",
+      "github_url": "https://github.com/pymodel/ci-optimiser"
+    },
+    {
+      "id": "2124585131738587330",
+      "name": "multi-agent-workflow-kit",
+      "title": "Free kit (MIT): https://t.co/bqoVsn6JG2",
+      "summary": "Free kit (MIT): https://t.co/bqoVsn6JG2\n\nPaste this into Claude Code inside your project:\n\n\"Clone https://t.co/bqoVsn6JG2 into ~/.claude/skills/multi-agent-workflow, then read its SKILL.md and follow the Setup section for this repo. Show me every change before you make it.\"\n\nIt shows you the plan, sets up the agents and rules, and from then on you just say what you want built.\n\nCodex / Cursor / Gemini CLI: point it at SKILL.md, same idea.",
+      "hook": "具名可装 · multi-agent-workflow-kit",
+      "category": "AI技能",
+      "url": "https://x.com/WolxsXiftErix/status/2124585131738587330",
+      "updated_at": "2026-11-22T19:25:42.000Z",
+      "published_at": "2026-11-22T19:25:42.000Z",
+      "author": "WolxsXiftErix",
+      "source": "X Post",
+      "x_url": "https://x.com/WolxsXiftErix/status/2124585131738587330",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "multi-agent-workflow-kit",
+      "install": "npx skills add WolxsXiftErix/multi-agent-workflow-kit",
+      "repo": "WolxsXiftErix/multi-agent-workflow-kit",
+      "github_url": "https://github.com/WolxsXiftErix/multi-agent-workflow-kit"
+    },
+    {
+      "id": "2124580669573751062",
+      "name": "health-timeline-bot",
+      "title": "Open-source (zero npm deps · OpenClaw plugin + MCP + SKILL.md for Hermes/Cursor/Claude):",
+      "summary": "Open-source (zero npm deps · OpenClaw plugin + MCP + SKILL.md for Hermes/Cursor/Claude):\nhttps://t.co/1PBaNdNgBe\n\n#KimiOnCerebras",
+      "hook": "具名可装 · health-timeline-bot",
+      "category": "AI技能",
+      "url": "https://x.com/uarayon/status/2124580669573751062",
+      "updated_at": "2026-11-22T19:07:59.000Z",
+      "published_at": "2026-11-22T19:07:59.000Z",
+      "author": "uarayon",
+      "source": "X Post",
+      "x_url": "https://x.com/uarayon/status/2124580669573751062",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "health-timeline-bot",
+      "install": "npx skills add uncrayon/health-timeline-bot",
+      "repo": "uncrayon/health-timeline-bot",
+      "github_url": "https://github.com/uncrayon/health-timeline-bot"
+    },
+    {
+      "id": "2124574435005145474",
+      "name": "kaushik-holla-skills",
+      "title": "npx skills add kaushik-holla/agent-skills",
+      "summary": "npx skills add kaushik-holla/agent-skills\n\nhttps://t.co/4q9ukWcPEX",
+      "hook": "具名可装 · kaushik-holla-skills",
+      "category": "AI技能",
+      "url": "https://x.com/kaushik_holla/status/2124574435005145474",
+      "updated_at": "2026-11-22T18:43:12.000Z",
+      "published_at": "2026-11-22T18:43:12.000Z",
+      "author": "kaushik_holla",
+      "source": "X Post",
+      "x_url": "https://x.com/kaushik_holla/status/2124574435005145474",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "kaushik-holla-skills",
+      "install": "npx skills add kaushik-holla/agent-skills",
+      "repo": "kaushik-holla/agent-skills",
+      "github_url": "https://github.com/kaushik-holla/agent-skills"
+    },
+    {
+      "id": "2124634027361796566",
+      "name": "last30days-skill",
+      "title": "【衝撃】",
+      "summary": "【衝撃】\nAIに会社名を1つ渡すだけで\nその会社がまだ発表していない動きの手がかりを拾ってくる調査スキルが、いまGitHubで急上昇中です😳\nその名も\nーーlast30days\n・★7.3万\n  今週だけで4,000以上増加\n・v4\n  11月15日に公開 → 22日にはv4.6.0まで更新\n\nしかもこのスキル、ただの検索ではありません。作者いわく、v4でやっていることは——\n「会社が発表する前に、何をしているかを読む」\n\n仕組みはこう👇\n/last30days Apple のように会社名を渡すと\n調べた月にアメリカで出た特許の出願と\nその会社自身の求人ページを読みにいく。\n特許は、その会社らしくないものや中身が未発表のものだけを拾い、有力な2件はWebで確かめてから載せる。\n求人は、次に来るものが透けて見える職種を拾う。\nどちらも「何の出願・募集か」と「何を意味しうるか」の2文で返ってきます。\n\nつまり\n人間が\n・発表を待ったり\n・ニュースになってから知ったり\nしている間に\n\nこのスキルは\n誰でも見られる出願と求人から、次の動きの手がかりを先に拾っている。\nさらに衝撃なのがここ。\n\nREADMEの例では、Appleについて\n・保存した部屋の写真の中で機器をタップすると、その機器の状態を変えられる特許の出願\n・依頼から実際の取引が起きるかを試す、新しいディレクター職の求人\nが見つかり、\n作者は後者を「買い物まで済ませるアシスタントの品質管理のように読める」と書いています。\n\n入れ方はClaude Codeなら2行👇\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\nCodexなら npx skills add mvanhorn/last30days-skill -g -a codex\n\n会社名を渡すなら、特許の出願と求人ページはAPIキーなしで読めます。\nただし拾えるのはあくまで手がかり。作者の書き方も「何を意味しうるか」までなので、確かな事実として扱わないのが安全です。\n\nオープンソースはこちら👇\n\nhttps://t.co/t37bDQBmuF",
+      "hook": "具名可装 · last30days-skill",
+      "category": "AI技能",
+      "url": "https://x.com/opensourcelab9/status/2124634027361796566",
+      "updated_at": "2026-11-22T22:40:00.000Z",
+      "published_at": "2026-11-22T22:40:00.000Z",
+      "author": "opensourcelab9",
+      "source": "X Post",
+      "x_url": "https://x.com/opensourcelab9/status/2124634027361796566",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "last30days-skill",
+      "install": "plugin marketplace add mvanhorn/last30days-skill",
+      "repo": "mvanhorn/last30days-skill",
+      "github_url": "https://github.com/mvanhorn/last30days-skill"
+    }
+  ]
+}
