@@ -33,13 +33,13 @@ BEFORE_TITLES = [
 ]
 
 CHANNEL_COUNTS = {
-    "ai": 566,
-    "world": 783,
-    "startup": 244,
+    "ai": 544,
+    "world": 727,
+    "startup": 236,
     "github": 60,
-    "papers": 701,
-    "models": 120,
-    "skills": 357,
+    "papers": 773,
+    "models": 121,
+    "skills": 386,
 }
 
 
@@ -69,9 +69,9 @@ class SkillTitleTests(unittest.TestCase):
     def test_map_and_data_titles_match(self):
         data = json.loads((ROOT / "data.json").read_text(encoding="utf-8"))
         skills = [it for it in data["items"] if it.get("channel") == "skills"]
-        self.assertEqual(len(skills), 357)
-        self.assertEqual(len(SKILLS_ZH), 357)
-        self.assertEqual(data.get("skills_count"), 357)
+        self.assertEqual(len(skills), 386)
+        self.assertEqual(len(SKILLS_ZH), 386)
+        self.assertEqual(data.get("skills_count"), 386)
         for it in skills:
             mapped = SKILLS_ZH[it["id"]]
             self.assertEqual(it["title"], mapped["title"])
@@ -116,7 +116,7 @@ class SkillTitleTests(unittest.TestCase):
         for it in data["items"]:
             counts[it.get("channel") or "ai"] = counts.get(it.get("channel") or "ai", 0) + 1
         self.assertEqual(counts, CHANNEL_COUNTS)
-        self.assertEqual(data.get("item_count"), 2831)
+        self.assertEqual(data.get("item_count"), 2847)
         for ch in ("ai", "world", "startup"):
             for it in data["items"]:
                 if it.get("channel") == ch:

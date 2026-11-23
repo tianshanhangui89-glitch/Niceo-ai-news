@@ -1,0 +1,3356 @@
+{
+  "fetched_at": "2026-11-24T07:06:01+08:00",
+  "channel": "startup",
+  "queries": [
+    "startup funding OR Series A OR seed round AI raises",
+    "YC OR a16z OR venture AI startup launch OR acquires",
+    "AI startup launches OR raises OR stealth OR product hunt",
+    "robotics AI startup OR humanoid OR Series B funding"
+  ],
+  "data": [
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124857330152177927"
+        },
+        {
+          "post_id": "2124832956795539842"
+        },
+        {
+          "post_id": "2124957800245645713"
+        },
+        {
+          "post_id": "2124876408040137145"
+        },
+        {
+          "post_id": "2124918532269846579"
+        },
+        {
+          "post_id": "2124855525946847283"
+        },
+        {
+          "post_id": "2124955251610685523"
+        },
+        {
+          "post_id": "2124907355284308408"
+        },
+        {
+          "post_id": "2124836379922481444"
+        },
+        {
+          "post_id": "2124929928538034366"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Sierra",
+            "Greenoaks",
+            "Lightspeed Venture Partners",
+            "Benchmark",
+            "Sequoia Capital",
+            "GV",
+            "Tiger Global",
+            "JPMorgan Chase",
+            "Wells Fargo",
+            "HSBC",
+            "BNY"
+          ],
+          "people": [
+            "Bret Taylor",
+            "Clay Bavor"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Bret Taylor's Sierra team celebrated a massive funding win, with all major backers doubling down on the AI company's explosive growth.",
+      "id": "2124880071718821992",
+      "name": "Sierra Raises $1.75 Billion at $30 Billion Valuation",
+      "summary": "Enterprise AI firm Sierra, co-founded by Bret Taylor, closed a $1.75 billion Series F round led by Greenoaks and Lightspeed Venture Partners, doubling its valuation to $30 billion from May. The company now serves nearly half of the Fortune 50 with conversational AI agents that handle tasks like customer service, loan origination, and insurance claims using an outcome-based pricing model. Revenue hit a $400 million run-rate after doubling twice in under a year, drawing praise for its traction with regulated giants like banks and insurers. The funds will fuel platform development amid rising demand for practical AI solutions.",
+      "updated_at": "2026-11-23T22:58:08.000Z",
+      "url": "https://x.com/i/trending/2124880071718821992"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122344413951111663"
+        },
+        {
+          "post_id": "2122357235619885284"
+        },
+        {
+          "post_id": "2122389989740687382"
+        },
+        {
+          "post_id": "2122344413951111663"
+        },
+        {
+          "post_id": "2122357235619885284"
+        },
+        {
+          "post_id": "2122364411499405395"
+        },
+        {
+          "post_id": "2122389989740687382"
+        },
+        {
+          "post_id": "2122437902558699812"
+        },
+        {
+          "post_id": "2122354602276524198"
+        },
+        {
+          "post_id": "2122356012992618857"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Corma",
+            "NEA",
+            "Sequoia",
+            "Khosla Ventures",
+            "Coatue Management"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Entrepreneurship",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "In just three months out of stealth, Corma has armed security teams with AI that fights AI threats head-on. CEO Alon Pluda calls it the edge defenders need against smarter attacks.",
+      "id": "2122350517049254392",
+      "name": "Corma Raises $125M at $1B Valuation for AI Cybersecurity Defense",
+      "summary": "Corma, a cybersecurity startup building foundation models for defense, secured $125 million in Series A funding led by NEA, with Sequoia Capital, Khosla Ventures, and Coatue joining from its $60 million seed round. Total funding hits $185 million at a $1 billion valuation. The AI acts as an autonomous workforce inside customers' tools, investigating alerts and hunting threats with human oversight, already deployed in Fortune 100 companies amid surging demand. Backers see it as key to balancing AI's rise in both attacks and defenses.",
+      "updated_at": "2026-11-17T02:28:36.000Z",
+      "url": "https://x.com/i/trending/2122350517049254392"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124863460358156391"
+        },
+        {
+          "post_id": "2124932448567886223"
+        },
+        {
+          "post_id": "2124848732986634257"
+        },
+        {
+          "post_id": "2124884143280697497"
+        },
+        {
+          "post_id": "2124863462828618016"
+        },
+        {
+          "post_id": "2124863460358156391"
+        },
+        {
+          "post_id": "2124884143280697497"
+        },
+        {
+          "post_id": "2124938874309026223"
+        },
+        {
+          "post_id": "2124933989169582093"
+        },
+        {
+          "post_id": "2124894908121325841"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Marlowe AI",
+            "Accel",
+            "Altimeter",
+            "Bessemer",
+            "Eclipse",
+            "Atreides",
+            "Valor",
+            "AMD",
+            "Etched"
+          ],
+          "people": [
+            "Dan Lewis",
+            "Kutta Srinivasan"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "AMD"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Six-month-old startup Marlowe just landed the biggest seed round this week, betting big on factories that make AI run faster and cheaper in everyday apps.",
+      "id": "2124911660414460332",
+      "name": "Marlowe Raises $277 Million Seed for AI Inference Factories",
+      "summary": "Co-founders Dan Lewis, from freight startup Convoy, and Kutta Srinivasan, ex-Microsoft AI lead, raised $277 million led by Accel, valuing Marlowe at $1.15 billion. They're building specialized factories using chips from AMD and Etched to handle AI inference tasks like coding and reasoning more efficiently than Nvidia-focused data centers. The first site launches in December for AI coding customers, with more capacity in 2027, as investors eye solutions to the growing gap between AI demand and compute supply.",
+      "updated_at": "2026-11-23T22:57:45.000Z",
+      "url": "https://x.com/i/trending/2124911660414460332"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122752003197833357"
+        },
+        {
+          "post_id": "2122707531495788771"
+        },
+        {
+          "post_id": "2122700690774491539"
+        },
+        {
+          "post_id": "2122762253200208381"
+        },
+        {
+          "post_id": "2122756818393026747"
+        },
+        {
+          "post_id": "2122754446711005263"
+        },
+        {
+          "post_id": "2122801937057780183"
+        },
+        {
+          "post_id": "2122758515613917554"
+        },
+        {
+          "post_id": "2122761492181418460"
+        },
+        {
+          "post_id": "2122773995711840258"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Genesis AI",
+            "Khosla Ventures",
+            "Premji Invest",
+            "Eclipse",
+            "NVIDIA",
+            "AMD Ventures",
+            "Bpifrance",
+            "Durable Capital Partners",
+            "T. Rowe Price",
+            "Zoom",
+            "Samsung Next",
+            "Ericsson"
+          ],
+          "people": [
+            "Eric Schmidt",
+            "Xavier Niel"
+          ],
+          "places": [
+            "Paris"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "ZM"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Genesis AI's CEO Zhou Xian envisions robots that match human hands in factories and labs, working reliably for years without a hitch.",
+      "id": "2122746522672718297",
+      "name": "Genesis AI Raises $500M for Dexterous Factory Robots",
+      "summary": "The robotics startup secured $500 million in Series A funding at a $3.5 billion valuation, co-led by Premji Invest, Khosla Ventures, and Eclipse, with Nvidia and AMD also joining. Their full-stack system uses sensor gloves to train the GENE model in real tasks, tested in the Genesis World simulator before deploying on the compact Eno robot with foldable panels for precise industrial work. Co-founder Théophile Gervet stressed optimizing data, AI, simulation, and hardware together for reliable performance, setting up pilots now and wider rollout in 2027.",
+      "updated_at": "2026-11-18T15:32:17.000Z",
+      "url": "https://x.com/i/trending/2122746522672718297"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124911019562811820"
+        },
+        {
+          "post_id": "2124912966344872091"
+        },
+        {
+          "post_id": "2124939506365198557"
+        },
+        {
+          "post_id": "2124931576912122000"
+        },
+        {
+          "post_id": "2124924676422193427"
+        },
+        {
+          "post_id": "2124911019562811820"
+        },
+        {
+          "post_id": "2124939506365198557"
+        },
+        {
+          "post_id": "2124912966344872091"
+        },
+        {
+          "post_id": "2124931576912122000"
+        },
+        {
+          "post_id": "2124924676422193427"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Embo",
+            "Andreessen Horowitz",
+            "DeepMind",
+            "Meta",
+            "Khosla Ventures",
+            "DST Global",
+            "NVIDIA",
+            "Striker VP",
+            "NVentures"
+          ],
+          "people": [
+            "Danijar Hafner",
+            "Wilson Yan"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Danijar Hafner wants robots that won't fumble when the lights change or a new object appears. His new startup, Embo, just raised $110 million to make that happen.",
+      "id": "2124923528197927222",
+      "name": "Embo Launches with $110M to Build AI Brains for Adaptable Robots",
+      "summary": "Embo, founded by former Google DeepMind researcher Danijar Hafner, emerged from stealth with a massive $110 million seed round led by a16z. The company is developing world models pretrained on internet-scale video to teach robots intuitive physics, then fine-tuned on their humanoid fleet and refined through simulated reinforcement learning. This approach aims to create resilient robots that handle real-world variations in homes, factories, and warehouses, potentially ushering in more affordable goods and services. Backers like Khosla Ventures and NVIDIA see it as a step toward a humanoid workforce that generalizes beyond fragile demos.",
+      "updated_at": "2026-11-23T20:44:06.000Z",
+      "url": "https://x.com/i/trending/2124923528197927222"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123884044429701567"
+        },
+        {
+          "post_id": "2123899734569984444"
+        },
+        {
+          "post_id": "2123886907864273326"
+        },
+        {
+          "post_id": "2123889263318073424"
+        },
+        {
+          "post_id": "2123899734569984444"
+        },
+        {
+          "post_id": "2123886907864273326"
+        },
+        {
+          "post_id": "2123889263318073424"
+        },
+        {
+          "post_id": "2123884044429701567"
+        },
+        {
+          "post_id": "2123919366173388976"
+        },
+        {
+          "post_id": "2123889901431078972"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Cognition"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Just two months after hitting $48 billion, Cognition AI is already in talks for a massive new funding round that could push its value even higher.",
+      "id": "2123944298504921113",
+      "name": "Cognition AI Eyes $2 Billion Raise at $75 Billion Valuation",
+      "summary": "The AI coding startup, known for its Devin agent, has seen its valuation soar from $26 billion in May to $48 billion in September, now discussing $75 billion terms with over $2 billion on the table. It has raised more than $3 billion in 2026 alone, fueled by nearly $1 billion in annualized revenue and big clients like Nvidia and Citigroup. While public AI stocks falter, private investors keep betting big on Cognition amid its competition with tools like the $60 billion-acquired Cursor, though skeptics question the rapid pace and high multiples.",
+      "updated_at": "2026-11-21T02:54:02.000Z",
+      "url": "https://x.com/i/trending/2123944298504921113"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124910860632285384"
+        },
+        {
+          "post_id": "2124921375009948020"
+        },
+        {
+          "post_id": "2124946869960823196"
+        },
+        {
+          "post_id": "2124926161939841087"
+        },
+        {
+          "post_id": "2124910860632285384"
+        },
+        {
+          "post_id": "2124926161939841087"
+        },
+        {
+          "post_id": "2124976662488203457"
+        },
+        {
+          "post_id": "2124921375009948020"
+        },
+        {
+          "post_id": "2124946869960823196"
+        },
+        {
+          "post_id": "2124945822471073867"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "PeritAI",
+            "Y Combinator",
+            "Rebel Fund VC",
+            "Robinhood Ventures",
+            "Schema Ventures"
+          ],
+          "people": [
+            "Ryan Hoover"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Entrepreneurship",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Kshitij Dixit shared a stunning update: his startup Perit AI jumped from $2 million to over $11 million in revenue while still in Y Combinator. It's all about delivering the real-world data AI models crave.",
+      "id": "2124968571814199674",
+      "name": "Perit AI Surges to $11M Revenue in YC Batch with Specialized Training Data",
+      "summary": "Perit AI recruits experts like contact center staff and shopkeepers to record audio, first-person video, and multimodal data in actual homes and workplaces across nine languages. This high-quality, targeted data helps frontier AI labs train models for tough tasks like robotics, where text descriptions fall short—a robot needs footage of real people cooking in kitchens. With over 16,000 trained experts, 10,000 hours of egocentric video, and clients from nearly every major lab, Perit raised $5 million from YC and investors like Ryan Hoover while maintaining strict independence and 95 percent quality accuracy.",
+      "updated_at": "2026-11-23T20:56:10.000Z",
+      "url": "https://x.com/i/trending/2124968571814199674"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122662616367853670"
+        },
+        {
+          "post_id": "2122661054723547449"
+        },
+        {
+          "post_id": "2122662619614236909"
+        },
+        {
+          "post_id": "2122721825264226683"
+        },
+        {
+          "post_id": "2122662616367853670"
+        },
+        {
+          "post_id": "2122669739499811077"
+        },
+        {
+          "post_id": "2122661054723547449"
+        },
+        {
+          "post_id": "2122662619614236909"
+        },
+        {
+          "post_id": "2122721825264226683"
+        },
+        {
+          "post_id": "2122663905839219013"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Isomorphic Labs",
+            "Google DeepMind",
+            "Greenoaks",
+            "Sequoia Capital",
+            "Andreessen Horowitz",
+            "Alphabet",
+            "Thrive Capital",
+            "MGX",
+            "GV",
+            "CapitalG",
+            "Temasek",
+            "UK Sovereign AI Fund",
+            "Eli Lilly",
+            "Novartis",
+            "Johnson & Johnson"
+          ],
+          "people": [
+            "Demis Hassabis"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Biotech",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Demis Hassabis shared big news from his AI drug company: a massive $5 billion funding round to tackle all diseases faster. It's a bold step toward reimagining how we design medicines.",
+      "id": "2122666533943955551",
+      "name": "Isomorphic Labs Raises $5 Billion to Speed AI Drug Discovery",
+      "summary": "Isomorphic Labs, founded by DeepMind's Demis Hassabis and spun out of Google in 2021, closed an oversubscribed Series C round co-led by Greenoaks and Sequoia Capital, with new backing from Andreessen Horowitz and support from Alphabet and others. The funds will scale their AI engine, IsoDDE, which predicts protein interactions, expand over 20 programs with partners like Eli Lilly and Novartis, and push preclinical successes in oncology and immunology toward clinical trials. This follows a $2.1 billion raise earlier in 2026, signaling strong investor faith in AI's power to slash the years and billions needed for new drugs, even as the field awaits its first approved therapies.",
+      "updated_at": "2026-11-18T14:33:11.000Z",
+      "url": "https://x.com/i/trending/2122666533943955551"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123038686560370834"
+        },
+        {
+          "post_id": "2123069259777806627"
+        },
+        {
+          "post_id": "2123075682473283963"
+        },
+        {
+          "post_id": "2123038686560370834"
+        },
+        {
+          "post_id": "2123069259777806627"
+        },
+        {
+          "post_id": "2123075682473283963"
+        },
+        {
+          "post_id": "2123039844221780024"
+        },
+        {
+          "post_id": "2123089109900267948"
+        },
+        {
+          "post_id": "2123069785789399479"
+        },
+        {
+          "post_id": "2123039467455889440"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "each::labs",
+            "European Bank for Reconstruction and Development",
+            "EBRD",
+            "RevoVC",
+            "Teknasyon",
+            "xCapital",
+            "Deepix",
+            "YZF",
+            "Eksim Ventures",
+            "Claude",
+            "Codex"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "Business & Finance",
+          "Entrepreneurship"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "After years of tweaking AI tools through sleepless nights, the each::labs team hit a milestone that feels truly earned.",
+      "id": "2123104083527811106",
+      "name": "each::labs Raises $7M Seed to Power Generative Media Platform",
+      "summary": "The San Francisco startup, founded in June 2024 by engineers Eftal Yurtseven and Canberk Sinangil, announced a $7 million seed round on November 18, 2026, co-led by the European Bank for Reconstruction and Development and Revo Capital. Their platform connects over 600 AI models for images, video, and audio via a single API, handling automated workflows to bridge the 'imagination gap' between creators' visions and AI outputs. With revenue surging fivefold recently to a $20 million annualized run rate, one million daily generations, and 750 paying customers like ad platforms and VFX studios, the funding will fuel proprietary models, San Francisco hires, and expansions like the no-code each::studio workspace.",
+      "updated_at": "2026-11-18T17:28:48.000Z",
+      "url": "https://x.com/i/trending/2123104083527811106"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122523047982977195"
+        },
+        {
+          "post_id": "2122609464557830517"
+        },
+        {
+          "post_id": "2122600681463062688"
+        },
+        {
+          "post_id": "2122598896748966293"
+        },
+        {
+          "post_id": "2122611714164441353"
+        },
+        {
+          "post_id": "2122614298312880567"
+        },
+        {
+          "post_id": "2122575684346487150"
+        },
+        {
+          "post_id": "2122517327363367215"
+        },
+        {
+          "post_id": "2122646085462360541"
+        },
+        {
+          "post_id": "2122586519135486086"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "August AI",
+            "Peak XV Partners",
+            "Accel India",
+            "Claypond Capital"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Founder Anuruddh Mishra built August after spending hours on hold with doctors, barely able to grip the phone amid illness. Now the AI does that grueling work for users.",
+      "id": "2122649441413005780",
+      "name": "August AI Handles Healthcare Calls and Insurance Hassles",
+      "summary": "August lets people text their needs—like booking in-network appointments or disputing insurance claims—and the AI makes the calls, waits on hold, and sorts it out. It recently spent over 24,000 minutes on hold for early users, including 366 minutes for one and saving another $1,255 on a claim. Backed by $12 million from investors like Accel, the free beta builds on a platform that has already helped 10 million understand their health, with licensed physicians overseeing clinical parts.",
+      "updated_at": "2026-11-17T11:18:20.000Z",
+      "url": "https://x.com/i/trending/2122649441413005780"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123072420571746463"
+        },
+        {
+          "post_id": "2123076847604732133"
+        },
+        {
+          "post_id": "2123034717423358374"
+        },
+        {
+          "post_id": "2123137625586639133"
+        },
+        {
+          "post_id": "2123072420571746463"
+        },
+        {
+          "post_id": "2123076847604732133"
+        },
+        {
+          "post_id": "2123098383912989038"
+        },
+        {
+          "post_id": "2123073699951919578"
+        },
+        {
+          "post_id": "2123034717423358374"
+        },
+        {
+          "post_id": "2123095504011854006"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Boltz",
+            "MIT",
+            "Bessemer Venture Partners",
+            "a16z",
+            "Amplify Partners",
+            "Pfizer",
+            "Takeda"
+          ],
+          "people": [
+            "Regina Barzilay"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "PFE"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Biotech"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "From MIT lab to London startup, Boltz's AI models are replacing physical experiments for scientists worldwide. CEO Gabriele Corso shared the thrill of 50-fold customer growth since June.",
+      "id": "2123101214678081909",
+      "name": "Boltz Raises $110 Million to Scale AI Biomolecular Design Platform",
+      "summary": "Boltz, a London company spun out of MIT research, secured $110 million in Series A funding led by Bessemer Venture Partners. The capital will expand its AI platform, including models like BoltzMol-1 and BoltzProt-1, which have seen explosive adoption and partnerships with top pharma firms such as Pfizer, GSK, Takeda, and BMS. Founders Gabriele Corso, Jeremy Wohlwend, and Saro Passaro plan to keep core tools free for researchers while building next-generation models with the new resources. Investors like a16z and Amplify praised the team's progress from open-source origins to commercial tools rivaling AlphaFold 3.",
+      "updated_at": "2026-11-18T22:53:09.000Z",
+      "url": "https://x.com/i/trending/2123101214678081909"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124928034298028311"
+        },
+        {
+          "post_id": "2124967874821231076"
+        },
+        {
+          "post_id": "2124934033503383904"
+        },
+        {
+          "post_id": "2124930515094691845"
+        },
+        {
+          "post_id": "2124928034298028311"
+        },
+        {
+          "post_id": "2124948250742644803"
+        },
+        {
+          "post_id": "2124934033503383904"
+        },
+        {
+          "post_id": "2124930515094691845"
+        },
+        {
+          "post_id": "2124967874821231076"
+        },
+        {
+          "post_id": "2124935301575700615"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Hoplite",
+            "Y Combinator",
+            "Relational Capital",
+            "20VC",
+            "DogPatch Labs"
+          ],
+          "people": [
+            "Ryan Morrissey",
+            "Bence Redmond",
+            "John Collison",
+            "Patrick Collison",
+            "Paul Graham",
+            "Des Traynor"
+          ],
+          "places": [
+            "San Francisco",
+            "Dublin"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Two founders just turned their YC startup into a powerhouse for AI coding, raising millions to unleash thousands of agents working together in the cloud.",
+      "id": "2124986805514846418",
+      "name": "Hoplite Raises $5.5M and Launches Swarms for Multi-Agent Coding",
+      "summary": "Hoplite, founded by Ryan Morrissey and Bence Redmond—University of Limerick dropouts who interned at Stripe and AWS—secured $5.5 million led by Stripe co-founders John and Patrick Collison, with backers like Paul Graham and Y Combinator. The funding coincides with the launch of Swarms, a system that coordinates thousands of AI agents on software tasks in isolated cloud sandboxes, cloning repos and delivering pull requests. Since its early days post-YC Summer 2026 batch, Hoplite has drawn 18,000 users processing 824 billion tokens, with founders eyeing team expansion amid buzz from developers praising its edge in agentic coding.",
+      "updated_at": "2026-11-23T22:08:32.000Z",
+      "url": "https://x.com/i/trending/2124986805514846418"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123062651098140715"
+        },
+        {
+          "post_id": "2123129135598125390"
+        },
+        {
+          "post_id": "2123097438604947496"
+        },
+        {
+          "post_id": "2123090692931277303"
+        },
+        {
+          "post_id": "2123062651098140715"
+        },
+        {
+          "post_id": "2123129135598125390"
+        },
+        {
+          "post_id": "2123091567242002682"
+        },
+        {
+          "post_id": "2123082902380618067"
+        },
+        {
+          "post_id": "2123090692931277303"
+        },
+        {
+          "post_id": "2123098333065716005"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Unsiloed AI",
+            "Y Combinator",
+            "Felicis Ventures",
+            "Allen AI"
+          ],
+          "people": [
+            "Aman",
+            "Adnan"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Entrepreneurship",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Enterprise teams drown in PDFs, scans, and spreadsheets that trip up AI. Unsiloed AI steps in with tech that turns them into clean data agents can trust.",
+      "id": "2123160059429466613",
+      "name": "Unsiloed AI Raises $7.5M to Parse Messy Documents for AI Agents",
+      "summary": "The Y Combinator startup, led by IIT Kharagpur alumni Aman Mishra and Adnan Abbas, secured $7.5 million in seed funding from Felicis and others to build a 'computable layer' for unstructured docs. Their parser uses computer vision to convert complex files into Markdown and JSON, topping benchmarks like olmOCR-Bench at 88.0 while preserving tables and layout. Early customers in banking, legal, and healthcare already process contracts and reports on their own servers, with pricing around one cent per page.",
+      "updated_at": "2026-11-18T21:10:01.000Z",
+      "url": "https://x.com/i/trending/2123160059429466613"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122379749372907852"
+        },
+        {
+          "post_id": "2122381278016360805"
+        },
+        {
+          "post_id": "2122376835346698603"
+        },
+        {
+          "post_id": "2122430543589413073"
+        },
+        {
+          "post_id": "2122377216424329384"
+        },
+        {
+          "post_id": "2122379749372907852"
+        },
+        {
+          "post_id": "2122381278016360805"
+        },
+        {
+          "post_id": "2122396998125138249"
+        },
+        {
+          "post_id": "2122430543589413073"
+        },
+        {
+          "post_id": "2122374532795420837"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Noeri AI Lab",
+            "Stanford",
+            "Menlo Ventures",
+            "Madrona Ventures",
+            "Kindred",
+            "Wing",
+            "NEA",
+            "Nvidia",
+            "Cisco",
+            "Snowflake"
+          ],
+          "people": [
+            "Yejin Choi",
+            "Carlos Guestrin"
+          ],
+          "places": [
+            "Palo Alto",
+            "Zurich"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine AI that learns directly from your company's workflows and gets better over time, all while staying fully yours. That's the vision Stanford stars Yejin Choi and Carlos Guestrin unveiled with Noeri this week.",
+      "id": "2122395173061853264",
+      "name": "Stanford Professors Launch Noeri with $110M for Self-Improving Company AI",
+      "summary": "Noeri, a five-month-old Palo Alto startup with a Zurich office, emerged from stealth Monday backed by $110 million led by Menlo Ventures and investors like NVIDIA. The company builds specialized AI systems that companies own outright, continually improving through real-world data by suggesting tweaks for human approval—like a smart code review. Early Stanford tests showed smaller models beating GPT-5 on scientific tasks, fueling hopes for a diverse ecosystem of tailored intelligences amid booming enterprise AI demand.",
+      "updated_at": "2026-11-17T02:36:40.000Z",
+      "url": "https://x.com/i/trending/2122395173061853264"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123884437045760420"
+        },
+        {
+          "post_id": "2123889942661403059"
+        },
+        {
+          "post_id": "2123899816270766254"
+        },
+        {
+          "post_id": "2123951259527139392"
+        },
+        {
+          "post_id": "2123884437045760420"
+        },
+        {
+          "post_id": "2123889942661403059"
+        },
+        {
+          "post_id": "2123896610971079099"
+        },
+        {
+          "post_id": "2123899816270766254"
+        },
+        {
+          "post_id": "2124199801705124124"
+        },
+        {
+          "post_id": "2123901071919644747"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Oracle",
+            "OpenAI",
+            "NVIDIA"
+          ],
+          "people": [],
+          "places": [
+            "Abilene campus"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "ORCL",
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Oracle posted a strong assurance on its OpenAI infrastructure funding right after markets closed. Tech voices quickly read it as a red flag instead of relief.",
+      "id": "2123903244107919568",
+      "name": "Oracle's Defensive Post on OpenAI Funding Draws Doubts",
+      "summary": "Late Friday, Oracle announced it had secured all funding for its OpenAI contract after a $20 billion raise, highlighting progress on data centers like the nearly complete Abilene campus and future NVIDIA racks. The company dismissed contrary media reports as incorrect and reaffirmed cash flow targets for 2028 and 2029. Online reactions poured in with skepticism, as Ed Zitron noted the timing one minute after market close and Matt Stoller mocked the solvent assurances, amid concerns over Oracle's debt, leases over $288 billion, and stock drop from its 2025 peak.",
+      "updated_at": "2026-11-22T04:19:21.000Z",
+      "url": "https://x.com/i/trending/2123903244107919568"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123101308232044770"
+        },
+        {
+          "post_id": "2123103635022483793"
+        },
+        {
+          "post_id": "2123103758817366218"
+        },
+        {
+          "post_id": "2123111864141857047"
+        },
+        {
+          "post_id": "2123101308232044770"
+        },
+        {
+          "post_id": "2123100246267830296"
+        },
+        {
+          "post_id": "2123103635022483793"
+        },
+        {
+          "post_id": "2123103758817366218"
+        },
+        {
+          "post_id": "2123152372226826720"
+        },
+        {
+          "post_id": "2123108298941702234"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Linq",
+            "Andreessen Horowitz",
+            "DoorDash",
+            "TownAI",
+            "Tomo"
+          ],
+          "people": [
+            "Elliott Potter",
+            "Patrick Sullivan",
+            "Jared Mattsson",
+            "Ben Horowitz"
+          ],
+          "places": [
+            "Birmingham, Alabama"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "From digital business cards in Birmingham to powering a billion messages for DoorDash—Linq's founders chased their vision across pivots, near bankruptcies, and a family move to San Francisco.",
+      "id": "2123107517685178704",
+      "name": "Linq Raises $90 Million for AI Agent Messaging Platform",
+      "summary": "Linq announced a $90 million Series B round led by Andreessen Horowitz, bringing total funding over $120 million. The platform enables AI agents to chat with users via text and calls, helping companies like DoorDash let customers order food entirely through Apple Messages. With over one billion messages processed and expansions into HD voice calls and computer automation, Linq is building the backbone for an era where agents handle real tasks through everyday channels. Investors praised the team's resilience after seven years of grit.",
+      "updated_at": "2026-11-18T23:30:11.000Z",
+      "url": "https://x.com/i/trending/2123107517685178704"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123740987587440671"
+        },
+        {
+          "post_id": "2123764366071795817"
+        },
+        {
+          "post_id": "2123649950055588300"
+        },
+        {
+          "post_id": "2123709111996924055"
+        },
+        {
+          "post_id": "2123780802320158863"
+        },
+        {
+          "post_id": "2123740987587440671"
+        },
+        {
+          "post_id": "2123764366071795817"
+        },
+        {
+          "post_id": "2123649950055588300"
+        },
+        {
+          "post_id": "2123709111996924055"
+        },
+        {
+          "post_id": "2123780802320158863"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Variational",
+            "Bain Capital Crypto",
+            "Dragonfly",
+            "Peak XV"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Cryptocurrency"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Traders are piling into Variational's Omni platform, chasing points for a massive upcoming airdrop after the protocol's huge funding round.",
+      "id": "2123802970672222392",
+      "name": "Variational Raises $110M at $1.5B Valuation, Fuels $VAR Points Rush",
+      "summary": "The Cayman Islands-based zero-fee perpetuals exchange on Arbitrum, which has handled over $475 billion in volume since early 2025, secured a $110 million Series B led by Bain Capital Crypto at a $1.5 billion valuation. The funds will boost open interest caps and add hundreds of new markets, including more traditional assets like stocks and commodities that now make up over half of daily trading. Community focus is on the points program, with 32% of $VAR tokens set for a fully unlocked Genesis airdrop to holders in Q4 2026; users share screenshots of thousands of points earned weekly, while pre-market trading implies $40 to $50 per point and analysts eye up to $284 in upside scenarios. Opinions differ on risks like post-launch sell pressure amid the platform's strong volume and institutional support.",
+      "updated_at": "2026-11-20T15:43:46.000Z",
+      "url": "https://x.com/i/trending/2123802970672222392"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123400146113499362"
+        },
+        {
+          "post_id": "2123313372510998911"
+        },
+        {
+          "post_id": "2123444947571606002"
+        },
+        {
+          "post_id": "2123465795816616041"
+        },
+        {
+          "post_id": "2123489741714907474"
+        },
+        {
+          "post_id": "2123400146113499362"
+        },
+        {
+          "post_id": "2123489741714907474"
+        },
+        {
+          "post_id": "2123313372510998911"
+        },
+        {
+          "post_id": "2123465795816616041"
+        },
+        {
+          "post_id": "2123472676824273403"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic",
+            "Financial Times",
+            "Apple",
+            "Alphabet"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Anthropic's blockbuster IPO lit up Wall Street, but its $900 billion compute commitments have analysts crunching numbers to see if revenue can keep pace.",
+      "id": "2123406820693963204",
+      "name": "Anthropic's $1 Trillion Compute Bets Face Revenue Scrutiny After Record IPO",
+      "summary": "The Claude chatbot maker filed documents revealing $900.9 billion in purchase commitments, mostly for compute infrastructure, with $70.7 billion due next year and $451.6 billion by 2030. To hit a 20% return on nearly $1 trillion invested, it would need $602 billion in yearly revenue—more than Apple's $478 billion—despite its run rate hitting $81 billion by late October 2026 after $33.24 billion in nine months. Skeptics liken it to a huge mortgage on a modest salary amid $104 billion losses, while optimists point to efficiency gains and Goldman Sachs' $600 billion revenue forecast by 2030. The IPO raised $81.3 billion at $83 per share, valuing the firm at $1.5 trillion.",
+      "updated_at": "2026-11-19T21:16:47.000Z",
+      "url": "https://x.com/i/trending/2123406820693963204"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122736527222698084"
+        },
+        {
+          "post_id": "2122738258614333714"
+        },
+        {
+          "post_id": "2122739498127896877"
+        },
+        {
+          "post_id": "2122740437102256445"
+        },
+        {
+          "post_id": "2122738434154611181"
+        },
+        {
+          "post_id": "2122765440489603126"
+        },
+        {
+          "post_id": "2122755003471577227"
+        },
+        {
+          "post_id": "2122737531733319789"
+        },
+        {
+          "post_id": "2122740332886646944"
+        },
+        {
+          "post_id": "2122737888165281963"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Dima Khanarin, CEO of Codos AI, unveiled a detailed map charting 82 companies chasing a $1 trillion AI transformation prize. It lays out the players turning AI pilots into everyday business powerhouses.",
+      "id": "2122781182308048958",
+      "name": "AI Transformation Market Map Highlights 82 Companies and $11 Billion Raised",
+      "summary": "The map groups firms into deployment services, transformation platforms, and context layers, featuring giants like OpenAI, Anthropic, AWS, McKinsey, BCG, Deloitte, and PwC alongside startups in full-stack platforms, AI interview tools, and agent systems. Codos AI, backed by a16z speedrun and drawing from McKinsey implementations plus Meta and Tesla machine learning, sits in the full-stack section. Observers predict outsized winners here, with Gartner forecasting worldwide AI spending to hit $2.7 trillion in 2026, up 49.5 percent, as enterprises push for real operational gains.",
+      "updated_at": "2026-11-17T20:07:19.000Z",
+      "url": "https://x.com/i/trending/2122781182308048958"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122762964419870792"
+        },
+        {
+          "post_id": "2122780345947017287"
+        },
+        {
+          "post_id": "2122934113887809575"
+        },
+        {
+          "post_id": "2122850864583135316"
+        },
+        {
+          "post_id": "2122784418779783264"
+        },
+        {
+          "post_id": "2122804404424503471"
+        },
+        {
+          "post_id": "2122923948308385889"
+        },
+        {
+          "post_id": "2122760217540833370"
+        },
+        {
+          "post_id": "2122788613494812796"
+        },
+        {
+          "post_id": "2122788134555697406"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "Agentaus 1 launch"
+          ],
+          "organizations": [
+            "Agentaus"
+          ],
+          "people": [],
+          "places": [
+            "Canberra"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "A husband-and-wife team in Canberra just unveiled Agentaus 1, a massive 220-billion-parameter AI that keeps all data safely onshore and answers only to its users.",
+      "id": "2122791710535352377",
+      "name": "Australia Launches Sovereign AI Model Agentaus 1",
+      "summary": "Trellis Data released Agentaus 1, scoring 84.4% on the MMLU-Pro benchmark and ranking 43rd worldwide, with strict privacy features like no data training and permanent chat deletion. Built on Australian servers with under $10 million in funding, it offers efficient performance on fewer GPUs and affordable API access starting at $1.15 per million tokens. The launch highlights Australia's focus on data sovereignty, drawing praise for blending capability with local control amid rising privacy concerns.",
+      "updated_at": "2026-11-18T14:04:06.000Z",
+      "url": "https://x.com/i/trending/2122791710535352377"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122366970494657026"
+        },
+        {
+          "post_id": "2122353569903128921"
+        },
+        {
+          "post_id": "2122352071295009156"
+        },
+        {
+          "post_id": "2122833372699566111"
+        },
+        {
+          "post_id": "2122354380368204102"
+        },
+        {
+          "post_id": "2122786511829807229"
+        },
+        {
+          "post_id": "2122356607266836706"
+        },
+        {
+          "post_id": "2122347790672216191"
+        },
+        {
+          "post_id": "2122809251194425455"
+        },
+        {
+          "post_id": "2122841380481589321"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Perplexity AI",
+            "Airtel"
+          ],
+          "people": [
+            "Aravind Srinivas"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Perplexity AI just committed over 10,000 GPUs to build AI that conducts research on its own—from spotting knowledge gaps to running experiments.",
+      "id": "2122367568191050161",
+      "name": "Perplexity AI Launches Frontier Research with 10,000 GPUs for Autonomous Science",
+      "summary": "On November 16, the company unveiled Perplexity Frontier Research, focusing on multi-agent systems, reinforcement learning, and continual learning to automate the full research process. Results will include openly released papers, models, data, and benchmarks tested in their products, with CEO Aravind Srinivas highlighting plans to integrate findings into user tools. Perplexity also shared crossing $1 billion in annual recurring revenue and launched an Orchestrator API that picks the best model from 45 options for any task. The team is hiring in multiple cities to push toward fully independent AI discovery.",
+      "updated_at": "2026-11-18T15:39:57.000Z",
+      "url": "https://x.com/i/trending/2122367568191050161"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122728925671620741"
+        },
+        {
+          "post_id": "2122740156507865413"
+        },
+        {
+          "post_id": "2122761262312595945"
+        },
+        {
+          "post_id": "2122737526104523069"
+        },
+        {
+          "post_id": "2122734789560086958"
+        },
+        {
+          "post_id": "2122728925671620741"
+        },
+        {
+          "post_id": "2122740156507865413"
+        },
+        {
+          "post_id": "2122753431568019689"
+        },
+        {
+          "post_id": "2122761262312595945"
+        },
+        {
+          "post_id": "2122737526104523069"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "Series B funding round"
+          ],
+          "organizations": [
+            "LanceDB",
+            "Bessemer Venture Partners",
+            "IEndeavors",
+            "Dimension Capital",
+            "Theory Ventures",
+            "Swift Ventures",
+            "CRV",
+            "Y Combinator",
+            "RunwayML",
+            "NVIDIA Cosmos"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "AI teams building robots and video models often waste weeks wrangling massive video and sensor data. LanceDB's new funding aims to fix that.",
+      "id": "2122763625358053402",
+      "name": "LanceDB Raises $57.5 Million for AI Multimodal Data Platform",
+      "summary": "LanceDB, a platform for handling petabytes of unstructured data like videos and images, secured $57.5 million in Series B funding co-led by Bessemer Venture Partners and Innovation Endeavors. This brings total funding to $98.5 million, fueling growth with revenue up over 10x year-over-year and customers including NVIDIA, Netflix, and Midjourney. CEO Chang She, co-author of the pandas library, emphasized how current tools fall short for AI's multimodal needs, with the funding set to expand capabilities for faster experiments and parallel research.",
+      "updated_at": "2026-11-17T18:54:41.000Z",
+      "url": "https://x.com/i/trending/2122763625358053402"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124611734321373473"
+        },
+        {
+          "post_id": "2123913159425868153"
+        },
+        {
+          "post_id": "2124624155102638280"
+        },
+        {
+          "post_id": "2124636459462517127"
+        },
+        {
+          "post_id": "2123915878517654012"
+        },
+        {
+          "post_id": "2124611891951759484"
+        },
+        {
+          "post_id": "2124611734321373473"
+        },
+        {
+          "post_id": "2123913159425868153"
+        },
+        {
+          "post_id": "2123915878517654012"
+        },
+        {
+          "post_id": "2124624155102638280"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Databricks"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Databricks, the data and AI powerhouse founded in 2013, is chatting about a massive funding round that could value it at $225 billion—up 20% from August's $190 billion mark.",
+      "id": "2123951021772980406",
+      "name": "Databricks Eyes $225 Billion Valuation in New Funding Talks",
+      "summary": "The company hit a $7 billion annualized revenue run rate by August, building tools for businesses to store, manage data, and create AI apps while competing with Snowflake. Talks for several billion dollars are early and could change, with no rush for an IPO despite strong investor interest in AI startups. Online chatter lit up with jokes about 'Series N' as the 14th letter, imagining employees from Series D in 2017 still waiting privately nearly a decade later, mixed with graveyard memes for early investors.",
+      "updated_at": "2026-11-23T00:10:32.000Z",
+      "url": "https://x.com/i/trending/2123951021772980406"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124922133545714160"
+        },
+        {
+          "post_id": "2124924942726902206"
+        },
+        {
+          "post_id": "2124916627485434127"
+        },
+        {
+          "post_id": "2124940416072200521"
+        },
+        {
+          "post_id": "2124938018121531485"
+        },
+        {
+          "post_id": "2124924942726902206"
+        },
+        {
+          "post_id": "2124922133545714160"
+        },
+        {
+          "post_id": "2124916627485434127"
+        },
+        {
+          "post_id": "2124940416072200521"
+        },
+        {
+          "post_id": "2124938601796636717"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "OpenWorks"
+          ],
+          "organizations": [
+            "OpenAI"
+          ],
+          "people": [],
+          "places": [
+            "Chicago",
+            "Fargo",
+            "Austin",
+            "Seattle",
+            "New York"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Small business owners often wonder how to use AI without big costs or tech headaches. OpenAI's new program puts local experts right in their shops to make it simple.",
+      "id": "2124929856911839420",
+      "name": "OpenAI Launches OpenWorks to Fund AI Help for Small Businesses",
+      "summary": "OpenAI announced OpenWorks on Monday, a program that funds local AI specialists up to $8,000 monthly to provide free, hands-on support to small businesses. It targets independently owned restaurants, retailers, service firms, and manufacturers in 20 U.S. cities like Chicago, New York, and Austin, offering one-on-one guidance and three months of free ChatGPT Business. OpenAI president Greg Brockman said it lowers barriers to help these businesses save time, cut costs, and grow faster. Applications stay open for partners and owners beyond the pilot areas.",
+      "updated_at": "2026-11-23T20:45:12.000Z",
+      "url": "https://x.com/i/trending/2124929856911839420"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124910920350749044"
+        },
+        {
+          "post_id": "2124946417936736508"
+        },
+        {
+          "post_id": "2124913175023816748"
+        },
+        {
+          "post_id": "2124910852407173585"
+        },
+        {
+          "post_id": "2124912055954112591"
+        },
+        {
+          "post_id": "2124910920350749044"
+        },
+        {
+          "post_id": "2124946417936736508"
+        },
+        {
+          "post_id": "2124912055954112591"
+        },
+        {
+          "post_id": "2124910852407173585"
+        },
+        {
+          "post_id": "2124913815724933387"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "CO:PROD",
+            "Founderful",
+            "Prototype Capital",
+            "EPFL",
+            "General Catalyst",
+            "Kima Ventures",
+            "Hugging Face"
+          ],
+          "people": [
+            "Loïc Delineau",
+            "Vincent Nguyen",
+            "Thomas Wolf"
+          ],
+          "places": [
+            "Switzerland"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Robotics",
+          "Business & Finance",
+          "Entrepreneurship"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine assembling a custom robot as easily as writing code—no more years lost to mismatched parts. That's the promise from Swiss founders who started in a garage in the Alps.",
+      "id": "2124974792155795613",
+      "name": "Swiss Startup Coprod Raises $6M to Simplify Robot Building",
+      "summary": "Coprod emerged from stealth on November 23 with a massive $6 million pre-seed round, one of the largest in Swiss history, to tackle 'integration hell' in robotics. Their modular hardware and unified software platform let engineers snap together sensing, motion, and power components via a single API, slashing build times from years to months and costs to $5,000–$25,000 per iteration. Born from EPFL club frustrations, the tech already powers projects like ETH's first student-built humanoid, XALUN, which took its first steps in Zurich. Backed by top investors, they're gearing up for commercial launches next year from their Lausanne base.",
+      "updated_at": "2026-11-23T21:20:44.000Z",
+      "url": "https://x.com/i/trending/2124974792155795613"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122752250372292824"
+        },
+        {
+          "post_id": "2122744931920064872"
+        },
+        {
+          "post_id": "2122682998227173856"
+        },
+        {
+          "post_id": "2122761409180107069"
+        },
+        {
+          "post_id": "2122744931920064872"
+        },
+        {
+          "post_id": "2122752250372292824"
+        },
+        {
+          "post_id": "2122776052883677679"
+        },
+        {
+          "post_id": "2122761409180107069"
+        },
+        {
+          "post_id": "2122758416712290393"
+        },
+        {
+          "post_id": "2122765073827721310"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Valkryn",
+            "Applied Intuition",
+            "Palantir",
+            "Anduril",
+            "SpaceX",
+            "a16z",
+            "Cantos",
+            "Ambition Capital",
+            "Caffeinated Capital"
+          ],
+          "people": [
+            "Hugh Zabriskie",
+            "Andrew Hoff"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "In the rush to modernize U.S. defense with drones and robots, testing lags far behind. Valkryn steps in with a platform that runs real-world trials under combat conditions.",
+      "id": "2122808624481517592",
+      "name": "Valkryn Raises $17M to Speed Up U.S. Defense Drone Testing",
+      "summary": "Washington-based startup Valkryn launched from stealth Tuesday with $17 million in funding to address testing bottlenecks for autonomous systems like drones and robots. Their Battle Lab runs combat-like tests, captures detailed data, and scores performance against government standards as a neutral evaluator. Led by CEO Hugh Zabriskie (ex-Palantir, Applied Intuition) and CTO Andrew Hoff (ex-Anduril, SpaceX), the company has already secured contracts with Department of War test organizations and deployed with a U.S. military task force in the Middle East. Investors like Andreessen Horowitz praise it for delivering faster, smarter evaluations in an era of rapid software updates.",
+      "updated_at": "2026-11-17T21:55:32.000Z",
+      "url": "https://x.com/i/trending/2122808624481517592"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123175975093784902"
+        },
+        {
+          "post_id": "2123176340925092067"
+        },
+        {
+          "post_id": "2123171800528142825"
+        },
+        {
+          "post_id": "2123250661198622723"
+        },
+        {
+          "post_id": "2123159665085403620"
+        },
+        {
+          "post_id": "2123175975093784902"
+        },
+        {
+          "post_id": "2123185649738203404"
+        },
+        {
+          "post_id": "2123171800528142825"
+        },
+        {
+          "post_id": "2123620552149704951"
+        },
+        {
+          "post_id": "2123285436986794275"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Palo Alto Networks",
+            "Applied Compute"
+          ],
+          "people": [
+            "Yash Patil",
+            "Rhythm Garg",
+            "Linden Li"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "PANW"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "A 23-year-old former OpenAI researcher is now set to become co-chief AI officer at a cybersecurity giant after his 18-month-old startup sells for $4.5 billion.",
+      "id": "2123163232990830858",
+      "name": "Palo Alto Networks Buys AI Startup Applied Compute for $4.5 Billion",
+      "summary": "Palo Alto Networks announced the all-stock acquisition of Applied Compute, founded 18 months ago by ex-OpenAI staffers Yash Patil, Rhythm Garg, and Linden Li, who built it to $100 million annualized revenue by helping enterprises securely train and run open-weight AI models. The deal, revealed with strong quarterly earnings, will integrate the startup's platform into Palo Alto's security offerings, with Patil joining as co-chief AI officer. CEO Nikesh Arora celebrated the move as vital for safe AI adoption, and shares jumped to around $361, expected to close in fiscal Q3 2027.",
+      "updated_at": "2026-11-20T11:04:43.000Z",
+      "url": "https://x.com/i/trending/2123163232990830858"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122736720542396523"
+        },
+        {
+          "post_id": "2122920436690501718"
+        },
+        {
+          "post_id": "2122874295445848309"
+        },
+        {
+          "post_id": "2122888433547047395"
+        },
+        {
+          "post_id": "2122920436690501718"
+        },
+        {
+          "post_id": "2122874295445848309"
+        },
+        {
+          "post_id": "2122888433547047395"
+        },
+        {
+          "post_id": "2122862688774869483"
+        },
+        {
+          "post_id": "2122886181310652832"
+        },
+        {
+          "post_id": "2122846302409310541"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "Atlas launch"
+          ],
+          "organizations": [
+            "Voyage Labs"
+          ],
+          "people": [],
+          "places": [
+            "Menlo Park, California"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Entrepreneurship",
+          "Technology",
+          "AI",
+          "Travel"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine telling an AI your dream beach getaway, and it handles every detail from booking to price checks. That's the promise of Atlas, the new personal travel agent from ex-Uber and Google leaders.",
+      "id": "2122912374449713154",
+      "name": "Voyage Labs Raises $12M for AI Travel Agent Atlas",
+      "summary": "Manik Gupta, former Uber chief product officer and Google Maps leader, and co-founder Yogesh Jain raised $12 million in seed funding for Voyage Labs and its Atlas AI agent. Led by Kleiner Perkins with SignalFire and others joining, the funds will expand partnerships for flights, hotels, dining, and experiences while growing the team. Atlas takes user ideas—like a ski trip or dinner reservation—researches options, books directly, learns preferences over time, and monitors changes, moving beyond simple suggestions to full trip management. Early beta users are planning trips, with a waitlist open amid excitement over specialized AI for travel.",
+      "updated_at": "2026-11-18T07:43:18.000Z",
+      "url": "https://x.com/i/trending/2122912374449713154"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124958187187298773"
+        },
+        {
+          "post_id": "2124963980481556930"
+        },
+        {
+          "post_id": "2124968133274550288"
+        },
+        {
+          "post_id": "2124895744775667767"
+        },
+        {
+          "post_id": "2124963980481556930"
+        },
+        {
+          "post_id": "2124958187187298773"
+        },
+        {
+          "post_id": "2124970360445796544"
+        },
+        {
+          "post_id": "2124968133274550288"
+        },
+        {
+          "post_id": "2124993913442476205"
+        },
+        {
+          "post_id": "2124960165393011005"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "a16z",
+            "The Prompting Company"
+          ],
+          "people": [
+            "Olivia Moore",
+            "Justine Moore"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "When picking products, AI agents ignore big brand names and zero in on price, reviews, and stock—just like a savvy shopper with a clear list.",
+      "id": "2124980852085891188",
+      "name": "AI Agents Prioritize Price and Reviews Over Brands in Shopping",
+      "summary": "A study by a16z and The Prompting Company ran over 10,000 tests on agents like Grok Bot, Muse, Instinct, and Dots from October 22 to November 8, 2026. Price drove 43% of decisions, reviews 30%, and availability 15%, while brands mattered under 1%. User prompts flipped choices dramatically—for example, budget needs favored cheap Shark hair tools 91% of the time, but daily use pushed Dyson to 88%. Businesses must now optimize for these machine shoppers with clear pricing, trust signals, and easy checkouts to capture rising agent-driven purchases.",
+      "updated_at": "2026-11-23T21:44:37.000Z",
+      "url": "https://x.com/i/trending/2124980852085891188"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122755334305669625"
+        },
+        {
+          "post_id": "2122756295744983543"
+        },
+        {
+          "post_id": "2122758664868311239"
+        },
+        {
+          "post_id": "2122795106688540978"
+        },
+        {
+          "post_id": "2122755996783161360"
+        },
+        {
+          "post_id": "2122755334305669625"
+        },
+        {
+          "post_id": "2122756295744983543"
+        },
+        {
+          "post_id": "2122795106688540978"
+        },
+        {
+          "post_id": "2122763389155803329"
+        },
+        {
+          "post_id": "2122792466462163021"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "First Person Labs",
+            "a16z"
+          ],
+          "people": [
+            "Kenziyu Liu",
+            "Erik Chi",
+            "Liu He"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine an AI that truly gets your priorities, style, and relationships—without any company owning it. First Person Labs just launched Second to make that real.",
+      "id": "2122802058273124471",
+      "name": "Second Lets You Own Your Personal AI Model",
+      "summary": "First Person Labs unveiled Second on November 17, a portable AI model that runs on your Mac and builds a deep understanding of you from daily activity. AI agents like Claude or iMessage can access it via API for instant context, while you retain full control and ownership. Backed by a $10 million seed round from a16z and Mozilla Ventures, the startup emphasizes privacy through on-device processing and inspectable data, addressing gaps in current assistants. Early users praise how it cuts down on repetitive explanations across tools.",
+      "updated_at": "2026-11-18T00:17:36.000Z",
+      "url": "https://x.com/i/trending/2122802058273124471"
+    },
+    {
+      "category": "Other",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122393155576426565"
+        },
+        {
+          "post_id": "2122367199625290028"
+        },
+        {
+          "post_id": "2122453223059710130"
+        },
+        {
+          "post_id": "2120209025099043286"
+        },
+        {
+          "post_id": "2122393155576426565"
+        },
+        {
+          "post_id": "2122367199625290028"
+        },
+        {
+          "post_id": "2122380760426610985"
+        },
+        {
+          "post_id": "2122453223059710130"
+        },
+        {
+          "post_id": "2122454923103305879"
+        },
+        {
+          "post_id": "2122373030597058925"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "a16z"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Teams of specialized AI agents are now splitting tasks, chatting on shared boards, and solving problems that single models can't touch alone.",
+      "id": "2122421047437729839",
+      "name": "Silicon Valley Races to Build AI Agent Swarms",
+      "summary": "Silicon Valley developers and investors are pushing agent swarms—coordinated groups of AI agents that handle search, payments, memory, and more through new tools and market maps from a16z. Tools like Swarms Corp's AgentRearrange and Google's Antigravity let builders create multi-agent workflows with simple code, spawning coordinators, workers, and verifiers that debate and test in real time. While token costs and coordination challenges persist, the rapid rise of these systems has experts rethinking how companies organize, favoring swarm-native setups over traditional ones.",
+      "updated_at": "2026-11-16T22:39:13.000Z",
+      "url": "https://x.com/i/trending/2122421047437729839"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123037256697233602"
+        },
+        {
+          "post_id": "2123034779113357536"
+        },
+        {
+          "post_id": "2123065484849692946"
+        },
+        {
+          "post_id": "2123052412881564141"
+        },
+        {
+          "post_id": "2123037256697233602"
+        },
+        {
+          "post_id": "2123057525574750568"
+        },
+        {
+          "post_id": "2123052412881564141"
+        },
+        {
+          "post_id": "2123034779113357536"
+        },
+        {
+          "post_id": "2123066217120321769"
+        },
+        {
+          "post_id": "2123061327958798759"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Humyn Labs",
+            "Accel",
+            "Lighthouse Canton"
+          ],
+          "people": [
+            "Manish Agarwal",
+            "Ishank Gupta"
+          ],
+          "places": [
+            "Bengaluru"
+          ],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Workers strap on special hardware to record their every move on the job—from vision to touch—turning daily tasks into gold for training robots in factories and homes.",
+      "id": "2123046941441315031",
+      "name": "Humyn Labs Raises $47 Million to Fuel Real-World AI Robot Training",
+      "summary": "Bengaluru-based Humyn Labs, founded this year by Manish Agarwal and Ishank Gupta, secured $47 million in Series A funding, blending $26 million equity led by Accel and $21 million venture debt. The funds will scale their data capture from over 20 countries, boost hardware and processing in Brazil, South Korea, and India, and expand teams in San Francisco, London, and Seoul. Already hitting $50 million annualized revenue in six months with U.S. AI labs and robotics firms as customers, the company bridges lab models to real-world reliability. Observers see it as a key step in robots tackling physical jobs, with data quality as the true hurdle.",
+      "updated_at": "2026-11-19T09:10:21.000Z",
+      "url": "https://x.com/i/trending/2123046941441315031"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122747826983866425"
+        },
+        {
+          "post_id": "2122780783136117030"
+        },
+        {
+          "post_id": "2122770448018805231"
+        },
+        {
+          "post_id": "2122709003918827671"
+        },
+        {
+          "post_id": "2122831026791579834"
+        },
+        {
+          "post_id": "2122749798046703755"
+        },
+        {
+          "post_id": "2122781941825155410"
+        },
+        {
+          "post_id": "2122753625487524224"
+        },
+        {
+          "post_id": "2122766921104085297"
+        },
+        {
+          "post_id": "2122749554487689634"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "Working Theory podcast episode on Recursive Self-Improvement"
+          ],
+          "organizations": [
+            "a16z",
+            "OpenAI",
+            "Thinking Machines Lab"
+          ],
+          "people": [
+            "Sarah Wang",
+            "Mark Chen",
+            "John Schulman"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Podcasts",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "AI researchers like OpenAI's Mark Chen ponder how close we are to machines that improve themselves, turning sci-fi into real lab work.",
+      "id": "2122784946641150244",
+      "name": "a16z Podcast Explores AI's Path to Self-Improvement",
+      "summary": "a16z's new 'Working Theory' podcast series kicks off with interviews featuring OpenAI's Mark Chen and Thinking Machines Lab's John Schulman, who explain recursive self-improvement—where AI drives its own research. Chen estimates OpenAI is 80% toward AGI but only 25-50% to full RSI, with 'research taste' from human experience as a major hurdle. A recent Google paper advances this by adding memory to optimizers, boosting scores in coding tasks from 68 to 85. Experts emphasize human-AI teamwork remains key for now.",
+      "updated_at": "2026-11-17T23:31:40.000Z",
+      "url": "https://x.com/i/trending/2122784946641150244"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124851296893042900"
+        },
+        {
+          "post_id": "2124853483274973295"
+        },
+        {
+          "post_id": "2124883511652008031"
+        },
+        {
+          "post_id": "2124922226453446666"
+        },
+        {
+          "post_id": "2124851296893042900"
+        },
+        {
+          "post_id": "2124853483274973295"
+        },
+        {
+          "post_id": "2124883511652008031"
+        },
+        {
+          "post_id": "2124903552405372980"
+        },
+        {
+          "post_id": "2124860518305566967"
+        },
+        {
+          "post_id": "2124851166890602670"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Applied Digital"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Applied Digital just locked in an 18-year deal for 150 megawatts of AI data center power with a top hyperscaler. It's a big win that pushes their long-term revenue backlog past $41 billion.",
+      "id": "2124859722503516351",
+      "name": "Applied Digital Secures $5.4 Billion AI Data Center Lease",
+      "summary": "The agreement adds $5.4 billion in base revenue, potentially reaching $12.7 billion with renewals, bringing the company's total contracted base-term lease revenue to over $41 billion—or nearly $100 billion including options. Capacity delivery starts in early 2028, pending approvals, and boosts their critical IT load to more than 1.6 gigawatts. President Jason Zhang celebrated the team's execution, saying their model is simple: sign deals, deliver megawatts, repeat. Shares jumped over 13% in pre-market trading on the news.",
+      "updated_at": "2026-11-23T19:53:25.000Z",
+      "url": "https://x.com/i/trending/2124859722503516351"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123122048192979428"
+        },
+        {
+          "post_id": "2123138421116043414"
+        },
+        {
+          "post_id": "2123130108923846924"
+        },
+        {
+          "post_id": "2123124264379220440"
+        },
+        {
+          "post_id": "2123122048192979428"
+        },
+        {
+          "post_id": "2123122591632134639"
+        },
+        {
+          "post_id": "2123138421116043414"
+        },
+        {
+          "post_id": "2123130108923846924"
+        },
+        {
+          "post_id": "2123128474382573972"
+        },
+        {
+          "post_id": "2123121694865002592"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Situational Awareness",
+            "Citadel",
+            "Anthropic",
+            "Jefferies",
+            "JPMorgan"
+          ],
+          "people": [
+            "Leopold Aschenbrenner"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "AI",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Just four months after a massive trading wipeout nearly sank his firm, 25-year-old Leopold Aschenbrenner is already eyeing a comeback with leveraged bets on AI.",
+      "id": "2123176316832714863",
+      "name": "Leopold Aschenbrenner Plans AI Hedge Fund Relaunch as Situational Awareness 2.0",
+      "summary": "Aschenbrenner's fund rode the AI boom to over $20 billion in assets before leveraged positions in stocks like SK Hynix triggered July margin calls and a fire sale to Citadel. Now dubbed 'Situational Awareness 2.0,' he's talking with investors and prime brokers like Jefferies about resuming high-risk trading and raising new capital as early as next year. The fund still manages over $10 billion, including a $5 billion stake in Anthropic, whose shares began trading on Nasdaq November 19 at $83 under ticker ANT—though Wall Street skeptics question returning to leverage so soon after the near-collapse.",
+      "updated_at": "2026-11-19T03:09:27.000Z",
+      "url": "https://x.com/i/trending/2123176316832714863"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123848140575182946"
+        },
+        {
+          "post_id": "2123853444587119047"
+        },
+        {
+          "post_id": "2123897338980962357"
+        },
+        {
+          "post_id": "2123855343142793220"
+        },
+        {
+          "post_id": "2123848140575182946"
+        },
+        {
+          "post_id": "2123853444587119047"
+        },
+        {
+          "post_id": "2123897338980962357"
+        },
+        {
+          "post_id": "2123855343142793220"
+        },
+        {
+          "post_id": "2123965963204718594"
+        },
+        {
+          "post_id": "2124021957985178030"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Scaler",
+            "InterviewBit",
+            "Arcfront"
+          ],
+          "people": [
+            "Anshuman Singh",
+            "Naman Bhalla"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Entrepreneurship"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Anshuman Singh stepped onto a stage under a glowing rainbow arc to unveil Arcfront, a company tackling why top AI crushes contests but falters in daily jobs like finance management.",
+      "id": "2123863174470643877",
+      "name": "Arcfront Launches with AI Data Bridging Benchmarks and Real-World Judgment",
+      "summary": "Co-founders Anshuman Singh and Naman Bhalla introduced Arcfront, which collects 'Decision Arc Data' from professionals in hospitals, factories, banks, and engineering teams. This data captures how experts evaluate situations, weigh options, revise plans, and reach outcomes, turning it into reinforcement learning environments for AI labs. In under a year, the firm gained four of the five leading frontier AI labs as customers, over 300 enterprise partners, and more than 1,000 RL environments, hitting a reported $1 billion annualized revenue run rate. Community members praised the team's quick execution and focus on practical expertise from its India roots with hires in San Francisco and Bengaluru.",
+      "updated_at": "2026-11-21T11:24:47.000Z",
+      "url": "https://x.com/i/trending/2123863174470643877"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123549936880930945"
+        },
+        {
+          "post_id": "2123548140208791862"
+        },
+        {
+          "post_id": "2123549834594713868"
+        },
+        {
+          "post_id": "2123558635947122783"
+        },
+        {
+          "post_id": "2123548140208791862"
+        },
+        {
+          "post_id": "2123549834594713868"
+        },
+        {
+          "post_id": "2123549936880930945"
+        },
+        {
+          "post_id": "2123558635947122783"
+        },
+        {
+          "post_id": "2123552113511059474"
+        },
+        {
+          "post_id": "2123548107212546378"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Nvidia",
+            "Inception"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Nvidia eyes a key AI talent grab with Inception's speedy text-generation tech that could supercharge its models and robots.",
+      "id": "2123597080388055288",
+      "name": "Nvidia in Advanced Talks to Buy AI Startup Inception for Over $500 Million",
+      "summary": "Reports say Nvidia is deep in discussions to acquire Inception, an AI startup specializing in diffusion-based models that generate text in parallel for faster speeds and lower costs on standard hardware. The deal, valued above $500 million, would bring Inception's three co-founders onboard to integrate their Mercury tech into Nvidia's Nemotron models and robotics. Talks started before former CEO Jensen Huang's resignation, following Inception's $50 million seed round backed by Nvidia's venture arm, signaling the chip giant's push into AI software amid competition.",
+      "updated_at": "2026-11-20T03:10:13.000Z",
+      "url": "https://x.com/i/trending/2123597080388055288"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122633790606496117"
+        },
+        {
+          "post_id": "2122703519799267586"
+        },
+        {
+          "post_id": "2122656747353710826"
+        },
+        {
+          "post_id": "2122704623890739426"
+        },
+        {
+          "post_id": "2122618976182370418"
+        },
+        {
+          "post_id": "2122618976182370418"
+        },
+        {
+          "post_id": "2122633790606496117"
+        },
+        {
+          "post_id": "2122656747353710826"
+        },
+        {
+          "post_id": "2122700863999517067"
+        },
+        {
+          "post_id": "2122689244175221059"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "Anthropic's IPO"
+          ],
+          "organizations": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Leaked code snippets and prediction markets are buzzing with talk of OpenAI dropping GPT-6.2 Astra and Sol models today, just in time to steal the spotlight from Anthropic's big Nasdaq debut.",
+      "id": "2122695866901499999",
+      "name": "OpenAI GPT-6.2 Astra and Sol Release Rumors Heat Up Ahead of Anthropic IPO",
+      "summary": "Speculation centers on GitHub entries for gpt-6.2-astra, gpt-6.2-sol, and gpt-6.2-luna, complete with pricing, spotted in third-party API projects that have accurately flagged past releases. Traders on Polymarket see a 69% chance of a GPT Astra 6.1+ public release between November 16 and 22, tying the timing to Anthropic's share pricing on November 18 and trading start under ticker ANT on November 19. While some users express caution from past delays and possible national security reviews, the mix of leaks, Tuesday release patterns, and competitive pressure keeps hopes high—no official word from OpenAI yet.",
+      "updated_at": "2026-11-17T16:35:06.000Z",
+      "url": "https://x.com/i/trending/2122695866901499999"
+    },
+    {
+      "category": "Entertainment",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123047321147490479"
+        },
+        {
+          "post_id": "2122782904438972676"
+        },
+        {
+          "post_id": "2122676444174168222"
+        },
+        {
+          "post_id": "2122985599946670190"
+        },
+        {
+          "post_id": "2122782904438972676"
+        },
+        {
+          "post_id": "2123047321147490479"
+        },
+        {
+          "post_id": "2122985599946670190"
+        },
+        {
+          "post_id": "2122676444174168222"
+        },
+        {
+          "post_id": "2122962743351558278"
+        },
+        {
+          "post_id": "2123122673123471395"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Sound Ventures",
+            "Anthropic"
+          ],
+          "people": [
+            "Ashton Kutcher"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Picture turning $435 million into $7 billion—that's the eye-popping math behind Ashton Kutcher's early bet on Anthropic, just ahead of its IPO.",
+      "id": "2122830555683143944",
+      "name": "Ashton Kutcher's Firm Turns $435 Million Anthropic Bet into $7 Billion Stake",
+      "summary": "Sound Ventures, Kutcher's firm, invested about $435 million in Anthropic starting with $35 million in its 2023 Series C round at a $5 billion valuation, building an estimated 0.5 percent stake. At the AI company's targeted $1.4 trillion fully diluted valuation for its Nasdaq debut under ticker ANT, that position balloons to roughly $7 billion—a 16-times return. The windfall traces back to a 2023 meeting at Guy Oseary's Beverly Hills home where Kutcher and Anthropic CEO Dario Amodei discussed AI safety, and it underscores Sound Ventures' hits from Skype and Uber to Bitcoin and OpenAI.",
+      "updated_at": "2026-11-18T20:29:44.000Z",
+      "url": "https://x.com/i/trending/2122830555683143944"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124913729057824924"
+        },
+        {
+          "post_id": "2124913167348187517"
+        },
+        {
+          "post_id": "2124964689537032436"
+        },
+        {
+          "post_id": "2124929268069421420"
+        },
+        {
+          "post_id": "2124916627305312337"
+        },
+        {
+          "post_id": "2124913729057824924"
+        },
+        {
+          "post_id": "2124913167348187517"
+        },
+        {
+          "post_id": "2124931313845092564"
+        },
+        {
+          "post_id": "2124929268069421420"
+        },
+        {
+          "post_id": "2124964689537032436"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Supertake",
+            "USV",
+            "Adjacent",
+            "Coinbase Ventures",
+            "Coinbase"
+          ],
+          "people": [
+            "Lincoln Murr",
+            "John Peterson",
+            "Nat Friedman",
+            "Nikita Bier"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine typing a simple belief like 'Apple M4s, Chips Crunch' and watching AI turn it into a real investment portfolio. That's Supertake's big bet on everyday ideas.",
+      "id": "2124933160962228642",
+      "name": "Supertake Raises $20M Seed with Coinbase AI Vets as New Leaders",
+      "summary": "Supertake announced a $20 million seed round on November 23, 2026, led by Adjacent with backers like USV and Coinbase Ventures. Lincoln Murr from Coinbase joined as CEO and co-founder, with John Peterson as CTO, bringing expertise from projects like agentic wallets to power AI-driven portfolios tied to user ideas. The platform connects plain-language takes to brokerages like Robinhood, tracks live performance, and builds a meritocracy where strong insights gain followers and value. Early beta users have invested real money and praised the competitive leaderboard.",
+      "updated_at": "2026-11-23T21:08:40.000Z",
+      "url": "https://x.com/i/trending/2124933160962228642"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122758430721204407"
+        },
+        {
+          "post_id": "2122785772806062200"
+        },
+        {
+          "post_id": "2122790036496351731"
+        },
+        {
+          "post_id": "2122782569385333149"
+        },
+        {
+          "post_id": "2122850610664071314"
+        },
+        {
+          "post_id": "2122758430721204407"
+        },
+        {
+          "post_id": "2122785772806062200"
+        },
+        {
+          "post_id": "2122790036496351731"
+        },
+        {
+          "post_id": "2122777632156909831"
+        },
+        {
+          "post_id": "2122766293212557682"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "SID-2 Launch"
+          ],
+          "organizations": [
+            "SID Labs"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Max Rumpf unveiled SID-2 amid a custom film set with server racks and 100 origami cranes folded from printed documents, showcasing AI's creative boost.",
+      "id": "2122795325932937673",
+      "name": "SID.ai Launches SID-2: Faster, Cheaper AI Search Swarms",
+      "summary": "SID.ai released SID-2 on November 17, a search model using coordinated swarms of AI agents that outperform Anthropic’s Opus and Google’s Astra while running 8x faster and at 20x lower cost. It tackles the data explosion from AI generating an internet’s worth of text daily by 2030 and enterprises hitting petabyte scales. The launch video, built in 12 hours with AI tools, drew positive reactions in the AI community, with the technical report praised as one of the year's strongest. SID-2 is now available via API for testing on tough queries.",
+      "updated_at": "2026-11-18T03:34:42.000Z",
+      "url": "https://x.com/i/trending/2122795325932937673"
+    },
+    {
+      "category": "Other",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123612078846140580"
+        },
+        {
+          "post_id": "2123610510381973791"
+        },
+        {
+          "post_id": "2123615583459745866"
+        },
+        {
+          "post_id": "2123600361458110763"
+        },
+        {
+          "post_id": "2123595324698595496"
+        },
+        {
+          "post_id": "2123624285256507486"
+        },
+        {
+          "post_id": "2123657945095328005"
+        },
+        {
+          "post_id": "2123614936538501555"
+        },
+        {
+          "post_id": "2123589366274806068"
+        },
+        {
+          "post_id": "2123642117109198926"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic",
+            "Qwen",
+            "DeepSeek",
+            "GLM"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "A post warned that one affordable Chinese model matching Anthropic's Opus 5.5 would spell 'game over' for the company. Responses quickly pointed out how expectations keep shifting higher.",
+      "id": "2123662178935046577",
+      "name": "Debate Heats Up Over Chinese AI Models Challenging Anthropic",
+      "summary": "Conversations highlight concerns that fast-improving open-weight models from Chinese labs like Z.ai's GLM 5.3, Alibaba's Qwen series, Moonshot AI's Kimi K3, and DeepSeek's V4 could disrupt Anthropic's market lead. Practitioners already use these cheaper options for coding, summarization, and agent tasks, often alongside premium Western systems. While Anthropic's Opus 5.5 excels in complex coding and offers enterprise tools like Slack integrations, many see costs falling toward zero, pushing all labs to specialize in areas like biotech or cybersecurity amid narrowing capability gaps.",
+      "updated_at": "2026-11-20T06:23:20.000Z",
+      "url": "https://x.com/i/trending/2123662178935046577"
+    },
+    {
+      "category": "Other",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124336124172935336"
+        },
+        {
+          "post_id": "2124732879376941275"
+        },
+        {
+          "post_id": "2124693450792620193"
+        },
+        {
+          "post_id": "2124670693862257047"
+        },
+        {
+          "post_id": "2124697570865762459"
+        },
+        {
+          "post_id": "2124693450792620193"
+        },
+        {
+          "post_id": "2124704486811926848"
+        },
+        {
+          "post_id": "2124671344138990010"
+        },
+        {
+          "post_id": "2124699774083539075"
+        },
+        {
+          "post_id": "2124686772823109908"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Leverage Computer",
+            "rox_ai"
+          ],
+          "people": [
+            "John Suh"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Entrepreneurship"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine a single system where swarms of AI agents and humans tend business needs like plants in rich soil, letting traditional apps fade into mere databases.",
+      "id": "2124741338142745034",
+      "name": "Vision of 2027 Agent Platform Reshapes AI Future",
+      "summary": "John Suh envisions a unified 'agent platform of 2027' as the endgame for AI, where users plant custom 'seeds' of their needs and agents grow solutions organically alongside people and real-time data. Builders like Leverage Computer are delivering pieces, such as shared workspaces for human-agent teams with persistent memory in Git and dedicated VMs. While startups chase speed and collaboration, enterprise experts highlight needs for governance, legacy integration, trust via blockchain, and scalable context to handle real-world complexity across large organizations.",
+      "updated_at": "2026-11-23T10:04:54.000Z",
+      "url": "https://x.com/i/trending/2124741338142745034"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122323115535720921"
+        },
+        {
+          "post_id": "2122505651348013279"
+        },
+        {
+          "post_id": "2122884045583606245"
+        },
+        {
+          "post_id": "2122979909102710948"
+        },
+        {
+          "post_id": "2123030862287827421"
+        },
+        {
+          "post_id": "2122951777268211862"
+        },
+        {
+          "post_id": "2122884045583606245"
+        },
+        {
+          "post_id": "2122845247990632548"
+        },
+        {
+          "post_id": "2122979909102710948"
+        },
+        {
+          "post_id": "2123315834856894802"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Sarvam AI",
+            "NVIDIA"
+          ],
+          "people": [
+            "Pratyush Kumar"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": [
+            "NVDA"
+          ]
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Sarvam AI just rolled out its Token Factory platform, making top models from China and Google available via Indian servers. The launch has people talking about what it means for India's homegrown AI dreams.",
+      "id": "2122824473443475471",
+      "name": "Sarvam AI Launches Token Factory Hosting Foreign Models on Indian GPUs",
+      "summary": "On November 16, Sarvam AI debuted Token Factory, an inference platform on Indian GPU clusters that serves its own 105B model plus open-weight systems from DeepSeek, Moonshot, Zhipu AI, and Google's Gemma through a single OpenAI-compatible API. Critics say it undercuts Sarvam's government-subsidized push for sovereign AI, acting more like a hosting service for foreign tech despite ₹98.68 crore in subsidies and $234 million raised. Supporters highlight benefits like data staying in India, competitive rupee pricing around ₹14 per million input tokens, low latency, and revenue to fund bigger domestic models—all on separate private infrastructure.",
+      "updated_at": "2026-11-19T13:28:19.000Z",
+      "url": "https://x.com/i/trending/2122824473443475471"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122749379287388570"
+        },
+        {
+          "post_id": "2122763837736710472"
+        },
+        {
+          "post_id": "2122767396503175288"
+        },
+        {
+          "post_id": "2122691260037370273"
+        },
+        {
+          "post_id": "2122763837736710472"
+        },
+        {
+          "post_id": "2122757887487295593"
+        },
+        {
+          "post_id": "2122757645056499980"
+        },
+        {
+          "post_id": "2122799966972256443"
+        },
+        {
+          "post_id": "2122802758235586715"
+        },
+        {
+          "post_id": "2122783933402124487"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Stitch AI"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Imagine AI agents diving straight into a bank's core ledger, fetching data and tweaking settings—all while following strict rules and logging every move.",
+      "id": "2122876190134353995",
+      "name": "Stitch Launches AI Agents Inside Banking Systems",
+      "summary": "Stitch has rolled out Stitch AI, embedding autonomous agents directly into its banking operating system. These agents handle tasks like onboarding, credit checks, and collections using live data, with features like a copilot for plain-language requests, custom agent building, and strict controls such as human approvals for big changes and data masking. The launch tackles legacy system hurdles, letting banks move beyond basic chatbots to real workflow automation in regulated settings. Online reactions blend excitement with memes, like one showing stunned bank staff as AI finally acts on months of meeting talks.",
+      "updated_at": "2026-11-18T02:21:00.000Z",
+      "url": "https://x.com/i/trending/2122876190134353995"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2124824531395067947"
+        },
+        {
+          "post_id": "2124282426209775663"
+        },
+        {
+          "post_id": "2124311446829891585"
+        },
+        {
+          "post_id": "2124720471933440314"
+        },
+        {
+          "post_id": "2124554463855935747"
+        },
+        {
+          "post_id": "2124528866047738058"
+        },
+        {
+          "post_id": "2124847173515014519"
+        },
+        {
+          "post_id": "2124495618542604462"
+        },
+        {
+          "post_id": "2124825445233197364"
+        },
+        {
+          "post_id": "2124723058661527827"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [
+            "Anthropic IPO"
+          ],
+          "organizations": [
+            "Anthropic",
+            "Wall Street"
+          ],
+          "people": [],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Business & Finance",
+          "Technology",
+          "AI"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Anthropic just raised over $81 billion in its Nasdaq debut, stacking up $237 billion in cash that dwarfs even Nvidia's reserves. But with huge spending pledges looming, questions swirl about turning that war chest into lasting success.",
+      "id": "2124367281203662878",
+      "name": "Anthropic's $81 Billion IPO Delivers Massive Cash Pile Amid Profitability Concerns",
+      "summary": "The AI company behind Claude models pulled in $81 billion from its IPO last week, plus $26 billion privately, for total cash exceeding Alphabet, Amazon, SpaceX, and Apple's combined. Q3 revenue hit $16.8 billion, up 45% from the prior quarter with positive free cash flow, yet GAAP losses persist alongside $900 billion in compute commitments that may earn junk bond ratings. Critics flag restricted shares potentially inflating valuation and warn of future price pressure, while tokenized versions and leveraged ETFs draw traders; the stock has swung wildly early on as investors eye profitability amid fierce competition.",
+      "updated_at": "2026-11-23T17:26:34.000Z",
+      "url": "https://x.com/i/trending/2124367281203662878"
+    },
+    {
+      "category": "Other",
+      "cluster_posts_results": [
+        {
+          "post_id": "2122418164869079551"
+        },
+        {
+          "post_id": "2122452181152632924"
+        },
+        {
+          "post_id": "2122475143616495719"
+        },
+        {
+          "post_id": "2122478861619462170"
+        },
+        {
+          "post_id": "2122418164869079551"
+        },
+        {
+          "post_id": "2122475143616495719"
+        },
+        {
+          "post_id": "2122452181152632924"
+        },
+        {
+          "post_id": "2122478861619462170"
+        },
+        {
+          "post_id": "2122491926415020166"
+        },
+        {
+          "post_id": "2122483724172333249"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Figure AI",
+            "Unitree",
+            "AGIBOT",
+            "Xpeng",
+            "Tesla"
+          ],
+          "people": [
+            "Brett Adcock"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Robotics"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Brett Adcock watched Chinese robot demos and saw flashy stunts, but wondered where the real-world smarts were hiding.",
+      "id": "2122520177313026192",
+      "name": "Figure AI CEO Questions China's Humanoid Robot Progress",
+      "summary": "On the Moonshots podcast in mid-November 2026, Figure AI CEO Brett Adcock said Chinese humanoid firms like Unitree focus too much on gymnastics-style shows instead of robots with strong reasoning for everyday tasks. He criticized their hardware as tiny, handless, and poorly built, while noting little change in Tesla's Optimus over years. Observers pushed back, highlighting China's 97% share of global shipments and advances in supply chains and multi-step AI tasks. The debate reveals clashing views: scalable production now versus adaptable home robots later.",
+      "updated_at": "2026-11-17T02:45:32.000Z",
+      "url": "https://x.com/i/trending/2122520177313026192"
+    },
+    {
+      "category": "News",
+      "cluster_posts_results": [
+        {
+          "post_id": "2123172397897621508"
+        },
+        {
+          "post_id": "2123176092572033499"
+        },
+        {
+          "post_id": "2123245340606468565"
+        },
+        {
+          "post_id": "2123236238916465073"
+        },
+        {
+          "post_id": "2123249931284578361"
+        },
+        {
+          "post_id": "2123172397897621508"
+        },
+        {
+          "post_id": "2123176092572033499"
+        },
+        {
+          "post_id": "2123245340606468565"
+        },
+        {
+          "post_id": "2123225837407547793"
+        },
+        {
+          "post_id": "2123249931284578361"
+        }
+      ],
+      "contexts": {
+        "entities": {
+          "events": [],
+          "organizations": [
+            "Anthropic"
+          ],
+          "people": [
+            "Dario Amodei"
+          ],
+          "places": [],
+          "products": []
+        },
+        "finance": {
+          "tickers": []
+        },
+        "sports": {
+          "teams": []
+        },
+        "topics": [
+          "Technology",
+          "Business & Finance"
+        ]
+      },
+      "disclaimer": "This story is a summary of posts on X and may evolve over time. Grok can make mistakes, verify its outputs.",
+      "hook": "Anthropic employees see their company as humanity's best shot at safely harnessing superintelligent AI, even as it races to build it first amid growing doubts.",
+      "id": "2123299357940195491",
+      "name": "Anthropic's Record $81 Billion IPO Draws Safety Scrutiny",
+      "summary": "Jasmine Sun's New York Times piece reveals Anthropic staff's deep commitment to steering AI away from catastrophe, shaped by CEO Dario Amodei's view that their leadership offers the safest path forward. The company priced its IPO at $83 per share on November 18, raising over $81 billion in the largest stock debut ever and valuing it at $1.5 trillion, with shares set to trade on Nasdaq as ANT. Critics question if heavy investments in compute and self-improving tech align with safety claims, fueling protests and calls for more accountability as the firm goes public.",
+      "updated_at": "2026-11-19T06:20:48.000Z",
+      "url": "https://x.com/i/trending/2123299357940195491"
+    }
+  ]
+}
