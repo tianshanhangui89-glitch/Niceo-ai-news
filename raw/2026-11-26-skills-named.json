@@ -1,0 +1,934 @@
+{
+  "fetched_at": "2026-11-26T06:59:45+08:00",
+  "channel": "skills",
+  "source": "x.search_posts_all+x.getPostsByIds",
+  "filter": "named_installable_only",
+  "count": 37,
+  "data": [
+    {
+      "id": "2125718695121244329",
+      "name": "xlsx",
+      "title": "入れ方は、Claude Code にこの一文を貼るだけです。\n\n「npx skills add https://github.com/anthropics/skills --skill xlsx を実行して、xlsx を入れて」\n\n入ったら「このメモを、式とグラフのついた集計のExcelにして」と頼んでみてください。\n\nhttps://skills.sh/anthropics/skills/xlsx",
+      "summary": "入れ方は、Claude Code にこの一文を貼るだけです。\n\n「npx skills add https://github.com/anthropics/skills --skill xlsx を実行して、xlsx を入れて」\n\n入ったら「このメモを、式とグラフのついた集計のExcelにして」と頼んでみてください。\n\nhttps://skills.sh/anthropics/skills/xlsx",
+      "hook": "具名可装 · xlsx",
+      "category": "AI技能",
+      "url": "https://x.com/byakuyaAI/status/2125718695121244329",
+      "updated_at": "2026-11-25T22:30:05.000Z",
+      "published_at": "2026-11-25T22:30:05.000Z",
+      "author": "byakuyaAI",
+      "source": "X Post",
+      "x_url": "https://x.com/byakuyaAI/status/2125718695121244329",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "xlsx",
+      "install": "npx skills add anthropics/skills --skill xlsx",
+      "repo": "anthropics/skills",
+      "github_url": "https://github.com/anthropics/skills"
+    },
+    {
+      "id": "2125709067520029115",
+      "name": "ai-video-generator-skill",
+      "title": "From a cabin image, one push-in held snow, smoke, and sound for 5s. In our Beatra run (11,845 creator accounts chained 2+ modalities as of 2026-11-19), locking pines cut drift.\n\nnpx skills add beatra-ai/ai-video-generator-skill\nhttps://beatra.ai/skills/beatra-ai-video-studio?utm_source=x&utm_medium=social&utm_campaign=20261126_x_beatra_ai_video_studio https://x.com/catolu_si/status/2125709067520029115/video/1",
+      "summary": "From a cabin image, one push-in held snow, smoke, and sound for 5s. In our Beatra run (11,845 creator accounts chained 2+ modalities as of 2026-11-19), locking pines cut drift.\n\nnpx skills add beatra-ai/ai-video-generator-skill\nhttps://beatra.ai/skills/beatra-ai-video-studio?utm_source=x&utm_medium=social&utm_campaign=20261126_x_beatra_ai_video_studio https://x.com/catolu_si/status/2125709067520029115/video/1",
+      "hook": "具名可装 · ai-video-generator-skill",
+      "category": "AI技能",
+      "url": "https://x.com/catolu_si/status/2125709067520029115",
+      "updated_at": "2026-11-25T21:51:50.000Z",
+      "published_at": "2026-11-25T21:51:50.000Z",
+      "author": "catolu_si",
+      "source": "X Post",
+      "x_url": "https://x.com/catolu_si/status/2125709067520029115",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ai-video-generator-skill",
+      "install": "npx skills add beatra-ai/ai-video-generator-skill",
+      "repo": "beatra-ai/ai-video-generator-skill",
+      "github_url": "https://github.com/beatra-ai/ai-video-generator-skill"
+    },
+    {
+      "id": "2125707965051142282",
+      "name": "cinematic-skill",
+      "title": "RT @aeng_kkang: 설치 (Claude Code·Codex·Cursor·Gemini CLI 다 돼요, Node 22.20 이상)\nnpx skills add Moh4696/cinematic-skill\n\nClaude Code 플러그인으로 깔려면…",
+      "summary": "RT @aeng_kkang: 설치 (Claude Code·Codex·Cursor·Gemini CLI 다 돼요, Node 22.20 이상)\nnpx skills add Moh4696/cinematic-skill\n\nClaude Code 플러그인으로 깔려면…",
+      "hook": "具名可装 · cinematic-skill",
+      "category": "AI技能",
+      "url": "https://x.com/mehmet2089427/status/2125707965051142282",
+      "updated_at": "2026-11-25T21:47:27.000Z",
+      "published_at": "2026-11-25T21:47:27.000Z",
+      "author": "mehmet2089427",
+      "source": "X Post",
+      "x_url": "https://x.com/mehmet2089427/status/2125707965051142282",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "cinematic-skill",
+      "install": "npx skills add Moh4696/cinematic-skill",
+      "repo": "Moh4696/cinematic-skill",
+      "github_url": "https://github.com/Moh4696/cinematic-skill"
+    },
+    {
+      "id": "2125700679293689869",
+      "name": "gods-eye-mcp",
+      "title": "Install via AgentCash:\nnpx skills add Aliyuava/gods-eye-mcp\n\nOr standalone:\nuvx --from git+https://github.com/Aliyuava/gods-eye-mcp gods-eye-mcp\n\nGlama: https://glama.ai/mcp/servers/Aliyuava/gods-eye-mcp\nGitHub: https://github.com/Aliyuava/gods-eye-mcp",
+      "summary": "Install via AgentCash:\nnpx skills add Aliyuava/gods-eye-mcp\n\nOr standalone:\nuvx --from git+https://github.com/Aliyuava/gods-eye-mcp gods-eye-mcp\n\nGlama: https://glama.ai/mcp/servers/Aliyuava/gods-eye-mcp\nGitHub: https://github.com/Aliyuava/gods-eye-mcp",
+      "hook": "具名可装 · gods-eye-mcp",
+      "category": "AI技能",
+      "url": "https://x.com/Noblerift/status/2125700679293689869",
+      "updated_at": "2026-11-25T21:18:30.000Z",
+      "published_at": "2026-11-25T21:18:30.000Z",
+      "author": "Noblerift",
+      "source": "X Post",
+      "x_url": "https://x.com/Noblerift/status/2125700679293689869",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "gods-eye-mcp",
+      "install": "npx skills add Aliyuava/gods-eye-mcp",
+      "repo": "Aliyuava/gods-eye-mcp",
+      "github_url": "https://github.com/Aliyuava/gods-eye-mcp"
+    },
+    {
+      "id": "2125681633303072877",
+      "name": "midkernel-threat-intel",
+      "title": "Midkernel Threat Intel now ships as an agent skill. One command adds it to your coding agent:\nnpx skills add https://github.com/midkernel/threat-intel-skill --skill midkernel-threat-intel\nFree, read-only, no account or API key. It points your agent at our public MCP for live CVE and exploit lookups.",
+      "summary": "Midkernel Threat Intel now ships as an agent skill. One command adds it to your coding agent:\nnpx skills add https://github.com/midkernel/threat-intel-skill --skill midkernel-threat-intel\nFree, read-only, no account or API key. It points your agent at our public MCP for live CVE and exploit lookups.",
+      "hook": "具名可装 · midkernel-threat-intel",
+      "category": "AI技能",
+      "url": "https://x.com/midkernel/status/2125681633303072877",
+      "updated_at": "2026-11-25T20:02:49.000Z",
+      "published_at": "2026-11-25T20:02:49.000Z",
+      "author": "midkernel",
+      "source": "X Post",
+      "x_url": "https://x.com/midkernel/status/2125681633303072877",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "midkernel-threat-intel",
+      "install": "npx skills add midkernel/threat-intel-skill --skill midkernel-threat-intel",
+      "repo": "midkernel/threat-intel-skill",
+      "github_url": "https://github.com/midkernel/threat-intel-skill"
+    },
+    {
+      "id": "2125681543108542965",
+      "name": "tracepress",
+      "title": "There are plenty other goodies I cant fit into this thread. Check out the blog and simply try out tracepress yourself!\n\nBlog: https://noahziems.com/trace-science\nGithub: https://github.com/ziems/tracepress\nTry the skill with:\n`npx skills add Ziems/tracepress​`",
+      "summary": "There are plenty other goodies I cant fit into this thread. Check out the blog and simply try out tracepress yourself!\n\nBlog: https://noahziems.com/trace-science\nGithub: https://github.com/ziems/tracepress\nTry the skill with:\n`npx skills add Ziems/tracepress​`",
+      "hook": "具名可装 · tracepress",
+      "category": "AI技能",
+      "url": "https://x.com/NoahZiems/status/2125681543108542965",
+      "updated_at": "2026-11-25T20:02:27.000Z",
+      "published_at": "2026-11-25T20:02:27.000Z",
+      "author": "NoahZiems",
+      "source": "X Post",
+      "x_url": "https://x.com/NoahZiems/status/2125681543108542965",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "tracepress",
+      "install": "npx skills add Ziems/tracepress",
+      "repo": "Ziems/tracepress",
+      "github_url": "https://github.com/Ziems/tracepress"
+    },
+    {
+      "id": "2125677774308577585",
+      "name": "orbit-cards-skill",
+      "title": "Here's the Orbit Cards skill, completely free to run locally:\n\nhttps://github.com/gorgekara/orbit-cards-skill\n\nOr install straight into your agent:\nnpx skills add gorgekara/orbit-cards-skill\n\nIf you make one for your next milestone, tag me so i can see it 🙌",
+      "summary": "Here's the Orbit Cards skill, completely free to run locally:\n\nhttps://github.com/gorgekara/orbit-cards-skill\n\nOr install straight into your agent:\nnpx skills add gorgekara/orbit-cards-skill\n\nIf you make one for your next milestone, tag me so i can see it 🙌",
+      "hook": "具名可装 · orbit-cards-skill",
+      "category": "AI技能",
+      "url": "https://x.com/karakabakov_/status/2125677774308577585",
+      "updated_at": "2026-11-25T19:47:29.000Z",
+      "published_at": "2026-11-25T19:47:29.000Z",
+      "author": "karakabakov_",
+      "source": "X Post",
+      "x_url": "https://x.com/karakabakov_/status/2125677774308577585",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "orbit-cards-skill",
+      "install": "npx skills add gorgekara/orbit-cards-skill",
+      "repo": "gorgekara/orbit-cards-skill",
+      "github_url": "https://github.com/gorgekara/orbit-cards-skill"
+    },
+    {
+      "id": "2125677230160539694",
+      "name": "haikei",
+      "title": "Install and use:\n\nnpx skills add HaikeiLabs/skills –skill haikei –skill agentware-sdk -a claude-code -y\n\nBuild a deal hunter with Pydantic AI and Agentware. Ask for my wishlist, budget and model. Track prices and notify me of deals. Never buy. Test policies and explain setup.",
+      "summary": "Install and use:\n\nnpx skills add HaikeiLabs/skills –skill haikei –skill agentware-sdk -a claude-code -y\n\nBuild a deal hunter with Pydantic AI and Agentware. Ask for my wishlist, budget and model. Track prices and notify me of deals. Never buy. Test policies and explain setup.",
+      "hook": "具名可装 · haikei",
+      "category": "AI技能",
+      "url": "https://x.com/captainnobody1/status/2125677230160539694",
+      "updated_at": "2026-11-25T19:45:19.000Z",
+      "published_at": "2026-11-25T19:45:19.000Z",
+      "author": "captainnobody1",
+      "source": "X Post",
+      "x_url": "https://x.com/captainnobody1/status/2125677230160539694",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "haikei",
+      "install": "npx skills add HaikeiLabs/skills --skill haikei",
+      "repo": "HaikeiLabs/skills",
+      "github_url": "https://github.com/HaikeiLabs/skills"
+    },
+    {
+      "id": "2125676341974745458",
+      "name": "cli-motion",
+      "title": "@psluaces help yourself:\nnpx skills add diegomarino/my-skills --skill cli-motion",
+      "summary": "@psluaces help yourself:\nnpx skills add diegomarino/my-skills --skill cli-motion",
+      "hook": "具名可装 · cli-motion",
+      "category": "AI技能",
+      "url": "https://x.com/diegomarino/status/2125676341974745458",
+      "updated_at": "2026-11-25T19:41:47.000Z",
+      "published_at": "2026-11-25T19:41:47.000Z",
+      "author": "diegomarino",
+      "source": "X Post",
+      "x_url": "https://x.com/diegomarino/status/2125676341974745458",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "cli-motion",
+      "install": "npx skills add diegomarino/my-skills --skill cli-motion",
+      "repo": "diegomarino/my-skills",
+      "github_url": "https://github.com/diegomarino/my-skills"
+    },
+    {
+      "id": "2125670591625564473",
+      "name": "anim-slides",
+      "title": "repo, examples and 37 ready-made figures to adapt (biology, finance, law, not only software):\nhttps://github.com/KehanLiu/anim-slides\n\nnpx skills add KehanLiu/anim-slides",
+      "summary": "repo, examples and 37 ready-made figures to adapt (biology, finance, law, not only software):\nhttps://github.com/KehanLiu/anim-slides\n\nnpx skills add KehanLiu/anim-slides",
+      "hook": "具名可装 · anim-slides",
+      "category": "AI技能",
+      "url": "https://x.com/kehan_liu/status/2125670591625564473",
+      "updated_at": "2026-11-25T19:18:56.000Z",
+      "published_at": "2026-11-25T19:18:56.000Z",
+      "author": "kehan_liu",
+      "source": "X Post",
+      "x_url": "https://x.com/kehan_liu/status/2125670591625564473",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "anim-slides",
+      "install": "npx skills add KehanLiu/anim-slides",
+      "repo": "KehanLiu/anim-slides",
+      "github_url": "https://github.com/KehanLiu/anim-slides"
+    },
+    {
+      "id": "2125669506945044821",
+      "name": "cybedefend",
+      "title": "@kapilansh_twt @ishanxtwt one command to install: npx skills add CybeDefend/cybedefend -g. then /cybedefend in your coding agent, inside the repo. or drop a repo under my post and i run it for you",
+      "summary": "@kapilansh_twt @ishanxtwt one command to install: npx skills add CybeDefend/cybedefend -g. then /cybedefend in your coding agent, inside the repo. or drop a repo under my post and i run it for you",
+      "hook": "具名可装 · cybedefend",
+      "category": "AI技能",
+      "url": "https://x.com/JulienZammit1/status/2125669506945044821",
+      "updated_at": "2026-11-25T19:14:38.000Z",
+      "published_at": "2026-11-25T19:14:38.000Z",
+      "author": "JulienZammit1",
+      "source": "X Post",
+      "x_url": "https://x.com/JulienZammit1/status/2125669506945044821",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "cybedefend",
+      "install": "npx skills add CybeDefend/cybedefend",
+      "repo": "CybeDefend/cybedefend",
+      "github_url": "https://github.com/CybeDefend/cybedefend"
+    },
+    {
+      "id": "2125666077267087669",
+      "name": "ngrok-skills",
+      "title": "Your coding agent probably learned ngrok from a Stack Overflow answer from 2019.\n\nnpx skills add ngrok/skills installs eight skills that teach it how ngrok works now: securing endpoints, receiving webhooks, testing MCP servers, and troubleshooting.\n\nhttps://ngrok.com/changelog/agent-skills-launch",
+      "summary": "Your coding agent probably learned ngrok from a Stack Overflow answer from 2019.\n\nnpx skills add ngrok/skills installs eight skills that teach it how ngrok works now: securing endpoints, receiving webhooks, testing MCP servers, and troubleshooting.\n\nhttps://ngrok.com/changelog/agent-skills-launch",
+      "hook": "具名可装 · ngrok-skills",
+      "category": "AI技能",
+      "url": "https://x.com/ngrokHQ/status/2125666077267087669",
+      "updated_at": "2026-11-25T19:01:00.000Z",
+      "published_at": "2026-11-25T19:01:00.000Z",
+      "author": "ngrokHQ",
+      "source": "X Post",
+      "x_url": "https://x.com/ngrokHQ/status/2125666077267087669",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ngrok-skills",
+      "install": "npx skills add ngrok/skills",
+      "repo": "ngrok/skills",
+      "github_url": "https://github.com/ngrok/skills"
+    },
+    {
+      "id": "2125658673338835290",
+      "name": "ai-video-skills",
+      "title": "https://github.com/klakix-ai/ai-video-skills\n\nClaude Code:\n/plugin marketplace add klakix-ai/ai-video-skills\n\nAny agent that reads Agent Skills:\nnpx skills add klakix-ai/ai-video-skills\n\nA star helps other people find it.",
+      "summary": "https://github.com/klakix-ai/ai-video-skills\n\nClaude Code:\n/plugin marketplace add klakix-ai/ai-video-skills\n\nAny agent that reads Agent Skills:\nnpx skills add klakix-ai/ai-video-skills\n\nA star helps other people find it.",
+      "hook": "具名可装 · ai-video-skills",
+      "category": "AI技能",
+      "url": "https://x.com/klakix/status/2125658673338835290",
+      "updated_at": "2026-11-25T18:31:35.000Z",
+      "published_at": "2026-11-25T18:31:35.000Z",
+      "author": "klakix",
+      "source": "X Post",
+      "x_url": "https://x.com/klakix/status/2125658673338835290",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ai-video-skills",
+      "install": "npx skills add klakix-ai/ai-video-skills",
+      "repo": "klakix-ai/ai-video-skills",
+      "github_url": "https://github.com/klakix-ai/ai-video-skills"
+    },
+    {
+      "id": "2125650711824462016",
+      "name": "diagram-design",
+      "title": "开源仓库直达：https://github.com/cathrynlavery/diagram-design\n\n一行命令直接装进 Claude Code / Codex / Cursor：\nnpx skills add cathrynlavery/diagram-design",
+      "summary": "开源仓库直达：https://github.com/cathrynlavery/diagram-design\n\n一行命令直接装进 Claude Code / Codex / Cursor：\nnpx skills add cathrynlavery/diagram-design",
+      "hook": "具名可装 · diagram-design",
+      "category": "AI技能",
+      "url": "https://x.com/Cyrusmax519/status/2125650711824462016",
+      "updated_at": "2026-11-25T17:59:57.000Z",
+      "published_at": "2026-11-25T17:59:57.000Z",
+      "author": "Cyrusmax519",
+      "source": "X Post",
+      "x_url": "https://x.com/Cyrusmax519/status/2125650711824462016",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "diagram-design",
+      "install": "npx skills add cathrynlavery/diagram-design",
+      "repo": "cathrynlavery/diagram-design",
+      "github_url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "id": "2125643324551745965",
+      "name": "animatefast",
+      "title": "npx skills add wojtekwoz/animatefast - your ai will know what to do with that",
+      "summary": "npx skills add wojtekwoz/animatefast - your ai will know what to do with that",
+      "hook": "具名可装 · animatefast",
+      "category": "AI技能",
+      "url": "https://x.com/wozu_co/status/2125643324551745965",
+      "updated_at": "2026-11-25T17:30:35.000Z",
+      "published_at": "2026-11-25T17:30:35.000Z",
+      "author": "wozu_co",
+      "source": "X Post",
+      "x_url": "https://x.com/wozu_co/status/2125643324551745965",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "animatefast",
+      "install": "npx skills add wojtekwoz/animatefast",
+      "repo": "wojtekwoz/animatefast",
+      "github_url": "https://github.com/wojtekwoz/animatefast"
+    },
+    {
+      "id": "2125639462034313411",
+      "name": "blueprint",
+      "title": "3️⃣ Instálalo\n\nLo ha metido todo en una skill gratis para Claude Code que se llama blueprint. Instálala con esta línea:\n\nnpx skills add Nyxera0x/blueprint -g -a claude-code\n\nDespués abre Claude Code y escribe /blueprint.\n\nCódigo abierto: https://github.com/Nyxera0x/blueprint",
+      "summary": "3️⃣ Instálalo\n\nLo ha metido todo en una skill gratis para Claude Code que se llama blueprint. Instálala con esta línea:\n\nnpx skills add Nyxera0x/blueprint -g -a claude-code\n\nDespués abre Claude Code y escribe /blueprint.\n\nCódigo abierto: https://github.com/Nyxera0x/blueprint",
+      "hook": "具名可装 · blueprint",
+      "category": "AI技能",
+      "url": "https://x.com/franpradasAI/status/2125639462034313411",
+      "updated_at": "2026-11-25T17:15:14.000Z",
+      "published_at": "2026-11-25T17:15:14.000Z",
+      "author": "franpradasAI",
+      "source": "X Post",
+      "x_url": "https://x.com/franpradasAI/status/2125639462034313411",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "blueprint",
+      "install": "npx skills add Nyxera0x/blueprint",
+      "repo": "Nyxera0x/blueprint",
+      "github_url": "https://github.com/Nyxera0x/blueprint"
+    },
+    {
+      "id": "2125637942362116156",
+      "name": "jam-to-e2e",
+      "title": "if you want to try it, it's an agent skill:\n\nnpx skills add jamdotdev/skills --skill jam-to-e2e\n\nhttps://github.com/jamdotdev/skills\n\nhttps://github.com/jamdotdev/skills",
+      "summary": "if you want to try it, it's an agent skill:\n\nnpx skills add jamdotdev/skills --skill jam-to-e2e\n\nhttps://github.com/jamdotdev/skills\n\nhttps://github.com/jamdotdev/skills",
+      "hook": "具名可装 · jam-to-e2e",
+      "category": "AI技能",
+      "url": "https://x.com/_goluszka/status/2125637942362116156",
+      "updated_at": "2026-11-25T17:09:12.000Z",
+      "published_at": "2026-11-25T17:09:12.000Z",
+      "author": "_goluszka",
+      "source": "X Post",
+      "x_url": "https://x.com/_goluszka/status/2125637942362116156",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "jam-to-e2e",
+      "install": "npx skills add jamdotdev/skills --skill jam-to-e2e",
+      "repo": "jamdotdev/skills",
+      "github_url": "https://github.com/jamdotdev/skills"
+    },
+    {
+      "id": "2125626493044674786",
+      "name": "agent-observability",
+      "title": "Full repo with 9 other AI/ML engineering skills: https://github.com/kaushik-holla/agent-skills\n\nRun this to install the skill and start using it right away: npx skills add kaushik-holla/agent-skills --skill agent-observability\n\nFeel free to star or fork the repo to stay updated and raise PR if you",
+      "summary": "Full repo with 9 other AI/ML engineering skills: https://github.com/kaushik-holla/agent-skills\n\nRun this to install the skill and start using it right away: npx skills add kaushik-holla/agent-skills --skill agent-observability\n\nFeel free to star or fork the repo to stay updated and raise PR if you",
+      "hook": "具名可装 · agent-observability",
+      "category": "AI技能",
+      "url": "https://x.com/kaushik_holla/status/2125626493044674786",
+      "updated_at": "2026-11-25T16:23:42.000Z",
+      "published_at": "2026-11-25T16:23:42.000Z",
+      "author": "kaushik_holla",
+      "source": "X Post",
+      "x_url": "https://x.com/kaushik_holla/status/2125626493044674786",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "agent-observability",
+      "install": "npx skills add kaushik-holla/agent-skills --skill agent-observability",
+      "repo": "kaushik-holla/agent-skills",
+      "github_url": "https://github.com/kaushik-holla/agent-skills"
+    },
+    {
+      "id": "2125625636274467248",
+      "name": "hyperframes",
+      "title": "yt-dlp 👇\npip install -U \"yt-dlp[default]\" (or winget install yt-dlp.yt-dlp / brew install yt-dlp)\n\nWhisper 👇\npip install -U openai-whisper\n\nHyperFrames 👇\nnpm install -g hyperframes (or npx skills add heygen-com/hyperframes for coding agents)",
+      "summary": "yt-dlp 👇\npip install -U \"yt-dlp[default]\" (or winget install yt-dlp.yt-dlp / brew install yt-dlp)\n\nWhisper 👇\npip install -U openai-whisper\n\nHyperFrames 👇\nnpm install -g hyperframes (or npx skills add heygen-com/hyperframes for coding agents)",
+      "hook": "具名可装 · hyperframes",
+      "category": "AI技能",
+      "url": "https://x.com/sanathp14/status/2125625636274467248",
+      "updated_at": "2026-11-25T16:20:18.000Z",
+      "published_at": "2026-11-25T16:20:18.000Z",
+      "author": "sanathp14",
+      "source": "X Post",
+      "x_url": "https://x.com/sanathp14/status/2125625636274467248",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "hyperframes",
+      "install": "npx skills add heygen-com/hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "github_url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "id": "2125622994785780043",
+      "name": "draw-ui",
+      "title": "3. draw-ui — UI 시안을 만들고 코드로 복원\nClaude Code·Codex에서 화면 목적을 묻고 UI 디자인 시안을 만든 뒤, 확정한 시안이나 스크린샷을 HTML/CSS·기존 프론트엔드·미니앱 페이지로 복원합니다. 'npx skills add oil-oil/draw-ui'로 설치합니다.\n🔗 GitHub https://github.com/oil-oil/draw-ui",
+      "summary": "3. draw-ui — UI 시안을 만들고 코드로 복원\nClaude Code·Codex에서 화면 목적을 묻고 UI 디자인 시안을 만든 뒤, 확정한 시안이나 스크린샷을 HTML/CSS·기존 프론트엔드·미니앱 페이지로 복원합니다. 'npx skills add oil-oil/draw-ui'로 설치합니다.\n🔗 GitHub https://github.com/oil-oil/draw-ui",
+      "hook": "具名可装 · draw-ui",
+      "category": "AI技能",
+      "url": "https://x.com/pielab_ai/status/2125622994785780043",
+      "updated_at": "2026-11-25T16:09:48.000Z",
+      "published_at": "2026-11-25T16:09:48.000Z",
+      "author": "pielab_ai",
+      "source": "X Post",
+      "x_url": "https://x.com/pielab_ai/status/2125622994785780043",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "draw-ui",
+      "install": "npx skills add oil-oil/draw-ui",
+      "repo": "oil-oil/draw-ui",
+      "github_url": "https://github.com/oil-oil/draw-ui"
+    },
+    {
+      "id": "2125617471684329930",
+      "name": "teardown",
+      "title": "一张图，拆给你看——不是看图片，是看它里面每个零件怎么动。\n\nElvar 的 teardown skill，免费 MIT 开源，仓库 elvarofficial/teardown。装一行命令：\n\nnpx skills add elvarofficial/teardown -g -a claude-code\n\n用法：一张参考图加一句话交给 Opus 5.5，它给你生成一个可拆解的交互式 3D https://x.com/octopusaia/status/2125617471684329930/photo/1",
+      "summary": "一张图，拆给你看——不是看图片，是看它里面每个零件怎么动。\n\nElvar 的 teardown skill，免费 MIT 开源，仓库 elvarofficial/teardown。装一行命令：\n\nnpx skills add elvarofficial/teardown -g -a claude-code\n\n用法：一张参考图加一句话交给 Opus 5.5，它给你生成一个可拆解的交互式 3D https://x.com/octopusaia/status/2125617471684329930/photo/1",
+      "hook": "具名可装 · teardown",
+      "category": "AI技能",
+      "url": "https://x.com/octopusaia/status/2125617471684329930",
+      "updated_at": "2026-11-25T15:47:51.000Z",
+      "published_at": "2026-11-25T15:47:51.000Z",
+      "author": "octopusaia",
+      "source": "X Post",
+      "x_url": "https://x.com/octopusaia/status/2125617471684329930",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "teardown",
+      "install": "npx skills add elvarofficial/teardown",
+      "repo": "elvarofficial/teardown",
+      "github_url": "https://github.com/elvarofficial/teardown"
+    },
+    {
+      "id": "2125615762014683356",
+      "name": "sakuga-vfx",
+      "title": "项目源码\nhttps://github.com/finktheartist/sakuga-vfx\n\n在线体验\nhttps://sakuga-vfx.vercel.app/\n\nSkill 安装命令\nnpx skills add finktheartist/sakuga-vfx",
+      "summary": "项目源码\nhttps://github.com/finktheartist/sakuga-vfx\n\n在线体验\nhttps://sakuga-vfx.vercel.app/\n\nSkill 安装命令\nnpx skills add finktheartist/sakuga-vfx",
+      "hook": "具名可装 · sakuga-vfx",
+      "category": "AI技能",
+      "url": "https://x.com/meow2149/status/2125615762014683356",
+      "updated_at": "2026-11-25T15:41:04.000Z",
+      "published_at": "2026-11-25T15:41:04.000Z",
+      "author": "meow2149",
+      "source": "X Post",
+      "x_url": "https://x.com/meow2149/status/2125615762014683356",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "sakuga-vfx",
+      "install": "npx skills add finktheartist/sakuga-vfx",
+      "repo": "finktheartist/sakuga-vfx",
+      "github_url": "https://github.com/finktheartist/sakuga-vfx"
+    },
+    {
+      "id": "2125612979274354919",
+      "name": "geekflare-skills",
+      "title": "Teach your coding agent when to use Geekflare: npx skills add geekflare/geekflare-skills. Works with Claude Code, Cursor, Codex, Copilot, Gemini and more. Open source.\nhttps://docs.geekflare.com/mcp/agent-skills https://x.com/GeekflareHQ/status/2125612979274354919/photo/1",
+      "summary": "Teach your coding agent when to use Geekflare: npx skills add geekflare/geekflare-skills. Works with Claude Code, Cursor, Codex, Copilot, Gemini and more. Open source.\nhttps://docs.geekflare.com/mcp/agent-skills https://x.com/GeekflareHQ/status/2125612979274354919/photo/1",
+      "hook": "具名可装 · geekflare-skills",
+      "category": "AI技能",
+      "url": "https://x.com/GeekflareHQ/status/2125612979274354919",
+      "updated_at": "2026-11-25T15:30:00.000Z",
+      "published_at": "2026-11-25T15:30:00.000Z",
+      "author": "GeekflareHQ",
+      "source": "X Post",
+      "x_url": "https://x.com/GeekflareHQ/status/2125612979274354919",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "geekflare-skills",
+      "install": "npx skills add geekflare/geekflare-skills",
+      "repo": "geekflare/geekflare-skills",
+      "github_url": "https://github.com/geekflare/geekflare-skills"
+    },
+    {
+      "id": "2125607776785224119",
+      "name": "sendlayer-skills",
+      "title": "Introducing SendLayer Agent Skills 🚀\n\nWe built SendLayer Agent Skills to teach your coding agent how SendLayer really works.\n\nInstallation command: \nnpx skills add SendLayer/sendlayer-skills\n\nIt works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, and more. https://x.com/sendlayer/status/2125607776785224119/video/1",
+      "summary": "Introducing SendLayer Agent Skills 🚀\n\nWe built SendLayer Agent Skills to teach your coding agent how SendLayer really works.\n\nInstallation command: \nnpx skills add SendLayer/sendlayer-skills\n\nIt works with Claude Code, Cursor, Codex, Copilot, Gemini CLI, and more. https://x.com/sendlayer/status/2125607776785224119/video/1",
+      "hook": "具名可装 · sendlayer-skills",
+      "category": "AI技能",
+      "url": "https://x.com/sendlayer/status/2125607776785224119",
+      "updated_at": "2026-11-25T15:09:20.000Z",
+      "published_at": "2026-11-25T15:09:20.000Z",
+      "author": "sendlayer",
+      "source": "X Post",
+      "x_url": "https://x.com/sendlayer/status/2125607776785224119",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "sendlayer-skills",
+      "install": "npx skills add SendLayer/sendlayer-skills",
+      "repo": "SendLayer/sendlayer-skills",
+      "github_url": "https://github.com/SendLayer/sendlayer-skills"
+    },
+    {
+      "id": "2125599418506195117",
+      "name": "boring-marketing-skills",
+      "title": "https://github.com/boringmarketer/boring-marketing-skills\nHow to try: `npx skills add boringmarketer/boring-marketing-skills`, then `/start-here` with a business name. Scripts alone: Python 3, no installs.\n854 stars · MIT · no release · last commit 18 Nov · 2 scripts tested 25 Nov on a toy site. Untested: the",
+      "summary": "https://github.com/boringmarketer/boring-marketing-skills\nHow to try: `npx skills add boringmarketer/boring-marketing-skills`, then `/start-here` with a business name. Scripts alone: Python 3, no installs.\n854 stars · MIT · no release · last commit 18 Nov · 2 scripts tested 25 Nov on a toy site. Untested: the",
+      "hook": "具名可装 · boring-marketing-skills",
+      "category": "AI技能",
+      "url": "https://x.com/naveendas96/status/2125599418506195117",
+      "updated_at": "2026-11-25T14:36:07.000Z",
+      "published_at": "2026-11-25T14:36:07.000Z",
+      "author": "naveendas96",
+      "source": "X Post",
+      "x_url": "https://x.com/naveendas96/status/2125599418506195117",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "boring-marketing-skills",
+      "install": "npx skills add boringmarketer/boring-marketing-skills",
+      "repo": "boringmarketer/boring-marketing-skills",
+      "github_url": "https://github.com/boringmarketer/boring-marketing-skills"
+    },
+    {
+      "id": "2125594425560863113",
+      "name": "inkworks-skill",
+      "title": "I just open-sourced /Inkworks, a skill for creating interactive 3D projects.\n\n• completely FREE\n• MIT licensed\n• install: npx skills add Moh4696/inkworks-skill\n\n🔗: https://github.com/Moh4696/inkworks-skill https://x.com/exploraX_/status/2125594425560863113/video/1 https://twitter.com/explorax_/status/2125210946209558620",
+      "summary": "I just open-sourced /Inkworks, a skill for creating interactive 3D projects.\n\n• completely FREE\n• MIT licensed\n• install: npx skills add Moh4696/inkworks-skill\n\n🔗: https://github.com/Moh4696/inkworks-skill https://x.com/exploraX_/status/2125594425560863113/video/1 https://twitter.com/explorax_/status/2125210946209558620",
+      "hook": "具名可装 · inkworks-skill",
+      "category": "AI技能",
+      "url": "https://x.com/exploraX_/status/2125594425560863113",
+      "updated_at": "2026-11-25T14:16:17.000Z",
+      "published_at": "2026-11-25T14:16:17.000Z",
+      "author": "exploraX_",
+      "source": "X Post",
+      "x_url": "https://x.com/exploraX_/status/2125594425560863113",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "inkworks-skill",
+      "install": "npx skills add Moh4696/inkworks-skill",
+      "repo": "Moh4696/inkworks-skill",
+      "github_url": "https://github.com/Moh4696/inkworks-skill"
+    },
+    {
+      "id": "2125594230710251821",
+      "name": "qiaomu-mac-software",
+      "title": "npx skills add joeseesun/qiaomu-mac-software 这套指令，直接把 macOS 常用软件部署自动化了。但背后依赖的 CLI 生态和 npm 包管理，对小白用户来说门槛不低。而且 macOS 软件生态复杂，一键部署真的能覆盖所有场景吗？你日常开发会用到哪些 CLI 工具？",
+      "summary": "npx skills add joeseesun/qiaomu-mac-software 这套指令，直接把 macOS 常用软件部署自动化了。但背后依赖的 CLI 生态和 npm 包管理，对小白用户来说门槛不低。而且 macOS 软件生态复杂，一键部署真的能覆盖所有场景吗？你日常开发会用到哪些 CLI 工具？",
+      "hook": "具名可装 · qiaomu-mac-software",
+      "category": "AI技能",
+      "url": "https://x.com/ByronXiao252982/status/2125594230710251821",
+      "updated_at": "2026-11-25T14:15:30.000Z",
+      "published_at": "2026-11-25T14:15:30.000Z",
+      "author": "ByronXiao252982",
+      "source": "X Post",
+      "x_url": "https://x.com/ByronXiao252982/status/2125594230710251821",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "qiaomu-mac-software",
+      "install": "npx skills add joeseesun/qiaomu-mac-software",
+      "repo": "joeseesun/qiaomu-mac-software",
+      "github_url": "https://github.com/joeseesun/qiaomu-mac-software"
+    },
+    {
+      "id": "2125593170465665245",
+      "name": "qiaomu-seo",
+      "title": "SEO 流量起不来，真不全是标题的锅！\n\n抓取、渲染、收录这几环卡住，照样白干。刚挖到个开源 Skill「qiaomu-seo」，能接进 Claude Code、Cursor、Codex。\n\n✅ 重点：页面抓取、JS 渲染、索引、Canonical、内链、搜索意图匹配，一路自动查到底。\n🛠 装法：直接跑 npx skills add joeseesun/qiaomu-seo https://x.com/lmd868686/status/2125593170465665245/photo/1",
+      "summary": "SEO 流量起不来，真不全是标题的锅！\n\n抓取、渲染、收录这几环卡住，照样白干。刚挖到个开源 Skill「qiaomu-seo」，能接进 Claude Code、Cursor、Codex。\n\n✅ 重点：页面抓取、JS 渲染、索引、Canonical、内链、搜索意图匹配，一路自动查到底。\n🛠 装法：直接跑 npx skills add joeseesun/qiaomu-seo https://x.com/lmd868686/status/2125593170465665245/photo/1",
+      "hook": "具名可装 · qiaomu-seo",
+      "category": "AI技能",
+      "url": "https://x.com/lmd868686/status/2125593170465665245",
+      "updated_at": "2026-11-25T14:11:18.000Z",
+      "published_at": "2026-11-25T14:11:18.000Z",
+      "author": "lmd868686",
+      "source": "X Post",
+      "x_url": "https://x.com/lmd868686/status/2125593170465665245",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "qiaomu-seo",
+      "install": "npx skills add joeseesun/qiaomu-seo",
+      "repo": "joeseesun/qiaomu-seo",
+      "github_url": "https://github.com/joeseesun/qiaomu-seo"
+    },
+    {
+      "id": "2125590338563649606",
+      "name": "xcslot",
+      "title": "Your agents can build fast now. These 10 GitHub repos make them build right.\n\nxcslot: warm Xcode build slots for parallel coding agents, so each one skips the recompile queue. 85s to 3.9s.\nhttps://github.com/ertembiyik/xcslot\n\nibbd-benchmark: tests whether an agent stays inside its authorized",
+      "summary": "Your agents can build fast now. These 10 GitHub repos make them build right.\n\nxcslot: warm Xcode build slots for parallel coding agents, so each one skips the recompile queue. 85s to 3.9s.\nhttps://github.com/ertembiyik/xcslot\n\nibbd-benchmark: tests whether an agent stays inside its authorized",
+      "hook": "具名可装 · xcslot",
+      "category": "AI技能",
+      "url": "https://x.com/benou_irl/status/2125590338563649606",
+      "updated_at": "2026-11-25T14:00:02.000Z",
+      "published_at": "2026-11-25T14:00:02.000Z",
+      "author": "benou_irl",
+      "source": "X Post",
+      "x_url": "https://x.com/benou_irl/status/2125590338563649606",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "xcslot",
+      "install": "npx skills add ertembiyik/xcslot",
+      "repo": "ertembiyik/xcslot",
+      "github_url": "https://github.com/ertembiyik/xcslot"
+    },
+    {
+      "id": "2125580923823612220",
+      "name": "gsap-performance",
+      "title": "Beautiful animation. Choppy scrolling. Not quite the effect you wanted.\n\ngsap-performance helps coding agents optimize GSAP animations with transforms, batching and careful use of will-change.\n\nnpx skills add https://github.com/greensock/gsap-skills --skill gsap-performance",
+      "summary": "Beautiful animation. Choppy scrolling. Not quite the effect you wanted.\n\ngsap-performance helps coding agents optimize GSAP animations with transforms, batching and careful use of will-change.\n\nnpx skills add https://github.com/greensock/gsap-skills --skill gsap-performance",
+      "hook": "具名可装 · gsap-performance",
+      "category": "AI技能",
+      "url": "https://x.com/AlphaByPablo/status/2125580923823612220",
+      "updated_at": "2026-11-25T13:22:38.000Z",
+      "published_at": "2026-11-25T13:22:38.000Z",
+      "author": "AlphaByPablo",
+      "source": "X Post",
+      "x_url": "https://x.com/AlphaByPablo/status/2125580923823612220",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "gsap-performance",
+      "install": "npx skills add greensock/gsap-skills --skill gsap-performance",
+      "repo": "greensock/gsap-skills",
+      "github_url": "https://github.com/greensock/gsap-skills"
+    },
+    {
+      "id": "2125580671007736195",
+      "name": "gsap-scrolltrigger",
+      "title": "Want a section to stay put while everything around it moves?\n\ngsap-scrolltrigger helps coding agents build scroll-linked animations, pinned sections and parallax with GSAP.\n\nInstall:\nnpx skills add https://github.com/greensock/gsap-skills --skill gsap-scrolltrigger",
+      "summary": "Want a section to stay put while everything around it moves?\n\ngsap-scrolltrigger helps coding agents build scroll-linked animations, pinned sections and parallax with GSAP.\n\nInstall:\nnpx skills add https://github.com/greensock/gsap-skills --skill gsap-scrolltrigger",
+      "hook": "具名可装 · gsap-scrolltrigger",
+      "category": "AI技能",
+      "url": "https://x.com/AlphaByPablo/status/2125580671007736195",
+      "updated_at": "2026-11-25T13:21:38.000Z",
+      "published_at": "2026-11-25T13:21:38.000Z",
+      "author": "AlphaByPablo",
+      "source": "X Post",
+      "x_url": "https://x.com/AlphaByPablo/status/2125580671007736195",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "gsap-scrolltrigger",
+      "install": "npx skills add greensock/gsap-skills --skill gsap-scrolltrigger",
+      "repo": "greensock/gsap-skills",
+      "github_url": "https://github.com/greensock/gsap-skills"
+    },
+    {
+      "id": "2125545577949827436",
+      "name": "gemini-frontend-design",
+      "title": "Tired of looking at AI web slop? 😅\n\n@genevieve__h (with @_philschmid) built an open-source skill steering Gemini 4 Neon + @NanoBanana toward crisp typography, tailored palettes & clean layouts:\n\nnpx skills add google-gemini/demolab --skill gemini-frontend-design\n\n🔗 https://x.com/DynamicWebPaige/status/2125545577949827436/photo/1",
+      "summary": "Tired of looking at AI web slop? 😅\n\n@genevieve__h (with @_philschmid) built an open-source skill steering Gemini 4 Neon + @NanoBanana toward crisp typography, tailored palettes & clean layouts:\n\nnpx skills add google-gemini/demolab --skill gemini-frontend-design\n\n🔗 https://x.com/DynamicWebPaige/status/2125545577949827436/photo/1",
+      "hook": "具名可装 · gemini-frontend-design",
+      "category": "AI技能",
+      "url": "https://x.com/DynamicWebPaige/status/2125545577949827436",
+      "updated_at": "2026-11-25T11:02:11.000Z",
+      "published_at": "2026-11-25T11:02:11.000Z",
+      "author": "DynamicWebPaige",
+      "source": "X Post",
+      "x_url": "https://x.com/DynamicWebPaige/status/2125545577949827436",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "gemini-frontend-design",
+      "install": "npx skills add google-gemini/demolab --skill gemini-frontend-design",
+      "repo": "google-gemini/demolab",
+      "github_url": "https://github.com/google-gemini/demolab"
+    },
+    {
+      "id": "2125531896310583599",
+      "name": "ui-lab",
+      "title": "把设计原则做成可动手试的交互案例，UI Lab 收录 12 个来源、401 个案例，支持改版前后对比、失败重试与交互动效体验，还能一键复制含验收条件的提示词交给 Agent，减少模板感。\n\n体验地址：https://ui-lab.wangruofeng007.com\nGitHub：https://github.com/wangruofeng/ui-lab https://x.com/i/article/2125528497833832448",
+      "summary": "把设计原则做成可动手试的交互案例，UI Lab 收录 12 个来源、401 个案例，支持改版前后对比、失败重试与交互动效体验，还能一键复制含验收条件的提示词交给 Agent，减少模板感。\n\n体验地址：https://ui-lab.wangruofeng007.com\nGitHub：https://github.com/wangruofeng/ui-lab https://x.com/i/article/2125528497833832448",
+      "hook": "具名可装 · ui-lab",
+      "category": "AI技能",
+      "url": "https://x.com/oneruofeng/status/2125531896310583599",
+      "updated_at": "2026-11-25T10:07:49.000Z",
+      "published_at": "2026-11-25T10:07:49.000Z",
+      "author": "oneruofeng",
+      "source": "X Post",
+      "x_url": "https://x.com/oneruofeng/status/2125531896310583599",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "ui-lab",
+      "install": "npx skills add wangruofeng/ui-lab",
+      "repo": "wangruofeng/ui-lab",
+      "github_url": "https://github.com/wangruofeng/ui-lab"
+    },
+    {
+      "id": "2125509444222284272",
+      "name": "scandinavian-design",
+      "title": "RT @dingyi: 让你的页面变得贼干净：npx skills add ericzakariasson/scandinavian-design\n\nhttps://scandinavian-design.vercel.app/ https://x.com/dingyi/status/2125196993857565008/photo/1",
+      "summary": "RT @dingyi: 让你的页面变得贼干净：npx skills add ericzakariasson/scandinavian-design\n\nhttps://scandinavian-design.vercel.app/ https://x.com/dingyi/status/2125196993857565008/photo/1",
+      "hook": "具名可装 · scandinavian-design",
+      "category": "AI技能",
+      "url": "https://x.com/aydengen/status/2125509444222284272",
+      "updated_at": "2026-11-25T08:38:36.000Z",
+      "published_at": "2026-11-25T08:38:36.000Z",
+      "author": "aydengen",
+      "source": "X Post",
+      "x_url": "https://x.com/aydengen/status/2125509444222284272",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "scandinavian-design",
+      "install": "npx skills add ericzakariasson/scandinavian-design",
+      "repo": "ericzakariasson/scandinavian-design",
+      "github_url": "https://github.com/ericzakariasson/scandinavian-design"
+    },
+    {
+      "id": "2125280492736110864",
+      "name": "agent-config-audit",
+      "title": "9. agent-config-audit: what runs when you open a repo\n\nA read-only skill that lists the hooks, MCP servers and auto-run tasks in a repo, and finds saved secrets.\n\nTry it: npx skills add coleam00/skills -g --skill agent-config-audit\n\nhttps://t.co/Nj9B1CPqwb",
+      "summary": "9. agent-config-audit: what runs when you open a repo\n\nA read-only skill that lists the hooks, MCP servers and auto-run tasks in a repo, and finds saved secrets.\n\nTry it: npx skills add coleam00/skills -g --skill agent-config-audit\n\nhttps://t.co/Nj9B1CPqwb",
+      "hook": "具名可装 · agent-config-audit",
+      "category": "AI技能",
+      "url": "https://x.com/aiyoucanuse_/status/2125280492736110864",
+      "updated_at": "2026-11-24T17:28:49.000Z",
+      "published_at": "2026-11-24T17:28:49.000Z",
+      "author": "aiyoucanuse_",
+      "source": "X Post",
+      "x_url": "https://x.com/aiyoucanuse_/status/2125280492736110864",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "agent-config-audit",
+      "install": "npx skills add coleam00/skills --skill agent-config-audit",
+      "repo": "coleam00/skills",
+      "github_url": "https://github.com/coleam00/skills"
+    },
+    {
+      "id": "2125280481155649785",
+      "name": "open-code-review",
+      "title": "5. Open Code Review: Alibaba's AI code review CLI\n\nCode picks the files and rules, an agent writes line-level comments. Alibaba says it uses ~1/9 of the tokens.\n\nTry it: npx skills add alibaba/open-code-review, then ask for a review.\n\nhttps://t.co/IGlPgs9XTs",
+      "summary": "5. Open Code Review: Alibaba's AI code review CLI\n\nCode picks the files and rules, an agent writes line-level comments. Alibaba says it uses ~1/9 of the tokens.\n\nTry it: npx skills add alibaba/open-code-review, then ask for a review.\n\nhttps://t.co/IGlPgs9XTs",
+      "hook": "具名可装 · open-code-review",
+      "category": "AI技能",
+      "url": "https://x.com/aiyoucanuse_/status/2125280481155649785",
+      "updated_at": "2026-11-24T17:28:47.000Z",
+      "published_at": "2026-11-24T17:28:47.000Z",
+      "author": "aiyoucanuse_",
+      "source": "X Post",
+      "x_url": "https://x.com/aiyoucanuse_/status/2125280481155649785",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "open-code-review",
+      "install": "npx skills add alibaba/open-code-review",
+      "repo": "alibaba/open-code-review",
+      "github_url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "id": "2124256035104023004",
+      "name": "last30days-skill",
+      "title": "🔥 做 AI 自媒体的朋友，这个 Skill 建议直接收藏！\n\nLast30Days 可以帮你研究最近30天大家在讨论什么。\n\n✅ Reddit、GitHub、HN 热点\n✅ X、YouTube 舆论\n✅ 自动整理高互动内容\n✅ 汇总近期趋势并附来源\n基础来源免费，部分平台需要额外配置。\n安装：\nnpx skills add mvanhorn/last30days-skill -g",
+      "summary": "🔥 做 AI 自媒体的朋友，这个 Skill 建议直接收藏！\n\nLast30Days 可以帮你研究最近30天大家在讨论什么。\n\n✅ Reddit、GitHub、HN 热点\n✅ X、YouTube 舆论\n✅ 自动整理高互动内容\n✅ 汇总近期趋势并附来源\n基础来源免费，部分平台需要额外配置。\n安装：\nnpx skills add mvanhorn/last30days-skill -g",
+      "hook": "具名可装 · last30days-skill",
+      "category": "AI技能",
+      "url": "https://x.com/shenghouxuyao/status/2124256035104023004",
+      "updated_at": "2026-11-21T21:38:00.000Z",
+      "published_at": "2026-11-21T21:38:00.000Z",
+      "author": "shenghouxuyao",
+      "source": "X Post",
+      "x_url": "https://x.com/shenghouxuyao/status/2124256035104023004",
+      "contexts": {
+        "topics": [
+          "AI",
+          "Agent Skills"
+        ]
+      },
+      "disclaimer": "本条为具名可装 Skill 安利摘要，安装前请读 SKILL.md 并自行核实仓库。",
+      "skill_name": "last30days-skill",
+      "install": "npx skills add mvanhorn/last30days-skill",
+      "repo": "mvanhorn/last30days-skill",
+      "github_url": "https://github.com/mvanhorn/last30days-skill"
+    }
+  ]
+}

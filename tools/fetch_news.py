@@ -1162,7 +1162,12 @@ def main() -> int:
         u = item["url"]
         # 技能频道可从 ai/world/startup 夺回同一 X story id（技能栏优先展示）
         if sid in seen_id:
-            if ch == "skills" and sid in fresh_idx:
+            # Models keep stable ids across days. Raw files are oldest-first,
+            # so a later Artificial Analysis / Arena snapshot must replace the
+            # earlier row or the published board never moves.
+            if ch == "models" and sid in fresh_idx:
+                fresh[fresh_idx[sid]] = item
+            elif ch == "skills" and sid in fresh_idx:
                 prev = fresh[fresh_idx[sid]]
                 if prev.get("channel") != "skills":
                     fresh[fresh_idx[sid]] = item

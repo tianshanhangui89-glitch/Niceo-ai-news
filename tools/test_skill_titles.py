@@ -33,11 +33,11 @@ BEFORE_TITLES = [
 ]
 
 CHANNEL_COUNTS = {
-    "ai": 554,
-    "world": 729,
+    "ai": 545,
+    "world": 719,
     "startup": 245,
     "github": 60,
-    "papers": 862,
+    "papers": 949,
     "models": 122,
     "skills": 418,
 }
@@ -116,7 +116,7 @@ class SkillTitleTests(unittest.TestCase):
         for it in data["items"]:
             counts[it.get("channel") or "ai"] = counts.get(it.get("channel") or "ai", 0) + 1
         self.assertEqual(counts, CHANNEL_COUNTS)
-        self.assertEqual(data.get("item_count"), 2990)
+        self.assertEqual(data.get("item_count"), 3058)
         for ch in ("ai", "world", "startup"):
             for it in data["items"]:
                 if it.get("channel") == ch:
